@@ -1,16 +1,25 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+
+import Grid from '@material-ui/core/Grid';
+
+import sfSkyline from '../../static/images/sf_skyline2.jpg'
+import logo_white from '../../static/images/logo_white.png';
+import seniors_cropped from '../../static/images/seniors_cropped.jpg'
+import seniors from '../../static/images/seniors.jpg'
+import merage_at_night from '../../static/images/merage_at_night.jpg'
+
+import HeaderContent from './HeaderContent'
+
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
-import Avatar from '@material-ui/core/Avatar';
+import Box from '@material-ui/core/Box';
 
-import sfSkyline from '../../static/images/sf_skyline.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,29 +28,101 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     width: '100vw',
-    height: "50vh",
+    height: "100vh",
     backgroundImage: `url(${sfSkyline})`
   },
   menuButton: {
     marginRight: theme.spacing(2),
   },
-  title: {
+  topGrid: {
     flexGrow: 1,
   },
+  logo: {
+    height: "8vmin",
+  },
+  link: {
+    color: "white"
+  }
 }));
 
-export default function Header({setPageNum}) {
+export default function Header({setPageNum, pageNum}) {
     const classes = useStyles();
+    var bckStyle;
+
+    if (pageNum == 0) {
+      bckStyle = {
+        flexGrow: 1,
+        color: "white",
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width: '100vw',
+        height: "100vh",
+        backgroundImage: `url(${sfSkyline})`
+      }
+    } else if (pageNum == 1) {
+      bckStyle = {
+        flexGrow: 1,
+        color: "white",
+        backgroundRepeat: 'no-repeat',
+        width: '100vw',
+        height: "100vh",
+        backgroundImage: `url(${seniors})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover"
+      }
+    } else {
+      bckStyle = {
+        flexGrow: 1,
+        color: "white",
+        width: '100vw',
+        height: "40vh",
+        backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(${merage_at_night})`
+      }
+    }
+    
     return (
-        <div className={classes.root}>
-           <Typography variant="h1">
-              ΛΦΝ
-           </Typography>
-          <Button color="inherit" onClick={(event) => setPageNum(0)}>Home</Button>
-          <Button color="inherit" onClick={(event) => setPageNum(1)}>About Us</Button>
-          <Button color="inherit" onClick={(event) => setPageNum(2)}>Leadership</Button>
-          <Button color="inherit" onClick={(event) => setPageNum(3)}>Careers</Button>
-          <Button color="inherit" onClick={(event) => setPageNum(4)}>Fall Rush 2020</Button>
+        <div style={bckStyle}>
+
+          <Grid container spacing={2}>
+            <Grid item>
+              <img src={logo_white} className={classes.logo}></img>
+            </Grid>
+            <Grid item xs={12} sm container>
+              <Grid item xs>
+              <Typography component="div">
+                <Box fontSize="h1.fontSize" fontWeight="fontWeightMedium">
+                  ΛΦΝ
+                </Box>
+               
+                <Box>
+                  <Button size="large" color="inherit" onClick={(event) => setPageNum(0)}>Home</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(1)}>About Us</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(2)}>Brotherhood</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(3)}>Leadership</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(4)}>Careers</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(5)}>Recruitment</Button>
+
+                  <a href="https://www.facebook.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                    <IconButton aria-label="Facebook" color="inherit">
+                      <FacebookIcon></FacebookIcon>
+                    </IconButton>
+                  </a>
+                  <a href="https://www.instagram.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                    <IconButton aria-label="Instagram" color="inherit">
+                      <InstagramIcon></InstagramIcon>
+                    </IconButton>
+                  </a>
+                </Box>
+
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
+
+          
+          <HeaderContent pageNum={pageNum}></HeaderContent>
+         
         </div>
     )
 }
