@@ -18,6 +18,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
+    "changeBeforeDeploy": "serve -s build",
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",

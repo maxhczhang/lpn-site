@@ -1,3 +1,11 @@
+/* 
+beige: #E8D49D
+maroon: #8B2942
+navy: #003273
+ΛΦΝ 
+*/
+
+
 .App {
   text-align: center;
   background-color: #fff0b9;
@@ -36,6 +44,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-/*232, 212, 157 */

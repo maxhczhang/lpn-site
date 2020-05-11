@@ -1,24 +1,21 @@
 import React from 'react'
 
+import HeaderContent from './HeaderContent'
+
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-
+import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-
-import sfSkyline from '../../static/images/sf_skyline2.jpg'
-import logo_white from '../../static/images/logo_white.png';
-import seniors_cropped from '../../static/images/seniors_cropped.jpg'
-import seniors from '../../static/images/seniors.jpg'
-import merage_at_night from '../../static/images/merage_at_night.jpg'
-
-import HeaderContent from './HeaderContent'
 
 import IconButton from '@material-ui/core/IconButton';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 
-import Box from '@material-ui/core/Box';
+import sfSkyline from '../../static/images/sf_skyline2.jpg'
+import logo_white from '../../static/images/logo_white.png';
+import seniors from '../../static/images/seniors.jpg'
+import merage_at_night from '../../static/images/merage_at_night.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -49,7 +46,7 @@ export default function Header({setPageNum, pageNum}) {
     const classes = useStyles();
     var bckStyle;
 
-    if (pageNum == 0) {
+    if (pageNum === 0) {
       bckStyle = {
         flexGrow: 1,
         color: "white",
@@ -59,7 +56,7 @@ export default function Header({setPageNum, pageNum}) {
         height: "100vh",
         backgroundImage: `url(${sfSkyline})`
       }
-    } else if (pageNum == 1) {
+    } else if (pageNum === 1) {
       bckStyle = {
         flexGrow: 1,
         color: "white",
@@ -86,7 +83,7 @@ export default function Header({setPageNum, pageNum}) {
 
           <Grid container spacing={2}>
             <Grid item>
-              <img src={logo_white} className={classes.logo}></img>
+              <img src={logo_white} className={classes.logo} alt="LPN"></img>
             </Grid>
             <Grid item xs={12} sm container>
               <Grid item xs>
@@ -119,7 +116,6 @@ export default function Header({setPageNum, pageNum}) {
               </Grid>
             </Grid>
           </Grid>
-
           
           <HeaderContent pageNum={pageNum}></HeaderContent>
          

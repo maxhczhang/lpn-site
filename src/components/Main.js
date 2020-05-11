@@ -37,5 +37,3 @@ export default function Main({pageNum}) {
           )
     }
 }
-
-{/* <img src={logo} className="App-logo" alt="logo" /> */}
