@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
     },
     first: {
         flexGrow: 1,
-        maxWidth: "80vh"
+        width: "110vh"
     },
     logo: {
-        height: "20vmin",
+        height: "20vh",
     },
     backgroundImg: {
         flexGrow: 1,
@@ -52,8 +52,11 @@ export default function Home() {
             <Divider/>
 
             <Box m={2}>
-                <Typography variant="body1">We're a UC Irvine founded business leadership fraternity
-                    community for students seeking leadership development and coaching. We immerse our members into an environment that emulates the professional world to prepare them for a more successful future.
+                <Typography variant="body1">
+                    We're a UC Irvine founded business leadership fraternity
+                    community for students seeking leadership development and coaching. We immerse our 
+                    members into an environment that emulates the professional world to prepare them for a 
+                    more successful future.
                 </Typography>
             </Box>
             <Box mt={1}>

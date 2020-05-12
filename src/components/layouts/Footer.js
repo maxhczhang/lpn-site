@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     //   boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .3)',
       color: 'black',
       flexGrow: 1,
-      height: "10vmin",
+      height: "10vh",
       //padding: '0 30px',
     },
     link: {

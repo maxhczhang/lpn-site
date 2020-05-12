@@ -26,7 +26,7 @@ export default function HeaderContent({pageNum}) {
         case 1:
             return (
                 <Typography component="div">
-                    <Box ml={6} mt={10} fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                    <Box ml={6} mt={6} fontWeight="fontWeightMedium" fontSize="h1.fontSize">
                         About Us
                     </Box>
                 </Typography>

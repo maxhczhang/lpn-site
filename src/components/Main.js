@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Home from './pages/Home'
+import About from './pages/About'
 
 import Typography from '@material-ui/core/Typography';
 
@@ -12,9 +13,7 @@ export default function Main({pageNum}) {
           return <Home></Home>
           
         case 1:
-          return (
-            <Typography variant="h1">About tings</Typography>
-          )
+          return <About></About>
 
         case 2:
             return (

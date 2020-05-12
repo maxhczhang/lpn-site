@@ -46,36 +46,41 @@ export default function Header({setPageNum, pageNum}) {
     const classes = useStyles();
     var bckStyle;
 
-    if (pageNum === 0) {
-      bckStyle = {
-        flexGrow: 1,
-        color: "white",
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        width: '100vw',
-        height: "100vh",
-        backgroundImage: `url(${sfSkyline})`
-      }
-    } else if (pageNum === 1) {
-      bckStyle = {
-        flexGrow: 1,
-        color: "white",
-        backgroundRepeat: 'no-repeat',
-        width: '100vw',
-        height: "100vh",
-        backgroundImage: `url(${seniors})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover"
-      }
-    } else {
-      bckStyle = {
-        flexGrow: 1,
-        color: "white",
-        width: '100vw',
-        height: "40vh",
-        backgroundRepeat: 'no-repeat',
-        backgroundImage: `url(${merage_at_night})`
-      }
+    switch (pageNum) {
+      case 0:
+        bckStyle = {
+          flexGrow: 1,
+          color: "white",
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          width: '100vw',
+          height: "100vh",
+          backgroundImage: `url(${sfSkyline})`
+        }
+        break;
+      
+      case 1:
+        bckStyle = {
+          flexGrow: 1,
+          color: "white",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: 'no-repeat',
+          width: '100vw',
+          height: "100vh",
+          backgroundImage: `url(${seniors})`,
+        }
+        break;
+      
+      default:
+        bckStyle = {
+          flexGrow: 1,
+          color: "white",
+          backgroundRepeat: 'no-repeat',
+          width: '100vw',
+          height: "40vh",
+          backgroundImage: `url(${merage_at_night})`
+        }
     }
     
     return (
@@ -94,7 +99,7 @@ export default function Header({setPageNum, pageNum}) {
                
                 <Box>
                   <Button size="large" color="inherit" onClick={(event) => setPageNum(0)}>Home</Button>
-                  <Button size="large"color="inherit" onClick={(event) => setPageNum(1)}>About Us</Button>
+                  <Button size="large"color="inherit" onClick={(event) => setPageNum(1)}>About</Button>
                   <Button size="large"color="inherit" onClick={(event) => setPageNum(2)}>Brotherhood</Button>
                   <Button size="large"color="inherit" onClick={(event) => setPageNum(3)}>Leadership</Button>
                   <Button size="large"color="inherit" onClick={(event) => setPageNum(4)}>Careers</Button>
