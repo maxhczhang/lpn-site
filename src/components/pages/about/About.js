@@ -1,7 +1,6 @@
 import React from 'react'
 
-import '../../App.css'
-import CoreValues from './about/CoreValues'
+import CoreValues from './CoreValues'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
@@ -12,12 +11,13 @@ import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
         alignItems: "center",
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center"
     },
     first: {
-        flexGrow: 1,
-        width: "110vh"
+        maxWidth: "80%"
     },
     gridItem: {
         padding: theme.spacing(2),
@@ -76,17 +76,19 @@ export default function About() {
                         </Grid>
                     </Typography>
                 </Box>
-
                 <Divider></Divider>
-
-                <Box mt={6}>
-                    <Typography variant="h3">Our Core Values</Typography>
-                </Box>
-                <Box mt={3} mb={6}>
-                    <CoreValues></CoreValues>
-                </Box>
-
             </Box>
+
+           
+
+            <Box mt={6}>
+                <Typography variant="h3">Our Core Values</Typography>
+            </Box>
+            <Box mt={3} mb={6}>
+                <CoreValues></CoreValues>
+            </Box>
+
+           
         </div>
     )
 }

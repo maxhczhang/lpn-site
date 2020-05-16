@@ -14,16 +14,11 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles({
     root: {
-    //   border: 0,
-    //   borderRadius: 3,
-    //   boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .3)',
-      color: 'black',
-      flexGrow: 1,
-      height: "10vh",
-      //padding: '0 30px',
+        backgroundColor: "#580C1F",
+        color: "white"
     },
     link: {
-        color: "black"
+        color: "white"
     }
   });
 

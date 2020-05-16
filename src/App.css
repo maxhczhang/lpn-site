@@ -1,15 +1,29 @@
 /* 
-beige: #E8D49D
-maroon: #8B2942
+1
+red: #8B2942
 navy: #003273
+beige: #F1F0CC
+rasin black?: #231F20
+maroon: #580C1F
+
 ΛΦΝ 
+
+2
+red: same
+blue: same
+beige: #E8D49D
+black: #000000
+maroon: same
 */
 
 
 .App {
-  text-align: center;
-  background-color: #fff0b9;
+  background-color: #ffffff;
   color: black;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .App-logo {
@@ -43,11 +57,6 @@ navy: #003273
   to {
     transform: rotate(360deg);
   }
-}
-
-.container {
-  position: relative;
-  width: 60%;
 }
 
 .image {

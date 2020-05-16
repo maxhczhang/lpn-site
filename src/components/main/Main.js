@@ -1,16 +1,16 @@
 import React from 'react'
 
-import Home from './pages/Home'
-import About from './pages/About'
+import Home from '../pages/home/Home'
+import About from '../pages/about/About'
 
 import Typography from '@material-ui/core/Typography';
 
-export default function Main({pageNum}) {
+export default function Main({pageNum, setPageNum}) {
 
     switch(pageNum) {
     
         case 0:
-          return <Home></Home>
+          return <Home setPageNum={setPageNum}></Home>
           
         case 1:
           return <About></About>

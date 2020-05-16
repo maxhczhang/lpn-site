@@ -36,7 +36,7 @@ export default function Companies() {
 
     return (
         <div className={classes.root}>
-            <GridList className={classes.gridList} cols={2.5}>
+            <GridList className={classes.gridList} cols={3.5}>
                 {companyLogos.map((tile) => (
                     <GridListTile key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={classes.image}/>

@@ -5,22 +5,28 @@ import Box from '@material-ui/core/Box';
 import Typist from 'react-typist'
 
 export default function HeaderContent({pageNum}) {
-    const msg = "A Business Leadership Fraternity."
-    const msg2 = "Grow Forward. Give Back."
+    const msgs = ["A Business Leadership Fraternity.", "ΛΦΝ", "UC Irvine"]
 
     switch(pageNum) {
 
         case 0:
             return (
-                <Typography component="div">
-                    <Box ml={6} mt={15} fontWeight="fontWeightMedium" fontSize="h3.fontSize">
+                <Box ml={6} mt={20}>
+                    <Typography component="div">
                         <Typist cursor={{show: false}}>
-                        <Box>{msg}</Box>
-                        <Typist.Backspace count={msg.length} delay={300}></Typist.Backspace>
-                        <Box>{msg2}</Box>
+
+                        <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">{msgs[0]}</Box>
+                        <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
+
+                        {/* <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">{msgs[1]}</Box>
+                        <Typist.Backspace count={msgs[1].length} delay={300}></Typist.Backspace> */}
+
+                        <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">{msgs[1]}</Box>
+                        <Box fontSize="h3.fontSize">{msgs[2]}</Box>
                         </Typist>
-                    </Box>
-                </Typography>
+                    </Typography>
+                </Box>
+                
             )
             
         case 1:
@@ -51,7 +57,7 @@ export default function HeaderContent({pageNum}) {
     
         default:
             return (
-            <Typography variant="h1">Hi :)</Typography>
+                <Typography variant="h1">Hi :)</Typography>
             )
     }
 }
