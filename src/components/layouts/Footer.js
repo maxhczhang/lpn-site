@@ -31,28 +31,28 @@ export default function Footer() {
                 <Grid container justify="center">
                     <Grid item>
                         <a href="https://www.linkedin.com/company/lambdaphinu/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="large" aria-label="LinkedIn" color="inherit">
+                            <IconButton size="medium" aria-label="LinkedIn" color="inherit">
                                 <LinkedInIcon></LinkedInIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.facebook.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="large" aria-label="Facebook" color="inherit">
+                            <IconButton size="medium" aria-label="Facebook" color="inherit">
                                 <FacebookIcon></FacebookIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.youtube.com/channel/UCFUcgiGBvqJ3ORfWoa6GSLA" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="large" aria-label="Youtube" color="inherit">
+                            <IconButton size="medium" aria-label="Youtube" color="inherit">
                                 <YouTubeIcon></YouTubeIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.instagram.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="large" aria-label="Instagram" color="inherit">
+                            <IconButton size="medium" aria-label="Instagram" color="inherit">
                                 <InstagramIcon></InstagramIcon>
                             </IconButton>
                         </a>

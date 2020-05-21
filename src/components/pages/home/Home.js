@@ -16,8 +16,9 @@ import colorLogo from '../../../static/images/logo.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        alignItems: "center",
         display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
         flexDirection: "column",
         textAlign: "center"
     },
@@ -28,7 +29,6 @@ const useStyles = makeStyles((theme) => ({
         position: "relative",
         zIndex: 1,
         color: "white",
-        textAlign: "center"
     },
     button: {
         '& > *': {
@@ -39,10 +39,16 @@ const useStyles = makeStyles((theme) => ({
     },
     paragraph: {
         maxWidth: "80%"
+    },
+    parallax: {
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center',
+        height: "50vh",
     }
 }));
 
-export default function Home({setPageNum}) {
+export default function Home({setPage}) {
     const classes = useStyles();
         
     return (
@@ -71,7 +77,7 @@ export default function Home({setPageNum}) {
             </Box>
 
             <Box m={2}>
-                <Button variant="contained" className={classes.button} onClick={(event) => setPageNum(2)}>
+                <Button variant="contained" className={classes.button} onClick={(event) => setPage("Active Brothers")}>
                     Meet Our Brothers
                 </Button>
             </Box>
@@ -86,6 +92,9 @@ export default function Home({setPageNum}) {
             <ParallaxBanner
                 style={{
                     height: "50vh",
+                    display: 'flex', 
+                    justifyContent: 'center', 
+                    alignItems: 'center',
                 }}
                 layers={[
                     {

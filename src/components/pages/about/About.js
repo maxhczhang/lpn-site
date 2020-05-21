@@ -11,8 +11,9 @@ import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        alignItems: "center",
         display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
         flexDirection: "column",
         textAlign: "center"
     },
@@ -23,6 +24,9 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center',
     },
+    empty: {
+        height: "15vh"
+    }
 }));
 
 export default function About() {
@@ -30,12 +34,12 @@ export default function About() {
 
     return (
         <div className={classes.root}>
-            <Box className={classes.first} mx="auto" p={6}>
-                <Box m={2}>
+            <Box className={classes.first} mt={6}>
+                <Box>
                     <Typography variant="h3">Who Are We?</Typography>
                 </Box>
 
-                <Box m={2}>
+                <Box mt={2} mb={6}>
                     <Typography variant="body1">
                         <Box>
                             Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
@@ -52,7 +56,7 @@ export default function About() {
 
                 <Divider></Divider>
 
-                <Box m={6}>
+                <Box mt={6} mb={6}>
                     <Typography variant="h5">
                         <Grid container spacing={3}>
                             <Grid item xs={4}>
@@ -79,16 +83,15 @@ export default function About() {
                 <Divider></Divider>
             </Box>
 
-           
-
             <Box mt={6}>
                 <Typography variant="h3">Our Core Values</Typography>
             </Box>
-            <Box mt={3} mb={6}>
+            <Box mt={2} mb={6}>
                 <CoreValues></CoreValues>
             </Box>
 
-           
+            <div className={classes.empty}></div>
+
         </div>
     )
 }

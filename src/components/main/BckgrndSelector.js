@@ -9,7 +9,7 @@ import seniors from '../../static/images/seniors.jpg'
 import merage_at_night from '../../static/images/merage_at_night.jpg'
 
 
-export default function BckgrndSelector({ pageNum, setPageNum }) {
+export default function BckgrndSelector({ pageNum, setPage }) {
     switch(pageNum) {
         case 0:
             return (
@@ -29,7 +29,7 @@ export default function BckgrndSelector({ pageNum, setPageNum }) {
                         },
                     ]}
                 >
-                    <Header setPageNum={setPageNum} pageNum={pageNum}></Header>
+                    <Header setPage={setPage} pageNum={pageNum}></Header>
                 </ParallaxBanner>
             )
         
@@ -51,7 +51,7 @@ export default function BckgrndSelector({ pageNum, setPageNum }) {
                         },
                     ]}
                 >
-                    <Header setPageNum={setPageNum} pageNum={pageNum}></Header>
+                    <Header setPage={setPage} pageNum={pageNum}></Header>
                 </ParallaxBanner>
             )
         
@@ -73,7 +73,7 @@ export default function BckgrndSelector({ pageNum, setPageNum }) {
                         },
                     ]}
                 >
-                    <Header setPageNum={setPageNum} pageNum={pageNum}></Header>
+                    <Header setPage={setPage} pageNum={pageNum}></Header>
                 </ParallaxBanner>
             )
     }

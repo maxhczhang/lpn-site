@@ -1,9 +1,7 @@
 import React from 'react'
 
-import '../../../App.css'
-
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import CoreValue from './CoreValue'
 
 import curiosity from '../../../static/coreValues/curiosity.png'
 import excellence from '../../../static/coreValues/excellence.png'
@@ -13,69 +11,58 @@ import altruism from '../../../static/coreValues/altruism.png'
 
 
 export default function CoreValues() {
+
     return (
-        <Typography variant="body1">
-            <Grid container spacing={3}>
-                <Grid item xs>
-                    <div class="container">
-                        <img src={curiosity} alt="Curiosity" class="image"></img>
-                        {/* <div class="overlay">
-                            <div class="text">
-                                Curisoity Our brothers consistently explore what could be and challenge
-                                the status quo. We strive to become better versions of ourselves and
-                                to better impact our communities.
-                            </div>
-                        </div> */}
-                    </div>
-                </Grid>
-                <Grid item xs>
-                    <div class="container">
-                        <img src={excellence} alt="Excellence" class="image"></img>
-                        {/* <div class="overlay">
-                            <div class="text">
-                                Excellence Our brothers persistently work to enhance their capabilities
-                                and character. The pursuit to be remarkable leaders transforms
-                                ideas into reality.
-                             </div>
-                        </div> */}
-                    </div>
-                </Grid>
-                <Grid item xs>
-                    <div class="container">
-                        <img src={relationships} alt="Relationships" class="image"></img>
-                        {/* <div class="overlay">
-                            <div class="text">
-                                Relationships Our brotherhood emphasizes relationships, in the business world and
-                                community around us. Cultivating relationships means authentically loving people
-                                from worlds not of one's own and appreciating the diversity of
-                                the world around them.
-                            </div>
-                        </div> */}
-                    </div>
-                </Grid>
-                <Grid item xs>
-                    <div class="container">
-                        <img src={integrity} alt="Integrity" class="image"></img>
-                        {/* <div class="overlay">
-                            <div class="text">
-                                Integrity Persevering for what is true and right in every decision. We aim to be the
-                                best versions of ourselves through hard work, tenacity, discipline, and ambition.
-                            </div>
-                        </div> */}
-                    </div>
-                </Grid>
-                <Grid item xs>
-                    <div class="container">
-                        <img src={altruism} alt="Altruism" class="image"></img>
-                        {/* <div class="overlay">
-                            <div class="text">
-                                Altruism Morally obligating oneself to the welfare of others. Success means
-                                having an impact on our campus and community.
-                            </div>
-                        </div> */}
-                    </div>
-                </Grid>
+        <Grid container justify="center">
+
+            <Grid item xs >
+                <CoreValue 
+                    image={curiosity} 
+                    title="Curiosity"
+                    desc="Our brothers explore what could be and challenge
+                        the status quo. We strive to become better versions of ourselves and
+                        to better impact our communities."
+                ></CoreValue>
             </Grid>
-        </Typography>
+            
+            <Grid item xs>
+                <CoreValue
+                    image={excellence}
+                    title="Excellence"
+                    desc="Our brothers work to enhance their capabilities
+                        and character. Our pursuit to be remarkable leaders transforms
+                        ideas into reality."
+                ></CoreValue>                
+            </Grid>
+
+            <Grid item xs>
+                <CoreValue
+                    image={relationships}
+                    title="Relationships"
+                    desc="Our brotherhood emphasizes relationships, in the business world and
+                        community around us. Cultivating relationships means authentically loving people
+                        from worlds not of our own."
+                ></CoreValue>         
+            </Grid>
+
+            <Grid item xs>
+                <CoreValue
+                    image={integrity}
+                    title="Integrity"
+                    desc="We persevere for what is true and right in every decision. We aim to be the
+                        best versions of ourselves through hard work, tenacity, discipline, and ambition."
+                ></CoreValue>         
+            </Grid>
+
+            <Grid item xs>
+                <CoreValue
+                    image={altruism}
+                    title="Altruism"
+                    desc="Altruism means morally obligating oneself to the welfare of others. Success means
+                        having an impact on our campus and community."
+                ></CoreValue>        
+            </Grid>
+            
+        </Grid>
     )
 }
