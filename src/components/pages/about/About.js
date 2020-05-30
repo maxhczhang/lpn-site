@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import CoreValues from './CoreValues'
 
@@ -29,11 +29,16 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function About() {
+export default function About({setPage}) {
     const classes = useStyles();
+
+    useEffect(() => {
+        setPage("About")
+    });
 
     return (
         <div className={classes.root}>
+
             <Box className={classes.first} mt={6}>
                 <Box>
                     <Typography variant="h3">Who Are We?</Typography>

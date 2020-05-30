@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { ParallaxBanner } from 'react-scroll-parallax';
@@ -20,10 +20,10 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
-        textAlign: "center"
+        textAlign: "center",
     },
     logo: {
-        height: "15vh",
+        height: "20vh",
     },
     interviews: {
         position: "relative",
@@ -38,23 +38,22 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "60%"
     },
-    parallax: {
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center',
-        height: "50vh",
-    }
 }));
 
-export default function Home({setPage}) {
+export default function Home({ setPage }) {
+
+    useEffect(() => {
+        setPage("Home")
+    });
+
     const classes = useStyles();
-        
+
     return (
         <div className={classes.root}>
-            
-            <Box mt={4}>
+        
+            <Box mt={6}>
                 <Typography>
                     <Box fontSize="h3.fontSize" fontWeight="fontWeightMedium">
                         Our Legacy
@@ -67,31 +66,30 @@ export default function Home({setPage}) {
             
             <Divider></Divider>
 
-            <Box m={2} className={classes.paragraph}>
+            <Box mt={2} mb={2} className={classes.paragraph}>
                 <Typography variant="body1">
                     We're a UC Irvine founded business leadership fraternity
                     community for students seeking leadership development and coaching. We immerse our 
                     members into an environment that emulates the professional world to prepare them for a 
                     more successful future.
                 </Typography>
-            </Box>
 
-            <Box m={2}>
-                <Button variant="contained" className={classes.button} onClick={(event) => setPage("Active Brothers")}>
-                    Meet Our Brothers
-                </Button>
+                <Box mt={4}>
+                    <Button variant="contained" className={classes.button}>
+                        Meet Our Brothers
+                    </Button>
+                </Box>
             </Box>
 
             <Divider></Divider>
 
-            <Box mt={2} mb={4}>
-                <img className={classes.logo} src={colorLogo} alt="LPN"></img>
+            <Box mb={6}>
+                <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
-           
               
             <ParallaxBanner
                 style={{
-                    height: "50vh",
+                    height: "60vh",
                     display: 'flex', 
                     justifyContent: 'center', 
                     alignItems: 'center',

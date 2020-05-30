@@ -8,31 +8,28 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { usePopupState, bindHover, bindMenu, } from 'material-ui-popup-state/hooks'
 
+import { Link } from "react-router-dom";
+
 const useStyles = makeStyles((theme) => ({
     button: {
         color: "white",
     },
 }));
 
-export default function MyMenu({title1, title2, setPage}) {
+export default function MyMenu({mainTitle, title1, title2, setPage}) {
     const classes = useStyles();
 
     const popupState = usePopupState({ variant: 'popover', popupId: 'myMenu' })
 
-    const menuClose1 = () => {
-        popupState.close()
-        setPage(title1)
-    }
-
-    const menuClose2 = () => {
-        popupState.close()
-        setPage(title2)
+    const titleToPath = (title) => {
+        const path = title.toLowerCase().replace(/ +/g, '-')
+        return '/' + path
     }
 
     return (
         <React.Fragment>
             <Button size="large" className={classes.button} {...bindHover(popupState)}>
-                Brothers
+                {mainTitle}
             </Button>
             <Menu {...bindMenu(popupState)}
                 className={classes.menu} classes={{
@@ -43,12 +40,12 @@ export default function MyMenu({title1, title2, setPage}) {
                 transformOrigin={{ vertical: 'top', horizontal: 'left' }}
             >
                 <Typography>
-                    <MenuItem onClick={menuClose1}>
+                    <MenuItem component={Link} to={titleToPath(title1)} onClick={popupState.close}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title1}
                         </Box>                        
                     </MenuItem>
-                    <MenuItem onClick={menuClose2}>
+                    <MenuItem component={Link} to={titleToPath(title2)} onClick={popupState.close}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title2}
                         </Box>  

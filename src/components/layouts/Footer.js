@@ -15,7 +15,13 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 const useStyles = makeStyles({
     root: {
         backgroundColor: "#580C1F",
-        color: "white"
+        color: "white",
+        height: "12vh",
+        display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: "column",
+        textAlign: "center"
     },
     link: {
         color: "white"
@@ -26,7 +32,8 @@ export default function Footer() {
     const classes = useStyles();
 
     return (
-        <Grid container className={classes.root} spacing={2}>
+        <div className={classes.root}>
+        <Grid container  spacing={2}>
             <Grid item xs={12}>
                 <Grid container justify="center">
                     <Grid item>
@@ -69,5 +76,6 @@ export default function Footer() {
                 </Grid>
             </Grid>
         </Grid>
+        </div>
     )
 }

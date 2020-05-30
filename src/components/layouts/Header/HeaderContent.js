@@ -7,10 +7,26 @@ import Typist from 'react-typist'
 
 const useStyles = makeStyles((theme) => ({
     content: {
-        display: 'flex', 
+        display: "flex",
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: "12vh"
+        flexDirection: "column",
+        textAlign: "center",
+        position: "relative",
+        zIndex: 1,
+        color: "white",
+        marginTop: "15%",
+    },
+    smBckgrndContent: {
+        display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: "column",
+        textAlign: "center",
+        position: "relative",
+        zIndex: 1,
+        color: "white",
+        marginTop: "6%",
     }
 }));
 
@@ -26,11 +42,11 @@ export default function HeaderContent({pageNum}) {
                     <Typography>
                         <Typist cursor={{show: false}}>
 
-                        <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">{msgs[0]}</Box>
+                        <Box fontWeight="fontWeightMedium" fontSize="h2.fontSize">{msgs[0]}</Box>
                         <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
 
                         <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">{msgs[1]}</Box>
-                        <Box fontSize="h3.fontSize">{msgs[2]}</Box>
+                        <Box fontSize="h2.fontSize">{msgs[2]}</Box>
 
                         </Typist>
                     </Typography>
@@ -40,44 +56,70 @@ export default function HeaderContent({pageNum}) {
             
         case 1:
             return (
-                <Typography component="div">
-                    <Box ml={6} mt={6} fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                <Box className={classes.content}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
                         About Us
                     </Box>
-                </Typography>
+                </Box>
             )
 
         case 2:
             return (
-                <Box ml={6} mt={10} fontWeight="fontWeightMedium" fontSize="h1.fontSize">
-                    Active Brothers
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Active Brothers
+                    </Box>
                 </Box>
             )
 
         case 3:
             return (
-                <Typography variant="h1">Campus Involvement</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Campus Involvement
+                    </Box>
+                </Box>
             )
 
         case 4:
             return (
-                <Typography variant="h1">Careers</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Careers
+                    </Box>
+                </Box>
             )
         case 5:
             return (
-                <Typography variant="h1">Fall 2020</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Fall Rush 2020
+                    </Box>
+                </Box>
             )
         case 6:
             return (
-                <Typography variant="h1">Common Questions</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Common Questions
+                    </Box>
+                </Box>
             )
         case 7:
             return (
-                <Typography variant="h1">Our Memories</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Our Memories
+                    </Box>
+                </Box>
             )
         case 8:
             return (
-                <Typography variant="h1">Contact Us</Typography>
+                <Box className={classes.smBckgrndContent}>
+                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                        Contact Us
+                    </Box>
+                </Box>
             )
     
         default:

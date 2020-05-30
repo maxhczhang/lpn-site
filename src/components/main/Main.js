@@ -2,6 +2,8 @@ import React from 'react'
 
 import Home from '../pages/home/Home'
 import About from '../pages/about/About'
+import ActiveBrothers from '../pages/brothers/ActiveBrothers'
+import AboutMe from '../pages/brothers/AboutMe'
 
 import Typography from '@material-ui/core/Typography';
 
@@ -17,7 +19,7 @@ export default function Main({pageNum, setPage}) {
 
         case 2:
           return (
-            <Typography variant="h1">C Suite</Typography>
+            <ActiveBrothers setPage={setPage}></ActiveBrothers>
           )
 
         case 3:
@@ -49,6 +51,11 @@ export default function Main({pageNum, setPage}) {
           return (
             <Typography variant="h1">Plug our socials</Typography>
           )
+
+        case 9:
+          return (
+            <AboutMe></AboutMe>
+         )
     
         default:
           return (

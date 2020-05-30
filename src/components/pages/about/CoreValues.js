@@ -13,7 +13,7 @@ import altruism from '../../../static/coreValues/altruism.png'
 export default function CoreValues() {
 
     return (
-        <Grid container justify="center">
+        <Grid container direction="row" justify="space-evenly" alignItems="center">
 
             <Grid item xs >
                 <CoreValue 
