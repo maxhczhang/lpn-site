@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
 import styles from './brothers.css'
 
 const useStyles = makeStyles((theme) => ({
@@ -9,11 +11,12 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
-        textAlign: "center"
+        textAlign: "center",
+        maxWidth: "80%",
     },
     image: {
-        height: "35vh",
-        width: "25vh",
+        height: "40vh",
+        width: "30vh",
         objectFit: "contain"
     },
     gridItem: {
@@ -29,18 +32,17 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function BrothersList() {
+export default function BrothersList({ brothers }) {
+    const classes = useStyles();
+
     return (
         <div className={classes.root}>
-            <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" mt={6} mb={2}>
-                C-Suite
-            </Box>
 
             <Grid container direction="row" justify="center" alignItems="space-evenly">
-                {csuite.map((tile) => (
+                {brothers.map((tile) => (
                     <Grid item className={classes.gridItem}>
-                        <div className={classes.brother} onClick={() => goToAbout(tile.name)}>
-
+                        {/* <div className={classes.brother} onClick={() => goToAbout(tile.name)}> */}
+                        <div className={classes.brother}>
                             <div class={"content"}>
                                 <img src={tile.img} alt={tile.title} className={classes.image} />
                                 <div class="content-overlay"></div>
@@ -56,10 +58,6 @@ export default function BrothersList() {
                     </Grid>
                 ))}
             </Grid>
-
-            <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" mt={6} mb={2}>
-                Directors
-            </Box>
 
         </div>
     )

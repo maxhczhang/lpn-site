@@ -14,6 +14,9 @@ import EYInterviews from '../../../static/images/darkenedEYInterviews.jpeg'
 import colorLogo from '../../../static/images/logo.png'
 
 
+import { Link } from "react-router-dom";
+
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
@@ -75,7 +78,7 @@ export default function Home({ setPage }) {
                 </Typography>
 
                 <Box mt={4}>
-                    <Button variant="contained" className={classes.button}>
+                    <Button variant="contained" className={classes.button} component={Link} to="/active-brothers">
                         Meet Our Brothers
                     </Button>
                 </Box>
