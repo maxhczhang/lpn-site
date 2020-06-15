@@ -121,6 +121,11 @@ export default function HeaderContent({pageNum}) {
                     </Box>
                 </Box>
             )
+
+        case 10:
+            return (
+                <React.Fragment></React.Fragment>
+            )
     
         default:
             return (

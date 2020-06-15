@@ -15,7 +15,7 @@ import MyMenu from './MyMenu'
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: "12vh",
+    height: 120,
   },
   link: {
     color: "white"

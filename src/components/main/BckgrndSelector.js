@@ -81,28 +81,36 @@ export default function BckgrndSelector({ pageNum }) {
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
-        
-        default:
+
+        case 10:
             return (
-                <ParallaxBanner
-                    style={{
-                        height: "50vh"
-                    }}
-                    layers={[
-                        {
-                            image: `url(${merage_at_night})`,
-                            amount: 0.2,
-                            props: {
-                                style: {
-                                    backgroundImage: `url(${merage_at_night})`,
-                                }
-                            },
-                        },
-                    ]}
-                >
+                <React.Fragment>
                     <Header></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
-                </ParallaxBanner>
+                </React.Fragment>
             )
+        
+        // default:
+        //     return (
+        //         <ParallaxBanner
+        //             style={{
+        //                 height: "50vh"
+        //             }}
+        //             layers={[
+        //                 {
+        //                     image: `url(${merage_at_night})`,
+        //                     amount: 0.2,
+        //                     props: {
+        //                         style: {
+        //                             backgroundImage: `url(${merage_at_night})`,
+        //                         }
+        //                     },
+        //                 },
+        //             ]}
+        //         >
+        //             <Header></Header>
+        //             <HeaderContent pageNum={pageNum}></HeaderContent>
+        //         </ParallaxBanner>
+        //     )
     }
 }

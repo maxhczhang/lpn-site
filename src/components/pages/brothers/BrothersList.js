@@ -5,6 +5,8 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import styles from './brothers.css'
 
+import { Link } from 'react-router-dom'
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
@@ -12,15 +14,11 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
-        maxWidth: "80%",
     },
     image: {
-        height: "40vh",
-        width: "30vh",
+        height: "100%",
+        width: "100%",
         objectFit: "contain"
-    },
-    gridItem: {
-        cursor: "pointer",
     },
     brother: {
         padding: theme.spacing(2)
@@ -35,16 +33,22 @@ const useStyles = makeStyles((theme) => ({
 export default function BrothersList({ brothers }) {
     const classes = useStyles();
 
+    const nameToPath = (name) => {
+        const path = name.toLowerCase().replace(/ +/g, '-')
+        return '/active-brothers/' + path
+    }
+
     return (
         <div className={classes.root}>
 
             <Grid container direction="row" justify="center" alignItems="space-evenly">
                 {brothers.map((tile) => (
-                    <Grid item className={classes.gridItem}>
-                        {/* <div className={classes.brother} onClick={() => goToAbout(tile.name)}> */}
-                        <div className={classes.brother}>
-                            <div class={"content"}>
+                    <Grid item className={classes.brother}>                   
+                        
+                        <div class={"content"}>
+                            <Link to={nameToPath(tile.name)}>
                                 <img src={tile.img} alt={tile.title} className={classes.image} />
+                                
                                 <div class="content-overlay"></div>
 
                                 <div class="content-details fadeIn-bottom">
@@ -52,9 +56,9 @@ export default function BrothersList({ brothers }) {
                                         {tile.name} - {tile.title}
                                     </div>
                                 </div>
-
-                            </div>
+                            </Link>
                         </div>
+                       
                     </Grid>
                 ))}
             </Grid>

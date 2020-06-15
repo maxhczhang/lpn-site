@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import Home from '../pages/home/Home'
 import About from '../pages/about/About'
 import ActiveBrothers from '../pages/brothers/ActiveBrothers'
+import Profile from '../pages/brothers/Profile'
 import CampusInvolvement from '../pages/CampusInvolvement'
 import Careers from '../pages/Careers'
 import Rush from '../pages/Rush'
@@ -46,7 +47,7 @@ export default function LPNSite() {
         [
             ['Home', 0], ['About', 1], ['Active Brothers', 2], ['Campus Involvement', 3],
             ['Careers', 4], ['Rush', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
-            ['About Me', 9]
+            ['About Me', 9], ['Profile', 10]
         ]
     )
 
@@ -66,8 +67,12 @@ export default function LPNSite() {
                             <About setPage={setPage}/>
                         </Route>
 
-                        <Route path="/active-brothers">
+                        <Route exact path="/active-brothers">
                             <ActiveBrothers setPage={setPage} />
+                        </Route>
+
+                        <Route path="/active-brothers/:name"
+                            render={(props) => <Profile {...props} setPage={setPage} />}>
                         </Route>
 
                         <Route path="/campus-involvement">
