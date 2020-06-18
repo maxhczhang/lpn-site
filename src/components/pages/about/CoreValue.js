@@ -9,17 +9,15 @@ import PopupState, { bindHover, bindPopover } from 'material-ui-popup-state';
 const useStyles = makeStyles((theme) => ({
     image: {
         width: "100%",
-        height: "auto",
     },
     popover: {
         pointerEvents: 'none',
-        width: "50%",
     },
     popoverContent: {
         textAlign: "center"
     },
     paper: {
-        padding: theme.spacing(1),
+        padding: theme.spacing(2),
     },
 }));
 
@@ -31,7 +29,7 @@ export default function CoreValue({image, title, desc}) {
             {(popupState) => (
                 <div>
 
-                    <img src={image} alt="Curiosity" className={classes.image} {...bindHover(popupState)}></img>
+                    <img src={image} alt="Core Value" className={classes.image} {...bindHover(popupState)}></img>
                     <Popover
                         {...bindPopover(popupState)}
                         className={classes.popover}
@@ -49,10 +47,10 @@ export default function CoreValue({image, title, desc}) {
                         disableRestoreFocus
                     >
                         <Typography className={classes.popoverContent}>
-                            <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
+                            <Box fontWeight="fontWeightBold" fontSize="h6.fontSize">
                                 {title}
-                                </Box>
-                            <Box> {desc} </Box>
+                            </Box>
+                            <Box fontSize="h6.fontSize"> {desc} </Box>
                         </Typography>
                     </Popover>
                 </div>

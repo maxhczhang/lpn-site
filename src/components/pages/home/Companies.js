@@ -18,9 +18,9 @@ const useStyles = makeStyles((theme) => ({
         transform: 'translateZ(0)',
     },
     image: {
-        height: "100%",
         width: "100%",
-        objectFit: 'contain',
+        objectFit: 'scale-down',
+        padding: 15
     },
     title: {
         color: theme.palette.primary.light,

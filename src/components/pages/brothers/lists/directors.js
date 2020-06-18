@@ -15,7 +15,7 @@ import Tyler from '../../../../static/images/actives/directors/operations/Tyler_
 import Cat from '../../../../static/images/actives/directors/operations/Catherine_Nguyen.jpg'
 
 import Raymond from '../../../../static/images/actives/directors/talent/Raymond_Dinh.jpg'
-import Emily from '../../../../static/images/actives/directors/talent/Emily_Nguyen.jpeg'
+import Emily from '../../../../static/images/actives/directors/talent/Emily_Quynh_Nguyen.jpeg'
 import Jasmin from '../../../../static/images/actives/directors/talent/Jasmin_He.jpg'
 import Faith from '../../../../static/images/actives/directors/talent/Faith_Chia.jpg'
 import Jeffrey from '../../../../static/images/actives/directors/talent/Jeffrey_Cho.jpg'
@@ -23,89 +23,89 @@ import Jeffrey from '../../../../static/images/actives/directors/talent/Jeffrey_
 
 export const directors = [
     {
-        img: Sera,
-        name: "Sera Xu",
-        title: 'Corporate Relations Director'
-    },
-    {
         img: Lucian,
         name: "Lucian Liu",
-        title: 'Strategy Director'
+        title: ' - Strategy Director'
+    },
+    {
+        img: Sera,
+        name: "Sera Xu",
+        title: ' - Corporate Relations Director'
     },
     {
         img: Alex,
         name: "Alex Cole",
-        title: 'Finance Director'
+        title: ' - Finance Director'
     },
     // {
     //     img: Ben,
     //     name: "Ben Fan",
-    //     title: 'Information Systems Director'
+    //     title: ' - Information Systems Director'
     // },
     {
         img: Serina,
         name: "Serina Nguyen",
-        title: 'Marketing Director'
+        title: ' - Marketing Director'
     },
     {
         img: Vivi,
         name: "Vivi Liu",
-        title: 'Marketing Director'
+        title: ' - Marketing Director'
     },
     {
         img: Ryan,
         name: "Ryan Miranda",
-        title: 'Webmaster, Associate Counselor'
+        title: ' - Webmaster, Associate Counselor'
     },
     {
         img: Ian,
         name: "Ian Han",
-        title: 'Alumni Relations Director'
+        title: ' - Alumni Relations Director'
     },
     {
         img: Yong,
         name: "Yong Lin",
-        title: 'Career Catalyst Director'
+        title: ' - Career Catalyst Director'
     },
     {
         img: Josh,
         name: "Joshua Tong",
-        title: 'Culture & Relationships Director'
+        title: ' - Culture & Relationships Director'
     },
     {
         img: Tyler,
         name: "Tyler Newman",
-        title: 'Culture & Relationships Director'
+        title: ' - Culture & Relationships Director'
     },
     {
         img: Cat,
         name: "Catherine Nguyen",
-        title: 'Social Impact Director'
+        title: ' - Social Impact Director'
     },
     {
         img: Raymond,
         name: "Raymond Dinh",
-        title: 'Associate Auditor'
+        title: ' - Associate Auditor'
     },
     {
         img: Emily,
         name: "Emily Nguyen",
-        title: 'Associate Counselor'
+        title: ' - Associate Counselor'
     },
     {
         img: Jasmin,
         name: "Jasmin He",
-        title: 'Associate Educator'
+        title: ' - Associate Educator'
     },
     {
         img: Faith,
         name: "Faith Chia",
-        title: 'Recruiter'
+        title: ' - Recruiter'
     },
     {
         img: Jeffrey,
         name: "Jeffrey Cho",
-        title: 'Recruiter'
+        title: ' - Recruiter'
     },
 ];
 

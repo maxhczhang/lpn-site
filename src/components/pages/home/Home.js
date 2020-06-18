@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     logo: {
-        height: "20vh",
+        height: "20%",
+        width: "20%"
     },
     interviews: {
         position: "relative",
@@ -57,11 +58,11 @@ export default function Home({ setPage }) {
         <div className={classes.root}>
         
             <Box mt={6}>
-                <Typography>
-                    <Box fontSize="h3.fontSize" fontWeight="fontWeightMedium">
+                <Typography component="div">
+                    <Box fontSize="h3.fontSize" fontWeight="fontWeightBold">
                         Our Legacy
                     </Box>
-                    <Box fontSize="body1.fontSize" fontWeight="fontWeightMedium">
+                    <Box fontSize="h6.fontSize">
                         Grow Forward. Give Back.
                     </Box>
                 </Typography>
@@ -69,8 +70,8 @@ export default function Home({ setPage }) {
             
             <Divider></Divider>
 
-            <Box mt={2} mb={2} className={classes.paragraph}>
-                <Typography variant="body1">
+            <Box mt={2} mb={4} className={classes.paragraph}>
+                <Typography variant="h6">
                     We're a UC Irvine founded business leadership fraternity
                     community for students seeking leadership development and coaching. We immerse our 
                     members into an environment that emulates the professional world to prepare them for a 
@@ -78,21 +79,21 @@ export default function Home({ setPage }) {
                 </Typography>
 
                 <Box mt={4}>
-                    <Button variant="contained" className={classes.button} component={Link} to="/active-brothers">
+                    <Button size="large" variant="contained" className={classes.button} component={Link} to="/active-brothers">
                         Meet Our Brothers
                     </Button>
                 </Box>
             </Box>
 
-            <Divider></Divider>
+            <Divider style={{height: 1, width: "70%"}}></Divider>
 
-            <Box mb={6}>
+            <Box mt={2} mb={6}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
               
             <ParallaxBanner
                 style={{
-                    height: "60vh",
+                    height: 600,
                     display: 'flex', 
                     justifyContent: 'center', 
                     alignItems: 'center',
@@ -118,13 +119,13 @@ export default function Home({ setPage }) {
                 </div>
             </ParallaxBanner>
 
-            <Box m={4}>
-                <Typography>
-                    <Box fontSize="h3.fontSize" fontWeight="fontWeightMedium">
+            <Box m={4} align="center">
+                <Typography component="div">
+                    <Box fontSize="h3.fontSize" fontWeight="fontWeightBold">
                         Where We Work
                     </Box>
                 </Typography>
-                <Divider></Divider>
+                <Divider style={{width: "50%"}}></Divider>
                 <Companies></Companies>
             </Box>
 

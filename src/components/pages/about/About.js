@@ -18,14 +18,14 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     first: {
-        maxWidth: "80%"
+        maxWidth: "60%"
     },
     gridItem: {
         padding: theme.spacing(2),
         textAlign: 'center',
     },
     empty: {
-        height: "15vh"
+        height: "10vh"
     }
 }));
 
@@ -40,12 +40,14 @@ export default function About({setPage}) {
         <div className={classes.root}>
 
             <Box className={classes.first} mt={6}>
-                <Box>
-                    <Typography variant="h3">Who Are We?</Typography>
-                </Box>
-
+                <Typography>
+                    <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
+                        Who Are We?
+                    </Box>
+                </Typography>
+            
                 <Box mt={2} mb={6}>
-                    <Typography variant="body1">
+                    <Typography variant="h6">
                         <Box>
                             Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
                             committed to inspiring the best in everyone. Our brothers aspire to become visionaries, influencers, and 
@@ -58,38 +60,42 @@ export default function About({setPage}) {
                     </Box>
                     </Typography>
                 </Box>
-
-                <Divider></Divider>
-
-                <Box mt={6} mb={6}>
-                    <Typography variant="h5">
-                        <Grid container spacing={3}>
-                            <Grid item xs={4}>
-                                <Box className={classes.gridItem} fontWeight="fontWeightBold">9 Business Orgs Founded</Box>
-                            </Grid>
-                            <Grid item xs={4}>
-                                <Box className={classes.gridItem} fontWeight="fontWeightBold">?? Curent Leadership Positions</Box>
-                            </Grid>
-                            <Grid item xs={4}>
-                                <Box className={classes.gridItem} fontWeight="fontWeightBold">29 President Positions Held</Box>
-                            </Grid>
-                            <Grid item xs={4}>
-                                <Box className={classes.paper} fontWeight="fontWeightBold">100% Internship Placement Rate</Box>
-                            </Grid> 
-                            <Grid item xs={4}>
-                                <Box className={classes.paper} fontWeight="fontWeightBold">?? Internships Per Active On Average</Box>
-                            </Grid>
-                            <Grid item xs={4}>
-                                <Box className={classes.paper} fontWeight="fontWeightBold">??% Full-time Offer Rate Prior To Graduation</Box>
-                            </Grid>
-                        </Grid>
-                    </Typography>
-                </Box>
-                <Divider></Divider>
             </Box>
 
+            <Divider style={{width: "70%"}}></Divider>
+
+            <Box mt={6} mb={6} className={classes.first}>
+                <Typography variant="h5">
+                    <Grid container spacing={3}>
+                        <Grid item xs={4}>
+                            <Box className={classes.gridItem} fontWeight="fontWeightBold">9 Business Orgs Founded</Box>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Box className={classes.gridItem} fontWeight="fontWeightBold">?? Curent Leadership Positions</Box>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Box className={classes.gridItem} fontWeight="fontWeightBold">29 President Positions Held</Box>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Box className={classes.paper} fontWeight="fontWeightBold">100% Internship Placement Rate</Box>
+                        </Grid> 
+                        <Grid item xs={4}>
+                            <Box className={classes.paper} fontWeight="fontWeightBold">?? Internships Per Active On Average</Box>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Box className={classes.paper} fontWeight="fontWeightBold">??% Full-time Offer Rate Prior To Graduation</Box>
+                        </Grid>
+                    </Grid>
+                </Typography>
+            </Box>
+            <Divider style={{ width: "70%" }}></Divider>
+           
             <Box mt={6}>
-                <Typography variant="h3">Our Core Values</Typography>
+                <Typography>
+                    <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
+                        Our Core Values
+                    </Box>
+                </Typography>
             </Box>
             <Box mt={2} mb={6}>
                 <CoreValues></CoreValues>

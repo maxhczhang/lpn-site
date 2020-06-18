@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import styles from './brothers.css'
 
@@ -16,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     image: {
-        height: "100%",
-        width: "100%",
+        height: "90%",
+        width: "90%",
         objectFit: "contain"
     },
     brother: {
@@ -41,9 +40,9 @@ export default function BrothersList({ brothers }) {
     return (
         <div className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="space-evenly">
+            <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
                 {brothers.map((tile) => (
-                    <Grid item className={classes.brother}>                   
+                    <Grid item xs={3}>                   
                         
                         <div class={"content"}>
                             <Link to={nameToPath(tile.name)}>
@@ -53,7 +52,7 @@ export default function BrothersList({ brothers }) {
 
                                 <div class="content-details fadeIn-bottom">
                                     <div>
-                                        {tile.name} - {tile.title}
+                                        {tile.name} {tile.title}
                                     </div>
                                 </div>
                             </Link>
