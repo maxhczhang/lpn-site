@@ -13,14 +13,12 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
+        maxWidth: "70%"
     },
     image: {
-        height: "90%",
-        width: "90%",
+        height: "100%",
+        width: "100%",
         objectFit: "contain"
-    },
-    brother: {
-        padding: theme.spacing(2)
     },
     titleBar: {
         background:

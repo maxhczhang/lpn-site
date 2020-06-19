@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     paragraph: {
-        maxWidth: "60%"
+        maxWidth: "70%"
     },
 }));
 

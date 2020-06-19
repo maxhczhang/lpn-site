@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     first: {
-        maxWidth: "60%"
+        maxWidth: "70%"
     },
     gridItem: {
         padding: theme.spacing(2),
