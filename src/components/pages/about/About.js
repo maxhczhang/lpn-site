@@ -40,7 +40,7 @@ export default function About({setPage}) {
         <div className={classes.root}>
 
             <Box className={classes.first} mt={6}>
-                <Typography>
+                <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
                         Who Are We?
                     </Box>
@@ -91,7 +91,7 @@ export default function About({setPage}) {
             <Divider style={{ width: "70%" }}></Divider>
            
             <Box mt={6}>
-                <Typography>
+                <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
                         Our Core Values
                     </Box>

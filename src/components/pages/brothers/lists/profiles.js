@@ -203,7 +203,7 @@ export const profiles = {
         experience: ["Seagate Technology, Consumer Group Pricing Analytics & Strategy Intern"],
         campusInvolvements: ["Undergraduate Finance Association, Marketing Director", "Marketing Association, VP of Internal Affairs"],
         interests: ["Podcasts", "Calligraphy", "Real Estate", "Thrifting"],
-        whyLpn: "",
+        whyLPN: "",
         img: require("../../../../static/images/actives/directors/talent/Jasmin_He.jpg")
     },
     Vivi_Liu: {
@@ -218,7 +218,7 @@ export const profiles = {
         experience: ["UCI School of Biological Sciences"],
         campusInvolvements: ["Undergraduate Business Association, Mentorship Director", "Marketing Association, VP of Internal Affairs"],
         interests: ["Bouldering", "Cooking", "Investing"],
-        whyLpn: "",
+        whyLPN: "",
         img: require("../../../../static/images/actives/directors/information/Vivi_Liu.jpg")
     },
     Ryan_Miranda: {
@@ -233,7 +233,7 @@ export const profiles = {
         experience: ["Microsoft, Software Engineer Intern", "Vusar, Software Engineer Intern"],
         campusInvolvements: ["MAISS, VP of Professional Development"],
         interests: ["playing guitar", "cooking", "peanut butter", "Nintendo Switch", "TechCrunch"],
-        whyLpn: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
+        whyLPN: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
         img: require("../../../../static/images/actives/directors/information/Ryan_Miranda.jpg")
     },
     Joshua_Tong: {
@@ -248,7 +248,7 @@ export const profiles = {
         experience: ["Anteater Recreation Center, Marketing Assistant"],
         campusInvolvements: ["ASUCI Content Creation Commissioner", "Management Information Student Society, Mentor"],
         interests: ["Snowboarding", "Anteatery", "Videography", "Pottery"],
-        whyLpn: "Group of professionals who thrive to excel in the professional world but also a group of people who like to have fun :)",
+        whyLPN: "Group of professionals who thrive to excel in the professional world but also a group of people who like to have fun :)",
         img: require("../../../../static/images/actives/directors/operations/Joshua_Tong.jpg")
     },
     Yong_Lin: {
@@ -263,7 +263,7 @@ export const profiles = {
         experience: ["Wells Fargo Advisors & City National Bank", "Dandelion Global, Business Consulting Intern", "KLK Capital Management, Finance Intern"],
         campusInvolvements: ["Undergraduate Finance Association (UFA), President", "Management Information Student Society, VP of External Affairs", "UFA, VP of Corporate Outreach"],
         interests: ["Basketball", "k-drama", "reading biographies", "travelling", "swimming"],
-        whyLpn: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",
+        whyLPN: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",
         img: require("../../../../static/images/actives/directors/operations/Yong_Lin.jpg")
     },
     Emily_Quynh_Nguyen: {
@@ -278,7 +278,7 @@ export const profiles = {
         experience: ["New Relic, Talent & Organizational Development Intern", "Dandelion Global, Business Consulting Intern", "KLK Capital Management, Finance Intern"],
         campusInvolvements: [""],
         interests: ["Crocs", "Photography", "Noodle soup dishes"],
-        whyLpn: "In Lambda Phi Nu, you find a family. This family has pushed me to do my best in all aspects of my life. These people, past and present, have been with me through all the joys, the excitement, the fears, and the tears. I've learned things from my brothers that help me push my career and help me become a better person.",
+        whyLPN: "In Lambda Phi Nu, you find a family. This family has pushed me to do my best in all aspects of my life. These people, past and present, have been with me through all the joys, the excitement, the fears, and the tears. I've learned things from my brothers that help me push my career and help me become a better person.",
         img: require("../../../../static/images/actives/directors/talent/Emily_Quynh_Nguyen.jpeg")
     },
     Alex_Cole: {

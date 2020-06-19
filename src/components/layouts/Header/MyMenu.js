@@ -39,7 +39,7 @@ export default function MyMenu({mainTitle, title1, title2, setPage}) {
                 anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
                 transformOrigin={{ vertical: 'top', horizontal: 'left' }}
             >
-                <Typography>
+                <Typography component="div">
                     <MenuItem component={Link} to={titleToPath(title1)} onClick={popupState.close}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title1}

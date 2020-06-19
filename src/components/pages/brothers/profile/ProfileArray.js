@@ -10,7 +10,7 @@ export default function ProfileArray({profile, field, title}) {
                     {title}
                 </Box>
                 <Box fontSize="h6.fontSize">
-                    {profile[field].map((item) => <li>{item}</li>)}
+                    {profile[field].map((item, i) => <li key={i}>{item}</li>)}
                 </Box>
             </React.Fragment>
         )

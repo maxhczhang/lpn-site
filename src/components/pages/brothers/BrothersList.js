@@ -39,8 +39,8 @@ export default function BrothersList({ brothers }) {
         <div className={classes.root}>
 
             <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
-                {brothers.map((tile) => (
-                    <Grid item xs={3}>                   
+                {brothers.map((tile, i) => (
+                    <Grid item xs={3} key={i}>                   
                         
                         <div class={"content"}>
                             <Link to={nameToPath(tile.name)}>

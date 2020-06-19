@@ -24,17 +24,6 @@ const useStyles = makeStyles((theme) => ({
         color: "black",
         flexGrow: 1,
         minHeight: "100vh"
-        // alignItems: "center",
-        // display: flex;
-        // flex - direction: column;
-    },
-    appMain: {
-        // minHeight: "50vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        // font - size: calc(10px + 2vmin);
     },
 }));
 

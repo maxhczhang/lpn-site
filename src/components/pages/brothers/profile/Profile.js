@@ -11,7 +11,7 @@ import ProfileArray from './ProfileArray'
 
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { isClassExpression } from 'typescript';
+
 
 const useStyles = makeStyles((theme) => ({
     img: {
@@ -90,7 +90,7 @@ export default function Profile({setPage, match}) {
                     
                     <Grid item xs={6} container direction="column" spacing={2}>
                         <Grid item xs>
-                            <Typography gutterBottom variant="subtitle1">
+                            <Typography gutterBottom variant="subtitle1" component="div">
                         
                                 <ProfileSingle profile={profile} field="major" title="Major"></ProfileSingle>
                                 <ProfileSingle profile={profile} field="minor" title="Minor"></ProfileSingle>
@@ -105,7 +105,7 @@ export default function Profile({setPage, match}) {
                     
                     <Grid item xs={6} container direction="column" spacing={2}>
                         <Grid item xs>
-                            <Typography>
+                            <Typography component="div">
 
                                 <ProfileArray profile={profile} field="experience" title="Work Experience"></ProfileArray>
                                 <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements"></ProfileArray>
@@ -119,8 +119,8 @@ export default function Profile({setPage, match}) {
 
             </Grid>
 
-            <Box mt={2} ml={20} mr={20} className={classes.root}>
-                <Typography>
+            <Box mt={2} ml={14} mr={14} className={classes.root}>
+                <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                         Why ΛΦΝ?
                     </Box>
