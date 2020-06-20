@@ -1,39 +1,16 @@
-import Lucian from '../../../../static/images/actives/directors/Lucian_Liu.jpg'
-
-import Sera from '../../../../static/images/actives/directors/finance/Sera_Xu.jpg'
-import Alex from '../../../../static/images/actives/directors/finance/Alex_Cole.jpg'
-
-//import Ben from '../../../../static/images/actives/directors/information/Ben_Fan.jpg'
-import Serina from '../../../../static/images/actives/directors/information/Serina_Nguyen.jpg'
-import Vivi from '../../../../static/images/actives/directors/information/Vivi_Liu.jpg'
-import Ryan from '../../../../static/images/actives/directors/information/Ryan_Miranda.jpg'
-
-import Ian from '../../../../static/images/actives/directors/operations/Ian_Han.jpg'
-import Yong from '../../../../static/images/actives/directors/operations/Yong_Lin.jpg'
-import Josh from '../../../../static/images/actives/directors/operations/Joshua_Tong.jpg'
-import Tyler from '../../../../static/images/actives/directors/operations/Tyler_Newman.jpg'
-import Cat from '../../../../static/images/actives/directors/operations/Catherine_Nguyen.jpg'
-
-import Raymond from '../../../../static/images/actives/directors/talent/Raymond_Dinh.jpg'
-import Emily from '../../../../static/images/actives/directors/talent/Emily_Quynh_Nguyen.jpeg'
-import Jasmin from '../../../../static/images/actives/directors/talent/Jasmin_He.jpg'
-import Faith from '../../../../static/images/actives/directors/talent/Faith_Chia.jpg'
-import Jeffrey from '../../../../static/images/actives/directors/talent/Jeffrey_Cho.jpg'
-
-
 export const directors = [
     {
-        img: Lucian,
+        img: require('../../../../static/images/actives/directors/Lucian_Liu.jpg'),
         name: "Lucian Liu",
         title: ' - Strategy Director'
     },
     {
-        img: Sera,
+        img: require('../../../../static/images/actives/directors/finance/Sera_Xu.jpg'),
         name: "Sera Xu",
         title: ' - Corporate Relations Director'
     },
     {
-        img: Alex,
+        img: require('../../../../static/images/actives/directors/finance/Alex_Cole.jpg'),
         name: "Alex Cole",
         title: ' - Finance Director'
     },
@@ -43,67 +20,67 @@ export const directors = [
     //     title: ' - Information Systems Director'
     // },
     {
-        img: Serina,
+        img: require('../../../../static/images/actives/directors/information/Serina_Nguyen.jpg'),
         name: "Serina Nguyen",
         title: ' - Marketing Director'
     },
     {
-        img: Vivi,
+        img: require('../../../../static/images/actives/directors/information/Vivi_Liu.jpg'),
         name: "Vivi Liu",
         title: ' - Marketing Director'
     },
     {
-        img: Ryan,
+        img: require('../../../../static/images/actives/directors/information/Ryan_Miranda.jpg'),
         name: "Ryan Miranda",
         title: ' - Webmaster, Associate Counselor'
     },
     {
-        img: Ian,
+        img: require('../../../../static/images/actives/directors/operations/Ian_Han.jpg'),
         name: "Ian Han",
         title: ' - Alumni Relations Director'
     },
     {
-        img: Yong,
+        img: require('../../../../static/images/actives/directors/operations/Yong_Lin.jpg'),
         name: "Yong Lin",
         title: ' - Career Catalyst Director'
     },
     {
-        img: Josh,
+        img: require('../../../../static/images/actives/directors/operations/Joshua_Tong.jpg'),
         name: "Joshua Tong",
         title: ' - Culture & Relationships Director'
     },
     {
-        img: Tyler,
+        img: require('../../../../static/images/actives/directors/operations/Tyler_Newman.jpg'),
         name: "Tyler Newman",
         title: ' - Culture & Relationships Director'
     },
     {
-        img: Cat,
+        img: require('../../../../static/images/actives/directors/operations/Catherine_Nguyen.jpg'),
         name: "Catherine Nguyen",
         title: ' - Social Impact Director'
     },
     {
-        img: Raymond,
+        img: require('../../../../static/images/actives/directors/talent/Raymond_Dinh.jpg'),
         name: "Raymond Dinh",
         title: ' - Associate Auditor'
     },
     {
-        img: Emily,
+        img: require('../../../../static/images/actives/directors/talent/Emily_Quynh_Nguyen.jpeg'),
         name: "Emily Nguyen",
         title: ' - Associate Counselor'
     },
     {
-        img: Jasmin,
+        img: require('../../../../static/images/actives/directors/talent/Jasmin_He.jpg'),
         name: "Jasmin He",
         title: ' - Associate Educator'
     },
     {
-        img: Faith,
+        img: require('../../../../static/images/actives/directors/talent/Faith_Chia.jpg'),
         name: "Faith Chia",
         title: ' - Recruiter'
     },
     {
-        img: Jeffrey,
+        img: require('../../../../static/images/actives/directors/talent/Jeffrey_Cho.jpg'),
         name: "Jeffrey Cho",
         title: ' - Recruiter'
     },

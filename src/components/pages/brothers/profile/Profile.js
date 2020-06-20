@@ -63,7 +63,7 @@ export default function Profile({setPage, match}) {
         <Box mt={6} mb={6}>
             <Grid container spacing={2} direction="row" justify="center" alignItems="center">
                 
-                <Grid item xs={6} sm container direction="column" ustify="center" alignItems="center" spacing={2} >
+                <Grid item xs={6} sm container direction="column" justify="center" alignItems="center" spacing={2} >
                     <Grid item>
                         <div className={classes.content}>
                             <img className={classes.img} alt={name} src={profile["img"]}/>
@@ -76,13 +76,15 @@ export default function Profile({setPage, match}) {
                                 {name}
                             </Box>
                         </Grid>
-                        <Grid item>
-                            <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                <IconButton size="medium" aria-label="LinkedIn" color="inherit">
-                                    <LinkedInIcon></LinkedInIcon>
-                                </IconButton>
-                            </a>
-                        </Grid>
+                        {profile["linkedIn"] !== "" && 
+                            <Grid item>
+                                <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
+                                    <IconButton size="medium" aria-label="LinkedIn" color="inherit">
+                                        <LinkedInIcon></LinkedInIcon>
+                                    </IconButton>
+                                </a>
+                            </Grid>
+                        }
                     </Grid>
                 </Grid>
                 
@@ -119,16 +121,18 @@ export default function Profile({setPage, match}) {
 
             </Grid>
 
-            <Box mt={2} ml={14} mr={14} className={classes.root}>
-                <Typography component="div">
-                    <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
-                        Why ΛΦΝ?
+            {profile["whyLPN"] !== "" && 
+                <Box mt={2} ml={14} mr={14} className={classes.root}>
+                    <Typography component="div">
+                        <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
+                            Why ΛΦΝ?
                     </Box>
-                    <Box fontStyle="italic" fontSize="h6.fontSize">
-                        "{profile["whyLPN"]}"
+                        <Box fontStyle="italic" fontSize="h6.fontSize">
+                            "{profile["whyLPN"]}"
                     </Box>
-                </Typography>
-            </Box>
+                    </Typography>
+                </Box>
+            }
         </Box>
     )
 }

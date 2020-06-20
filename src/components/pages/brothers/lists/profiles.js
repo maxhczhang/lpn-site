@@ -8,7 +8,7 @@ export const profiles = {
         minor: "",
         emphasis: "Finance, Accounting",
         gradYear: "2022",
-        linkedIn: "http://linkedin.com/in/tiffanylwong/",
+        linkedIn: "https://linkedin.com/in/tiffanylwong/",
         practice: "Tax",
         interests: ["cooking", "sports", "hiking"],
         experience: ["KPMG",],
@@ -17,7 +17,7 @@ export const profiles = {
         img: require("../../../../static/images/actives/csuite/Tiffany_Wong.jpg")
     },
     Sahana_Vairavaraj: {        
-        linkedIn: "www.linkedin.com/in/sahana-vairavaraj",
+        linkedIn: "https://www.linkedin.com/in/sahana-vairavaraj",
         homeTown: "Cypress, CA",
         gradYear: 2022,
         class: "Mu",
@@ -122,7 +122,7 @@ export const profiles = {
         minor: "",
         emphasis: "Organization & Management, Information Systems",
         gradYear: 2021,
-        linkedIn: "http://linkedin.com/in/jeffreywellscho",
+        linkedIn: "https://linkedin.com/in/jeffreywellscho",
         practice: "Human Resources",
         interests: ["Traveling", "Japanese Anime", "Board Games"],
         experience: ["Western Digital, RAMP HR Intern"],
@@ -359,7 +359,7 @@ export const profiles = {
         img: require("../../../../static/images/actives/brothers/David_Sonq.jpg"),
     },
     Sandy_Nguyen: {
-        linkedIn: "http://linkedin.com/in/-sandy-nguyen",
+        linkedIn: "https://linkedin.com/in/-sandy-nguyen",
         homeTown: "West Covina, CA",
         gradYear: 2022,
         class: "Kappa",
@@ -389,7 +389,7 @@ export const profiles = {
         img: require("../../../../static/images/actives/brothers/Naishal_Shah.jpg")
     },
     Tiffany_Chan: {
-        linkedIn: "www.linkedin.com/in/tiffanyh-chan",
+        linkedIn: "https://www.linkedin.com/in/tiffanyh-chan",
         homeTown: "San Francisco, CA",
         gradYear: 2021,
         class: "Iota",
@@ -404,7 +404,7 @@ export const profiles = {
         img: require("../../../../static/images/actives/brothers/Tiffany_Chan.jpg")
     },
     Linda_Woo: {
-        linkedIn: "http://linkedin.com/in/lindawoo",
+        linkedIn: "https://linkedin.com/in/lindawoo",
         homeTown: "San Gabriel, CA",
         gradYear: 2022,
         class: "Mu",

@@ -1,38 +1,31 @@
-import Julian from '../../../../static/images/actives/csuite/Julian_Rachman.jpg'
-import Tiffany from '../../../../static/images/actives/csuite/Tiffany_Wong.jpg'
-import LeAn from '../../../../static/images/actives/csuite/Le_An_Pham.jpg'
-import Matthew from '../../../../static/images/actives/csuite/Matthew_Nagata.jpg'
-import Astyr from '../../../../static/images/actives/csuite/Astyr_Ko.jpg'
-import Sahana from '../../../../static/images/actives/csuite/Sahana_Vairavaraj.jpg'
-
 export const csuite = [
     {
-        img: Julian,
+        img: require('../../../../static/images/actives/csuite/Julian_Rachman.jpg'),
         name: "Julian Rachman",
         title: ' - CEO'
     },
     {
-        img: Tiffany,
+        img: require('../../../../static/images/actives/csuite/Tiffany_Wong.jpg'),
         name: "Tiffany Wong",
         title: ' - CFO'
     },
     {
-        img: LeAn,
+        img: require('../../../../static/images/actives/csuite/Le_An_Pham.jpg'),
         name: "Le An Pham",
         title: ' - CIO'
     },
     {
-        img: Matthew,
+        img: require('../../../../static/images/actives/csuite/Matthew_Nagata.jpg'),
         name: "Matthew Nagata",
         title: ' - COO'
     },
     {
-        img: Astyr,
+        img: require('../../../../static/images/actives/csuite/Astyr_Ko.jpg'),
         name: "Astyr Ko",
         title: ' - Primary CTO'
     },
     {
-        img: Sahana,
+        img: require('../../../../static/images/actives/csuite/Sahana_Vairavaraj.jpg'),
         name: "Sahana Vairavaraj",
         title: ' - Secondary CTO'
     },
