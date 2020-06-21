@@ -31,17 +31,17 @@ export default function ActiveBrothers({ setPage }) {
             <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
                 C-Suite
             </Box>
-            <BrothersList brothers={csuite}></BrothersList>
+            <BrothersList brothers={csuite} isCsuite={true}></BrothersList>
 
             <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
                 Directors
             </Box>
-            <BrothersList brothers={directors}></BrothersList>
+            <BrothersList brothers={directors} isCsuite={false}></BrothersList>
 
             <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
                 Brothers
             </Box>
-            <BrothersList brothers={brothers}></BrothersList>
+            <BrothersList brothers={brothers} isCsuite={false}></BrothersList>
         </div>
     )
 }

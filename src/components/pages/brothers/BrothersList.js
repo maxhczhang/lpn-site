@@ -2,9 +2,12 @@ import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import styles from './brothers.css'
-
 import { Link } from 'react-router-dom'
+import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component';
+
+import './brothers.css'
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -27,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function BrothersList({ brothers }) {
+const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     const classes = useStyles();
 
     const nameToPath = (name) => {
@@ -44,7 +47,18 @@ export default function BrothersList({ brothers }) {
                         
                         <div class={"content"}>
                             <Link to={nameToPath(tile.name)}>
-                                <img src={tile.img} alt={tile.title} className={classes.image} />
+                                {/* <img src={tile.img} alt={tile.title} className={classes.image} /> */}
+                                <LazyLoadImage
+                                    key={i}
+                                    alt={tile.name}
+                                    height="100%"
+                                    scrollPosition={scrollPosition}
+                                    src={tile.img}
+                                    width="100%"
+                                    effect="blur"
+                                    visibleByDefault={isCsuite && i < 4}
+                                    // afterLoad={() => {console.log(tile.name + " loaded")}}
+                                />
                                 
                                 <div class="content-overlay"></div>
 
@@ -63,3 +77,5 @@ export default function BrothersList({ brothers }) {
         </div>
     )
 }
+
+export default trackWindowScroll(BrothersList);
