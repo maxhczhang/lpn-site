@@ -16,7 +16,11 @@ import BckgrndSelector from './BckgrndSelector'
 import { makeStyles } from '@material-ui/core/styles';
 
 import {BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 
+
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
 const useStyles = makeStyles((theme) => ({
     app: {
@@ -48,7 +52,7 @@ export default function LPNSite() {
         <Router>
             <div>
                 <div className={classes.app}>
-
+                    <ThemeProvider theme={theme}>
                     <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
                     <Switch>
@@ -92,6 +96,7 @@ export default function LPNSite() {
                     </Switch>
                 
                     <Footer></Footer>
+                    </ThemeProvider>
                 </div>
             </div>
            

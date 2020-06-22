@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom'
 import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component';
+import { isMobile } from 'react-device-detect';
 
 import './brothers.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -32,6 +33,13 @@ const useStyles = makeStyles((theme) => ({
 
 const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     const classes = useStyles();
+    let cols;
+
+    if (isMobile) {
+        cols = 6;
+    } else {
+        cols = 3;
+    }
 
     const nameToPath = (name) => {
         const path = name.toLowerCase().replace(/ +/g, '-')
@@ -43,7 +51,7 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
 
             <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
                 {brothers.map((tile, i) => (
-                    <Grid item xs={3} key={i}>                   
+                    <Grid item xs={cols} key={i}>                   
                         
                         <div class={"content"}>
                             <Link to={nameToPath(tile.name)}>
@@ -51,12 +59,12 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
-                                    height="100%"
+                                    height="auto"
+                                    width="100%"
                                     scrollPosition={scrollPosition}
                                     src={tile.img}
-                                    width="100%"
                                     effect="blur"
-                                    visibleByDefault={isCsuite && i < 4}
+                                    // visibleByDefault={isCsuite && i < 4}
                                     // afterLoad={() => {console.log(tile.name + " loaded")}}
                                 />
                                 

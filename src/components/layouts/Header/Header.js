@@ -12,10 +12,14 @@ import { Link } from "react-router-dom";
 
 import MyMenu from './MyMenu'
 
+import MobileMenu from './MobileMenu'
+
+import { isMobile } from 'react-device-detect';
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: 120,
+    height: "10vh",
+    marginLeft: theme.spacing(2),
   },
   link: {
     color: "white"
@@ -30,7 +34,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgb(0,0,0,0.5)'
   },
   joinButton: {
-    backgroundColor: '#003273'
+    backgroundColor: '#003273',
+    marginRight: theme.spacing(2),
   }
 }));
 
@@ -41,38 +46,52 @@ export default function Header({ setPage, pageNum }) {
       <React.Fragment>
         <AppBar position='static' className={classes.appBar}>
           <div className={classes.root}>
-            <Grid container direction="row" justify="space-evenly" alignItems="center">
+            <Grid container direction="row" justify="space-between" alignItems="center">
               <Grid item>
                 <Link to="/">
                   <img src={logo_white} className={classes.logo} alt="LPN"></img>
                 </Link>
               </Grid>
 
-              <Grid item>
-                <Box>
-                  <Button size="large" color="inherit" component={Link} to="/">Home</Button>
-                  
-                  <Button size="large"color="inherit" component={Link} to="/about">About</Button>
-                  
-                  <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"} setPage={setPage}></MyMenu>
-                  
-                  <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
-                            
-                  <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"} setPage={setPage}></MyMenu>
-                
-                  <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
-                  
-                  <Button size="large" color="inherit" component={Link} to="/contact">Contact</Button>
-                </Box>
-              </Grid>
-
-              <Grid item>
-                <Button variant="contained" size="large" color="inherit" component={Link} to="/fall-rush-2020" 
+              {isMobile &&
+                <Grid item>
+                  <Button variant="contained" size="medium" color="inherit" component={Link} to="/fall-rush-2020"
                     className={classes.joinButton}>
-                      Join Us
-                </Button>
-              </Grid>
+                    Join Us
+                  </Button>
+                </Grid>
+              }
 
+              {isMobile 
+                ? <MobileMenu></MobileMenu>
+                : <Grid item>
+                  <Box>
+                    <Button size="large" color="inherit" component={Link} to="/">Home</Button>
+
+                    <Button size="large" color="inherit" component={Link} to="/about">About</Button>
+
+                    <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"} setPage={setPage}></MyMenu>
+
+                    <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
+
+                    <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"} setPage={setPage}></MyMenu>
+
+                    <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
+
+                    <Button size="large" color="inherit" component={Link} to="/contact">Contact</Button>
+                  </Box>
+                </Grid>
+              }
+            
+              {!isMobile &&
+                <Grid item>
+                  <Button variant="contained" size="large" color="inherit" component={Link} to="/fall-rush-2020"
+                  className={classes.joinButton}>
+                  Join Us
+                  </Button>
+                </Grid>
+              }
+              
             </Grid>
           </div>
         </AppBar>

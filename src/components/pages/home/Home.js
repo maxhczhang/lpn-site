@@ -26,8 +26,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     logo: {
-        height: "20%",
-        width: "20%"
+        height: "15vh",
+        width: "15vh"
     },
     interviews: {
         position: "relative",

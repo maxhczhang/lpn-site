@@ -431,7 +431,7 @@ export const profiles = {
         campusInvolvements: ["Lambda Phi Nu, Finance Associate"],
         interests: ["Trombone", "Hiking", "Going to the Gym", "Playing Video Games"],
         whyLPN: "I joined LPN because I wanted to join a community of like-minded, driven individuals in order to prepare myself for the real world. On top of that, I met people that I would call family. As a first-year, I had no professional experience whatsoever. I was very overwhelmed, and I was struggling to find a community. LPN gave me the community I was looking for while helping me prepare to be the best version of myself I can be. ",
-        img: require("../../../../static/images/actives/brothers/Linda_Woo.jpg")
+        img: require("../../../../static/images/actives/brothers/Omar_Naji.jpg")
     },
     Andrew_Duong: {
         linkedIn: "",
