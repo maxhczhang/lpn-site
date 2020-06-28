@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         position: "relative",
         zIndex: 1,
         color: "white",
-        marginTop: "35%",
+        marginTop: "25vh",
     },
     smBckgrndContent: {
         display: "flex",
@@ -27,16 +27,16 @@ const useStyles = makeStyles((theme) => ({
         position: "relative",
         zIndex: 1,
         color: "white",
-        marginTop: "6%",
+        marginTop: "10vh",
     },
-    noParallaxlBckground: {
+    noParallaxBckground: {
         display: "flex",
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
         color: "black",
-        marginTop: "6%",
+        marginTop: "6vh",
     }
 }));
 
@@ -67,7 +67,7 @@ export default function HeaderContent({pageNum}) {
         case 1:
             return (
                 <Box className={classes.content}>
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize='5rem'>
                         About Us
                     </Box>
                 </Box>
@@ -75,7 +75,7 @@ export default function HeaderContent({pageNum}) {
 
         case 2:
             return (
-                <Box className={classes.noParallaxlBckground}>
+                <Box className={classes.noParallaxBckground}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
                         Active Brothers
                     </Box> 
@@ -87,7 +87,7 @@ export default function HeaderContent({pageNum}) {
         case 3:
             return (
                 <Box className={classes.smBckgrndContent}>
-                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
                         Campus Involvement
                     </Box>
                 </Box>

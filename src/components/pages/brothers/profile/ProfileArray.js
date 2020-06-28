@@ -1,9 +1,9 @@
 import React from 'react'
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { isMobile } from 'react-device-detect';
 
-export default function ProfileArray({profile, field, title}) {
+
+export default function ProfileArray({profile, field, title, isMobile}) {
     
     if ((Array.isArray(profile[field]) && profile[field].length > 0)) {
 

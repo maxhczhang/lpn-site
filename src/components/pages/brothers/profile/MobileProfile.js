@@ -42,19 +42,19 @@ export default function MobileProfile({name, profile, classes}) {
                     <Grid container direction="row" spacing={2} >
                         <Grid item xs={6}>
                             <Typography component="div">
-                                <ProfileSingle profile={profile} field="major" title="Major"></ProfileSingle>
-                                <ProfileSingle profile={profile} field="minor" title="Minor"></ProfileSingle>
-                                <ProfileSingle profile={profile} field="emphasis" title="Emphasis"></ProfileSingle>
-                                <ProfileSingle profile={profile} field="practice" title="Practice"></ProfileSingle>
-                                <ProfileSingle profile={profile} field="class" title="Class"></ProfileSingle>
-                                <ProfileSingle profile={profile} field="gradYear" title="Graduation Year"></ProfileSingle>
+                                <ProfileSingle profile={profile} field="major" title="Major" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="minor" title="Minor" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="emphasis" title="Emphasis" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="class" title="Class" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="gradYear" title="Graduation Year" isMobile={true}></ProfileSingle>
                             </Typography>
                         </Grid>
                         <Grid item xs={6}>
                             <Typography component="div">
-                                <ProfileArray profile={profile} field="experience" title="Work Experience"></ProfileArray>
-                                <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements"></ProfileArray>
-                                <ProfileArray profile={profile} field="interests" title="Interests"></ProfileArray>
+                                <ProfileArray profile={profile} field="experience" title="Work Experience" isMobile={true}></ProfileArray>
+                                <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements" isMobile={true}></ProfileArray>
+                                <ProfileArray profile={profile} field="interests" title="Interests" isMobile={true}></ProfileArray>
                             </Typography>
                         </Grid>
                     </Grid>

@@ -7,14 +7,12 @@ import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
 
 import logo_white from '../../../static/images/logo_white.png';
+import MyMenu from './MyMenu'
+import MobileMenu from './MobileMenu'
+import useWindowDimensions from '../../WindowListener'
 
 import { Link } from "react-router-dom";
 
-import MyMenu from './MyMenu'
-
-import MobileMenu from './MobileMenu'
-
-import { isMobile } from 'react-device-detect';
 
 const useStyles = makeStyles((theme) => ({
   logo: {
@@ -41,9 +39,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Header({ setPage, pageNum }) {
     const classes = useStyles();
+
+    const { height, width } = useWindowDimensions();
+    const isMobile = width < 700;
     
     return (
       <React.Fragment>
+        
         <AppBar position='static' className={classes.appBar}>
           <div className={classes.root}>
             <Grid container direction="row" justify="space-between" alignItems="center">

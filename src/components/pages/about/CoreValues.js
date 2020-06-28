@@ -2,6 +2,7 @@ import React from 'react'
 
 import Grid from '@material-ui/core/Grid';
 import CoreValue from './CoreValue'
+import useWindowDimensions from '../../WindowListener'
 
 import curiosity from '../../../static/coreValues/curiosity.png'
 import excellence from '../../../static/coreValues/excellence.png'
@@ -11,11 +12,20 @@ import altruism from '../../../static/coreValues/altruism.png'
 
 
 export default function CoreValues() {
+    const { height, width } = useWindowDimensions();
+    const isMobile = width < 700;
+    
+    let cols;
+    if (isMobile) {
+        cols = 6;
+    } else {
+        cols = 4;
+    }
 
     return (
-        <Grid container direction="row" justify="space-evenly" alignItems="center">
+        <Grid container direction="row" justify="center" alignItems="center">
 
-            <Grid item xs >
+            <Grid item xs={cols} >
                 <CoreValue 
                     image={curiosity} 
                     title="Curiosity"
@@ -25,7 +35,7 @@ export default function CoreValues() {
                 ></CoreValue>
             </Grid>
             
-            <Grid item xs>
+            <Grid item xs={cols}>
                 <CoreValue
                     image={excellence}
                     title="Excellence"
@@ -35,7 +45,7 @@ export default function CoreValues() {
                 ></CoreValue>                
             </Grid>
 
-            <Grid item xs>
+            <Grid item xs={cols}>
                 <CoreValue
                     image={relationships}
                     title="Relationships"
@@ -45,7 +55,7 @@ export default function CoreValues() {
                 ></CoreValue>         
             </Grid>
 
-            <Grid item xs>
+            <Grid item xs={cols}>
                 <CoreValue
                     image={integrity}
                     title="Integrity"
@@ -54,7 +64,7 @@ export default function CoreValues() {
                 ></CoreValue>         
             </Grid>
 
-            <Grid item xs>
+            <Grid item xs={cols}>
                 <CoreValue
                     image={altruism}
                     title="Altruism"

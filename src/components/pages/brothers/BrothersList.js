@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom'
 import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component';
-import { isMobile } from 'react-device-detect';
+import useWindowDimensions from '../../WindowListener'
 
 import './brothers.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -34,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
 const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     const classes = useStyles();
     let cols;
+
+    const { height, width } = useWindowDimensions();
+    const isMobile = width < 700;
 
     if (isMobile) {
         cols = 6;

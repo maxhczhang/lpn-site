@@ -1,9 +1,9 @@
 import React from 'react'
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { isMobile } from 'react-device-detect';
 
-export default function ProfileSingle({profile, field, title}) {
+
+export default function ProfileSingle({profile, field, title, isMobile}) {
     
     if (profile[field] !== "") {
 
