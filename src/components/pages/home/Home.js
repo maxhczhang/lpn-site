@@ -155,7 +155,7 @@ export default function Home({ setPage }) {
                 </div>
             </ParallaxBanner>
 
-            <Box m={4} align="center">
+            <Box mt={6} mb={6} align="center">
                 <Typography component="div">
                     <Box fontSize="h3.fontSize" fontWeight="fontWeightBold">
                         Where We Work

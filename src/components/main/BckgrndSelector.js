@@ -5,8 +5,9 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
 
-import buildings from '../../static/images/buildings.jpg'
-import seniors from '../../static/images/seniors.jpg'
+import buildings from '../../static/images/backgrounds/buildings.jpg'
+import seniors from '../../static/images/backgrounds/seniors.jpg'
+import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
 import merage_at_night from '../../static/images/merage_at_night.jpg'
 
 
@@ -65,6 +66,29 @@ export default function BckgrndSelector({ pageNum }) {
                     <Header></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
+            )
+
+        case 3:
+            return (
+                <ParallaxBanner
+                    style={{
+                        height: "50vh"
+                    }}
+                    layers={[
+                        {
+                            image: `url(${lpn_in_park})`,
+                            amount: 0.2,
+                            props: {
+                                style: {
+                                    backgroundImage: `url(${lpn_in_park})`,
+                                }
+                            },
+                        },
+                    ]}
+                >
+                    <Header></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </ParallaxBanner>
             )
 
         case 10:

@@ -29,6 +29,8 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   appBar: {
+    position: "relative",
+    zIndex: 1,
     backgroundColor: 'rgb(0,0,0,0.5)'
   },
   joinButton: {
