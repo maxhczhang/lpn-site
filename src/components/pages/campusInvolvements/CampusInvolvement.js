@@ -5,8 +5,6 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import MaterialTable from 'material-table';
 
-import involvements from './involvements'
-
 
 const useStyles = makeStyles((theme) => ({
     root: {
