@@ -96,7 +96,7 @@ export default function HeaderContent({pageNum}) {
         case 4:
             return (
                 <Box className={classes.smBckgrndContent}>
-                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
                         Careers
                     </Box>
                 </Box>

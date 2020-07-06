@@ -224,7 +224,7 @@ export const profiles = {
     Ryan_Miranda: {
         linkedIn: "https://www.linkedin.com/in/ryan-miranda-/",
         homeTown: "Cupertino, CA",
-        gradYear: 2021,
+        gradYear: 2022,
         class: "Xi",
         major: "Computer Science",
         minor: "",

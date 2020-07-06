@@ -9,6 +9,7 @@ import buildings from '../../static/images/backgrounds/buildings.jpg'
 import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
 import merage_at_night from '../../static/images/merage_at_night.jpg'
+import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
 
 
 export default function BckgrndSelector({ pageNum }) {
@@ -81,6 +82,29 @@ export default function BckgrndSelector({ pageNum }) {
                             props: {
                                 style: {
                                     backgroundImage: `url(${lpn_in_park})`,
+                                }
+                            },
+                        },
+                    ]}
+                >
+                    <Header></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </ParallaxBanner>
+            )
+
+        case 4:
+            return (
+                <ParallaxBanner
+                    style={{
+                        height: "50vh"
+                    }}
+                    layers={[
+                        {
+                            image: `url(${Careers_Background})`,
+                            amount: 0.2,
+                            props: {
+                                style: {
+                                    backgroundImage: `url(${Careers_Background})`,
                                 }
                             },
                         },

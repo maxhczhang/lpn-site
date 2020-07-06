@@ -28,7 +28,6 @@ export default function CampusInvolvement({ setPage }) {
 
     return (
         <Box mt={6} mb={6} className={classes.root}>
-
             
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize">
@@ -38,7 +37,7 @@ export default function CampusInvolvement({ setPage }) {
                 </Box>
             </Typography>
 
-            <Box mt={6}>
+            <Box mt={6} style={{width: "80%"}}>
                 <MaterialTable
                     title="2020 - 2021 Involvements"
                     columns={[
@@ -85,14 +84,13 @@ export default function CampusInvolvement({ setPage }) {
                             backgroundColor: '#003273',
                             color: '#FFF',
                         },
-                        pageSize: 10
+                        pageSize: 20,
                     }}
                     localization={{
                         grouping: {
                             placeholder: 'Drag Name, Organization, or Position here to group by'
                         }
                     }}
-                    
                 />
             </Box>
 
