@@ -32,8 +32,8 @@ export const brothers = [
         name: "Omar Naji",
     },
     {
-        img: require("../../../../static/images/actives/brothers/Philip_Cheung.jpg"),
-        name: "Philip Cheung",
+        img: require('../../../../static/images/actives/directors/talent/Jeffrey_Cho.jpg'),
+        name: "Jeffrey Cho",
     },
     {
         img: require("../../../../static/images/actives/brothers/Sandy_Nguyen.jpg"),

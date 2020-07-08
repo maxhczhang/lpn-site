@@ -51,6 +51,7 @@ export default function BckgrndSelector({ pageNum }) {
                             props: {
                                 style: {
                                     backgroundImage: `url(${seniors})`,
+                                    backgroundPosition: "center bottom"
                                 }
                             },
                         },
@@ -73,7 +74,8 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "50vh"
+                        height: "50vh",
+                        
                     }}
                     layers={[
                         {
@@ -82,6 +84,7 @@ export default function BckgrndSelector({ pageNum }) {
                             props: {
                                 style: {
                                     backgroundImage: `url(${lpn_in_park})`,
+                                    backgroundPosition: "center top"
                                 }
                             },
                         },
@@ -105,6 +108,7 @@ export default function BckgrndSelector({ pageNum }) {
                             props: {
                                 style: {
                                     backgroundImage: `url(${Careers_Background})`,
+                                    backgroundPosition: "center top"
                                 }
                             },
                         },

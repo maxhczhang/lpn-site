@@ -200,7 +200,7 @@ export const profiles = {
         minor: "",
         emphasis: "Marketing, Organizational Behavior",
         practice: "Marketing",
-        experience: ["Seagate Technology, Consumer Group Pricing Analytics & Strategy Intern"],
+        experience: ["Seagate Technology, Product Line Management Intern"],
         campusInvolvements: ["Undergraduate Finance Association, Marketing Director", "Marketing Association, VP of Internal Affairs"],
         interests: ["Podcasts", "Calligraphy", "Real Estate", "Thrifting"],
         whyLPN: "",

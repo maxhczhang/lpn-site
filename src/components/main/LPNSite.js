@@ -15,7 +15,7 @@ import Footer from '../layouts/Footer'
 import BckgrndSelector from './BckgrndSelector'
 import { makeStyles } from '@material-ui/core/styles';
 
-import {BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+import {HashRouter, Switch, Route, } from "react-router-dom";
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 
 
@@ -49,7 +49,7 @@ export default function LPNSite() {
     }
 
     return (
-        <Router>
+        <HashRouter basename='/'>
             <div>
                 <div className={classes.app}>
                     <ThemeProvider theme={theme}>
@@ -100,6 +100,6 @@ export default function LPNSite() {
                 </div>
             </div>
            
-        </Router>
+        </HashRouter>
     )
 }

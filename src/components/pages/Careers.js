@@ -43,8 +43,9 @@ export default function Careers({ setPage }) {
                     columns={[
                         { title: 'Name', field: 'name' },
                         { title: 'Company', field: 'company' },
-                        { title: 'Industry', field: 'industry' },
                         { title: 'Position', field: 'position' },
+                        { title: 'Industry', field: 'industry' },
+                        
                     ]}
                     data={[
                         { name: 'Jeff Lu', company: 'Accenture', position: "Management Consultant", industry: "Consulting" },
@@ -100,7 +101,7 @@ export default function Careers({ setPage }) {
                         { name: 'Serina Nguyen', company: 'Issu', position: "Marketing Projects Intern", industry: "Marketing" },
                         { name: 'David Sonq', company: 'EY', position: "Tax Intern", industry: "Accounting" },
                         { name: 'Vivi Liu', company: 'UCI Biological Sciences', position: "Marketing Intern", industry: "Marketing" },
-                        { name: 'Jasmin He', company: 'Seagate Technology', position: "Consumer Pricing Analytics & Strategy Intern", industry: "Strategy" },
+                        { name: 'Jasmin He', company: 'Seagate Technology', position: "Consumer Pricing Analytics & Strategy Intern", industry: "Product" },
                         { name: 'Joshua Tong', company: 'Anteater Recreation Center', position: "Marketing Assistant", industry: "Marketing" },
                         { name: 'Jeffrey Cho', company: 'Western Digital', position: "RAMP Human Resources Intern", industry: "HR" },
                         { name: 'Omar Naji', company: 'NUDA Juice & Wellness', position: "Marketing Strategy Intern", industry: "Marketing" },

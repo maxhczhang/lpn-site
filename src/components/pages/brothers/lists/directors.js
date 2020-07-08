@@ -80,8 +80,8 @@ export const directors = [
         title: ' - Recruiter'
     },
     {
-        img: require('../../../../static/images/actives/directors/talent/Jeffrey_Cho.jpg'),
-        name: "Jeffrey Cho",
+        img: require("../../../../static/images/actives/brothers/Philip_Cheung.jpg"),
+        name: "Philip Cheung",
         title: ' - Recruiter'
     },
 ];
