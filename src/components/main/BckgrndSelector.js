@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { ParallaxBanner } from 'react-scroll-parallax';
-
 import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
 
@@ -10,6 +8,8 @@ import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
 import merage_at_night from '../../static/images/merage_at_night.jpg'
 import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
+
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 
 export default function BckgrndSelector({ pageNum }) {
@@ -111,6 +111,30 @@ export default function BckgrndSelector({ pageNum }) {
                                     backgroundPosition: "center top"
                                 }
                             },
+                        },
+                    ]}
+                >
+                    <Header></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </ParallaxBanner>
+            )
+
+        case 5:
+            return (
+                <ParallaxBanner
+                    style={{
+                        height: "70vh",
+                    }}
+                    layers={[
+                        {
+                            amount: 0.2,
+                            children: 
+                                <iframe width="100%" height="100%"
+                                    src="https://www.youtube-nocookie.com/embed/ZEza9AuQ2Q8?playlist=ZEza9AuQ2Q8&loop=1&autoplay=1&mute=1"
+                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                                    style={{pointerEvents: "none"}}
+                                >
+                                </iframe>
                         },
                     ]}
                 >

@@ -103,11 +103,7 @@ export default function HeaderContent({pageNum}) {
             )
         case 5:
             return (
-                <Box className={classes.smBckgrndContent}>
-                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
-                        Fall Rush 2020
-                    </Box>
-                </Box>
+                <React.Fragment></React.Fragment>
             )
         case 6:
             return (

@@ -50,7 +50,7 @@ export default function About({setPage}) {
                         <Typography component="div">
                             <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
                                 Who Are We?
-                        </Box>
+                            </Box>
                         </Typography>
                     </Grid>
                     <Grid item xs={6}>

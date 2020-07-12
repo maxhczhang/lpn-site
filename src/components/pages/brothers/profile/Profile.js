@@ -73,7 +73,7 @@ export default function Profile({setPage, match}) {
 
                         <Grid item xs={6}>
                             <Grid container direction="column" justify="center">
-                                <Grid item>
+                                <Grid item style={{pointerEvents: "none"}}>
                                     <img className={classes.img} alt={name} src={profile["img"]} />
                                 </Grid>
 
