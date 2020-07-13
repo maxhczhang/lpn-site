@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "#003273",
+        backgroundColor: "#580C1F",
         color: "white"
     },
 }));
@@ -40,7 +40,7 @@ export default function FAQs({setPage}) {
     const classes = useStyles();
 
     return (
-       <Box mt={6} mb={6} className={classes.root}>
+       <Box mt={8} mb={8} className={classes.root}>
 
             <Box mb={2} border={1} className={classes.accordian}>
                 <Accordion>
@@ -121,7 +121,7 @@ export default function FAQs({setPage}) {
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography variant="body1">
-                            Confidential info.
+                            Giving Lucian a haircut.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>

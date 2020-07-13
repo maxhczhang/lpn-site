@@ -27,7 +27,7 @@ export default function Careers({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={6} mb={6} className={classes.root}>
+        <Box mt={8} mb={8} className={classes.root}>
 
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize">
@@ -64,7 +64,7 @@ export default function Careers({ setPage }) {
                     options={{
                         grouping: true,
                         headerStyle: {
-                            backgroundColor: '#003273',
+                            backgroundColor: '#580C1F',
                             color: '#FFF',
                         },
                         pageSize: 10,
@@ -77,7 +77,7 @@ export default function Careers({ setPage }) {
                 />
             </Box>
 
-            <Box mt={6} style={{ width: "80%" }}>
+            <Box mt={8} style={{ width: "80%" }}>
                 <MaterialTable
                     title="2020 Interns"
                     columns={[
@@ -110,7 +110,7 @@ export default function Careers({ setPage }) {
                     options={{
                         grouping: true,
                         headerStyle: {
-                            backgroundColor: '#003273',
+                            backgroundColor: '#580C1F',
                             color: '#FFF',
                         },
                         pageSize: 15,

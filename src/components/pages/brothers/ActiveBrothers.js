@@ -27,21 +27,21 @@ export default function ActiveBrothers({ setPage }) {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
+        <Box mt={8} mb={8} className={classes.root}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mb={2}>
                 C-Suite
             </Box>
             <BrothersList brothers={csuite} isCsuite={true}></BrothersList>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={8} mb={2}>
                 Directors
             </Box>
             <BrothersList brothers={directors} isCsuite={false}></BrothersList>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={8}>
                 Brothers
             </Box>
             <BrothersList brothers={brothers} isCsuite={false}></BrothersList>
-        </div>
+        </Box>
     )
 }

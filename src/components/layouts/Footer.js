@@ -14,7 +14,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles({
     root: {
-        backgroundColor: "#580C1F",
+        backgroundColor: "#001253",
         color: "white",
         height: "12vh",
         display: "flex",

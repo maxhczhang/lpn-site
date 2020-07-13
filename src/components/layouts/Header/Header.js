@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'rgb(0,0,0,0.5)'
   },
   joinButton: {
-    backgroundColor: '#003273',
+    backgroundColor: '#580C1F',
     marginRight: theme.spacing(2),
   }
 }));

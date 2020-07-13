@@ -52,11 +52,11 @@ export default function HeaderContent({pageNum}) {
                     <Typography component="div">
                         <Typist cursor={{show: false}}>
 
-                        <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">{msgs[0]}</Box>
+                        <Box fontWeight="fontWeightBold" fontSize='4rem'>{msgs[0]}</Box>
                         <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
 
-                        <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">{msgs[1]}</Box>
-                        <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">{msgs[2]}</Box>
+                        <Box fontWeight="fontWeightBold" fontSize='6rem'>{msgs[1]}</Box>
+                        <Box fontWeight="fontWeightMedium" fontSize='5rem'>{msgs[2]}</Box>
 
                         </Typist>
                     </Typography>

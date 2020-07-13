@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     logo: {
-        height: "18vh",
-        width: "18vh"
+        height: "20vh",
+        width: "20vh"
     },
     interviews: {
         position: "relative",
@@ -36,11 +36,11 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "#003273",
+        backgroundColor: "#580C1F",
         color: "white"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "60%"
     },
 }));
 
@@ -55,9 +55,9 @@ export default function Home({ setPage }) {
     return (
         <div className={classes.root}>
         
-            <Box mt={6}>
+            <Box mt={8}>
                 <Typography component="div">
-                    <Box fontSize="h3.fontSize" fontWeight="fontWeightBold">
+                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Our Legacy
                     </Box>
                     <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
@@ -68,9 +68,9 @@ export default function Home({ setPage }) {
             
             <Divider></Divider>
 
-            <Box mt={2} mb={4} className={classes.paragraph}>
+            <Box mt={2} mb={6} className={classes.paragraph}>
                 <Typography component="div">
-                    <Box fontSize="h6.fontSize">
+                    <Box fontSize="h6.fontSize" style={{ textAlign: "left" }}>
                         We're a UC Irvine founded business leadership fraternity
                         community for students seeking leadership development and coaching. We immerse our 
                         members into an environment that emulates the professional world to prepare them for a 
@@ -87,43 +87,48 @@ export default function Home({ setPage }) {
 
             <Divider style={{height: 1, width: "60%"}}></Divider>
 
-            <Box mt={2} className={classes.paragraph}>
+            <Box mt={6} mb={6} className={classes.paragraph}>
                 <Grid container spacing={10} direction="row" justify="space-evenly" >
                     <Grid item xs={6}>
                         <Typography component="div" >
-                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
+                            <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Professionalism
                             </Box>
-                            <Box fontSize="h6.fontSize" mt={2} mb={2}>
+                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{textAlign: "left"}}>
                                 With 10 years of history, we have an expansive network of alumni in different industries and companies. 
                                 Our active and alumni brothers help guide and support you to succeed in the professional world. 
                             </Box>
                         </Typography>
 
-                        <Button size="large" variant="contained" className={classes.button} component={Link} to="/careers">
-                            Careers
-                        </Button>
+                        <Box mt={4}>
+                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/careers">
+                                Careers
+                            </Button>
+                        </Box>
                     </Grid>
                     <Grid item xs={6}>
                         <Typography component="div">
-                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
+                            <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Brotherhood
                             </Box>
-                            <Box fontSize="h6.fontSize" mt={2} mb={2}>
+                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{ textAlign: "left" }}>
                                 We aspire to become visionaries, influencers, and mobilizers. This means we dream big, rally support, and get it done,
                                 all while taking care of our brothers, giving back to our community, and making memories.
                             </Box>
                         </Typography>
 
-                        <Button size="large" variant="contained" className={classes.button} component={Link} to="/gallery">
-                            Gallery
-                        </Button>
+                        <Box mt={4}>
+                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/gallery">
+                                Gallery
+                            </Button>
+                        </Box>
                     </Grid>
                 </Grid>
             </Box>
 
+            <Divider style={{ height: 1, width: "60%" }}></Divider>
 
-            <Box mb={6}>
+            <Box mt={4} mb={6}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
               
@@ -150,14 +155,14 @@ export default function Home({ setPage }) {
                     <Typography variant="h3">
                         <Box fontWeight="fontWeightBold">
                             We accept all majors!
-                            </Box>
+                        </Box>
                     </Typography>
                 </div>
             </ParallaxBanner>
 
-            <Box mt={6} mb={6} align="center">
+            <Box mt={6} mb={8} align="center">
                 <Typography component="div">
-                    <Box fontSize="h3.fontSize" fontWeight="fontWeightBold">
+                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Where We Work
                     </Box>
                 </Typography>

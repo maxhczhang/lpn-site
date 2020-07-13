@@ -9,10 +9,6 @@ import RSM from '../../../static/companyLogos/RSM.png'
 
 export const companyLogos = [
     {
-        img: KPMG,
-        title: 'KPMG'
-    },
-    {
         img: Amazon,
         title: 'Amazon'
     },
@@ -39,6 +35,9 @@ export const companyLogos = [
     {
         img: Experian,
         title: 'Experian'
+    }, {
+        img: KPMG,
+        title: 'KPMG'
     },
 ];
 
