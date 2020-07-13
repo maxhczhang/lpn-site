@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lpn-site/static/css/main.4500e54b.chunk.css",
-    "main.js": "/lpn-site/static/js/main.fb8723cb.chunk.js",
-    "main.js.map": "/lpn-site/static/js/main.fb8723cb.chunk.js.map",
+    "main.js": "/lpn-site/static/js/main.af22d483.chunk.js",
+    "main.js.map": "/lpn-site/static/js/main.af22d483.chunk.js.map",
     "runtime-main.js": "/lpn-site/static/js/runtime-main.00264591.js",
     "runtime-main.js.map": "/lpn-site/static/js/runtime-main.00264591.js.map",
     "static/css/2.9905d55a.chunk.css": "/lpn-site/static/css/2.9905d55a.chunk.css",
-    "static/js/2.550c0c9f.chunk.js": "/lpn-site/static/js/2.550c0c9f.chunk.js",
-    "static/js/2.550c0c9f.chunk.js.map": "/lpn-site/static/js/2.550c0c9f.chunk.js.map",
+    "static/js/2.0ca19611.chunk.js": "/lpn-site/static/js/2.0ca19611.chunk.js",
+    "static/js/2.0ca19611.chunk.js.map": "/lpn-site/static/js/2.0ca19611.chunk.js.map",
     "index.html": "/lpn-site/index.html",
-    "precache-manifest.1284b0c3768c0a9bc60885206e576148.js": "/lpn-site/precache-manifest.1284b0c3768c0a9bc60885206e576148.js",
+    "precache-manifest.75b2a723e390014740d4ef270042af62.js": "/lpn-site/precache-manifest.75b2a723e390014740d4ef270042af62.js",
     "service-worker.js": "/lpn-site/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/lpn-site/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.4500e54b.chunk.css.map": "/lpn-site/static/css/main.4500e54b.chunk.css.map",
-    "static/js/2.550c0c9f.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.550c0c9f.chunk.js.LICENSE.txt",
+    "static/js/2.0ca19611.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.0ca19611.chunk.js.LICENSE.txt",
     "static/media/Accenture.png": "/lpn-site/static/media/Accenture.b6268d37.png",
     "static/media/Alex_Cole.jpg": "/lpn-site/static/media/Alex_Cole.691e02fb.jpg",
     "static/media/Andrew_Duong.jpg": "/lpn-site/static/media/Andrew_Duong.e10cace6.jpg",
@@ -27,6 +27,7 @@
     "static/media/Emily_Quynh_Nguyen.jpeg": "/lpn-site/static/media/Emily_Quynh_Nguyen.5e83580a.jpeg",
     "static/media/Experian.png": "/lpn-site/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/lpn-site/static/media/Faith_Chia.d1a7d837.jpg",
+    "static/media/Gallery_Seniors.jpg": "/lpn-site/static/media/Gallery_Seniors.75a813a8.jpg",
     "static/media/Ian_Han.jpg": "/lpn-site/static/media/Ian_Han.9fc82c43.jpg",
     "static/media/Jasmin_He.jpg": "/lpn-site/static/media/Jasmin_He.74f54740.jpg",
     "static/media/Jeffrey_Cho.jpg": "/lpn-site/static/media/Jeffrey_Cho.bd4dd5e0.jpg",
@@ -72,8 +73,8 @@
   "entrypoints": [
     "static/js/runtime-main.00264591.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.550c0c9f.chunk.js",
+    "static/js/2.0ca19611.chunk.js",
     "static/css/main.4500e54b.chunk.css",
-    "static/js/main.fb8723cb.chunk.js"
+    "static/js/main.af22d483.chunk.js"
   ]
 }
