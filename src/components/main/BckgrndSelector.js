@@ -8,6 +8,7 @@ import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
 import merage_at_night from '../../static/images/merage_at_night.jpg'
 import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
+import Gallery_Seniors from '../../static/images/backgrounds/Gallery_Seniors.jpg'
 
 import { ParallaxBanner } from 'react-scroll-parallax';
 
@@ -129,12 +130,45 @@ export default function BckgrndSelector({ pageNum }) {
                         {
                             amount: 0.2,
                             children: 
-                                <iframe width="100%" height="100%"
+                                <iframe width="100%" height="100%" title="Rush Video"
                                     src="https://www.youtube-nocookie.com/embed/ZEza9AuQ2Q8?playlist=ZEza9AuQ2Q8&loop=1&autoplay=1&mute=1"
                                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
                                     style={{pointerEvents: "none"}}
                                 >
                                 </iframe>
+                        },
+                    ]}
+                >
+                    <Header></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </ParallaxBanner>
+            )
+
+        case 6:
+            return (
+                <React.Fragment>
+                    <Header></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </React.Fragment>
+            )
+
+
+        case 7:
+            return (
+                <ParallaxBanner
+                    style={{
+                        height: "50vh"
+                    }}
+                    layers={[
+                        {
+                            image: `url(${Gallery_Seniors})`,
+                            amount: 0.2,
+                            props: {
+                                style: {
+                                    backgroundImage: `url(${Gallery_Seniors})`,
+                                    backgroundPosition: "center bottom"
+                                }
+                            },
                         },
                     ]}
                 >
