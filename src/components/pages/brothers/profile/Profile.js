@@ -17,7 +17,7 @@ import useWindowDimensions from '../../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
     img: {
-        width: "35vh",
+        width: "40vw",
         height: "auto",
     },
     link: {
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paragraph: {
         maxWidth: "80%"
-    }
+    },
 }));
 
 const pathToName = (path, sep) => {
@@ -68,31 +68,37 @@ export default function Profile({setPage, match}) {
     else {
         return (
             <div className={classes.root}>
-                <Box mt={6} className={classes.paragraph}>
+                <Box mt={6} mb={6} className={classes.paragraph}>
                     <Grid container direction="row" justify="center">
 
                         <Grid item xs={6}>
-                            <Grid container direction="column" justify="center">
-                                <Grid item style={{pointerEvents: "none"}}>
-                                    <img className={classes.img} alt={name} src={profile["img"]} />
-                                </Grid>
-
-                                <Grid container direction="row" justify="center" alignItems="center">
-                                    <Grid item>
-                                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">
+                            <Grid container direction="row" justify="center" alignItems="center">
+                                <Grid item>
+                                    <Typography component="div">
+                                        <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
                                             {name}
                                         </Box>
-                                    </Grid>
-                                    {profile["linkedIn"] !== "" &&
-                                        <Grid item>
-                                            <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                                <IconButton size="medium" aria-label="LinkedIn" color="inherit">
-                                                    <LinkedInIcon></LinkedInIcon>
-                                                </IconButton>
-                                            </a>
-                                        </Grid>
-                                    }
+                                    </Typography>
                                 </Grid>
+                                {profile["linkedIn"] !== "" &&
+                                    <Grid item>
+                                        <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
+                                            <IconButton size="medium" aria-label="LinkedIn" color="inherit">
+                                                <LinkedInIcon></LinkedInIcon>
+                                            </IconButton>
+                                        </a>
+                                    </Grid>
+                                }
+                            </Grid>
+
+                            <Grid container direction="column" justify="center">
+                                <Grid item style={{pointerEvents: "none"}}>
+                                    <div className={classes.img}>
+                                        <img className={classes.img} alt={name} src={profile["img"]} />
+                                    </div>
+                                </Grid>
+
+                                
                             </Grid>
                         </Grid>
 
@@ -126,7 +132,7 @@ export default function Profile({setPage, match}) {
                     </Grid>
 
                     {profile["whyLPN"] !== "" &&
-                        <Box mt={2} mb={6} >
+                        <Box mt={6} >
                             <Typography component="div">
                                 <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                                     Why ΛΦΝ?

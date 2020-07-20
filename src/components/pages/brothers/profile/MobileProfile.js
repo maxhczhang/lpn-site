@@ -13,32 +13,31 @@ import ProfileArray from './ProfileArray'
 export default function MobileProfile({name, profile, classes}) {
     return (
         <div className={classes.root}>
-            <Box mt={4} className={classes.paragraph}>
+            <Box mt={4} mb={6} className={classes.paragraph}>
+               
                 <Grid container direction="column" justify="center">
-
-                    <Grid container direction="column" justify="center">
+                    <Grid container direction="row" justify="center" alignItems="center">
                         <Grid item>
-                            <img className={classes.img} alt={name} src={profile["img"]} />
+                            <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">
+                                {name}
+                            </Box>
                         </Grid>
-
-                        <Grid container direction="row" justify="center" alignItems="center">
+                        {profile["linkedIn"] !== "" &&
                             <Grid item>
-                                <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">
-                                    {name}
-                                </Box>
+                                <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
+                                    <IconButton size="medium" aria-label="LinkedIn" color="inherit">
+                                        <LinkedInIcon></LinkedInIcon>
+                                    </IconButton>
+                                </a>
                             </Grid>
-                            {profile["linkedIn"] !== "" &&
-                                <Grid item>
-                                    <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                        <IconButton size="medium" aria-label="LinkedIn" color="inherit">
-                                            <LinkedInIcon></LinkedInIcon>
-                                        </IconButton>
-                                    </a>
-                                </Grid>
-                            }
-                        </Grid>
+                        }
                     </Grid>
-
+                    <Grid item>
+                        <img className={classes.img} alt={name} src={profile["img"]} />
+                    </Grid>
+                </Grid>
+                
+                <Box mt={4}>
                     <Grid container direction="row" spacing={2} >
                         <Grid item xs={6}>
                             <Typography component="div">
@@ -58,11 +57,10 @@ export default function MobileProfile({name, profile, classes}) {
                             </Typography>
                         </Grid>
                     </Grid>
-                </Grid>
-
+                </Box>
 
                 {profile["whyLPN"] !== "" &&
-                    <Box mt={2} mb={6} >
+                    <Box mt={4}>
                         <Typography component="div">
                             <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                                 Why ΛΦΝ?

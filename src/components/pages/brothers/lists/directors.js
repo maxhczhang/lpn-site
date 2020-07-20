@@ -32,7 +32,7 @@ export const directors = [
     {
         img: require('../../../../static/images/actives/directors/information/Ryan_Miranda.jpg'),
         name: "Ryan Miranda",
-        title: ' - Webmaster, Associate Counselor'
+        title: ' - Webmaster'
     },
     {
         img: require('../../../../static/images/actives/directors/operations/Ian_Han.jpg'),
