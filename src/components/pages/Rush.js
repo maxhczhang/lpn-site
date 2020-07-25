@@ -50,7 +50,7 @@ export default function Rush({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={6} mb={6} className={classes.root}>
             <Box mb={2}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
@@ -62,49 +62,49 @@ export default function Rush({ setPage }) {
             <Grid container>
                 <Grid item xs={3} className={classes.redSquare}>
                     <Box m={2}>
+                        <InfoIcon fontSize="large"></InfoIcon>
+
                         <Typography component="div">
                             <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
                                 Info Night
                             </Box>
                         </Typography>
-
-                        <InfoIcon fontSize="large"></InfoIcon>
                     </Box>
                 </Grid>
 
                 <Grid item xs={3} className={classes.blueSquare}>
                     <Box m={2}>
+                        <PeopleIcon fontSize="large"></PeopleIcon>
+
                         <Typography component="div">
                             <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
                                 Meet the Bros
                             </Box>
                         </Typography>
-
-                        <PeopleIcon fontSize="large"></PeopleIcon>
                     </Box>
                 </Grid>
 
                 <Grid item xs={3} className={classes.redSquare}>
                     <Box m={2}>
+                        <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>
+
                         <Typography component="div">
                             <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
                                 Professional Night
                             </Box>
                         </Typography>
-
-                        <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>
                     </Box>
                 </Grid>
 
                 <Grid item xs={3} className={classes.blueSquare}>
                     <Box m={2}>
+                        <MailIcon fontSize="large"></MailIcon>
+                        
                         <Typography component="div">
                             <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
                                 Invite-Only Social
                             </Box>
                         </Typography>
-                    
-                        <MailIcon fontSize="large"></MailIcon>
                     </Box>
                 </Grid>
             </Grid>

@@ -43,7 +43,7 @@ export default function Careers({ setPage }) {
                 <MaterialTable
                     title="2020 Full-times"
                     columns={[
-                        { title: 'Name', field: 'name' },
+                        { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
                         { title: 'Position', field: 'position' },
                         { title: 'Industry', field: 'industry' },
@@ -65,6 +65,7 @@ export default function Careers({ setPage }) {
                     ]}
                     options={{
                         grouping: true,
+                        sorting: false,
                         headerStyle: {
                             backgroundColor: '#580C1F',
                             color: '#FFF',
@@ -73,7 +74,7 @@ export default function Careers({ setPage }) {
                     }}
                     localization={{
                         grouping: {
-                            placeholder: 'Drag Name, Company, Position, or Industry here to group by'
+                            placeholder: 'Drag Company, Position, or Industry here to group by'
                         }
                     }}
                 />
@@ -83,7 +84,7 @@ export default function Careers({ setPage }) {
                 <MaterialTable
                     title="2020 Interns"
                     columns={[
-                        { title: 'Name', field: 'name' },
+                        { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
                         { title: 'Industry', field: 'industry' },
                         { title: 'Position', field: 'position' },
@@ -111,6 +112,7 @@ export default function Careers({ setPage }) {
                     ]}
                     options={{
                         grouping: true,
+                        sorting: false,
                         headerStyle: {
                             backgroundColor: '#580C1F',
                             color: '#FFF',
@@ -120,7 +122,7 @@ export default function Careers({ setPage }) {
                     }}
                     localization={{
                         grouping: {
-                            placeholder: 'Drag Name, Company, Position, or Industry here to group by'
+                            placeholder: 'Drag Company, Position, or Industry here to group by'
                         }
                     }}
                 />

@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     paragraph: {
-        maxWidth: "60%"
+        maxWidth: "70vw"
     },
 }));
 
@@ -70,7 +70,7 @@ export default function Home({ setPage }) {
 
             <Box mt={2} mb={6} className={classes.paragraph}>
                 <Typography component="div">
-                    <Box fontSize="h6.fontSize" style={{ textAlign: "left" }}>
+                    <Box fontSize="h6.fontSize" style={{ textAlign: "center" }}>
                         We're a UC Irvine founded business leadership fraternity
                         community for students seeking leadership development and coaching. We immerse our 
                         members into an environment that emulates the professional world to prepare them for a 

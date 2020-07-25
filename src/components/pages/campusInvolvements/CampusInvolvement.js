@@ -42,7 +42,7 @@ export default function CampusInvolvement({ setPage }) {
                 <MaterialTable
                     title="2020 - 2021 Involvements"
                     columns={[
-                        { title: 'Name', field: 'name' },
+                        { title: 'Name', field: 'name', grouping: false },
                         { title: 'Organization', field: 'org' },
                         { title: 'Position', field: 'position' },
                     ]}
@@ -82,17 +82,20 @@ export default function CampusInvolvement({ setPage }) {
                     onRowClick={((evt, selectedRow) => console.log(selectedRow))}
                     options={{
                         grouping: true,
+                        sorting: false,
                         headerStyle: {
                             backgroundColor: '#580C1F',
                             color: '#FFF',
                         },
+                        
                         pageSize: 20,
                     }}
                     localization={{
                         grouping: {
-                            placeholder: 'Drag Name, Organization, or Position here to group by'
+                            placeholder: 'Drag Organization or Position here to group by'
                         }
                     }}
+                   
                 />
             </Box>
 

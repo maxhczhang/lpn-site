@@ -8,7 +8,7 @@ import CampusInvolvement from '../pages/campusInvolvements/CampusInvolvement'
 import Careers from '../pages/Careers'
 import Rush from '../pages/Rush'
 import FAQs from '../pages/FAQs'
-import Gallery from '../pages/Gallery'
+import Gallery from '../pages/gallery/Gallery'
 import Contact from '../pages/Contact'
 import Footer from '../layouts/Footer'
 

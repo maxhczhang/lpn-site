@@ -2,7 +2,10 @@ import React, {useEffect} from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
-//import GridListTile from '@material-ui/core/GridListTile';
+import GridListTile from '@material-ui/core/GridListTile';
+import Box from '@material-ui/core/Box';
+
+import {GalleryPhotos} from './GalleryPhotos'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -12,13 +15,9 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'space-around',
         overflow: 'hidden',
         alignItems: 'center',
-        flexDirection: "column",
-        textAlign: "center",
-        backgroundColor: theme.palette.background.paper,
     },
     gridList: {
-        width: 500,
-        height: 450,
+        width: "80%",
     },
 }));
 
@@ -30,15 +29,14 @@ export default function Gallery({setPage}) {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <GridList cellHeight={160} className={classes.gridList} cols={3}>
-                {/* {tileData.map((tile) => (
-                    <GridListTile key={tile.img} cols={tile.cols || 1}>
+        <Box className={classes.root} mt={6} mb={6}>
+            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+                {GalleryPhotos.map((tile) => (
+                    <GridListTile key={tile.img} cols={tile.cols || 1} style={{ pointerEvents: "none" }}>
                         <img src={tile.img} alt={tile.title} />
                     </GridListTile>
-                ))} */}
+                ))}
             </GridList>
-            Follow me on IG @___________ryan__________ for the REAL gallery :)
-        </div>
+        </Box>
     )
 }

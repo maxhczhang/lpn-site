@@ -125,7 +125,7 @@ export default function HeaderContent({pageNum}) {
         case 8:
             return (
                 <Box className={classes.smBckgrndContent}>
-                    <Box fontWeight="fontWeightMedium" fontSize="h1.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
                         Contact Us
                     </Box>
                 </Box>
