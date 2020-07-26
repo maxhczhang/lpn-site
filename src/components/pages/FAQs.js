@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
-        textAlign: "center"
+        textAlign: "center",
+        minHeight: "61vh"
     },
     accordian: {
         width: "60%",

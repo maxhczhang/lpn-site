@@ -30,7 +30,7 @@ export default function Gallery({setPage}) {
 
     return (
         <Box className={classes.root} mt={6} mb={6}>
-            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+            <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={20}>
                 {GalleryPhotos.map((tile) => (
                     <GridListTile key={tile.img} cols={tile.cols || 1} style={{ pointerEvents: "none" }}>
                         <img src={tile.img} alt={tile.title} />

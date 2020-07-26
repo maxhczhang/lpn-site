@@ -40,7 +40,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#580C1F",
         color: "white"
     },
+  
 }));
+
 
 export default function Rush({ setPage }) {
     useEffect(() => {
@@ -54,7 +56,7 @@ export default function Rush({ setPage }) {
             <Box mb={2}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
-                        Envison Excellence, Virtually lol
+                        Turn the Tide
                     </Box>
                 </Typography>
             </Box>

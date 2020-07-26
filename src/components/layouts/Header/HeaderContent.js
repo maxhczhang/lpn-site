@@ -124,10 +124,11 @@ export default function HeaderContent({pageNum}) {
             )
         case 8:
             return (
-                <Box className={classes.smBckgrndContent}>
+                <Box className={classes.noParallaxBckground}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
-                        Contact Us
+                        Questions?
                     </Box>
+                    <Divider style={{ height: 1, width: "70%" }}></Divider>
                 </Box>
             )
 
