@@ -52,7 +52,7 @@ export default function Rush({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={6} mb={6} className={classes.root}>
+        <Box mt={8} mb={8} className={classes.root}>
             <Box mb={2}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">

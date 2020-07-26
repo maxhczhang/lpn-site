@@ -6,7 +6,6 @@ import HeaderContent from '../layouts/Header/HeaderContent'
 import buildings from '../../static/images/backgrounds/buildings.jpg'
 import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
-import merage_at_night from '../../static/images/merage_at_night.jpg'
 import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
 import Gallery_Seniors from '../../static/images/backgrounds/Gallery_Seniors.jpg'
 
@@ -152,7 +151,6 @@ export default function BckgrndSelector({ pageNum }) {
                 </React.Fragment>
             )
 
-
         case 7:
             return (
                 <ParallaxBanner
@@ -185,37 +183,17 @@ export default function BckgrndSelector({ pageNum }) {
                 </React.Fragment>
             )
 
-        case 10:
+        case 9:
             return (
                 <React.Fragment>
                     <Header></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
-
-        
         
         default:
             return (
-                <ParallaxBanner
-                    style={{
-                        height: "50vh"
-                    }}
-                    layers={[
-                        {
-                            image: `url(${merage_at_night})`,
-                            amount: 0.2,
-                            props: {
-                                style: {
-                                    backgroundImage: `url(${merage_at_night})`,
-                                }
-                            },
-                        },
-                    ]}
-                >
-                    <Header></Header>
-                    <HeaderContent pageNum={pageNum}></HeaderContent>
-                </ParallaxBanner>
+                <React.Fragment></React.Fragment>
             )
     }
 }

@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
-        minHeight: "61vh"
     },
     accordian: {
         width: "60%",
@@ -41,7 +40,7 @@ export default function FAQs({setPage}) {
     const classes = useStyles();
 
     return (
-       <Box mt={6} mb={6} className={classes.root}>
+       <Box mt={8} mb={8} className={classes.root}>
 
             <Box mb={2} border={1} className={classes.accordian}>
                 <Accordion>
@@ -111,7 +110,7 @@ export default function FAQs({setPage}) {
                 </Accordion>
             </Box>
 
-            <Box mb={6} border={1} className={classes.accordian}>
+            <Box mb={8} border={1} className={classes.accordian}>
                 <Accordion>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}

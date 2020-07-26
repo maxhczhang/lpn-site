@@ -10,6 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { Link } from "react-router-dom";
 
+import useWindowDimensions from '../../WindowListener'
 import Companies from './Companies';
 import EYInterviews from '../../../static/images/darkenedEYInterviews.jpeg'
 import colorLogo from '../../../static/images/logo.png'
@@ -40,33 +41,37 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     paragraph: {
-        maxWidth: "70vw"
+        maxWidth: "80%"
     },
 }));
 
 export default function Home({ setPage }) {
-
     useEffect(() => {
         setPage("Home")
     });
 
     const classes = useStyles();
 
+    const { height, width } = useWindowDimensions();
+    const isMobile = width < 700;
+    let cols;
+    if (isMobile) {
+        cols = 12;
+    } else {
+        cols = 6;
+    }
+
     return (
-        <div className={classes.root}>
+        <Box mt={8} mb={8} className={classes.root}>
         
-            <Box mt={8}>
-                <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
-                        Our Legacy
-                    </Box>
-                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                        Grow Forward. Give Back.
-                    </Box>
-                </Typography>
-            </Box>
-            
-            <Divider></Divider>
+            <Typography component="div">
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                    Our Legacy
+                </Box>
+                <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
+                    Grow Forward. Give Back.
+                </Box>
+            </Typography>   
 
             <Box mt={2} mb={6} className={classes.paragraph}>
                 <Typography component="div">
@@ -85,11 +90,11 @@ export default function Home({ setPage }) {
                 </Box>
             </Box>
 
-            <Divider style={{height: 1, width: "60%"}}></Divider>
+            <Divider style={{height: 1, width: "70%"}}></Divider>
 
             <Box mt={6} mb={6} className={classes.paragraph}>
                 <Grid container spacing={10} direction="row" justify="space-evenly" >
-                    <Grid item xs={6}>
+                    <Grid item xs={cols}>
                         <Typography component="div" >
                             <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Professionalism
@@ -106,7 +111,10 @@ export default function Home({ setPage }) {
                             </Button>
                         </Box>
                     </Grid>
-                    <Grid item xs={6}>
+
+                    {isMobile && <Divider style={{ height: 1, width: "70%" }}></Divider>}
+
+                    <Grid item xs={cols}>
                         <Typography component="div">
                             <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Brotherhood
@@ -126,9 +134,9 @@ export default function Home({ setPage }) {
                 </Grid>
             </Box>
 
-            <Divider style={{ height: 1, width: "60%" }}></Divider>
+            <Divider style={{ height: 1, width: "70%" }}></Divider>
 
-            <Box mt={4} mb={6}>
+            <Box mt={4} mb={8}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
               
@@ -160,7 +168,7 @@ export default function Home({ setPage }) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={6} mb={8} align="center">
+            <Box mt={8} align="center">
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Where We Work
@@ -170,6 +178,6 @@ export default function Home({ setPage }) {
                 <Companies></Companies>
             </Box>
 
-        </div>
+        </Box>
     )
 }

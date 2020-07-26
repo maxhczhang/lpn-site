@@ -40,7 +40,7 @@ export default function LPNSite() {
         [
             ['Home', 0], ['About', 1], ['Active Brothers', 2], ['Campus Involvement', 3],
             ['Careers', 4], ['Rush', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
-            ['About Me', 9], ['Profile', 10]
+            ['Profile', 9]
         ]
     )
 

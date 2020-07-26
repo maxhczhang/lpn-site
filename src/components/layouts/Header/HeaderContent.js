@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import Typist from 'react-typist'
 import Divider from '@material-ui/core/Divider';
 
+
 const useStyles = makeStyles((theme) => ({
     content: {
         display: "flex",
@@ -49,7 +50,7 @@ export default function HeaderContent({pageNum}) {
         case 0:
             return (
                 <Box className={classes.content}>
-                    <Typography component="div">
+                    <Typography component="div" style={{maxWidth: "80%"}}>
                         <Typist cursor={{show: false}}>
 
                         <Box fontWeight="fontWeightBold" fontSize='4rem'>{msgs[0]}</Box>
@@ -101,10 +102,12 @@ export default function HeaderContent({pageNum}) {
                     </Box>
                 </Box>
             )
+
         case 5:
             return (
                 <React.Fragment></React.Fragment>
             )
+
         case 6:
             return (
                 <Box className={classes.noParallaxBckground}>
@@ -114,6 +117,7 @@ export default function HeaderContent({pageNum}) {
                     <Divider style={{ height: 1, width: "70%" }}></Divider>
                 </Box>
             )
+
         case 7:
             return (
                 <Box className={classes.smBckgrndContent}>
@@ -122,6 +126,7 @@ export default function HeaderContent({pageNum}) {
                     </Box>
                 </Box>
             )
+
         case 8:
             return (
                 <Box className={classes.noParallaxBckground}>
@@ -132,14 +137,14 @@ export default function HeaderContent({pageNum}) {
                 </Box>
             )
 
-        case 10:
+        case 9:
             return (
                 <React.Fragment></React.Fragment>
             )
     
         default:
             return (
-                <Typography variant="h1">Hi :)</Typography>
+                <React.Fragment></React.Fragment>
             )
     }
 }

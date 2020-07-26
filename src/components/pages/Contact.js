@@ -4,14 +4,9 @@ import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 import colorLogo from '../../static/images/logo.png'
-
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import { getEffectiveConstraintOfTypeParameter } from 'typescript';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
-        minHeight: "55vh"
     },
     logo: {
         height: "20vh",
@@ -45,8 +39,8 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const isEmail = (email) => {
-    return email.includes("@") && email.includes(".com")
+const isEmail = (_email) => {
+    return _email.includes("@") && _email.includes(".com")
 }
 
 export default function Contact({ setPage }) {
@@ -55,10 +49,10 @@ export default function Contact({ setPage }) {
     });
 
     const classes = useStyles();
-    const [name, setName] = React.useState('');
-    const [year, setYear] = React.useState('');
-    const [email, setEmail] = React.useState('@gmail.com');
-    const [question, setQuestion] = React.useState('');
+    const [name, setName] = useState('');
+    const [year, setYear] = useState('');
+    const [email, setEmail] = useState('@gmail.com');
+    const [question, setQuestion] = useState('');
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -66,10 +60,10 @@ export default function Contact({ setPage }) {
     };
 
     return (
-        <Box mt={4} mb={6} className={classes.root}>
+        <Box mt={6} mb={8} className={classes.root}>
             <img className={classes.logo} src={colorLogo} alt="LPN"></img>
             
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} style={{maxWidth: "80%"}}>
                 <Grid container spacing={3}>
                     <Grid item xs={4}>
                         <TextField
@@ -98,6 +92,7 @@ export default function Contact({ setPage }) {
                             required
                             onInput={e => setEmail(e.target.value)}
                             error={!isEmail(email)}
+                            helperText={!isEmail(email) && "Enter a valid email."}
                         />
                     </Grid>
 

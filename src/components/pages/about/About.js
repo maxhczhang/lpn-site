@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
 
@@ -32,72 +31,68 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function About({setPage}) {
+    useEffect(() => {
+        setPage("About")
+    });
+
     const classes = useStyles();
 
     const { height, width } = useWindowDimensions();
     const isMobile = width < 700;
 
-    useEffect(() => {
-        setPage("About")
-    });
-
     return (
-        <div className={classes.root}>
+        <Box mt={8} mb={8} className={classes.root}>
 
-            <Box className={classes.paragraph} mt={8} mb={6}>
-                <Grid container spacing={3} direction="row" justify="center" alignItems="center">
-                    <Grid item xs={6}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
-                                Who Are We?
-                            </Box>
-                        </Typography>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Typography component="div">
-                            <Box fontSize="1.1rem" style={{textAlign: "left"}}>
-                                Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
-                                committed to inspiring the best in everyone. Our brothers aspire to become visionaries, influencers, and
-                                mobilizers. This means we dream big, rally support, and get it done.
-                            </Box>
+            <Box className={classes.paragraph}>
+                <Typography component="div">
+                    <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
+                        Who Are We?
+                    </Box>
+                </Typography>
 
-                            <Box fontSize="1.1rem" mt={2} mb={4} style={{ textAlign: "left" }}>
-                                During their time on campus, each of our brothers left a legacy because they saw a need to fill,
-                                a problem to solve, or someone to care about. We are inspired to carry on the torch they left us.
-                            </Box>
-                        </Typography>
-                    </Grid>
-                    <Divider style={{ width: "80%" }}></Divider>
+                <Typography component="div">
+                    <Box fontSize="1.1rem" style={{ textAlign: "center" }}>
+                        Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
+                        committed to inspiring the best in everyone. Our brothers aspire to become visionaries, influencers, and
+                        mobilizers. This means we dream big, rally support, and get it done.
+                    </Box>
 
-                    <Grid item xs={6}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
-                                Why ΛΦΝ?
-                        </Box>
-                        </Typography>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Box mt={4} mb={4}>
-                        <LPNFacts isMobile={isMobile}></LPNFacts>
-                        </Box>
-                    </Grid>
-                    <Divider style={{ width: "80%" }}></Divider>
+                    <Box fontSize="1.1rem" mt={2} mb={4} style={{ textAlign: "center" }}>
+                        During their time on campus, each of our brothers left a legacy because they saw a need to fill,
+                        a problem to solve, or someone to care about. We are inspired to carry on the torch they left us.
+                    </Box>
+                </Typography>
 
-                    <Grid item xs={6}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
-                                Our Core Values
-                            </Box>
-                        </Typography>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Box mt={4}>
-                            <CoreValues></CoreValues>
-                        </Box>
-                    </Grid>
-                </Grid>
+            </Box>
+          
+            <Divider style={{ width: "70%" }}></Divider>
+
+
+            <Box mt={4} mb={4} className={classes.paragraph}>
+                <Typography component="div">
+                    <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
+                        Why ΛΦΝ?
+                    </Box>
+                </Typography>
+
+                <Box mt={4} mb={4}>
+                    <LPNFacts isMobile={isMobile}></LPNFacts>
+                </Box>
             </Box>
 
+            <Divider style={{ width: "70%" }}></Divider>
+
+            <Box mt={4} mb={8} className={classes.paragraph}>
+                <Typography component="div">
+                    <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
+                        Our Core Values
+                    </Box>
+                </Typography>
+
+                <Box mt={4}>
+                    <CoreValues></CoreValues>
+                </Box>
+             </Box>   
 
             <ParallaxBanner
                 style={{
@@ -128,7 +123,7 @@ export default function About({setPage}) {
             </ParallaxBanner>
 
 
-            <Box mt={6}>
+            <Box mt={8}>
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Our Heritage
@@ -160,7 +155,7 @@ export default function About({setPage}) {
                 </Typography>
             </Box>
 
-            <Box mt={2} mb={8} className={classes.paragraph}>
+            <Box mt={2} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" style={{ textAlign: "left" }}>
                         The Chapter was founded in 2010 as Beta Alpha Psi and re-branded into Lambda Phi Nu in 2014 due to fundamental differences within organizational structures. Standard Beta Alpha Psi chapters operate under an honor society structure; however the Irvine chapter sought to operate as a fraternity. We chose to re-brand under Lambda Phi Nu in order to preserve the culture and mission that we currently held.
@@ -180,6 +175,6 @@ export default function About({setPage}) {
                 </Typography>
             </Box>
 
-        </div>
+        </Box>
     )
 }
