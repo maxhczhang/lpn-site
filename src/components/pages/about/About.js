@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
@@ -11,6 +11,7 @@ import useWindowDimensions from '../../WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
 import merage_at_night from '../../../static/images/merage_at_night.jpg'
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,7 +37,6 @@ export default function About({setPage}) {
     });
 
     const classes = useStyles();
-
     const { height, width } = useWindowDimensions();
     const isMobile = width < 700;
 
@@ -66,7 +66,6 @@ export default function About({setPage}) {
             </Box>
           
             <Divider style={{ width: "70%" }}></Divider>
-
 
             <Box mt={4} mb={4} className={classes.paragraph}>
                 <Typography component="div">
@@ -121,7 +120,6 @@ export default function About({setPage}) {
                     </Typography>
                 </div>
             </ParallaxBanner>
-
 
             <Box mt={8}>
                 <Typography component="div">

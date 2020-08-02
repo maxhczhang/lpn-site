@@ -40,7 +40,7 @@ export default function FAQs({setPage}) {
     const classes = useStyles();
 
     return (
-       <Box mt={8} mb={8} className={classes.root}>
+       <Box mt={10} mb={10} className={classes.root}>
 
             <Box mb={2} border={1} className={classes.accordian}>
                 <Accordion>

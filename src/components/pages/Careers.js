@@ -31,7 +31,7 @@ export default function Careers({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={10} mb={10} className={classes.root}>
 
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize">
@@ -41,7 +41,7 @@ export default function Careers({ setPage }) {
                 </Box>
             </Typography>
 
-            <Box mt={6} style={{ width: "80%" }}>
+            <Box mt={8} style={{ width: "80%" }}>
                 <MaterialTable
                     title="2020 Full-times"
                     columns={[

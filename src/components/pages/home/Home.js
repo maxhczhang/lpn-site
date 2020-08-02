@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     },
     divider: {
         height: 1, 
-        width: "60%"
+        width: "70%"
     }
 }));
 
@@ -179,11 +179,13 @@ export default function Home({ setPage }) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={8} mb={8} className={classes.paragraph}>
-                <HomeCoreValues></HomeCoreValues>
+            <Box mt={8} mb={6} className={classes.paragraph}>
+                <HomeCoreValues isMobile={isMobile}></HomeCoreValues>
             </Box>
+
+            <Divider className={classes.divider}></Divider>
               
-            <ParallaxBanner
+            {/* <ParallaxBanner
                 style={{
                     height: '100vh',
                     display: 'flex', 
@@ -209,19 +211,18 @@ export default function Home({ setPage }) {
                         </Box>
                     </Typography>
                 </div>
-            </ParallaxBanner>
+            </ParallaxBanner> */}
 
-            <Box mt={8} align="center">
+            <Box mt={6} align="center">
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Where We Work
                     </Box>
                 </Typography>
-                <Divider style={{width: "50%"}}></Divider>
+               
                 <Box mt={2}>
                     <Companies></Companies>
                 </Box>
-                
             </Box>
 
         </Box>

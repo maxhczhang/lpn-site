@@ -1,15 +1,15 @@
 import React from 'react'
 
+import { ParallaxBanner } from 'react-scroll-parallax';
+
 import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
-
 import buildings from '../../static/images/backgrounds/buildings.jpg'
 import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
 import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
 import Gallery_Seniors from '../../static/images/backgrounds/Gallery_Seniors.jpg'
-
-import { ParallaxBanner } from 'react-scroll-parallax';
+import EYInterviews from '../../static/images/home/darkenedEYInterviews.jpeg'
 
 
 export default function BckgrndSelector({ pageNum }) {
@@ -103,11 +103,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${Careers_Background})`,
+                            image: `url(${EYInterviews})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${Careers_Background})`,
+                                    backgroundImage: `url(${EYInterviews})`,
                                     backgroundPosition: "center top"
                                 }
                             },

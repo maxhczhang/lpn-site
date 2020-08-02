@@ -1,5 +1,10 @@
 import React, {useState} from 'react'
+import { makeStyles } from '@material-ui/core/styles';
 
+import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
+import { HashRouter, Switch, Route, } from "react-router-dom";
+
+import BckgrndSelector from './BckgrndSelector'
 import Home from '../pages/home/Home'
 import About from '../pages/about/About'
 import ActiveBrothers from '../pages/brothers/ActiveBrothers'
@@ -11,12 +16,6 @@ import FAQs from '../pages/FAQs'
 import Gallery from '../pages/gallery/Gallery'
 import Contact from '../pages/Contact'
 import Footer from '../layouts/Footer'
-
-import BckgrndSelector from './BckgrndSelector'
-import { makeStyles } from '@material-ui/core/styles';
-
-import {HashRouter, Switch, Route, } from "react-router-dom";
-import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 
 
 let theme = createMuiTheme();
@@ -30,7 +29,6 @@ const useStyles = makeStyles((theme) => ({
         minHeight: "100vh"
     },
 }));
-
 
 export default function LPNSite() {
     const [pageNum, setPageNum] = useState(0);

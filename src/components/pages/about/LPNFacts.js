@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 
+
 export default function LPNFacts({isMobile}) {
     if (isMobile) {
         return (
@@ -30,7 +31,9 @@ export default function LPNFacts({isMobile}) {
                 </Grid>
             </Typography>
         )
-    } else {
+    } 
+    
+    else {
         return (
             <Typography variant="h5">
                 <Grid container spacing={3}>

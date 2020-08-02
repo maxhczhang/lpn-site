@@ -50,7 +50,7 @@ export default function Companies() {
         //     </GridList>
         // </div>
         //centerMode flag
-        <Carousel autoPlay centerMode infiniteLoop showStatus={false} showThumbs={false} showIndicators={false} 
+        <Carousel autoPlay centerMode centerSlidePercentage={60} infiniteLoop showStatus={false} showThumbs={false} showIndicators={false} 
             showIndicators={false} showArrows={false}>
             
             {companyLogos.map((tile) => (

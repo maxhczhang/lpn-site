@@ -12,7 +12,11 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
+        display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: "column",
+        textAlign: "center",
     },
     button: {
         '& > *': {
@@ -30,36 +34,35 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function HomeCoreValues() {
+export default function HomeCoreValues({isMobile}) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <Grid container spacing={3} direction="row" justify="space-evenly" alignItems="center">
-                <Grid item xs={4}>
-                    <div className={classes.image}></div>
-                </Grid>
-                <Grid item xs={4}>
-                    <div className={classes.image}></div>
-                </Grid>
-                <Grid item xs={4}>
-                    <div className={classes.image}></div>
-                </Grid>
+                <Grid item xs={isMobile ? 12 : 4}>
+                    <div className={classes.image}>Wish I knew</div>
 
-                <Grid item xs={4}>
-
+                    <Box mt={2}>
                     <Typography variant="h6">Excellence</Typography>
                     <Typography variant="body1">I wish I could excel at writing descriptions about our Core Values.</Typography>
+                    </Box>
                 </Grid>
-                <Grid item xs={4}>
-                  
+                <Grid item xs={isMobile ? 12 : 4}>
+                    <div className={classes.image}>why these</div>
+
+                    <Box mt={2}>
                     <Typography variant="h6">Relationships</Typography>
                     <Typography variant="body1">I think being in a relationship would be pretty cool, maybe I should plug my Tinder.</Typography>
+                    </Box>
                 </Grid>
-                <Grid item xs={4}>
-                   
+                <Grid item xs={isMobile ? 12 : 4}>
+                    <div className={classes.image}>aren't centered.</div>
+
+                    <Box mt={2}>
                     <Typography variant="h6">Altruism</Typography>
                     <Typography variant="body1">I altruistically donate my weekends to the Brotherhood to complete this site.</Typography>
+                    </Box>
                 </Grid>
             </Grid>
 

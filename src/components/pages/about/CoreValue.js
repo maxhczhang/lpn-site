@@ -1,10 +1,11 @@
 import React from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import Typography from '@material-ui/core/Typography';
 import Popover from '@material-ui/core/Popover';
 import Box from '@material-ui/core/Box';
 import PopupState, { bindHover, bindPopover } from 'material-ui-popup-state';
+
 
 const useStyles = makeStyles((theme) => ({
     image: {

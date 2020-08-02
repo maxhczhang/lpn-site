@@ -1,17 +1,17 @@
 import React from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
 
+import { Link } from "react-router-dom";
+
 import logo_white from '../../../static/images/logo_white.png';
 import MyMenu from './MyMenu'
 import MobileMenu from './MobileMenu'
 import useWindowDimensions from '../../WindowListener'
-
-import { Link } from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -116,6 +116,7 @@ export default function Header({ pageNum }) {
             </Grid>
           </div>
         </AppBar>
+        
       </React.Fragment>
     )
 }

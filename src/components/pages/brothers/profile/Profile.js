@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
@@ -10,7 +10,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import {profiles} from '../lists/profiles'
 import ProfileSingle from './ProfileSingle'
 import ProfileArray from './ProfileArray'
-
 import MobileProfile from './MobileProfile'
 import useWindowDimensions from '../../../WindowListener'
 

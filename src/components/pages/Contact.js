@@ -60,7 +60,7 @@ export default function Contact({ setPage }) {
     };
 
     return (
-        <Box mt={6} mb={8} className={classes.root}>
+        <Box mt={6} mb={10} className={classes.root}>
             <img className={classes.logo} src={colorLogo} alt="LPN"></img>
             
             <form onSubmit={handleSubmit} style={{maxWidth: "80%"}}>
