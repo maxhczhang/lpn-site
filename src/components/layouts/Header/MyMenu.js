@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function MyMenu({mainTitle, title1, title2, setPage}) {
+export default function MyMenu({mainTitle, title1, title2}) {
     const classes = useStyles();
 
     const popupState = usePopupState({ variant: 'popover', popupId: 'myMenu' })
@@ -31,6 +31,7 @@ export default function MyMenu({mainTitle, title1, title2, setPage}) {
             <Button size="large" className={classes.button} {...bindHover(popupState)}>
                 {mainTitle}
             </Button>
+
             <Menu {...bindMenu(popupState)}
                 className={classes.menu} classes={{
                     paper: classes.paper,
@@ -45,14 +46,15 @@ export default function MyMenu({mainTitle, title1, title2, setPage}) {
                             {title1}
                         </Box>                        
                     </MenuItem>
+                    
                     <MenuItem component={Link} to={titleToPath(title2)} onClick={popupState.close}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title2}
                         </Box>  
                     </MenuItem>
                  </Typography>
-                 
             </Menu>
+
         </React.Fragment>
     )
 }

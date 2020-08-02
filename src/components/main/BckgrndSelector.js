@@ -33,7 +33,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                  <Header></Header>
+                  <Header pageNum={pageNum}></Header>
                   <HeaderContent pageNum={pageNum}></HeaderContent> 
                 </ParallaxBanner>
             )
@@ -57,7 +57,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
@@ -65,7 +65,7 @@ export default function BckgrndSelector({ pageNum }) {
         case 2:
             return (
                 <React.Fragment>
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
@@ -74,7 +74,7 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "50vh",
+                        height: "75vh",
                         
                     }}
                     layers={[
@@ -90,7 +90,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
@@ -99,7 +99,7 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "50vh"
+                        height: "75vh"
                     }}
                     layers={[
                         {
@@ -114,7 +114,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
@@ -123,7 +123,7 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "70vh",
+                        height: "75vh",
                     }}
                     layers={[
                         {
@@ -138,7 +138,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
@@ -146,7 +146,7 @@ export default function BckgrndSelector({ pageNum }) {
         case 6:
             return (
                 <React.Fragment>
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
@@ -155,7 +155,7 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "50vh"
+                        height: "100vh"
                     }}
                     layers={[
                         {
@@ -170,7 +170,7 @@ export default function BckgrndSelector({ pageNum }) {
                         },
                     ]}
                 >
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
             )
@@ -178,7 +178,7 @@ export default function BckgrndSelector({ pageNum }) {
         case 8:
             return (
                 <React.Fragment>
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
@@ -186,7 +186,7 @@ export default function BckgrndSelector({ pageNum }) {
         case 9:
             return (
                 <React.Fragment>
-                    <Header></Header>
+                    <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )

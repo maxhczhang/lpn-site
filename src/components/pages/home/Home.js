@@ -12,8 +12,11 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../WindowListener'
 import Companies from './Companies';
-import EYInterviews from '../../../static/images/darkenedEYInterviews.jpeg'
+import HomeCoreValues from './HomeCoreValues'
+
+import EYInterviews from '../../../static/images/home/darkenedEYInterviews.jpeg'
 import colorLogo from '../../../static/images/logo.png'
+import CoreValuesSeperator from '../../../static/images/home/Core_Values_Separator.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -41,8 +44,12 @@ const useStyles = makeStyles((theme) => ({
         color: "white"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "70%"
     },
+    divider: {
+        height: 1, 
+        width: "60%"
+    }
 }));
 
 export default function Home({ setPage }) {
@@ -90,7 +97,7 @@ export default function Home({ setPage }) {
                 </Box>
             </Box>
 
-            <Divider style={{height: 1, width: "70%"}}></Divider>
+            <Divider className={classes.divider}></Divider>
 
             <Box mt={6} mb={6} className={classes.paragraph}>
                 <Grid container spacing={10} direction="row" justify="space-evenly" >
@@ -112,7 +119,7 @@ export default function Home({ setPage }) {
                         </Box>
                     </Grid>
 
-                    {isMobile && <Divider style={{ height: 1, width: "70%" }}></Divider>}
+                    {isMobile && <Divider className={classes.divider}></Divider>}
 
                     <Grid item xs={cols}>
                         <Typography component="div">
@@ -134,15 +141,51 @@ export default function Home({ setPage }) {
                 </Grid>
             </Box>
 
-            <Divider style={{ height: 1, width: "70%" }}></Divider>
+            <Divider className={classes.divider}></Divider>
 
             <Box mt={4} mb={8}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
+
+            <ParallaxBanner
+                style={{
+                    height: '100vh',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}
+                layers={[
+                    {
+                        image: `url(${CoreValuesSeperator})`,
+                        amount: 0.2,
+                        props: {
+                            style: {
+                                backgroundImage: `url(${CoreValuesSeperator})`,
+                            }
+                        },
+                    },
+                ]}
+            >
+                <div className={classes.interviews}>
+                    <Typography variant="h3">
+                        <Box fontWeight="fontWeightBold">
+                            Our Core Values
+                        </Box>
+                        
+                    </Typography>
+                    <Typography variant="h5">
+                        Choosing a photo was too stressful :(
+                    </Typography>
+                </div>
+            </ParallaxBanner>
+
+            <Box mt={8} mb={8} className={classes.paragraph}>
+                <HomeCoreValues></HomeCoreValues>
+            </Box>
               
             <ParallaxBanner
                 style={{
-                    height: '50vh',
+                    height: '100vh',
                     display: 'flex', 
                     justifyContent: 'center', 
                     alignItems: 'center',
@@ -175,7 +218,10 @@ export default function Home({ setPage }) {
                     </Box>
                 </Typography>
                 <Divider style={{width: "50%"}}></Divider>
-                <Companies></Companies>
+                <Box mt={2}>
+                    <Companies></Companies>
+                </Box>
+                
             </Box>
 
         </Box>

@@ -28,10 +28,15 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
   },
-  appBar: {
+  appBarDark: {
     position: "relative",
     zIndex: 1,
     backgroundColor: 'rgb(0,0,0,0.5)'
+  },
+  appBarClear: {
+    position: "relative",
+    zIndex: 1,
+    backgroundColor: 'rgb(0,0,0,0)'
   },
   joinButton: {
     backgroundColor: '#580C1F',
@@ -39,16 +44,28 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function Header({ setPage, pageNum }) {
+export default function Header({ pageNum }) {
     const classes = useStyles();
 
     const { height, width } = useWindowDimensions();
     const isMobile = width < 700;
-    
+
+    let appBarClass;
+    let elevation;
+
+    if (pageNum === 2 || pageNum === 5 || pageNum === 6 || pageNum > 7) {
+      appBarClass = classes.appBarDark
+      elevation = 4;
+    }
+    else {
+      appBarClass = classes.appBarClear
+      elevation = 0
+    }
+
     return (
       <React.Fragment>
         
-        <AppBar position='static' className={classes.appBar}>
+        <AppBar position='static' className={appBarClass} elevation={elevation}>
           <div className={classes.root}>
             <Grid container direction="row" justify="space-between" alignItems="center">
               <Grid item>
@@ -74,11 +91,11 @@ export default function Header({ setPage, pageNum }) {
 
                     <Button size="large" color="inherit" component={Link} to="/about">About</Button>
 
-                    <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"} setPage={setPage}></MyMenu>
+                    <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"}></MyMenu>
 
                     <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
 
-                    <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"} setPage={setPage}></MyMenu>
+                    <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"}></MyMenu>
 
                     <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
 

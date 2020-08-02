@@ -6,18 +6,23 @@ import Box from '@material-ui/core/Box';
 import Typist from 'react-typist'
 import Divider from '@material-ui/core/Divider';
 
+import Companies from '../../pages/home/Companies'
+
 
 const useStyles = makeStyles((theme) => ({
-    content: {
+    contentWrapper: {
         display: "flex",
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
         position: "relative",
         zIndex: 1,
         color: "white",
-        marginTop: "25vh",
+    },
+    content: {
+        maxWidth: "80%",
+        marginTop: "30vh"
     },
     smBckgrndContent: {
         display: "flex",
@@ -28,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
         position: "relative",
         zIndex: 1,
         color: "white",
-        marginTop: "10vh",
+        marginTop: "20vh",
     },
     noParallaxBckground: {
         display: "flex",
@@ -49,8 +54,8 @@ export default function HeaderContent({pageNum}) {
 
         case 0:
             return (
-                <Box className={classes.content}>
-                    <Typography component="div" style={{maxWidth: "80%"}}>
+                <Box className={classes.contentWrapper}>
+                    <Typography component="div" style={{maxWidth: "80%", marginTop: "25vh"}}>
                         <Typist cursor={{show: false}}>
 
                         <Box fontWeight="fontWeightBold" fontSize='4rem'>{msgs[0]}</Box>
@@ -61,14 +66,18 @@ export default function HeaderContent({pageNum}) {
 
                         </Typist>
                     </Typography>
+        
+                    {/* <Box style={{marginTop: "25vh"}}>
+                        <Companies></Companies>
+                    </Box> */}
                 </Box>
                 
             )
             
         case 1:
             return (
-                <Box className={classes.content}>
-                    <Box fontWeight="fontWeightBold" fontSize='5rem'>
+                <Box className={classes.contentWrapper}>
+                    <Box fontWeight="fontWeightBold" fontSize='5rem' className={classes.content}>
                         About Us
                     </Box>
                 </Box>
@@ -120,8 +129,8 @@ export default function HeaderContent({pageNum}) {
 
         case 7:
             return (
-                <Box className={classes.smBckgrndContent}>
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
+                <Box className={classes.contentWrapper}>
+                    <Box fontWeight="fontWeightBold" fontSize='5rem' className={classes.content}>
                         Our Memories
                     </Box>
                 </Box>

@@ -9,20 +9,16 @@ import RSM from '../../../static/companyLogos/RSM.png'
 
 export const companyLogos = [
     {
-        img: Amazon,
-        title: 'Amazon'
-    },
-    {
-        img: Deloitte,
-        title: 'Deloitte'
+        img: Accenture,
+        title: 'Accenture'
     },
     {
         img: msft,
         title: 'Microsoft'
     },
     {
-        img: Accenture,
-        title: 'Accenture'
+        img: Amazon,
+        title: 'Amazon'
     },
     {
         img: EY,
@@ -35,7 +31,12 @@ export const companyLogos = [
     {
         img: Experian,
         title: 'Experian'
-    }, {
+    }, 
+    {
+        img: Deloitte,
+        title: 'Deloitte'
+    },
+    {
         img: KPMG,
         title: 'KPMG'
     },
