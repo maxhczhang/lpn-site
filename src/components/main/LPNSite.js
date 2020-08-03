@@ -47,57 +47,55 @@ export default function LPNSite() {
     }
 
     return (
-        <HashRouter basename='/'>
-            <div>
-                <div className={classes.app}>
-                    <ThemeProvider theme={theme}>
-                    <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
+        <HashRouter basename='https://ryan-miranda.github.io/lpn-site/'>
+            <div className={classes.app}>
+                <ThemeProvider theme={theme}>
+                <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
-                    <Switch>
-                        <Route path="/about">
-                            <About setPage={setPage}/>
-                        </Route>
+                <Switch>
+                    <Route path="/about">
+                        <About setPage={setPage}/>
+                    </Route>
 
-                        <Route exact path="/active-brothers">
-                            <ActiveBrothers setPage={setPage} />
-                        </Route>
+                    <Route exact path="/active-brothers">
+                        <ActiveBrothers setPage={setPage} />
+                    </Route>
 
-                        <Route path="/active-brothers/:name"
-                            render={(props) => <Profile {...props} setPage={setPage} />}>
-                        </Route>
+                    <Route path="/active-brothers/:name"
+                        render={(props) => <Profile {...props} setPage={setPage} />}>
+                    </Route>
 
-                        <Route path="/campus-involvement">
-                            <CampusInvolvement setPage={setPage} />
-                        </Route>
-                        <Route path="/careers">
-                            <Careers setPage={setPage} />
-                        </Route>
+                    <Route path="/campus-involvement">
+                        <CampusInvolvement setPage={setPage} />
+                    </Route>
+                    <Route path="/careers">
+                        <Careers setPage={setPage} />
+                    </Route>
 
-                        <Route path="/fall-rush-2020">
-                            <Rush setPage={setPage} />
-                        </Route>
-                        <Route path="/faqs">
-                            <FAQs setPage={setPage} />
-                        </Route>
+                    <Route path="/fall-rush-2020">
+                        <Rush setPage={setPage} />
+                    </Route>
+                    <Route path="/faqs">
+                        <FAQs setPage={setPage} />
+                    </Route>
 
-                        <Route path="/gallery">
-                            <Gallery setPage={setPage} />
-                        </Route>
+                    <Route path="/gallery">
+                        <Gallery setPage={setPage} />
+                    </Route>
 
-                        <Route path="/contact">
-                            <Contact setPage={setPage} />
-                        </Route>
+                    <Route path="/contact">
+                        <Contact setPage={setPage} />
+                    </Route>
 
-                        <Route path="/">
-                            <Home setPage={setPage}/>
-                        </Route>
-                    </Switch>
-                
-                    <Footer></Footer>
-                    </ThemeProvider>
-                </div>
+                    <Route exact={true} path="/">
+                        <Home setPage={setPage}/>
+                    </Route>
+                </Switch>
+            
+                <Footer></Footer>
+                </ThemeProvider>
+            
             </div>
-           
         </HashRouter>
     )
 }
