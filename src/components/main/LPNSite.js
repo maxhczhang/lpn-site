@@ -47,7 +47,7 @@ export default function LPNSite() {
     }
 
     return (
-        <HashRouter>
+        // <HashRouter>
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
@@ -96,6 +96,6 @@ export default function LPNSite() {
                 </ThemeProvider>
             
             </div>
-        </HashRouter>
+        // </HashRouter>
     )
 }
