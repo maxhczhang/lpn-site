@@ -7,9 +7,7 @@ function App() {
 
   return (
     <ParallaxProvider>
-      <div>{process.env.PUBLIC_URL}</div>
       <LPNSite></LPNSite>
-     
     </ParallaxProvider>
   );
 }
