@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://Ryan-Miranda.github.io/lpn-site/precache-manifest.91fe409934060dde16144f635d16e77a.js"
+  "https://Ryan-Miranda.github.io/lpn-site/precache-manifest.b244f526f9e26f459404dca882128140.js"
 );
 
 self.addEventListener('message', (event) => {
