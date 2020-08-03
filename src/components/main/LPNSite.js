@@ -38,7 +38,7 @@ export default function LPNSite() {
         [
             ['Home', 0], ['About', 1], ['Active Brothers', 2], ['Campus Involvement', 3],
             ['Careers', 4], ['Rush', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
-            ['Profile', 9]
+            ['About Me', 9], ['Profile', 10]
         ]
     )
 
@@ -47,13 +47,22 @@ export default function LPNSite() {
     }
 
     return (
-       
+       <HashRouter basename="/">
+           
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
                 <Switch>
-                    <Route path="/about">
+                    {/* <Route exact path="https://ryan-miranda.github.io/lpn-site/#/">
+                        <Home setPage={setPage} />
+                    </Route> */}
+
+                    <Route exact path="/">
+                        <Home setPage={setPage} />
+                    </Route>
+
+                    <Route exact path="/about">
                         <About setPage={setPage}/>
                     </Route>
 
@@ -61,41 +70,42 @@ export default function LPNSite() {
                         <ActiveBrothers setPage={setPage} />
                     </Route>
 
-                    <Route path="/active-brothers/:name"
+                    <Route exact path="/active-brothers/:name"
                         render={(props) => <Profile {...props} setPage={setPage} />}>
                     </Route>
 
-                    <Route path="/campus-involvement">
+                    <Route exact path="/campus-involvement">
                         <CampusInvolvement setPage={setPage} />
                     </Route>
-                    <Route path="/careers">
+                    <Route exact path="/careers">
                         <Careers setPage={setPage} />
                     </Route>
 
-                    <Route path="/fall-rush-2020">
+                    <Route exact path="/fall-rush-2020">
                         <Rush setPage={setPage} />
                     </Route>
-                    <Route path="/faqs">
+                    <Route exact path="/faqs">
                         <FAQs setPage={setPage} />
                     </Route>
 
-                    <Route path="/gallery">
+                    <Route exact path="/gallery">
                         <Gallery setPage={setPage} />
                     </Route>
 
-                    <Route path="/contact">
+                    <Route exact path="/contact">
                         <Contact setPage={setPage} />
                     </Route>
 
-                    <Route path="/">
-                        <Home setPage={setPage}/>
-                    </Route>
+                    {/* <Route>
+                        <Home setPage={setPage}></Home>
+                    </Route> */}
+                   
                 </Switch>
-            
+    
                 <Footer></Footer>
                 </ThemeProvider>
             
             </div>
-        
+        </HashRouter>
     );
 }

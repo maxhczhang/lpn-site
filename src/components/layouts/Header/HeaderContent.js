@@ -172,10 +172,19 @@ export default function HeaderContent({pageNum}) {
             )
 
         case 9:
-            return ( <React.Fragment></React.Fragment> )
+            return ( 
+                <React.Fragment></React.Fragment> 
+            )
+        
+        case 10:
+            return (
+                <React.Fragment></React.Fragment>
+            )
     
         default:
-            return ( <React.Fragment></React.Fragment> )
+            return ( 
+                <React.Fragment></React.Fragment> 
+            )
 
     }
 }
