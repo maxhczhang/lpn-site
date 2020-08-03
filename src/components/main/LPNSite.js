@@ -47,7 +47,7 @@ export default function LPNSite() {
     }
 
     return (
-        <HashRouter basename='https://ryan-miranda.github.io/lpn-site/'>
+        <HashRouter>
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
