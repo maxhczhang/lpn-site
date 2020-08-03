@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
-import { HashRouter, Switch, Route, } from "react-router-dom";
+import { BrowserRouter, HashRouter, Switch, Route, } from "react-router-dom";
 
 import BckgrndSelector from './BckgrndSelector'
 import Home from '../pages/home/Home'
@@ -87,7 +87,7 @@ export default function LPNSite() {
                         <Contact setPage={setPage} />
                     </Route>
 
-                    <Route exact={true} path="/">
+                    <Route path="/">
                         <Home setPage={setPage}/>
                     </Route>
                 </Switch>
