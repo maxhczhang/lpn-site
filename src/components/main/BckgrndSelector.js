@@ -7,7 +7,7 @@ import HeaderContent from '../layouts/Header/HeaderContent'
 import buildings from '../../static/images/backgrounds/buildings.jpg'
 import seniors from '../../static/images/backgrounds/seniors.jpg'
 import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
-import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
+// import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
 import Gallery_Seniors from '../../static/images/backgrounds/Gallery_Seniors.jpg'
 import EYInterviews from '../../static/images/home/darkenedEYInterviews.jpeg'
 

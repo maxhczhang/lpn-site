@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
-import { BrowserRouter, HashRouter, Switch, Route, } from "react-router-dom";
+import { HashRouter, Switch, Route, } from "react-router-dom";
 
 import BckgrndSelector from './BckgrndSelector'
 import Home from '../pages/home/Home'
@@ -47,7 +47,7 @@ export default function LPNSite() {
     }
 
     return (
-       <HashRouter basename="/">
+       <HashRouter basename={process.env.PUBLIC_URL}>
            
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>

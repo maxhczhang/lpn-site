@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
+// import GridList from '@material-ui/core/GridList';
+// import GridListTile from '@material-ui/core/GridListTile';
 import {companyLogos} from './CompanyLogos';
 
 import { Carousel } from 'react-responsive-carousel';
@@ -50,7 +50,7 @@ export default function Companies() {
         //     </GridList>
         // </div>
         //centerMode flag
-        <Carousel autoPlay centerMode centerSlidePercentage={60} infiniteLoop showStatus={false} showThumbs={false} showIndicators={false} 
+        <Carousel autoPlay centerMode centerSlidePercentage={50} infiniteLoop showStatus={false} showThumbs={false}
             showIndicators={false} showArrows={false}>
             
             {companyLogos.map((tile) => (

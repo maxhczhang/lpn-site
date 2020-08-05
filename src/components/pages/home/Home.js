@@ -14,7 +14,7 @@ import useWindowDimensions from '../../WindowListener'
 import Companies from './Companies';
 import HomeCoreValues from './HomeCoreValues'
 
-import EYInterviews from '../../../static/images/home/darkenedEYInterviews.jpeg'
+// import EYInterviews from '../../../static/images/home/darkenedEYInterviews.jpeg'
 import colorLogo from '../../../static/images/logo.png'
 import CoreValuesSeperator from '../../../static/images/home/Core_Values_Separator.jpg'
 
