@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "669422e383ede7082b65ebae69b3a633",
+    "revision": "4981e4dfcb5b936d47b4bacb12b4ac46",
     "url": "https://Ryan-Miranda.github.io/lpn-site/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://Ryan-Miranda.github.io/lpn-site/static/css/2.7061825b.chunk.css"
   },
   {
-    "revision": "820e11ab3d6be12b1c91",
+    "revision": "e32945e27d218a3485b0",
     "url": "https://Ryan-Miranda.github.io/lpn-site/static/css/main.4809cf82.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://Ryan-Miranda.github.io/lpn-site/static/js/2.4dd0ef62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "820e11ab3d6be12b1c91",
-    "url": "https://Ryan-Miranda.github.io/lpn-site/static/js/main.31ee4276.chunk.js"
+    "revision": "e32945e27d218a3485b0",
+    "url": "https://Ryan-Miranda.github.io/lpn-site/static/js/main.44217797.chunk.js"
   },
   {
     "revision": "71be43cdec2c5e50fb60",
