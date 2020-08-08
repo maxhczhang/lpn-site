@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "70%"
     },
     divider: {
-        height: 1,
+        height: 1, 
         width: "70%"
     }
 }));
@@ -71,7 +71,7 @@ export default function Home({ setPage }) {
 
     return (
         <Box mt={8} mb={8} className={classes.root}>
-
+        
             <Typography component="div">
                 <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                     Our Legacy
@@ -79,14 +79,14 @@ export default function Home({ setPage }) {
                 <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
                     Grow Forward. Give Back.
                 </Box>
-            </Typography>
+            </Typography>   
 
             <Box mt={2} mb={6} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" style={{ textAlign: "center" }}>
                         We're a UC Irvine founded business leadership fraternity
-                        community for students seeking leadership development and coaching. We immerse our
-                        members into an environment that emulates the professional world to prepare them for a
+                        community for students seeking leadership development and coaching. We immerse our 
+                        members into an environment that emulates the professional world to prepare them for a 
                         more successful future.
                     </Box>
                 </Typography>
@@ -107,9 +107,9 @@ export default function Home({ setPage }) {
                             <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Professionalism
                             </Box>
-                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{ textAlign: "left" }}>
-                                With 10 years of history, we have an expansive network of alumni in different industries and companies.
-                                Our active and alumni brothers help guide and support you to succeed in the professional world.
+                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{textAlign: "left"}}>
+                                With 10 years of history, we have an expansive network of alumni in different industries and companies. 
+                                Our active and alumni brothers help guide and support you to succeed in the professional world. 
                             </Box>
                         </Typography>
 
@@ -145,7 +145,7 @@ export default function Home({ setPage }) {
             <Divider className={classes.divider}></Divider>
 
             <Box mt={4} mb={8}>
-                <img className={classes.logo} src={colorLogo} alt="LPN"></img>
+                <img className={classes.logo} src={colorLogo} alt="LPN"></img>  
             </Box>
 
             <ParallaxBanner
@@ -172,7 +172,7 @@ export default function Home({ setPage }) {
                         <Box fontWeight="fontWeightBold">
                             Our Core Values
                         </Box>
-
+                        
                     </Typography>
                     <Typography variant="h5">
                         Choosing a photo was too stressful :(
@@ -185,7 +185,7 @@ export default function Home({ setPage }) {
             </Box>
 
             <Divider className={classes.divider}></Divider>
-
+              
             {/* <ParallaxBanner
                 style={{
                     height: '100vh',
@@ -220,7 +220,7 @@ export default function Home({ setPage }) {
                         Where We Work
                     </Box>
                 </Typography>
-
+               
                 <Box mt={2}>
                     <Companies></Companies>
                 </Box>

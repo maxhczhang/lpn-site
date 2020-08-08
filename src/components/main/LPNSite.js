@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
@@ -31,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function LPNSite() {
+    useEffect(() => {
+        console.log("I am in LPNSite!")
+    });
+
     const [pageNum, setPageNum] = useState(0);
     const classes = useStyles();
 
@@ -54,13 +58,6 @@ export default function LPNSite() {
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
                 <Switch>
-                    {/* <Route exact path="https://ryan-miranda.github.io/lpn-site/#/">
-                        <Home setPage={setPage} />
-                    </Route> */}
-
-                    <Route exact path="/">
-                        <Home setPage={setPage} />
-                    </Route>
 
                     <Route exact path="/about">
                         <About setPage={setPage}/>
@@ -96,9 +93,9 @@ export default function LPNSite() {
                         <Contact setPage={setPage} />
                     </Route>
 
-                    {/* <Route>
-                        <Home setPage={setPage}></Home>
-                    </Route> */}
+                    <Route path="/">
+                        <Home setPage={setPage} />
+                    </Route>
                    
                 </Switch>
     
