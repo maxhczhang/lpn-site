@@ -47,7 +47,7 @@ export default function LPNSite() {
     }
 
     return (
-       <HashRouter basename={process.env.PUBLIC_URL}>
+       <HashRouter>
            
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>

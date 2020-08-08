@@ -183,7 +183,7 @@ export default function HeaderContent({pageNum}) {
     
         default:
             return ( 
-                <React.Fragment></React.Fragment> 
+                <h1>hi :)</h1> 
             )
 
     }

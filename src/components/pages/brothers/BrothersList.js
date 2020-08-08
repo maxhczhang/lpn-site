@@ -28,6 +28,75 @@ const useStyles = makeStyles((theme) => ({
         background:
             'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
     },
+    // content: {
+    //     position: "relative",
+    //     width: "100%",
+    //     height: "auto",
+    //     margin: "auto",
+    //     overflow: "hidden"
+    // },
+    // content__content_overlay: {
+    //     background: "rgba(0,0,0,0.7)",
+    //     position: "absolute",
+    //     height: "99%",
+    //     width: "100%",
+    //     left: "0",
+    //     top: "0",
+    //     bottom: "0",
+    //     right: "0",
+    //     opacity: "0",
+    //     WebkitTransition: "all 0.4s ease-in-out 0s",
+    //     MozTransition: "all 0.4s ease-in-out 0s",
+    //     transition: "all 0.4s ease-in-out 0s"
+    // },
+    // content_hover__content_overlay: {
+    //     opacity: "1"
+    // },
+  
+    // content_details: {
+    //     position: "absolute",
+    //     textAlign: "center",
+    //     paddingLeft: "1em",
+    //     paddingRight: "1em",
+    //     width: "100%",
+    //     top: "50%",
+    //     left: "50%",
+    //     opacity: "0",
+    //     WebkitTransform: "translate(-50%, -50%)",
+    //     MozTransform: "translate(-50%, -50%)",
+    //     transform: "translate(-50%, -50%)",
+    //     WebkitTransition: "all 0.3s ease-in-out 0s",
+    //     MozTransition: "all 0.3s ease-in-out 0s",
+    //     transition: "all 0.3s ease-in-out 0s"
+    // },
+    // content_hover__content_details: {
+    //     top: "50%",
+    //     left: "50%",
+    //     opacity: "1"
+    // },
+   
+    // content_details_div: {
+    //     color: "#fff",
+    //     fontWeight: "bold",
+    //     fontSize: "1em",
+    //     fontFamily: "\"Roboto\""
+    // },
+    // content_details_p: {
+    //     color: "#fff",
+    //     fontSize: "0.8em"
+    // },
+    // fadeIn_bottom: {
+    //     top: "80%"
+    // },
+    // fadeIn_top: {
+    //     top" "20%"
+    // },
+    // fadeIn_left: {
+    //     left: "20%"
+    // },
+    // fadeIn_right: {
+    //     left: "80%"
+    // }
 }));
 
 
@@ -35,7 +104,7 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     const classes = useStyles();
     let cols;
 
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     const isMobile = width < 700;
 
     if (isMobile) {
@@ -56,7 +125,7 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                 {brothers.map((tile, i) => (
                     <Grid item xs={cols} key={i}>                   
                         
-                        <div class={"content"}>
+                        <div className="content">
                             <Link to={nameToPath(tile.name)}>
                                 {/* <img src={tile.img} alt={tile.title} className={classes.image} /> */}
                                 <LazyLoadImage
@@ -71,9 +140,9 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                     // afterLoad={() => {console.log(tile.name + " loaded")}}
                                 />
                                 
-                                <div class="content-overlay"></div>
+                                <div className="content-overlay"></div>
 
-                                <div class="content-details fadeIn-bottom">
+                                <div className="content-details fadeIn-bottom">
                                     <div>
                                         {tile.name} {tile.title}
                                     </div>

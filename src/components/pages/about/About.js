@@ -37,7 +37,7 @@ export default function About({setPage}) {
     });
 
     const classes = useStyles();
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     const isMobile = width < 700;
 
     return (

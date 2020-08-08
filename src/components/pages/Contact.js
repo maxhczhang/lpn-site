@@ -56,7 +56,7 @@ export default function Contact({ setPage }) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        //console.log(name, year, email, question);
+        console.log(name, year, email, question);
     };
 
     return (

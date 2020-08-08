@@ -51,7 +51,7 @@ export default function Profile({setPage, match}) {
         setPage("Profile")
     });
 
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     const isMobile = width < 700;
 
     const classes = useStyles()

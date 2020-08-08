@@ -131,7 +131,7 @@ export default function BckgrndSelector({ pageNum }) {
                             children: 
                                 <iframe width="100%" height="100%" title="Rush Video"
                                     src="https://www.youtube-nocookie.com/embed/ZEza9AuQ2Q8?playlist=ZEza9AuQ2Q8&loop=1&autoplay=1&mute=1"
-                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                                    frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
                                     style={{pointerEvents: "none"}}
                                 >
                                 </iframe>
@@ -201,7 +201,7 @@ export default function BckgrndSelector({ pageNum }) {
         
         default:
             return (
-                <React.Fragment></React.Fragment>
+               <h1>hi</h1>
             )
     }
 }
