@@ -16,7 +16,8 @@ import useWindowDimensions from '../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: "10vh",
+    height: 100,
+    width: 100,
     marginLeft: theme.spacing(2),
   },
   link: {

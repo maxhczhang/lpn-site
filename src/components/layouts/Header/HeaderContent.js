@@ -71,7 +71,7 @@ export default function HeaderContent({pageNum}) {
                     <Typography component="div" style={{maxWidth: "80%", marginTop: "25vh"}}>
                         <Typist cursor={{show: false}}>
 
-                        <Box fontWeight="fontWeightBold" fontSize='4rem'>{msgs[0]}</Box>
+                        <Box fontWeight="fontWeightBold" fontSize='3.5rem'>{msgs[0]}</Box>
                         <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
 
                         <Box fontWeight="fontWeightBold" fontSize='6rem'>{msgs[1]}</Box>

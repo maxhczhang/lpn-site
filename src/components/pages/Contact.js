@@ -24,7 +24,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     logo: {
-        height: "20vh",
+        height: 200,
+        width: 200
     },
     button: {
         '& > *': {

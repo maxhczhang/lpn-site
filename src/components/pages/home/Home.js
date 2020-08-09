@@ -6,17 +6,15 @@ import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-
-import { ParallaxBanner } from 'react-scroll-parallax';
 import { Link } from "react-router-dom";
 
-import useWindowDimensions from '../../WindowListener'
-import Companies from './Companies';
-import HomeCoreValues from './HomeCoreValues'
+import { ParallaxBanner } from 'react-scroll-parallax';
 
-// import EYInterviews from '../../../static/images/home/darkenedEYInterviews.jpeg'
-import colorLogo from '../../../static/images/logo.png'
-import CoreValuesSeperator from '../../../static/images/home/Core_Values_Separator.jpg'
+import useWindowDimensions from '../../WindowListener';
+import colorLogo from '../../../static/images/logo.png';
+import CoreValuesSeperator from '../../../static/images/home/Core_Values_Separator.jpg';
+import HomeCoreValues from './HomeCoreValues';
+import Companies from './Companies';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,8 +26,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     logo: {
-        height: "20vh",
-        width: "20vh"
+        height: 200,
+        width: 200
     },
     interviews: {
         position: "relative",
@@ -52,14 +50,12 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function Home({ setPage }) {
+export default function Home({setPage}) {
     useEffect(() => {
-        console.log("I am at home")
         setPage("Home")
     });
 
     const classes = useStyles();
-
     const { width } = useWindowDimensions();
     const isMobile = width < 700;
     let cols;
@@ -97,7 +93,7 @@ export default function Home({ setPage }) {
                     </Button>
                 </Box>
             </Box>
-
+          
             <Divider className={classes.divider}></Divider>
 
             <Box mt={6} mb={6} className={classes.paragraph}>
@@ -185,34 +181,6 @@ export default function Home({ setPage }) {
             </Box>
 
             <Divider className={classes.divider}></Divider>
-
-            {/* <ParallaxBanner
-                style={{
-                    height: '100vh',
-                    display: 'flex', 
-                    justifyContent: 'center', 
-                    alignItems: 'center',
-                }}
-                layers={[
-                    {
-                        image: `url(${EYInterviews})`,
-                        amount: 0.2,
-                        props: {
-                            style: {
-                                backgroundImage: `url(${EYInterviews})`,
-                            }
-                        },
-                    },
-                ]}
-            >
-                <div className={classes.interviews}>
-                    <Typography variant="h3">
-                        <Box fontWeight="fontWeightBold">
-                            We accept all majors!
-                        </Box>
-                    </Typography>
-                </div>
-            </ParallaxBanner> */}
 
             <Box mt={6} align="center">
                 <Typography component="div">

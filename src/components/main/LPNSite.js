@@ -60,7 +60,7 @@ export default function LPNSite() {
                 <Switch>
 
                     <Route exact path="/about">
-                        <About setPage={setPage}/>
+                        <About setPage={setPage} />
                     </Route>
 
                     <Route exact path="/active-brothers">

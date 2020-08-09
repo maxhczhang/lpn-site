@@ -16,8 +16,8 @@ import useWindowDimensions from '../../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
     img: {
-        width: "40vw",
-        height: "auto",
+        width: 400,
+        height: 600,
     },
     link: {
         color: "#003273"
@@ -70,7 +70,7 @@ export default function Profile({setPage, match}) {
                 <Box mt={6} mb={6} className={classes.paragraph}>
                     <Grid container direction="row" justify="center">
 
-                        <Grid item xs={6}>
+                        <Grid item xs={6} container direction="row" justify="center" alignItems="center">
                             <Grid container direction="row" justify="center" alignItems="center">
                                 <Grid item>
                                     <Typography component="div">
@@ -90,15 +90,12 @@ export default function Profile({setPage, match}) {
                                 }
                             </Grid>
 
-                            <Grid container direction="column" justify="center">
-                                <Grid item style={{pointerEvents: "none"}}>
-                                    <div className={classes.img}>
-                                        <img className={classes.img} alt={name} src={profile["img"]} />
-                                    </div>
-                                </Grid>
-
-                                
+                            <Grid item style={{pointerEvents: "none"}}>
+                                <div className={classes.img}>
+                                    <img className={classes.img} alt={name} src={profile["img"]} />
+                                </div>
                             </Grid>
+                                
                         </Grid>
 
                         <Grid item xs={6}>
