@@ -47,7 +47,7 @@ export default function MyMenu({mainTitle, title1, title2}) {
             </Button>
 
             <Menu
-                className={classes.menu} classes={{
+                classes={{
                     paper: classes.paper,
                 }}
                 anchorEl={anchorEl}

@@ -7,7 +7,7 @@ import Box from '@material-ui/core/Box';
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-import {profiles} from '../lists/profiles'
+import { profiles } from '../lists/profiles'
 import ProfileSingle from './ProfileSingle'
 import ProfileArray from './ProfileArray'
 import MobileProfile from './MobileProfile'
@@ -88,13 +88,14 @@ export default function Profile({setPage, match}) {
                                         </a>
                                     </Grid>
                                 }
+                                <Grid item style={{ pointerEvents: "none" }}>
+                                    <div className={classes.img}>
+                                        <img className={classes.img} alt={name} src={profile["img"]} />
+                                    </div>
+                                </Grid>
                             </Grid>
 
-                            <Grid item style={{pointerEvents: "none"}}>
-                                <div className={classes.img}>
-                                    <img className={classes.img} alt={name} src={profile["img"]} />
-                                </div>
-                            </Grid>
+                           
                                 
                         </Grid>
 

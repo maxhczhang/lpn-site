@@ -4,12 +4,11 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
-import buildings from '../../static/images/backgrounds/buildings.jpg'
-import seniors from '../../static/images/backgrounds/seniors.jpg'
-import lpn_in_park from '../../static/images/backgrounds/lpn_in_park.jpg'
-// import Careers_Background from '../../static/images/backgrounds/Careers_Background.jpg'
-import Gallery_Seniors from '../../static/images/backgrounds/Gallery_Seniors.jpg'
-import EYInterviews from '../../static/images/home/darkenedEYInterviews.jpeg'
+import Home from '../../assets/backgrounds/Home.jpg'
+import About from '../../assets/backgrounds/About.jpg'
+import CampusInvolvements from '../../assets/backgrounds/CampusInvolvements.jpg'
+import Careers from '../../assets/backgrounds/Careers.jpeg'
+import Gallery from '../../assets/backgrounds/Gallery.jpg'
 
 
 export default function BckgrndSelector({ pageNum }) {
@@ -23,11 +22,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${buildings})`,
+                            image: `url(${Home})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${buildings})`,
+                                    backgroundImage: `url(${Home})`,
                                 }
                             },
                         },
@@ -46,11 +45,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${seniors})`,
+                            image: `url(${About})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${seniors})`,
+                                    backgroundImage: `url(${About})`,
                                     backgroundPosition: "center bottom"
                                 }
                             },
@@ -79,11 +78,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${lpn_in_park})`,
+                            image: `url(${CampusInvolvements})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${lpn_in_park})`,
+                                    backgroundImage: `url(${CampusInvolvements})`,
                                     backgroundPosition: "center top"
                                 }
                             },
@@ -103,11 +102,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${EYInterviews})`,
+                            image: `url(${Careers})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${EYInterviews})`,
+                                    backgroundImage: `url(${Careers})`,
                                     backgroundPosition: "center top"
                                 }
                             },
@@ -159,11 +158,11 @@ export default function BckgrndSelector({ pageNum }) {
                     }}
                     layers={[
                         {
-                            image: `url(${Gallery_Seniors})`,
+                            image: `url(${Gallery})`,
                             amount: 0.2,
                             props: {
                                 style: {
-                                    backgroundImage: `url(${Gallery_Seniors})`,
+                                    backgroundImage: `url(${Gallery})`,
                                     backgroundPosition: "center bottom"
                                 }
                             },
@@ -190,18 +189,13 @@ export default function BckgrndSelector({ pageNum }) {
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
-
-        case 10:
+        
+        default:
             return (
                 <React.Fragment>
                     <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
-            )
-        
-        default:
-            return (
-               <h1>hi</h1>
             )
     }
 }

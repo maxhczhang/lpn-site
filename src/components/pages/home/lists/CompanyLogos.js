@@ -1,11 +1,11 @@
-import msft from '../../../static/companyLogos/Microsoft.png'
-import KPMG from '../../../static/companyLogos/KPMG.png'
-import Amazon from '../../../static/companyLogos/Amazon.png'
-import Deloitte from '../../../static/companyLogos/Deloitte.png'
-import Accenture from '../../../static/companyLogos/Accenture.png'
-import Experian from '../../../static/companyLogos/Experian.png'
-import EY from '../../../static/companyLogos/EY.png'
-import RSM from '../../../static/companyLogos/RSM.png'
+import msft from '../../../../assets/companyLogos/Microsoft.png'
+import KPMG from '../../../../assets/companyLogos/KPMG.png'
+import Amazon from '../../../../assets/companyLogos/Amazon.png'
+import Deloitte from '../../../../assets/companyLogos/Deloitte.png'
+import Accenture from '../../../../assets/companyLogos/Accenture.png'
+import Experian from '../../../../assets/companyLogos/Experian.png'
+import EY from '../../../../assets/companyLogos/EY.png'
+import RSM from '../../../../assets/companyLogos/RSM.png'
 
 export const companyLogos = [
     {

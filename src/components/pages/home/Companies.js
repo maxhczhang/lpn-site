@@ -3,7 +3,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import {companyLogos} from './CompanyLogos';
+import { companyLogos } from './lists/CompanyLogos';
 
 // import { Carousel } from 'react-responsive-carousel';
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -25,10 +25,6 @@ const useStyles = makeStyles((theme) => ({
         width: 250,
         height: 150,
         objectFit: 'scale-down',
-        // backgroundColor: 'rgb(0,0,0,0.5)'
-    },
-    title: {
-        color: theme.palette.primary.light,
     },
     titleBar: {
         background:
@@ -36,12 +32,12 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Companies() {
+export default function Companies({isMobile}) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <GridList className={classes.gridList} cols={6}>
+            <GridList className={classes.gridList} cols={isMobile ? 2 : 6}>
                 {companyLogos.map((tile) => (
                     <GridListTile key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={classes.image}/>

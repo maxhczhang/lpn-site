@@ -11,10 +11,11 @@ import { Link } from "react-router-dom";
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 import useWindowDimensions from '../../WindowListener';
-import colorLogo from '../../../static/images/logo.png';
-import CoreValuesSeperator from '../../../static/images/home/Core_Values_Separator.jpg';
+import colorLogo from '../../../assets/lpn_assets/logo.png';
+import CoreValuesSeperator from '../../../assets/home/Core_Values_Separator.jpg';
 import HomeCoreValues from './HomeCoreValues';
 import Companies from './Companies';
+import Carousel1 from './Carousel1'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -47,8 +48,15 @@ const useStyles = makeStyles((theme) => ({
     divider: {
         height: 1,
         width: "70%"
+    },
+    topImages: {
+        float: "left",
+        width: 300,
+        height: 300,
+        objectFit: 'cover',
     }
 }));
+
 
 export default function Home({setPage}) {
     useEffect(() => {
@@ -95,6 +103,8 @@ export default function Home({setPage}) {
             </Box>
           
             <Divider className={classes.divider}></Divider>
+
+            <Carousel1 isMobile={isMobile}></Carousel1>
 
             <Box mt={6} mb={6} className={classes.paragraph}>
                 <Grid container spacing={10} direction="row" justify="space-evenly" >
@@ -166,12 +176,12 @@ export default function Home({setPage}) {
                 <div className={classes.interviews}>
                     <Typography variant="h3">
                         <Box fontWeight="fontWeightBold">
-                            Our Core Values
+                            What We Value
                         </Box>
 
                     </Typography>
-                    <Typography variant="h5">
-                        Choosing a photo was too stressful :(
+                    <Typography variant="h3">
+                        If anyone knows a nice non-formal/professional photo for here pls lemme kno
                     </Typography>
                 </div>
             </ParallaxBanner>
@@ -190,7 +200,7 @@ export default function Home({setPage}) {
                 </Typography>
 
                 <Box mt={2}>
-                    <Companies></Companies>
+                    <Companies isMobile={isMobile}></Companies>
                 </Box>
             </Box>
 

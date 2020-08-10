@@ -10,7 +10,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import useWindowDimensions from '../../WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
-import merage_at_night from '../../../static/images/merage_at_night.jpg'
+import merage_at_night from '../../../assets/misc/merage_at_night.jpg'
 
 
 const useStyles = makeStyles((theme) => ({

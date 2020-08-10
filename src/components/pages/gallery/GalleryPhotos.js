@@ -1,6 +1,8 @@
-import Taiwan1 from '../../../static/gallery/taiwan_1.jpg'
-import KevsBday from '../../../static/gallery/Kevins_Bday_2020.JPG'
-import XiSocial from '../../../static/gallery/Xi_Frat_Social.JPG'
+import Taiwan1 from '../../../assets/gallery/Taiwan_1.jpg'
+import KevsBday from '../../../assets/gallery/Kevins_Bday_2020.JPG'
+import XiSocial from '../../../assets/gallery/Xi_Frat_Social.JPG'
+import Iotas from '../../../assets/gallery/Iotas_Formals.jpg'
+import Iolites from '../../../assets/gallery/Iolites_small.jpg'
 
 
 export const GalleryPhotos = [
@@ -11,13 +13,23 @@ export const GalleryPhotos = [
     },
     {
         img: Taiwan1,
-        title: 'Taiwan Trip',
+        title: '',
         cols: 2
     },
     {
         img: KevsBday,
-        title: "One of our Brother's Birthdays",
+        title: '',
         cols: 2
+    },
+    {
+        img: Iotas,
+        title: 'Formals 2019',
+        cols: 1
+    },
+    {
+        img: Iolites,
+        title: 'The Iolite Family',
+        cols: 3
     },
 ];
 

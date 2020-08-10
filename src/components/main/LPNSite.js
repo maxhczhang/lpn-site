@@ -12,7 +12,7 @@ import Profile from '../pages/brothers/profile/Profile'
 import CampusInvolvement from '../pages/campusInvolvements/CampusInvolvement'
 import Careers from '../pages/Careers'
 import Rush from '../pages/Rush'
-import FAQs from '../pages/FAQs'
+import FAQs from '../pages/faqs/FAQs'
 import Gallery from '../pages/gallery/Gallery'
 import Contact from '../pages/Contact'
 import Footer from '../layouts/Footer'
@@ -42,7 +42,7 @@ export default function LPNSite() {
         [
             ['Home', 0], ['About', 1], ['Active Brothers', 2], ['Campus Involvement', 3],
             ['Careers', 4], ['Rush', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
-            ['About Me', 9], ['Profile', 10]
+            ['Profile', 9]
         ]
     )
 
@@ -58,6 +58,10 @@ export default function LPNSite() {
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
                 <Switch>
+
+                    <Route exact path="/">
+                        <Home setPage={setPage} />
+                    </Route>
 
                     <Route exact path="/about">
                         <About setPage={setPage} />
@@ -93,10 +97,6 @@ export default function LPNSite() {
                         <Contact setPage={setPage} />
                     </Route>
 
-                    <Route path="/">
-                        <Home setPage={setPage} />
-                    </Route>
-                   
                 </Switch>
     
                 <Footer></Footer>

@@ -8,7 +8,7 @@ import AppBar from '@material-ui/core/AppBar';
 
 import { Link } from "react-router-dom";
 
-import logo_white from '../../../static/images/logo_white.png';
+import logo_white from '../../../assets/lpn_assets/logo_white.png';
 import MyMenu from './MyMenu'
 import MobileMenu from './MobileMenu'
 import useWindowDimensions from '../../WindowListener'
@@ -45,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+
 export default function Header({ pageNum }) {
     const classes = useStyles();
 
@@ -64,60 +65,52 @@ export default function Header({ pageNum }) {
     }
 
     return (
-      <React.Fragment>
+      <AppBar position='static' className={appBarClass} elevation={elevation}>
         
-        <AppBar position='static' className={appBarClass} elevation={elevation}>
-          <div className={classes.root}>
-            <Grid container direction="row" justify="space-between" alignItems="center">
+        <div className={classes.root}>
+          <Grid container direction="row" justify="space-between" alignItems="center">
+            <Grid item>
+              <Link to="/">
+                <img src={logo_white} className={classes.logo} alt="LPN"></img>
+              </Link>
+            </Grid>
+
+            {isMobile &&
               <Grid item>
-                <Link to="/">
-                  <img src={logo_white} className={classes.logo} alt="LPN"></img>
-                </Link>
-              </Grid>
-
-              {isMobile &&
-                <Grid item>
-                  <Button variant="contained" size="medium" color="inherit" component={Link} to="/fall-rush-2020"
-                    className={classes.joinButton}>
-                    Join Us
-                  </Button>
-                </Grid>
-              }
-
-              {isMobile 
-                ? <MobileMenu></MobileMenu>
-                : <Grid item>
-                  <Box>
-                    <Button size="large" color="inherit" component={Link} to="/">Home</Button>
-
-                    <Button size="large" color="inherit" component={Link} to="/about">About</Button>
-
-                    <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"}></MyMenu>
-
-                    <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
-
-                    <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"}></MyMenu>
-
-                    <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
-
-                    <Button size="large" color="inherit" component={Link} to="/contact">Contact</Button>
-                  </Box>
-                </Grid>
-              }
-            
-              {!isMobile &&
-                <Grid item>
-                  <Button variant="contained" size="large" color="inherit" component={Link} to="/fall-rush-2020"
+                <Button variant="contained" size="medium" color="inherit" component={Link} to="/fall-rush-2020"
                   className={classes.joinButton}>
                   Join Us
-                  </Button>
-                </Grid>
-              }
-              
-            </Grid>
-          </div>
-        </AppBar>
-        
-      </React.Fragment>
+                </Button>
+              </Grid>
+            }
+
+            {isMobile 
+              ? <MobileMenu></MobileMenu>
+              : <Grid item>
+                <Box>
+                  <Button size="large" color="inherit" component={Link} to="/">Home</Button>
+                  <Button size="large" color="inherit" component={Link} to="/about">About</Button>
+                  <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"}></MyMenu>
+                  <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
+                  <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"}></MyMenu>
+                  <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
+                  <Button size="large" color="inherit" component={Link} to="/contact">Contact</Button>
+                </Box>
+              </Grid>
+            }
+          
+            {!isMobile &&
+              <Grid item>
+                <Button variant="contained" size="large" color="inherit" component={Link} to="/fall-rush-2020"
+                className={classes.joinButton}>
+                Join Us
+                </Button>
+              </Grid>
+            }
+            
+          </Grid>
+        </div>
+
+      </AppBar>
     )
 }

@@ -4,9 +4,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 
-import {csuite} from './lists/csuite';
-import {directors} from './lists/directors'
-import {brothers} from './lists/brothers'
+import { csuite } from './lists/csuite';
+import { directors } from './lists/directors'
+import { brothers } from './lists/brothers'
 import BrothersList from './BrothersList'
 
 

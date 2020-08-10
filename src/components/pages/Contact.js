@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 
-import colorLogo from '../../static/images/logo.png'
+import colorLogo from '../../assets/lpn_assets/logo.png'
 
 
 const useStyles = makeStyles((theme) => ({

@@ -3,9 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Typist from 'react-typist'
 import Divider from '@material-ui/core/Divider';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+
+import Typist from 'react-typist'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -175,15 +176,10 @@ export default function HeaderContent({pageNum}) {
             return ( 
                 <React.Fragment></React.Fragment> 
             )
-        
-        case 10:
-            return (
-                <React.Fragment></React.Fragment>
-            )
     
         default:
             return ( 
-                <h1>hi :)</h1> 
+                <Typography variant="h1">Oops, something went wrong! Please navigate back to another page.</Typography>
             )
 
     }

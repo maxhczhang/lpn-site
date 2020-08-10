@@ -1,15 +1,8 @@
 import React from 'react'
 
 import Grid from '@material-ui/core/Grid';
-
 import useWindowDimensions from '../../WindowListener'
 import PlainCoreValue from './PlainCoreValue'
-
-// import curiosity from '../../../static/coreValues/curiosity.png'
-// import excellence from '../../../static/coreValues/excellence.png'
-// import relationships from '../../../static/coreValues/relationships.png'
-// import integrity from '../../../static/coreValues/integrity.png'
-// import altruism from '../../../static/coreValues/altruism.png'
 
 
 export default function CoreValues() {

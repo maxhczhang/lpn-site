@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
     button: {
         color: "white",
     },
+    paper: {
+        color: "white",
+        backgroundColor: "rgb(120,120,120)"
+    }
 }));
 
 export default function MobileMenu() {
@@ -28,19 +32,15 @@ export default function MobileMenu() {
                         <MenuIcon />
                     </IconButton>
                     
-                    <Menu {...bindMenu(popupState)}>
+                    <Menu {...bindMenu(popupState)} classes={{ paper: classes.paper }}>
 
                         <MenuItem onClick={popupState.close} component={Link} to="/">Home</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/about">About</MenuItem>
-                        
                         <MenuItem onClick={popupState.close} component={Link} to="/active-brothers">Active Brothers</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/campus-involvement">Campus Involvements</MenuItem>
-
                         <MenuItem onClick={popupState.close} component={Link} to="/careers">Careers</MenuItem>
-
                         <MenuItem onClick={popupState.close} component={Link} to="/fall-rush-2020">Rush</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/faqs">FAQs</MenuItem>
-
                         <MenuItem onClick={popupState.close} component={Link} to="/gallery">Gallery</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/contact">Contact</MenuItem>
 
