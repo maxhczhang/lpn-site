@@ -24,13 +24,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#580C1F",
         color: "white"
     },
-    image: {
-        // float: "left",
-        width: 200,
-        height: 150,
-        // objectFit: 'scale-down',
-        backgroundColor: "grey"
-    }
 }));
 
 export default function HomeCoreValues({isMobile}) {
@@ -38,29 +31,39 @@ export default function HomeCoreValues({isMobile}) {
 
     return (
         <div className={classes.root}>
+
             <Grid container spacing={3} direction="row" justify="space-evenly" alignItems="center">
                 <Grid item xs={isMobile ? 12 : 4}>
-                    <div className={classes.image}>Wish I knew</div>
 
                     <Box mt={2}>
-                    <Typography variant="h6">Excellence</Typography>
-                    <Typography variant="body1">I wish I could excel at writing descriptions about our Core Values.</Typography>
+                        <Typography component="div">
+                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
+                                Excellence
+                            </Box>
+                        </Typography>
+                        <Typography variant="body1">I wish I could excel at finding a photo for this Core Value.</Typography>
                     </Box>
                 </Grid>
                 <Grid item xs={isMobile ? 12 : 4}>
-                    <div className={classes.image}>why these</div>
 
                     <Box mt={2}>
-                    <Typography variant="h6">Relationships</Typography>
-                    <Typography variant="body1">I think being in a relationship would be pretty cool, maybe I should plug my Tinder.</Typography>
+                        <Typography component="div">
+                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
+                                Relationships
+                            </Box>
+                        </Typography>
+                        <Typography variant="body1">I think being in a relationship would be pretty cool, maybe I should plug my Tinder.</Typography>
                     </Box>
                 </Grid>
                 <Grid item xs={isMobile ? 12 : 4}>
-                    <div className={classes.image}>aren't centered.</div>
 
                     <Box mt={2}>
-                    <Typography variant="h6">Altruism</Typography>
-                    <Typography variant="body1">I altruistically donate my weekends to the Brotherhood to complete this site.</Typography>
+                        <Typography component="div">
+                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
+                                Altruism
+                            </Box>
+                        </Typography>
+                        <Typography variant="body1">I wish someone would altruistically point me to a photo to use here.</Typography>
                     </Box>
                 </Grid>
             </Grid>

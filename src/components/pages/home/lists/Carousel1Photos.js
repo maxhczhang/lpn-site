@@ -1,4 +1,3 @@
-//import circle from '../../../../assets/home/carousel1/Formals_Circle_small.jpg'
 import kappas from '../../../../assets/home/carousel1/Kappas_small.jpg'
 import letters from '../../../../assets/home/carousel1/LPN_Letters_small.jpg'
 import careers_small from '../../../../assets/home/carousel1/Careers_Small.jpg'

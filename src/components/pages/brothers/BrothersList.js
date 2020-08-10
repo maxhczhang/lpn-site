@@ -62,8 +62,8 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
-                                    height="auto"
-                                    width="100%"
+                                    width={200}
+                                    height={300}
                                     scrollPosition={scrollPosition}
                                     src={tile.img}
                                     effect="blur"

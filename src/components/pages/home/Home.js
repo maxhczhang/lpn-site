@@ -12,10 +12,12 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 import useWindowDimensions from '../../WindowListener';
 import colorLogo from '../../../assets/lpn_assets/logo.png';
-import CoreValuesSeperator from '../../../assets/home/Core_Values_Separator.jpg';
+import CoreValuesSeperator from '../../../assets/home/CoreValues_Separator.jpg';
 import HomeCoreValues from './HomeCoreValues';
 import Companies from './Companies';
-import Carousel1 from './Carousel1'
+import MyCarousel from './MyCarousel'
+import { carousel1photos } from './lists/Carousel1Photos';
+import { carousel2photos } from './lists/Carousel2Photos';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -104,7 +106,7 @@ export default function Home({setPage}) {
           
             <Divider className={classes.divider}></Divider>
 
-            <Carousel1 isMobile={isMobile}></Carousel1>
+            <MyCarousel isMobile={isMobile} photos={carousel1photos}></MyCarousel>
 
             <Box mt={6} mb={6} className={classes.paragraph}>
                 <Grid container spacing={10} direction="row" justify="space-evenly" >
@@ -176,17 +178,17 @@ export default function Home({setPage}) {
                 <div className={classes.interviews}>
                     <Typography variant="h3">
                         <Box fontWeight="fontWeightBold">
-                            What We Value
+                            Our Values
                         </Box>
-
-                    </Typography>
-                    <Typography variant="h3">
-                        If anyone knows a nice non-formal/professional photo for here pls lemme kno
                     </Typography>
                 </div>
             </ParallaxBanner>
 
-            <Box mt={8} mb={6} className={classes.paragraph}>
+            <Box mt={8}></Box>
+
+            <MyCarousel isMobile={isMobile} photos={carousel2photos} spacing={40}></MyCarousel>
+
+            <Box mt={4} mb={6} className={classes.paragraph}>
                 <HomeCoreValues isMobile={isMobile}></HomeCoreValues>
             </Box>
 

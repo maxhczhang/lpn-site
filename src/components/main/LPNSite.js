@@ -1,10 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
 
 import BckgrndSelector from './BckgrndSelector'
+import ScrollToTop from './ScrollToTop'
+
 import Home from '../pages/home/Home'
 import About from '../pages/about/About'
 import ActiveBrothers from '../pages/brothers/ActiveBrothers'
@@ -31,10 +33,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function LPNSite() {
-    useEffect(() => {
-        console.log("I am in LPNSite!")
-    });
-
     const [pageNum, setPageNum] = useState(0);
     const classes = useStyles();
 
@@ -52,6 +50,7 @@ export default function LPNSite() {
 
     return (
        <HashRouter>
+           <ScrollToTop></ScrollToTop>
            
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>
