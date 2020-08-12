@@ -19,11 +19,6 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         maxWidth: "80%"
     },
-    image: {
-        height: "100%",
-        width: "100%",
-        objectFit: "contain"
-    },
     titleBar: {
         background:
             'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
@@ -58,7 +53,6 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                         
                         <div className="content">
                             <Link to={nameToPath(tile.name)}>
-                                {/* <img src={tile.img} alt={tile.title} className={classes.image} /> */}
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
@@ -74,9 +68,8 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                 <div className="content-overlay"></div>
 
                                 <div className="content-details fadeIn-bottom">
-                                    <div>
-                                        {tile.name} {tile.title}
-                                    </div>
+                                    <div>{tile.name}</div>
+                                    <p>{tile.title}</p>
                                 </div>
                             </Link>
                         </div>

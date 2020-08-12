@@ -191,6 +191,21 @@ export const profiles = {
         whyLPN: "LPN is full of driven individuals who motivate me to become the best version of myself. It provided me with a community that actively helps me pursue my professional goals and has given me amazing friends I can always depend on for a good laugh.",
         img: require("../../../../assets/actives/directors/information/Serina_Nguyen.jpg")
     },
+    Ben_Fan: {
+        linkedIn: "",
+        homeTown: "",
+        gradYear: 2021,
+        class: "Kappa",
+        major: "Data Science",
+        minor: "",
+        emphasis: "",
+        practice: "",
+        experience: [],
+        campusInvolvements: [],
+        interests: ["Chris Paul"],
+        whyLPN: "",
+        img: require("../../../../assets/actives/directors/information/Ben_Fan.JPG")
+    },
     Jasmin_He: {
         linkedIn: "https://www.linkedin.com/in/jasminhe/",
         homeTown: "Salinas, CA",
@@ -220,21 +235,6 @@ export const profiles = {
         interests: ["Bouldering", "Cooking", "Investing"],
         whyLPN: "",
         img: require("../../../../assets/actives/directors/information/Vivi_Liu.jpg")
-    },
-    Ryan_Miranda: {
-        linkedIn: "https://www.linkedin.com/in/ryan-miranda-/",
-        homeTown: "Cupertino, CA",
-        gradYear: 2022,
-        class: "Xi",
-        major: "Computer Science",
-        minor: "",
-        emphasis: "Intelligent Systems",
-        practice: "Software Engineering",
-        experience: ["Microsoft, Software Engineer Intern", "Vusar, Software Engineer Intern"],
-        campusInvolvements: ["MAISS, VP of Professional Development"],
-        interests: ["playing guitar", "cooking", "peanut butter", "TechCrunch"],
-        whyLPN: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
-        img: require("../../../../assets/actives/directors/information/Ryan_Miranda.jpg")
     },
     Joshua_Tong: {
         linkedIn: "https://www.linkedin.com/in/jjtong1/",
@@ -343,6 +343,21 @@ export const profiles = {
     },
 
     //Brothers
+    Ryan_Miranda: {
+        linkedIn: "https://www.linkedin.com/in/ryan-miranda-/",
+        homeTown: "Cupertino, CA",
+        gradYear: 2022,
+        class: "Xi",
+        major: "Computer Science",
+        minor: "",
+        emphasis: "Intelligent Systems",
+        practice: "Software Engineering",
+        experience: ["Microsoft, Software Engineer Intern", "Vusar, Software Engineer Intern"],
+        campusInvolvements: ["MAISS, VP of Professional Development"],
+        interests: ["playing guitar", "cooking", "peanut butter", "TechCrunch"],
+        whyLPN: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
+        img: require("../../../../assets/actives/brothers/Ryan_Miranda.jpg")
+    },
     David_Sonq: {
         linkedIn: "https://www.linkedin.com/in/davidsonq/",
         homeTown: "Cerritos, CA",

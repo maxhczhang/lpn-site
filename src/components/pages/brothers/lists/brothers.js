@@ -1,13 +1,5 @@
 export const brothers = [
     {
-        img: require("../../../../assets/actives/brothers/Andrew_Duong.jpg"),
-        name: "Andrew Duong",
-    },
-    {
-        img: require("../../../../assets/actives/brothers/Catherine_Lin.jpg"),
-        name: "Catherine Lin",
-    },
-    {
         img: require("../../../../assets/actives/brothers/David_Sonq.jpg"),
         name: "David Sonq",
     },
@@ -24,14 +16,6 @@ export const brothers = [
         name: "Linda Woo",
     },
     {
-        img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg"),
-        name: "Naishal Shah",
-    },
-    {
-        img: require("../../../../assets/actives/brothers/Omar_Naji.jpg"),
-        name: "Omar Naji",
-    },
-    {
         img: require('../../../../assets/actives/brothers/Jeffrey_Cho.jpg'),
         name: "Jeffrey Cho",
     },
@@ -44,12 +28,33 @@ export const brothers = [
         name: "Stephen Minn",
     },
     {
-        img: require("../../../../assets/actives/brothers/Tiffany_Chan.jpg"),
-        name: "Tiffany Chan",
+        img: require("../../../../assets/actives/brothers/Catherine_Lin.jpg"),
+        name: "Catherine Lin",
     },
     {
         img: require("../../../../assets/actives/brothers/Tony_Zhou.jpg"),
         name: "Tony Zhou",
+    },
+   
+    {
+        img: require("../../../../assets/actives/brothers/Tiffany_Chan.jpg"),
+        name: "Tiffany Chan",
+    },
+    {
+        img: require("../../../../assets/actives/brothers/Andrew_Duong.jpg"),
+        name: "Andrew Duong",
+    },
+    {
+        img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg"),
+        name: "Naishal Shah",
+    },
+    {
+        img: require("../../../../assets/actives/brothers/Omar_Naji.jpg"),
+        name: "Omar Naji",
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
+        name: "Ryan Miranda",
     },
 ];
 
