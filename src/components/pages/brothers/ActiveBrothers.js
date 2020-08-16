@@ -34,21 +34,21 @@ export default function ActiveBrothers({ setPage }) {
 
     return (
         <Box mt={8} mb={8} className={classes.root}>
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mb={2}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mb={4}>
                 C-Suite
             </Box>
             <BrothersList brothers={csuite} isCsuite={true}></BrothersList>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={2}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={4}>
                 Directors
             </Box>
             <BrothersList brothers={directors} isCsuite={false}></BrothersList>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={4}>
                 Brothers
             </Box>
             <BrothersList brothers={brothers} isCsuite={false}></BrothersList>

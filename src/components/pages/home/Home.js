@@ -78,16 +78,20 @@ export default function Home({setPage}) {
     return (
         <Box mt={8} mb={8} className={classes.root}>
 
-            <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
-                    Our Legacy
-                </Box>
-                <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                    Grow Forward. Give Back.
-                </Box>
-            </Typography>
+            <Box mb={1}>
+                <Typography component="div">
+                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                        Our Legacy
+                    </Box>
+                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
+                        Grow Forward. Give Back.
+                    </Box>
+                </Typography>
+            </Box>
 
-            <Box mt={2} mb={6} className={classes.paragraph}>
+            <Divider className={classes.divider}></Divider>
+
+            <Box mt={4} mb={6} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" style={{ textAlign: "center" }}>
                         We're a UC Irvine founded business leadership fraternity
@@ -103,8 +107,6 @@ export default function Home({setPage}) {
                     </Button>
                 </Box>
             </Box>
-          
-            <Divider className={classes.divider}></Divider>
 
             <MyCarousel isMobile={isMobile} photos={carousel1photos}></MyCarousel>
 
