@@ -122,7 +122,7 @@ export default function BckgrndSelector({ pageNum }) {
             return (
                 <ParallaxBanner
                     style={{
-                        height: "75vh",
+                        height: "73vh",
                     }}
                     layers={[
                         {

@@ -12,11 +12,11 @@ import About from '../pages/about/About'
 import ActiveBrothers from '../pages/brothers/ActiveBrothers'
 import Profile from '../pages/brothers/profile/Profile'
 import CampusInvolvement from '../pages/campusInvolvements/CampusInvolvement'
-import Careers from '../pages/Careers'
+import Careers from '../pages/careers/Careers'
 import Rush from '../pages/rush/Rush'
 import FAQs from '../pages/faqs/FAQs'
 import Gallery from '../pages/gallery/Gallery'
-import Contact from '../pages/Contact'
+import Contact from '../pages/contact/Contact'
 import Footer from '../layouts/Footer'
 
 

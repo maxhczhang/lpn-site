@@ -260,7 +260,7 @@ export const profiles = {
         minor: "",
         emphasis: "Finance",
         practice: "Finance",
-        experience: ["Wells Fargo Advisors & City National Bank", "Dandelion Global, Business Consulting Intern", "KLK Capital Management, Finance Intern"],
+        experience: ["City National Bank, Specialist Banking Analyst", "Wells Fargo, Portfolio Analyst Intern", "Dandelion Global, Business Consulting Intern"],
         campusInvolvements: ["Undergraduate Finance Association (UFA), President", "Management Information Student Society, VP of External Affairs", "UFA, VP of Corporate Outreach"],
         interests: ["Basketball", "k-drama", "reading biographies", "travelling", "swimming"],
         whyLPN: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",

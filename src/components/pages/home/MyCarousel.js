@@ -26,8 +26,8 @@ export default function MyCarousel({isMobile, photos, spacing}) {
     return (
         <div className={classes.root}>
             <GridList className={classes.gridList} cols={isMobile ? 1 : 3} cellHeight={250} spacing={spacing}>
-                {photos.map((tile) => (
-                    <GridListTile key={tile.img}>
+                {photos.map((tile, i) => (
+                    <GridListTile key={i}>
                         <img src={tile.img} alt={tile.title} className={classes.image} />
                     </GridListTile>
                 ))}

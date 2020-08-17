@@ -33,11 +33,8 @@ const useStyles = makeStyles((theme) => ({
         height: 1,
         width: "70%"
     },
-    mobile: {
-        maxWidth: "90%"
-    },
-    desktop: {
-        maxWidth: "65%"
+    paragraph: {
+        maxWidth: "80%"
     }
 }));
 
@@ -66,12 +63,12 @@ export default function Rush({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={8} mb={8} className={isMobile ? classes.mobile : classes.desktop}>
+            <Box mt={8} mb={8} className={classes.paragraph}>
                 <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6}>
                         <RushEvent title={event.title} date={event.date} description={event.description}
-                            dressCode={event.dressCode}
+                            color={event.color} dressCode={event.dressCode}
                         ></RushEvent>
                     </Grid>
                     ))}

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
+import { makeStyles } from '@material-ui/core/styles';
 
 import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 
-import colorLogo from '../../assets/lpn_assets/logo.png'
+import colorLogo from '../../../assets/lpn_assets/logo.png'
+// import { GoogleSpreadsheet } from 'google-spreadsheet'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -57,7 +58,22 @@ export default function Contact({ setPage }) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(name, year, email, question);
+
+        // const doc = new GoogleSpreadsheet('1LkEtI4cG36YZE6bWFR-ZqMcWcX7yMu7nXWuNyPCVevU')
+
+        // const appendSpreadsheet = async (row) => {
+        //     try {
+        //         await doc.useServiceAccountAuth(require('./config.json'));
+        //         await doc.loadInfo();
+        //         const sheet = doc.sheetsById['0'];
+        //         const result = await sheet.addRow(row);
+        //     } catch (e) {
+        //         console.error('Error: ', e);
+        //     }
+        // };
+
+        const newRow = {Name: name, Year: year, Email: email, Question: question};
+        // appendSpreadsheet(newRow);
     };
 
     return (
