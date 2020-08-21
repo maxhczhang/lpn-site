@@ -7,7 +7,6 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 
 import colorLogo from '../../../assets/lpn_assets/logo.png'
-// import { GoogleSpreadsheet } from 'google-spreadsheet'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -50,6 +49,18 @@ export default function Contact({ setPage }) {
         setPage("Contact")
     });
 
+    const postToServer = async (newRow) => {
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ newRow })
+        };
+
+        fetch('/v1/sheets', requestOptions)
+            .then(response => response.json())
+            .then(data => console.log(data));
+    };
+
     const classes = useStyles();
     const [name, setName] = useState('');
     const [year, setYear] = useState('');
@@ -58,22 +69,8 @@ export default function Contact({ setPage }) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-
-        // const doc = new GoogleSpreadsheet('1LkEtI4cG36YZE6bWFR-ZqMcWcX7yMu7nXWuNyPCVevU')
-
-        // const appendSpreadsheet = async (row) => {
-        //     try {
-        //         await doc.useServiceAccountAuth(require('./config.json'));
-        //         await doc.loadInfo();
-        //         const sheet = doc.sheetsById['0'];
-        //         const result = await sheet.addRow(row);
-        //     } catch (e) {
-        //         console.error('Error: ', e);
-        //     }
-        // };
-
         const newRow = {Name: name, Year: year, Email: email, Question: question};
-        // appendSpreadsheet(newRow);
+        postToServer(newRow);
     };
 
     return (
