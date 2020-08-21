@@ -13,7 +13,7 @@ export const faqsList = [
     },
     {
         question: "What is Rush?",
-        answer: "When you're late to a meeting and you're on last-strike status, you ____.",
+        answer: "When you're late to a meeting and you're on last-strike status, you ____ to get there fast.",
     },
     {
         question: "Can non-business majors join?",
@@ -21,11 +21,11 @@ export const faqsList = [
     },
     {
         question: "What is a bid?",
-        answer: "Its an opportunity to make friends.",
+        answer: "Means you have to laugh at all Actives' jokes.",
     },
     {
         question: "What qualities do you look for in a candidate?",
-        answer: "As long as theyre not Indian, they're good.",
+        answer: "1st and 2nd Years!",
     },
     {
         question: "If I don't get a bid, can I recruit again?",
@@ -33,7 +33,7 @@ export const faqsList = [
     },
     {
         question: "What is pledging?",
-        answer: "Forcing new people to fundraise for us and teaching Lucian how to bake.",
+        answer: "Teaching Lucian how to bake.",
     },
    
 ];
