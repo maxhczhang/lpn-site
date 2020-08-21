@@ -87,7 +87,7 @@ export default function Contact({ setPage }) {
     const handleSubmit = (event) => {
         event.preventDefault();
         const newRow = {Name: name, Year: year, Email: email, Question: question};
-        //postToServer(newRow).then(resetState);
+        postToServer(newRow).then(resetState);
         setOpen(true);
     };
 
