@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lpn-site/static/css/main.4aaec1f9.chunk.css",
-    "main.js": "/lpn-site/static/js/main.a0e2c66f.chunk.js",
-    "main.js.map": "/lpn-site/static/js/main.a0e2c66f.chunk.js.map",
+    "main.js": "/lpn-site/static/js/main.a4e5409e.chunk.js",
+    "main.js.map": "/lpn-site/static/js/main.a4e5409e.chunk.js.map",
     "runtime-main.js": "/lpn-site/static/js/runtime-main.00264591.js",
     "runtime-main.js.map": "/lpn-site/static/js/runtime-main.00264591.js.map",
     "static/css/2.9905d55a.chunk.css": "/lpn-site/static/css/2.9905d55a.chunk.css",
-    "static/js/2.2da59849.chunk.js": "/lpn-site/static/js/2.2da59849.chunk.js",
-    "static/js/2.2da59849.chunk.js.map": "/lpn-site/static/js/2.2da59849.chunk.js.map",
+    "static/js/2.e5a72735.chunk.js": "/lpn-site/static/js/2.e5a72735.chunk.js",
+    "static/js/2.e5a72735.chunk.js.map": "/lpn-site/static/js/2.e5a72735.chunk.js.map",
     "index.html": "/lpn-site/index.html",
-    "precache-manifest.da94a3cab6a9fcacde74258aae3adee1.js": "/lpn-site/precache-manifest.da94a3cab6a9fcacde74258aae3adee1.js",
+    "precache-manifest.ca57840285e29aa346d23fee09d3bbe3.js": "/lpn-site/precache-manifest.ca57840285e29aa346d23fee09d3bbe3.js",
     "service-worker.js": "/lpn-site/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/lpn-site/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.4aaec1f9.chunk.css.map": "/lpn-site/static/css/main.4aaec1f9.chunk.css.map",
-    "static/js/2.2da59849.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.2da59849.chunk.js.LICENSE.txt",
+    "static/js/2.e5a72735.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.e5a72735.chunk.js.LICENSE.txt",
     "static/media/About.jpg": "/lpn-site/static/media/About.59c8597f.jpg",
     "static/media/Accenture.png": "/lpn-site/static/media/Accenture.c87c8eba.png",
     "static/media/Alex_Cole.jpg": "/lpn-site/static/media/Alex_Cole.691e02fb.jpg",
@@ -65,6 +65,7 @@
     "static/media/Serina_Nguyen.jpg": "/lpn-site/static/media/Serina_Nguyen.528a4453.jpg",
     "static/media/Stephen_Minn.jpg": "/lpn-site/static/media/Stephen_Minn.4f5da93e.jpg",
     "static/media/Taiwan_1.jpg": "/lpn-site/static/media/Taiwan_1.825bb744.jpg",
+    "static/media/Tiff_Altruism.jpg": "/lpn-site/static/media/Tiff_Altruism.1eaea4f1.jpg",
     "static/media/Tiffany_Chan.jpg": "/lpn-site/static/media/Tiffany_Chan.7f114c21.jpg",
     "static/media/Tiffany_Wong.jpg": "/lpn-site/static/media/Tiffany_Wong.8d943898.jpg",
     "static/media/Tony_Zhou.jpg": "/lpn-site/static/media/Tony_Zhou.c51fd260.jpg",
@@ -80,8 +81,8 @@
   "entrypoints": [
     "static/js/runtime-main.00264591.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.2da59849.chunk.js",
+    "static/js/2.e5a72735.chunk.js",
     "static/css/main.4aaec1f9.chunk.css",
-    "static/js/main.a0e2c66f.chunk.js"
+    "static/js/main.a4e5409e.chunk.js"
   ]
 }
