@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/lpn-site/static/css/main.4aaec1f9.chunk.css",
-    "main.js": "/lpn-site/static/js/main.a4e5409e.chunk.js",
-    "main.js.map": "/lpn-site/static/js/main.a4e5409e.chunk.js.map",
+    "main.js": "/lpn-site/static/js/main.d8f60e48.chunk.js",
+    "main.js.map": "/lpn-site/static/js/main.d8f60e48.chunk.js.map",
     "runtime-main.js": "/lpn-site/static/js/runtime-main.00264591.js",
     "runtime-main.js.map": "/lpn-site/static/js/runtime-main.00264591.js.map",
     "static/css/2.9905d55a.chunk.css": "/lpn-site/static/css/2.9905d55a.chunk.css",
     "static/js/2.e5a72735.chunk.js": "/lpn-site/static/js/2.e5a72735.chunk.js",
     "static/js/2.e5a72735.chunk.js.map": "/lpn-site/static/js/2.e5a72735.chunk.js.map",
     "index.html": "/lpn-site/index.html",
-    "precache-manifest.ca57840285e29aa346d23fee09d3bbe3.js": "/lpn-site/precache-manifest.ca57840285e29aa346d23fee09d3bbe3.js",
+    "precache-manifest.1cb8a7e7d81818cb85d13443e4cc8583.js": "/lpn-site/precache-manifest.1cb8a7e7d81818cb85d13443e4cc8583.js",
     "service-worker.js": "/lpn-site/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/lpn-site/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.4aaec1f9.chunk.css.map": "/lpn-site/static/css/main.4aaec1f9.chunk.css.map",
     "static/js/2.e5a72735.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.e5a72735.chunk.js.LICENSE.txt",
-    "static/media/About.jpg": "/lpn-site/static/media/About.59c8597f.jpg",
+    "static/media/About.jpg": "/lpn-site/static/media/About.abaabd39.jpg",
     "static/media/Accenture.png": "/lpn-site/static/media/Accenture.c87c8eba.png",
     "static/media/Alex_Cole.jpg": "/lpn-site/static/media/Alex_Cole.691e02fb.jpg",
     "static/media/Amazon.png": "/lpn-site/static/media/Amazon.80f40d6a.png",
@@ -23,18 +23,18 @@
     "static/media/Ben_Fan.JPG": "/lpn-site/static/media/Ben_Fan.ef0cf939.JPG",
     "static/media/Ben_MrCeo.jpg": "/lpn-site/static/media/Ben_MrCeo.7ec86245.jpg",
     "static/media/CampusInvolvements.jpg": "/lpn-site/static/media/CampusInvolvements.3154f822.jpg",
-    "static/media/Careers.jpeg": "/lpn-site/static/media/Careers.6a5faa31.jpeg",
+    "static/media/Careers.jpeg": "/lpn-site/static/media/Careers.5bfdfe35.jpeg",
     "static/media/Catherine_Lin.jpg": "/lpn-site/static/media/Catherine_Lin.ac38ea0a.jpg",
     "static/media/Catherine_Nguyen.jpg": "/lpn-site/static/media/Catherine_Nguyen.65336cf2.jpg",
-    "static/media/CoreValues_Separator.jpg": "/lpn-site/static/media/CoreValues_Separator.0261c449.jpg",
     "static/media/David_Sonq.jpg": "/lpn-site/static/media/David_Sonq.93e9f186.jpg",
     "static/media/Deloitte.png": "/lpn-site/static/media/Deloitte.e48af6d0.png",
     "static/media/EY.png": "/lpn-site/static/media/EY.651b4b14.png",
     "static/media/Emily_Quynh_Nguyen.jpeg": "/lpn-site/static/media/Emily_Quynh_Nguyen.5e83580a.jpeg",
     "static/media/Experian.png": "/lpn-site/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/lpn-site/static/media/Faith_Chia.d1a7d837.jpg",
-    "static/media/Gallery.jpg": "/lpn-site/static/media/Gallery.61cd7dd6.jpg",
-    "static/media/Home.jpg": "/lpn-site/static/media/Home.5b76ae21.jpg",
+    "static/media/Gallery.jpg": "/lpn-site/static/media/Gallery.0d7a36af.jpg",
+    "static/media/History_2.jpg": "/lpn-site/static/media/History_2.0896cd12.jpg",
+    "static/media/Home.jpg": "/lpn-site/static/media/Home.48ccd1d0.jpg",
     "static/media/Ian_Han.jpg": "/lpn-site/static/media/Ian_Han.9fc82c43.jpg",
     "static/media/Iolites_small.jpg": "/lpn-site/static/media/Iolites_small.ab149256.jpg",
     "static/media/Iotas_Formals.jpg": "/lpn-site/static/media/Iotas_Formals.47853e8f.jpg",
@@ -76,13 +76,13 @@
     "static/media/Yong_Lin.jpg": "/lpn-site/static/media/Yong_Lin.4afc1086.jpg",
     "static/media/logo.png": "/lpn-site/static/media/logo.f68038e3.png",
     "static/media/logo_white.png": "/lpn-site/static/media/logo_white.391d31fd.png",
-    "static/media/merage_at_night.jpg": "/lpn-site/static/media/merage_at_night.ba8f41ac.jpg"
+    "static/media/tri_punch.jpg": "/lpn-site/static/media/tri_punch.6b37b7a2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.00264591.js",
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.e5a72735.chunk.js",
     "static/css/main.4aaec1f9.chunk.css",
-    "static/js/main.a4e5409e.chunk.js"
+    "static/js/main.d8f60e48.chunk.js"
   ]
 }
