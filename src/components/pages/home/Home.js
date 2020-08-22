@@ -12,7 +12,8 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 import useWindowDimensions from '../../WindowListener';
 import colorLogo from '../../../assets/lpn_assets/logo.png';
-import CoreValuesSeperator from '../../../assets/home/CoreValues_Separator.jpg';
+//import CoreValuesSeperator from '../../../assets/home/CoreValues_Separator.jpg';
+import CoreValuesSeperator from '../../../assets/home/tri_punch.jpg';
 import HomeCoreValues from './HomeCoreValues';
 import Companies from './Companies';
 import MyCarousel from './MyCarousel'

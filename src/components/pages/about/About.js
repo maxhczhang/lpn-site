@@ -10,7 +10,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import useWindowDimensions from '../../WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
-import merage_at_night from '../../../assets/misc/merage_at_night.jpg'
+import history_sep from '../../../assets/misc/History_2.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -95,18 +95,18 @@ export default function About({setPage}) {
 
             <ParallaxBanner
                 style={{
-                    height: '50vh',
+                    height: '70vh',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}
                 layers={[
                     {
-                        image: `url(${merage_at_night})`,
+                        image: `url(${history_sep})`,
                         amount: 0.2,
                         props: {
                             style: {
-                                backgroundImage: `url(${merage_at_night})`
+                                backgroundImage: `url(${history_sep})`
                             }
                         },
                     },
