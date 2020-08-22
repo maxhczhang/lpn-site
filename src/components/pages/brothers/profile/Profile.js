@@ -19,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
         width: 400,
         height: 600,
     },
+    mobileimg: {
+        width: 300,
+        height: 450,
+    },
     link: {
         color: "#003273"
     },
@@ -95,8 +99,6 @@ export default function Profile({setPage, match}) {
                                 </Grid>
                             </Grid>
 
-                           
-                                
                         </Grid>
 
                         <Grid item xs={6}>

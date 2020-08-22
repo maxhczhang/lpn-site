@@ -63,7 +63,7 @@ export default function HomeCoreValues({isMobile}) {
                                 Altruism
                             </Box>
                         </Typography>
-                        <Typography variant="body1">I wish someone would altruistically point me to a photo to use here.</Typography>
+                        <Typography variant="body1">I wish someone would altruistically write this caption for me.</Typography>
                     </Box>
                 </Grid>
             </Grid>

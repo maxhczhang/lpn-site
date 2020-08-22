@@ -10,7 +10,7 @@ export default function ProfileArray({profile, field, title, isMobile}) {
 
         if (isMobile) {
             return (
-                <Typography component="div">
+                <Typography component="div" align="left">
                     <Box fontWeight="fontWeightBold" fontSize="h6.fontSize">
                         {title}
                     </Box>
@@ -21,7 +21,7 @@ export default function ProfileArray({profile, field, title, isMobile}) {
             )
         } else {
             return (
-                <Typography component="div">
+                <Typography component="div" align="left">
                     <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                         {title}
                     </Box>

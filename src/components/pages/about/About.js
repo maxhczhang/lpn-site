@@ -95,7 +95,7 @@ export default function About({setPage}) {
 
             <ParallaxBanner
                 style={{
-                    height: '70vh',
+                    height: '60vh',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',

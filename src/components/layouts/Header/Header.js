@@ -20,6 +20,11 @@ const useStyles = makeStyles((theme) => ({
     width: 100,
     marginLeft: theme.spacing(2),
   },
+  mobileLogo: {
+    height: 80,
+    width: 80,
+    marginLeft: theme.spacing(2),
+  },
   link: {
     color: "white"
   },
@@ -71,7 +76,7 @@ export default function Header({ pageNum }) {
           <Grid container direction="row" justify="space-between" alignItems="center">
             <Grid item>
               <Link to="/">
-                <img src={logo_white} className={classes.logo} alt="LPN"></img>
+                <img src={logo_white} className={isMobile ? classes.mobileLogo : classes.logo} alt="LPN"></img>
               </Link>
             </Grid>
 

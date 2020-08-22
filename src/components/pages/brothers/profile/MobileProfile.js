@@ -33,7 +33,7 @@ export default function MobileProfile({name, profile, classes}) {
                         }
                     </Grid>
                     <Grid item>
-                        <img className={classes.img} alt={name} src={profile["img"]} />
+                        <img className={classes.mobileimg} alt={name} src={profile["img"]} />
                     </Grid>
                 </Grid>
                 

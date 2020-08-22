@@ -7,6 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 import Typist from 'react-typist'
+import useWindowDimensions from '../../WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -63,6 +64,9 @@ export default function HeaderContent({pageNum}) {
     const msgs = ["A Business Leadership Fraternity.", "ΛΦΝ", "UC Irvine"]
     const classes = useStyles();
 
+    const { width } = useWindowDimensions();
+    const isMobile = width < 700;
+
     switch(pageNum) {
 
         case 0:
@@ -72,7 +76,7 @@ export default function HeaderContent({pageNum}) {
                     <Typography component="div" style={{maxWidth: "80%", marginTop: "25vh"}}>
                         <Typist cursor={{show: false}}>
 
-                        <Box fontWeight="fontWeightBold" fontSize='3.5rem'>{msgs[0]}</Box>
+                        <Box fontWeight="fontWeightBold" fontSize={isMobile ? '3rem' : '3.5rem'}>{msgs[0]}</Box>
                         <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
 
                         <Box fontWeight="fontWeightBold" fontSize='6rem'>{msgs[1]}</Box>
@@ -93,7 +97,7 @@ export default function HeaderContent({pageNum}) {
             return (
                 <React.Fragment>
                     <Box className={classes.contentWrapper}>
-                        <Box fontWeight="fontWeightBold" fontSize='5rem' className={classes.content}>About Us</Box>
+                        <Box fontWeight="fontWeightBold" fontSize={isMobile ? '4rem' : '5rem'} className={classes.content}>About Us</Box>
                         <Typography variant="h5">Learn about Lambda Phi Nu and our history.</Typography>
                     </Box>
                     <div className={classes.bottomWrapper}>
@@ -150,7 +154,7 @@ export default function HeaderContent({pageNum}) {
             return (
                 <React.Fragment>
                     <Box className={classes.contentWrapper}>
-                        <Box fontWeight="fontWeightBold" fontSize='5rem' className={classes.content}>
+                        <Box fontWeight="fontWeightBold" fontSize={isMobile ? '4rem' : '5rem'} className={classes.content}>
                             Our Memories
                         </Box>
                     </Box>

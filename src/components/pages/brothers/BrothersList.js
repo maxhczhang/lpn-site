@@ -34,7 +34,7 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     const isMobile = width < 700;
 
     if (isMobile) {
-        cols = 6;
+        cols = 12;
     } else {
         cols = 3;
     }
@@ -61,8 +61,6 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                     scrollPosition={scrollPosition}
                                     src={tile.img}
                                     effect="blur"
-                                    // visibleByDefault={isCsuite && i < 4}
-                                    // afterLoad={() => {console.log(tile.name + " loaded")}}
                                 />
                                 
                                 <div className="content-overlay"></div>

@@ -11,6 +11,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 
 import colorLogo from '../../../assets/lpn_assets/logo.png'
+import useWindowDimensions from '../../WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
     logo: {
         height: 200,
         width: 200
+    },
+    mobileLogo: {
+        height: 150,
+        width: 150
     },
     button: {
         '& > *': {
@@ -77,6 +82,9 @@ export default function Contact({ setPage }) {
     const [question, setQuestion] = useState('');
     const [open, setOpen] = useState(false);
 
+    const { width } = useWindowDimensions();
+    const isMobile = width < 700;
+
     const resetState = () => {
         setName('');
         setYear('');
@@ -100,7 +108,7 @@ export default function Contact({ setPage }) {
 
     return (
         <Box mt={6} mb={10} className={classes.root}>
-            <img className={classes.logo} src={colorLogo} alt="LPN"></img>
+            <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
             
             <form onSubmit={handleSubmit} style={{maxWidth: "80%"}}>
                 <Grid container spacing={3}>
