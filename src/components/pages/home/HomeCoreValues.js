@@ -56,7 +56,7 @@ export default function HomeCoreValues({isMobile}) {
                                 Relationships
                             </Box>
                         </Typography>
-                        <Typography variant="body1">Our Brothers form life-long relationships, from the first night of Pledge to their Commencement.</Typography>
+                        <Typography variant="body1">Our Brothers form life-long relationships with the friends they cross with as well as all our Active and Alumni Brothers.</Typography>
                     </Box>
                 </Grid>
                 <Grid item xs={isMobile ? 12 : 4}>
