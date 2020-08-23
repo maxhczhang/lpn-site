@@ -398,7 +398,7 @@ export const profiles = {
         emphasis: "Finance",
         practice: "Finance",
         experience: ["Motilal Oswal, Intern"],
-        campusInvolvements: ["UFA, Intern", "UCI Student Managed Investment Fund, Intern", "MAISS, Mentor"],
+        campusInvolvements: ["UFA, Intern", "UCI Student Managed Investment Fund, Analyst", "MAISS, Mentor"],
         interests: ["Watching/Playing Sports", "Cooking", "Cars"],
         whyLPN: "To me, Lambda Phi Nu is an organization that allows individuals to achieve their potential by equipping them with the proper knowledge and resources. However, Lambda Phi Nu is more than just a fraternity that develops professionalism; The fraternity has helped me discover various facets of myself that I was unaware of and has helped foster personal growth. The fraternity is made up of individuals who I can trust with my life and already feels like home. Seeing the motivated, driven individuals greatly inspires me, and I can confidently say that rushing Lambda Phi Nu was one of the best decisions I have made in college. ",
         img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg")

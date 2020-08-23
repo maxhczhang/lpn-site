@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
         width: "80%",
     },
     bar: {
-        height: "12%"
+        height: 40
     }
 }));
 
@@ -39,10 +39,11 @@ export default function Gallery({setPage}) {
         <Box className={classes.root} mt={8} mb={8}>
             <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={10}>
                 {GalleryPhotos.map((tile, i) => (
-                    <GridListTile key={i} cols={isMobile ? 3 : (tile.cols || 1)} style={{ pointerEvents: "none" }}>
+                    <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={tile.rows ? tile.rows : 1}
+                            style={{ pointerEvents: "none" }}>
                         <img src={tile.img} alt={tile.title} />
 
-                        {tile.title !== "" &&
+                        {tile.title &&
                             <GridListTileBar
                                 classes={{ root:classes.bar, }}
                                 title={tile.title}

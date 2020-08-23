@@ -25,7 +25,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/information/Vivi_Liu.jpg'),
         name: "Vivi Liu",
-        title: 'Marketing Director',
+        title: 'Marketing',
         logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
         company: 'CrossBond Brand Consultant',
     },
@@ -41,28 +41,28 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/operations/Joshua_Tong.jpg'),
         name: "Joshua Tong",
-        title: 'Culture & Relationships Director',
+        title: 'Culture & Relationships',
         logo: require('../../../../assets/actives/logos/Joshua_Tong.png'),
         company: 'DiverseVC',
     },
     {
         img: require('../../../../assets/actives/directors_small/finance/Sera_Xu.jpg'),
         name: "Sera Xu",
-        title: 'Corporate Relations Director',
+        title: 'Corporate Relations',
         logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
         company: 'CreatorUp',
     },
     {
         img: require('../../../../assets/actives/directors_small/information/Serina_Nguyen.jpg'),
         name: "Serina Nguyen",
-        title: 'Marketing Director',
+        title: 'Marketing',
         logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
         company: 'Issuu',
     },
     {
         img: require('../../../../assets/actives/directors_small/strategy/Lucian_Liu.jpg'),
         name: "Lucian Liu",
-        title: 'Strategy Director',
+        title: 'Strategy',
         logo: require('../../../../assets/actives/logos/Lucian_Liu.png'),
         company: 'Experian',
         isSmall: true
@@ -70,7 +70,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/operations/Ian_Han.jpg'),
         name: "Ian Han",
-        title: 'Alumni Relations Director',
+        title: 'Alumni Relations',
         logo: require('../../../../assets/actives/logos/Le_An_Pham.png'),
         company: 'Sunwest Bank',
     },
@@ -78,7 +78,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/operations/Yong_Lin.jpg'),
         name: "Yong Lin",
-        title: 'Career Catalyst Director',
+        title: 'Career Catalyst',
         logo: require('../../../../assets/actives/logos/Yong_Lin.png'),
         company: 'City National Bank',
         isSmall: true
@@ -87,7 +87,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/operations/Catherine_Nguyen.jpg'),
         name: "Catherine Nguyen",
-        title: 'Social Impact Director',
+        title: 'Social Impact',
         logo: require('../../../../assets/actives/logos/Catherine_Nguyen.png'),
         company: 'ViaLoop',
         isSmall: true
@@ -95,12 +95,12 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/finance/Alex_Cole.jpg'),
         name: "Alex Cole",
-        title: 'Finance Director'
+        title: 'Finance'
     },
     {
         img: require('../../../../assets/actives/directors_small/operations/Tyler_Newman.jpg'),
         name: "Tyler Newman",
-        title: 'Culture & Relationships Director'
+        title: 'Culture & Relationships'
     },
     {
         img: require('../../../../assets/actives/directors_small/talent/Raymond_Dinh.jpg'),
@@ -113,7 +113,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/information/Ben_Fan.JPG'),
         name: "Ben Fan",
-        title: 'Information Systems Director',
+        title: 'Information Systems',
         logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
         company: '',
     },

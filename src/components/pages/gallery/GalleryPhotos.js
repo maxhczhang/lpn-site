@@ -1,60 +1,89 @@
-import Taiwan1 from '../../../assets/gallery/Taiwan_1.jpg'
-import KevsBday from '../../../assets/gallery/Kevins_Bday_2020.JPG'
-import XiSocial from '../../../assets/gallery/Xi_Frat_Social.JPG'
-import Iotas from '../../../assets/gallery/Iotas_Formals.jpg'
-import Iolites from '../../../assets/gallery/Iolites_small.jpg'
-import Ben_MrCeo from '../../../assets/gallery/Ben_MrCeo.jpg'
-import Sapphires from '../../../assets/gallery/Sapphires_small.jpg'
-import Circle from '../../../assets/gallery/RyanChen_Circle.jpg'
-import Jenny_Jeffrey from '../../../assets/gallery/Jenny_Jeffrey.jpg'
-
-
 export const GalleryPhotos = [
     {
-        img: Sapphires,
-        title: 'The Sapphire Family',
-        cols: 1
-    },
-    {
-        img: Taiwan1,
-        title: '',
-        cols: 2
-    },
-    {
-        img: KevsBday,
-        title: '',
-        cols: 2
-    },
-    {
-        img: Iotas,
-        title: 'Formals 2019',
-        cols: 1
-    },
-    {
-        img: Iolites,
-        title: 'The Iolite Family',
-        cols: 3
-    },
-    {
-        img: XiSocial,
+        img: require('../../../assets/gallery/Xi_Frat_Social.JPG'),
         title: 'Xi Class Fraternal Social',
         cols: 1
     },
     {
-        img: Circle,
-        title: '',
+        img: require('../../../assets/gallery/Jenny_Jeffrey.jpg'),
+        cols: 2
+    },
+   
+    {
+        img: require('../../../assets/gallery/Taiwan_1.jpg'),
+        cols: 2,
+        rows: 2
+    },
+    {
+        img: require('../../../assets/gallery/Iotas_Formals.jpg'),
+        cols: 1,
+        rows: 2
+    },
+    {
+        img: require('../../../assets/gallery/Sapphires_small.jpg'),
+        title: 'Sapphire Family',
+        cols: 1,
+        rows: 1
+    },
+    {
+        img: require('../../../assets/gallery/Kevins_Bday_2020.JPG'),
         cols: 2
     },
     {
-        img: Jenny_Jeffrey,
-        title: '',
+        img: require('../../../assets/gallery/Sapphire_Hiking.jpg'),
+        cols: 3,
+    },
+    
+    {
+        img: require('../../../assets/gallery/Mu_Thanksgiving.jpg'),
+        cols: 1,
+        rows: 1
+    },
+    {
+        img: require('../../../assets/gallery/RyanChen_Circle.jpg'),
         cols: 2
     },
     {
-        img: Ben_MrCeo,
-        title: '',
-        cols: 1
+        img: require('../../../assets/gallery/Iolites_small.jpg'),
+        title: 'Iolite Family',
+        cols: 3,
     },
+    {
+        img: require('../../../assets/gallery/CoreValues_Separator.jpg'),
+        cols: 2,
+        rows: 2,
+        title: 'Annual Mr CEO Charity' 
+    },
+    {
+        img: require('../../../assets/gallery/Taiwan_2.jpg'),
+        cols: 1,
+        rows: 2
+    },
+    
+    {
+        img: require('../../../assets/gallery/Kappas_SF.jpg'),
+        cols: 1,
+        rows: 1
+    },
+    {
+        img: require('../../../assets/gallery/LPN_Letters.jpg'),
+        cols: 2,
+        rows:1
+    },
+    {
+        img: require('../../../assets/gallery/Kappas_Skates.jpg'),
+        cols: 2,
+        rows: 2
+    },
+    {
+        img: require('../../../assets/gallery/Excellence.jpg'),
+        cols: 1,
+    },
+    // {
+    //     img: require('../../../assets/gallery/Iota_Friends_Giving.jpg'),
+    //     cols: 1,
+    //     rows: 1
+    // },
 ];
 
 export default { GalleryPhotos };

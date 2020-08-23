@@ -69,10 +69,10 @@ export default function Rush({ setPage }) {
             <Box mt={8} mb={8} className={classes.paragraph}>
                 <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
                     {events.map((event, i) => (
-                        <Grid item xs={isMobile ? 12 : 6}>
-                        <RushEvent title={event.title} date={event.date} description={event.description}
-                            color={event.color} dressCode={event.dressCode}
-                        ></RushEvent>
+                        <Grid item xs={isMobile ? 12 : 6} align="center">
+                            <RushEvent title={event.title} date={event.date} description={event.description}
+                                color={event.color} dressCode={event.dressCode}
+                            ></RushEvent>
                     </Grid>
                     ))}
                 </Grid>

@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     color: "white",
     '&:hover': {
-      color: "#580C1F"
+      backgroundColor: "rgb(0,0,0, 0.2)"
     }
   },
 }));

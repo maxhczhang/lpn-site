@@ -39,14 +39,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const pathToName = (path, sep) => {
-    //const name = path.toLowerCase().replace(/-+/g, ' ')
     let names = path.split("-")
 
     for (var i = 0; i < names.length; i++) {
         const first = names[i][0].toUpperCase();
         names[i] = first + names[i].slice(1)
     }
-
     return names.join(sep)
 }
 
@@ -93,16 +91,14 @@ export default function Profile({setPage, match}) {
                                     </Grid>
                                 }
                                 <Grid item style={{ pointerEvents: "none" }}>
-                                    <div className={classes.img}>
-                                        <img className={classes.img} alt={name} src={profile["img"]} />
-                                    </div>
+                                    <img className={classes.img} alt={name} src={profile["img"]} />
                                 </Grid>
                             </Grid>
 
                         </Grid>
 
                         <Grid item xs={6}>
-                            <Grid container direction="row" justify="center" >
+                            <Grid container direction="row" justify="center" spacing={5}>
 
                                 <Grid item xs={6} container direction="column" spacing={2}>
                                     <Grid item xs>

@@ -90,7 +90,7 @@ export default function RushEvent({title, date, description, dressCode}) {
 
             <CardActions disableSpacing>
                     <Tooltip title="Add to calendar">
-                        <IconButton aria-label="add to calendar" >
+                        <IconButton aria-label="add to calendar" className={classes.icon}>
                             <EventIcon className={classes.icon}/>
                         </IconButton>
                     </Tooltip>
@@ -108,6 +108,7 @@ export default function RushEvent({title, date, description, dressCode}) {
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
+                        style={{color: "white"}}
                     >
                         <ExpandMoreIcon className={classes.icon}/>
                     </IconButton>
