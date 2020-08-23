@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/lpn-site/static/css/main.7ccbd8fa.chunk.css",
-    "main.js": "/lpn-site/static/js/main.814824af.chunk.js",
-    "main.js.map": "/lpn-site/static/js/main.814824af.chunk.js.map",
+    "main.js": "/lpn-site/static/js/main.2ee8f9a6.chunk.js",
+    "main.js.map": "/lpn-site/static/js/main.2ee8f9a6.chunk.js.map",
     "runtime-main.js": "/lpn-site/static/js/runtime-main.00264591.js",
     "runtime-main.js.map": "/lpn-site/static/js/runtime-main.00264591.js.map",
     "static/css/2.9905d55a.chunk.css": "/lpn-site/static/css/2.9905d55a.chunk.css",
-    "static/js/2.7293a5eb.chunk.js": "/lpn-site/static/js/2.7293a5eb.chunk.js",
-    "static/js/2.7293a5eb.chunk.js.map": "/lpn-site/static/js/2.7293a5eb.chunk.js.map",
+    "static/js/2.0fbe8a97.chunk.js": "/lpn-site/static/js/2.0fbe8a97.chunk.js",
+    "static/js/2.0fbe8a97.chunk.js.map": "/lpn-site/static/js/2.0fbe8a97.chunk.js.map",
     "index.html": "/lpn-site/index.html",
-    "precache-manifest.3912fc28c4d45e35d063352fefa360f2.js": "/lpn-site/precache-manifest.3912fc28c4d45e35d063352fefa360f2.js",
+    "precache-manifest.faa819b4f965fef8297b533d19bf5dff.js": "/lpn-site/precache-manifest.faa819b4f965fef8297b533d19bf5dff.js",
     "service-worker.js": "/lpn-site/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/lpn-site/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.7ccbd8fa.chunk.css.map": "/lpn-site/static/css/main.7ccbd8fa.chunk.css.map",
-    "static/js/2.7293a5eb.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.7293a5eb.chunk.js.LICENSE.txt",
-    "static/media/About.jpg": "/lpn-site/static/media/About.562b448a.jpg",
+    "static/js/2.0fbe8a97.chunk.js.LICENSE.txt": "/lpn-site/static/js/2.0fbe8a97.chunk.js.LICENSE.txt",
+    "static/media/About.jpg": "/lpn-site/static/media/About.605552cd.jpg",
     "static/media/Accenture.png": "/lpn-site/static/media/Accenture.c87c8eba.png",
     "static/media/Alex_Cole.jpg": "/lpn-site/static/media/Alex_Cole.86ae2f8d.jpg",
     "static/media/Amazon.png": "/lpn-site/static/media/Amazon.80f40d6a.png",
@@ -23,6 +23,7 @@
     "static/media/Astyr_Ko.jpg": "/lpn-site/static/media/Astyr_Ko.38bad30c.jpg",
     "static/media/Astyr_Ko.png": "/lpn-site/static/media/Astyr_Ko.e47b063d.png",
     "static/media/Ben_Fan.JPG": "/lpn-site/static/media/Ben_Fan.ef0cf939.JPG",
+    "static/media/Ben_Fan.png": "/lpn-site/static/media/Ben_Fan.f923332f.png",
     "static/media/Ben_MrCeo.jpg": "/lpn-site/static/media/Ben_MrCeo.7ec86245.jpg",
     "static/media/CampusInvolvements.jpg": "/lpn-site/static/media/CampusInvolvements.3154f822.jpg",
     "static/media/Careers.jpeg": "/lpn-site/static/media/Careers.5bfdfe35.jpeg",
@@ -74,7 +75,7 @@
     "static/media/Relationships.jpg": "/lpn-site/static/media/Relationships.e69f5429.jpg",
     "static/media/RyanChen_Circle.jpg": "/lpn-site/static/media/RyanChen_Circle.6abb22cd.jpg",
     "static/media/Ryan_Miranda.jpg": "/lpn-site/static/media/Ryan_Miranda.b6ba18d3.jpg",
-    "static/media/Sahana_Vairavaraj.png": "/lpn-site/static/media/Sahana_Vairavaraj.daaba9aa.png",
+    "static/media/Sahana_Vairavaraj.png": "/lpn-site/static/media/Sahana_Vairavaraj.727d2457.png",
     "static/media/Sahana_Vairavaraj.jpg": "/lpn-site/static/media/Sahana_Vairavaraj.e38bbff2.jpg",
     "static/media/Sandy_Nguyen.png": "/lpn-site/static/media/Sandy_Nguyen.bd5d465e.png",
     "static/media/Sandy_Nguyen.jpg": "/lpn-site/static/media/Sandy_Nguyen.ec84116f.jpg",
@@ -93,6 +94,7 @@
     "static/media/Tony_Zhou.jpg": "/lpn-site/static/media/Tony_Zhou.c51fd260.jpg",
     "static/media/Tyler_Newman.jpg": "/lpn-site/static/media/Tyler_Newman.eff93909.jpg",
     "static/media/Vivi_Liu.jpg": "/lpn-site/static/media/Vivi_Liu.5d7664db.jpg",
+    "static/media/Vivi_Liu.png": "/lpn-site/static/media/Vivi_Liu.a38cfafd.png",
     "static/media/Xi_Casual.jpg": "/lpn-site/static/media/Xi_Casual.9433889c.jpg",
     "static/media/Xi_Frat_Social.JPG": "/lpn-site/static/media/Xi_Frat_Social.539c6b6b.JPG",
     "static/media/Yong_Lin.jpg": "/lpn-site/static/media/Yong_Lin.96130081.jpg",
@@ -104,8 +106,8 @@
   "entrypoints": [
     "static/js/runtime-main.00264591.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.7293a5eb.chunk.js",
+    "static/js/2.0fbe8a97.chunk.js",
     "static/css/main.7ccbd8fa.chunk.css",
-    "static/js/main.814824af.chunk.js"
+    "static/js/main.2ee8f9a6.chunk.js"
   ]
 }
