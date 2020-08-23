@@ -45,7 +45,6 @@ export const csuite = [
         title: 'Secondary CTO',
         logo: require('../../../../assets/actives/logos/Sahana_Vairavaraj.png'),
         company: 'HRMA at UCI',
-        isSmall: true
     },
 ];
 

@@ -43,7 +43,10 @@ const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(1),
         },
         backgroundColor: "#580C1F",
-        color: "white"
+        color: "white",
+        '&:hover': {
+            backgroundColor: "rgb(150,74,93)"
+        }
     },
     paragraph: {
         maxWidth: "70%"
@@ -200,7 +203,7 @@ export default function Home({setPage}) {
             <Box mt={6} align="center">
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
-                        Where We Work
+                        Where We've Worked
                     </Box>
                 </Typography>
 

@@ -11,13 +11,10 @@ import { Link } from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
-    button: {
-        color: "white",
-    },
     paper: {
         color: "white",
         backgroundColor: "rgb(120,120,120)"
-    }
+    },
 }));
 
 const titleToPath = (title) => {
@@ -25,7 +22,7 @@ const titleToPath = (title) => {
     return '/' + path
 }
 
-export default function MyMenu({mainTitle, title1, title2}) {
+export default function MyMenu({mainTitle, title1, title2, buttonStyle}) {
     const classes = useStyles();
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -42,7 +39,7 @@ export default function MyMenu({mainTitle, title1, title2}) {
 
     return (
         <React.Fragment>
-            <Button size="large" className={classes.button} onClick={handleClick} onMouseOver={handleClick}>
+            <Button size="large" className={buttonStyle} onClick={handleClick} onMouseOver={handleClick}>
                 {mainTitle}
             </Button>
 

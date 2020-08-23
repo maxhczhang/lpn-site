@@ -25,13 +25,10 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "changeBeforeDeploy": "serve -s build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

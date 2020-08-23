@@ -25,7 +25,9 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/information/Vivi_Liu.jpg'),
         name: "Vivi Liu",
-        title: 'Marketing Director'
+        title: 'Marketing Director',
+        logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
+        company: 'CrossBond Brand Consultant',
     },
     //Problem
     {
@@ -111,7 +113,9 @@ export const directors = [
     {
         img: require('../../../../assets/actives/directors_small/information/Ben_Fan.JPG'),
         name: "Ben Fan",
-        title: 'Information Systems Director'
+        title: 'Information Systems Director',
+        logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
+        company: '',
     },
 ];
 

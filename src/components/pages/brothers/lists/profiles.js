@@ -56,7 +56,7 @@ export const profiles = {
         emphasis: "",
         practice: "Technology",
         experience: ["Ripplink, Founder and CEO", "Antler, Founder in Residence", "Type One Ventures, Venture Fellow", "Amazon Web Services, Professional Services Technical Consultant"],
-        campusInvolvements: ["Undergraduate Business Association, Vice President", "Undergraduate Business Association, Company Relations Director", "MAISS, Mentor", "HackUCI, Mentor"],
+        campusInvolvements: ["UBA, Vice President", "UBA, Company Relations Director", "MAISS, Mentor", "HackUCI, Mentor"],
         interests: [],
         whyLPN: "",
         img: require("../../../../assets/actives/csuite/Julian_Rachman.jpg")
@@ -140,8 +140,8 @@ export const profiles = {
         emphasis: "",
         practice: "Marketing",
         experience: ['Merage Fully Employed MBA Program, Student Assistant', "Insomnia Cookies, Marketing Representative"],
-        campusInvolvements: ["Undergraduate Business Association, Co-Marketing Director",
-            "Undergraduate Business Association, Executive Board Intern", "MAISS, Marketing Intern"],
+        campusInvolvements: ["UBA, Co-Marketing Director",
+            "UBA, Executive Board Intern", "MAISS, Marketing Intern"],
         interests: ["Fashion", "Thrifting", "K-pop", "Animal Watching", "Roller Coasters", "Editing IG stories"],
         whyLPN: "Coming into college with almost no business experience, I wanted to not only find direction professionally, but also form meaningful relationships. Especially since Irvine is my hometown, I made it my goal to quickly become involved on campus and to maximize my college experience during my first year by pushing myself outside of my comfort zone. Joining LPN has proven to be one of the best decisions I made at UCI. While I am still fairly new to the fraternity, I have already formed a great bond with my pledge class and have found a driven and genuine  community in LPN. LPN has been a defining factor of my college career, and I am excited for my upcoming years in this fraternity!",
         img: require("../../../../assets/actives/directors/talent/Faith_Chia.jpg")
@@ -171,7 +171,7 @@ export const profiles = {
         emphasis: "Marketing",
         practice: "Marketing, Human Resources",
         experience: ["ViaLoop, Sales & Marketing Intern", "NUDA Juice & Wellness Shop, Marketing Strategy Intern", "Tutoring Club, Tutor"],
-        campusInvolvements: ["Undergraduate Business Association, Marketing Director", "MUSA, Representative", "PINK Campus Team, Photographer"],
+        campusInvolvements: ["UBA, Marketing Director", "MUSA, Representative", "PINK Campus Team, Photographer"],
         interests: ["Hiking", "Yoga", "Photography", "Vlogging", "Road Trips"],
         whyLPN: "When I reflect upon my college journey thus far, I can not pinpoint the exact moment I fell in love with LPN. From early LA road-trips to studying until 4AM together, the achievements and adversities alike have undoubtedly shaped me into the Brother and leader I am today. While the fast-paced and competitive nature of business is stressful, LPN has provided me with the most authentic, transparent, and genuine community. To me, LPN is an irreplaceable family with individuals who wholeheartedly believe in each other and encourage one another to grow professionally and personally each day.",
         img: require("../../../../assets/actives/directors/operations/Catherine_Nguyen.jpg")
@@ -192,7 +192,7 @@ export const profiles = {
         img: require("../../../../assets/actives/directors/information/Serina_Nguyen.jpg")
     },
     Ben_Fan: {
-        linkedIn: "",
+        linkedIn: "https://www.linkedin.com/in/benfan1123/",
         homeTown: "",
         gradYear: 2021,
         class: "Kappa",
@@ -230,8 +230,8 @@ export const profiles = {
         minor: "Digital Arts",
         emphasis: "Marketing",
         practice: "Marketing",
-        experience: ["UCI School of Biological Sciences", "Orange County Visitors Association, Marketing Director", "BigByte Education, Digital Marketing Executive", "Till Dawn Group, Graphic Design Intern"],
-        campusInvolvements: ["Undergraduate Business Association, Mentorship Director", "Marketing Association, VP of Internal Affairs", "ASUCI, Media and Communications Intern"],
+        experience: ["CrossBond Brand Consultant, Project Manager", "Assistant to Marketing Manager, UCI School of Biological Sciences", "Orange County Visitors Association, Marketing Coordinator", "BigByte Education, Digital Marketing Executive"],
+        campusInvolvements: ["UBA, Mentorship Director", "Marketing Association, VP of Internal Affairs", "ASUCI, Media and Communications Intern"],
         interests: ["Bouldering", "Cooking", "Investing"],
         whyLPN: "",
         img: require("../../../../assets/actives/directors/information/Vivi_Liu.jpg")
@@ -260,8 +260,8 @@ export const profiles = {
         minor: "",
         emphasis: "Finance",
         practice: "Finance",
-        experience: ["City National Bank, Specialist Banking Analyst", "Wells Fargo, Portfolio Analyst Intern", "Dandelion Global, Business Consulting Intern"],
-        campusInvolvements: ["UFA, President", "MAISS, VP of External Affairs", "UFA, VP of Corporate Outreach"],
+        experience: ["City National Bank, Specialty Banking Summer Analyst", "Wells Fargo Advisors, Portfolio Summer Analyst Intern", "Raymond James, Investment Intern", "KLK Capital Management, Finance Intern"],
+        campusInvolvements: ["UFA, President","SMIF, Macroeconomics Team Lead", "MAISS, VP of External Affairs", "UFA, VP of Corporate Outreach"],
         interests: ["Basketball", "k-drama", "reading biographies", "travelling", "swimming"],
         whyLPN: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",
         img: require("../../../../assets/actives/directors/operations/Yong_Lin.jpg")
@@ -306,7 +306,7 @@ export const profiles = {
         emphasis: "",
         practice: "Audit",
         experience: ["CreatorUp, Training Solution Intern", "San Gabriel Valley Economic Partnership, Research Intern", "UCI, Student Ambassador", "Kessabelle Owners Association, Assistant Treasurer"],
-        campusInvolvements: ["Undergraduate Business Association, Finance Director", "Undergraduate Business Association, Executive Board Intern", "Accounting Association, Committee Board Officer"],
+        campusInvolvements: ["UBA, Finance Director", "UBA, Executive Board Intern", "Accounting Association, Committee Board Officer"],
         interests: [],
         whyLPN: "",
         img: require("../../../../assets/actives/directors/finance/Sera_Xu.jpg")
@@ -383,7 +383,7 @@ export const profiles = {
         emphasis: "Information Systems",
         practice: "User Experience Design",
         experience: ["Goinvo, UX Designer Intern", "4S Education Foundation, Product Designer", "Aeromates, UX/UI Design Intern & Associate", "Accendo Learning, Marketing Research Intern"],
-        campusInvolvements: ["Marketing Association, President", "Human Resource Management Association, Co-founder & VP of Finance", "Undergraduate Business Association, Student Intern,"],
+        campusInvolvements: ["Marketing Association, President", "Human Resource Management Association, Co-founder & VP of Finance", "UBA, Student Intern,"],
         interests: ["Gundams", "painting", "napping"],
         whyLPN: "I chose LPN because the people seemed nice. LPN means challenging yourself to be a better person to me!",
         img: require("../../../../assets/actives/brothers/Sandy_Nguyen.jpg")
@@ -533,7 +533,7 @@ export const profiles = {
         emphasis: "",
         practice: "",
         experience: ["Ripplink, Strategy and Operations Intern", "Embolden, Strategy Analyst", "Merage Fully Employed MBA Program, Student Assistant", "KLK Capital Management, Finance Intern"],
-        campusInvolvements: ["Undergraduate Business Association, President", "Undergraduate Business Association, Internal Relations Director", "Students Consulting for Non-Profit Organizations, Associate Consultant", "MUSA, Representative"],
+        campusInvolvements: ["UBA, President", "UBA, Internal Relations Director", "Students Consulting for Non-Profit Organizations, Associate Consultant", "MUSA, Representative"],
         interests: [],
         whyLPN: "",
         img: require("../../../../assets/actives/brothers/Stephen_Minn.jpg")

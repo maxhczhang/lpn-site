@@ -47,7 +47,16 @@ const useStyles = makeStyles((theme) => ({
   joinButton: {
     backgroundColor: '#580C1F',
     marginRight: theme.spacing(2),
-  }
+    '&:hover': {
+      backgroundColor: "rgb(150,74,93)"
+    }
+  },
+  button: {
+    color: "white",
+    '&:hover': {
+      color: "#580C1F"
+    }
+  },
 }));
 
 
@@ -93,13 +102,20 @@ export default function Header({ pageNum }) {
               ? <MobileMenu></MobileMenu>
               : <Grid item>
                 <Box>
-                  <Button size="large" color="inherit" component={Link} to="/">Home</Button>
-                  <Button size="large" color="inherit" component={Link} to="/about">About</Button>
-                  <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"}></MyMenu>
-                  <Button size="large" color="inherit" component={Link} to="/careers">Careers</Button>
-                  <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"}></MyMenu>
-                  <Button size="large" color="inherit" component={Link} to="/gallery">Gallery</Button>
-                  <Button size="large" color="inherit" component={Link} to="/contact">Contact</Button>
+
+                  <Button size="large" className={classes.button} component={Link} to="/">Home</Button> 
+
+                  <Button size="large" className={classes.button} component={Link} to="/about">About</Button> 
+                
+                  <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"} buttonStyle={classes.button}></MyMenu>
+                  
+                  <Button size="large" className={classes.button} component={Link} to="/careers">Careers</Button>
+                  
+                  <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"} buttonStyle={classes.button}></MyMenu>
+
+                  <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
+                  
+                  <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
                 </Box>
               </Grid>
             }

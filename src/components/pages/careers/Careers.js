@@ -63,6 +63,7 @@ export default function Careers({ setPage }) {
                         { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory Staff", industry: "Consulting" },
                         { name: 'Joy Huang', company: 'RSM', position: "Auditor", industry: "Accounting" },
                         { name: 'Janessa Paredes', company: 'Hochburg Sports Marketing', position: "Social Media Specialist", industry: "Marketing" },
+                        { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Venture Capital" },
 
                     ]}
                     options={{
@@ -93,24 +94,38 @@ export default function Careers({ setPage }) {
                     ]}
                     data={[
                         { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'KPMG', position: "Tax Intern", industry: "Accounting" },
-                        { name: 'Alexis Rivera', company: 'Foundations Jewelry', position: "Product Development Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'Microsoft', position: "Software Engineer Intern", industry: "Software Engineering" },
-                        { name: <Link component={RouterLink} to="/active-brothers/le-an-pham" color="inherit">Le An Pham</Link>, company: 'Sunwest Bank', position: "Marketing Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'Amazon Web Services', position: "Professional Services Technical Intern", industry: "Tech Consulting" },
-                        { name: <Link component={RouterLink} to="/active-brothers/astyr-ko" color="inherit">Astyr Ko</Link>, company: 'ServiceNow', position: "Global Talent Brand & Marketing Intern", industry: "Marketing" },
-                        { name: 'Ryan Chen', company: 'VMware', position: "Data Engineer Intern", industry: "Data Science" },
                         { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'Shiseido', position: "Marketing Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'GoInvo', position: "User Experience Design Intern", industry: "UI/UX" },
-                        { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'NUDA Juice & Wellness', position: "Marketing Strategy Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/tony-zhou" color="inherit">Tony Zhou</Link>, company: 'EY', position: "Risk Advisory Intern", industry: "Consulting" },
-                        { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'Issu', position: "Marketing Projects Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'EY', position: "Tax Intern", industry: "Accounting" },
-                        { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'UCI Biological Sciences', position: "Marketing Intern", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/jasmin-he" color="inherit">Jasmin He</Link>, company: 'Seagate Technology', position: "Consumer Pricing Analytics & Strategy Intern", industry: "Product" },
-                        { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'Anteater Recreation Center', position: "Marketing Assistant", industry: "Marketing" },
-                        { name: <Link component={RouterLink} to="/active-brothers/jeffrey-cho" color="inherit">Jeffrey Cho</Link>, company: 'Western Digital', position: "RAMP Human Resources Intern", industry: "HR" },
-                        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'NUDA Juice & Wellness', position: "Marketing Strategy Intern", industry: "Marketing" },
 
+                        { name: <Link component={RouterLink} to="/active-brothers/tony-zhou" color="inherit">Tony Zhou</Link>, company: 'EY', position: "Risk Advisory Intern", industry: "Consulting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/astyr-ko" color="inherit">Astyr Ko</Link>, company: 'ServiceNow', position: "Global Talent Brand & Marketing Intern", industry: "Marketing" },
+                        
+                        { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'Microsoft', position: "Software Engineer Intern", industry: "Tech" },
+                        { name: <Link component={RouterLink} to="/active-brothers/le-an-pham" color="inherit">Le An Pham</Link>, company: 'Sunwest Bank', position: "Marketing Intern", industry: "Marketing" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'Amazon Web Services', position: "Professional Services Technical Intern", industry: "Tech" },
+                        { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'Issu', position: "Marketing Projects Intern", industry: "Marketing" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'EY', position: "Tax Intern", industry: "Accounting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'DiverseVC', position: "Marketing & Content Intern", industry: "Marketing" },
+
+                        { name: 'Ryan Chen', company: 'VMware', position: "Data Engineer Intern", industry: "Tech" },
+                        { name: 'Alexis Rivera', company: 'Foundations Jewelry', position: "Product Development Intern", industry: "Product" },
+                       
+                        { name: <Link component={RouterLink} to="/active-brothers/jasmin-he" color="inherit">Jasmin He</Link>, company: 'Seagate Technology', position: "Consumer Pricing Analytics & Strategy Intern", industry: "Product" },
+                        { name: <Link component={RouterLink} to="/active-brothers/jeffrey-cho" color="inherit">Jeffrey Cho</Link>, company: 'Western Digital', position: "RAMP Human Resources Intern", industry: "HR" },
+                      
+                        { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'GoInvo', position: "User Experience Design Intern", industry: "Product" },
+                        { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'ViaLoop', position: "Sales & Marketing Coordinator", industry: "Marketing" },
+                       
+                        { name: <Link component={RouterLink} to="/active-brothers/lucian-liu" color="inherit">Lucian Liu</Link>, company: 'Experian', position: "Corporate Finance Intern", industry: "Finance" },
+                        { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Cybra Security', position: "Sales & Marketing Intern", industry: "Marketing" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/andrew-duong" color="inherit">Andrew Duong</Link>, company: 'Crowe', position: "Tax Intern", industry: "Accounting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'UCI Biological Sciences', position: "Marketing Intern", industry: "Marketing" },
+                       
+                        { name: <Link component={RouterLink} to="/active-brothers/philip-cheung" color="inherit">Philip Cheung</Link>, company: 'COPE Health Solutions', position: "Business Development Intern", industry: "Consulting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'NUDA Juice & Wellness', position: "Marketing Strategy Intern", industry: "Marketing" },
+                        
                     ]}
                     options={{
                         grouping: true,
