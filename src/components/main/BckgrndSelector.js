@@ -10,8 +10,12 @@ import CampusInvolvements from '../../assets/backgrounds/CampusInvolvements.jpg'
 import Careers from '../../assets/backgrounds/Careers.jpeg'
 import Gallery from '../../assets/backgrounds/Gallery.jpg'
 
+import useWindowDimensions from '../WindowListener';
+
 
 export default function BckgrndSelector({ pageNum }) {
+    const { width } = useWindowDimensions();
+    const isMobile = width < 700;
 
     switch(pageNum) {
         case 0:
@@ -121,9 +125,9 @@ export default function BckgrndSelector({ pageNum }) {
         case 5:
             return (
                 <ParallaxBanner
-                    style={{
-                        height: "73vh",
-                    }}
+                    
+                    style={isMobile ? {height: "40vh"} : {height: "73vh"}}
+                 
                     layers={[
                         {
                             amount: 0.2,
@@ -131,7 +135,7 @@ export default function BckgrndSelector({ pageNum }) {
                                 <iframe width="100%" height="100%" title="Rush Video"
                                     src="https://www.youtube-nocookie.com/embed/ZEza9AuQ2Q8?playlist=ZEza9AuQ2Q8&loop=1&autoplay=1&mute=1"
                                     frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-                                    style={{pointerEvents: "none"}}
+                                    style={isMobile ? {} : {pointerEvents: "none"}}
                                 >
                                 </iframe>
                         },

@@ -12,7 +12,6 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 import useWindowDimensions from '../../WindowListener';
 import colorLogo from '../../../assets/lpn_assets/logo.png';
-//import CoreValuesSeperator from '../../../assets/home/CoreValues_Separator.jpg';
 import CoreValuesSeperator from '../../../assets/home/tri_punch.jpg';
 import HomeCoreValues from './HomeCoreValues';
 import Companies from './Companies';
@@ -202,7 +201,7 @@ export default function Home({setPage}) {
 
             <Box mt={6} align="center">
                 <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" className={classes.paragraph}>
                         Where We've Worked
                     </Box>
                 </Typography>

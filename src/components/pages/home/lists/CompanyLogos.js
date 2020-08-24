@@ -1,44 +1,51 @@
-import msft from '../../../../assets/companyLogos/Microsoft.png'
-import KPMG from '../../../../assets/companyLogos/KPMG.png'
-import Amazon from '../../../../assets/companyLogos/Amazon.png'
-import Deloitte from '../../../../assets/companyLogos/Deloitte.png'
-import Accenture from '../../../../assets/companyLogos/Accenture.png'
-import Experian from '../../../../assets/companyLogos/Experian.png'
-import EY from '../../../../assets/companyLogos/EY.png'
-import RSM from '../../../../assets/companyLogos/RSM.png'
-
 export const companyLogos = [
     {
-        img: Accenture,
+        img: require('../../../../assets/companyLogos/Accenture.png'),
         title: 'Accenture'
     },
     {
-        img: msft,
+        img: require('../../../../assets/companyLogos/Microsoft.png'),
         title: 'Microsoft'
     },
     {
-        img: Amazon,
-        title: 'Amazon'
-    },
-    {
-        img: EY,
+        img: require('../../../../assets/actives/logos/David_Sonq.png'),
         title: 'EY'
     },
     {
-        img: RSM,
-        title: 'RSM'
+        img: require('../../../../assets/companyLogos/Amazon.png'),
+        title: 'Amazon'
     },
     {
-        img: Experian,
+        img: require('../../../../assets/companyLogos/Experian.png'),
         title: 'Experian'
     }, 
     {
-        img: Deloitte,
+        img: require('../../../../assets/companyLogos/Google.png'),
+        title: 'Google'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Goldman_Sachs.png'),
+        title: 'Goldman Sachs'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Twitter.png'),
+        title: 'Twitter'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Deloitte.png'),
         title: 'Deloitte'
     },
     {
-        img: KPMG,
+        img: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
         title: 'KPMG'
+    },
+    {
+        img: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
+        title: 'Shisedo'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Disney.png'),
+        title: 'Disney'
     },
 ];
 

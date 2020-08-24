@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
@@ -39,7 +39,7 @@ export default function Gallery({setPage}) {
         <Box className={classes.root} mt={8} mb={8}>
             <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={10}>
                 {GalleryPhotos.map((tile, i) => (
-                    <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={tile.rows ? tile.rows : 1}
+                    <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={isMobile ? 1 : tile.rows}
                             style={{ pointerEvents: "none" }}>
                         <img src={tile.img} alt={tile.title} />
 

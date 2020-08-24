@@ -1,12 +1,11 @@
 import React from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
+import Grid from '@material-ui/core/Grid';
 import { companyLogos } from './lists/CompanyLogos';
 
-// import { Carousel } from 'react-responsive-carousel';
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -14,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         justifyContent: 'space-around',
         overflow: 'hidden',
+        maxWidth: "80%"
     },
     gridList: {
         flexWrap: 'nowrap',
@@ -21,9 +21,14 @@ const useStyles = makeStyles((theme) => ({
         transform: 'translateZ(0)',
     },
     image: {
-        float: "left",
+        // float: "left",
         width: 250,
         height: 150,
+        objectFit: 'scale-down',
+    },
+    mobileImage: {
+        width: 120,
+        height: 50,
         objectFit: 'scale-down',
     },
     titleBar: {
@@ -37,24 +42,22 @@ export default function Companies({isMobile}) {
 
     return (
         <div className={classes.root}>
-            <GridList className={classes.gridList} cols={isMobile ? 2 : 6}>
+            {/* <GridList className={classes.gridList} cols={isMobile ? 2 : 6}>
                 {companyLogos.map((tile) => (
                     <GridListTile key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={classes.image}/>
                     </GridListTile>
                 ))}
-            </GridList>
-        </div>
-        //centerMode flag
-        // <Carousel autoPlay centerMode centerSlidePercentage={50} infiniteLoop showStatus={false} showThumbs={false}
-        //     showIndicators={false} showArrows={false}>
-            
-        //     {companyLogos.map((tile) => (
-        //         <div key={tile.img} >
-        //             <img src={tile.img} alt={tile.title} className={classes.image}></img>
-        //         </div>
-        //     ))}
+            </GridList> */}
 
-        // </Carousel>
+            <Grid container direction="row" justify="center" alignItems="center" spacing={3}>
+                {companyLogos.map((tile) => (
+                    <Grid item xs key={tile.img}>
+                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                    </Grid>
+                ))}
+            </Grid>
+            
+        </div>
     )
 }

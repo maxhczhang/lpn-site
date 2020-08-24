@@ -10,7 +10,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import useWindowDimensions from '../../WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
-import history_sep from '../../../assets/misc/History_2.jpg'
+import history_sep from '../../../assets/about/History_2.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
