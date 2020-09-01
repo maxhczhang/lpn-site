@@ -14,19 +14,19 @@ export default function LPNFacts({isMobile}) {
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">38 Curent Leadership Positions</Box>
+                        <Box fontWeight="fontWeightMedium">26 Curent Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box  fontWeight="fontWeightMedium">29 President Positions Held</Box>
+                        <Box  fontWeight="fontWeightMedium">33 President Positions Held</Box>
                     </Grid>
                     <Grid item xs={6}>
                         <Box fontWeight="fontWeightMedium">100% Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">?? Internships Per Active On Average</Box>
+                        <Box fontWeight="fontWeightMedium">2.2 Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">??% Full-time Offer Rate Prior To Graduation</Box>
+                        <Box fontWeight="fontWeightMedium">94% Full-time Offer Rate Prior To Graduation</Box>
                     </Grid>
                 </Grid>
             </Typography>
@@ -41,19 +41,19 @@ export default function LPNFacts({isMobile}) {
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">38 Curent Leadership Positions</Box>
+                        <Box fontWeight="fontWeightMedium">27 Curent Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">29 President Positions Held</Box>
+                        <Box fontWeight="fontWeightMedium">5 Current President Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
                         <Box fontWeight="fontWeightMedium">100% Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">?? Internships Per Active On Average</Box>
+                        <Box fontWeight="fontWeightMedium">2.2 Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">??% Full-time Offer Rate Prior To Graduation</Box>
+                        <Box fontWeight="fontWeightMedium">94% Full-time Offer Rate Prior To Graduation</Box>
                     </Grid>
                 </Grid>
             </Typography>

@@ -141,7 +141,7 @@ export default function Home({setPage}) {
                                 Brotherhood
                             </Box>
                             <Box fontSize="h6.fontSize" mt={2} mb={2} style={{ textAlign: "left" }}>
-                                We aspire to become visionaries, influencers, and mobilizers. This means we dream big, rally support, and get it done,
+                                We aspire to become visionaries, influencers, and mobilizers. We help shape the next generation of business leaders,
                                 all while taking care of our brothers, giving back to our community, and making memories.
                             </Box>
                         </Typography>

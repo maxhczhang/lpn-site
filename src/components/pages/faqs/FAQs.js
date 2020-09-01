@@ -58,7 +58,7 @@ export default function FAQs({setPage}) {
                             <Typography variant="h6">{content.question}</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body1">{content.answer}</Typography>
+                            <Typography variant="body1" align="left">{content.answer}</Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Box>

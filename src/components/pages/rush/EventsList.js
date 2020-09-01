@@ -20,7 +20,7 @@ export const events = [
     {
         title: "Invite-Only Social",
         date: "10/14",
-        description: "Recive the chance to watch me eat dinner over Zoom!",
+        description: "Have a fireside chat with our Active Brothers.",
         dressCode: "Dressy Casual",
     },
 ];

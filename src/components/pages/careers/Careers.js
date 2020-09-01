@@ -64,7 +64,8 @@ export default function Careers({ setPage }) {
                         { name: 'Joy Huang', company: 'RSM', position: "Auditor", industry: "Accounting" },
                         { name: 'Janessa Paredes', company: 'Hochburg Sports Marketing', position: "Social Media Specialist", industry: "Marketing" },
                         { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Venture Capital" },
-
+                        { name: 'Alexis Rivera', company: 'United Exchange Corporation', position: "Marketing Product Associate", industry: "Product" },
+                        
                     ]}
                     options={{
                         grouping: true,
@@ -89,14 +90,14 @@ export default function Careers({ setPage }) {
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
-                        { title: 'Industry', field: 'industry' },
                         { title: 'Position', field: 'position' },
+                        { title: 'Industry', field: 'industry' },
                     ]}
                     data={[
                         { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'KPMG', position: "Tax Intern", industry: "Accounting" },
                         { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'Shiseido', position: "Marketing Intern", industry: "Marketing" },
 
-                        { name: <Link component={RouterLink} to="/active-brothers/tony-zhou" color="inherit">Tony Zhou</Link>, company: 'EY', position: "Risk Advisory Intern", industry: "Consulting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/tony-zhou" color="inherit">Tony Zhou</Link>, company: 'EY', position: "Business Consulting Intern", industry: "Consulting" },
                         { name: <Link component={RouterLink} to="/active-brothers/astyr-ko" color="inherit">Astyr Ko</Link>, company: 'ServiceNow', position: "Global Talent Brand & Marketing Intern", industry: "Marketing" },
                         
                         { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'Microsoft', position: "Software Engineer Intern", industry: "Tech" },
@@ -121,11 +122,25 @@ export default function Careers({ setPage }) {
                         { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Cybra Security', position: "Sales & Marketing Intern", industry: "Marketing" },
 
                         { name: <Link component={RouterLink} to="/active-brothers/andrew-duong" color="inherit">Andrew Duong</Link>, company: 'Crowe', position: "Tax Intern", industry: "Accounting" },
-                        { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'UCI Biological Sciences', position: "Marketing Intern", industry: "Marketing" },
+                        { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'CrossBond Brand Consultant', position: "Project Manager", industry: "Product" },
                        
                         { name: <Link component={RouterLink} to="/active-brothers/philip-cheung" color="inherit">Philip Cheung</Link>, company: 'COPE Health Solutions', position: "Business Development Intern", industry: "Consulting" },
                         { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'NUDA Juice & Wellness', position: "Marketing Strategy Intern", industry: "Marketing" },
                         
+                        {name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Marcum', position: "Assurance Intern", industry: "Accounting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'New Relic', position: "Talent & Organizational Development Intern", industry: "HR" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'EY', position: "Advisory Intern", industry: "Consulting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/stephen-minn" color="inherit">Stephen Minn</Link>, company: 'Ripplink', position: "Strategy & Operations Intern", industry: "Product" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: 'CreatorUp', position: "Training Solution Intern", industry: "Marketing" },
+                        { name: <Link component={RouterLink} to="/active-brothers/ian-han" color="inherit">Ian Han</Link>, company: 'Sunwest Bank', position: "Human Capital Intern", industry: "HR" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/yong-lin" color="inherit">Yong Lin</Link>, company: 'City National Bank', position: "Specialty Banking Summer Analyst", industry: "Finance" },
+                        { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'Pathways to Career Success', position: "Administrative Intern", industry: "Marketing" },
+
+                        { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, company: 'RSM', position: "Assurance Intern", industry: "Accounting" },
+
                     ]}
                     options={{
                         grouping: true,
@@ -135,7 +150,7 @@ export default function Careers({ setPage }) {
                             color: '#FFF',
                         },
                         pageSize: 15,
-                        pageSizeOptions: [5, 15, 25]
+                        pageSizeOptions: [10, 15, 25]
                     }}
                     localization={{
                         grouping: {
