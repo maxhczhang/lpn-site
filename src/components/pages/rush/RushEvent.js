@@ -21,6 +21,8 @@ import MailIcon from '@material-ui/icons/Mail';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+import ICalendarLink from "react-icalendar-link";
+
 
 const useStyles = makeStyles((theme) => ({
     gray: {
@@ -49,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function RushEvent({title, date, description, dressCode}) {
+export default function RushEvent({event}) {
     const classes = useStyles();
 
     const [expanded, setExpanded] = React.useState(false);
@@ -63,19 +65,19 @@ export default function RushEvent({title, date, description, dressCode}) {
             <CardHeader
                 title={
                     <React.Fragment>
-                        {title === "Info Night" && <InfoIcon fontSize="large"></InfoIcon>}
-                        {title === "Meet the Bros" && <PeopleIcon fontSize="large"></PeopleIcon>}
-                        {title === "Professional Night" && <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>}
-                        {title === "Invite-Only Social" && <MailIcon fontSize="large"></MailIcon>}
+                        {event.title === "Info Night" && <InfoIcon fontSize="large"></InfoIcon>}
+                        {event.title === "Meet the Bros" && <PeopleIcon fontSize="large"></PeopleIcon>}
+                        {event.title === "Professional Night" && <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>}
+                        {event.title === "Invite-Only Social" && <MailIcon fontSize="large"></MailIcon>}
                         <Typography component="div">
-                            <Box fontSize="h4.fontSize" fontWeight="fontWeightBold">{title}</Box>
+                            <Box fontSize="h4.fontSize" fontWeight="fontWeightBold">{event.title}</Box>
                         </Typography>
                     </React.Fragment>
     
                 }
                 subheader={
                     <Typography component="div">
-                        <Box fontSize="h5.fontSize" fontWeight="fontWeightBold">{date}</Box>
+                        <Box fontSize="h5.fontSize" fontWeight="fontWeightBold">{event.date}</Box>  
                     </Typography>
                 }
                 disableTypography={true}
@@ -84,15 +86,17 @@ export default function RushEvent({title, date, description, dressCode}) {
            
             <CardContent className={classes.paragraph}>
                 <Typography variant="body1" component="p">
-                   {description}
+                   {event.description}
                 </Typography>
             </CardContent>
 
             <CardActions disableSpacing>
                     <Tooltip title="Add to calendar">
-                        <IconButton aria-label="add to calendar" className={classes.icon}>
-                            <EventIcon className={classes.icon}/>
-                        </IconButton>
+                        <ICalendarLink event={event.ics}>
+                            <IconButton aria-label="add to calendar" className={classes.icon}>
+                                <EventIcon className={classes.icon}/>
+                            </IconButton>
+                        </ICalendarLink>
                     </Tooltip>
 
                     <Tooltip title="Join on Zoom">
@@ -116,7 +120,8 @@ export default function RushEvent({title, date, description, dressCode}) {
 
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent className={classes.paragraph}>
-                    <Typography variant="body1" paragraph>{dressCode}</Typography>
+                    <Typography variant="body1" paragraph>7 - 9:30 pm</Typography>
+                    <Typography variant="body1" paragraph>{event.dressCode}</Typography>
                 </CardContent>
             </Collapse>
             

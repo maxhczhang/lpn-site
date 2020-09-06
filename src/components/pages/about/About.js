@@ -168,7 +168,7 @@ export default function About({setPage}) {
                         Founding Fathers
                     </Box>
                     <Box fontSize="h6.fontSize" mt={1}>
-                        Ms. Iris Chan, Mr. Edward Chiw, Mr. Nathan Kobayashi, Ms. Christine Liao, Ms. Lucy Luxiao, Ms. Michelle Nguyen, Ms. Eva Park, Mr. James Shen, Mr. Adam Whitescarver, Ms. Jessica Wong, Ms. Tonie Zhu
+                        Ms. Iris Chan, Mr. Edward Chow, Mr. Nathan Kobayashi, Ms. Christine Liao, Ms. Lucy Luxiao, Ms. Michelle Nguyen, Ms. Eva Park, Mr. James Shen, Mr. Adam Whitescarver, Ms. Jessica Wong, Ms. Tonie Zhu
                     </Box>
                 </Typography>
             </Box>

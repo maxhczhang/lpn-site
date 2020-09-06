@@ -1,12 +1,15 @@
 import React, { useEffect } from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
+import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import MaterialTable from 'material-table';
 import Link from '@material-ui/core/Link';
 
 import { Link as RouterLink } from 'react-router-dom';
+import MaterialTable from 'material-table';
+
+import {orgsLogos} from './OrgsLogos'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,6 +23,11 @@ const useStyles = makeStyles((theme) => ({
     paragraph: {
         maxWidth: "80%"
     },
+    image: {
+        width: 200,
+        height: 150,
+        objectFit: 'scale-down',
+    },
 }));
 
 export default function CampusInvolvement({ setPage }) {
@@ -31,12 +39,20 @@ export default function CampusInvolvement({ setPage }) {
 
     return (
         <Box mt={8} mb={8} className={classes.root}>
+
+            <Grid container direction="row" justify="center" alignItems="center" style={{maxWidth: "80%"}}>
+                {orgsLogos.map((tile) => (
+                    <Grid item xs={3} key={tile.img}>
+                        <img src={tile.img} alt={tile.title} className={classes.image} />
+                    </Grid>
+                ))}
+            </Grid>
             
             <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize">
-                    Our brothers have founded nine of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
-                    Many of our active brothers still hold positions in some of these amazing organizations. 
-                    We strive to continuously develop ourselves as leaders to impact the community around us.
+                <Box fontSize="h6.fontSize" mt={4}>
+                    Our brothers have founded seven of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
+                    Many of our Active Brothers hold positions in these amazing organizations,
+                    developing themselves as leaders and impacting the community around them in the process.
                 </Box>
             </Typography>
 
@@ -102,7 +118,7 @@ export default function CampusInvolvement({ setPage }) {
                     }}
                     localization={{
                         grouping: {
-                            placeholder: 'Drag Organization or Position here to group by'
+                            placeholder: 'Drag column titles here to group by Organization or Position.'
                         }
                     }}
                    

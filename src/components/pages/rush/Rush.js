@@ -70,10 +70,8 @@ export default function Rush({ setPage }) {
                 <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
-                            <RushEvent title={event.title} date={event.date} description={event.description}
-                                color={event.color} dressCode={event.dressCode}
-                            ></RushEvent>
-                    </Grid>
+                            <RushEvent event={event}></RushEvent>
+                        </Grid>
                     ))}
                 </Grid>
             </Box>
@@ -89,7 +87,7 @@ export default function Rush({ setPage }) {
             <Box mt={2}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                        Stay tuned for our application!
+                        Stay tuned for our Zoom links and application!
                     </Box>
                 </Typography>
             </Box>

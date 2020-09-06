@@ -43,55 +43,12 @@ export default function Careers({ setPage }) {
 
             <Box mt={8} style={{ width: "80%" }}>
                 <MaterialTable
-                    title="2020 Full-times"
-                    columns={[
-                        { title: 'Name', field: 'name', grouping: false },
-                        { title: 'Company', field: 'company' },
-                        { title: 'Position', field: 'position' },
-                        { title: 'Industry', field: 'industry' },
-                        
-                    ]}
-                    data={[
-                        { name: 'Jeff Lu', company: 'Accenture', position: "Management Consultant", industry: "Consulting" },
-                        { name: 'Nicholas Tam', company: 'RSM', position: "Tax Associate", industry: "Accounting" },
-                        { name: 'Kevin Loc', company: 'Amazon', position: "Software Development Engineer", industry: "Software Engineering" },
-                        { name: 'Andrew Kusnohadi', company: 'Optum', position: "Competitive Intellgience Analyst", industry: "Analytics" },
-                        { name: 'Jessica Lee', company: 'Deloitte', position: "Risk Advisory", industry: "Consulting" },
-                        { name: 'Romeo Li', company: 'EY', position: "Assurance Staff", industry: "Accounting" },
-                        { name: 'Dominic Wright', company: 'Paramount Residential Mortage Group', position: "Junior Business Analyst", industry: "Analytics" },
-                        { name: 'Tri Do', company: 'KPMG', position: "Audit Associate", industry: "Accounting" },
-                        { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory Staff", industry: "Consulting" },
-                        { name: 'Joy Huang', company: 'RSM', position: "Auditor", industry: "Accounting" },
-                        { name: 'Janessa Paredes', company: 'Hochburg Sports Marketing', position: "Social Media Specialist", industry: "Marketing" },
-                        { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Venture Capital" },
-                        { name: 'Alexis Rivera', company: 'United Exchange Corporation', position: "Marketing Product Associate", industry: "Product" },
-                        
-                    ]}
-                    options={{
-                        grouping: true,
-                        sorting: false,
-                        headerStyle: {
-                            backgroundColor: '#580C1F',
-                            color: '#FFF',
-                        },
-                        pageSize: 10,
-                    }}
-                    localization={{
-                        grouping: {
-                            placeholder: 'Drag Company, Position, or Industry here to group by'
-                        }
-                    }}
-                />
-            </Box>
-
-            <Box mt={8} style={{ width: "80%" }}>
-                <MaterialTable
                     title="2020 Interns"
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
                         { title: 'Position', field: 'position' },
-                        { title: 'Industry', field: 'industry' },
+                        { title: 'Practice', field: 'industry' },
                     ]}
                     data={[
                         { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'KPMG', position: "Tax Intern", industry: "Accounting" },
@@ -154,7 +111,50 @@ export default function Careers({ setPage }) {
                     }}
                     localization={{
                         grouping: {
-                            placeholder: 'Drag Company, Position, or Industry here to group by'
+                            placeholder: 'Drag column titles here to group by Company, Position, or Practice.'
+                        }
+                    }}
+                />
+            </Box>
+
+            <Box mt={8} style={{ width: "80%" }}>
+                <MaterialTable
+                    title="2020 Full-times"
+                    columns={[
+                        { title: 'Name', field: 'name', grouping: false },
+                        { title: 'Company', field: 'company' },
+                        { title: 'Position', field: 'position' },
+                        { title: 'Practice', field: 'industry' },
+
+                    ]}
+                    data={[
+                        { name: 'Jeff Lu', company: 'Accenture', position: "Management Consultant", industry: "Consulting" },
+                        { name: 'Nicholas Tam', company: 'RSM', position: "Tax Associate", industry: "Accounting" },
+                        { name: 'Kevin Loc', company: 'Amazon', position: "Software Development Engineer", industry: "Software Engineering" },
+                        { name: 'Andrew Kusnohadi', company: 'Optum', position: "Competitive Intellgience Analyst", industry: "Analytics" },
+                        { name: 'Jessica Lee', company: 'Deloitte', position: "Risk Advisory", industry: "Consulting" },
+                        { name: 'Romeo Li', company: 'EY', position: "Assurance Staff", industry: "Accounting" },
+                        { name: 'Dominic Wright', company: 'Paramount Residential Mortage Group', position: "Junior Business Analyst", industry: "Analytics" },
+                        { name: 'Tri Do', company: 'KPMG', position: "Audit Associate", industry: "Accounting" },
+                        { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory Staff", industry: "Consulting" },
+                        { name: 'Joy Huang', company: 'RSM', position: "Auditor", industry: "Accounting" },
+                        { name: 'Janessa Paredes', company: 'Hochburg Sports Marketing', position: "Social Media Specialist", industry: "Marketing" },
+                        { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Venture Capital" },
+                        { name: 'Alexis Rivera', company: 'United Exchange Corporation', position: "Marketing Product Associate", industry: "Product" },
+
+                    ]}
+                    options={{
+                        grouping: true,
+                        sorting: false,
+                        headerStyle: {
+                            backgroundColor: '#580C1F',
+                            color: '#FFF',
+                        },
+                        pageSize: 10,
+                    }}
+                    localization={{
+                        grouping: {
+                            placeholder: 'Drag column titles here to group by Company, Position, or Practice.'
                         }
                     }}
                 />
