@@ -49,7 +49,7 @@ export default function CampusInvolvement({ setPage }) {
             </Grid>
             
             <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize" mt={4}>
+                <Box fontSize="h6.fontSize" mt={2}>
                     Our brothers have founded seven of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
                     Many of our Active Brothers hold positions in these amazing organizations,
                     developing themselves as leaders and impacting the community around them in the process.
