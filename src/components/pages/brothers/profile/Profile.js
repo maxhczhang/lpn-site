@@ -16,8 +16,8 @@ import useWindowDimensions from '../../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
     img: {
-        width: 400,
-        height: 600,
+        width: 376,
+        height: 569,
     },
     mobileimg: {
         width: 300,
@@ -90,9 +90,11 @@ export default function Profile({setPage, match}) {
                                         </a>
                                     </Grid>
                                 }
-                                <Grid item style={{ pointerEvents: "none" }}>
-                                    <img className={classes.img} alt={name} src={profile["img"]} />
-                                </Grid>
+                                
+                            </Grid>
+
+                            <Grid item style={{ pointerEvents: "none" }}>
+                                <img className={classes.img} alt={name} src={profile["img"]} />
                             </Grid>
 
                         </Grid>
@@ -109,6 +111,7 @@ export default function Profile({setPage, match}) {
                                             <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={isMobile}></ProfileSingle>
                                             <ProfileSingle profile={profile} field="class" title="Class" isMobile={isMobile}></ProfileSingle>
                                             <ProfileSingle profile={profile} field="gradYear" title="Graduation Year" isMobile={isMobile}></ProfileSingle>
+                                            <ProfileArray profile={profile} field="interests" title="Interests" isMobile={isMobile}></ProfileArray>
                                         </Typography>
                                     </Grid>
                                 </Grid>
@@ -118,7 +121,6 @@ export default function Profile({setPage, match}) {
                                         <Typography component="div">
                                             <ProfileArray profile={profile} field="experience" title="Work Experience" isMobile={isMobile}></ProfileArray>
                                             <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements" isMobile={isMobile}></ProfileArray>
-                                            <ProfileArray profile={profile} field="interests" title="Interests" isMobile={isMobile}></ProfileArray>
                                         </Typography>
                                     </Grid>
                                 </Grid>
@@ -127,7 +129,7 @@ export default function Profile({setPage, match}) {
                     </Grid>
 
                     {profile["whyLPN"] !== "" &&
-                        <Box mt={6} >
+                        <Box mt={4} >
                             <Typography component="div">
                                 <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                                     Why ΛΦΝ?
