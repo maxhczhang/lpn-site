@@ -47,6 +47,22 @@ export const companyLogos = [
         img: require('../../../../assets/companyLogos/Disney.png'),
         title: 'Disney'
     },
+    {
+        img: require('../../../../assets/companyLogos/Blizzard.png'),
+        title: 'Blizzard'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Apple.png'),
+        title: 'Apple'
+    },
+    {
+        img: require('../../../../assets/actives/logos/Emily_Nguyen.png'),
+        title: 'New Relic'
+    },
+    {
+        img: require('../../../../assets/companyLogos/WellsFargo.jpeg'),
+        title: 'Wells Fargo'
+    },
 ];
 
 export default { companyLogos };

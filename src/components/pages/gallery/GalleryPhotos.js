@@ -1,18 +1,17 @@
 export const GalleryPhotos = [
     {
         img: require('../../../assets/gallery/Xi_Frat_Social.JPG'),
-        title: 'Xi Class Fraternal Social',
         cols: 1,
         rows: 1,
     },
     {
-        img: require('../../../assets/gallery/Jenny_Jeffrey.jpg'),
+        img: require('../../../assets/gallery/Basketball.JPG'),
         cols: 2,
-        rows: 1,
+        rows: 1
     },
+   
     {
         img: require('../../../assets/gallery/CoreValues_Separator.jpg'),
-        title: 'Annual Mr CEO Charity',
         cols: 2,
         rows: 2,
     },
@@ -50,7 +49,6 @@ export const GalleryPhotos = [
     },
     {
         img: require('../../../assets/gallery/Iolites_small.jpg'),
-        title: 'Iolite Family',
         cols: 3,
         rows: 1,
     },
@@ -66,17 +64,17 @@ export const GalleryPhotos = [
         rows: 2
     },
     {
-        img: require('../../../assets/gallery/Sapphires_small.jpg'),
-        title: 'Sapphire Family',
+        img: require('../../../assets/gallery/Mu_Sky.JPG'),
         cols: 1,
         rows: 1
     },
    
     {
-        img: require('../../../assets/gallery/LPN_Letters.jpg'),
+        img: require('../../../assets/gallery/Jenny_Jeffrey.jpg'),
         cols: 2,
-        rows:1
+        rows: 1,
     },
+  
     {
         img: require('../../../assets/gallery/Taiwan_1.jpg'),
         cols: 2,
@@ -87,11 +85,26 @@ export const GalleryPhotos = [
         cols: 1,
         rows: 1,
     },
-    // {
-    //     img: require('../../../assets/gallery/Iota_Friends_Giving.jpg'),
-    //     cols: 1,
-    //     rows: 1
-    // },
+    {
+        img: require('../../../assets/gallery/Mu_Skii.jpg'),
+        cols: 1,
+        rows: 1
+    },
+    {
+        img: require('../../../assets/gallery/LPN_Letters.jpg'),
+        cols: 2,
+        rows: 1
+    },
+    {
+        img: require('../../../assets/gallery/Sapphires_small.jpg'),
+        cols: 2,
+        rows: 2
+    }, 
+    {
+        img: require('../../../assets/gallery/Iota_Friends_Giving.jpg'),
+        cols: 1,
+        rows: 2
+    },
 ];
 
 export default { GalleryPhotos };
