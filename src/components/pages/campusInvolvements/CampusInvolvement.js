@@ -9,6 +9,7 @@ import Link from '@material-ui/core/Link';
 import { Link as RouterLink } from 'react-router-dom';
 import MaterialTable from 'material-table';
 
+import useWindowDimensions from '../../WindowListener';
 import {orgsLogos} from './OrgsLogos'
 
 
@@ -28,6 +29,11 @@ const useStyles = makeStyles((theme) => ({
         height: 150,
         objectFit: 'scale-down',
     },
+    mobileImage: {
+        width: 120,
+        height: 90,
+        objectFit: 'scale-down',
+    }
 }));
 
 export default function CampusInvolvement({ setPage }) {
@@ -36,14 +42,16 @@ export default function CampusInvolvement({ setPage }) {
     });
 
     const classes = useStyles();
+    const { width } = useWindowDimensions();
+    const isMobile = width < 700;
 
     return (
         <Box mt={8} mb={8} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" style={{maxWidth: "80%"}}>
+            <Grid container direction="row" justify="center" alignItems="center" style={{maxWidth: "80%"}} spacing={2}>
                 {orgsLogos.map((tile) => (
-                    <Grid item xs={3} key={tile.img}>
-                        <img src={tile.img} alt={tile.title} className={classes.image} />
+                    <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
+                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
                     </Grid>
                 ))}
             </Grid>

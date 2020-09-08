@@ -10,25 +10,25 @@ export default function ProfileArray({profile, field, title, isMobile}) {
 
         if (isMobile) {
             return (
-                <Typography component="div" align="left">
+                <Box mb={2} align="left">
                     <Box fontWeight="fontWeightBold" fontSize="h6.fontSize">
                         {title}
                     </Box>
                     <Box fontSize="body1.fontSize" mb={1}>
                         {profile[field].map((item, i) => <li key={i}>{item}</li>)}
                     </Box>
-                </Typography>
+                </Box>
             )
         } else {
             return (
-                <Typography component="div" align="left">
+                <Box mb={2} align="left">
                     <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                         {title}
                     </Box>
                     <Box fontSize="h6.fontSize" mb={2}>
                         {profile[field].map((item, i) => <li key={i}>{item}</li>)}
                     </Box>
-                </Typography>
+                </Box>
             )
         }
     }

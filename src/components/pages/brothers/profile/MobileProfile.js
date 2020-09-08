@@ -47,13 +47,13 @@ export default function MobileProfile({name, profile, classes}) {
                                 <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={true}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="class" title="Class" isMobile={true}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="gradYear" title="Graduation Year" isMobile={true}></ProfileSingle>
+                                <ProfileArray profile={profile} field="interests" title="Interests" isMobile={true}></ProfileArray>
                             </Typography>
                         </Grid>
                         <Grid item xs={6}>
                             <Typography component="div">
                                 <ProfileArray profile={profile} field="experience" title="Work Experience" isMobile={true}></ProfileArray>
                                 <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements" isMobile={true}></ProfileArray>
-                                <ProfileArray profile={profile} field="interests" title="Interests" isMobile={true}></ProfileArray>
                             </Typography>
                         </Grid>
                     </Grid>
