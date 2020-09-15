@@ -20,6 +20,7 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import MailIcon from '@material-ui/icons/Mail';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import LocalCafeIcon from '@material-ui/icons/LocalCafe';
 
 import ICalendarLink from "react-icalendar-link";
 
@@ -69,6 +70,7 @@ export default function RushEvent({event}) {
                         {event.title === "Meet the Bros" && <PeopleIcon fontSize="large"></PeopleIcon>}
                         {event.title === "Professional Night" && <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>}
                         {event.title === "Invite-Only Social" && <MailIcon fontSize="large"></MailIcon>}
+                        {event.title === "Coffee Chats" && <LocalCafeIcon fontSize="large"></LocalCafeIcon>}
                         <Typography component="div">
                             <Box fontSize="h4.fontSize" fontWeight="fontWeightBold">{event.title}</Box>
                         </Typography>
@@ -85,9 +87,9 @@ export default function RushEvent({event}) {
             />
            
             <CardContent className={classes.paragraph}>
-                <Typography variant="body1" component="p">
-                   {event.description}
-                </Typography>
+                <Box mt={1} mb={2}>
+                    <Typography variant="body1" component="p"> {event.description} </Typography>
+                </Box>
             </CardContent>
 
             <CardActions disableSpacing>
@@ -99,11 +101,15 @@ export default function RushEvent({event}) {
                         </ICalendarLink>
                     </Tooltip>
 
-                    <Tooltip title="Join on Zoom">
-                        <IconButton aria-label="Zoom" className={classes.icon}>
-                            <VideocamIcon className={classes.icon}/>
-                        </IconButton>
-                    </Tooltip>
+                    {event.checkinLink && 
+                        <Tooltip title="Event Check In">
+                            <a href={event.checkinLink} target="_blank" rel="noopener noreferrer" className={classes.link}>
+                                <IconButton aria-label="Zoom" className={classes.icon}>
+                                    <VideocamIcon className={classes.icon} />
+                                </IconButton>
+                            </a>
+                        </Tooltip>
+                    }
 
                     <IconButton
                         className={clsx(classes.expand, {
@@ -120,7 +126,7 @@ export default function RushEvent({event}) {
 
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent className={classes.paragraph}>
-                    <Typography variant="body1" paragraph>7 - 9:30 pm</Typography>
+                    <Typography variant="body1" paragraph>{event.time}</Typography>
                     <Typography variant="body1" paragraph>{event.dressCode}</Typography>
                 </CardContent>
             </Collapse>

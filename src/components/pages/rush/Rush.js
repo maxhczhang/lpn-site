@@ -52,7 +52,7 @@ export default function Rush({ setPage }) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={10} mb={10} className={classes.root}>
+        <Box mt={12} mb={12} className={classes.root}>
             <Box mb={2}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
@@ -67,7 +67,7 @@ export default function Rush({ setPage }) {
             <Divider className={classes.divider}></Divider>
 
             <Box mt={8} mb={8} className={classes.paragraph}>
-                <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
+                <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
                             <RushEvent event={event}></RushEvent>
@@ -78,16 +78,16 @@ export default function Rush({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={6}>
+            <Box mt={8}>
                 <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
                     FAQs
                 </Button>
             </Box>
             
-            <Box mt={2}>
+            <Box mt={4}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                        Stay tuned for our Zoom links and application!
+                        Stay tuned for our Coffee Chat link and our Application!
                     </Box>
                 </Typography>
             </Box>

@@ -88,7 +88,7 @@ export default function Careers({ setPage }) {
                         {name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Marcum', position: "Assurance Intern", industry: "Accounting" },
                         { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'New Relic', position: "Talent & Organizational Development Intern", industry: "HR" },
 
-                        { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'EY', position: "Advisory Intern", industry: "Consulting" },
+                        { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'KPMG', position: "Advisory Intern", industry: "Consulting" },
                         { name: <Link component={RouterLink} to="/active-brothers/stephen-minn" color="inherit">Stephen Minn</Link>, company: 'Ripplink', position: "Strategy & Operations Intern", industry: "Product" },
 
                         { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: 'CreatorUp', position: "Training Solution Intern", industry: "Marketing" },

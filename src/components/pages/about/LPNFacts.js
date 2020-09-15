@@ -14,7 +14,7 @@ export default function LPNFacts({isMobile}) {
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">26 Current Leadership Positions</Box>
+                        <Box fontWeight="fontWeightMedium">30 Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={6}>
                         <Box  fontWeight="fontWeightMedium">33 President Positions Held</Box>
@@ -41,7 +41,7 @@ export default function LPNFacts({isMobile}) {
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">27 Current Leadership Positions</Box>
+                        <Box fontWeight="fontWeightMedium">30 Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
                         <Box fontWeight="fontWeightMedium">5 Current President Positions</Box>
