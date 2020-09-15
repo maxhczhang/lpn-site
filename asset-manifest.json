@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7ccbd8fa.chunk.css",
-    "main.js": "/static/js/main.3a4380e3.chunk.js",
-    "main.js.map": "/static/js/main.3a4380e3.chunk.js.map",
+    "main.js": "/static/js/main.e78cae57.chunk.js",
+    "main.js.map": "/static/js/main.e78cae57.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.80f63489.chunk.js": "/static/js/2.80f63489.chunk.js",
-    "static/js/2.80f63489.chunk.js.map": "/static/js/2.80f63489.chunk.js.map",
+    "static/js/2.c6059f69.chunk.js": "/static/js/2.c6059f69.chunk.js",
+    "static/js/2.c6059f69.chunk.js.map": "/static/js/2.c6059f69.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.03ae34b1d19dfb6c8998781bea2371f2.js": "/precache-manifest.03ae34b1d19dfb6c8998781bea2371f2.js",
+    "precache-manifest.488cb9952c13531723b24d9bca93a115.js": "/precache-manifest.488cb9952c13531723b24d9bca93a115.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.7ccbd8fa.chunk.css.map": "/static/css/main.7ccbd8fa.chunk.css.map",
-    "static/js/2.80f63489.chunk.js.LICENSE.txt": "/static/js/2.80f63489.chunk.js.LICENSE.txt",
+    "static/js/2.c6059f69.chunk.js.LICENSE.txt": "/static/js/2.c6059f69.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.605552cd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -44,11 +44,11 @@
     "static/media/Excellence2.jpg": "/static/media/Excellence2.7543cb28.jpg",
     "static/media/Experian.png": "/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/static/media/Faith_Chia.d1a7d837.jpg",
+    "static/media/Founders_Alt_1.png": "/static/media/Founders_Alt_1.864bf966.png",
     "static/media/Gallery.jpg": "/static/media/Gallery.fbd12a85.jpg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.d6566127.png",
     "static/media/Google.png": "/static/media/Google.f199f144.png",
     "static/media/HRMA.png": "/static/media/HRMA.1a622e17.png",
-    "static/media/History_2.jpg": "/static/media/History_2.02f863a4.jpg",
     "static/media/Home.jpg": "/static/media/Home.48ccd1d0.jpg",
     "static/media/Ian_Han.jpg": "/static/media/Ian_Han.9fc82c43.jpg",
     "static/media/Iolites_small.jpg": "/static/media/Iolites_small.ab149256.jpg",
@@ -127,8 +127,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.80f63489.chunk.js",
+    "static/js/2.c6059f69.chunk.js",
     "static/css/main.7ccbd8fa.chunk.css",
-    "static/js/main.3a4380e3.chunk.js"
+    "static/js/main.e78cae57.chunk.js"
   ]
 }
