@@ -8,8 +8,8 @@ import Box from '@material-ui/core/Box';
 export default function LPNFacts({isMobile}) {
     if (isMobile) {
         return (
-            <Typography variant="body1">
-                <Grid container spacing={3}>
+            <Typography variant="h6">
+                <Grid container spacing={6}>
                     <Grid item xs={6}>
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>
@@ -36,7 +36,7 @@ export default function LPNFacts({isMobile}) {
     else {
         return (
             <Typography variant="h5">
-                <Grid container spacing={3}>
+                <Grid container spacing={10}>
                     <Grid item xs={4}>
                         <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
                     </Grid>

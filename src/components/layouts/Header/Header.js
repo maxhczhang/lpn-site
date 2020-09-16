@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   appBarDark: {
     position: "relative",
     zIndex: 1,
-    backgroundColor: 'rgb(0,0,0,0.5)'
+    backgroundColor: 'rgb(0,0,0,0.6)'
   },
   appBarClear: {
     position: "relative",

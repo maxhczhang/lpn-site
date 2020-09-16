@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     paragraph: {
-        maxWidth: "70%"
+        maxWidth: "60%"
     },
     divider: {
         height: 1,
@@ -59,6 +59,9 @@ const useStyles = makeStyles((theme) => ({
         width: 300,
         height: 300,
         objectFit: 'cover',
+    },
+    carouselWidth: {
+        maxWidth: "75%"
     }
 }));
 
@@ -79,14 +82,14 @@ export default function Home({setPage}) {
     }
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={18} mb={18} className={classes.root}>
 
-            <Box mb={1}>
+            <Box mb={3}>
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
                         Our Legacy
                     </Box>
-                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
+                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize" mt={1}>
                         Grow Forward. Give Back.
                     </Box>
                 </Typography>
@@ -94,9 +97,9 @@ export default function Home({setPage}) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={4} mb={6} className={classes.paragraph}>
+            <Box mt={6} mb={18} className={classes.paragraph}>
                 <Typography component="div">
-                    <Box fontSize="h6.fontSize" style={{ textAlign: "center" }}>
+                    <Box fontSize="h6.fontSize" align="left">
                         We're a UC Irvine-founded business leadership fraternity
                         community for students seeking leadership development and coaching. We immerse our
                         members into an environment that emulates the professional world to prepare them for a
@@ -104,7 +107,7 @@ export default function Home({setPage}) {
                     </Box>
                 </Typography>
 
-                <Box mt={4}>
+                <Box mt={6}>
                     <Button size="large" variant="contained" className={classes.button} component={Link} to="/active-brothers">
                         Meet Our Brothers
                     </Button>
@@ -113,26 +116,29 @@ export default function Home({setPage}) {
 
             <MyCarousel isMobile={isMobile} photos={carousel1photos}></MyCarousel>
 
-            <Box mt={6} mb={6} className={classes.paragraph}>
-                <Grid container spacing={10} direction="row" justify="space-evenly" >
+            <Box mt={10} mb={8} className={classes.carouselWidth}>
+                <Grid container spacing={10} direction="row" justify="space-evenly">
+
                     <Grid item xs={cols}>
                         <Typography component="div" >
                             <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Professionalism
                             </Box>
-                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{ textAlign: "left" }}>
+                            <Box fontSize="h6.fontSize" mt={2} align="left">
                                 With 10 years of history, we have an expansive network of alumni in different industries and companies.
                                 Our Active and Alumni brothers help guide and support you to succeed in the professional world.
                             </Box>
                         </Typography>
-
-                        <Box mt={4}>
-                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/careers">
-                                Careers
-                            </Button>
-                        </Box>
                     </Grid>
 
+                    {isMobile &&
+                        <Grid item xs={cols}>
+                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/careers">
+                            Careers
+                            </Button>
+                        </Grid>
+                    }
+                   
                     {isMobile && <Divider className={classes.divider}></Divider>}
 
                     <Grid item xs={cols}>
@@ -140,24 +146,33 @@ export default function Home({setPage}) {
                             <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize">
                                 Brotherhood
                             </Box>
-                            <Box fontSize="h6.fontSize" mt={2} mb={2} style={{ textAlign: "left" }}>
+                            <Box fontSize="h6.fontSize" mt={2} align="left">
                                 We aspire to become visionaries, influencers, and mobilizers. We help shape the next generation of business leaders,
                                 all while taking care of our brothers, giving back to our community, and making memories.
                             </Box>
                         </Typography>
-
-                        <Box mt={4}>
-                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/gallery">
-                                Gallery
-                            </Button>
-                        </Box>
                     </Grid>
+
+                    {!isMobile && 
+                        <Grid item xs={cols}>
+                            <Button size="large" variant="contained" className={classes.button} component={Link} to="/careers">
+                                Careers
+                            </Button>
+                        </Grid>
+                    }
+
+                    <Grid item xs={cols}>
+                        <Button size="large" variant="contained" className={classes.button} component={Link} to="/gallery">
+                            Gallery
+                        </Button>
+                    </Grid>
+                   
                 </Grid>
             </Box>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={4} mb={8}>
+            <Box mt={9} mb={9}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>
             </Box>
 
@@ -189,24 +204,24 @@ export default function Home({setPage}) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={8}></Box>
+            <Box mt={18}></Box>
 
             <MyCarousel isMobile={isMobile} photos={carousel2photos} spacing={40}></MyCarousel>
 
-            <Box mt={4} mb={6} className={classes.paragraph}>
+            <Box mt={6} mb={8} className={classes.carouselWidth}>
                 <HomeCoreValues isMobile={isMobile}></HomeCoreValues>
             </Box>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={6} align="center">
+            <Box mt={18} align="center">
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" className={classes.paragraph}>
                         Where We've Worked
                     </Box>
                 </Typography>
 
-                <Box mt={2}>
+                <Box mt={6}>
                     <Companies isMobile={isMobile}></Companies>
                 </Box>
             </Box>

@@ -20,8 +20,8 @@ export default function PlainCoreValue({title, description}) {
                     <Typography variant="h6">{title}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography variant="body1" align="left">
-                        {description}
+                    <Typography component="div" align="left">
+                        <Box fontSize="h6.fontSize">{description}</Box>
                     </Typography>
                 </AccordionDetails>
             </Accordion>

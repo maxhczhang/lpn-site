@@ -23,11 +23,12 @@ export const directors = [
         isSmall: true
     },
     {
-        img: require('../../../../assets/actives/directors_small/information/Vivi_Liu.jpg'),
-        name: "Vivi Liu",
+        img: require('../../../../assets/actives/directors_small/information/Jenny_Cheung.jpg'),
+        name: "Jenny Cheung",
         title: 'Marketing',
-        logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
-        company: 'CrossBond Brand Consultant',
+        logo: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
+        company: 'Shiseido',
+        isLongRect: true
     },
     //Problem
     {

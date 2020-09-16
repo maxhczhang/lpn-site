@@ -1,12 +1,17 @@
 import React, { useEffect } from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
+
+import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import MaterialTable from 'material-table';
 import Link from '@material-ui/core/Link';
+import Divider from '@material-ui/core/Divider';
 
 import { Link as RouterLink } from 'react-router-dom';
+import MaterialTable from 'material-table';
+
+import useWindowDimensions from '../../WindowListener';
+import { companyLogos } from './CompanyLogos'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -18,8 +23,24 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "60%"
     },
+    divider: {
+        width: "70%"
+    },
+    content: {
+        width: "80%"
+    },
+    image: {
+        width: 250,
+        height: 150,
+        objectFit: 'scale-down',
+    },
+    mobileImage: {
+        width: 120,
+        height: 90,
+        objectFit: 'scale-down',
+    }
 }));
 
 
@@ -29,19 +50,31 @@ export default function Careers({ setPage }) {
     });
 
     const classes = useStyles();
+    const { width } = useWindowDimensions();
+    const isMobile = width < 700;
 
     return (
-        <Box mt={10} mb={10} className={classes.root}>
+        <Box mt={16} mb={18} className={classes.root}>
 
-            <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize">
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
+                {companyLogos.map((tile) => (
+                    <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
+                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                    </Grid>
+                ))}
+            </Grid>
+
+            <Typography component="div" className={classes.paragraph} align="left">
+                <Box fontSize="h6.fontSize" mt={8} mb={6}>
                     Our Brothers achieve excellence in the professional world in the form of 
                     internships during their time at UCI and full-time positions after graduation. Here are a few
                     of the many companies where you could find your future mentor.
                 </Box>
             </Typography>
 
-            <Box mt={8} style={{ width: "80%" }}>
+            <Divider className={classes.divider}></Divider>
+
+            <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title="2020 Interns"
                     columns={[
@@ -118,7 +151,7 @@ export default function Careers({ setPage }) {
                 />
             </Box>
 
-            <Box mt={8} style={{ width: "80%" }}>
+            <Box mt={18} className={classes.content}>
                 <MaterialTable
                     title="2020 Full-times"
                     columns={[

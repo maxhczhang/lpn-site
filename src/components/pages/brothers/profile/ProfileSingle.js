@@ -10,7 +10,7 @@ export default function ProfileSingle({profile, field, title, isMobile}) {
         if (isMobile) {
             return (
                 <Box align="left" mb={2}>
-                    <Box fontWeight="fontWeightBold" fontSize="h6.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                         {title}
                     </Box>
                     <Box fontSize="body1.fontSize" mb={1}>
@@ -21,10 +21,10 @@ export default function ProfileSingle({profile, field, title, isMobile}) {
         } else {
             return (
                 <Box align="left" mb={2}>
-                    <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" mb={1}>
                         {title}
                     </Box>
-                    <Box fontSize="h6.fontSize" mb={2}>
+                    <Box fontSize="h6.fontSize" mb={4}>
                         {profile[field]}
                     </Box>
                 </Box>

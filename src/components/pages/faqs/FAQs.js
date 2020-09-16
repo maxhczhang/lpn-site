@@ -45,10 +45,10 @@ export default function FAQs({setPage}) {
     const classes = useStyles();
 
     return (
-       <Box mt={8} mb={10} className={classes.root}>
+       <Box mt={10} mb={18} className={classes.root}>
 
             {faqsList.map((content, i) => (
-                <Box mb={4} border={1} className={classes.accordian}>
+                <Box mb={6} border={1} className={classes.accordian}>
                     <Accordion>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -66,13 +66,13 @@ export default function FAQs({setPage}) {
 
             <Divider style={{ width: "70%", marginTop: 50 }}></Divider>
 
-            <Box mt={4}>
+            <Box mt={10}>
                 <Button size="large" variant="contained" className={classes.button} component={Link} to="/contact">
                     Contact Us
                 </Button>
             </Box>
 
-            <Box mt={2}>
+            <Box mt={6}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
                         Please reach out to us with any further questions!

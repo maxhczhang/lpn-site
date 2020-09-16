@@ -53,12 +53,12 @@ const useStyles = makeStyles((theme) => ({
     snack: {
         backgroundColor: "#580C1F",
         color: "white"
+    },
+    field: {
+        width: "60%"
     }
 }));
 
-const isEmail = (_email) => {
-    return _email === '' || (_email.includes("@") && _email.includes(".com"))
-}
 
 const postToServer = async (newRow) => {
     const requestOptions = {
@@ -110,42 +110,48 @@ export default function Contact({ setPage }) {
     };
 
     return (
-        <Box mt={6} mb={10} className={classes.root}>
+        <Box mt={8} mb={14} className={classes.root}>
             <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
+
+            <Box mt={4}></Box>
             
-            <form onSubmit={handleSubmit} style={{maxWidth: "80%"}}>
-                <Grid container spacing={3}>
-                    <Grid item xs={4}>
+            <form onSubmit={handleSubmit}>
+                <Grid container spacing={6}>
+                    <Grid item xs={12}>
                         <TextField
                             required
+                            multiline
                             id="firstName"
                             name="firstName"
                             label="Name"
                             onInput={e => setName(e.target.value)}
                             value={name}
+                            className={classes.field}
                         />
                     </Grid>
                 
-                    <Grid item xs={4} >
+                    <Grid item xs={12} >
                         <TextField
                             id="year"
                             name="year"
                             label="Year"
                             onInput={e => setYear(e.target.value)}
                             value={year}
+                            className={classes.field}
+                            multiline
                         />
                     </Grid>
 
-                    <Grid item xs={4}>
+                    <Grid item xs={12}>
                         <TextField
                             id="email"
                             name="email"
                             label="Email"
                             required
+                            multiline
                             onInput={e => setEmail(e.target.value)}
-                            error={!isEmail(email)}
-                            helperText={!isEmail(email) && "Enter a valid email."}
                             value={email}
+                            className={classes.field}
                         />
                     </Grid>
 
@@ -155,16 +161,16 @@ export default function Contact({ setPage }) {
                             name="question"
                             label="Question"
                             required
-                            style={{width:"70%"}}
                             multiline
                             onInput={e => setQuestion(e.target.value)}
                             value={question}
+                            className={classes.field}
                         />
                     </Grid>
 
                 </Grid>
 
-                <Box mt={4} className={classes.buttonWrapper}>
+                <Box mt={8} className={classes.buttonWrapper} style={{maxWidth: "80%"}}>
                     <Button className={classes.button} type="submit">Submit</Button>
                 </Box>
             </form>

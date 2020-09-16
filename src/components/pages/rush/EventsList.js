@@ -61,7 +61,7 @@ export const events = [
     {
         title: "Invite-Only Social",
         date: "10/14",
-        description: "Have a fireside chat with all our Active Brothers.",
+        description: "Have a fireside chat with all our Active Brothers!",
         dressCode: "Dressy Casual",
         ics: {
             title: "LPN Rush: Invite-Only Social",

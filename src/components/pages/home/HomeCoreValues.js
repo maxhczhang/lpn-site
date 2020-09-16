@@ -28,6 +28,11 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: "rgb(150,74,93)"
         }
     },
+    image: {
+        height: 350,
+        width: 350,
+        objectFit: "cover"
+    }
 }));
 
 export default function HomeCoreValues({isMobile}) {
@@ -36,43 +41,39 @@ export default function HomeCoreValues({isMobile}) {
     return (
         <div className={classes.root}>
 
-            <Grid container spacing={3} direction="row" justify="space-evenly">
+            <Grid container spacing={10} direction="row" justify="space-evenly">
+                
                 <Grid item xs={isMobile ? 12 : 4}>
-
-                    <Box mt={2}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
-                                Excellence
-                            </Box>
-                        </Typography>
-                        <Typography variant="body1">Whether its scaling a rock wall or securing positions at top-tier firms, our Brothers excel at everything they do.</Typography>
-                    </Box>
+                    <Typography component="div">
+                        <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
+                            Excellence
+                        </Box>
+                        <Box fontSize="h6.fontSize">Whether its scaling a rock wall or securing positions at top-tier firms, our Brothers excel at everything they do.</Box>
+                    </Typography>
                 </Grid>
+
                 <Grid item xs={isMobile ? 12 : 4}>
-
-                    <Box mt={2}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
-                                Relationships
-                            </Box>
-                        </Typography>
-                        <Typography variant="body1">Our Brothers form life-long relationships with the friends they cross with as well as all our Active and Alumni Brothers.</Typography>
-                    </Box>
+                    <Typography component="div">
+                        <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
+                            Relationships
+                        </Box>
+                        <Box fontSize="h6.fontSize">Our Brothers form life-long relationships with the friends they cross with as well as all our Active and Alumni Brothers.</Box>
+                    </Typography>
                 </Grid>
+
                 <Grid item xs={isMobile ? 12 : 4}>
-
-                    <Box mt={2}>
-                        <Typography component="div">
-                            <Box fontWeight="fontWeightMedium" fontSize="h4.fontSize">
-                                Altruism
-                            </Box>
-                        </Typography>
-                        <Typography variant="body1">Our Brothers give back to UCI by running different campus organizations and raising money for causes we support.</Typography>
-                    </Box>
+                    <Typography component="div">
+                        <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
+                            Altruism
+                        </Box>
+                        <Box fontSize="h6.fontSize">Our Brothers give back to UCI by running different campus organizations and raising money for causes we support.</Box>
+                    </Typography>
+                    
                 </Grid>
+
             </Grid>
 
-            <Box mt={4}>
+            <Box mt={8}>
                 <Button size="large" variant="contained" className={classes.button} component={Link} to="/about">
                     Learn More
                 </Button>

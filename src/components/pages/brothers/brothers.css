@@ -1,13 +1,13 @@
 .content {
   position: relative;
-  width: 200px;
+  width: 218px;
   height: auto;
   margin: auto;
   overflow: hidden;
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.75);
   position: absolute;
   height: 99%;
   width: 100%;
@@ -63,15 +63,16 @@
 .content-details div{
   color: #fff;
   font-weight: bold;
-  font-size: 1.05em;
+  font-size: 1.1em;
   font-family: "Roboto";
+  margin-bottom: 5px;
 }
 
 .content-details p{
   margin-top: -0.0001em;
   color: #fff;
   font-size: 0.9em;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .fadeIn-bottom{

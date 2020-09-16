@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../WindowListener';
 import RushEvent from './RushEvent'
-import {events} from './EventsList'
+import { events } from './EventsList'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,13 +52,13 @@ export default function Rush({ setPage }) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={12} mb={12} className={classes.root}>
-            <Box mb={2}>
+        <Box mt={18} mb={18} className={classes.root}>
+            <Box mb={3}>
                 <Typography component="div">
-                    <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">
-                        Turn the Tide
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
+                        Turn The Tide
                     </Box>
-                    <Box fontWeight="fontWeighMedium" fontSize="h5.fontSize">
+                    <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1}>
                         Fall 2020 Recruitment
                     </Box>
                 </Typography>
@@ -66,7 +66,7 @@ export default function Rush({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={8} mb={8} className={classes.paragraph}>
+            <Box mt={10} mb={10} className={classes.paragraph}>
                 <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
@@ -78,16 +78,16 @@ export default function Rush({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={8}>
+            <Box mt={10}>
                 <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
                     FAQs
                 </Button>
             </Box>
             
-            <Box mt={4}>
+            <Box mt={6}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                        Stay tuned for our Coffee Chat link and our Application!
+                        Stay tuned for our Coffee Chat link and Application!
                     </Box>
                 </Typography>
             </Box>

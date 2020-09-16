@@ -36,8 +36,8 @@ export default function Gallery({setPage}) {
     const isMobile = width < 700;
 
     return (
-        <Box className={classes.root} mt={8} mb={8}>
-            <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={10}>
+        <Box className={classes.root} mt={18} mb={18}>
+            <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={20}>
                 {GalleryPhotos.map((tile, i) => (
                     <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={isMobile ? 1 : tile.rows}
                             style={{ pointerEvents: "none" }}>

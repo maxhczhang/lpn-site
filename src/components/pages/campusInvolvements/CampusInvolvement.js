@@ -5,12 +5,13 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
+import Divider from '@material-ui/core/Divider';
 
 import { Link as RouterLink } from 'react-router-dom';
 import MaterialTable from 'material-table';
 
 import useWindowDimensions from '../../WindowListener';
-import {orgsLogos} from './OrgsLogos'
+import { orgsLogos } from './OrgsLogos'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +23,13 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "60%"
+    },
+    content: {
+        width: "80%"
+    },
+    divider: {
+        width: "70%"
     },
     image: {
         width: 200,
@@ -46,9 +53,9 @@ export default function CampusInvolvement({ setPage }) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={18} mb={18} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" style={{maxWidth: "80%"}} spacing={2}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
                 {orgsLogos.map((tile) => (
                     <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
@@ -57,14 +64,16 @@ export default function CampusInvolvement({ setPage }) {
             </Grid>
             
             <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize" mt={2}>
+                <Box fontSize="h6.fontSize" mt={6} mb={6} align="left">
                     Our brothers have founded seven of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
-                    Many of our Active Brothers hold positions in these amazing organizations,
+                    Many of our Active Brothers still hold positions in these amazing organizations,
                     developing themselves as leaders and impacting the community around them in the process.
                 </Box>
             </Typography>
 
-            <Box mt={6} style={{width: "80%"}}>
+            <Divider className={classes.divider}></Divider>
+
+            <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title="2020 - 2021 Involvements"
                     columns={[
@@ -85,8 +94,8 @@ export default function CampusInvolvement({ setPage }) {
 
                         { name: <Link component={RouterLink} to="/active-brothers/matthew-nagata" color="inherit">Matthew Nagata</Link>, org: 'Management Information Student Society', position: "VP of Finance" },
                         { name: <Link component={RouterLink} to="/active-brothers/lucian-liu" color="inherit">Lucian Liu</Link>, org: 'Merage Undergraduate Student Association', position: 'VP of Finance' },
-                        { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, org: 'Undergraduate Business Association', position: 'Finance Director' },
                         { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, org: 'Human Resources Management Association', position: "VP of Finance" },
+                        { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, org: 'Undergraduate Business Association', position: 'Finance Director' },
 
                         { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, org: 'Accounting Association', position: 'Director of Professional Development' },
                         { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, org: 'Management Information Student Society', position: "VP of Professional Development" },

@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     paragraph: {
+        maxWidth: "60%"
+    },
+    content: {
         maxWidth: "80%"
     },
     parallax: {
@@ -29,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
         zIndex: 1,
         color: "white",
     },
+    divider: {
+        width: "70%"
+    }
 }));
 
 export default function About({setPage}) {
@@ -41,47 +47,46 @@ export default function About({setPage}) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={18} mb={18} className={classes.root}>
 
             <Box className={classes.paragraph}>
                 <Typography component="div">
-                    <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
+                    <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" mb={4}>
                         Who Are We?
                     </Box>
                 </Typography>
 
                 <Typography component="div">
-                    <Box fontSize="1.1rem" style={{ textAlign: "center" }}>
+                    <Box fontSize="1.1rem" align="left">
                         Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
                         committed to inspiring the best in everyone. Our brothers aspire to become visionaries, influencers, and
                         mobilizers. This means we dream big, rally support, and get it done.
                     </Box>
 
-                    <Box fontSize="1.1rem" mt={2} mb={4} style={{ textAlign: "center" }}>
+                    <Box fontSize="1.1rem" mt={4} mb={6} align="left">
                         During their time on campus, each of our brothers left a legacy because they saw a need to fill,
                         a problem to solve, or someone to care about. We are inspired to carry on the torch they left us.
                     </Box>
                 </Typography>
-
             </Box>
           
-            <Divider style={{ width: "70%" }}></Divider>
+            <Divider className={classes.divider}></Divider>
 
-            <Box mt={4} mb={4} className={classes.paragraph}>
+            <Box mt={10} mb={10} className={classes.content}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
                         Why ΛΦΝ?
                     </Box>
                 </Typography>
 
-                <Box mt={4} mb={4}>
+                <Box mt={4}>
                     <LPNFacts isMobile={isMobile}></LPNFacts>
                 </Box>
             </Box>
 
-            <Divider style={{ width: "70%" }}></Divider>
+            <Divider className={classes.divider}></Divider>
 
-            <Box mt={4} mb={8} className={classes.paragraph}>
+            <Box mt={10} mb={18} className={classes.content}>
                 <Typography component="div">
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize">
                         Our Core Values
@@ -121,17 +126,17 @@ export default function About({setPage}) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={8}>
+            <Box mt={18}>
                 <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" mb={2}>
                         Our Heritage
                     </Box>
                 </Typography>
             </Box>
 
-            <Divider></Divider>
+            <Divider className={classes.divider}></Divider>
 
-            <Box mt={2} mb={6} className={classes.paragraph} style={{ textAlign: "left" }}>
+            <Box mt={6} mb={10} className={classes.paragraph} align="left">
                 <Typography component="div">
                     <Box fontSize="h6.fontSize">
                         The 2008 Financial Crisis was the catalyst for starting Lambda Phi Nu. At a macro level, the housing bubble burst, Dow Jones prices were at a historical low, and 1.2 million jobs were lost within one year. At a micro-level, students felt the impact with rising tuition, curtailed financial aid, and shortage in faculty. To make matters worse, UCI’s business program was still young; its undergraduate business program initiated its first 200 students in the Fall of 2008. Thus, UCI was a school many companies considered dropping their sponsorship and support.
@@ -145,26 +150,26 @@ export default function About({setPage}) {
                 </Typography>
             </Box>
            
-            <Box>
-                <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
-                        Chapter Founding & Rebranding
-                    </Box>
-                </Typography>
-            </Box>
+            
+            <Typography component="div" className={classes.paragraph}>
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                    Chapter Founding & Rebranding
+                </Box>
+            </Typography>
+           
 
             <Box mt={2} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" style={{ textAlign: "left" }}>
                         The Chapter was founded in 2010 as Beta Alpha Psi and re-branded into Lambda Phi Nu in 2014 due to fundamental differences within organizational structures. Standard Beta Alpha Psi chapters operate under an honor society structure; however the Irvine chapter sought to operate as a fraternity. We chose to re-brand under Lambda Phi Nu in order to preserve the culture and mission that we currently held.
                     </Box>
-                    <Box fontSize="h4.fontSize" fontWeight="fontWeightMedium" mt={4}>
+                    <Box fontSize="h3.fontSize" fontWeight="fontWeightMedium" mt={8}>
                         Founding C-Suite
                     </Box>
                     <Box fontSize="h6.fontSize" mt={1}>
                         Mr. Dennis Yu (CEO), Mr. Michael Wen (CFO), Mr. Brandon Shiaw (CIO), Mr. Art Reyes (COO), Ms. Emily Rong (CTO)
                     </Box>
-                    <Box fontSize="h4.fontSize" fontWeight="fontWeightMedium" mt={4}>
+                    <Box fontSize="h3.fontSize" fontWeight="fontWeightMedium" mt={8}>
                         Founding Fathers
                     </Box>
                     <Box fontSize="h6.fontSize" mt={1}>

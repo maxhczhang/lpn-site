@@ -24,7 +24,13 @@ const useStyles = makeStyles({
     },
     link: {
         color: "white"
-    }
+    },
+    button: {
+        color: "white",
+        '&:hover': {
+            backgroundColor: "rgb(255,255,255, 0.1)"
+        }
+    },
   });
 
 export default function Footer() {
@@ -37,28 +43,28 @@ export default function Footer() {
                 <Grid container justify="center">
                     <Grid item>
                         <a href="https://www.linkedin.com/company/lambdaphinu/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="medium" aria-label="LinkedIn" color="inherit">
+                            <IconButton size="medium" aria-label="LinkedIn" className={classes.button}>
                                 <LinkedInIcon></LinkedInIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.facebook.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="medium" aria-label="Facebook" color="inherit">
+                            <IconButton size="medium" aria-label="Facebook" className={classes.button}>
                                 <FacebookIcon></FacebookIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.youtube.com/channel/UCFUcgiGBvqJ3ORfWoa6GSLA" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="medium" aria-label="Youtube" color="inherit">
+                            <IconButton size="medium" aria-label="Youtube" className={classes.button}>
                                 <YouTubeIcon></YouTubeIcon>
                             </IconButton>
                         </a>
                     </Grid>
                     <Grid item>
                         <a href="https://www.instagram.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
-                            <IconButton size="medium" aria-label="Instagram" color="inherit">
+                            <IconButton size="medium" aria-label="Instagram" className={classes.button}>
                                 <InstagramIcon></InstagramIcon>
                             </IconButton>
                         </a>

@@ -6,11 +6,10 @@ export const brothers = [
         company: 'EY',
     },
     {
-        img: require("../../../../assets/actives/brothers_small/Jenny_Cheung.jpg"),
-        name: "Jenny Cheung",
-        logo: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
-        company: 'Shiseido',
-        isLongRect: true
+        img: require("../../../../assets/actives/brothers_small/Vivi_Liu.jpg"),
+        name: "Vivi Liu",
+        logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
+        company: 'Cross Bond Global Consultant',
     },
     {
         img: require("../../../../assets/actives/brothers_small/Karen_Ching.jpg"),

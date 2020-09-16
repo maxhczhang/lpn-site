@@ -33,22 +33,24 @@ export default function ActiveBrothers({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={8} mb={8} className={classes.root}>
+        <Box mt={12} mb={18} className={classes.root}>
             <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mb={4}>
                 C-Suite
             </Box>
             <BrothersList brothers={csuite} isCsuite={true}></BrothersList>
 
+            <Box mt={6}></Box>
             <Divider className={classes.divider}></Divider>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={4}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={12} mb={4}>
                 Directors
             </Box>
             <BrothersList brothers={directors} isCsuite={false}></BrothersList>
 
+            <Box mt={6}></Box>
             <Divider className={classes.divider}></Divider>
 
-            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={6} mb={4}>
+            <Box fontWeight="fontWeightBold" fontSize="h3.fontSize" mt={12} mb={4}>
                 Brothers
             </Box>
             <BrothersList brothers={brothers} isCsuite={false}></BrothersList>

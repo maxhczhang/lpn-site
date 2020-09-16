@@ -19,13 +19,9 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         maxWidth: "80%"
     },
-    titleBar: {
-        background:
-            'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-    },
     logo: {
-        width: 50,
-        height: 50
+        width: 55,
+        height: 55
     },
     rectLogo: {
         width: 90,
@@ -46,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
+const BrothersList = ({ brothers, scrollPosition }) => {
     const classes = useStyles();
     let cols;
 
@@ -67,7 +63,7 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
     return (
         <div className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
+            <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
                 {brothers.map((tile, i) => (
                     <Grid item xs={cols} key={i}>                   
                         
@@ -76,8 +72,8 @@ const BrothersList = ({ brothers, isCsuite, scrollPosition }) => {
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
-                                    width={200}
-                                    height={300}
+                                    width={218}
+                                    height={330}
                                     scrollPosition={scrollPosition}
                                     src={tile.img}
                                     effect="blur"

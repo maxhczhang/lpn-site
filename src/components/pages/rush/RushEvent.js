@@ -32,10 +32,8 @@ const useStyles = makeStyles((theme) => ({
         width: 300,
     },
     paragraph: {
-        display: "flex",
-        alignItems: 'center',
-        flexDirection: "column",
-        color: "white"
+        color: "white",
+        maxWidth: "80%"
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -49,6 +47,9 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
         color: "white"
+    },
+    titleIcon: {
+        marginTop: 10
     }
 }));
 
@@ -66,13 +67,13 @@ export default function RushEvent({event}) {
             <CardHeader
                 title={
                     <React.Fragment>
-                        {event.title === "Info Night" && <InfoIcon fontSize="large"></InfoIcon>}
-                        {event.title === "Meet the Bros" && <PeopleIcon fontSize="large"></PeopleIcon>}
-                        {event.title === "Professional Night" && <BusinessCenterIcon fontSize="large"></BusinessCenterIcon>}
-                        {event.title === "Invite-Only Social" && <MailIcon fontSize="large"></MailIcon>}
-                        {event.title === "Coffee Chats" && <LocalCafeIcon fontSize="large"></LocalCafeIcon>}
+                        {event.title === "Info Night" && <InfoIcon fontSize="large" className={classes.titleIcon}></InfoIcon>}
+                        {event.title === "Meet the Bros" && <PeopleIcon fontSize="large" className={classes.titleIcon}></PeopleIcon>}
+                        {event.title === "Professional Night" && <BusinessCenterIcon fontSize="large" className={classes.titleIcon}></BusinessCenterIcon>}
+                        {event.title === "Invite-Only Social" && <MailIcon fontSize="large" className={classes.titleIcon}></MailIcon>}
+                        {event.title === "Coffee Chats" && <LocalCafeIcon fontSize="large" className={classes.titleIcon}></LocalCafeIcon>}
                         <Typography component="div">
-                            <Box fontSize="h4.fontSize" fontWeight="fontWeightBold">{event.title}</Box>
+                            <Box fontSize="h4.fontSize" fontWeight="fontWeightBold" mt={1} mb={1}>{event.title}</Box>
                         </Typography>
                     </React.Fragment>
     
@@ -88,7 +89,7 @@ export default function RushEvent({event}) {
            
             <CardContent className={classes.paragraph}>
                 <Box mt={1} mb={2}>
-                    <Typography variant="body1" component="p"> {event.description} </Typography>
+                    <Typography variant="body1" > {event.description} </Typography>
                 </Box>
             </CardContent>
 

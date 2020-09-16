@@ -1,8 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
-// import GridList from '@material-ui/core/GridList';
-// import GridListTile from '@material-ui/core/GridListTile';
 import Grid from '@material-ui/core/Grid';
 import { companyLogos } from './lists/CompanyLogos';
 
@@ -42,13 +40,6 @@ export default function Companies({isMobile}) {
 
     return (
         <div className={classes.root}>
-            {/* <GridList className={classes.gridList} cols={isMobile ? 2 : 6}>
-                {companyLogos.map((tile) => (
-                    <GridListTile key={tile.img}>
-                        <img src={tile.img} alt={tile.title} className={classes.image}/>
-                    </GridListTile>
-                ))}
-            </GridList> */}
 
             <Grid container direction="row" justify="center" alignItems="center" spacing={3}>
                 {companyLogos.map((tile) => (
