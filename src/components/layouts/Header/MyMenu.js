@@ -22,7 +22,7 @@ const titleToPath = (title) => {
     return '/' + path
 }
 
-export default function MyMenu({mainTitle, title1, title2, buttonStyle}) {
+export default function MyMenu({mainTitle, title1, to1, title2, buttonStyle}) {
     const classes = useStyles();
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -54,7 +54,7 @@ export default function MyMenu({mainTitle, title1, title2, buttonStyle}) {
                 MenuListProps={{ onMouseLeave: handleClose }}
             >
                 <Typography component="div">
-                    <MenuItem component={Link} to={titleToPath(title1)} onClick={handleClose}>
+                    <MenuItem component={Link} to={titleToPath(to1)} onClick={handleClose}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title1}
                         </Box>                        

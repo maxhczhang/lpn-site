@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
+import ReactGA from 'react-ga'
 
 import BckgrndSelector from './BckgrndSelector'
 import ScrollToTop from './ScrollToTop'
@@ -32,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+ReactGA.initialize(process.env.REACT_APP_GA_ID)
+
+
 export default function LPNSite() {
     const [pageNum, setPageNum] = useState(0);
     const classes = useStyles();
@@ -51,16 +55,12 @@ export default function LPNSite() {
     return (
        <HashRouter>
            <ScrollToTop></ScrollToTop>
-           
+                      
             <div className={classes.app}>
                 <ThemeProvider theme={theme}>
                 <BckgrndSelector pageNum={pageNum}></BckgrndSelector>
 
                 <Switch>
-
-                    <Route exact path="/">
-                        <Home setPage={setPage} />
-                    </Route>
 
                     <Route exact path="/about">
                         <About setPage={setPage} />
@@ -81,7 +81,7 @@ export default function LPNSite() {
                         <Careers setPage={setPage} />
                     </Route>
 
-                    <Route exact path="/fall-rush-2020">
+                    <Route exact path="/recruitment">
                         <Rush setPage={setPage} />
                     </Route>
                     <Route exact path="/faqs">
@@ -94,6 +94,10 @@ export default function LPNSite() {
 
                     <Route exact path="/contact">
                         <Contact setPage={setPage} />
+                    </Route>
+
+                    <Route path="/">
+                        <Home setPage={setPage} />
                     </Route>
 
                 </Switch>

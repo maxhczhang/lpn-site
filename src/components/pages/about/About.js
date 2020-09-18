@@ -79,7 +79,7 @@ export default function About({setPage}) {
                     </Box>
                 </Typography>
 
-                <Box mt={4}>
+                <Box mt={6}>
                     <LPNFacts isMobile={isMobile}></LPNFacts>
                 </Box>
             </Box>

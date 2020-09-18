@@ -107,11 +107,11 @@ export default function Header({ pageNum }) {
 
                   <Button size="large" className={classes.button} component={Link} to="/about">About</Button> 
                 
-                  <MyMenu mainTitle="Brothers" title1={"Active Brothers"} title2={"Campus Involvement"} buttonStyle={classes.button}></MyMenu>
+                  <MyMenu mainTitle="Brothers" title1="Active Brothers" to1="active-brothers" title2="Campus Involvement" buttonStyle={classes.button}></MyMenu>
                   
                   <Button size="large" className={classes.button} component={Link} to="/careers">Careers</Button>
                   
-                  <MyMenu mainTitle="Recruitment" title1={"Fall Rush 2020"} title2={"FAQs"} buttonStyle={classes.button}></MyMenu>
+                  <MyMenu mainTitle="Recruitment" title1="Fall Rush 2020" to1='recruitment' title2="FAQs" buttonStyle={classes.button}></MyMenu>
 
                   <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
                   
@@ -122,7 +122,7 @@ export default function Header({ pageNum }) {
           
             {!isMobile &&
               <Grid item>
-                <Button variant="contained" size="large" color="inherit" component={Link} to="/fall-rush-2020"
+                <Button variant="contained" size="large" color="inherit" component={Link} to="/recruitment"
                 className={classes.joinButton}>
                 Join Us
                 </Button>

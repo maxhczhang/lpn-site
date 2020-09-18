@@ -8,25 +8,31 @@ import Box from '@material-ui/core/Box';
 export default function LPNFacts({isMobile}) {
     if (isMobile) {
         return (
-            <Typography variant="h6">
+            <Typography component="div">
                 <Grid container spacing={6}>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">9</Box>
+                        <Box fontSize="h5.fontSize">Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">30 Current Leadership Positions</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">30</Box>
+                        <Box fontSize="h5.fontSize">Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box  fontWeight="fontWeightMedium">33 President Positions Held</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">5</Box>
+                        <Box fontSize="h5.fontSize">Current President Positions</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">100% Internship Placement Rate</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">100%</Box>
+                        <Box fontSize="h5.fontSize">Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">2.2 Internships Per Active On Average</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">2.2</Box>
+                        <Box fontSize="h5.fontSize">Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightMedium">94% Full-time Offer Rate Prior To Graduation</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">94%</Box> 
+                        <Box fontSize="h5.fontSize">Full-time Offer Rate Prior To Graduation</Box>
                     </Grid>
                 </Grid>
             </Typography>
@@ -35,25 +41,31 @@ export default function LPNFacts({isMobile}) {
     
     else {
         return (
-            <Typography variant="h5">
+            <Typography component="div">
                 <Grid container spacing={10}>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">9 Business Orgs Founded</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">9</Box>
+                        <Box fontSize="h4.fontSize">Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">30 Current Leadership Positions</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">30</Box>
+                        <Box fontSize="h4.fontSize">Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">5 Current President Positions</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">5</Box>
+                        <Box fontSize="h4.fontSize">Current President Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">100% Internship Placement Rate</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">100%</Box>
+                        <Box fontSize="h4.fontSize">Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">2.2 Internships Per Active On Average</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">2.2</Box>
+                        <Box fontSize="h4.fontSize">Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightMedium">94% Full-time Offer Rate Prior To Graduation</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">94%</Box> 
+                        <Box fontSize="h4.fontSize">Full-time Offer Rate Prior To Graduation</Box>
                     </Grid>
                 </Grid>
             </Typography>
