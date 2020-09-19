@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
+// import GridListTileBar from '@material-ui/core/GridListTileBar';
 import Box from '@material-ui/core/Box';
 
 import { GalleryPhotos } from './GalleryPhotos';
@@ -23,7 +23,14 @@ const useStyles = makeStyles((theme) => ({
     },
     bar: {
         height: 40
-    }
+    },
+    image: {
+        pointerEvents: "none",
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
+    },
 }));
 
 export default function Gallery({setPage}) {
@@ -40,15 +47,15 @@ export default function Gallery({setPage}) {
             <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={20}>
                 {GalleryPhotos.map((tile, i) => (
                     <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={isMobile ? 1 : tile.rows}
-                            style={{ pointerEvents: "none" }}>
-                        <img src={tile.img} alt={tile.title} />
+                             className={classes.image} >
+                        <img src={tile.img} alt={tile.title}/>
 
-                        {tile.title &&
+                        {/* {tile.title &&
                             <GridListTileBar
                                 classes={{ root:classes.bar, }}
                                 title={tile.title}
                             />
-                        } 
+                        }  */}
                     </GridListTile>
                 ))}
             </GridList>

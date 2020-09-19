@@ -42,7 +42,7 @@ export default function LPNFacts({isMobile}) {
     else {
         return (
             <Typography component="div">
-                <Grid container spacing={10}>
+                <Grid container spacing={8}>
                     <Grid item xs={4}>
                         <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">9</Box>
                         <Box fontSize="h4.fontSize">Business Orgs Founded</Box>

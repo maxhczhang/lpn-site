@@ -133,7 +133,7 @@ export default function BckgrndSelector({ pageNum }) {
                             amount: 0.2,
                             children: 
                                 <iframe width="100%" height="100%" title="Rush Video"
-                                    src="https://www.youtube-nocookie.com/embed/ZEza9AuQ2Q8?playlist=ZEza9AuQ2Q8&loop=1&autoplay=1&mute=1"
+                                    src="https://www.youtube-nocookie.com/embed/gKH6xj1xg3U?playlist=gKH6xj1xg3U&loop=1&autoplay=1&mute=1"
                                     frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
                                     style={isMobile ? {} : {pointerEvents: "none"}}
                                 >

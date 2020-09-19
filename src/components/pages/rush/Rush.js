@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import useWindowDimensions from '../../WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './EventsList'
+import cover from '../../../assets/recruitment/Fall_Rush_Cover.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -37,7 +38,17 @@ const useStyles = makeStyles((theme) => ({
         width: "70%"
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "60%",
+    },
+    cover: {
+        marginTop: 60,
+        marginBottom: 90,
+        width: 945,
+        height: 350,
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
     }
 }));
 
@@ -64,9 +75,26 @@ export default function Rush({ setPage }) {
                 </Typography>
             </Box>
 
+            <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
+                <img src={cover} className={classes.cover} alt="Fall Rush 2020"></img>
+            </a>
+
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={10} mb={10} className={classes.paragraph}>
+            <Typography component="div" className={classes.paragraph} align="left">
+                <Box mt={10} fontSize="h6.fontSize">
+                    While last year was spent looking back at the 10 years passed since Lambda Phi Nu's founding, this year kept all our Active Brothers alert, constantly looking forward to meet the next challenge.
+                    As a result, our Talent Team was well-positioned to craft a new Rush and Pledge process for the incoming Omicron Class.  
+                </Box>
+                <Box mt={6} mb={10} fontSize="h6.fontSize">
+                    We hope you will attend our Rush events to learn more about LPN, meet our Brothers, 
+                    and decide to become a part of this new class, one shaped by 2020's adversity but eager to Turn the Tide onto a new chapter in their lives!
+                </Box>
+            </Typography>
+
+            <Divider className={classes.divider}></Divider>
+
+            <Box mt={14} mb={14} className={classes.paragraph}>
                 <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">

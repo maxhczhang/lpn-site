@@ -82,7 +82,7 @@ export default function Home({setPage}) {
     }
 
     return (
-        <Box mt={18} mb={18} className={classes.root}>
+        <Box mt={16} mb={16} className={classes.root}>
 
             <Box mb={3}>
                 <Typography component="div">
@@ -102,8 +102,7 @@ export default function Home({setPage}) {
                     <Box fontSize="h6.fontSize" align="left">
                         We're a UC Irvine-founded business leadership fraternity
                         community for students seeking leadership development and coaching. We immerse our
-                        members into an environment that emulates the professional world to prepare them for a
-                        more successful future.
+                        members into an environment that emulates the professional world and form strong bonds that last from the first night of Pledge, to Commencement and beyond!
                     </Box>
                 </Typography>
 

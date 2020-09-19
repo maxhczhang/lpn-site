@@ -47,7 +47,7 @@ export default function About({setPage}) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={18} mb={18} className={classes.root}>
+        <Box mt={16} mb={16} className={classes.root}>
 
             <Box className={classes.paragraph}>
                 <Typography component="div">
@@ -126,7 +126,7 @@ export default function About({setPage}) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={18}>
+            <Box mt={16}>
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" mb={2}>
                         Our Heritage

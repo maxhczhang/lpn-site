@@ -54,9 +54,9 @@ export default function Careers({ setPage }) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={16} mb={18} className={classes.root}>
+        <Box mt={16} mb={16} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={5}>
                 {companyLogos.map((tile) => (
                     <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
@@ -68,7 +68,7 @@ export default function Careers({ setPage }) {
                 <Box fontSize="h6.fontSize" mt={8} mb={6}>
                     Our Brothers achieve excellence in the professional world in the form of 
                     internships during their time at UCI and full-time positions after graduation. Here are a few
-                    of the many companies where you could find your future mentor.
+                    of the many companies where you could find your future mentor!
                 </Box>
             </Typography>
 

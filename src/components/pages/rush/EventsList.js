@@ -3,10 +3,10 @@ export const events = [
         title: "Info Night",
         date: "10/5",
         description: "Learn about who we are, our history, and what we value.",
-        dressCode: "Casual",
+        dressCode: "Business Casual",
         ics: {
             title: "LPN Rush: Info Night",
-            description: "Learn about who we are, our history, and what we value! Stay tuned for our Zoom link.",
+            description: "Learn about who we are, our history, and what we value! https://uci.zoom.us/meeting/register/tJcrduuhqzgqHdSpWFkJr6PH40N-BLyfz7zs",
             startTime: "2020-10-05T18:00:00-08:00",
             endTime: "2020-10-05T20:30:00-08:00",
             location: "Zoom"
@@ -21,7 +21,7 @@ export const events = [
         dressCode: "Casual",
         ics: {
             title: "LPN Rush: Meet the Bros",
-            description: "All our Active Brothers are eager to meet you! Stay tuned for our Zoom link.",
+            description: "All our Active Brothers are eager to meet you! https://uci.zoom.us/meeting/register/tJMrd--urz4rEtcr2dxdt7nbKGAsthIx4AQQ",
             startTime: "2020-10-07T18:00:00-08:00",
             endTime: "2020-10-07T20:30:00-08:00",
             location: "Zoom"
@@ -36,7 +36,7 @@ export const events = [
         dressCode: "Casual",
         ics: {
             title: "LPN Rush: Coffee Chats",
-            description: "Attend scheduled, 1:1 chats with our Active Brothers throughout the day. Stay tuned for our sign up link.",
+            description: "Attend scheduled, 1:1 chats with our Active Brothers throughout the day. Stay tuned for our scheduling link.",
             startTime: "2020-10-12T18:00:00-08:00",
             endTime: "2020-10-12T20:30:00-08:00",
             location: "Zoom"
@@ -50,7 +50,7 @@ export const events = [
         dressCode: "Business Professional",
         ics: {
             title: "LPN Rush: Professional Night",
-            description: "Network with some of our most accomplished Alumni! Stay tuned for our Zoom link.",
+            description: "Network with some of our most accomplished Alumni! https://uci.zoom.us/meeting/register/tJ0scOChrDsrH9RUS5Owb1JnYRyBXhZ22IbQ",
             startTime: "2020-10-12T18:00:00-08:00",
             endTime: "2020-10-12T20:30:00-08:00",
             location: "Zoom"
@@ -65,7 +65,7 @@ export const events = [
         dressCode: "Dressy Casual",
         ics: {
             title: "LPN Rush: Invite-Only Social",
-            description: "Have a fireside chat with our Active Brothers! Stay tuned for our Zoom link.",
+            description: "Have a fireside chat with our Active Brothers! https://uci.zoom.us/meeting/register/tJwrduGqrj0sE9HcdP12St6r8DoM7LrPG_4y'",
             startTime: "2020-10-14T18:00:00-08:00",
             endTime: "2020-10-14T20:30:00-08:00",
             location: "Zoom"

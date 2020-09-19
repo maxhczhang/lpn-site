@@ -26,8 +26,8 @@ import ICalendarLink from "react-icalendar-link";
 
 
 const useStyles = makeStyles((theme) => ({
-    gray: {
-        backgroundColor: "#580C1F",
+    card: {
+        background: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
         color: "white",
         width: 300,
     },
@@ -62,7 +62,7 @@ export default function RushEvent({event}) {
     };
 
     return (
-        <Card className={classes.gray} raised={true}>
+        <Card className={classes.card} raised={true}>
             
             <CardHeader
                 title={
