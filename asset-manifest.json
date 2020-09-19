@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.cdc1c2bb.chunk.css",
-    "main.js": "/static/js/main.25ec2fb3.chunk.js",
-    "main.js.map": "/static/js/main.25ec2fb3.chunk.js.map",
+    "main.js": "/static/js/main.80b4074f.chunk.js",
+    "main.js.map": "/static/js/main.80b4074f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.9d589d63.chunk.js": "/static/js/2.9d589d63.chunk.js",
-    "static/js/2.9d589d63.chunk.js.map": "/static/js/2.9d589d63.chunk.js.map",
+    "static/js/2.417292c7.chunk.js": "/static/js/2.417292c7.chunk.js",
+    "static/js/2.417292c7.chunk.js.map": "/static/js/2.417292c7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ee07c9ace97b822046d86983115f1299.js": "/precache-manifest.ee07c9ace97b822046d86983115f1299.js",
+    "precache-manifest.ad0c782c46303496ab656ee80c6ec524.js": "/precache-manifest.ad0c782c46303496ab656ee80c6ec524.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.cdc1c2bb.chunk.css.map": "/static/css/main.cdc1c2bb.chunk.css.map",
-    "static/js/2.9d589d63.chunk.js.LICENSE.txt": "/static/js/2.9d589d63.chunk.js.LICENSE.txt",
+    "static/js/2.417292c7.chunk.js.LICENSE.txt": "/static/js/2.417292c7.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.605552cd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -44,6 +44,7 @@
     "static/media/Excellence2.jpg": "/static/media/Excellence2.7543cb28.jpg",
     "static/media/Experian.png": "/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/static/media/Faith_Chia.d1a7d837.jpg",
+    "static/media/Fall_Rush_Cover.png": "/static/media/Fall_Rush_Cover.0aa1b59a.png",
     "static/media/Founders_Alt_1.png": "/static/media/Founders_Alt_1.864bf966.png",
     "static/media/Gallery.jpg": "/static/media/Gallery.fbd12a85.jpg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.d6566127.png",
@@ -105,7 +106,6 @@
     "static/media/Serina_Nguyen.jpg": "/static/media/Serina_Nguyen.56223a60.jpg",
     "static/media/Serina_Nguyen.png": "/static/media/Serina_Nguyen.a0dd8d44.png",
     "static/media/Stephen_Minn.jpg": "/static/media/Stephen_Minn.5591cb54.jpg",
-    "static/media/TURN_THE_TIDE_COVER.png": "/static/media/TURN_THE_TIDE_COVER.ab801e35.png",
     "static/media/Taiwan_1.jpg": "/static/media/Taiwan_1.825bb744.jpg",
     "static/media/Taiwan_2.jpg": "/static/media/Taiwan_2.3b9af5fb.jpg",
     "static/media/Tiffany_Chan.png": "/static/media/Tiffany_Chan.0f7c23c0.png",
@@ -129,8 +129,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.9d589d63.chunk.js",
+    "static/js/2.417292c7.chunk.js",
     "static/css/main.cdc1c2bb.chunk.css",
-    "static/js/main.25ec2fb3.chunk.js"
+    "static/js/main.80b4074f.chunk.js"
   ]
 }
