@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
     },
     carouselWidth: {
         maxWidth: "75%"
-    }
+    },
 }));
 
 
@@ -84,20 +84,16 @@ export default function Home({setPage}) {
     return (
         <Box mt={16} mb={16} className={classes.root}>
 
-            <Box mb={3}>
-                <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
-                        Our Legacy
-                    </Box>
-                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize" mt={1}>
-                        Grow Forward. Give Back.
-                    </Box>
-                </Typography>
-            </Box>
+            <Typography component="div">
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                    Our Legacy
+                </Box>
+                <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize" mt={1}>
+                    Grow Forward. Give Back.
+                </Box>
+            </Typography>           
 
-            <Divider className={classes.divider}></Divider>
-
-            <Box mt={6} mb={18} className={classes.paragraph}>
+            <Box mt={6} mb={14} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" align="left">
                         We're a UC Irvine-founded business leadership fraternity
@@ -113,9 +109,12 @@ export default function Home({setPage}) {
                 </Box>
             </Box>
 
+            <Divider className={classes.divider}></Divider>
+            <Box mt={14}></Box>
+
             <MyCarousel isMobile={isMobile} photos={carousel1photos}></MyCarousel>
 
-            <Box mt={10} mb={8} className={classes.carouselWidth}>
+            <Box mt={12} mb={10} className={classes.carouselWidth}>
                 <Grid container spacing={10} direction="row" justify="space-evenly">
 
                     <Grid item xs={cols}>
@@ -169,9 +168,7 @@ export default function Home({setPage}) {
                 </Grid>
             </Box>
 
-            <Divider className={classes.divider}></Divider>
-
-            <Box mt={9} mb={9}>
+            <Box mt={4} mb={10}>
                 <img className={classes.logo} src={colorLogo} alt="LPN"></img>
             </Box>
 
@@ -203,17 +200,17 @@ export default function Home({setPage}) {
                 </div>
             </ParallaxBanner>
 
-            <Box mt={18}></Box>
+            <Box mt={16}></Box>
 
             <MyCarousel isMobile={isMobile} photos={carousel2photos} spacing={40}></MyCarousel>
 
-            <Box mt={6} mb={8} className={classes.carouselWidth}>
+            <Box mt={6} mb={14} className={classes.carouselWidth}>
                 <HomeCoreValues isMobile={isMobile}></HomeCoreValues>
             </Box>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={18} align="center">
+            <Box mt={14} align="center">
                 <Typography component="div">
                     <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" className={classes.paragraph}>
                         Where We've Worked

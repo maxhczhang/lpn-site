@@ -64,7 +64,7 @@ export default function CampusInvolvement({ setPage }) {
             </Grid>
             
             <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize" mt={6} mb={6} align="left">
+                <Box fontSize="h6.fontSize" mt={4} mb={8} align="left">
                     Our brothers have founded seven of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
                     Many of our Active Brothers still hold positions in these amazing organizations,
                     developing themselves as leaders and impacting the community around them in the process.
@@ -75,7 +75,7 @@ export default function CampusInvolvement({ setPage }) {
 
             <Box mt={12} className={classes.content}>
                 <MaterialTable
-                    title="2020 - 2021 Involvements"
+                    title={ <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Organization', field: 'org' },
@@ -120,6 +120,14 @@ export default function CampusInvolvement({ setPage }) {
                         { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, org: 'Phi Zeta Tau', position: 'Webmistress' },
                         { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, org: 'Merage Undergraduate Student Association', position: 'VP of Technology' },
                         { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, org: 'Marketing Association', position: 'VP of Internal Affairs' },
+                        
+                        { name: <Link component={RouterLink} to="/active-brothers/philip-cheung" color="inherit">Philip Cheung</Link>, org: 'Management Information Student Society', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/andrew-duong" color="inherit">Andrew Duong</Link>, org: 'Accounting Association Leadership Development Program', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, org: 'Management Information Student Society', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, org: 'Accounting Association Leadership Development Program', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, org: 'Management Information Student Society', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/naishal-shah" color="inherit">Naishal Shah</Link>, org: 'Management Information Student Society', position: 'Mentor' },
+                        { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, org: 'Management Information Student Society', position: 'Mentor' },
                         
                     ]}
                     onRowClick={((evt, selectedRow) => console.log(selectedRow))}

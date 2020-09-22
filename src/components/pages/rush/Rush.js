@@ -49,7 +49,19 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             transform: "scale(1.1)"
         }
-    }
+    },
+    coverMobile: {
+        marginTop: 60,
+        marginBottom: 90,
+        maxWidth: "80%",
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
+    },
+    content: {
+        maxWidth: "80%"
+    },
 }));
 
 
@@ -65,18 +77,18 @@ export default function Rush({ setPage }) {
     return (
         <Box mt={18} mb={18} className={classes.root}>
             <Box mb={3}>
-                <Typography component="div">
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
+                <Typography component="div" className={classes.root}>
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : classes.title}>
                         Turn The Tide
                     </Box>
-                    <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1}>
+                    <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
                         Fall 2020 Recruitment
                     </Box>
                 </Typography>
             </Box>
 
             <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
-                <img src={cover} className={classes.cover} alt="Fall Rush 2020"></img>
+                <img src={cover} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2020"></img>
             </a>
 
             <Divider className={classes.divider}></Divider>
@@ -88,14 +100,14 @@ export default function Rush({ setPage }) {
                 </Box>
                 <Box mt={6} mb={10} fontSize="h6.fontSize">
                     We hope you will attend our Rush events to learn more about LPN, meet our Brothers, 
-                    and decide to become a part of this new class, one shaped by 2020's adversity but eager to Turn the Tide onto a new chapter in their lives!
+                    and decide to become a part of this new class, one shaped by 2020's adversity but eager to Turn The Tide onto a new chapter in their lives!
                 </Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={14} mb={14} className={classes.paragraph}>
-                <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
+            <Box mt={14} mb={14} className={classes.content}>
+                <Grid container direction="row" justify="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
                             <RushEvent event={event}></RushEvent>

@@ -57,11 +57,13 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         alignItems: 'center',
         flexDirection: "column",
+    },
+    spacedTitle: {
+        letterSpacing: 6
     }
 }));
 
 export default function HeaderContent({pageNum}) {
-    const msgs = ["A Business Leadership Fraternity.", "ΛΦΝ", "UC Irvine"]
     const classes = useStyles();
 
     const { width } = useWindowDimensions();
@@ -70,17 +72,29 @@ export default function HeaderContent({pageNum}) {
     switch(pageNum) {
 
         case 0:
+            const titles = ["A Business Leadership Fraternity.", "ΛΦΝ"]
+            const captions = ["UC Irvine", "Curiosity", "Excellence", "Relationships", "Integrity", "Altruism"]
+            const finalCaption = "UC Irvine"
+
             return (
                <React.Fragment>
                 <Box className={classes.contentWrapper}>
                     <Typography component="div" style={{maxWidth: "80%", marginTop: "25vh"}}>
                         <Typist cursor={{show: false}}>
 
-                        <Box fontWeight="fontWeightBold" fontSize={isMobile ? '3rem' : '3.5rem'}>{msgs[0]}</Box>
-                        <Typist.Backspace count={msgs[0].length} delay={300}></Typist.Backspace>
+                            <Box fontWeight="fontWeightBold" fontSize={isMobile ? '3rem' : '3.5rem'}>{titles[0]}</Box>
+                            <Typist.Backspace count={titles[0].length} delay={300}></Typist.Backspace>
 
-                        <Box fontWeight="fontWeightBold" fontSize='6rem'>{msgs[1]}</Box>
-                        <Typography variant="h4">{msgs[2]}</Typography>
+                            <Box fontWeight="fontWeightBold" fontSize='6rem' className={classes.spacedTitle}>{titles[1]}</Box>
+
+                            {captions.map((caption, i) => (
+                                <div>
+                                    <Typography key={i} variant="h4">{caption}</Typography>
+                                    <Typist.Backspace count={caption.length} delay={600}></Typist.Backspace>
+                                </div>
+                            ))}
+
+                            <Typography variant="h4">{finalCaption}</Typography>
 
                         </Typist>
                     </Typography>

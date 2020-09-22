@@ -48,7 +48,7 @@ export default function LPNFacts({isMobile}) {
                         <Box fontSize="h4.fontSize">Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">30</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">37</Box>
                         <Box fontSize="h4.fontSize">Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={4}>

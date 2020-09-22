@@ -116,7 +116,7 @@ export default function Contact({ setPage }) {
             <Box mt={4}></Box>
             
             <form onSubmit={handleSubmit}>
-                <Grid container spacing={6}>
+                <Grid container spacing={7}>
                     <Grid item xs={12}>
                         <TextField
                             required

@@ -15,6 +15,11 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         backgroundColor: "rgb(100,100,100)"
     },
+    menuItem: {
+        "&:hover": {
+            backgroundColor: "rgb(80,80,80)"
+        }
+    }
 }));
 
 const titleToPath = (title) => {
@@ -54,13 +59,13 @@ export default function MyMenu({mainTitle, title1, to1, title2, buttonStyle}) {
                 MenuListProps={{ onMouseLeave: handleClose }}
             >
                 <Typography component="div">
-                    <MenuItem component={Link} to={titleToPath(to1)} onClick={handleClose}>
+                    <MenuItem component={Link} to={titleToPath(to1)} onClick={handleClose} className={classes.menuItem}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title1}
                         </Box>                        
                     </MenuItem>
                     
-                    <MenuItem component={Link} to={titleToPath(title2)} onClick={handleClose}>
+                    <MenuItem component={Link} to={titleToPath(title2)} onClick={handleClose} className={classes.menuItem}>
                         <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
                             {title2}
                         </Box>  

@@ -91,7 +91,7 @@ export default function Header({ pageNum }) {
 
             {isMobile &&
               <Grid item>
-                <Button variant="contained" size="medium" color="inherit" component={Link} to="/fall-rush-2020"
+                <Button variant="contained" size="medium" color="inherit" component={Link} to="/recruitment"
                   className={classes.joinButton}>
                   Join Us
                 </Button>
@@ -123,8 +123,8 @@ export default function Header({ pageNum }) {
             {!isMobile &&
               <Grid item>
                 <Button variant="contained" size="large" color="inherit" component={Link} to="/recruitment"
-                className={classes.joinButton}>
-                Join Us
+                  className={classes.joinButton} disableElevation>
+                  Join Us
                 </Button>
               </Grid>
             }

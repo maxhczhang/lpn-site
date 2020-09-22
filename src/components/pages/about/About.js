@@ -63,7 +63,7 @@ export default function About({setPage}) {
                         mobilizers. This means we dream big, rally support, and get it done.
                     </Box>
 
-                    <Box fontSize="1.1rem" mt={4} mb={6} align="left">
+                    <Box fontSize="1.1rem" mt={4} mb={10} align="left">
                         During their time on campus, each of our brothers left a legacy because they saw a need to fill,
                         a problem to solve, or someone to care about. We are inspired to carry on the torch they left us.
                     </Box>

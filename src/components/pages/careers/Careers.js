@@ -56,16 +56,16 @@ export default function Careers({ setPage }) {
     return (
         <Box mt={16} mb={16} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={5}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
                 {companyLogos.map((tile) => (
-                    <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
+                    <Grid item xs key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
                     </Grid>
                 ))}
             </Grid>
 
             <Typography component="div" className={classes.paragraph} align="left">
-                <Box fontSize="h6.fontSize" mt={8} mb={6}>
+                <Box fontSize="h6.fontSize" mt={8} mb={8}>
                     Our Brothers achieve excellence in the professional world in the form of 
                     internships during their time at UCI and full-time positions after graduation. Here are a few
                     of the many companies where you could find your future mentor!
@@ -76,7 +76,7 @@ export default function Careers({ setPage }) {
 
             <Box mt={12} className={classes.content}>
                 <MaterialTable
-                    title="2020 Interns"
+                    title={<Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 Internships</Box>}
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
@@ -153,7 +153,7 @@ export default function Careers({ setPage }) {
 
             <Box mt={18} className={classes.content}>
                 <MaterialTable
-                    title="2020 Full-times"
+                    title={<Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 Full Time Offers</Box>}
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },

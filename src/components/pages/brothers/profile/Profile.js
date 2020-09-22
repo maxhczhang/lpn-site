@@ -45,6 +45,9 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: "rgb(150,74,93)"
         }
     },
+    whyLPNBox: {
+        width: "100%"
+    }
 }));
 
 const pathToName = (path, sep) => {
@@ -132,7 +135,7 @@ export default function Profile({setPage, match}) {
                 </Grid>
 
                 {profile["whyLPN"] !== "" &&
-                    <Box mt={8}>
+                    <Box mt={8} className={classes.whyLPNBox}>
                         <Typography component="div" className={classes.root}>
                             <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" mb={2}>
                                 Why ΛΦΝ?

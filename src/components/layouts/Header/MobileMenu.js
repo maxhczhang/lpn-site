@@ -17,6 +17,11 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         color: "white",
         backgroundColor: "rgb(100,100,100)"
+    },
+    menuItem: {
+        "&:hover": {
+            backgroundColor: "rgb(80,80,80)"
+        }
     }
 }));
 
@@ -34,15 +39,15 @@ export default function MobileMenu() {
                     
                     <Menu {...bindMenu(popupState)} classes={{ paper: classes.paper }}>
 
-                        <MenuItem onClick={popupState.close} component={Link} to="/">Home</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/about">About</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/active-brothers">Active Brothers</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/campus-involvement">Campus Involvements</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/careers">Careers</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/fall-rush-2020">Rush</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/faqs">FAQs</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/gallery">Gallery</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/contact">Contact</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/" className={classes.menuItem}>Home</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/about" className={classes.menuItem}>About</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/active-brothers" className={classes.menuItem}>Active Brothers</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/campus-involvement" className={classes.menuItem}>Campus Involvements</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/careers" className={classes.menuItem}>Careers</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/recruitment" className={classes.menuItem}>Recruitment</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/faqs" className={classes.menuItem}>FAQs</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/gallery" className={classes.menuItem}>Gallery</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/contact" className={classes.menuItem}>Contact</MenuItem>
 
                     </Menu>
                 </React.Fragment>

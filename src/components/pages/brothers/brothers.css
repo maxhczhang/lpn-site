@@ -63,16 +63,16 @@
 .content-details div{
   color: #fff;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: "Roboto";
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .content-details p{
   margin-top: -0.0001em;
   color: #fff;
-  font-size: 0.9em;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 450;
 }
 
 .fadeIn-bottom{
