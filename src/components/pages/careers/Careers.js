@@ -64,7 +64,7 @@ export default function Careers({ setPage }) {
                 ))}
             </Grid>
 
-            <Typography component="div" className={classes.paragraph} align="left">
+            <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize" mt={8} mb={8}>
                     Our Brothers achieve excellence in the professional world in the form of 
                     internships during their time at UCI and full-time positions after graduation. Here are a few
@@ -76,7 +76,7 @@ export default function Careers({ setPage }) {
 
             <Box mt={12} className={classes.content}>
                 <MaterialTable
-                    title={<Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 Internships</Box>}
+                    title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 Internships</Box>}
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },
@@ -153,7 +153,7 @@ export default function Careers({ setPage }) {
 
             <Box mt={18} className={classes.content}>
                 <MaterialTable
-                    title={<Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 Full Time Offers</Box>}
+                    title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 Full Time Offers</Box>}
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Company', field: 'company' },

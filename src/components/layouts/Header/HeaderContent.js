@@ -90,7 +90,7 @@ export default function HeaderContent({pageNum}) {
                             {captions.map((caption, i) => (
                                 <div>
                                     <Typography key={i} variant="h4">{caption}</Typography>
-                                    <Typist.Backspace count={caption.length} delay={600}></Typist.Backspace>
+                                    <Typist.Backspace count={caption.length} delay={1000}></Typist.Backspace>
                                 </div>
                             ))}
 

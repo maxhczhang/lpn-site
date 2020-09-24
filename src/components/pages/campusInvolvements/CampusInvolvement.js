@@ -75,7 +75,7 @@ export default function CampusInvolvement({ setPage }) {
 
             <Box mt={12} className={classes.content}>
                 <MaterialTable
-                    title={ <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }
+                    title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }
                     columns={[
                         { title: 'Name', field: 'name', grouping: false },
                         { title: 'Organization', field: 'org' },

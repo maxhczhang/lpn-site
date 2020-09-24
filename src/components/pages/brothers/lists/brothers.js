@@ -80,12 +80,6 @@ export const brothers = [
         logo: require('../../../../assets/actives/logos/Omar_Naji.png'),
         company: 'Nuda',
     },
-    {
-        img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
-        name: "Ryan Miranda",
-        logo: require("../../../../assets/actives/logos/Ryan_Miranda.png"),
-        company: 'Microsoft',
-    },
 ];
 
 export default { brothers };
