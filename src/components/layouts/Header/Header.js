@@ -123,7 +123,7 @@ export default function Header({ pageNum }) {
             {!isMobile &&
               <Grid item>
                 <Button variant="contained" size="large" color="inherit" component={Link} to="/recruitment"
-                  className={classes.joinButton} disableElevation>
+                  className={classes.joinButton}>
                   Join Us
                 </Button>
               </Grid>

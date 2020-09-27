@@ -56,7 +56,7 @@ export default function Careers({ setPage }) {
     return (
         <Box mt={16} mb={16} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={3}>
                 {companyLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />

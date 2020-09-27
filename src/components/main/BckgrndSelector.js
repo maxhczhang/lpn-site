@@ -6,7 +6,7 @@ import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
 import Home from '../../assets/backgrounds/Home.jpg'
 import About from '../../assets/backgrounds/About.jpg'
-import CampusInvolvements from '../../assets/backgrounds/CampusInvolvements.jpg'
+import CampusInvolvements from '../../assets/backgrounds/CampusInvolvement.jpg'
 import Careers from '../../assets/backgrounds/Careers.jpeg'
 import Gallery from '../../assets/backgrounds/Gallery.jpg'
 

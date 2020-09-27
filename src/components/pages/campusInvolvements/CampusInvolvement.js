@@ -55,9 +55,9 @@ export default function CampusInvolvement({ setPage }) {
     return (
         <Box mt={18} mb={18} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={2}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={5}>
                 {orgsLogos.map((tile) => (
-                    <Grid item xs={isMobile ? 6 : 3} key={tile.img}>
+                    <Grid item xs key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
                     </Grid>
                 ))}
@@ -65,7 +65,7 @@ export default function CampusInvolvement({ setPage }) {
             
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize" mt={4} mb={8} align="left">
-                    Our brothers have founded seven of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more.
+                    Our brothers have founded eight of Merage's premier business organizations, including Beta Alpha Psi, Management Information Student Society, Undergraduate Finance Association, and more!
                     Many of our Active Brothers still hold positions in these amazing organizations,
                     developing themselves as leaders and impacting the community around them in the process.
                 </Box>

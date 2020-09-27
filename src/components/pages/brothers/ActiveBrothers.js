@@ -33,7 +33,7 @@ export default function ActiveBrothers({ setPage }) {
     const classes = useStyles();
 
     return (
-        <Box mt={12} mb={18} className={classes.root}>
+        <Box mt={12} mb={16} className={classes.root}>
             <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" mb={8}>
                 C-Suite
             </Box>

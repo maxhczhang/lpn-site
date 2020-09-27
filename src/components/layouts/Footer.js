@@ -38,7 +38,7 @@ export default function Footer() {
 
     return (
         <div className={classes.root}>
-        <Grid container  spacing={2}>
+        <Grid container spacing={2}>
             <Grid item xs={12}>
                 <Grid container justify="center">
                     <Grid item>

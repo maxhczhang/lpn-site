@@ -23,12 +23,14 @@ export const orgsLogos = [
         img: require('../../../assets/orgsLogos/SMIF.png'),
         title: 'Student Managed Investment Fund'
     }, 
-   
     {
         img: require('../../../assets/orgsLogos/UFA.png'),
         title: 'Undergraduate Finance Association'
     },
-   
+    {
+        img: require('../../../assets/orgsLogos/ISBA.png'),
+        title: 'International Student Business Association'
+    },
 ];
 
 export default { orgsLogos };

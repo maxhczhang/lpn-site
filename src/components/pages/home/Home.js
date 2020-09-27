@@ -96,8 +96,8 @@ export default function Home({setPage}) {
             <Box mt={6} mb={14} className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" align="left">
-                        We're a UC Irvine-founded business leadership fraternity
-                        community for students seeking leadership development and coaching. We immerse our
+                        We're a UC Irvine-founded business fraternity
+                        for students seeking leadership development and coaching. We immerse our
                         members into an environment that emulates the professional world and form strong bonds that last from the first night of Pledge, to Commencement and beyond!
                     </Box>
                 </Typography>

@@ -69,6 +69,11 @@ export const directors = [
         isSmall: true
     },
     {
+        img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
+        name: "Tyler Newman",
+        title: 'Culture & Relationships'
+    },
+    {
         img: require('../../../../assets/actives/brothers_small/Ian_Han.jpg'),
         name: "Ian Han",
         title: 'Alumni Relations',
@@ -98,11 +103,7 @@ export const directors = [
     //     name: "Alex Cole",
     //     title: 'Finance'
     // },
-    {
-        img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
-        name: "Tyler Newman",
-        title: 'Culture & Relationships'
-    },
+   
     {
         img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
         name: "Raymond Dinh",
