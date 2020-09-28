@@ -126,20 +126,20 @@ export default function Rush({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={12}></Box>
-
-            <Grid container direction="row" justify="center" alignItems="center" spacing={10}>
-                <Grid item>
-                    <Button size="large" variant="contained" className={classes.button} component={Link} to="/about">
-                        Why LPN?
-                    </Button>
+            <Box mt={12} className={classes.content}>
+                <Grid container direction="row" justify="center" alignItems="center" spacing={6}>
+                    <Grid item>
+                        <Button size="large" variant="contained" className={classes.button} component={Link} to="/about">
+                            Why LPN?
+                        </Button>
+                    </Grid>
+                    <Grid item>
+                        <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
+                            FAQs
+                        </Button>
+                    </Grid>
                 </Grid>
-                <Grid item>
-                    <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
-                        FAQs
-                    </Button>
-                </Grid>
-            </Grid>
+            </Box>
             
             <Box mt={6} mb={6}>
                 <Typography component="div">

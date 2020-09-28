@@ -33,15 +33,15 @@ export const faqsList = [
     },
     {
         question: "What is a bid?",
-        answer: "Rushee’s receive a “bid” after successfully completing our interview process. The decision to accept a bid and become a Lambda Phi Nu Associate should not be taken lightly! Our Pledging curriculum is demanding; we expect all Associates to be pushed to their limits. However, accepting a bid is the first step you must take in order to grow and become part of our family. ",
+        answer: "After successfully completing the recruitment and interview process, a bid may be extended to a candidate. A bid is an invitation to participate in the pledge program in order to eventually join the fraternity as an Active Partner.",
     },
     {
         question: "If I don't get a bid, can I recruit again?",
-        answer: "Yes! If you feel that Lambda Phi Nu is the place for you, we encourage you to rush again. That being said, Lambda Phi Nu is not the only professional fraternity at UCI! We encourage you to look at other organizations if you feel you mesh better with their culture.",
+        answer: "Yes! If you feel that Lambda Phi Nu is the place for you, we encourage you to rush again. That being said, Lambda Phi Nu is not the only professional fraternity at UCI. We encourage you to look at other organizations if you feel you mesh better with their culture.",
     },
     {
         question: "What is pledging?",
-        answer: "Our Pledging process consists of a seven-week curriculum designed to emulate the professional world. Associates must work together to complete a variety of tasks that teach them useful skills, including how to fundraise, market oneself, develop business plans, and more. Our Associates learn how to solve problems, all while forming strong relationships along the way.",
+        answer: "After accepting a bid, a candidate becomes an Associate and partakes in a 7-week long process to join the fraternity. The time commitment is comparable to a four-unit class or a part-time internship. Led by our Alumni and Active Brothers, our curriculum is designed to emulate the professional world. Associates will gain professional and personal skills through a series of workshops, projects, and presentations all while building meaningful relationships. At the end of the 7 weeks, Associates are considered to join the brotherhood as an Active Partner.",
     },
 ];
 

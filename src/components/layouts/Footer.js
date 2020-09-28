@@ -73,7 +73,7 @@ export default function Footer() {
                 <Grid container justify="center">
                     <Grid item>
                         <Typography component="div">
-                            <Box fontSize="subtitle1.fontSize" fontWeight="fontWeightMedium">
+                            <Box fontSize="subtitle1.fontSize" fontWeight="fontWeightMedium" mb={1}>
                                 Connect with us to learn more.
                             </Box>
                         </Typography>

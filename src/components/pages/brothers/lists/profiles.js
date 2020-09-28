@@ -223,7 +223,7 @@ export const profiles = {
         emphasis: "Finance",
         practice: "Finance",
         experience: ["City National Bank, Specialty Banking Summer Analyst", "Wells Fargo Advisors, Portfolio Analyst Intern", "Raymond James, Investment Intern"],
-        campusInvolvements: ["UFA, President","SMIF, Macroeconomics Team Lead", "MAISS, VP of External Affairs"],
+        campusInvolvements: ["UFA, President","SMIF, Macroeconomics Team Lead", "MAISS, Mentor"],
         interests: ["Basketball", "K-dramas", "Reading Biographies", "Traveling", "Swimming"],
         whyLPN: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",
         img: require("../../../../assets/actives/brothers/Yong_Lin.jpg")

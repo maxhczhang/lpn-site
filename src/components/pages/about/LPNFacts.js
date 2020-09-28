@@ -11,11 +11,11 @@ export default function LPNFacts({isMobile}) {
             <Typography component="div">
                 <Grid container spacing={6}>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">9</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">8</Box>
                         <Box fontSize="h5.fontSize">Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">30</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">39</Box>
                         <Box fontSize="h5.fontSize">Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={6}>
@@ -27,7 +27,7 @@ export default function LPNFacts({isMobile}) {
                         <Box fontSize="h5.fontSize">Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={6}>
-                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">2.2</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">2.5</Box>
                         <Box fontSize="h5.fontSize">Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={6}>
@@ -44,11 +44,11 @@ export default function LPNFacts({isMobile}) {
             <Typography component="div">
                 <Grid container spacing={8}>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">9</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">8</Box>
                         <Box fontSize="h4.fontSize">Business Orgs Founded</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">37</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">39</Box>
                         <Box fontSize="h4.fontSize">Current Leadership Positions</Box>
                     </Grid>
                     <Grid item xs={4}>
@@ -60,7 +60,7 @@ export default function LPNFacts({isMobile}) {
                         <Box fontSize="h4.fontSize">Internship Placement Rate</Box>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">2.2</Box>
+                        <Box fontWeight="fontWeightBold" fontSize="h3.fontSize">2.5</Box>
                         <Box fontSize="h4.fontSize">Internships Per Active On Average</Box>
                     </Grid>
                     <Grid item xs={4}>

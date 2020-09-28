@@ -13,20 +13,14 @@ const useStyles = makeStyles((theme) => ({
         overflow: 'hidden',
         maxWidth: "80%"
     },
-    gridList: {
-        flexWrap: 'nowrap',
-        // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
-        transform: 'translateZ(0)',
-    },
     image: {
-        // float: "left",
         width: 250,
         height: 150,
         objectFit: 'scale-down',
     },
     mobileImage: {
-        width: 120,
-        height: 50,
+        width: 130,
+        height: 54,
         objectFit: 'scale-down',
     },
     titleBar: {
