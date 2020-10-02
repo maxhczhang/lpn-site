@@ -48,7 +48,7 @@ export default function HomeCoreValues({isMobile}) {
                         <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
                             Excellence
                         </Box>
-                        <Box fontSize="h6.fontSize">Whether its scaling a rock wall or securing positions at top-tier firms, our Brothers excel at everything they do!</Box>
+                        <Box fontSize="h6.fontSize">Whether its scaling a rock wall or securing positions at top-tier firms, our Brothers excel at everything they do.</Box>
                     </Typography>
                 </Grid>
 

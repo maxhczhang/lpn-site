@@ -6,7 +6,6 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-// import Tooltip from '@material-ui/core/Tooltip';
 
 import { Link } from "react-router-dom";
 
@@ -14,6 +13,7 @@ import useWindowDimensions from '../../WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './EventsList'
 import cover from '../../../assets/recruitment/Fall_Rush_Cover.png'
+// import CTO from '../../../assets/actives/brothers/Astyr_Ko.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -67,6 +67,34 @@ const useStyles = makeStyles((theme) => ({
     link: {
         textDecoration: "none",
         color: "white"
+    },
+    blackLink: {
+        textDecoration: "none",
+        color: "black",
+        fontWeight: "bold",
+        '&:hover': {
+            // backgroundImage: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
+            // backgroundSize: "100%",
+            // backgroundClip: "text",
+            // backgroundColor: "black",
+            // textFillColor: "transparent"
+            color: "rgb(57,78,126)"
+        }
+    },
+    maroonLink: {
+        textDecoration: "none",
+        color: "#580C1F",
+        fontWeight: "bold",
+        '&:hover': {
+            color: "rgb(150,74,93)"
+        }
+    },
+    image: {
+        width: 333,
+        height: 500,
+    },
+    CTOQuote: {
+        maxWidth: "80%",
     }
 }));
 
@@ -84,23 +112,19 @@ export default function Rush({ setPage }) {
         <Box mt={18} mb={18} className={classes.root}>
             <Box mb={3}>
                 <Typography component="div" className={classes.root}>
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : classes.title}>
-                        Turn The Tide
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
+                        <a href="https://youtu.be/uhJx-uoIBh0" target="_blank" rel="noopener noreferrer" className={classes.blackLink}>Turn The Tide</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
                         Fall 2020 Recruitment
                     </Box>
                 </Typography>
             </Box>
-
-            {/* <Tooltip title={
-                <a href="https://www.freepik.com/vectors/floral" target="_blank" rel="noopener noreferrer" className={classes.link}>Floral vector created by macrovector - www.freepik.com"</a>
-            }> */}
-                <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
-                    <img src={cover} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2020"></img>
-                </a>
-            {/* </Tooltip> */}
-           
+          
+            <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
+                <img src={cover} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2020"></img>
+            </a>
+          
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div" className={classes.paragraph} align="left">
@@ -112,16 +136,44 @@ export default function Rush({ setPage }) {
                 </Box>
             </Typography>
 
+            {/* <Box mt={12} mb={12}>
+                <Grid container direction="row" justify="center" alignItems="center">
+                    <Grid item xs>
+                        <img src={CTO} alt="Chief Talent Officer" className={classes.image}></img>
+                    </Grid>
+                    <Grid item xs>
+                        <Typography component="div" align="left" className={classes.CTOQuote}>
+                            <Box fontSize="h6.fontSize" fontWeight={300}>
+                                I’ve always loved fall as it brought cooler weather and signaled the holidays to come. Now as CTO, I’m excited for a new reason: Meeting dozens of UCI students for fall recruitment! Unfortunately, because of the pandemic, many opportunities and organizations have shut down, but not Lambda Phi Nu.
+                            </Box>
+                            <Box mt={2} fontSize="h6.fontSize" fontWeight={300}>
+                                I’m so happy to say that we’re offering a world-class virtual recruitment and pledge process! We’ve created a digital experience with purpose-built activities and workshops that will give our Associates as enriching of an experience as they would’ve gotten being on campus. They’ll gain meaningful relationships while growing professionally to further their careers. I’m so proud and humbled by our amazing actives who are dedicated to making this the best quarter yet! Join us at our recruitment events to learn more about our brotherhood.
+                            </Box>
+                            <Box mt={2} fontSize="h6.fontSize" fontWeight="fontWeightMedium">
+                                - Astyr Ko, Chief Talent Officer
+                            </Box>
+                        </Typography>
+                    </Grid>
+                </Grid>
+            </Box> */}
+
             <Divider className={classes.divider}></Divider>
 
             <Box mt={14} mb={14} className={classes.content}>
                 <Grid container direction="row" justify="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
-                            <RushEvent event={event}></RushEvent>
+                            <RushEvent event={event} isMobile={isMobile}></RushEvent>
                         </Grid>
                     ))}
                 </Grid>
+                
+                <Typography component="div">
+                    <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
+                        Submit our <a href="https://forms.gle/YpEiTSAu8oy6j8xN6" target="_blank" rel="noopener noreferrer" className={classes.maroonLink}>application</a> by <b>October 14 at 11:59PM</b> to be considered for an interview!
+                    </Box>
+                </Typography>
+
             </Box>
 
             <Divider className={classes.divider}></Divider>
@@ -141,13 +193,6 @@ export default function Rush({ setPage }) {
                 </Grid>
             </Box>
             
-            <Box mt={6} mb={6}>
-                <Typography component="div">
-                    <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize">
-                        Stay tuned for our Coffee Chat link and Application!
-                    </Box>
-                </Typography>
-            </Box>
         </Box>
     )
 }

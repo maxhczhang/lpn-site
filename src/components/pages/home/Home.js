@@ -99,6 +99,7 @@ export default function Home({setPage}) {
                         We're a UC Irvine-founded business fraternity
                         for students seeking leadership development and coaching. We immerse our
                         members into an environment that emulates the professional world and form strong bonds that last from the first night of Pledge, to Commencement and beyond!
+                        We love meeting new members, so feel free to reach out to any of our Active Brothers.
                     </Box>
                 </Typography>
 
@@ -112,7 +113,7 @@ export default function Home({setPage}) {
             <Divider className={classes.divider}></Divider>
             <Box mt={14}></Box>
 
-            <MyCarousel isMobile={isMobile} photos={carousel1photos}></MyCarousel>
+            <MyCarousel isMobile={isMobile} photos={carousel1photos} spacing={40}></MyCarousel>
 
             <Box mt={12} mb={10} className={classes.carouselWidth}>
                 <Grid container spacing={10} direction="row" justify="space-evenly">
@@ -123,7 +124,7 @@ export default function Home({setPage}) {
                                 Professionalism
                             </Box>
                             <Box fontSize="h6.fontSize" mt={2} align="left">
-                                With 10 years of history, we have an expansive network of alumni in different industries and companies.
+                                With 10 years of history at UCI, we have an expansive network of alumni in different industries and companies.
                                 Our Active and Alumni brothers help guide and support you to succeed in the professional world.
                             </Box>
                         </Typography>

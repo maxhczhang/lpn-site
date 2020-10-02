@@ -12,7 +12,8 @@ export const events = [
             location: "Zoom"
         },
         checkinLink: 'https://uci.zoom.us/meeting/register/tJcrduuhqzgqHdSpWFkJr6PH40N-BLyfz7zs',
-        time: "7:00PM - 9:30PM"
+        time: "7:00PM - 9:30PM",
+        eventTooltip: "Zoom Check In"
     },
     {
         title: "Meet the Bros",
@@ -27,7 +28,8 @@ export const events = [
             location: "Zoom"
         },
         checkinLink: 'https://uci.zoom.us/meeting/register/tJMrd--urz4rEtcr2dxdt7nbKGAsthIx4AQQ',
-        time: "7:00PM - 9:30PM"
+        time: "7:00PM - 9:30PM",
+        eventTooltip: "Zoom Check In"
     },
     {
         title: "Coffee Chats",
@@ -42,7 +44,9 @@ export const events = [
             location: "Zoom"
         },
         checkinLink: "https://doodle.com/poll/zs295ycp32dr42tm",
-        time: "Sign up for a 15 minute time slot using the Event Check In link!"
+        time: "Sign up for a time slot using the scheduling link!",
+        eventIcon: "schedule",
+        eventTooltip: "Sign up for a time slot"
     },
     {
         title: "Professional Night",
@@ -57,7 +61,8 @@ export const events = [
             location: "Zoom"
         },
         checkinLink: 'https://uci.zoom.us/meeting/register/tJ0scOChrDsrH9RUS5Owb1JnYRyBXhZ22IbQ',
-        time: "7:00PM - 9:30PM"
+        time: "7:00PM - 9:30PM",
+        eventTooltip: "Zoom Check In"
     },
     {
         title: "Invite-Only Social",

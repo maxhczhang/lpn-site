@@ -56,7 +56,7 @@ export default function Footer() {
                         </a>
                     </Grid>
                     <Grid item>
-                        <a href="https://www.youtube.com/channel/UCFUcgiGBvqJ3ORfWoa6GSLA" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://www.youtube.com/channel/UCueDtHYk8PCMaTcN5jUHalw" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <IconButton size="medium" aria-label="Youtube" className={classes.button}>
                                 <YouTubeIcon></YouTubeIcon>
                             </IconButton>

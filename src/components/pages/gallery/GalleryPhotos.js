@@ -60,7 +60,7 @@ export const GalleryPhotos = [
         rows: 2
     },  
     {
-        img: require('../../../assets/gallery/Mu_Sky.JPG'),
+        img: require('../../../assets/gallery/LPN_Letters_small.jpg'),
         cols: 1,
         rows: 1
     },

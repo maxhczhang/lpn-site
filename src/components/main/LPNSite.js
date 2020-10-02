@@ -21,7 +21,12 @@ import Contact from '../pages/contact/Contact'
 import Footer from '../layouts/Footer'
 
 
-let theme = createMuiTheme();
+let theme = createMuiTheme({
+    // typography: {
+    //     fontFamily: "Source Sans Pro,sans-serif"
+    // },
+});
+
 theme = responsiveFontSizes(theme);
 
 const useStyles = makeStyles((theme) => ({

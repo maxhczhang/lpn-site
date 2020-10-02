@@ -24,7 +24,7 @@ export default function CoreValues() {
             </Grid>
             
             <Grid item xs={cols}>
-                <PlainCoreValue title="Excellence" description="Our brothers work to enhance their capabilities and character. Our pursuit to be remarkable leaders transforms ideas into reality."></PlainCoreValue>           
+                <PlainCoreValue title="Excellence" description="Our brothers work to enhance their capabilities and character to become remarkable leaders. This allows us to transform ideas into reality."></PlainCoreValue>           
             </Grid>
 
             <Grid item xs={cols}>
@@ -36,7 +36,7 @@ export default function CoreValues() {
             </Grid>
 
             <Grid item xs={cols}>
-                <PlainCoreValue title="Altruism" description="Altruism means morally obligating oneself to the welfare of others, including our campus and community."></PlainCoreValue>   
+                <PlainCoreValue title="Altruism" description="Altruism means morally obligating oneself to the welfare of others, including our immediate Brothers and the campus and community at large."></PlainCoreValue>   
             </Grid>
             
         </Grid>

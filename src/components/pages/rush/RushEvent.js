@@ -13,6 +13,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import EventIcon from '@material-ui/icons/Event';
 import Tooltip from '@material-ui/core/Tooltip';
+import ScheduleIcon from '@material-ui/icons/Schedule';
 
 import InfoIcon from '@material-ui/icons/Info';
 import PeopleIcon from '@material-ui/icons/People';
@@ -29,7 +30,12 @@ const useStyles = makeStyles((theme) => ({
     card: {
         background: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
         color: "white",
-        width: 300,
+        width: 350,
+    },
+    mobileCard: {
+        background: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
+        color: "white",
+        width: "95%",
     },
     paragraph: {
         color: "white",
@@ -41,19 +47,26 @@ const useStyles = makeStyles((theme) => ({
         transition: theme.transitions.create('transform', {
             duration: theme.transitions.duration.shortest,
         }),
+        color: "white",
+        '&:hover': {
+            backgroundColor: "rgb(255,255,255, 0.1)"
+        }
     },
     expandOpen: {
         transform: 'rotate(180deg)',
     },
-    icon: {
-        color: "white"
+    iconButton: {
+        color: "white",
+        '&:hover': {
+            backgroundColor: "rgb(255,255,255, 0.1)"
+        }
     },
     titleIcon: {
-        marginTop: 10
+        marginTop: 14
     }
 }));
 
-export default function RushEvent({event}) {
+export default function RushEvent({event, isMobile}) {
     const classes = useStyles();
 
     const [expanded, setExpanded] = React.useState(false);
@@ -62,7 +75,7 @@ export default function RushEvent({event}) {
     };
 
     return (
-        <Card className={classes.card} raised={true}>
+        <Card className={isMobile ? classes.mobileCard : classes.card} raised={true}>
             
             <CardHeader
                 title={
@@ -89,24 +102,27 @@ export default function RushEvent({event}) {
            
             <CardContent className={classes.paragraph}>
                 <Box mt={1} mb={2}>
-                    <Typography variant="body1" > {event.description} </Typography>
+                    <Typography variant="body1">{event.description}</Typography>
                 </Box>
             </CardContent>
 
             <CardActions disableSpacing>
                     <Tooltip title="Add to calendar">
                         <ICalendarLink event={event.ics}>
-                            <IconButton aria-label="add to calendar" className={classes.icon}>
-                                <EventIcon className={classes.icon}/>
+                            <IconButton aria-label="add to calendar" className={classes.iconButton}>
+                                <EventIcon/>
                             </IconButton>
                         </ICalendarLink>
                     </Tooltip>
 
                     {event.checkinLink && 
-                        <Tooltip title="Event Check In">
+                        <Tooltip title={event.eventTooltip}>
                             <a href={event.checkinLink} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                <IconButton aria-label="Zoom" className={classes.icon}>
-                                    <VideocamIcon className={classes.icon} />
+                                <IconButton aria-label="Zoom" className={classes.iconButton}>
+                                    {event.eventIcon === 'schedule' 
+                                        ? <ScheduleIcon />
+                                        : <VideocamIcon />
+                                    }
                                 </IconButton>
                             </a>
                         </Tooltip>
@@ -119,7 +135,6 @@ export default function RushEvent({event}) {
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
-                        style={{color: "white"}}
                     >
                         <ExpandMoreIcon className={classes.icon}/>
                     </IconButton>

@@ -65,9 +65,9 @@ export default function Careers({ setPage }) {
             </Grid>
 
             <Typography component="div" className={classes.paragraph}>
-                <Box fontSize="h6.fontSize" mt={8} mb={8}>
+                <Box fontSize="h6.fontSize" mt={8} mb={8} align="left">
                     Our Brothers achieve excellence in the professional world in the form of 
-                    internships during their time at UCI and full-time positions after graduation. Here are a few
+                    internships during their time at UCI and full-time positions after graduation. Our network is continously expanding, and here are a few
                     of the many companies where you could find your future mentor!
                 </Box>
             </Typography>

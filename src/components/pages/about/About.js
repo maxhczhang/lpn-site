@@ -59,12 +59,12 @@ export default function About({setPage}) {
                 <Typography component="div">
                     <Box fontSize="1.1rem" align="left">
                         Lambda Phi Nu is a co-ed  business leadership fraternity founded at UCI
-                        committed to inspiring the best in everyone. Our brothers aspire to become visionaries, influencers, and
-                        mobilizers. This means we dream big, rally support, and get it done.
+                        committed to inspiring the best in everyone. Our brothers aspire to become the innovative leaders of tomorrow in fields such as Management Consulting, Software Engineering, Product Marketing, and more. 
+                        To acheive this, we dream big, rally support from our networks, and get the job done.
                     </Box>
 
                     <Box fontSize="1.1rem" mt={4} mb={10} align="left">
-                        During their time on campus, each of our brothers left a legacy because they saw a need to fill,
+                        During their time on campus, each of our brothers left behind a legacy because they saw a need to fill,
                         a problem to solve, or someone to care about. We are inspired to carry on the torch they left us.
                     </Box>
                 </Typography>
