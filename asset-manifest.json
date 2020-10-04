@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.318dbd42.chunk.css",
-    "main.js": "/static/js/main.8c500fa4.chunk.js",
-    "main.js.map": "/static/js/main.8c500fa4.chunk.js.map",
+    "main.js": "/static/js/main.2de44587.chunk.js",
+    "main.js.map": "/static/js/main.2de44587.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.38d108f2.chunk.js": "/static/js/2.38d108f2.chunk.js",
-    "static/js/2.38d108f2.chunk.js.map": "/static/js/2.38d108f2.chunk.js.map",
+    "static/js/2.131d6a52.chunk.js": "/static/js/2.131d6a52.chunk.js",
+    "static/js/2.131d6a52.chunk.js.map": "/static/js/2.131d6a52.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d1b19876778c4f496a761dea05e55157.js": "/precache-manifest.d1b19876778c4f496a761dea05e55157.js",
+    "precache-manifest.411d0d98b6a682c1804395e59f25c542.js": "/precache-manifest.411d0d98b6a682c1804395e59f25c542.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.318dbd42.chunk.css.map": "/static/css/main.318dbd42.chunk.css.map",
-    "static/js/2.38d108f2.chunk.js.LICENSE.txt": "/static/js/2.38d108f2.chunk.js.LICENSE.txt",
+    "static/js/2.131d6a52.chunk.js.LICENSE.txt": "/static/js/2.131d6a52.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.4b9c6329.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -125,6 +125,7 @@
     "static/media/Values_Separator.jpg": "/static/media/Values_Separator.6c3239a8.jpg",
     "static/media/Vivi_Liu.jpg": "/static/media/Vivi_Liu.92b288ad.jpg",
     "static/media/Vivi_Liu.png": "/static/media/Vivi_Liu.a38cfafd.png",
+    "static/media/Western_Digital.png": "/static/media/Western_Digital.2ac2d36e.png",
     "static/media/Xi_Casual.jpg": "/static/media/Xi_Casual.9433889c.jpg",
     "static/media/Xi_Frat_Social.JPG": "/static/media/Xi_Frat_Social.539c6b6b.JPG",
     "static/media/Yong_Lin.jpg": "/static/media/Yong_Lin.96130081.jpg",
@@ -135,8 +136,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.38d108f2.chunk.js",
+    "static/js/2.131d6a52.chunk.js",
     "static/css/main.318dbd42.chunk.css",
-    "static/js/main.8c500fa4.chunk.js"
+    "static/js/main.2de44587.chunk.js"
   ]
 }
