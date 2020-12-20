@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "881fe06526a037c9e2b27869ed17a118",
+    "revision": "6bd02fdfdc0d104c601455fcd5d5204d",
     "url": "/index.html"
   },
   {
-    "revision": "22dcf9889b22c77802b9",
+    "revision": "f208f82b9a0cdd1bd177",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "78711bcbcb20811c8482",
+    "revision": "e38c945dc229de6c60f8",
     "url": "/static/css/main.318dbd42.chunk.css"
   },
   {
-    "revision": "22dcf9889b22c77802b9",
-    "url": "/static/js/2.b7faebd7.chunk.js"
+    "revision": "f208f82b9a0cdd1bd177",
+    "url": "/static/js/2.883007c3.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.b7faebd7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.883007c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78711bcbcb20811c8482",
-    "url": "/static/js/main.cfcd5758.chunk.js"
+    "revision": "e38c945dc229de6c60f8",
+    "url": "/static/js/main.49befecd.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -316,10 +316,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Kappas_Skates.b09e1b2c.jpg"
   },
   {
-    "revision": "21c40fcde5c574c49d281be231ec9ab8",
-    "url": "/static/media/Kappas_small.21c40fcd.jpg"
-  },
-  {
     "revision": "a98e978c2078629095c4e17d3dc231a1",
     "url": "/static/media/Karen_Ching.a98e978c.jpg"
   },
@@ -418,6 +414,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e861dae0a640f25639bb6571b00ead48",
     "url": "/static/media/Omar_Naji.e861dae0.jpg"
+  },
+  {
+    "revision": "3c805081d2dbacc4e3b40a14f509250d",
+    "url": "/static/media/Omicron_Inside.3c805081.jpg"
   },
   {
     "revision": "4ea8155dd47264d6d2140bc0248ea173",
@@ -614,6 +614,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ac2d36e6b5353ab44ebc7354f5d8eed",
     "url": "/static/media/Western_Digital.2ac2d36e.png"
+  },
+  {
+    "revision": "7e82e2206a70f23192962f2f3e69183c",
+    "url": "/static/media/Winter2021_Flyer.7e82e220.jpg"
   },
   {
     "revision": "9433889c5a24aed2d4d2b215d19e7230",

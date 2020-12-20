@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.318dbd42.chunk.css",
-    "main.js": "/static/js/main.cfcd5758.chunk.js",
-    "main.js.map": "/static/js/main.cfcd5758.chunk.js.map",
+    "main.js": "/static/js/main.49befecd.chunk.js",
+    "main.js.map": "/static/js/main.49befecd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.b7faebd7.chunk.js": "/static/js/2.b7faebd7.chunk.js",
-    "static/js/2.b7faebd7.chunk.js.map": "/static/js/2.b7faebd7.chunk.js.map",
+    "static/js/2.883007c3.chunk.js": "/static/js/2.883007c3.chunk.js",
+    "static/js/2.883007c3.chunk.js.map": "/static/js/2.883007c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.16b4b00117f9d1e0e9711929f5a4d02b.js": "/precache-manifest.16b4b00117f9d1e0e9711929f5a4d02b.js",
+    "precache-manifest.d0c6d498f630007837884262c29c76f6.js": "/precache-manifest.d0c6d498f630007837884262c29c76f6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.318dbd42.chunk.css.map": "/static/css/main.318dbd42.chunk.css.map",
-    "static/js/2.b7faebd7.chunk.js.LICENSE.txt": "/static/js/2.b7faebd7.chunk.js.LICENSE.txt",
+    "static/js/2.883007c3.chunk.js.LICENSE.txt": "/static/js/2.883007c3.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.4b9c6329.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -73,7 +73,6 @@
     "static/media/Julian_Rachman.png": "/static/media/Julian_Rachman.f6e286d2.png",
     "static/media/Kappas_SF.jpg": "/static/media/Kappas_SF.eebe1f31.jpg",
     "static/media/Kappas_Skates.jpg": "/static/media/Kappas_Skates.b09e1b2c.jpg",
-    "static/media/Kappas_small.jpg": "/static/media/Kappas_small.21c40fcd.jpg",
     "static/media/Karen_Ching.jpg": "/static/media/Karen_Ching.cceee152.jpg",
     "static/media/Kevins_Bday_2020.JPG": "/static/media/Kevins_Bday_2020.f26b97ad.JPG",
     "static/media/LPN_Letters.jpg": "/static/media/LPN_Letters.ee859f79.jpg",
@@ -92,6 +91,7 @@
     "static/media/Mu_Thanksgiving.jpg": "/static/media/Mu_Thanksgiving.e057bb10.jpg",
     "static/media/Naishal_Shah.jpg": "/static/media/Naishal_Shah.fea02082.jpg",
     "static/media/Omar_Naji.jpg": "/static/media/Omar_Naji.e861dae0.jpg",
+    "static/media/Omicron_Inside.jpg": "/static/media/Omicron_Inside.3c805081.jpg",
     "static/media/Philip_Cheung.jpg": "/static/media/Philip_Cheung.5ba6c498.jpg",
     "static/media/Philip_Cheung.png": "/static/media/Philip_Cheung.ea6c1322.png",
     "static/media/Raymond_Dinh.jpg": "/static/media/Raymond_Dinh.cf484fd2.jpg",
@@ -128,6 +128,7 @@
     "static/media/Vivi_Liu.jpg": "/static/media/Vivi_Liu.92b288ad.jpg",
     "static/media/Vivi_Liu.png": "/static/media/Vivi_Liu.a38cfafd.png",
     "static/media/Western_Digital.png": "/static/media/Western_Digital.2ac2d36e.png",
+    "static/media/Winter2021_Flyer.jpg": "/static/media/Winter2021_Flyer.7e82e220.jpg",
     "static/media/Xi_Casual.jpg": "/static/media/Xi_Casual.9433889c.jpg",
     "static/media/Xi_Frat_Social.JPG": "/static/media/Xi_Frat_Social.539c6b6b.JPG",
     "static/media/Yong_Lin.jpg": "/static/media/Yong_Lin.96130081.jpg",
@@ -138,8 +139,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.b7faebd7.chunk.js",
+    "static/js/2.883007c3.chunk.js",
     "static/css/main.318dbd42.chunk.css",
-    "static/js/main.cfcd5758.chunk.js"
+    "static/js/main.49befecd.chunk.js"
   ]
 }
