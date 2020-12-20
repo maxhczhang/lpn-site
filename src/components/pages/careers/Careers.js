@@ -4,14 +4,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider';
 
-import { Link as RouterLink } from 'react-router-dom';
-import MaterialTable from 'material-table';
+// import { Link as RouterLink } from 'react-router-dom';
+// import MaterialTable from 'material-table';
 
 import useWindowDimensions from '../../WindowListener';
 import { companyLogos } from './CompanyLogos'
+import { internships } from './Internships'
+import { fullTimes } from './FullTimes'
+import Chart from './Chart'
+
+// import ButtonGroup from '@material-ui/core/ButtonGroup';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -32,15 +37,34 @@ const useStyles = makeStyles((theme) => ({
         width: "80%"
     },
     image: {
-        width: 250,
-        height: 150,
+        width: 185,
+        height: 115,
         objectFit: 'scale-down',
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
     },
     mobileImage: {
         width: 120,
         height: 90,
         objectFit: 'scale-down',
-    }
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
+    },
+    logoGrid: {
+        maxWidth: "90%"
+    },
+    // root: {
+    //     display: 'flex',
+    //     flexDirection: 'column',
+    //     alignItems: 'center',
+    //     '& > *': {
+    //         margin: theme.spacing(1),
+    //     },
+    // },
 }));
 
 
@@ -56,10 +80,12 @@ export default function Careers({ setPage }) {
     return (
         <Box mt={16} mb={16} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={3}>
+            <Grid container direction="row" justify="center" alignItems="center" className={classes.logoGrid} spacing={3}>
                 {companyLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
-                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                        <a href={tile.link} target="_blank" rel="noopener noreferrer">
+                            <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                        </a>
                     </Grid>
                 ))}
             </Grid>
@@ -67,14 +93,43 @@ export default function Careers({ setPage }) {
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize" mt={8} mb={8} align="left">
                     Our Brothers achieve excellence in the professional world in the form of 
-                    internships during their time at UCI and full-time positions after graduation. Our network is continously expanding, and here are a few
-                    of the many companies where you could find your future mentor!
+                    internships during their time at UCI and full-time positions after graduation. Our network is continously expanding, and these are a few
+                    of the places where we worked this year! Hopefully, you'll join us and find your future mentor at one of the many companies
+                    where our Active and Alumni Brothers have left their mark.
                 </Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={12} className={classes.content}>
+            {/* <ButtonGroup size="large" color="primary" aria-label="large outlined primary button group">
+                <Button>One</Button>
+                <Button>Two</Button>
+            </ButtonGroup> */}
+
+            <Typography component="div">
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8} >2020 Internships</Box>
+            </Typography>
+            <Chart title="Accounting" jsonHeading="accounting" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Consulting" jsonHeading="consulting" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Finance" jsonHeading="finance" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Human Resources" jsonHeading="HR" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Marketing" jsonHeading="marketing" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Operations" jsonHeading="operations" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Product" jsonHeading="product" positions={internships} isMobile={isMobile}></Chart>
+            <Chart title="Technology" jsonHeading="tech" positions={internships} isMobile={isMobile}></Chart>
+
+            <Typography component="div">
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Full Times</Box>
+            </Typography>
+            <Chart title="Accounting" jsonHeading="accounting" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Analytics" jsonHeading="analytics" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Consulting" jsonHeading="consulting" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Finance" jsonHeading="finance" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Marketing" jsonHeading="marketing" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Operations" jsonHeading="operations" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart title="Technology" jsonHeading="tech" positions={fullTimes} isMobile={isMobile}></Chart>
+
+            {/* <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 Internships</Box>}
                     columns={[
@@ -99,7 +154,7 @@ export default function Careers({ setPage }) {
                         { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'EY', position: "Tax Intern", industry: "Accounting" },
                         { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'DiverseVC', position: "Marketing & Content Intern", industry: "Marketing" },
 
-                        { name: 'Ryan Chen', company: 'VMware', position: "Data Engineer Intern", industry: "Tech" },
+                        { name: 'Ryan Chen', company: 'VMware', position: "Data Solutions Architect Intern", industry: "Tech" },
                         { name: 'Alexis Rivera', company: 'Foundations Jewelry', position: "Product Development Intern", industry: "Product" },
                        
                         { name: <Link component={RouterLink} to="/active-brothers/jasmin-he" color="inherit">Jasmin He</Link>, company: 'Seagate Technology', position: "Consumer Pricing Analytics & Strategy Intern", industry: "Product" },
@@ -149,9 +204,9 @@ export default function Careers({ setPage }) {
                         }
                     }}
                 />
-            </Box>
+            </Box> */}
 
-            <Box mt={18} className={classes.content}>
+            {/* <Box mt={18} className={classes.content}>
                 <MaterialTable
                     title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 Full Time Offers</Box>}
                     columns={[
@@ -173,7 +228,8 @@ export default function Careers({ setPage }) {
                         { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory Staff", industry: "Consulting" },
                         { name: 'Joy Huang', company: 'RSM', position: "Auditor", industry: "Accounting" },
                         { name: 'Janessa Paredes', company: 'Hochburg Sports Marketing', position: "Social Media Specialist", industry: "Marketing" },
-                        { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Venture Capital" },
+                        { name: 'Katie Xiong', company: 'Prudential Private Capital', position: "Investment Analyst", industry: "Private Capital" },
+                        { name: 'Jessica Lee', company: 'The Walt Disney Company', position: "Enterprise Sourcing Undergraduate Associate", industry: "Operations" },
                         { name: 'Alexis Rivera', company: 'United Exchange Corporation', position: "Marketing Product Associate", industry: "Product" },
 
                     ]}
@@ -192,7 +248,7 @@ export default function Careers({ setPage }) {
                         }
                     }}
                 />
-            </Box>
+            </Box> */}
 
         </Box>
     )

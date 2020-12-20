@@ -59,6 +59,32 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const recruitmentMenu = [
+  {
+    title: "Winter Rush 2021",
+    url: "recruitment"
+  },
+  {
+    title: "Fall Rush 2020",
+    url: "fall-rush-2020"
+  },
+  {
+    title: "FAQs",
+    url: "faqs"
+  }
+]
+
+const brothersMenu = [
+  {
+    title: "Active Brothers",
+    url: "active-brothers"
+  },
+  {
+    title: "Campus Involvement",
+    url: "campus-involvement"
+  },
+]
+
 
 export default function Header({ pageNum }) {
     const classes = useStyles();
@@ -106,16 +132,17 @@ export default function Header({ pageNum }) {
                   <Button size="large" className={classes.button} component={Link} to="/">Home</Button> 
 
                   <Button size="large" className={classes.button} component={Link} to="/about">About</Button> 
-                
-                  <MyMenu mainTitle="Brothers" title1="Active Brothers" to1="active-brothers" title2="Campus Involvement" buttonStyle={classes.button}></MyMenu>
+
+                  <MyMenu mainTitle="Brothers" menuItems={brothersMenu} buttonStyle={classes.button}></MyMenu>
                   
                   <Button size="large" className={classes.button} component={Link} to="/careers">Careers</Button>
-                  
-                  <MyMenu mainTitle="Recruitment" title1="Fall Rush 2020" to1='recruitment' title2="FAQs" buttonStyle={classes.button}></MyMenu>
+      
+                  <MyMenu mainTitle="Recruitment" menuItems={recruitmentMenu} buttonStyle={classes.button}></MyMenu>
 
                   <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
                   
                   <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
+
                 </Box>
               </Grid>
             }

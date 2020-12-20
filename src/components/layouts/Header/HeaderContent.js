@@ -194,7 +194,12 @@ export default function HeaderContent({pageNum}) {
             return ( 
                 <React.Fragment></React.Fragment> 
             )
-    
+
+        case 10:
+            return (
+                <React.Fragment></React.Fragment> 
+            )
+
         default:
             return ( 
                 <Typography variant="h1">Oops, something went wrong! Please navigate back to another page.</Typography>

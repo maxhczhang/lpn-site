@@ -420,7 +420,7 @@ export const profiles = {
         emphasis: "Finance, Information Systems",
         practice: "Finance",
         experience: ["Student Managed Investment Fund, Analyst", "Motilal Oswal, Intern"],
-        campusInvolvements: ["MAISS, Mentor", "UFA, Intern", "UFA, Associate Auditor"],
+        campusInvolvements: ["MAISS, Mentor", "UFA, Intern", "LPN, Executive Associate"],
         interests: ["Watching/Playing Sports", "Cooking", "Cars", "Making new connections"],
         whyLPN: "To me, Lambda Phi Nu is an organization that allows individuals to achieve their potential by equipping them with the proper knowledge and resources. However, Lambda Phi Nu is more than just a fraternity that develops professionalism; The fraternity has helped me discover various facets of myself that I was unaware of and has helped foster personal growth. The fraternity is made up of individuals who I can trust with my life and already feels like home. Seeing the motivated, driven individuals greatly inspires me, and I can confidently say that rushing Lambda Phi Nu was one of the best decisions I have made in college. ",
         img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg")
@@ -496,7 +496,7 @@ export const profiles = {
         practice: "Marketing",
         experience: ["UCI Esports, Stream Production Intern", "Cybra Security, Sales and Marketing Intern"],
         campusInvolvements: ["Alpha Kappa Delta Phi, Social Media Manager", "The Association of Gamers at UCI, Member"],
-        interests: ["Dtreaming", "Video Games", "Cosplay", "Badminton", "Cooking", "Art"],
+        interests: ["Streaming", "Video Games", "Cosplay", "Badminton", "Cooking", "Art"],
         whyLPN: "I struggled to find a community where I felt like I belonged in college. Although I made a few friends in freshman year during week one, we slowly became distant as we all branched off to join different organizations on campus. I wanted to find a group of people I could relate to and create long lasting, memorable friendships. And that's exactly what I found in Lambda Phi Nu! I was able to create bonds with my fellow brothers, and I felt a real sense of belonging that I had never felt before at UCI.",
         img: require("../../../../assets/actives/brothers/Catherine_Lin.jpg")
     },

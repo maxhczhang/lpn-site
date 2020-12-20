@@ -6,8 +6,8 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export const faqsList = [
     {
-        question: "Are we holding Fall 2020 recruitment?",
-        answer: "Yes! We are holding our first virtual recruitment cycle this Fall. Our Talent team has been working hard this summer to ensure the Omicron Class’s experience is just as meaningful, challenging, and memorable as the classes that came before them. Our first Rush event is October 5th, head to our Recruitment page for more details!",
+        question: "Are we holding Winter 2021 recruitment?",
+        answer: "Yes! We are holding our second virtual recruitment cycle this Winter. Our Talent team has been working hard to ensure the Pi Class’s experience is just as meaningful, challenging, and memorable as the classes that came before them. Our first Rush event is January 5th, head to our Recruitment page for more details!",
         link: <Link component={RouterLink} to="/fall-rush-2020">Rush Page.</Link>
     },
     {

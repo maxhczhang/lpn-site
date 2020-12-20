@@ -22,12 +22,8 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const titleToPath = (title) => {
-    const path = title.toLowerCase().replace(/ +/g, '-')
-    return '/' + path
-}
 
-export default function MyMenu({mainTitle, title1, to1, title2, buttonStyle}) {
+export default function MyMenu({mainTitle, menuItems, buttonStyle}) {
     const classes = useStyles();
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -59,17 +55,13 @@ export default function MyMenu({mainTitle, title1, to1, title2, buttonStyle}) {
                 MenuListProps={{ onMouseLeave: handleClose }}
             >
                 <Typography component="div">
-                    <MenuItem component={Link} to={titleToPath(to1)} onClick={handleClose} className={classes.menuItem}>
-                        <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
-                            {title1}
-                        </Box>                        
-                    </MenuItem>
-                    
-                    <MenuItem component={Link} to={titleToPath(title2)} onClick={handleClose} className={classes.menuItem}>
-                        <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
-                            {title2}
-                        </Box>  
-                    </MenuItem>
+                    {menuItems.map((item, i) => (
+                        <MenuItem component={Link} to={item.url} onClick={handleClose} className={classes.menuItem} key={i}>
+                            <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
+                                {item.title}
+                            </Box>
+                        </MenuItem>
+                    ))}
                  </Typography>
             </Menu>
 

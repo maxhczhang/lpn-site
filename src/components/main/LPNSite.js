@@ -14,7 +14,8 @@ import ActiveBrothers from '../pages/brothers/ActiveBrothers'
 import Profile from '../pages/brothers/profile/Profile'
 import CampusInvolvement from '../pages/campusInvolvements/CampusInvolvement'
 import Careers from '../pages/careers/Careers'
-import Rush from '../pages/rush/Rush'
+import Winter2021 from '../pages/rush/Winter2021'
+import Fall2020 from '../pages/rush/Fall2020'
 import FAQs from '../pages/faqs/FAQs'
 import Gallery from '../pages/gallery/Gallery'
 import Contact from '../pages/contact/Contact'
@@ -48,8 +49,8 @@ export default function LPNSite() {
     const pages = new Map(
         [
             ['Home', 0], ['About', 1], ['Active Brothers', 2], ['Campus Involvement', 3],
-            ['Careers', 4], ['Rush', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
-            ['Profile', 9]
+            ['Careers', 4], ['FallRush2020', 5], ['FAQs', 6], ['Gallery', 7], ['Contact', 8],
+            ['Profile', 9], ['WinterRush2021', 10]
         ]
     )
 
@@ -87,7 +88,10 @@ export default function LPNSite() {
                     </Route>
 
                     <Route exact path="/recruitment">
-                        <Rush setPage={setPage} />
+                        <Winter2021 setPage={setPage} />
+                    </Route>
+                    <Route exact path="/fall-rush-2020">
+                        <Fall2020 setPage={setPage} />
                     </Route>
                     <Route exact path="/faqs">
                         <FAQs setPage={setPage} />

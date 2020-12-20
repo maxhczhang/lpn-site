@@ -27,16 +27,6 @@ import ICalendarLink from "react-icalendar-link";
 
 
 const useStyles = makeStyles((theme) => ({
-    card: {
-        background: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
-        color: "white",
-        width: 350,
-    },
-    mobileCard: {
-        background: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
-        color: "white",
-        width: "95%",
-    },
     paragraph: {
         color: "white",
         maxWidth: "80%"
@@ -66,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function RushEvent({event, isMobile}) {
+export default function RushEvent({event, cardStyle}) {
     const classes = useStyles();
 
     const [expanded, setExpanded] = React.useState(false);
@@ -75,7 +65,7 @@ export default function RushEvent({event, isMobile}) {
     };
 
     return (
-        <Card className={isMobile ? classes.mobileCard : classes.card} raised={true}>
+        <Card className={cardStyle} raised={true}>
             
             <CardHeader
                 title={
@@ -107,14 +97,16 @@ export default function RushEvent({event, isMobile}) {
             </CardContent>
 
             <CardActions disableSpacing>
-                    <Tooltip title="Add to calendar">
-                        <ICalendarLink event={event.ics}>
-                            <IconButton aria-label="add to calendar" className={classes.iconButton}>
-                                <EventIcon/>
-                            </IconButton>
-                        </ICalendarLink>
-                    </Tooltip>
-
+                    {event.ics && 
+                        <Tooltip title="Add to calendar">
+                            <ICalendarLink event={event.ics}>
+                                <IconButton aria-label="add to calendar" className={classes.iconButton}>
+                                    <EventIcon />
+                                </IconButton>
+                            </ICalendarLink>
+                        </Tooltip>
+                    }
+            
                     {event.checkinLink && 
                         <Tooltip title={event.eventTooltip}>
                             <a href={event.checkinLink} target="_blank" rel="noopener noreferrer" className={classes.link}>

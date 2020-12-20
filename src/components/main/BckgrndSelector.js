@@ -193,6 +193,14 @@ export default function BckgrndSelector({ pageNum }) {
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
+
+        case 10:
+            return (
+                <React.Fragment>
+                    <Header pageNum={pageNum}></Header>
+                    <HeaderContent pageNum={pageNum}></HeaderContent>
+                </React.Fragment>
+            )
         
         default:
             return (

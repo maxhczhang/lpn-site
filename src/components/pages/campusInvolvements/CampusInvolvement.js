@@ -4,14 +4,16 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider';
 
-import { Link as RouterLink } from 'react-router-dom';
-import MaterialTable from 'material-table';
+// import { Link as RouterLink } from 'react-router-dom';
+// import MaterialTable from 'material-table';
 
 import useWindowDimensions from '../../WindowListener';
 import { orgsLogos } from './OrgsLogos'
+import {involvements } from './Involvements';
+import Chart from '../careers/Chart';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -35,11 +37,19 @@ const useStyles = makeStyles((theme) => ({
         width: 200,
         height: 150,
         objectFit: 'scale-down',
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
     },
     mobileImage: {
         width: 106,
         height: 80,
         objectFit: 'scale-down',
+        transition: 'transform .2s',
+        '&:hover': {
+            transform: "scale(1.1)"
+        }
     }
 }));
 
@@ -58,7 +68,9 @@ export default function CampusInvolvement({ setPage }) {
             <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={5}>
                 {orgsLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
-                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                        <a href={tile.link} target="_blank" rel="noopener noreferrer">
+                            <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
+                        </a>
                     </Grid>
                 ))}
             </Grid>
@@ -73,7 +85,23 @@ export default function CampusInvolvement({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Box mt={12} className={classes.content}>
+            <Typography component="div">
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Campus Involvements</Box>
+            </Typography>
+            <Chart title="Accounting Association" jsonHeading="AA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Associated Students of UCI" jsonHeading="ASUCI" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Beta Alpha Psi" jsonHeading="BAP" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Human Resources Management Association" jsonHeading="HRMA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Management Information Student Society" jsonHeading="maiss" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Marketing Association" jsonHeading="MA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Merage Undergraduate Student Association" jsonHeading="MUSA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Student Managed Investment Fund" jsonHeading="SMIF" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Undergraduate Business Association" jsonHeading="UBA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Undergraduate Finance Association" jsonHeading="UFA" positions={involvements} isMobile={isMobile}></Chart>
+            <Chart title="Other" jsonHeading="other" positions={involvements} isMobile={isMobile}></Chart>
+         
+
+            {/* <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }
                     columns={[
@@ -151,7 +179,7 @@ export default function CampusInvolvement({ setPage }) {
                     }}
                    
                 />
-            </Box>
+            </Box> */}
 
         </Box>
     )

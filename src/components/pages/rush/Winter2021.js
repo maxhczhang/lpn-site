@@ -11,9 +11,11 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './EventsList'
-import cover from '../../../assets/recruitment/Fall_Rush_Cover.png'
-// import CTO from '../../../assets/actives/brothers/Astyr_Ko.jpg'
+import { events } from './WinterEvents'
+import flyer from '../../../assets/recruitment/Winter2021_Flyer.jpg'
+// bright red: #F34532
+// blue: #2E4475
+// black: #080A09
 
 
 const useStyles = makeStyles((theme) => ({
@@ -45,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
     cover: {
         marginTop: 60,
         marginBottom: 90,
-        width: 945,
-        height: 350,
+        width: 552,
+        height: 800,
         transition: 'transform .2s',
         '&:hover': {
             transform: "scale(1.1)"
@@ -68,40 +70,42 @@ const useStyles = makeStyles((theme) => ({
         textDecoration: "none",
         color: "white"
     },
-    blackLink: {
+    highlightLink: {
         textDecoration: "none",
         color: "black",
         fontWeight: "bold",
         '&:hover': {
-            // backgroundImage: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
-            // backgroundSize: "100%",
-            // backgroundClip: "text",
-            // backgroundColor: "black",
-            // textFillColor: "transparent"
-            color: "rgb(57,78,126)"
+            color: "#A92C26"
         }
     },
-    maroonLink: {
+    highlightText: {
         textDecoration: "none",
-        color: "#580C1F",
+        color: "black",
         fontWeight: "bold",
         '&:hover': {
-            color: "rgb(150,74,93)"
+            color: "#A92C26"
         }
     },
     image: {
         width: 333,
         height: 500,
     },
-    CTOQuote: {
-        maxWidth: "80%",
-    }
+    card: {
+        background: "linear-gradient(350deg, rgba(243,69,50,1) 0%, rgba(46,68,117,1) 50%, rgba(0,0,0,1) 100%)",
+        color: "white",
+        width: 350,
+    },
+    mobileCard: {
+        background: "linear-gradient(6deg, rgba(243,69,50,1) 0%, rgba(46,68,117,1) 50%, rgba(0,0,0,1) 100%)",
+        color: "white",
+        width: "95%",
+    },
 }));
 
 
-export default function Rush({ setPage }) {
+export default function Winter2021({ setPage }) {
     useEffect(() => {
-        setPage("Rush")
+        setPage("WinterRush2021")
     });
 
     const classes = useStyles();
@@ -109,30 +113,30 @@ export default function Rush({ setPage }) {
     const isMobile = width < 700;
 
     return (
-        <Box mt={18} mb={18} className={classes.root}>
-            <Box mb={3}>
+        <Box mt={12} mb={18} className={classes.root}>
+            <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
-                        <a href="https://youtu.be/uhJx-uoIBh0" target="_blank" rel="noopener noreferrer" className={classes.blackLink}>Turn The Tide</a>
+                        <a href="https://youtu.be/uhJx-uoIBh0" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Venture Beyond</a>
                     </Box>
-                    <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Fall 2020 Recruitment
+                    <Box fontWeight="fontWeighMedium" fontSize="h3.fontSize" mt={1} className={classes.content}>
+                        Π Class Recruitment
                     </Box>
                 </Typography>
             </Box>
-          
+
             <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
-                <img src={cover} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2020"></img>
+                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2020"></img>
             </a>
-          
+
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                    As we close out 2020 and celebrate 10 years of Lambda Phi Nu, it is evident that we have grown and learned so much together as a brotherhood. We leaned on each other during these uncertain circumstances and quickly adapted to create a virtual recruitment and pledge process to help our community.
+                    2020 was a year none of us will forget for a long time to come. Too many of us lived through 'unprecedented' times, missed out on meaningful experiences, and felt disconnected from others. However, the Brothers of Lambda Phi Nu want 2021 to be different, in the best possible way!
                 </Box>
-                <Box mt={6} mb={10} fontSize="h6.fontSize">
-                    For us, it’s about caring for the UCI student body. It’s having the right tools and resources to navigate college and early career in an effective way. We hope that you will attend our recruitment events to learn about our fraternity, meet our Brothers, and become a part of the Omicron class to Turn The Tide onto a new chapter of your life!
+                <Box mt={6} mb={6} fontSize="h6.fontSize">
+                    We want to dream big and imagine a new year full of possibilities, a year where we'll start our first full-time jobs, learn how to cook our first dish away from home, and perform our first back-to-back virtual recruitment cycle starting January 5. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
                 </Box>
             </Typography>
 
@@ -163,17 +167,19 @@ export default function Rush({ setPage }) {
                 <Grid container direction="row" justify="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
-                            <RushEvent event={event} isMobile={isMobile}></RushEvent>
+                            <RushEvent event={event} cardStyle={isMobile ? classes.mobileCard : classes.card}></RushEvent>
                         </Grid>
                     ))}
                 </Grid>
-                
+
                 <Typography component="div">
-                    <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
+                    {/* <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
                         Submit our <a href="https://forms.gle/YpEiTSAu8oy6j8xN6" target="_blank" rel="noopener noreferrer" className={classes.maroonLink}>application</a> by <b>October 14 at 11:59PM</b> to be considered for an interview!
+                    </Box> */}
+                    <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
+                        Stay tuned for our application!
                     </Box>
                 </Typography>
-
             </Box>
 
             <Divider className={classes.divider}></Divider>
@@ -192,7 +198,7 @@ export default function Rush({ setPage }) {
                     </Grid>
                 </Grid>
             </Box>
-            
+
         </Box>
     )
 }

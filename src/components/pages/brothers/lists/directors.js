@@ -49,7 +49,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/brothers_small/Sera_Xu.jpg'),
         name: "Sera Xu",
-        title: 'Corporate Relations',
+        title: 'Finance',
         logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
         company: 'CreatorUp',
     },
@@ -115,7 +115,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
         name: "Ryan Miranda",
-        title: 'Webmaster',
+        title: 'Associate Counselor Webmaster',
         logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
         company: 'Microsoft',
     },
