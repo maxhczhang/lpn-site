@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bd02fdfdc0d104c601455fcd5d5204d",
+    "revision": "cdbf6e562176a734b41a24bc3dd5e478",
     "url": "/index.html"
   },
   {
-    "revision": "f208f82b9a0cdd1bd177",
+    "revision": "a74d83939e3fb57cf4f3",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "e38c945dc229de6c60f8",
-    "url": "/static/css/main.318dbd42.chunk.css"
+    "revision": "8443ca0629f26bd34811",
+    "url": "/static/css/main.4f069e02.chunk.css"
   },
   {
-    "revision": "f208f82b9a0cdd1bd177",
-    "url": "/static/js/2.883007c3.chunk.js"
+    "revision": "a74d83939e3fb57cf4f3",
+    "url": "/static/js/2.557701e5.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.883007c3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.557701e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e38c945dc229de6c60f8",
-    "url": "/static/js/main.49befecd.chunk.js"
+    "revision": "8443ca0629f26bd34811",
+    "url": "/static/js/main.60a672f9.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Accenture.c457ca34.png"
   },
   {
+    "revision": "9a5c83d0126a91a2c11d3c64397bd710",
+    "url": "/static/media/AgoraNeos.9a5c83d0.png"
+  },
+  {
     "revision": "52fc8e31692630d38cef0f7e0b20bdbf",
     "url": "/static/media/Amazon.52fc8e31.png"
   },
@@ -54,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e10cace6fe0c8e7232a5101c8530e939",
     "url": "/static/media/Andrew_Duong.e10cace6.jpg"
-  },
-  {
-    "revision": "38bad30c47fee62fbfdf26d3824c13b4",
-    "url": "/static/media/Astyr_Ko.38bad30c.jpg"
   },
   {
     "revision": "60c5b9dede712ff5354f2b17da09135b",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7be48073be1bcaeea8a1bd440acbc28",
     "url": "/static/media/CampusInvolvement.d7be4807.jpg"
+  },
+  {
+    "revision": "a4a786b5151915bf81dbb3d322ac53fc",
+    "url": "/static/media/CapitalOne.a4a786b5.png"
   },
   {
     "revision": "45e32db8c21b36fe1e6cf95ef8f0e668",
@@ -212,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/HRMA.1a622e17.png"
   },
   {
+    "revision": "f0dd0c3b802047e0ef486932edf5951c",
+    "url": "/static/media/HashiCorp.f0dd0c3b.png"
+  },
+  {
     "revision": "48ccd1d0879ba223a77a3c4555dde79e",
     "url": "/static/media/Home.48ccd1d0.jpg"
   },
@@ -244,8 +252,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Iotas_Seniors.55cf1e69.jpg"
   },
   {
-    "revision": "3b6cb0a33a4e29f3d43f9aa187d5c3f1",
-    "url": "/static/media/Jasmin_He.3b6cb0a3.png"
+    "revision": "9eef30e0f9c2d1de6fdebc21cac7de7d",
+    "url": "/static/media/JPMorgan.9eef30e0.png"
   },
   {
     "revision": "80e71b9134dabaf55cd33f22130fe6cc",
@@ -254,6 +262,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a3fa163d420bfa5467cedd00260b0684",
     "url": "/static/media/Jasmin_He.a3fa163d.jpg"
+  },
+  {
+    "revision": "ea2da8d9031923125f0b4ed921a71371",
+    "url": "/static/media/Jasmin_He.ea2da8d9.png"
   },
   {
     "revision": "96f8f5ddf8e2430bfac983bed1009ce9",
@@ -282,10 +294,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d4d490578231aae5fe9e57948839b357",
     "url": "/static/media/Jenny_Jeffrey.d4d49057.jpg"
-  },
-  {
-    "revision": "0f76f337755424c9c9b64d356e0a8aa6",
-    "url": "/static/media/Joshua_Tong.0f76f337.png"
   },
   {
     "revision": "47a89c1e477671a8425aab6571a78ec0",
@@ -388,6 +396,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Microsoft.f6a3a5a5.png"
   },
   {
+    "revision": "e0bff72e9a3de4020532a6f2dabaafbf",
+    "url": "/static/media/MongoDB.e0bff72e.png"
+  },
+  {
     "revision": "1ccbca50a45e7e9f05abc1dfd2d9f049",
     "url": "/static/media/Mu_Skii.1ccbca50.jpg"
   },
@@ -432,12 +444,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Philip_Cheung.ea6c1322.png"
   },
   {
-    "revision": "111b86d0962e9bc77e4c481cffd196a6",
-    "url": "/static/media/Raymond_Dinh.111b86d0.jpg"
+    "revision": "6474e0bb5d8100dd9d4a8003acb70f24",
+    "url": "/static/media/QuokkaBrew.6474e0bb.png"
   },
   {
-    "revision": "abd566775dc9195994969a2969a59235",
-    "url": "/static/media/Raymond_Dinh.abd56677.png"
+    "revision": "111b86d0962e9bc77e4c481cffd196a6",
+    "url": "/static/media/Raymond_Dinh.111b86d0.jpg"
   },
   {
     "revision": "cf484fd297e84f347446c1a511fd29a7",
@@ -468,10 +480,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SMIF.37b367a4.png"
   },
   {
-    "revision": "727d245778b5e334980192c56507d2a9",
-    "url": "/static/media/Sahana_Vairavaraj.727d2457.png"
-  },
-  {
     "revision": "c3be081518f10aadedb7dda9e05ebd95",
     "url": "/static/media/Sahana_Vairavaraj.c3be0815.jpg"
   },
@@ -486,10 +494,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae03bb60e676223c6919366c7441d4f6",
     "url": "/static/media/Sandy_Nguyen.ae03bb60.jpg"
-  },
-  {
-    "revision": "bd5d465ea3c89bd00df4b1295f9bb5c9",
-    "url": "/static/media/Sandy_Nguyen.bd5d465e.png"
   },
   {
     "revision": "24e2c5aca6a688f8c6c8553f46e03371",
@@ -530,6 +534,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "897cab0f464156abcf56ccc932455919",
     "url": "/static/media/Stephen_Minn.897cab0f.jpg"
+  },
+  {
+    "revision": "ef27407917294a7cb88fe43fc5fadeaa",
+    "url": "/static/media/TJX.ef274079.png"
   },
   {
     "revision": "825bb744d6c61938f25338b92e08dcae",
@@ -590,6 +598,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "832323662767c0b436fdf12e427627a2",
     "url": "/static/media/UFA.83232366.png"
+  },
+  {
+    "revision": "d758f3c193e7f9abc551026e1eb36f61",
+    "url": "/static/media/UnitedExchangeCorp.d758f3c1.png"
   },
   {
     "revision": "b9f368dd8e108dcb6986b00bcae25ccb",
