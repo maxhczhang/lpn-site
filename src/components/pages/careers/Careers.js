@@ -57,14 +57,6 @@ const useStyles = makeStyles((theme) => ({
     logoGrid: {
         maxWidth: "90%"
     },
-    // root: {
-    //     display: 'flex',
-    //     flexDirection: 'column',
-    //     alignItems: 'center',
-    //     '& > *': {
-    //         margin: theme.spacing(1),
-    //     },
-    // },
 }));
 
 
@@ -109,25 +101,12 @@ export default function Careers({ setPage }) {
             <Typography component="div">
                 <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8} >2020 Internships</Box>
             </Typography>
-            <Chart title="Accounting" jsonHeading="accounting" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Consulting" jsonHeading="consulting" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Finance" jsonHeading="finance" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Human Resources" jsonHeading="HR" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Marketing" jsonHeading="marketing" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Operations" jsonHeading="operations" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Product" jsonHeading="product" positions={internships} isMobile={isMobile}></Chart>
-            <Chart title="Technology" jsonHeading="tech" positions={internships} isMobile={isMobile}></Chart>
+            <Chart positions={internships} isMobile={isMobile}></Chart>
 
             <Typography component="div">
                 <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Full Times</Box>
             </Typography>
-            <Chart title="Accounting" jsonHeading="accounting" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Analytics" jsonHeading="analytics" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Consulting" jsonHeading="consulting" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Finance" jsonHeading="finance" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Marketing" jsonHeading="marketing" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Operations" jsonHeading="operations" positions={fullTimes} isMobile={isMobile}></Chart>
-            <Chart title="Technology" jsonHeading="tech" positions={fullTimes} isMobile={isMobile}></Chart>
+            <Chart positions={fullTimes} isMobile={isMobile}></Chart>
 
             {/* <Box mt={12} className={classes.content}>
                 <MaterialTable

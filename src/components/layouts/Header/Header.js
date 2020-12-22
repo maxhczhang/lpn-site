@@ -62,26 +62,26 @@ const useStyles = makeStyles((theme) => ({
 const recruitmentMenu = [
   {
     title: "Winter Rush 2021",
-    url: "recruitment"
+    url: "/recruitment"
   },
   {
     title: "Fall Rush 2020",
-    url: "fall-rush-2020"
+    url: "/fall-rush-2020"
   },
   {
     title: "FAQs",
-    url: "faqs"
+    url: "/faqs"
   }
 ]
 
 const brothersMenu = [
   {
     title: "Active Brothers",
-    url: "active-brothers"
+    url: "/active-brothers"
   },
   {
     title: "Campus Involvement",
-    url: "campus-involvement"
+    url: "/campus-involvement"
   },
 ]
 

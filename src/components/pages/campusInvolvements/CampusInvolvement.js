@@ -86,21 +86,10 @@ export default function CampusInvolvement({ setPage }) {
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Campus Involvements</Box>
+                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Campus Involvement</Box>
             </Typography>
-            <Chart title="Accounting Association" jsonHeading="AA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Associated Students of UCI" jsonHeading="ASUCI" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Beta Alpha Psi" jsonHeading="BAP" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Human Resources Management Association" jsonHeading="HRMA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Management Information Student Society" jsonHeading="maiss" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Marketing Association" jsonHeading="MA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Merage Undergraduate Student Association" jsonHeading="MUSA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Student Managed Investment Fund" jsonHeading="SMIF" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Undergraduate Business Association" jsonHeading="UBA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Undergraduate Finance Association" jsonHeading="UFA" positions={involvements} isMobile={isMobile}></Chart>
-            <Chart title="Other" jsonHeading="other" positions={involvements} isMobile={isMobile}></Chart>
-         
-
+            <Chart positions={involvements} isMobile={isMobile}></Chart>
+        
             {/* <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }

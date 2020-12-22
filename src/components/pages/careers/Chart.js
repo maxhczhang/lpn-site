@@ -28,30 +28,40 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Chart({title, jsonHeading, positions, isMobile}) {
+export default function Chart({positions, isMobile}) {
     const classes = useStyles();
 
     return (
         <Typography component="div" className={isMobile ? classes.mobileRoot : classes.root}>
 
-            <Box fontSize="h4.fontSize" fontWeight="fontWeightBold" align="left" mt={6} mb={2}>{title}</Box>
-        
-            {positions[jsonHeading].map((position, i) => (
-                <Grid container direction="row" justify="center" alignItems="center" key={i}>
-                    <Grid item xs={4}>
-                        <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.name}</Box>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.position}</Box>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.company}</Box>
-                    </Grid>
-                    {/* <Divider className={classes.divider}></Divider> */}
-                    <div className={classes.dividerDiv}></div>
-                </Grid>
-            ))}
+            {Object.keys(positions).map((industry, index) => (
 
+                <React.Fragment>
+                    <Box fontSize="h4.fontSize" fontWeight="fontWeightBold" align="left" mt={6} mb={2}>{industry}</Box>
+
+                    {positions[industry].map((position, i) => (
+                        <Grid container direction="row" justify="center" alignItems="center" key={i}>
+                            <Grid item xs={4}>
+                                <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.name}</Box>
+                            </Grid>
+                            <Grid item xs={4}>
+                                <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.position}</Box>
+                            </Grid>
+                            <Grid item xs={4}>
+                                <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.company}</Box>
+                            </Grid>
+                            
+                            {/* <Divider className={classes.divider}></Divider> */}
+                            <div className={classes.dividerDiv}></div>
+
+                      </Grid>
+                    ))}
+
+                </React.Fragment>
+            ))}
         </Typography>
     )
 }
+
+
+

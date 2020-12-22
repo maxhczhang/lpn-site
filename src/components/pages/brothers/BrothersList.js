@@ -19,26 +19,6 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         maxWidth: "80%"
     },
-    logo: {
-        width: 55,
-        height: 55
-    },
-    rectLogo: {
-        width: 90,
-        height: 45
-    },
-    longRectLogo: {
-        width: 160,
-        height: 27
-    },
-    smallLogo: {
-        width: 80,
-        height: 80
-    },
-    threeToOne: {
-        width: 120,
-        height: 40
-    }
 }));
 
 
@@ -85,19 +65,15 @@ const BrothersList = ({ brothers, scrollPosition }) => {
                                     <div>{tile.name}</div>
                                     <p>{tile.title}</p>
                                     {tile.logo && 
-                                        <img src={tile.logo} className={tile.isRect ? classes.rectLogo : tile.isLongRect 
-                                            ? classes.longRectLogo : tile.isSmall ? classes.smallLogo : 
-                                            tile.isThreeToOne ? classes.threeToOne : classes.logo} 
-                                            alt={tile.company}></img>
+                                        <img src={tile.logo} width={tile.width} alt={tile.company}></img>
                                     }
                                 </div>
+                                
                             </Link>
                         </div>
-                       
                     </Grid>
                 ))}
             </Grid>
-
         </div>
     )
 }

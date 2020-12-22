@@ -27,7 +27,7 @@ export const companyLogos = [
     {
         img: require('../../../assets/companyLogos/Deloitte.png'),
         title: 'Deloitte',
-        link: 'https://www.linkedin.com/in/jessica-lee-9109a812a/',
+        link: 'https://www.lpnuci.com/#/active-brothers/philip-cheung',
     },
     {
         img: require('../../../assets/companyLogos/Experian.png'),
@@ -45,9 +45,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
     },
     {
-        img: require('../../../assets/companyLogos/Disney.png'),
-        title: 'Disney',
-        link: 'https://www.linkedin.com/in/jessica-lee-9109a812a/',
+        img: require('../../../assets/companyLogos/JPMorganChase.png'),
+        title: 'JP Morgan Chase & Co',
+        link: 'https://www.lpnuci.com/#/active-brothers/tiffany-wong',
     },
     {
         img: require('../../../assets/companyLogos/Western_Digital.png'),

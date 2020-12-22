@@ -1,50 +1,11 @@
 export const directors = [
     {
-        img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
-        name: "Faith Chia",
-        title: 'Recruiter',
-        logo: require('../../../../assets/actives/logos/Faith_Chia.png'),
-        company: 'UCI MBA',
-        isSmall: true
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Emily_Nguyen.jpeg'),
-        name: "Emily Nguyen",
-        title: 'Associate Counselor',
-        logo: require('../../../../assets/actives/logos/Emily_Nguyen.png'),
-        company: 'New Relic',
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Jasmin_He.jpg'),
-        name: "Jasmin He",
-        title: 'Associate Educator',
-        logo: require('../../../../assets/actives/logos/Jasmin_He.png'),
-        company: 'Seagate',
-        isSmall: true
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Jenny_Cheung.jpg'),
-        name: "Jenny Cheung",
-        title: 'Marketing',
-        logo: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
-        company: 'Shiseido',
-        isLongRect: true
-    },
-    //Problem
-    {
-        img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
-        name: "Philip Cheung",
-        title: 'Recruiter',
-        logo: require('../../../../assets/actives/logos/Philip_Cheung.png'),
-        company: 'COPE Health SOlutions',
-        isRect: true
-    },
-    {
         img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
         name: "Joshua Tong",
         title: 'Culture & Relationships',
-        logo: require('../../../../assets/actives/logos/Joshua_Tong.png'),
-        company: 'DiverseVC',
+        logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
+        company: 'United Exchange Corporation',
+        width: "40%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Sera_Xu.jpg'),
@@ -52,21 +13,68 @@ export const directors = [
         title: 'Finance',
         logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
         company: 'CreatorUp',
+        width: "30%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
-        name: "Serina Nguyen",
-        title: 'Marketing',
-        logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
-        company: 'Issuu',
+        img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
+        name: "Linda Woo",
+        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
+        title: 'Associate Educator',
+        company: 'KPMG',
+        width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
-        name: "Lucian Liu",
-        title: 'Strategy',
-        logo: require('../../../../assets/actives/logos/Lucian_Liu.png'),
-        company: 'Experian',
-        isSmall: true
+        img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
+        name: "Faith Chia",
+        title: 'Associate Auditor',
+        logo: require('../../../../assets/actives/logos/TJX.png'),
+        company: 'TJX',
+        width: "35%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Jeffrey_Cho.jpg'),
+        name: "Jeffrey Cho",
+        logo: require('../../../../assets/actives/logos/Jeffrey_Cho.png'),
+        company: 'Western Digital',
+        title: "Recruiter",
+        width: "45%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Omar_Naji.jpg"),
+        name: "Omar Naji",
+        logo: require('../../../../assets/actives/logos/QuokkaBrew.png'),
+        company: 'Quokka Brew',
+        title: "Recruiter",
+        width: "55%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
+        name: "Yong Lin",
+        title: 'Associate Counselor Career Catalyst',
+        logo: require('../../../../assets/actives/logos/Yong_Lin.png'),
+        company: 'City National Bank',
+        width: "50%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Naishal_Shah.jpg"),
+        name: "Naishal Shah",
+        title: "Associate Counselor"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),
+        name: "Catherine Nguyen",
+        title: 'Social Impact',
+        logo: require('../../../../assets/actives/logos/HashiCorp.png'),
+        company: 'HashiCorp',
+        width: "60%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
+        name: "Philip Cheung",
+        title: 'Internal Auditor',
+        logo: require('../../../../assets/actives/logos/Philip_Cheung.png'),
+        company: 'COPE Health SOlutions',
+        width: "60%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
@@ -79,45 +87,36 @@ export const directors = [
         title: 'Alumni Relations',
         logo: require('../../../../assets/actives/logos/Le_An_Pham.png'),
         company: 'Sunwest Bank',
+        width: "35%"
     },
-    //Problem
     {
-        img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
-        name: "Yong Lin",
-        title: 'Career Catalyst',
-        logo: require('../../../../assets/actives/logos/Yong_Lin.png'),
-        company: 'City National Bank',
-        isSmall: true
-    },
-    //Problem
+        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
+        name: "Lucian Liu",
+        title: 'Strategy',
+        logo: require('../../../../assets/actives/logos/Lucian_Liu.png'),
+        company: 'Experian',
+        width: "50%"
+    },    
     {
-        img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),
-        name: "Catherine Nguyen",
-        title: 'Social Impact',
-        logo: require('../../../../assets/actives/logos/Catherine_Nguyen.png'),
-        company: 'ViaLoop',
-        isSmall: true
+        img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
+        name: "Serina Nguyen",
+        title: 'Marketing',
+        logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
+        company: 'Issuu',
+        width: "35%"
     },
     // {
     //     img: require('../../../../assets/actives/directors_small/Alex_Cole.jpg'),
     //     name: "Alex Cole",
     //     title: 'Finance'
     // },
-   
-    {
-        img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
-        name: "Raymond Dinh",
-        title: 'Associate Auditor',
-        logo: require('../../../../assets/actives/logos/Raymond_Dinh.png'),
-        company: 'Pathways to Career Success',
-        isSmall: true
-    },
     {
         img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
         name: "Ryan Miranda",
-        title: 'Associate Counselor Webmaster',
+        title: 'Webmaster',
         logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
         company: 'Microsoft',
+        width: "30%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Ben_Fan.JPG'),
@@ -125,7 +124,9 @@ export const directors = [
         title: 'Information Systems',
         logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
         company: 'KJ Soft',
+        width: "35%"
     },
+
 ];
 
 export default { directors };

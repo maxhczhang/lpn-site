@@ -107,11 +107,11 @@ export default function Profile({setPage, match}) {
                 
                         <Grid item xs={6} container>
                             <Typography component="div">
+                                <ProfileSingle profile={profile} field="year" title="Year" isMobile={isMobile}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="major" title="Major" isMobile={isMobile}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="minor" title="Minor" isMobile={isMobile}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="emphasis" title="Emphasis" isMobile={isMobile}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={isMobile}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="gradYear" title="Graduation Year" isMobile={isMobile}></ProfileSingle>
                                 <ProfileArray profile={profile} field="interests" title="Interests" isMobile={isMobile}></ProfileArray>
                             </Typography>
                         </Grid>

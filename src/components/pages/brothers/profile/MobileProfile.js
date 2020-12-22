@@ -38,7 +38,7 @@ export default function MobileProfile({name, profile, classes}) {
                                 <ProfileSingle profile={profile} field="minor" title="Minor" isMobile={true}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="emphasis" title="Emphasis" isMobile={true}></ProfileSingle>
                                 <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={true}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="gradYear" title="Graduation Year" isMobile={true}></ProfileSingle>
+                                <ProfileSingle profile={profile} field="year" title="Year" isMobile={true}></ProfileSingle>
                                 <ProfileArray profile={profile} field="interests" title="Interests" isMobile={true}></ProfileArray>
                             </Typography>
                         </Grid>
