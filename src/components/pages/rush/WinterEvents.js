@@ -17,7 +17,7 @@ export const events = [
     },
     {
         title: "Meet the Bros",
-        date: "10/7",
+        date: "1/7",
         description: "Our amazing Active Brothers are eager to meet you!",
         dressCode: "Casual",
         ics: {

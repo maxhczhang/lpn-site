@@ -2,7 +2,7 @@ import React from 'react'
 import Link from '@material-ui/core/Link';
 import { Link as RouterLink } from 'react-router-dom';
 
-export const involvements = {
+export const involvements2020 = {
     "Accounting Association": [
         { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'Accounting Association', position: 'Director of Professional Development' },
         { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: 'Accounting Association', position: "Committee Board Officer" },
@@ -87,4 +87,4 @@ export const involvements = {
 
 };
 
-export default { involvements };
+export default { involvements2020 };

@@ -145,7 +145,8 @@ export const brothers = [
         width: "25%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        //img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
+        img: require("../../../../assets/lpn_assets/pfp_temp.png"),
         name: "Vivian Tran",
     },
 ];

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import useWindowDimensions from '../../WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './WinterEvents'
-import flyer from '../../../assets/recruitment/Winter2021_Flyer.jpg'
+import flyer from '../../../assets/recruitment/Winter2021_Flyer.png'
 // bright red: #F34532
 // blue: #2E4475
 // black: #080A09
@@ -133,10 +133,10 @@ export default function Winter2021({ setPage }) {
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                    2020 was a year none of us will forget for a long time to come. Too many of us lived through 'unprecedented' times, missed out on meaningful experiences, and felt disconnected from others. However, the Brothers of Lambda Phi Nu want 2021 to be different, in the best possible way!
+                    2020 was a year of change - everything became virtual, and we had to adapt to a new normal, changing our lives forever for better or worse. Whether we thrived in this online learning environment, struggled with the disconnect from others, or missed meaningful milestones in our lives, we all experienced it together. This year was without a doubt, challenging to say the least, but as we begin the new year, the brothers of Lambda Phi Nu are optimistic for the opportunities it’ll bring and the new memories we’ll make!
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                    We want to dream big and imagine a new year full of possibilities, a year where we'll start our first full-time jobs, learn how to cook our first dish away from home, and perform our first back-to-back virtual recruitment cycle starting January 5. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
+                    We want to dream big and look towards a year of possibilities: a year where we start our careers, discover our passions, learn how to cook our first college meals, and find another group of ambitious, driven individuals to join our Pi class starting on January 5th. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
                 </Box>
             </Typography>
 

@@ -1,23 +1,57 @@
 import React, { useEffect } from 'react'
+import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-// import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider';
-
-// import { Link as RouterLink } from 'react-router-dom';
-// import MaterialTable from 'material-table';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 
 import useWindowDimensions from '../../WindowListener';
 import { companyLogos } from './CompanyLogos'
-import { internships } from './Internships'
-import { fullTimes } from './FullTimes'
+import { roles2021 } from './Roles2021'
+import { roles2020 } from './Roles2020'
+import { roles2019 } from './Roles2019'
+import { roles2018 } from './Roles2018'
 import Chart from './Chart'
 
-// import ButtonGroup from '@material-ui/core/ButtonGroup';
+// import MaterialTable from 'material-table';
 
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+
+    return (
+        <div
+            role="tabpanel"
+            hidden={value !== index}
+            id={`simple-tabpanel-${index}`}
+            aria-labelledby={`simple-tab-${index}`}
+            {...other}
+        >
+            {value === index && (
+                <Box p={3}>
+                    <Typography>{children}</Typography>
+                </Box>
+            )}
+        </div>
+    );
+}
+
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.any.isRequired,
+    value: PropTypes.any.isRequired,
+};
+
+function a11yProps(index) {
+    return {
+        id: `simple-tab-${index}`,
+        'aria-controls': `simple-tabpanel-${index}`,
+    };
+}
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -57,6 +91,12 @@ const useStyles = makeStyles((theme) => ({
     logoGrid: {
         maxWidth: "90%"
     },
+    tabs: {
+        backgroundColor: "#580C1F",
+    },
+    tabPanel: {
+        width: "80%"
+    }
 }));
 
 
@@ -68,6 +108,11 @@ export default function Careers({ setPage }) {
     const classes = useStyles();
     const { width } = useWindowDimensions();
     const isMobile = width < 700;
+
+    const [value, setValue] = React.useState(0);
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    }
 
     return (
         <Box mt={16} mb={16} className={classes.root}>
@@ -92,21 +137,47 @@ export default function Careers({ setPage }) {
             </Typography>
 
             <Divider className={classes.divider}></Divider>
+            <Box mt={8}></Box>
 
-            {/* <ButtonGroup size="large" color="primary" aria-label="large outlined primary button group">
-                <Button>One</Button>
-                <Button>Two</Button>
-            </ButtonGroup> */}
+            <Tabs value={value} onChange={handleChange} aria-label="toggle between different years"
+                TabIndicatorProps={{ className: classes.tabs }}>
+                <Tab label={
+                    <Typography variant="h6">2021</Typography>
+                } {...a11yProps(0)} />
+                <Tab label={
+                    <Typography variant="h6">2020</Typography>
+                } {...a11yProps(1)} />
+                <Tab label={
+                    <Typography variant="h6">2019</Typography>
+                } {...a11yProps(2)} />
+                <Tab label={
+                    <Typography variant="h6">2018</Typography>
+                } {...a11yProps(2)} />
+            </Tabs>
 
-            <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8} >2020 Internships</Box>
-            </Typography>
-            <Chart positions={internships} isMobile={isMobile}></Chart>
+            <TabPanel value={value} index={0} className={classes.tabPanel}>
+                <Chart title="2021 Internships" positions={roles2021} isMobile={isMobile}></Chart>
+            </TabPanel>
 
-            <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Full Times</Box>
-            </Typography>
-            <Chart positions={fullTimes} isMobile={isMobile}></Chart>
+            <TabPanel value={value} index={1} className={classes.tabPanel}>
+                <Chart title="2020 Internships" positions={roles2020["Internships"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2020 Full Times" positions={roles2020["Full Times"]} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={value} index={2} className={classes.tabPanel}>
+                <Chart title="2019 Internships" positions={roles2019["Internships"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2019 Full Times" positions={roles2019["Full Times"]} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={value} index={3} className={classes.tabPanel}>
+                <Chart title="2018 Internships" positions={roles2018["Internships"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2018 Full Times" positions={roles2018["Full Times"]} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            
 
             {/* <Box mt={12} className={classes.content}>
                 <MaterialTable

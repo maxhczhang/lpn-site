@@ -72,8 +72,8 @@ export const directors = [
         img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
         name: "Philip Cheung",
         title: 'Internal Auditor',
-        logo: require('../../../../assets/actives/logos/Philip_Cheung.png'),
-        company: 'COPE Health SOlutions',
+        logo: require('../../../../assets/actives/logos/Deloitte.png'),
+        company: 'Deloitte',
         width: "60%"
     },
     {

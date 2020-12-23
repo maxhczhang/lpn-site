@@ -700,6 +700,7 @@ export const profiles = {
         campusInvolvements: ["ASUCI, Speaker's Commission Intern", "MUSA, Representative", "LPN, Finance Associate"],
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
+        //img: require("../../../../assets/actives/brothers/Vivian_Tran.png")
         img: require("../../../../assets/lpn_assets/pfp_temp.png")
     },
 

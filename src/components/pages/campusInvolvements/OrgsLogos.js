@@ -36,7 +36,8 @@ export const orgsLogos = [
     },
     {
         img: require('../../../assets/orgsLogos/ISBA.png'),
-        title: 'International Student Business Association'
+        title: 'International Student Business Association',
+        link: 'https://instabio.cc/21022hjMc4O'
     },
 ];
 

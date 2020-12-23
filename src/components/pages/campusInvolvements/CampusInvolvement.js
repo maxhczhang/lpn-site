@@ -1,20 +1,56 @@
 import React, { useEffect } from 'react'
+import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-// import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider';
 
-// import { Link as RouterLink } from 'react-router-dom';
-// import MaterialTable from 'material-table';
-
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import useWindowDimensions from '../../WindowListener';
 import { orgsLogos } from './OrgsLogos'
-import {involvements } from './Involvements';
+import { involvements2020 } from './Involvements2020';
+import { involvements2019 } from './Involvements2019';
+import { involvements2018 } from './Involvements2018';
 import Chart from '../careers/Chart';
 
+// import MaterialTable from 'material-table';
+
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+
+    return (
+        <div
+            role="tabpanel"
+            hidden={value !== index}
+            id={`simple-tabpanel-${index}`}
+            aria-labelledby={`simple-tab-${index}`}
+            {...other}
+        >
+            {value === index && (
+                <Box p={3}>
+                    <Typography>{children}</Typography>
+                </Box>
+            )}
+        </div>
+    );
+}
+
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.any.isRequired,
+    value: PropTypes.any.isRequired,
+};
+
+function a11yProps(index) {
+    return {
+        id: `simple-tab-${index}`,
+        'aria-controls': `simple-tabpanel-${index}`,
+    };
+}
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
         width: "80%"
     },
     divider: {
-        width: "70%"
+        width: "70%",
     },
     image: {
         width: 200,
@@ -50,8 +86,15 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             transform: "scale(1.1)"
         }
+    },
+    tabs: {
+        backgroundColor: "#580C1F"
+    },
+    tabPanel: {
+        width: "80%"
     }
 }));
+
 
 export default function CampusInvolvement({ setPage }) {
     useEffect(() => {
@@ -61,6 +104,11 @@ export default function CampusInvolvement({ setPage }) {
     const classes = useStyles();
     const { width } = useWindowDimensions();
     const isMobile = width < 700;
+
+    const [value, setValue] = React.useState(0);
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    }
 
     return (
         <Box mt={18} mb={18} className={classes.root}>
@@ -84,12 +132,33 @@ export default function CampusInvolvement({ setPage }) {
             </Typography>
 
             <Divider className={classes.divider}></Divider>
+            <Box mt={8}></Box>
 
-            <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={8}>2020 Campus Involvement</Box>
-            </Typography>
-            <Chart positions={involvements} isMobile={isMobile}></Chart>
-        
+            <Tabs value={value} onChange={handleChange} aria-label="simple tabs example"
+                TabIndicatorProps={{ className: classes.tabs }}>
+                <Tab label={
+                    <Typography variant="h6">2020</Typography>
+                } {...a11yProps(0)} />
+                <Tab label={
+                    <Typography variant="h6">2019</Typography>
+                } {...a11yProps(1)} />
+                <Tab label={
+                    <Typography variant="h6">2018</Typography>
+                } {...a11yProps(1)} />
+            </Tabs>
+
+            <TabPanel value={value} index={0} className={classes.tabPanel}>
+                <Chart title="2020 Campus Involvement" positions={involvements2020} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={value} index={1} className={classes.tabPanel}>
+                <Chart title="2019 Campus Involvement" positions={involvements2019} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={value} index={2} className={classes.tabPanel}>
+                <Chart title="2018 Campus Involvement" positions={involvements2018} isMobile={isMobile}></Chart>
+            </TabPanel>
+
             {/* <Box mt={12} className={classes.content}>
                 <MaterialTable
                     title={<Box fontSize={isMobile ? "body2.fontSize" : "h2.fontSize"} fontWeight="fontWeightMedium" m={2}>2020 - 2021 Involvements</Box> }

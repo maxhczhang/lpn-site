@@ -9,10 +9,7 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: "80%",
-    },
-    mobileRoot: {
-        width: "90%"
+        width: "100%",
     },
     divider: {
         width: "100%",
@@ -28,11 +25,13 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Chart({positions, isMobile}) {
+export default function Chart({title, positions, isMobile}) {
     const classes = useStyles();
 
     return (
-        <Typography component="div" className={isMobile ? classes.mobileRoot : classes.root}>
+        <Typography component="div" className={classes.root}>
+
+            <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={4}>{title}</Box>           
 
             {Object.keys(positions).map((industry, index) => (
 
