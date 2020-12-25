@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4f069e02.chunk.css",
-    "main.js": "/static/js/main.a6b02e53.chunk.js",
-    "main.js.map": "/static/js/main.a6b02e53.chunk.js.map",
+    "main.js": "/static/js/main.3866c543.chunk.js",
+    "main.js.map": "/static/js/main.3866c543.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
     "static/js/2.671178e5.chunk.js": "/static/js/2.671178e5.chunk.js",
     "static/js/2.671178e5.chunk.js.map": "/static/js/2.671178e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98c5db7ffafeed9c7c8c073e4e7f656e.js": "/precache-manifest.98c5db7ffafeed9c7c8c073e4e7f656e.js",
+    "precache-manifest.bb6395d97b095fba970d91d6bde6570e.js": "/precache-manifest.bb6395d97b095fba970d91d6bde6570e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.4f069e02.chunk.css.map": "/static/css/main.4f069e02.chunk.css.map",
@@ -17,7 +17,7 @@
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.9f715aa3.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
-    "static/media/Adrian_Siu.jpg": "/static/media/Adrian_Siu.1de17c39.jpg",
+    "static/media/Adrian_Siu.jpg": "/static/media/Adrian_Siu.ab74b810.jpg",
     "static/media/AgoraNeos.png": "/static/media/AgoraNeos.9a5c83d0.png",
     "static/media/Amazon.png": "/static/media/Amazon.52fc8e31.png",
     "static/media/Andrew_Duong.png": "/static/media/Andrew_Duong.3be12fb2.png",
@@ -35,7 +35,7 @@
     "static/media/Catherine_Lin.jpg": "/static/media/Catherine_Lin.d6245104.jpg",
     "static/media/Catherine_Lin.png": "/static/media/Catherine_Lin.cd70908f.png",
     "static/media/Catherine_Nguyen.jpg": "/static/media/Catherine_Nguyen.65336cf2.jpg",
-    "static/media/Cathy_Yun.jpg": "/static/media/Cathy_Yun.a1f3118c.jpg",
+    "static/media/Cathy_Yun.jpg": "/static/media/Cathy_Yun.fc97ade1.jpg",
     "static/media/CoreValues_Separator.jpg": "/static/media/CoreValues_Separator.65d26d73.jpg",
     "static/media/David_Sonq.png": "/static/media/David_Sonq.2af4b299.png",
     "static/media/David_Sonq.jpg": "/static/media/David_Sonq.93e9f186.jpg",
@@ -150,14 +150,13 @@
     "static/media/Yong_Lin.jpg": "/static/media/Yong_Lin.96130081.jpg",
     "static/media/Yong_Lin.png": "/static/media/Yong_Lin.a6de37b9.png",
     "static/media/logo.png": "/static/media/logo.f68038e3.png",
-    "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png",
-    "static/media/pfp_temp.png": "/static/media/pfp_temp.0899dbfb.png"
+    "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.671178e5.chunk.js",
     "static/css/main.4f069e02.chunk.css",
-    "static/js/main.a6b02e53.chunk.js"
+    "static/js/main.3866c543.chunk.js"
   ]
 }
