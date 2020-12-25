@@ -5,8 +5,8 @@ import { Link as RouterLink } from 'react-router-dom';
 export const involvements2020 = {
     "Accounting Association": [
         { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'Accounting Association', position: 'Director of Professional Development' },
-        { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: 'Accounting Association', position: "Committee Board Officer" },
         { name: <Link component={RouterLink} to="/active-brothers/andrew-duong" color="inherit">Andrew Duong</Link>, company: 'Accounting Association', position: 'Committee Board Officer' },
+        { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: 'Accounting Association', position: "Committee Board Officer" },
         { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'AA Leadership Development Program', position: 'Coordinator' },
         { name: <Link component={RouterLink} to="/active-brothers/andrew-duong" color="inherit">Andrew Duong</Link>, company: 'AA Leadership Development Program', position: 'Mentor' },
         { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, company: 'AA Leadership Development Program', position: 'Mentor' },
@@ -34,6 +34,8 @@ export const involvements2020 = {
         { name: <Link component={RouterLink} to="/active-brothers/ian-han" color="inherit">Ian Han</Link>, company: 'MAISS', position: "VP of Marketing" },
         { name: <Link component={RouterLink} to="/active-brothers/tyler-newman" color="inherit">Tyler Newman</Link>, company: 'MAISS', position: "VP of Community Development" },
         { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'MAISS', position: "VP of Professional Development" },
+        { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'MAISS', position: 'Professional Development Intern' },
+        // { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'MAISS', position: 'Professional Development Intern' },
         { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'MAISS', position: 'Mentor' },
         { name: <Link component={RouterLink} to="/active-brothers/naishal-shah" color="inherit">Naishal Shah</Link>, company: 'MAISS', position: 'Mentor' },
         { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'MAISS', position: 'Mentor' },
@@ -49,6 +51,7 @@ export const involvements2020 = {
     ],
 
     "Merage Undergraduate Student Association": [
+        { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'MUSA', position: 'Associate' },
         { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'MUSA', position: 'VP of Technology' },
         { name: <Link component={RouterLink} to="/active-brothers/lucian-liu" color="inherit">Lucian Liu</Link>, company: 'MUSA', position: 'VP of Finance' },
         { name: <Link component={RouterLink} to="/active-brothers/vivian-tran" color="inherit">Vivian Tran</Link>, company: 'MUSA', position: 'Representative' },
@@ -77,12 +80,17 @@ export const involvements2020 = {
     ],
     
     Other: [
-        { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, company: 'UCI Dragon Boat', position: "President" },
+        { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'FRESH Basic Needs Hub', position: 'Administrative Intern' },
+        { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'TEDxUCIrvine', position: 'Finance Director' },
         { name: <Link component={RouterLink} to="/active-brothers/jeffrey-cho" color="inherit">Jeffrey Cho</Link>, company: 'Anteater Ambassadors Network', position: 'Supervisor' },
-        {name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'TEDxUCIrvine', position: 'Finance Director' },
+        { name: <Link component={RouterLink} to="/active-brothers/jennifer-lin" color="inherit">Jennifer Lin</Link>, company: 'Crossroads Campus Ministry', position: 'Inreach Team' },
+        { name: <Link component={RouterLink} to="/active-brothers/julio-cano" color="inherit">Julio Cano</Link>, company: 'Undergraudate/Undeclared Mentoring Program', position: 'Mentor' },
+        { name: <Link component={RouterLink} to="/active-brothers/julio-cano" color="inherit">Julio Cano</Link>, company: 'Real Estate Association', position: 'Intern' },
+        { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, company: 'UCI Dragon Boat', position: "President" },
+        { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'Panhellenic Association', position: 'VP of Scholarship' },
         { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'Phi Zeta Tau', position: 'Fundraising Chair' },
         { name: <Link component={RouterLink} to="/active-brothers/linda-woo" color="inherit">Linda Woo</Link>, company: 'Phi Zeta Tau', position: 'Webmistress' },
-        { name: <Link component={RouterLink} to="/active-brothers/julio-cano" color="inherit">Julio Cano</Link>, company: 'Undergraudate/Undeclared Mentoring Program', position: 'Mentor' },
+        { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'Phi Delta Theta', position: 'Phikeia Educator' },
     ]
 
 };

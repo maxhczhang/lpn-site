@@ -66,7 +66,7 @@ export const directors = [
         title: 'Social Impact',
         logo: require('../../../../assets/actives/logos/HashiCorp.png'),
         company: 'HashiCorp',
-        width: "60%"
+        width: "25%"
     },
     {
         img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
@@ -110,14 +110,6 @@ export const directors = [
     //     name: "Alex Cole",
     //     title: 'Finance'
     // },
-    {
-        img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
-        name: "Ryan Miranda",
-        title: 'Webmaster',
-        logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
-        company: 'Microsoft',
-        width: "30%"
-    },
     {
         img: require('../../../../assets/actives/brothers_small/Ben_Fan.JPG'),
         name: "Ben Fan",

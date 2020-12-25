@@ -13,7 +13,7 @@ export const csuite = [
         title: 'CFO',
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
         company: 'JPMorgan Chase & Co',
-        width: "40%",
+        width: "60%",
     },
     {
         img: require('../../../../assets/actives/brothers_small/Le_An_Pham.jpg'),

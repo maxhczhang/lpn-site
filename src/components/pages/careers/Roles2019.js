@@ -60,15 +60,18 @@ export const roles2019 = {
 
     "Full Times" : {
         "Accounting": [
+            { name: 'Carol Lai', company: 'EY', position: "Tax Staff", industry: "Accounting" },
             { name: 'Philip Au', company: 'EY', position: "Assurance Staff", industry: "Accounting" },
         ],
 
         "Consulting" : [
+            { name: "Erica Truong", company: "Deloitte", position: "Business Analyst" },
             { name: 'Prachi Athavale', company: 'Deloitte', position: "Business Technology Analyst"},
         ],
 
         "Finance" : [
-            {name: "Jessica Cheng", company: "Goldman Sachs", position: "Private Equity Analyst"}
+            { name: "Ethan Chee", company: "Deloitte", position: "Engagement Financial Advisor" },
+            { name: "Jessica Cheng", company: "Goldman Sachs", position: "Private Equity Analyst"}
         ],
 
         "Human Resources" :[
@@ -77,6 +80,7 @@ export const roles2019 = {
         ],
 
         "Operations" : [
+            { name: "Ivy Chen", company: "DoorDash", position: "Merchant Associate" },
             { name: 'Resanna Li', company: 'Amazon', position: "Area Manager", industry: "Operations" },
         ],
 

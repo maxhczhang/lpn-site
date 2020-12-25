@@ -117,7 +117,7 @@ export default function Winter2021({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
-                        <a href="https://youtu.be/uhJx-uoIBh0" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Venture Beyond</a>
+                        <a href="https://www.youtube.com/channel/UCueDtHYk8PCMaTcN5jUHalw" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Venture Beyond</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h3.fontSize" mt={1} className={classes.content}>
                         Π Class Recruitment
@@ -125,7 +125,7 @@ export default function Winter2021({ setPage }) {
                 </Typography>
             </Box>
 
-            <a href="https://www.facebook.com/events/1263372200663953" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/events/4276985875651619" target="_blank" rel="noopener noreferrer">
                 <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2020"></img>
             </a>
 

@@ -91,64 +91,86 @@ export const brothers = [
         width: "70%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
+        name: "Ryan Miranda",
+        logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
+        company: 'Microsoft',
+        width: "30%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Adrian_Siu.jpg'),
         name: "Adrian Siu",
     },
+    
+  
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Cathy Yun",
-        logo: require('../../../../assets/actives/logos/BDO.png'),
-        company: 'BDO USA',
-        width: "45%"
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Haley_Kim.png'),
         name: "Haley Kim",
         logo: require('../../../../assets/actives/logos/BlackBerry.png'),
         company: 'BlackBerry',
         width: "35%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Jennifer_Lin.png'),
         name: "Jennifer Lin",
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+       //  img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Julio_Cano.png'),
         name: "Julio Cano",
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Kaylie Zhou",
-        logo: require('../../../../assets/actives/logos/GAOTek.png'),
-        company: 'GAOTek Inc',
-        width: "40%"
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Khoa Tran",
-        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
-        company: 'JP Morgan Chase & Co',
-        width: "40%"
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+       //  img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.png'),
         name: "Naveen Sastri",
         logo: require('../../../../assets/actives/logos/Instaboost.png'),
         company: 'Instaboost Media',
         width: "30%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Raj_Singh.png'),
         name: "Raj Singh",
         logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
         company: 'Sencha Credit',
         width: "25%"
     },
+    
     {
-        //img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
-        img: require("../../../../assets/lpn_assets/pfp_temp.png"),
-        name: "Vivian Tran",
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
+        name: "Kaylie Zhou",
+        logo: require('../../../../assets/actives/logos/GAOTek.png'),
+        company: 'GAOTek Inc',
+        width: "40%"
     },
+    {
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
+        name: "Khoa Tran",
+        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
+        company: 'JP Morgan Chase & Co',
+        width: "60%"
+    },
+    {
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Cathy_Yun.jpg'),
+        name: "Cathy Yun",
+        logo: require('../../../../assets/actives/logos/BDO.png'),
+        company: 'BDO USA',
+        width: "45%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Vivian Tran",
+        logo: require('../../../../assets/actives/logos/Kanerani.png'),
+        company: 'Kanerani',
+        width: "30%"
+    },
+
 ];
 
 export default { brothers };

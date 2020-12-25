@@ -45,7 +45,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
     },
     {
-        img: require('../../../assets/companyLogos/JPMorganChase.png'),
+        img: require('../../../assets/companyLogos/JPMorgan2.png'),
         title: 'JP Morgan Chase & Co',
         link: 'https://www.lpnuci.com/#/active-brothers/tiffany-wong',
     },

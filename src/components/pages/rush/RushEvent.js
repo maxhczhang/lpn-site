@@ -91,9 +91,9 @@ export default function RushEvent({event, cardStyle}) {
             />
            
             <CardContent className={classes.paragraph}>
-                <Box mt={1} mb={2}>
-                    <Typography variant="body1">{event.description}</Typography>
-                </Box>
+                <Typography component="div">
+                    <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium">{event.time}</Box>
+                </Typography>
             </CardContent>
 
             <CardActions disableSpacing>
@@ -134,7 +134,7 @@ export default function RushEvent({event, cardStyle}) {
 
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent className={classes.paragraph}>
-                    <Typography variant="body1" paragraph>{event.time}</Typography>
+                    <Typography variant="body1" paragraph>{event.description}</Typography>
                     <Typography variant="body1" paragraph>{event.dressCode}</Typography>
                 </CardContent>
             </Collapse>

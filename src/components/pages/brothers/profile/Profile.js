@@ -15,8 +15,8 @@ import useWindowDimensions from '../../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
     img: {
-        width: 376,
-        height: 569,
+        width: 300,
+        height: 450,
     },
     mobileimg: {
         width: 300,
