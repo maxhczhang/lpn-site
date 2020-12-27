@@ -51,9 +51,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
         name: "Yong Lin",
         title: 'Associate Counselor Career Catalyst',
-        logo: require('../../../../assets/actives/logos/Yong_Lin.png'),
+        logo: require('../../../../assets/actives/logos/CityNationalBank.png'),
         company: 'City National Bank',
-        width: "50%"
+        width: "70%"
     },
     {
         img: require("../../../../assets/actives/brothers_small/Naishal_Shah.jpg"),

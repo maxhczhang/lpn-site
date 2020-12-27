@@ -5,9 +5,11 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
+import Divider from '@material-ui/core/Divider';
 
 import { profiles } from '../lists/profiles'
 import ProfileSingle from './ProfileSingle'
+import ProfileObject from './ProfileObject'
 import ProfileArray from './ProfileArray'
 import MobileProfile from './MobileProfile'
 import useWindowDimensions from '../../../WindowListener'
@@ -15,8 +17,9 @@ import useWindowDimensions from '../../../WindowListener'
 
 const useStyles = makeStyles((theme) => ({
     img: {
-        width: 300,
-        height: 450,
+        width: "50%",
+        //width: 300,
+        //height: 450,
     },
     mobileimg: {
         width: 300,
@@ -47,6 +50,10 @@ const useStyles = makeStyles((theme) => ({
     },
     whyLPNBox: {
         width: "100%"
+    },
+    divider: {
+        height: 1,
+        width: "80%"
     }
 }));
 
@@ -59,6 +66,7 @@ const pathToName = (path, sep) => {
     }
     return names.join(sep)
 }
+
 
 export default function Profile({setPage, match}) {
     useEffect(() => {
@@ -78,77 +86,96 @@ export default function Profile({setPage, match}) {
     if (isMobile) {
         return <MobileProfile name={name} profile={profile} classes={classes}></MobileProfile>
     } 
+
     else {
         return (
             <Box mt={10} mb={10} className={classes.root}>
 
-                <Grid container direction="row" justify="center" alignItems="center">
+                <Grid container direction="row" justify="center">
 
                     <Grid item xs={6} container>
-                        
-                        <Grid item xs={12}>
-                            <Typography component="div">
-                                <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
-                                    {name}
-                                </Box>                 
-                                <Box fontSize="h4.fontSize" mb={4}>
-                                    {profile['class']} Class
-                                </Box>
-                            </Typography>
-                        </Grid>
-
                         <Grid item xs={12} style={{ pointerEvents: "none" }}>
                             <img className={classes.img} alt={name} src={profile["img"]} />
                         </Grid>
-
                     </Grid>
 
-                    <Grid item xs={6} container spacing={10}>
-                
-                        <Grid item xs={6} container>
-                            <Typography component="div">
-                                <ProfileSingle profile={profile} field="year" title="Year" isMobile={isMobile}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="major" title="Major" isMobile={isMobile}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="minor" title="Minor" isMobile={isMobile}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="emphasis" title="Emphasis" isMobile={isMobile}></ProfileSingle>
-                                <ProfileSingle profile={profile} field="practice" title="Practice" isMobile={isMobile}></ProfileSingle>
-                                <ProfileArray profile={profile} field="interests" title="Interests" isMobile={isMobile}></ProfileArray>
-                            </Typography>
-                        </Grid>
+                    <Grid item xs={6} container>
+                        <Typography component="div">
 
-                        <Grid item xs={6} container>
-                            <Typography component="div">
-                                <ProfileArray profile={profile} field="experience" title="Work Experience" isMobile={isMobile}></ProfileArray>
-                                <ProfileArray profile={profile} field="campusInvolvements" title="Campus Involvements" isMobile={isMobile}></ProfileArray>
-                                <Box mt={8}>
-                                    <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                        <Button size="large" variant="contained" className={classes.button}>
-                                            Connect on LinkedIn
-                                        </Button>
-                                    </a>
+                            <Grid item xs={12}>
+                                <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
+                                    {name}
                                 </Box>
-                            </Typography>
-                        </Grid>
-                        
+                            </Grid>
+
+                            <Grid item xs={12}>
+                                <Box fontSize="h4.fontSize" mb={8}>
+                                    {profile['class']} Class
+                                </Box>
+                            </Grid>
+
+                            <Grid item xs={12}>
+                                <ProfileSingle title="Year" data={profile["year"]} isMobile={isMobile}></ProfileSingle>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <ProfileSingle title="Major" data={profile["major"]} isMobile={isMobile}></ProfileSingle>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <ProfileSingle title="Minor" data={profile["minor"]} isMobile={isMobile}></ProfileSingle>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <ProfileSingle title="Emphasis" data={profile["emphasis"]} isMobile={isMobile}></ProfileSingle>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <ProfileSingle title="Practice" data={profile["practice"]} isMobile={isMobile}></ProfileSingle>
+                            </Grid>
+
+                            <Grid item xs={12}>
+                                <Box mt={8}></Box>
+                                <a href={profile["linkedIn"]} target="_blank" rel="noopener noreferrer" className={classes.link}>
+                                    <Button size="large" variant="contained" className={classes.button}>
+                                        Connect on LinkedIn
+                                    </Button>
+                                </a>
+                            </Grid>
+
+                        </Typography>
                     </Grid>
 
                 </Grid>
 
-                {profile["whyLPN"] !== "" &&
-                    <Box mt={8} className={classes.whyLPNBox}>
-                        <Typography component="div" className={classes.root}>
-                            <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" mb={2}>
-                                Why ΛΦΝ?
-                            </Box>
-                            <Box fontStyle="italic" fontSize="h6.fontSize" className={classes.paragraph}>
-                                "{profile["whyLPN"]}"
-                            </Box>
-                        </Typography>
-                    </Box>
-                }
+                <Box mt={6}></Box>
+                <Divider className={classes.divider}></Divider>
+                <Box mt={6}></Box>
+
+                <Typography component="div" className={classes.paragraph}>
+                    <Grid container spacing={3} direction="row" justify="space-around">
+
+                        <Grid item xs={3}>
+                            <ProfileObject data={profile["experience"]} title="Experience" isMobile={isMobile}></ProfileObject>
+                        </Grid>
+                        <Grid item xs={3}>
+                            <ProfileObject data={profile["campusInvolvements"]} title="Involvement" isMobile={isMobile}></ProfileObject>
+                        </Grid>
+                        <Grid item xs={3}>
+                            <ProfileArray data={profile["interests"]} title="Interests" isMobile={isMobile}></ProfileArray>
+                        </Grid>
+
+                        {profile["whyLPN"] !== "" &&
+                            <Grid item xs={12}>
+                                <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" mb={2}>
+                                    Why ΛΦΝ?
+                                </Box>
+                                <Box fontStyle="italic" fontSize="h6.fontSize" mb={6}>
+                                    "{profile["whyLPN"]}"
+                                </Box>
+                            </Grid>
+                        }
+
+                    </Grid>
+                </Typography>
 
             </Box>
         )
     }
-
 }

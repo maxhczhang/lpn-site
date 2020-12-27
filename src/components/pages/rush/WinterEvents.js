@@ -44,7 +44,7 @@ export const events = [
             location: "Zoom"
         },
         checkinLink: "https://doodle.com/poll/ha483m7evwcqa85z?utm_source=poll&utm_medium=link",
-        time: "Sign up for a time slot",
+        time: "Sign up for a time slot!",
         eventIcon: "schedule",
         eventTooltip: "Sign up for a time slot"
     },

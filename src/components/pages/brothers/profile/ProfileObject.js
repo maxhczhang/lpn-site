@@ -6,9 +6,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 
-export default function ProfileArray({ data, title, isMobile }) {
-
-    if ((Array.isArray(data) && data.length > 0)) {
+export default function ProfileObject({data, title, isMobile}) {
+    
+    if (data) {
 
         if (isMobile) {
             return (
@@ -18,10 +18,11 @@ export default function ProfileArray({ data, title, isMobile }) {
                     </Box>
                     <Box fontSize="body1.fontSize">
                         <List>
-                            {data.map((item, i) => (
+                            {Object.keys(data).map((position, i) => (
                                 <ListItem disableGutters={true}>
                                     <ListItemText
-                                        primary={item}
+                                        primary={position}
+                                        secondary={data[position] && data[position]} 
                                     />
                                 </ListItem>
                             ))}
@@ -29,8 +30,8 @@ export default function ProfileArray({ data, title, isMobile }) {
                     </Box>
                 </Box>
             )
-        }
-
+        } 
+        
         else {
             return (
                 <Box align="left">
@@ -40,21 +41,22 @@ export default function ProfileArray({ data, title, isMobile }) {
                     <Box fontSize="h6.fontSize">
                         <List>
                             <List>
-                                {data.map((item, i) => (
-                                    <ListItem disableGutters={true}>
-                                        <ListItemText
-                                            primary={<Box fontSize="h5.fontSize">{item}</Box>}
-                                        />
-                                    </ListItem>
-                                ))}
-                            </List>
+                            {Object.keys(data).map((position, i) => (
+                                <ListItem disableGutters={true}>
+                                    <ListItemText
+                                        primary={<Box fontSize="h5.fontSize">{position}</Box>}
+                                        secondary={data[position] && <Box fontSize="h6.fontSize">{data[position]}</Box>} 
+                                    />
+                                </ListItem>
+                            ))}
+                        </List>
                         </List>
                     </Box>
                 </Box>
             )
         }
     }
-    
+
     else {
         return (
             <React.Fragment></React.Fragment>

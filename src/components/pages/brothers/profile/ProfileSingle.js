@@ -3,9 +3,9 @@ import React from 'react'
 import Box from '@material-ui/core/Box';
 
 
-export default function ProfileSingle({profile, field, title, isMobile}) {
+export default function ProfileSingle({title, data, isMobile}) {
     
-    if (profile[field] !== "") {
+    if (data !== "") {
 
         if (isMobile) {
             return (
@@ -14,23 +14,26 @@ export default function ProfileSingle({profile, field, title, isMobile}) {
                         {title}
                     </Box>
                     <Box fontSize="body1.fontSize" mb={1}>
-                        {profile[field]}
+                        {data}
                     </Box>
                 </Box>
             )
-        } else {
+        } 
+        
+        else {
             return (
                 <Box align="left" mb={2}>
-                    <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" mb={1}>
-                        {title}
+                    <Box fontWeight="fontWeightBold" fontSize="h4.fontSize" display="inline">
+                        {title}:
                     </Box>
-                    <Box fontSize="h6.fontSize" mb={4}>
-                        {profile[field]}
+                    <Box fontSize="h4.fontSize" ml={1} mb={4} display="inline">
+                        {data}
                     </Box>
                 </Box>
             )
         }
     }
+    
     else {
         return (
             <React.Fragment></React.Fragment>

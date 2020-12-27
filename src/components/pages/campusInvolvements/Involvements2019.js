@@ -59,9 +59,9 @@ export const involvements2019 = {
 
     "Undergraduate Business Association": [
         { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'UBA', position: 'Co-President' },
+        { name: "Alexis Rivera", company: 'UBA', position: 'Co-Mentorship Director' },
         { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'UBA', position: 'Co-Company Relations Director' },
         { name: <Link component={RouterLink} to="/active-brothers/stephen-minn" color="inherit">Stephen Minn</Link>, company: 'UBA', position: 'Internal Relations Director' },
-        { name: "Alexis Rivera", company: 'UBA', position: 'Co-Mentorship Director' },
         { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'UBA', position: 'Co-Mentorship Director' },
     ],
 
