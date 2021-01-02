@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ce0b58f8.chunk.css",
-    "main.js": "/static/js/main.1627e0e3.chunk.js",
-    "main.js.map": "/static/js/main.1627e0e3.chunk.js.map",
+    "main.js": "/static/js/main.7e4e8218.chunk.js",
+    "main.js.map": "/static/js/main.7e4e8218.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.f1d387fb.chunk.js": "/static/js/2.f1d387fb.chunk.js",
-    "static/js/2.f1d387fb.chunk.js.map": "/static/js/2.f1d387fb.chunk.js.map",
+    "static/js/2.654598d1.chunk.js": "/static/js/2.654598d1.chunk.js",
+    "static/js/2.654598d1.chunk.js.map": "/static/js/2.654598d1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dd949a8b4014f1a27bd9c9e5085426cd.js": "/precache-manifest.dd949a8b4014f1a27bd9c9e5085426cd.js",
+    "precache-manifest.b6402167499b3b4ebe1df981a745233c.js": "/precache-manifest.b6402167499b3b4ebe1df981a745233c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.ce0b58f8.chunk.css.map": "/static/css/main.ce0b58f8.chunk.css.map",
-    "static/js/2.f1d387fb.chunk.js.LICENSE.txt": "/static/js/2.f1d387fb.chunk.js.LICENSE.txt",
+    "static/js/2.654598d1.chunk.js.LICENSE.txt": "/static/js/2.654598d1.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.9f715aa3.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -68,10 +68,9 @@
     "static/media/Iota_Friends_Giving.jpg": "/static/media/Iota_Friends_Giving.0b53af50.jpg",
     "static/media/Iotas_Formals.jpg": "/static/media/Iotas_Formals.306445ac.jpg",
     "static/media/Iotas_Seniors.jpg": "/static/media/Iotas_Seniors.55cf1e69.jpg",
+    "static/media/JPMorgan.jpg": "/static/media/JPMorgan.6328b2f9.jpg",
     "static/media/JPMorgan.png": "/static/media/JPMorgan.63682a87.png",
-    "static/media/JPMorgan2.png": "/static/media/JPMorgan2.0511bed3.png",
     "static/media/Jasmin_He.jpg": "/static/media/Jasmin_He.a3fa163d.jpg",
-    "static/media/Jasmin_He.png": "/static/media/Jasmin_He.ea2da8d9.png",
     "static/media/Jeffrey_Cho.jpg": "/static/media/Jeffrey_Cho.bec30c38.jpg",
     "static/media/Jeffrey_Cho.png": "/static/media/Jeffrey_Cho.a85e603f.png",
     "static/media/Jennifer_Lin.png": "/static/media/Jennifer_Lin.7e710ce2.png",
@@ -155,8 +154,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.f1d387fb.chunk.js",
+    "static/js/2.654598d1.chunk.js",
     "static/css/main.ce0b58f8.chunk.css",
-    "static/js/main.1627e0e3.chunk.js"
+    "static/js/main.7e4e8218.chunk.js"
   ]
 }
