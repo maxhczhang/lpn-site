@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ce0b58f8.chunk.css",
-    "main.js": "/static/js/main.2cafa4ad.chunk.js",
-    "main.js.map": "/static/js/main.2cafa4ad.chunk.js.map",
+    "main.js": "/static/js/main.5f0e9434.chunk.js",
+    "main.js.map": "/static/js/main.5f0e9434.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.654598d1.chunk.js": "/static/js/2.654598d1.chunk.js",
-    "static/js/2.654598d1.chunk.js.map": "/static/js/2.654598d1.chunk.js.map",
+    "static/js/2.ef710897.chunk.js": "/static/js/2.ef710897.chunk.js",
+    "static/js/2.ef710897.chunk.js.map": "/static/js/2.ef710897.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.75d8a76b5103b83b3e862b41389ad6a5.js": "/precache-manifest.75d8a76b5103b83b3e862b41389ad6a5.js",
+    "precache-manifest.0786ee7169ab3af057e8641305da59ea.js": "/precache-manifest.0786ee7169ab3af057e8641305da59ea.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.ce0b58f8.chunk.css.map": "/static/css/main.ce0b58f8.chunk.css.map",
-    "static/js/2.654598d1.chunk.js.LICENSE.txt": "/static/js/2.654598d1.chunk.js.LICENSE.txt",
+    "static/js/2.ef710897.chunk.js.LICENSE.txt": "/static/js/2.ef710897.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.9f715aa3.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -141,7 +141,6 @@
     "static/media/VMWare.png": "/static/media/VMWare.b9f368dd.png",
     "static/media/Values_Separator.jpg": "/static/media/Values_Separator.6c3239a8.jpg",
     "static/media/Vivi_Liu.jpg": "/static/media/Vivi_Liu.92b288ad.jpg",
-    "static/media/Vivi_Liu.png": "/static/media/Vivi_Liu.a38cfafd.png",
     "static/media/Vivian_Tran.png": "/static/media/Vivian_Tran.f36b1c4e.png",
     "static/media/Western_Digital.png": "/static/media/Western_Digital.2ac2d36e.png",
     "static/media/Winter2021_Flyer.png": "/static/media/Winter2021_Flyer.c0221a22.png",
@@ -154,8 +153,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.654598d1.chunk.js",
+    "static/js/2.ef710897.chunk.js",
     "static/css/main.ce0b58f8.chunk.css",
-    "static/js/main.2cafa4ad.chunk.js"
+    "static/js/main.5f0e9434.chunk.js"
   ]
 }
