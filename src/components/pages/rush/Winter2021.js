@@ -9,13 +9,10 @@ import Divider from '@material-ui/core/Divider';
 
 import { Link } from "react-router-dom";
 
-import useWindowDimensions from '../../WindowListener';
+import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './WinterEvents'
 import flyer from '../../../assets/recruitment/Winter2021_Flyer.png'
-// bright red: #F34532
-// blue: #2E4475
-// black: #080A09
 
 
 const useStyles = makeStyles((theme) => ({
@@ -35,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             backgroundColor: "rgb(150,74,93)"
         },
-        width: 140
+        width: 150
     },
     divider: {
         height: 1,
@@ -117,7 +114,7 @@ export default function Winter2021({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
-                        <a href="https://www.youtube.com/channel/UCueDtHYk8PCMaTcN5jUHalw" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Venture Beyond</a>
+                        <a href="https://youtu.be/44pkNiN451A" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Venture Beyond</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h3.fontSize" mt={1} className={classes.content}>
                         Π Class Recruitment
@@ -133,33 +130,15 @@ export default function Winter2021({ setPage }) {
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                    2020 was a year of change - everything became virtual, and we had to adapt to a new normal, changing our lives forever for better or worse. Whether we thrived in this online learning environment, struggled with the disconnect from others, or missed meaningful milestones in our lives, we all experienced it together. This year was without a doubt, challenging to say the least, but as we begin the new year, the brothers of Lambda Phi Nu are optimistic for the opportunities it’ll bring and the new memories we’ll make!
+                    2020 was a year of change - everything became virtual, and we had to adapt to a new normal, changing our lives forever for better or worse. Whether we thrived in this online learning environment, struggled with the disconnect from others, or missed meaningful milestones in our lives, we all experienced it together. This year was challenging to say the least, but as we begin the new year, the brothers of Lambda Phi Nu are optimistic for the opportunities it’ll bring and the new memories we’ll make!
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                    We want to dream big and look towards a year of possibilities: a year where we start our careers, discover our passions, learn how to cook our first college meals, and find another group of ambitious, driven individuals to join our Pi class starting on January 5th. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
+                    We want to dream big and look toward a year of possibilities: a year where we start our careers, discover our passions, learn how to cook our first college meals, and find another group of ambitious, driven individuals to join our Pi class starting on January 5th. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
+                </Box>
+                <Box mb={10} fontSize="h6.fontSize">
+                    Thank you to all the candidates who participated in our Winter 2021 recruitment, and a special congratulations to our newest Associates! To those who unfortunately did not receive a bid, the Brothers of Lambda Phi Nu will be eagerly awaiting you this Fall.
                 </Box>
             </Typography>
-
-            {/* <Box mt={12} mb={12}>
-                <Grid container direction="row" justify="center" alignItems="center">
-                    <Grid item xs>
-                        <img src={CTO} alt="Chief Talent Officer" className={classes.image}></img>
-                    </Grid>
-                    <Grid item xs>
-                        <Typography component="div" align="left" className={classes.CTOQuote}>
-                            <Box fontSize="h6.fontSize" fontWeight={300}>
-                                I’ve always loved fall as it brought cooler weather and signaled the holidays to come. Now as CTO, I’m excited for a new reason: Meeting dozens of UCI students for fall recruitment! Unfortunately, because of the pandemic, many opportunities and organizations have shut down, but not Lambda Phi Nu.
-                            </Box>
-                            <Box mt={2} fontSize="h6.fontSize" fontWeight={300}>
-                                I’m so happy to say that we’re offering a world-class virtual recruitment and pledge process! We’ve created a digital experience with purpose-built activities and workshops that will give our Associates as enriching of an experience as they would’ve gotten being on campus. They’ll gain meaningful relationships while growing professionally to further their careers. I’m so proud and humbled by our amazing actives who are dedicated to making this the best quarter yet! Join us at our recruitment events to learn more about our brotherhood.
-                            </Box>
-                            <Box mt={2} fontSize="h6.fontSize" fontWeight="fontWeightMedium">
-                                - Astyr Ko, Chief Talent Officer
-                            </Box>
-                        </Typography>
-                    </Grid>
-                </Grid>
-            </Box> */}
 
             <Divider className={classes.divider}></Divider>
 
@@ -172,14 +151,14 @@ export default function Winter2021({ setPage }) {
                     ))}
                 </Grid>
 
+                {/* <Box mt={14}></Box>
+                <Button size="large" variant="contained" disabled className={classes.button} href="https://docs.google.com/forms/d/e/1FAIpQLSdioJmOesXHmABTxHibmf4u4ThT30uPT1jbq857GiQvr_JtIg/viewform?usp=sf_link" target="_blank">Apply Now</Button>
+                
                 <Typography component="div">
-                    {/* <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
-                        Submit our <a href="https://forms.gle/YpEiTSAu8oy6j8xN6" target="_blank" rel="noopener noreferrer" className={classes.maroonLink}>application</a> by <b>October 14 at 11:59PM</b> to be considered for an interview!
-                    </Box> */}
-                    <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={12}>
-                        Stay tuned for our application!
+                    <Box fontweight="fontWeightMedium" fontSize="h5.fontSize" mt={8}>
+                        Our rush events have ended and our application has closed for this recruitment cycle!
                     </Box>
-                </Typography>
+                </Typography> */}
             </Box>
 
             <Divider className={classes.divider}></Divider>

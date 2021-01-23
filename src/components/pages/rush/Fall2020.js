@@ -9,11 +9,10 @@ import Divider from '@material-ui/core/Divider';
 
 import { Link } from "react-router-dom";
 
-import useWindowDimensions from '../../WindowListener';
+import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './FallEvents'
 import cover from '../../../assets/recruitment/Fall_Rush_Cover.png'
-// import CTO from '../../../assets/actives/brothers/Astyr_Ko.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
-        textAlign: "center"
+        textAlign: "center",
     },
     button: {
         '& > *': {
@@ -73,11 +72,6 @@ const useStyles = makeStyles((theme) => ({
         color: "black",
         fontWeight: "bold",
         '&:hover': {
-            // backgroundImage: "linear-gradient(15deg, rgba(8,15,28,1) 0%, rgba(37,58,96,1) 45%, rgba(88,124,117,1) 100%)",
-            // backgroundSize: "100%",
-            // backgroundClip: "text",
-            // backgroundColor: "black",
-            // textFillColor: "transparent"
             color: "rgb(57,78,126)"
         }
     },
@@ -94,9 +88,16 @@ const useStyles = makeStyles((theme) => ({
         width: 333,
         height: 500,
     },
-    CTOQuote: {
-        maxWidth: "80%",
-    }
+    card: {
+        background: "linear-gradient(189deg, rgba(87,123,116,1) 0%, rgba(37,58,96,1) 46%, rgba(8,15,28,1) 100%)",
+        color: "white",
+        width: 350,
+    },
+    mobileCard: {
+        background: "linear-gradient(189deg, rgba(87,123,116,1) 0%, rgba(37,58,96,1) 46%, rgba(8,15,28,1) 100%)",
+        color: "white",
+        width: "95%",
+    },
 }));
 
 
@@ -146,7 +147,7 @@ export default function Fall2020({ setPage }) {
                 <Grid container direction="row" justify="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
-                            <RushEvent event={event} isMobile={isMobile}></RushEvent>
+                            <RushEvent event={event} cardStyle={isMobile ? classes.mobileCard : classes.card}></RushEvent>
                         </Grid>
                     ))}
                 </Grid>

@@ -1,5 +1,34 @@
 export const brothers = [
     {
+        img: require("../../../../assets/actives/brothers_small/Karen_Ching.jpg"),
+        name: "Karen Ching",
+        logo: require('../../../../assets/actives/logos/UCIGradDivision.png'),
+        company: 'UCI Graduate Division',
+        width: "65%"
+    },  
+    {
+        img: require("../../../../assets/actives/brothers_small/Tiffany_Chan.jpg"),
+        name: "Tiffany Chan",
+        logo: require('../../../../assets/actives/logos/Tiffany_Chan.png'),
+        company: 'RSM',
+        width: "50%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Tony_Zhou.jpg"),
+        name: "Tony Zhou",
+        logo: require('../../../../assets/actives/logos/David_Sonq.png'),
+        company: 'EY',
+        width: "30%"
+    },
+    // {
+    //     img: require("../../../../assets/actives/brothers_small/Vivi_Liu.jpg"),
+    //     name: "Vivi Liu",
+    //     logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
+    //     company: 'Cross Bond Global Consultant',
+    //     width: "35%"
+    // },
+
+    {
         img: require("../../../../assets/actives/brothers_small/David_Sonq.jpg"),
         name: "David Sonq",
         logo: require('../../../../assets/actives/logos/David_Sonq.png'),
@@ -13,13 +42,13 @@ export const brothers = [
         company: 'New Relic',
         width: "37%"
     },
-    {
-        img: require('../../../../assets/actives/brothers_small/Jasmin_He.jpg'),
-        name: "Jasmin He",
-        logo: require('../../../../assets/actives/logos/Jasmin_He.png'),
-        company: 'Seagate',
-        width: "40%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers_small/Jasmin_He.jpg'),
+    //     name: "Jasmin He",
+    //     logo: require('../../../../assets/actives/logos/Jasmin_He.png'),
+    //     company: 'Seagate',
+    //     width: "40%"
+    // },
     {
         img: require('../../../../assets/actives/brothers_small/Jenny_Cheung.jpg'),
         name: "Jenny Cheung",
@@ -27,13 +56,6 @@ export const brothers = [
         company: 'Shiseido',
         width: "65%"
     },
-    {
-        img: require("../../../../assets/actives/brothers_small/Karen_Ching.jpg"),
-        name: "Karen Ching",
-        logo: require('../../../../assets/actives/logos/UCIGradDivision.png'),
-        company: 'UCI Graduate Division',
-        width: "65%"
-    },    
     {
         img: require("../../../../assets/actives/brothers_small/Sandy_Nguyen.jpg"),
         name: "Sandy Nguyen",
@@ -48,27 +70,15 @@ export const brothers = [
         company: 'Ripplink',
         width: "30%"
     },
+   
     {
-        img: require("../../../../assets/actives/brothers_small/Tony_Zhou.jpg"),
-        name: "Tony Zhou",
-        logo: require('../../../../assets/actives/logos/David_Sonq.png'),
-        company: 'EY',
-        width: "30%"
+        img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
+        name: "Linda Woo",
+        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
+        company: 'KPMG',
+        width: "55%"
     },
-    {
-        img: require("../../../../assets/actives/brothers_small/Tiffany_Chan.jpg"),
-        name: "Tiffany Chan",
-        logo: require('../../../../assets/actives/logos/Tiffany_Chan.png'),
-        company: 'RSM',
-        width: "50%"
-    },
-    {
-        img: require("../../../../assets/actives/brothers_small/Vivi_Liu.jpg"),
-        name: "Vivi Liu",
-        logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
-        company: 'Cross Bond Global Consultant',
-        width: "35%"
-    },
+
     {
         img: require("../../../../assets/actives/brothers_small/Andrew_Duong.jpg"),
         name: "Andrew Duong",
@@ -90,19 +100,19 @@ export const brothers = [
         company: 'Agora Neos',
         width: "70%"
     },
-    {
-        img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
-        name: "Ryan Miranda",
-        logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
-        company: 'Microsoft',
-        width: "30%"
-    },
+
     {
         img: require('../../../../assets/actives/brothers_small/Adrian_Siu.jpg'),
         name: "Adrian Siu",
+    },  
+    {
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
+        name: "Khoa Tran",
+        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
+        company: 'JP Morgan Chase & Co',
+        width: "60%"
     },
-    
-  
     {
         // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         img: require('../../../../assets/actives/brothers_small/Haley_Kim.png'),
@@ -137,23 +147,6 @@ export const brothers = [
         company: 'Sencha Credit',
         width: "25%"
     },
-    
-    {
-        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
-        name: "Kaylie Zhou",
-        logo: require('../../../../assets/actives/logos/GAOTek.png'),
-        company: 'GAOTek Inc',
-        width: "40%"
-    },
-    {
-        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
-        name: "Khoa Tran",
-        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
-        company: 'JP Morgan Chase & Co',
-        width: "60%"
-    },
     {
         // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         img: require('../../../../assets/actives/brothers_small/Cathy_Yun.jpg'),
@@ -162,6 +155,14 @@ export const brothers = [
         company: 'BDO USA',
         width: "45%"
     },
+    {
+        // img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
+        name: "Kaylie Zhou",
+        logo: require('../../../../assets/actives/logos/GAOTek.png'),
+        company: 'GAOTek Inc',
+        width: "40%"
+    }, 
     {
         img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
         // img: require('../../../../assets/lpn_assets/pfp_temp.png'),

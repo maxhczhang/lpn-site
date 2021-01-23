@@ -11,7 +11,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 
 import colorLogo from '../../../assets/lpn_assets/logo.png'
-import useWindowDimensions from '../../WindowListener'
+import useWindowDimensions from '../../utils/WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -194,6 +194,7 @@ export default function Contact({ setPage }) {
                     }
                 ></SnackbarContent>
             </Snackbar>
+            
         </Box>
     )
 }

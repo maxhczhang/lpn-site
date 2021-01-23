@@ -58,8 +58,6 @@ export default function ProfileObject({data, title, isMobile}) {
     }
 
     else {
-        return (
-            <React.Fragment></React.Fragment>
-        )
+        return ( <React.Fragment></React.Fragment> )
     }
 }

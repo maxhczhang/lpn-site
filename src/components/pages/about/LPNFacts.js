@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
             transform: "scale(1.1)"
         }
     },
+    title: {
+        textTransform: "uppercase"
+    }
 }));
 
 
@@ -26,12 +29,12 @@ export default function LPNFacts({isMobile}) {
     if (isMobile) {
         cols = 6;
         answerSize = "h4.fontSize";
-        titleSize = "h5.fontSize";
+        titleSize = "h6.fontSize";
     }
     else {
         cols = 4;
         answerSize = "h3.fontSize";
-        titleSize = "h4.fontSize";
+        titleSize = "h6.fontSize";
     }
 
     return (
@@ -40,7 +43,7 @@ export default function LPNFacts({isMobile}) {
                 {facts.map((fact, i) => (
                     <Grid item xs={cols}>
                         <Box fontWeight="fontWeightBold" fontSize={answerSize} className={classes.fact}>{fact.answer}</Box>
-                        <Box fontSize={titleSize}>{fact.title}</Box>
+                        <Box fontSize={titleSize} letterSpacing={2} className={classes.title}>{fact.title}</Box>
                     </Grid>
                 ))}
             </Grid> 

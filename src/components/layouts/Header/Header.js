@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import logo_white from '../../../assets/lpn_assets/logo_white.png';
 import MyMenu from './MyMenu'
 import MobileMenu from './MobileMenu'
-import useWindowDimensions from '../../WindowListener'
+import useWindowDimensions from '../../utils/WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   appBarDark: {
     position: "relative",
     zIndex: 1,
-    backgroundColor: 'rgb(0,0,0,0.6)'
+    backgroundColor: 'rgb(0,0,0,0.65)'
   },
   appBarClear: {
     position: "relative",
@@ -53,6 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     color: "white",
+    letterSpacing: 2,
     '&:hover': {
       backgroundColor: "rgb(0,0,0, 0.2)"
     }
@@ -61,26 +62,26 @@ const useStyles = makeStyles((theme) => ({
 
 const recruitmentMenu = [
   {
-    title: "Winter Rush 2021",
+    title: "WINTER RUSH 2021",
     url: "/recruitment"
   },
   {
-    title: "Fall Rush 2020",
+    title: "FALL RUSH 2020",
     url: "/fall-rush-2020"
   },
   {
-    title: "FAQs",
+    title: "FAQS",
     url: "/faqs"
   }
 ]
 
 const brothersMenu = [
   {
-    title: "Active Brothers",
+    title: "ACTIVE BROTHERS",
     url: "/active-brothers"
   },
   {
-    title: "Campus Involvement",
+    title: "CAMPUS INVOLVEMENT",
     url: "/campus-involvement"
   },
 ]

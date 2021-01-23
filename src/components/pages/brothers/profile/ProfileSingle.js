@@ -35,8 +35,6 @@ export default function ProfileSingle({title, data, isMobile}) {
     }
     
     else {
-        return (
-            <React.Fragment></React.Fragment>
-        )
+        return ( <React.Fragment></React.Fragment> )
     }
 }

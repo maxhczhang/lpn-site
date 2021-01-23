@@ -26,7 +26,7 @@ export const events = [
         dressCode: "Casual",
         ics: "",
         checkinLink: "",
-        time: "Sign up for a time slot using the scheduling link!",
+        time: "TBA",
         eventIcon: "schedule",
         eventTooltip: "Sign up for a time slot"
     },

@@ -7,7 +7,7 @@ import GridListTile from '@material-ui/core/GridListTile';
 import Box from '@material-ui/core/Box';
 
 import { GalleryPhotos } from './GalleryPhotos';
-import useWindowDimensions from '../../WindowListener';
+import useWindowDimensions from '../../utils/WindowListener';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -21,17 +21,11 @@ const useStyles = makeStyles((theme) => ({
     gridList: {
         width: "80%",
     },
-    bar: {
-        height: 40
-    },
     image: {
         pointerEvents: "none",
-        transition: 'transform .2s',
-        '&:hover': {
-            transform: "scale(1.1)"
-        }
     },
 }));
+
 
 export default function Gallery({setPage}) {
     useEffect(() => {
@@ -47,8 +41,8 @@ export default function Gallery({setPage}) {
             <GridList cellHeight={300} className={classes.gridList} cols={3} spacing={20}>
                 {GalleryPhotos.map((tile, i) => (
                     <GridListTile key={i} cols={isMobile ? 3 : tile.cols} rows={isMobile ? 1 : tile.rows}
-                             className={classes.image} >
-                        <img src={tile.img} alt={tile.title}/>
+                        className={classes.image}>
+                        <img src={tile.img} alt={tile.title} />
 
                         {/* {tile.title &&
                             <GridListTileBar

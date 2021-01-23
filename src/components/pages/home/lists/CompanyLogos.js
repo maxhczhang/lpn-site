@@ -56,8 +56,8 @@ export const companyLogos = [
         title: 'Apple'
     },
     {
-        img: require('../../../../assets/actives/logos/Emily_Nguyen.png'),
-        title: 'New Relic'
+        img: require('../../../../assets/companyLogos/JPMorgan.jpg'),
+        title: 'JPMorgan Chase'
     },
     {
         img: require('../../../../assets/companyLogos/WellsFargo.jpeg'),

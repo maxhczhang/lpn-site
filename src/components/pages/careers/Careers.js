@@ -9,13 +9,13 @@ import Divider from '@material-ui/core/Divider';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 
-import useWindowDimensions from '../../WindowListener';
+import useWindowDimensions from '../../utils/WindowListener';
 import { companyLogos } from './CompanyLogos'
 import { roles2021 } from './Roles2021'
 import { roles2020 } from './Roles2020'
 import { roles2019 } from './Roles2019'
 import { roles2018 } from './Roles2018'
-import Chart from './Chart'
+import Chart from '../../utils/Chart'
 
 // import MaterialTable from 'material-table';
 
@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: "column",
-        textAlign: "center"
+        textAlign: "center",
     },
     paragraph: {
         maxWidth: "60%"
@@ -131,7 +131,7 @@ export default function Careers({ setPage }) {
                 <Box fontSize="h6.fontSize" mt={8} mb={8} align="left">
                     Our Brothers achieve excellence in the professional world in the form of 
                     internships during their time at UCI and full-time positions after graduation. Our network is continously expanding, and these are a few
-                    of the places where we worked this year! Hopefully, you'll join us and find your future mentor at one of the many companies
+                    of the places where we've worked over the years! Hopefully, you'll join us and find your future mentor at one of the many companies
                     where our Active and Alumni Brothers have left their mark.
                 </Box>
             </Typography>

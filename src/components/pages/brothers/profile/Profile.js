@@ -12,7 +12,7 @@ import ProfileSingle from './ProfileSingle'
 import ProfileObject from './ProfileObject'
 import ProfileArray from './ProfileArray'
 import MobileProfile from './MobileProfile'
-import useWindowDimensions from '../../../WindowListener'
+import useWindowDimensions from '../../../utils/WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -100,7 +100,7 @@ export default function Profile({setPage, match}) {
                     </Grid>
 
                     <Grid item xs={6} container>
-                        <Typography component="div">
+                        <Typography component="div" className={classes.paragraph}>
 
                             <Grid item xs={12}>
                                 <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">

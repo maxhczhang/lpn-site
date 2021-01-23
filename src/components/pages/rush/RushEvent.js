@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     },
     titleIcon: {
         marginTop: 14
-    }
+    },
 }));
 
 export default function RushEvent({event, cardStyle}) {
@@ -92,7 +92,7 @@ export default function RushEvent({event, cardStyle}) {
            
             <CardContent className={classes.paragraph}>
                 <Typography component="div">
-                    <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium">{event.time}</Box>
+                    <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium" letterSpacing={2}>{event.time}</Box>
                 </Typography>
             </CardContent>
 

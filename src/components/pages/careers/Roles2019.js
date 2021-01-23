@@ -8,34 +8,34 @@ export const roles2019 = {
     "Internships" : {
 
         "Accounting": [
-            { name: 'Joy Huang', company: 'RSM', position: "Audit", industry: "Accounting" },
-            { name: 'Tri Do', company: 'KPMG', position: "Audit", industry: "Accounting" },
-            { name: 'Katherine Jiang', company: 'Deloitte', position: "Audit & Assurance", industry: "Accounting" },
-            { name: 'Romeo Li', company: 'EY', position: "Assurance", industry: "Accounting" },
-            { name: 'Nicholas Tam', company: 'RSM', position: "Tax", industry: "Accounting" },
+            { name: 'Joy Huang', company: 'RSM', position: "Audit Intern", industry: "Accounting" },
+            { name: 'Tri Do', company: 'KPMG', position: "Audit Intern", industry: "Accounting" },
+            { name: 'Katherine Jiang', company: 'Deloitte', position: "Audit & Assurance Intern", industry: "Accounting" },
+            { name: 'Romeo Li', company: 'EY', position: "Assurance Intern", industry: "Accounting" },
+            { name: 'Nicholas Tam', company: 'RSM', position: "Tax Intern", industry: "Accounting" },
         ],
 
         "Consulting": [
-            { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory", industry: "Consulting" },
-            { name: "Jeff Lu", company: 'Accenture', position: "Consulting Analyst", industry: "Consulting" },
+            { name: 'Emily Nguyen', company: 'EY', position: "Risk Advisory Intern", industry: "Consulting" },
+            { name: "Jeff Lu", company: 'Accenture', position: "Consulting Analyst Intern", industry: "Consulting" },
         ],
 
         "Finance": [
-            { name: "Aira Samontina", company: 'Benefit Funding Retirement Services', position: "Wealth Management", industry: "Finance" },
-            { name: 'Katie Xiong', company: 'Season Two Ventures', position: "Venture Capital" },
-            { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'City of Redwood City', position: "Finance & Revenue Services", industry: "Finance" },
+            { name: "Aira Samontina", company: 'Benefit Funding Retirement Services', position: "Wealth Management Intern", industry: "Finance" },
+            { name: 'Katie Xiong', company: 'Season Two Ventures', position: "Venture Capital Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'City of Redwood City', position: "Finance & Revenue Services Intern", industry: "Finance" },
         ],
 
         "Human Resources": [
-            { name: <Link component={RouterLink} to="/active-brothers/jeffrey-cho" color="inherit">Jeffrey Cho</Link>, company: 'Optum', position: "Client Management", industry: "Human Resources" },
+            { name: <Link component={RouterLink} to="/active-brothers/jeffrey-cho" color="inherit">Jeffrey Cho</Link>, company: 'Optum', position: "Client Management Intern", industry: "Human Resources" },
             { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'Greenhouse Agency', position: "HR Assistant", industry: "Human Resources" },
-            { name: 'Jessica Lee', company: 'Western Digital', position: "RAMP Compensation", industry: "Human Resources" },
+            { name: 'Jessica Lee', company: 'Western Digital', position: "RAMP Compensation Intern", industry: "Human Resources" },
         ],
 
         "Marketing": [
-            { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'BlackBerry', position: "Corporate Marketing", industry: "Marketing" },
-            { name: 'Julia Wong', company: 'Ytel', position: "Digital Marketing", industry: "Marketing" },
-            { name: <Link component={RouterLink} to="/active-brothers/le-an-pham" color="inherit">Le An Pham</Link>, company: 'Polar Holidays', position: "Digital Marketing", industry: "Marketing" },
+            { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'BlackBerry', position: "Corporate Marketing Intern", industry: "Marketing" },
+            { name: 'Julia Wong', company: 'Ytel', position: "Digital Marketing Intern", industry: "Marketing" },
+            { name: <Link component={RouterLink} to="/active-brothers/le-an-pham" color="inherit">Le An Pham</Link>, company: 'Polar Holidays', position: "Digital Marketing Intern", industry: "Marketing" },
             { name: <Link component={RouterLink} to="/active-brothers/karen-ching" color="inherit">Karen Ching</Link>, company: 'HomeTown Financial Services', position: "Marketing Intern", industry: "Marketing" },       
             { name: <Link component={RouterLink} to="/active-brothers/vivi-liu" color="inherit">Vivi Liu</Link>, company: 'OC Visitors Association', position: "Marketing Coordinator", industry: "Marketing" },
         ],
@@ -46,15 +46,15 @@ export const roles2019 = {
         ],
 
         "Strategy": [
-            { name: 'Dominic Wright', company: 'Cox Communications', position: "Competitive Insights", industry: "Strategy" },
-            { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'Lumentum', position: "WorkPlace Services Business Operations", industry: "Operations" },
-            { name: 'Ivy Chen', company: 'Danone', position: "Category Strategy & Insights", industry: "Operations" },
+            { name: 'Dominic Wright', company: 'Cox Communications', position: "Competitive Insights Intern", industry: "Strategy" },
+            { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'Lumentum', position: "WorkPlace Services Business Operations Intern", industry: "Operations" },
+            { name: 'Ivy Chen', company: 'Danone', position: "Category Strategy & Insights Intern", industry: "Operations" },
         ],
 
         "Technology": [
-            { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'Pollenly', position: "Data Science Engineer", industry: "Tech" },
-            { name: "Kevin Loc", company: 'Siemens Software', position: "Software Development", industry: "Tech" },
-            { name: "Ryan Chen", company: 'Effect-Tech', position: "Software Engineering", industry: "Tech" },
+            { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'Pollenly', position: "Data Science Engineer Intern", industry: "Tech" },
+            { name: "Kevin Loc", company: 'Siemens Software', position: "Software Development Intern", industry: "Tech" },
+            { name: "Ryan Chen", company: 'Effect-Tech', position: "Software Engineer Intern", industry: "Tech" },
         ],
     },
 

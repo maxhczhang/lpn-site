@@ -7,7 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 import Typist from 'react-typist'
-import useWindowDimensions from '../../WindowListener'
+import useWindowDimensions from '../../utils/WindowListener'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -58,9 +58,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
     },
-    spacedTitle: {
-        letterSpacing: 6
-    }
 }));
 
 export default function HeaderContent({pageNum}) {
@@ -85,7 +82,7 @@ export default function HeaderContent({pageNum}) {
                             <Box fontWeight="fontWeightBold" fontSize={isMobile ? '3rem' : '3.5rem'}>{titles[0]}</Box>
                             <Typist.Backspace count={titles[0].length} delay={300}></Typist.Backspace>
 
-                            <Box fontWeight="fontWeightBold" fontSize='6rem' className={classes.spacedTitle}>{titles[1]}</Box>
+                            <Box fontWeight="fontWeightBold" fontSize='6rem' letterSpacing={6}>{titles[1]}</Box>
 
                             {captions.map((caption, i) => (
                                 <div>
@@ -123,15 +120,7 @@ export default function HeaderContent({pageNum}) {
             )
 
         case 2:
-            return (
-                <Box className={classes.noParallaxBckground}>
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" mt={6} mb={2}>
-                        Our Brothers
-                    </Box> 
-                    <Divider style={{height: 1, width: "70%"}}></Divider>
-                </Box>
-               
-            )
+            return ( <React.Fragment></React.Fragment> )
 
         case 3:
             return (

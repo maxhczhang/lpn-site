@@ -1,25 +1,25 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
 import ReactGA from 'react-ga'
 
-import BckgrndSelector from './BckgrndSelector'
-import ScrollToTop from './ScrollToTop'
+import BckgrndSelector from './utils/BckgrndSelector'
+import ScrollToTop from './utils/ScrollToTop'
 
-import Home from '../pages/home/Home'
-import About from '../pages/about/About'
-import ActiveBrothers from '../pages/brothers/ActiveBrothers'
-import Profile from '../pages/brothers/profile/Profile'
-import CampusInvolvement from '../pages/campusInvolvements/CampusInvolvement'
-import Careers from '../pages/careers/Careers'
-import Winter2021 from '../pages/rush/Winter2021'
-import Fall2020 from '../pages/rush/Fall2020'
-import FAQs from '../pages/faqs/FAQs'
-import Gallery from '../pages/gallery/Gallery'
-import Contact from '../pages/contact/Contact'
-import Footer from '../layouts/Footer'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import ActiveBrothers from './pages/brothers/ActiveBrothers'
+import Profile from './pages/brothers/profile/Profile'
+import CampusInvolvement from './pages/campusInvolvements/CampusInvolvement'
+import Careers from './pages/careers/Careers'
+import Winter2021 from './pages/rush/Winter2021'
+import Fall2020 from './pages/rush/Fall2020'
+import FAQs from './pages/faqs/FAQs'
+import Gallery from './pages/gallery/Gallery'
+import Contact from './pages/contact/Contact'
+import Footer from './layouts/Footer'
 
 
 let theme = createMuiTheme({
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "white",
         color: "black",
         flexGrow: 1,
-        minHeight: "100vh"
+        minHeight: "100vh",
     },
 }));
 

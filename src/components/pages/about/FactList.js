@@ -5,6 +5,10 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export const facts = [
     {
+        answer: <Link component={RouterLink} to="/active-brothers" color="inherit" underline="none">185</Link>,
+        title: "Active & Alumni Brothers",
+    },
+    {
         answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">8</Link>,
         title: "Business Orgs Founded",
     },
@@ -21,13 +25,10 @@ export const facts = [
         title: "Internship Placement Rate",
     },
     {
-        answer: <Link component={RouterLink} to="/careers" color="inherit" underline="none">2.5</Link>,
-        title: "Average Internship Internships Per Active",
+        answer: <Link component={RouterLink} to="/careers" color="inherit" underline="none">2.9</Link>,
+        title: "Average Internships Per Active",
     },
-    {
-        answer: <Link component={RouterLink} to="/careers" color="inherit" underline="none">94%</Link>,
-        title: "Full-time Offer Rate Prior To Graduation",
-    },
+   
 ];
 
 export default { facts };

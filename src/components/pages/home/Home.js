@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 import { ParallaxBanner } from 'react-scroll-parallax';
 
-import useWindowDimensions from '../../WindowListener';
+import useWindowDimensions from '../../utils/WindowListener';
 import colorLogo from '../../../assets/lpn_assets/logo.png';
 import CoreValuesSeperator from '../../../assets/home/Values_Separator.jpg';
 import HomeCoreValues from './HomeCoreValues';
@@ -18,6 +18,9 @@ import Companies from './Companies';
 import MyCarousel from './MyCarousel'
 import { carousel1photos } from './lists/Carousel1Photos';
 import { carousel2photos } from './lists/Carousel2Photos';
+
+// import Carousel from '../../utils/Carousel'
+// import { companyLogos } from './lists/CompanyLogos';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -85,10 +88,10 @@ export default function Home({setPage}) {
         <Box mt={16} mb={16} className={classes.root}>
 
             <Typography component="div">
-                <Box fontSize="h2.fontSize" fontWeight="fontWeightBold">
+                <Box fontSize="h1.fontSize" fontWeight="fontWeightBold">
                     Our Legacy
                 </Box>
-                <Box fontWeight="fontWeightMedium" fontSize="h6.fontSize" mt={1}>
+                <Box fontWeight="fontWeightMedium" fontSize="h5.fontSize" mt={1}>
                     Grow Forward. Give Back.
                 </Box>
             </Typography>           
@@ -193,8 +196,8 @@ export default function Home({setPage}) {
                 ]}
             >
                 <div className={classes.interviews}>
-                    <Typography variant="h3">
-                        <Box fontWeight="fontWeightBold">
+                    <Typography component="div">
+                        <Box fontWeight="fontWeightBold" fontSize="h1.fontSize">
                             Our Values
                         </Box>
                     </Typography>
@@ -213,7 +216,7 @@ export default function Home({setPage}) {
 
             <Box mt={14} align="center">
                 <Typography component="div">
-                    <Box fontSize="h2.fontSize" fontWeight="fontWeightBold" className={classes.paragraph}>
+                    <Box fontSize={isMobile ? "h3.fontSize" : "h1.fontSize"} fontWeight="fontWeightBold" className={classes.paragraph}>
                         Where We've Worked
                     </Box>
                 </Typography>
@@ -222,6 +225,8 @@ export default function Home({setPage}) {
                     <Companies isMobile={isMobile}></Companies>
                 </Box>
             </Box>
+
+            {/* <Carousel items={companyLogos}></Carousel> */}
 
         </Box>
     )

@@ -13,11 +13,11 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
     paper: {
         color: "white",
-        backgroundColor: "rgb(100,100,100)"
+        backgroundColor: "rgb(90,90,90)"
     },
     menuItem: {
         "&:hover": {
-            backgroundColor: "rgb(80,80,80)"
+            backgroundColor: "rgb(70,70,70)"
         }
     }
 }));
@@ -57,7 +57,7 @@ export default function MyMenu({mainTitle, menuItems, buttonStyle}) {
                 <Typography component="div">
                     {menuItems.map((item, i) => (
                         <MenuItem component={Link} to={item.url} onClick={handleClose} className={classes.menuItem} key={i}>
-                            <Box fontWeight="fontWeightMedium" fontSize="body1.fontSize">
+                            <Box fontWeight={500} fontSize={13} letterSpacing={2}>
                                 {item.title}
                             </Box>
                         </MenuItem>
