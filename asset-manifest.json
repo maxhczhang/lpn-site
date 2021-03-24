@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ce0b58f8.chunk.css",
-    "main.js": "/static/js/main.267d7659.chunk.js",
-    "main.js.map": "/static/js/main.267d7659.chunk.js.map",
+    "main.js": "/static/js/main.9c03f0e7.chunk.js",
+    "main.js.map": "/static/js/main.9c03f0e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.ef710897.chunk.js": "/static/js/2.ef710897.chunk.js",
-    "static/js/2.ef710897.chunk.js.map": "/static/js/2.ef710897.chunk.js.map",
+    "static/js/2.094ad624.chunk.js": "/static/js/2.094ad624.chunk.js",
+    "static/js/2.094ad624.chunk.js.map": "/static/js/2.094ad624.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1701af53e2c0c352b7814830bf12b467.js": "/precache-manifest.1701af53e2c0c352b7814830bf12b467.js",
+    "precache-manifest.81700dd316a44dc9a7ff550e367ae531.js": "/precache-manifest.81700dd316a44dc9a7ff550e367ae531.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.ce0b58f8.chunk.css.map": "/static/css/main.ce0b58f8.chunk.css.map",
-    "static/js/2.ef710897.chunk.js.LICENSE.txt": "/static/js/2.ef710897.chunk.js.LICENSE.txt",
+    "static/js/2.094ad624.chunk.js.LICENSE.txt": "/static/js/2.094ad624.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.9f715aa3.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -22,7 +22,6 @@
     "static/media/Amazon.png": "/static/media/Amazon.52fc8e31.png",
     "static/media/Andrew_Duong.png": "/static/media/Andrew_Duong.3be12fb2.png",
     "static/media/Andrew_Duong.jpg": "/static/media/Andrew_Duong.e10cace6.jpg",
-    "static/media/Astyr_Ko.jpg": "/static/media/Astyr_Ko.60c5b9de.jpg",
     "static/media/Astyr_Ko.png": "/static/media/Astyr_Ko.e47b063d.png",
     "static/media/BAP.png": "/static/media/BAP.8a100ec4.png",
     "static/media/BDO.png": "/static/media/BDO.18b04375.png",
@@ -70,7 +69,6 @@
     "static/media/Iotas_Seniors.jpg": "/static/media/Iotas_Seniors.55cf1e69.jpg",
     "static/media/JPMorgan.jpg": "/static/media/JPMorgan.6328b2f9.jpg",
     "static/media/JPMorgan.png": "/static/media/JPMorgan.63682a87.png",
-    "static/media/Jasmin_He.jpg": "/static/media/Jasmin_He.a3fa163d.jpg",
     "static/media/Jeffrey_Cho.jpg": "/static/media/Jeffrey_Cho.bec30c38.jpg",
     "static/media/Jeffrey_Cho.png": "/static/media/Jeffrey_Cho.a85e603f.png",
     "static/media/Jennifer_Lin.png": "/static/media/Jennifer_Lin.7e710ce2.png",
@@ -148,13 +146,14 @@
     "static/media/Xi_Frat_Social.JPG": "/static/media/Xi_Frat_Social.7d62310a.JPG",
     "static/media/Yong_Lin.jpg": "/static/media/Yong_Lin.96130081.jpg",
     "static/media/logo.png": "/static/media/logo.f68038e3.png",
-    "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png"
+    "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png",
+    "static/media/pfp_temp.png": "/static/media/pfp_temp.0899dbfb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.ef710897.chunk.js",
+    "static/js/2.094ad624.chunk.js",
     "static/css/main.ce0b58f8.chunk.css",
-    "static/js/main.267d7659.chunk.js"
+    "static/js/main.9c03f0e7.chunk.js"
   ]
 }
