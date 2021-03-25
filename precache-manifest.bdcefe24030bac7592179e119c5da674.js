@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dec9b60e17e66a4b3af9605227722e3e",
+    "revision": "4c3aa3af659d3ca78716219509a01a41",
     "url": "/index.html"
   },
   {
-    "revision": "3bba06cb4f727d61a588",
+    "revision": "cf6be90f097f2113be07",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "bcb92c781c8f01ad7abb",
+    "revision": "8e1b42bc6358a86ace51",
     "url": "/static/css/main.ce0b58f8.chunk.css"
   },
   {
-    "revision": "3bba06cb4f727d61a588",
-    "url": "/static/js/2.094ad624.chunk.js"
+    "revision": "cf6be90f097f2113be07",
+    "url": "/static/js/2.fe0251d8.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.094ad624.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fe0251d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcb92c781c8f01ad7abb",
-    "url": "/static/js/main.9c03f0e7.chunk.js"
+    "revision": "8e1b42bc6358a86ace51",
+    "url": "/static/js/main.f0495109.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7be48073be1bcaeea8a1bd440acbc28",
     "url": "/static/media/CampusInvolvement.d7be4807.jpg"
+  },
+  {
+    "revision": "3e1feee1d94abc284d0a09606868ca21",
+    "url": "/static/media/CapitalOne.3e1feee1.png"
   },
   {
     "revision": "a4a786b5151915bf81dbb3d322ac53fc",
@@ -644,6 +648,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Tiffany_Wong.a8bb859e.jpg"
   },
   {
+    "revision": "79fe9007a3108f4fc0730b1bf9841d2d",
+    "url": "/static/media/TikTok.79fe9007.png"
+  },
+  {
     "revision": "5180e9e97019f93b11b856124abe7162",
     "url": "/static/media/Tony_Zhou.5180e9e9.jpg"
   },
@@ -674,10 +682,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d758f3c193e7f9abc551026e1eb36f61",
     "url": "/static/media/UnitedExchangeCorp.d758f3c1.png"
-  },
-  {
-    "revision": "b9f368dd8e108dcb6986b00bcae25ccb",
-    "url": "/static/media/VMWare.b9f368dd.png"
   },
   {
     "revision": "6c3239a81717d9aeb7eb24b509065f4c",
@@ -718,6 +722,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9613008179c89e80d58a8a85ea063e97",
     "url": "/static/media/Yong_Lin.96130081.jpg"
+  },
+  {
+    "revision": "f238e35443bb5adca21640a101029382",
+    "url": "/static/media/eBay.f238e354.png"
   },
   {
     "revision": "f68038e36a790eac4d9dc325b089325e",
