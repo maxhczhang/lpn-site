@@ -156,7 +156,9 @@ export default function Careers({ setPage }) {
             </Tabs>
 
             <TabPanel value={value} index={0} className={classes.tabPanel}>
-                <Chart title="2021 Internships" positions={roles2021} isMobile={isMobile}></Chart>
+                <Chart title="2021 Internships" positions={roles2021["Internships"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2021 Full Times" positions={roles2021["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
             <TabPanel value={value} index={1} className={classes.tabPanel}>

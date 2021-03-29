@@ -5,7 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export const facts = [
     {
-        answer: <Link component={RouterLink} to="/active-brothers" color="inherit" underline="none">185</Link>,
+        answer: <Link component={RouterLink} to="/active-brothers" color="inherit" underline="none">193</Link>,
         title: "Active & Alumni Brothers",
     },
     {

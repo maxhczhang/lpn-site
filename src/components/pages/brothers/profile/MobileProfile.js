@@ -32,7 +32,7 @@ export default function MobileProfile({name, profile, classes}) {
                 <Grid item xs={12}>
                     <img className={classes.mobileimg} alt={name} src={profile["img"]} />
                 </Grid>
-            
+        
             </Grid>
             
             <Box mt={4}></Box>
@@ -40,7 +40,7 @@ export default function MobileProfile({name, profile, classes}) {
             <Box mt={4}></Box>
                 
             <Typography component="div" className={classes.paragraph}>
-                <Grid container direction="row" justify="center" spacing={2}>
+                <Grid container direction="row" justify="align-start" spacing={2}>
 
                     <Grid item xs={6}>
                         <ProfileSingle data={profile["year"]} title="Year" isMobile={true}></ProfileSingle>
@@ -50,13 +50,17 @@ export default function MobileProfile({name, profile, classes}) {
                         <ProfileSingle data={profile["practice"]} title="Practice" isMobile={true}></ProfileSingle>
                     </Grid>
 
-                    <Grid item xs={6}>
-                        <ProfileArray data={profile["interests"]} title="Interests" isMobile={true}></ProfileArray>
-                    </Grid>
-
-                    <Grid item xs={6}>
-                        <ProfileObject data={profile["experience"]} title="Experience" isMobile={true}></ProfileObject>
-                    </Grid>
+                    {profile["interests"] !== "" && 
+                        <Grid item xs={6}>
+                            <ProfileArray data={profile["interests"]} title="Interests" isMobile={true}></ProfileArray>
+                        </Grid>
+                    }
+                   
+                    {profile["experience"] !== "" &&
+                        <Grid item xs={6}>
+                            <ProfileObject data={profile["experience"]} title="Experience" isMobile={true}></ProfileObject>
+                        </Grid>
+                    }
 
                     <Grid item xs={6}>
                         <ProfileObject data={profile["campusInvolvements"]} title="Involvement" isMobile={true}></ProfileObject>

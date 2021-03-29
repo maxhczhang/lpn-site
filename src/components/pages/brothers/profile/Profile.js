@@ -18,8 +18,6 @@ import useWindowDimensions from '../../../utils/WindowListener'
 const useStyles = makeStyles((theme) => ({
     img: {
         width: "50%",
-        //width: 300,
-        //height: 450,
     },
     mobileimg: {
         width: 300,
@@ -36,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
     },
     paragraph: {
-        maxWidth: "80%"
+        maxWidth: "78%"
     },
     button: {
         '& > *': {
@@ -149,15 +147,15 @@ export default function Profile({setPage, match}) {
                 <Box mt={6}></Box>
 
                 <Typography component="div" className={classes.paragraph}>
-                    <Grid container spacing={3} direction="row" justify="space-around">
+                    <Grid container spacing={6} direction="row" justify="space-between">
 
-                        <Grid item xs={3}>
+                        <Grid item>
                             <ProfileObject data={profile["experience"]} title="Experience" isMobile={isMobile}></ProfileObject>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item>
                             <ProfileObject data={profile["campusInvolvements"]} title="Involvement" isMobile={isMobile}></ProfileObject>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item>
                             <ProfileArray data={profile["interests"]} title="Interests" isMobile={isMobile}></ProfileArray>
                         </Grid>
 

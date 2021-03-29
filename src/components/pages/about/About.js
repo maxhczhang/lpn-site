@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
 
 import { ParallaxBanner } from 'react-scroll-parallax';
 
@@ -11,6 +12,8 @@ import useWindowDimensions from '../../utils/WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
 import history_sep from '../../../assets/about/Founders_Alt_1.png'
+import PieChartWrapper from './PieChartWrapper'
+import { chartData } from './PieChartData';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -23,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     },
     paragraph: {
         maxWidth: "60%"
+    },
+    chart: {
+        maxWidth: "85%"
     },
     content: {
         maxWidth: "80%"
@@ -69,6 +75,19 @@ export default function About({setPage}) {
                     </Box>
                 </Typography>
             </Box>
+
+            <Grid container spacing={10} justify="space-between" alignItems="center" className={classes.chart}>
+                <Grid item>
+                    <PieChartWrapper title="Gender" dataIn={chartData["Gender"]["data"]} lightened={chartData["Gender"]["lightened"]} angle={90} isMobile={isMobile}></PieChartWrapper>
+                </Grid>
+                <Grid item>
+                    <PieChartWrapper title="MBTI" dataIn={chartData["MBTI"]["data"]} lightened={chartData["MBTI"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
+                </Grid>
+                <Grid item>
+                    <PieChartWrapper title="Industries" dataIn={chartData["Major"]["data"]} lightened={chartData["Major"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
+                </Grid>
+            </Grid>
+            <Box mb={8}></Box>
           
             <Divider className={classes.divider}></Divider>
 

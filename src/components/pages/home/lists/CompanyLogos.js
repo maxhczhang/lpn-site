@@ -40,8 +40,8 @@ export const companyLogos = [
         title: 'KPMG'
     },
     {
-        img: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
-        title: 'Shisedo'
+        img: require('../../../../assets/actives/logos/Astyr_Ko.png'),
+        title: 'ServiceNow'
     },
     {
         img: require('../../../../assets/companyLogos/Disney.png'),

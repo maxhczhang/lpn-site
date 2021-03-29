@@ -15,14 +15,14 @@ export const directors = [
         company: 'CreatorUp',
         width: "30%"
     },
-    // {
-    //     img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
-    //     name: "Linda Woo",
-    //     logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
-    //     title: 'Associate Educator',
-    //     company: 'KPMG',
-    //     width: "55%"
-    // },
+    {
+        img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
+        name: "Linda Woo",
+        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
+        title: 'Associate Educator',
+        company: 'KPMG',
+        width: "55%"
+    },
     {
         img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
         name: "Faith Chia",
@@ -106,14 +106,6 @@ export const directors = [
         logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
         company: 'Issuu',
         width: "35%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
-        name: "Ryan Miranda",
-        title: "Webmaster",
-        logo: require('../../../../assets/actives/logos/Ryan_Miranda.png'),
-        company: 'Microsoft',
-        width: "30%"
     },
     // {
     //     img: require('../../../../assets/actives/directors_small/Alex_Cole.jpg'),

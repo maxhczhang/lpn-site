@@ -5,9 +5,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/david-sonq'
     },
     {
-        img: require('../../../assets/companyLogos/Accenture.png'),
-        title: 'Accenture',
-        link: 'https://www.linkedin.com/in/jeffyinlu/',
+        img: require('../../../assets/companyLogos/eBay.png'),
+        title: 'eBay',
+        link: 'https://www.lpnuci.com/#/active-brothers/naveen-sastri',
     },
     {
         img: require('../../../assets/companyLogos/Amazon.png'),
@@ -15,9 +15,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/julian-rachman'
     },
     {
-        img: require('../../../assets/actives/logos/Astyr_Ko.png'),
-        title: 'ServiceNow',
-        link: 'https://www.lpnuci.com/#/active-brothers/astyr-ko'
+        img: require('../../../assets/companyLogos/TikTok.png'),
+        title: 'TikTok',
+        link: 'https://www.lpnuci.com/#/active-brothers/omar-naji'
     },
     {
         img: require('../../../assets/companyLogos/Microsoft.png'),
@@ -35,9 +35,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/lucian-liu'
     },
     {
-        img: require('../../../assets/companyLogos/VMWare.png'),
-        title: 'VMWare',
-        link: 'https://www.linkedin.com/in/ryan-chen-b12561130/',
+        img: require('../../../assets/companyLogos/CapitalOne.png'),
+        title: 'Capital One',
+        link: 'https://www.lpnuci.com/#/active-brothers/yong-lin',
     },
     {
         img: require('../../../assets/actives/logos/Jenny_Cheung.png'),
