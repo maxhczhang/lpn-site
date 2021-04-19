@@ -1,53 +1,51 @@
 export const csuite = [
+
     {
-        img: require('../../../../assets/actives/brothers_small/Le_An_Pham.jpg'),
-        name: "Le An Pham",
+        img: require('../../../../assets/actives/brothers_small/Linda_Woo.jpg'),
+        name: "Linda Woo",
         title: 'Chief Information Officer',
-        logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
-        company: 'United Exchange Corporation',
-        width: "40%",
+        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
+        company: 'KPMG',
+        width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Tiffany_Wong.jpg'),
-        name: "Tiffany Wong",
+        img: require('../../../../assets/actives/brothers_small/Ethan_Canavan.jpg'),
+        name: "Ethan Canavan",
         title: 'Chief Financial Officer',
-        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
-        company: 'JPMorgan Chase & Co',
-        width: "60%",
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Julian_Rachman.jpg'),
-        name: "Julian Rachman",
+        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
+        name: "Lucian Liu",
         title: 'Chief Executive Officer',
-        logo: require('../../../../assets/actives/logos/Julian_Rachman.png'),
-        company: 'Ripplink',
-        width: "30%"
+        logo: require('../../../../assets/actives/logos/Prudential.png'),
+        company: 'Prudential Private Capital',
+        width: "35%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Sahana_Vairavaraj.jpg'),
-        name: "Sahana Vairavaraj",
-        title: 'Chief Talent Officer',
-        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
-        company: 'Capital One',
-        width: "55%",
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Matthew_Nagata.jpg'),
-        name: "Matthew Nagata",
+        img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),
+        name: "Catherine Nguyen",
         title: 'Chief Operating Officer',
-        logo: require('../../../../assets/actives/logos/Matthew_Nagata.png'),
-        company: 'Bear Street Holdings',
-        width: "40%",
+        logo: require('../../../../assets/actives/logos/HashiCorp.png'),
+        company: 'HashiCorp',
+        width: "25%",
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers_small/Astyr_Ko.jpg'),
-    //     name: "Astyr Ko",
-    //     title: 'Primary CTO',
-    //     logo: require('../../../../assets/actives/logos/Astyr_Ko.png'),
-    //     company: 'ServiceNow',
-    //     isLongRect: true,
-    // },
-   
+    {
+        img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
+        name: "Faith Chia",
+        title: 'Fall Chief Talent Officer',
+        logo: require('../../../../assets/actives/logos/TJX.png'),
+        company: 'TJX',
+        width: "35%"
+    },
+     {
+        img: require('../../../../assets/actives/brothers_small/Omar_Naji.jpg'),
+        name: "Omar Naji",
+        title: 'Winter Chief Talent Officer',
+        logo: require('../../../../assets/actives/logos/TikTok.png'),
+        company: 'TikTok',
+        width: "35%"
+    },   
+    
 ];
 
 export default { csuite };

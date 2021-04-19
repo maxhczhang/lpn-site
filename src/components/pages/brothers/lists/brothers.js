@@ -1,4 +1,12 @@
 export const brothers = [
+
+    {
+        img: require("../../../../assets/actives/brothers_small/Julian_Rachman.jpg"),
+        name: "Julian Rachman",
+        logo: require('../../../../assets/actives/logos/Julian_Rachman.png'),
+        company: 'Ripplink',
+        width: "30%"
+    },
     {
         img: require("../../../../assets/actives/brothers_small/Karen_Ching.jpg"),
         name: "Karen Ching",
@@ -28,12 +36,20 @@ export const brothers = [
     //     width: "35%"
     // },
 
-    {
-        img: require("../../../../assets/actives/brothers_small/David_Sonq.jpg"),
-        name: "David Sonq",
-        logo: require('../../../../assets/actives/logos/David_Sonq.png'),
-        company: 'EY',
-        width: "30%"
+
+    // {
+    //     img: require("../../../../assets/actives/brothers_small/David_Sonq.jpg"),
+    //     name: "David Sonq",
+    //     logo: require('../../../../assets/actives/logos/David_Sonq.png'),
+    //     company: 'EY',
+    //     width: "30%"
+    // },
+      {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Ben Fan",
+        logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
+        company: 'KJ Soft',
+        width: "35%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Emily_Nguyen.jpeg'),
@@ -49,13 +65,13 @@ export const brothers = [
     //     company: 'Seagate',
     //     width: "40%"
     // },
-    {
-        img: require('../../../../assets/actives/brothers_small/Jenny_Cheung.jpg'),
-        name: "Jenny Cheung",
-        logo: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
-        company: 'Shiseido',
-        width: "65%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers_small/Jenny_Cheung.jpg'),
+    //     name: "Jenny Cheung",
+    //     logo: require('../../../../assets/actives/logos/Jenny_Cheung.png'),
+    //     company: 'Shiseido',
+    //     width: "65%"
+    // },
     {
         img: require("../../../../assets/actives/brothers_small/Sandy_Nguyen.jpg"),
         name: "Sandy Nguyen",
@@ -70,14 +86,30 @@ export const brothers = [
         company: 'Ripplink',
         width: "30%"
     },
+    {
+        img: require('../../../../assets/actives/brothers_small/Tiffany_Wong.jpg'),
+        name: "Tiffany Wong",
+        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
+        company: 'JP Morgan Chase & Co',
+        width: "60%"
+    },
    
-    // {
-    //     img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
-    //     name: "Linda Woo",
-    //     logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
-    //     company: 'KPMG',
-    //     width: "55%"
-    // },
+
+    {
+        img: require("../../../../assets/actives/brothers_small/Sahana_Vairavaraj.jpg"),
+        name: "Sahana Vairavaraj",
+        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
+        company: 'Capital One',
+        width: "65%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Sera_Xu.jpg"),
+        name: "Sera Xu",
+        logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
+        company: 'Creator Up',
+        width: "35%"
+    },
+
 
     {
         img: require("../../../../assets/actives/brothers_small/Andrew_Duong.jpg"),
@@ -94,11 +126,15 @@ export const brothers = [
         width: "30%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
-        name: "Raymond Dinh",
-        logo: require('../../../../assets/actives/logos/AgoraNeos.png'),
-        company: 'Agora Neos',
-        width: "70%"
+        img: require('../../../../assets/actives/brothers_small/Naishal_Shah.jpg'),
+        name: "Naishal Shah",
+    },
+       {
+        img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
+        name: "Philip Cheung",
+        logo: require('../../../../assets/actives/logos/Deloitte.png'),
+        company: 'Deloitte',
+        width: "60%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Ryan_Miranda.jpg'),
@@ -107,18 +143,21 @@ export const brothers = [
         company: 'Microsoft',
         width: "30%"
     },
+     {
+        img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
+        name: "Serina Nguyen",
+        logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
+        company: 'Issuu',
+        width: "35%"
+    },
+     {
+        img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
+        name: "Yong Lin",
+        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
+        width: "65%"
+    },
+    
 
-    {
-        img: require('../../../../assets/actives/brothers_small/Adrian_Siu.jpg'),
-        name: "Adrian Siu",
-    },  
-    {
-        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
-        name: "Kaylie Zhou",
-        logo: require('../../../../assets/actives/logos/GAOTek.png'),
-        company: 'GAOTek Inc',
-        width: "40%"
-    }, 
     {
         img: require('../../../../assets/actives/brothers_small/Haley_Kim.png'),
         name: "Haley Kim",
@@ -127,61 +166,14 @@ export const brothers = [
         width: "35%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Jennifer_Lin.png'),
-        name: "Jennifer Lin",
-    },
-    {
         img: require('../../../../assets/actives/brothers_small/Julio_Cano.png'),
         name: "Julio Cano",
     },
-    {
-        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.png'),
-        name: "Naveen Sastri",
-        logo: require('../../../../assets/actives/logos/Instaboost.png'),
-        company: 'Instaboost Media',
-        width: "30%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Raj_Singh.png'),
-        name: "Raj Singh",
-        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
-        company: 'Sencha Credit',
-        width: "25%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
-        name: "Khoa Tran",
-        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
-        company: 'JP Morgan Chase & Co',
-        width: "60%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Cathy_Yun.jpg'),
-        name: "Cathy Yun",
-        logo: require('../../../../assets/actives/logos/BDO.png'),
-        company: 'BDO USA',
-        width: "45%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
-        name: "Vivian Tran",
-        logo: require('../../../../assets/actives/logos/Kanerani.png'),
-        company: 'Kanerani',
-        width: "30%"
-    },
-
-
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Courtney Tsao",
-    },
+    
+    
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Elizabeth Chan",
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Ethan Canavan",
     },
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
@@ -191,18 +183,7 @@ export const brothers = [
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Hanui Lee",
     },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Lilian Luu",
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Lumin Oo",
-    },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Rithu Eswaramoorthy",
-    },
+
 ];
 
 export default { brothers };

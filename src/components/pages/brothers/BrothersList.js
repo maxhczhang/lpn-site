@@ -32,7 +32,7 @@ const nameToPath = (name) => {
 }
 
 
-const BrothersList = ({ brothers, scrollPosition }) => {
+const BrothersList = ({ brothers, scrollPosition, width, height }) => {
     const classes = useStyles();
     
     return (
@@ -40,15 +40,15 @@ const BrothersList = ({ brothers, scrollPosition }) => {
 
             <Grid container direction="row" justify="center" alignItems="center" spacing={3}>
                 {brothers.map((tile, i) => (
-                    <Grid item xs key={i}>                   
+                    <Grid item key={i}>                   
                         
-                        <div className="content">
+                        <div className="content" style={{width:width}}>
                             <Link to={nameToPath(tile.name)}>
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
-                                    width={218}
-                                    height={330}
+                                    width={width}
+                                    height={height}
                                     scrollPosition={scrollPosition}
                                     src={tile.img}
                                     effect="blur"
@@ -71,6 +71,9 @@ const BrothersList = ({ brothers, scrollPosition }) => {
                             <Box mt={1} letterSpacing={2} fontSize={14} className={classes.name}>
                                 {tile.name}
                             </Box>
+                            {/* <Box mt={1} letterSpacing={2} fontSize={11} className={classes.name}>
+                                {tile.title}
+                            </Box> */}
                         </Typography>
                         
                     </Grid>

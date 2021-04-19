@@ -1,126 +1,108 @@
 export const directors = [
+
+     {
+        img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
+        name: "Raymond Dinh",
+        title: 'Strategy Director',
+        logo: require('../../../../assets/actives/logos/AgoraNeos.png'),
+        company: 'Agora Neos',
+        width: "70%"
+    },    
     {
-        img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
-        name: "Joshua Tong",
-        title: 'Culture & Relationships Director',
-        logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
-        company: 'United Exchange Corporation',
-        width: "40%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Sera_Xu.jpg'),
-        name: "Sera Xu",
-        title: 'Finance Director',
-        logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
-        company: 'CreatorUp',
+        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
+        name: "Vivian Tran",
+        title: "Alumni Relations Director, Recruiter",
+        logo: require('../../../../assets/actives/logos/Kanerani.png'),
+        company: 'Kanerani',
         width: "30%"
     },
     {
-        img: require("../../../../assets/actives/brothers_small/Linda_Woo.jpg"),
-        name: "Linda Woo",
-        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
-        title: 'Associate Educator',
-        company: 'KPMG',
-        width: "55%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
-        name: "Faith Chia",
-        title: 'Associate Auditor',
-        logo: require('../../../../assets/actives/logos/TJX.png'),
-        company: 'TJX',
-        width: "35%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Jeffrey_Cho.jpg'),
-        name: "Jeffrey Cho",
-        logo: require('../../../../assets/actives/logos/Jeffrey_Cho.png'),
-        company: 'Western Digital',
-        title: "Recruiter",
-        width: "45%"
-    },
-    {
-        img: require("../../../../assets/actives/brothers_small/Omar_Naji.jpg"),
-        name: "Omar Naji",
-        logo: require('../../../../assets/actives/logos/QuokkaBrew.png'),
-        company: 'Quokka Brew',
-        title: "Recruiter",
-        width: "55%"
-    }, 
-    {
-        img: require("../../../../assets/actives/brothers_small/Naishal_Shah.jpg"),
-        name: "Naishal Shah",
-        title: "Associate Counselor"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
-        name: "Yong Lin",
-        title: 'Associate Counselor Career Catalyst',
-        logo: require('../../../../assets/actives/logos/CityNationalBank.png'),
-        company: 'City National Bank',
-        width: "70%"
+        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
+        name: "Kaylie Zhou",
+        title: "Internal Auditor",
+        logo: require('../../../../assets/actives/logos/GAOTek.png'),
+        company: 'GAOTek Inc',
+        width: "40%"
     },
 
+
     {
-        img: require('../../../../assets/actives/brothers_small/Ian_Han.jpg'),
-        name: "Ian Han",
-        title: 'Alumni Relations Director',
-        logo: require('../../../../assets/actives/logos/Le_An_Pham.png'),
-        company: 'Sunwest Bank',
-        width: "35%"
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Lumin Oo",
+        title: "Finance Director"
+    },
+
+
+    {
+        img: require('../../../../assets/actives/brothers_small/Adrian_Siu.jpg'),
+        name: "Adrian Siu",
+        title: "Marketing Director"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
-        name: "Tyler Newman",
-        title: 'Culture & Relationships Director'
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Lilian Luu",
+        title: "Marketing Director"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),
-        name: "Catherine Nguyen",
-        title: 'Social Impact Director',
-        logo: require('../../../../assets/actives/logos/HashiCorp.png'),
-        company: 'HashiCorp',
-        width: "25%"
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Rithu Eswaramoorthy",
+        title: "Webmaster"
     },
-   
+
+
     {
-        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
-        name: "Lucian Liu",
-        title: 'Strategy Director',
-        logo: require('../../../../assets/actives/logos/Lucian_Liu.png'),
-        company: 'Experian',
-        width: "50%"
-    },    
-    {
-        img: require("../../../../assets/actives/brothers_small/Philip_Cheung.jpg"),
-        name: "Philip Cheung",
-        title: 'Internal Affairs Director',
-        logo: require('../../../../assets/actives/logos/Deloitte.png'),
-        company: 'Deloitte',
+        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
+        name: "Khoa Tran",
+        title: "Career Catalyst Director",
+        logo: require('../../../../assets/actives/logos/JPMorgan.png'),
+        company: 'JP Morgan Chase & Co',
         width: "60%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
-        name: "Serina Nguyen",
-        title: 'Marketing Director',
-        logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
-        company: 'Issuu',
-        width: "35%"
+        img: require('../../../../assets/actives/brothers_small/Jennifer_Lin.png'),
+        name: "Jennifer Lin",
+        title: 'Culture & Relationships Director, Recruiter',
     },
-    // {
-    //     img: require('../../../../assets/actives/directors_small/Alex_Cole.jpg'),
-    //     name: "Alex Cole",
-    //     title: 'Finance'
-    // },
     {
-        img: require('../../../../assets/actives/brothers_small/Ben_Fan.JPG'),
-        name: "Ben Fan",
-        title: 'Information Systems Director',
-        logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
-        company: 'KJ Soft',
-        width: "35%"
+        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.png'),
+        name: "Naveen Sastri",
+        title: 'Culture & Relationships Director',
+        logo: require('../../../../assets/companyLogos/eBay.png'),
+        company: 'eBay',
+        width: "40%"
     },
-
+    {
+        img: require('../../../../assets/actives/brothers_small/Raj_Singh.png'),
+        name: "Raj Singh",
+        title: "Social Impact Director",
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "25%"
+    },
+   
+    
+    {
+        img: require('../../../../assets/actives/brothers_small/Cathy_Yun.jpg'),
+        name: "Cathy Yun",
+        title: 'Associate Auditor',
+        logo: require('../../../../assets/actives/logos/BDO.png'),
+        company: 'BDO USA',
+        width: "45%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Courtney Tsao",
+        title: "Associate Counselor"
+    },
+    {
+        img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
+        name: "Josh Tong",
+        title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
+        company: 'United Exchange Corporation',
+        width: "45%"
+    },
+  
 ];
 
 export default { directors };
