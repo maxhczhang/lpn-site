@@ -11,9 +11,18 @@ import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-componen
 import './brothers.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+// apparently on mobile the dimensions of the pfps are off?
 
 const useStyles = makeStyles((theme) => ({
     root: {
+        display: "flex",
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: "column",
+        textAlign: "center",
+        paddingLeft: "12%",
+    },
+    root_csuite: {
         display: "flex",
         justifyContent: 'center',
         alignItems: 'center',
@@ -32,13 +41,13 @@ const nameToPath = (name) => {
 }
 
 
-const BrothersList = ({ brothers, scrollPosition, width, height }) => {
+const BrothersList = ({ brothers, scrollPosition, width, height, isCsuite }) => {
     const classes = useStyles();
     
     return (
-        <div className={classes.root}>
+        <div className={isCsuite ? classes.root_csuite : classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" spacing={3}>
+            <Grid container direction="row" justify={isCsuite ? "center" : "flex-start"} alignItems="center" spacing={3}>
                 {brothers.map((tile, i) => (
                     <Grid item key={i}>                   
                         
@@ -47,7 +56,7 @@ const BrothersList = ({ brothers, scrollPosition, width, height }) => {
                                 <LazyLoadImage
                                     key={i}
                                     alt={tile.name}
-                                    width={width}
+                                    width={tile.pfp_width ? tile.pfp_width : width}
                                     height={height}
                                     scrollPosition={scrollPosition}
                                     src={tile.img}

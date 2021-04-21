@@ -595,7 +595,7 @@ export const profiles = {
         campusInvolvements: { "VP of Finance": "Management Information Student Society", "VP of Corporate Relations": "Undergraduate Finance Association", "Organizing Commission Staffer": "Associated Students of UCI"},
         interests: ["Skiing", "Cooking", "Hot Yoga", "Hiking", "Fashion", "Traveling", "Podcasts", "Softball"],
         whyLPN: "Coming into college as a math major, there was no sense of community. After going through pledging and getting to meet motivated people, I already felt the sense of community that I was looking for in my college experience.",
-        img: require("../../../../assets/actives/brothers/Haley_Kim.png")
+        img: require("../../../../assets/actives/brothers/Haley_Kim.jpg")
     },
     Jennifer_Lin: {
         linkedIn: "https://www.linkedin.com/in/chia-chenjenniferlin/",
@@ -625,7 +625,7 @@ export const profiles = {
         campusInvolvements: {"Mentor": "Undergraduate/Undeclared Mentoring Program", "Scholarship Recipient": "Hispanic 100 Foundation"},
         interests: ["Running", "Swimming", "Badminton", "Hiking", "Skincare", "Cooking", "Digital Art"],
         whyLPN: "Family. Coming into UCI as a biology major and quickly realizing it was not the career for me was a very daunting experience. Hence a large majority of my friends were biology or non-business majors. As I finished my GE’s and began taking business-related courses, I found myself with no one to turn to or relate to. I then decided to seek a community that shared the same passion for business as I did, but instead, I not only found a community but a family. Lambda Phi Nu is filled with individuals who are committed, determined, and passionate about reaching their full potential, prompting one also to adopt those characteristics and become driven and motivated themselves.",
-        img: require("../../../../assets/actives/brothers/Julio_Cano.png")
+        img: require("../../../../assets/actives/brothers/Julio_Cano.jpg")
     },
     Kaylie_Zhou: {
         linkedIn: "https://www.linkedin.com/in/kaylie-zhou/",
@@ -670,7 +670,7 @@ export const profiles = {
         campusInvolvements: { "VP of Professional Development": "Undergraduate Business Association", "Publicity & Social Media Intern": "Tomo No Kai", "Information Associate": "Lambda Phi Nu"},
         interests: ["Tennis", "Reading", "Painting", "Listening to music", "Watching TV shows", "Eating"],
         whyLPN: "I chose LPN because I wanted to grow, both professionally and personally. LPN has helped me achieve so much in the little time I have been a part of it. I view my class as my family. I view the other active members as close friends and mentors. LPN helps you in so many ways. Get involved and make the most of your time with LPN, because this tight-knit community is unlike any other.",
-        img: require("../../../../assets/actives/brothers/Naveen_Sastri.png")
+        img: require("../../../../assets/actives/brothers/Naveen_Sastri.jpg")
     },
     Raj_Singh: {
         linkedIn: "https://www.linkedin.com/in/jasrajsingh1/",
@@ -700,7 +700,7 @@ export const profiles = {
         campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "Speaker's Commission Intern": "Associated Students of UCI", "Finance Associate": "Lambda Phi Nu"},
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
-        img: require("../../../../assets/actives/brothers/Vivian_Tran.png")
+        img: require("../../../../assets/actives/brothers/Vivian_Tran.jpg")
     },
 
 
@@ -718,7 +718,7 @@ export const profiles = {
         campusInvolvements: { "VP of Marketing": "Undergraduate Business Association", "Marketing Strategist Intern": "Associated Students of UCI" },
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require("../../../../assets/actives/brothers/Courtney_Tsao.jpg")
     },
     Elizabeth_Chan: {
         linkedIn: "https://www.linkedin.com/in/elizabethbchan/",
@@ -733,7 +733,7 @@ export const profiles = {
         campusInvolvements: { "Director of Public Relations": "Real Estate Association", "Academic Community Excellence Programmer": "UCI Middle Earth", "VP of Internal Affairs": "UCI Women in Leadership" },
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg')
     },
     Ethan_Canavan: {
         linkedIn: "https://www.linkedin.com/in/ethancanavan/",
@@ -748,7 +748,7 @@ export const profiles = {
         campusInvolvements: "",
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require("../../../../assets/actives/brothers/Ethan_Canavan.jpg")
     },
     Hanui_Lee: {
         linkedIn: "https://www.linkedin.com/in/hanui-lee/",
@@ -763,7 +763,7 @@ export const profiles = {
         campusInvolvements: {"Student Assistant": "Campuswide Honors Program", },
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg')
     },
     Jamie_Zhao: {
         linkedIn: "https://www.linkedin.com/in/jamiezh/",
@@ -778,7 +778,7 @@ export const profiles = {
         campusInvolvements: "",
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg')
     },
     Lilian_Luu: {
         linkedIn: "https://www.linkedin.com/in/lluu/",
@@ -793,7 +793,7 @@ export const profiles = {
         campusInvolvements: { "Representative": "Merage Undergraduate Student Association"},
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg')
     },
     Lumin_Oo: {
         linkedIn: "https://www.linkedin.com/in/luminoo/",
@@ -808,7 +808,7 @@ export const profiles = {
         campusInvolvements: { "Representative": "Merage Undergraduate Student Association", },
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require("../../../../assets/actives/brothers/Lumin_Oo.jpg")
     },
     Rithu_Eswaramoorthy: {
         linkedIn: "https://www.linkedin.com/in/rithu-eswaramoorthy/",
@@ -820,10 +820,10 @@ export const profiles = {
         emphasis: "",
         practice: "Software Engineering",
         experience: {"Webmaster":"Cupertino Robotics"},
-        campusInvolvements: "",
+        campusInvolvements: {"Software Engineer": "MAISS Project Teams"},
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/lpn_assets/pfp_temp.png")
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg')
     },
 
 };

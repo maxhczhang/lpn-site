@@ -9,15 +9,15 @@ export const directors = [
         width: "70%"
     },    
     {
-        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.png'),
+        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.jpg'),
         name: "Vivian Tran",
-        title: "Alumni Relations Director, Recruiter",
+        title: "Alumni Relations Director | Recruiter",
         logo: require('../../../../assets/actives/logos/Kanerani.png'),
         company: 'Kanerani',
         width: "30%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Kaylie_Zhou.png'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Kaylie Zhou",
         title: "Internal Auditor",
         logo: require('../../../../assets/actives/logos/GAOTek.png'),
@@ -27,31 +27,31 @@ export const directors = [
 
 
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Lumin_Oo.jpg'),
         name: "Lumin Oo",
         title: "Finance Director"
     },
 
 
     {
-        img: require('../../../../assets/actives/brothers_small/Adrian_Siu.jpg'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Adrian Siu",
         title: "Marketing Director"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),
         name: "Lilian Luu",
         title: "Marketing Director"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
         name: "Rithu Eswaramoorthy",
         title: "Webmaster"
     },
 
 
     {
-        img: require('../../../../assets/actives/brothers_small/Khoa_Tran.jpg'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Khoa Tran",
         title: "Career Catalyst Director",
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
@@ -59,12 +59,12 @@ export const directors = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Jennifer_Lin.png'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Jennifer Lin",
-        title: 'Culture & Relationships Director, Recruiter',
+        title: 'Culture & Relationships Director | Recruiter',
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.png'),
+        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.jpg'),
         name: "Naveen Sastri",
         title: 'Culture & Relationships Director',
         logo: require('../../../../assets/companyLogos/eBay.png'),
@@ -72,8 +72,8 @@ export const directors = [
         width: "40%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Raj_Singh.png'),
-        name: "Raj Singh",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Jasraj Singh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
         company: 'Sencha Credit',
@@ -82,7 +82,7 @@ export const directors = [
    
     
     {
-        img: require('../../../../assets/actives/brothers_small/Cathy_Yun.jpg'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Cathy Yun",
         title: 'Associate Auditor',
         logo: require('../../../../assets/actives/logos/BDO.png'),
@@ -90,13 +90,13 @@ export const directors = [
         width: "45%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
         name: "Courtney Tsao",
         title: "Associate Counselor"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
-        name: "Josh Tong",
+        name: "Joshua Tong",
         title: "Associate Counselor",
         logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
         company: 'United Exchange Corporation',
