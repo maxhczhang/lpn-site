@@ -66,7 +66,7 @@ const BrothersList = ({ brothers, scrollPosition, width, height, isCsuite }) => 
                                 <div className="content-overlay"></div>
 
                                 <div className="content-details fadeIn-bottom">
-                                    <div>{tile.title}</div>
+                                    <div>{tile.company}</div>
                                     {/* <p>{tile.title}</p> */}
                                     {tile.logo && 
                                         <img src={tile.logo} width={tile.width} alt={tile.company}></img>
@@ -79,6 +79,9 @@ const BrothersList = ({ brothers, scrollPosition, width, height, isCsuite }) => 
                         <Typography component="div">
                             <Box mt={1} letterSpacing={2} fontSize={14} className={classes.name}>
                                 {tile.name}
+                            </Box>
+                            <Box mt={1} letterSpacing={2} fontSize={12}>
+                                {tile.title}
                             </Box>
                             {/* <Box mt={1} letterSpacing={2} fontSize={11} className={classes.name}>
                                 {tile.title}
