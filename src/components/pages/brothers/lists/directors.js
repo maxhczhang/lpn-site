@@ -17,12 +17,12 @@ export const directors = [
         width: "30%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
         name: "Kaylie Zhou",
         title: "Internal Auditor",
-        logo: require('../../../../assets/actives/logos/GAOTek.png'),
-        company: 'GAOTek Inc',
-        width: "40%"
+        logo: require('../../../../assets/actives/logos/TikTok.png'),
+        company: 'TikTok',
+        width: "35%"
     },
 
 
@@ -34,9 +34,12 @@ export const directors = [
 
 
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Adrian_Siu.jpg'),
         name: "Adrian Siu",
-        title: "Marketing Director"
+        title: "Marketing Director",
+        logo: require('../../../../assets/actives/logos/IngramMicro.png'),
+        company: 'Ingram Micro',
+        width: "80%"
     },
     {
         img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),
@@ -51,7 +54,7 @@ export const directors = [
 
 
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Khoa_Tran.jpg'),
         name: "Khoa Tran",
         title: "Career Catalyst Director",
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
@@ -59,7 +62,7 @@ export const directors = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jennifer_Lin.jpg'),
         name: "Jennifer Lin",
         title: 'Culture & Relationships Director | Recruiter',
     },
@@ -72,7 +75,7 @@ export const directors = [
         width: "40%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Raj_Singh.jpg'),
         name: "Jasraj Singh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
