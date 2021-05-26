@@ -1,5 +1,12 @@
 export const csuite = [
-
+    {
+        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
+        name: "Lucian Liu",
+        title: 'Chief Executive Officer',
+        logo: require('../../../../assets/actives/logos/Prudential.png'),
+        company: 'Prudential Private Capital',
+        width: "35%"
+    },
     {
         img: require('../../../../assets/actives/brothers_small/Linda_Woo.jpg'),
         name: "Linda Woo",
@@ -12,14 +19,6 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers_small/Ethan_Canavan.jpg'),
         name: "Ethan Canavan",
         title: 'Chief Financial Officer',
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
-        name: "Lucian Liu",
-        title: 'Chief Executive Officer',
-        logo: require('../../../../assets/actives/logos/Prudential.png'),
-        company: 'Prudential Private Capital',
-        width: "35%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),

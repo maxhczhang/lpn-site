@@ -208,8 +208,18 @@ export const brothers = [
         img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg'),
         name: "Jamie Zhao",
     },
-   
 
+    {
+        empty: true
+    },
+    {
+        empty: true
+
+    },
+    {
+        empty: true
+    },
+    
 ];
 
 export default { brothers };

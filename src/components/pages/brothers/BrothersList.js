@@ -20,19 +20,12 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: "column",
         textAlign: "center",
-        paddingLeft: "12%",
-    },
-    root_csuite: {
-        display: "flex",
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: "column",
-        textAlign: "center",
         maxWidth: "85%"
     },
     name: {
         textTransform: "uppercase"
-    }
+    },
+
 }));
 
 const nameToPath = (name) => {
@@ -43,48 +36,58 @@ const nameToPath = (name) => {
 
 const BrothersList = ({ brothers, scrollPosition, width, height, isCsuite }) => {
     const classes = useStyles();
-    
+
+    const emptydiv = {"width": width, "height": height}
+    const contentdiv = {"width": width}
+
     return (
-        <div className={isCsuite ? classes.root_csuite : classes.root}>
+        <div className={classes.root}>
 
-            <Grid container direction="row" justify={isCsuite ? "center" : "flex-start"} alignItems="center" spacing={3}>
+            <Grid container direction="row" justify="center" alignItems="center" spacing={4}>
                 {brothers.map((tile, i) => (
-                    <Grid item key={i}>                   
-                        
-                        <div className="content" style={{width:width}}>
-                            <Link to={nameToPath(tile.name)}>
-                                <LazyLoadImage
-                                    key={i}
-                                    alt={tile.name}
-                                    width={tile.pfp_width ? tile.pfp_width : width}
-                                    height={height}
-                                    scrollPosition={scrollPosition}
-                                    src={tile.img}
-                                    effect="blur"
-                                />
-                                
-                                <div className="content-overlay"></div>
+                    <Grid item key={i}>   
+                    
+                        {tile.empty ? <div style={emptydiv}></div> : (  
 
-                                <div className="content-details fadeIn-bottom">
-                                    <div>{tile.title}</div>
-                                    {/* <p>{tile.title}</p> */}
-                                    {tile.logo && 
-                                        <img src={tile.logo} width={tile.width} alt={tile.company}></img>
-                                    }
+                            <React.Fragment>
+                                <div className="content" style={contentdiv}>
+                                    <Link to={nameToPath(tile.name)}>
+                                        <LazyLoadImage
+                                            key={i}
+                                            alt={tile.name}
+                                            width={tile.pfp_width ? tile.pfp_width : width}
+                                            height={height}
+                                            scrollPosition={scrollPosition}
+                                            src={tile.img}
+                                            effect="blur"
+                                        />
+                                        
+                                        <div className="content-overlay"></div>
+
+                                        <div className="content-details fadeIn-bottom">
+                                        
+                                            {tile.logo && 
+                                                <img src={tile.logo} width={tile.width} alt={tile.company}></img>
+                                            }
+                                            <div>{tile.company}</div>
+                                            
+                                        </div>
+                                        
+                                    </Link>
                                 </div>
-                                
-                            </Link>
-                        </div>
 
-                        <Typography component="div">
-                            <Box mt={1} letterSpacing={2} fontSize={14} className={classes.name}>
-                                {tile.name}
-                            </Box>
-                            {/* <Box mt={1} letterSpacing={2} fontSize={11} className={classes.name}>
-                                {tile.title}
-                            </Box> */}
-                        </Typography>
-                        
+                                <Typography component="div">
+                                    <Box mt={1} letterSpacing={2} fontSize={14} className={classes.name}>
+                                        {tile.name}
+                                    </Box>
+                                    <Box mt={1} letterSpacing={1} fontSize={13}>
+                                        {tile.title}
+                                    </Box>
+                                </Typography> 
+                            </React.Fragment>
+
+                            )
+                        }
                     </Grid>
                 ))}
             </Grid>

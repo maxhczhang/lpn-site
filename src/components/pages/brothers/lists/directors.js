@@ -102,6 +102,15 @@ export const directors = [
         company: 'United Exchange Corporation',
         width: "45%"
     },
+
+    {
+        empty: true
+    },
+
+    {
+        empty: true
+       
+    },
   
 ];
 
