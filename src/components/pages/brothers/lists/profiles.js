@@ -46,36 +46,36 @@ export const profiles = {
         whyLPN: "Through my time in LPN, I was able to discover my true passions and interests. LPN has also given me some of the most memorable experiences that I never could've imagined. I have been so fortunate enough to build meaningful relationships with some of the brothers of LPN. Though it may feel like a rollercoaster, I appreciate all the memories and experiences that I've gained to help me grow, and I wouldn't want it any other way. LPN has helped me develop professionally, but I'm fortunate to have gained so much more.",
         img: require("../../../../assets/actives/brothers/Karen_Ching.jpg")
     },
-    Tiffany_Chan: {
-        linkedIn: "https://www.linkedin.com/in/tiffanyh-chan",
-        homeTown: "San Francisco, CA",
-        year: "4th",
-        class: "Iota",
-        major: "Business Economics",
-        minor: "Accounting",
-        emphasis: "",
-        practice: "Audit",
-        experience: {"Audit Associate":"RSM", "Assurance Intern": "RSM", "SLP Attendant": "RSM"},
-        campusInvolvements: {"President": "UCI Dragon Boat", "Mentor": "Accouting Association", "Social Impact Director": "Lambda Phi Nu"},
-        interests: ["Trying new foods", "Hiking", "Paddling"],
-        whyLPN: "After my first year of college, I felt very stagnant in terms of my involvement in the business community at UCI and my own professional growth. Through LPN, I found such a group of passionate, driven individuals who were so willing to give back to an organization that gave so much to them.LPN has given me the chance to immerse myself with individuals who have provided me with the skills I need to succeed in the professional world.This community has also pushed me to become the best version of myself through the mentors I have found in this fraternity. Most importantly, I have made lifelong relationships with these individuals who I know will remain a huge presence in my life even after I graduate college.",
-        img: require("../../../../assets/actives/brothers/Tiffany_Chan.jpg")
-    },
-    Tony_Zhou: {
-        linkedIn: "https://www.linkedin.com/in/tony-gzhou/",
-        homeTown: "San Francisco",
-        year: "4th",
-        class: "Iota",
-        major: "Business Administration",
-        minor: "Computer Science",
-        emphasis: "Accounting, Finance",
-        practice: "Risk",
-        experience: {"Business Consulting Intern": "EY", "Risk & Financial Advisory Pathways Program": "RSM", "SLP Attendant": "Grow with Grant Thornton"},
-        campusInvolvements: {"Conversation Partner": "UCI Division of Continuing Education", "Director of Alumni Relations": "Beta Alpha Psi", "Mentor": "AA Leadership Development Program"},
-        interests: ["Gym", "Cycling"],
-        whyLPN: "LPN because I wanted to surround myself with motivated individuals.",
-        img: require("../../../../assets/actives/brothers/Tony_Zhou.jpg")
-    },
+    // Tiffany_Chan: {
+    //     linkedIn: "https://www.linkedin.com/in/tiffanyh-chan",
+    //     homeTown: "San Francisco, CA",
+    //     year: "4th",
+    //     class: "Iota",
+    //     major: "Business Economics",
+    //     minor: "Accounting",
+    //     emphasis: "",
+    //     practice: "Audit",
+    //     experience: {"Audit Associate":"RSM", "Assurance Intern": "RSM", "SLP Attendant": "RSM"},
+    //     campusInvolvements: {"President": "UCI Dragon Boat", "Mentor": "Accouting Association", "Social Impact Director": "Lambda Phi Nu"},
+    //     interests: ["Trying new foods", "Hiking", "Paddling"],
+    //     whyLPN: "After my first year of college, I felt very stagnant in terms of my involvement in the business community at UCI and my own professional growth. Through LPN, I found such a group of passionate, driven individuals who were so willing to give back to an organization that gave so much to them.LPN has given me the chance to immerse myself with individuals who have provided me with the skills I need to succeed in the professional world.This community has also pushed me to become the best version of myself through the mentors I have found in this fraternity. Most importantly, I have made lifelong relationships with these individuals who I know will remain a huge presence in my life even after I graduate college.",
+    //     img: require("../../../../assets/actives/brothers/Tiffany_Chan.jpg")
+    // },
+    // Tony_Zhou: {
+    //     linkedIn: "https://www.linkedin.com/in/tony-gzhou/",
+    //     homeTown: "San Francisco",
+    //     year: "4th",
+    //     class: "Iota",
+    //     major: "Business Administration",
+    //     minor: "Computer Science",
+    //     emphasis: "Accounting, Finance",
+    //     practice: "Risk",
+    //     experience: {"Business Consulting Intern": "EY", "Risk & Financial Advisory Pathways Program": "RSM", "SLP Attendant": "Grow with Grant Thornton"},
+    //     campusInvolvements: {"Conversation Partner": "UCI Division of Continuing Education", "Director of Alumni Relations": "Beta Alpha Psi", "Mentor": "AA Leadership Development Program"},
+    //     interests: ["Gym", "Cycling"],
+    //     whyLPN: "LPN because I wanted to surround myself with motivated individuals.",
+    //     img: require("../../../../assets/actives/brothers/Tony_Zhou.jpg")
+    // },
     Vivi_Liu: {
         linkedIn: "https://www.linkedin.com/in/vivi-liu/",
         homeTown: "Taipei, Taiwan",
@@ -106,7 +106,7 @@ export const profiles = {
         campusInvolvements: { "Information Systems Director": "Lambda Phi Nu", "Sports Business Association": ""},
         interests: ["Basketball", "NBA", "Pool Table", "Traveling"],
         whyLPN: "Great people with passion to be successful.",
-        img: require("../../../../assets/actives/brothers/Ben_Fan.JPG")
+        img: require("../../../../assets/actives/brothers/Ben_Fan.jpg")
     },
     David_Sonq: {
         linkedIn: "https://www.linkedin.com/in/davidsonq/",
