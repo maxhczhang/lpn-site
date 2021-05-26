@@ -106,7 +106,7 @@ export const profiles = {
         campusInvolvements: { "Information Systems Director": "Lambda Phi Nu", "Sports Business Association": ""},
         interests: ["Basketball", "NBA", "Pool Table", "Traveling"],
         whyLPN: "Great people with passion to be successful.",
-        img: require("../../../../assets/actives/brothers/Ben_Fan.jpg")
+        img: require("../../../../assets/actives/brothers/Ben_Fan.JPG")
     },
     David_Sonq: {
         linkedIn: "https://www.linkedin.com/in/davidsonq/",

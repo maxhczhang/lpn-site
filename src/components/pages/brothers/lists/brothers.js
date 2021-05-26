@@ -3,9 +3,9 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers_small/Julian_Rachman.jpg"),
         name: "Julian Rachman",
-        logo: require('../../../../assets/actives/logos/Julian_Rachman.png'),
-        company: 'Ripplink',
-        width: "30%"
+        logo: require('../../../../assets/actives/logos/TwoSigma.png'),
+        company: 'Two Sigma',
+        width: "40%"
     },
     {
         img: require("../../../../assets/actives/brothers/Karen_Ching.jpg"),
@@ -47,7 +47,7 @@ export const brothers = [
     //     width: "30%"
     // },
       {
-        img: require('../../../../assets/actives/brothers/Ben_Fan.jpg'),
+        img: require('../../../../assets/actives/brothers/Ben_Fan.JPG'),
         name: "Ben Fan",
         logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
         company: 'KJ Soft',
@@ -213,9 +213,6 @@ export const brothers = [
     {
         empty: true
 
-    },
-    {
-        empty: true
     },
     
 ];

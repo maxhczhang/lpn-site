@@ -39,7 +39,7 @@ export const directors = [
         title: "Marketing Director",
         logo: require('../../../../assets/actives/logos/IngramMicro.png'),
         company: 'Ingram Micro',
-        width: "80%"
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),

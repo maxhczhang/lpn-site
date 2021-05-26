@@ -5,7 +5,7 @@ export const csuite = [
         title: 'Chief Executive Officer',
         logo: require('../../../../assets/actives/logos/Prudential.png'),
         company: 'Prudential Private Capital',
-        width: "35%"
+        width: "32%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Linda_Woo.jpg'),
