@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f696992c084756e0551c1164ddf42d3c",
+    "revision": "0debb2c5b37fc8e1a3563bb484b3cab6",
     "url": "/index.html"
   },
   {
-    "revision": "32ba36d6e7771d58131e",
+    "revision": "d43baf7809c397800774",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "fd4aa09ed16d06ffa5a2",
+    "revision": "6cb38a2053f4fc8ecb50",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
-    "revision": "32ba36d6e7771d58131e",
-    "url": "/static/js/2.ee9f0db0.chunk.js"
+    "revision": "d43baf7809c397800774",
+    "url": "/static/js/2.75656831.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.ee9f0db0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.75656831.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd4aa09ed16d06ffa5a2",
-    "url": "/static/js/main.4f6aff11.chunk.js"
+    "revision": "6cb38a2053f4fc8ecb50",
+    "url": "/static/js/main.cc33343a.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -73,7 +73,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "633246d432cfa9c5e7afd49af3f7f3fb",
-    "url": "/static/media/Ben_Fan.633246d4.JPG"
+    "url": "/static/media/Ben_Fan.633246d4.jpg"
   },
   {
     "revision": "f923332f108b85d5ee62616f4b1f2cdd",
@@ -276,12 +276,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Iotas_Seniors.55cf1e69.jpg"
   },
   {
-    "revision": "6328b2f9fe6a66fb4a79aefb76224117",
-    "url": "/static/media/JPMorgan.6328b2f9.jpg"
+    "revision": "61475163cf8eaf848f906995468140dc",
+    "url": "/static/media/JPMorgan.61475163.png"
   },
   {
-    "revision": "63682a872062e92973f9164276e5a5c3",
-    "url": "/static/media/JPMorgan.63682a87.png"
+    "revision": "6328b2f9fe6a66fb4a79aefb76224117",
+    "url": "/static/media/JPMorgan.6328b2f9.jpg"
   },
   {
     "revision": "f58456ad08172e28fc0ca0cb7b2ac00d",
@@ -326,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "773d9404315106a107798a2b82d2c9a6",
     "url": "/static/media/Julian_Rachman.773d9404.jpg"
+  },
+  {
+    "revision": "f6e286d28eb287b2a5ad95aca44db975",
+    "url": "/static/media/Julian_Rachman.f6e286d2.png"
   },
   {
     "revision": "0b28e27f36985f20b0d63239d7a73a7e",
@@ -602,10 +606,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1347c9a1e6c5b419b374d89ba8903c7a",
     "url": "/static/media/Twitter.1347c9a1.png"
-  },
-  {
-    "revision": "3c9490a8d4df0a4c17c509245a75c68c",
-    "url": "/static/media/TwoSigma.3c9490a8.png"
   },
   {
     "revision": "add7c7050bf7c32c96b29de70e865b72",
