@@ -442,7 +442,7 @@ export const profiles = {
         experience: {"Intern": "Motilal Oswal"},
         campusInvolvements: { "Mentor": "Management Information Student Society", "Macroeconomics Analyst": "Student Managed Investment Fund", "Associate Counselor": "Lambda Phi Nu"},
         interests: ["Watching/Playing sports", "Cooking", "Cars", "Making new connections"],
-        whyLPN: "To me, Lambda Phi Nu is an organization that allows individuals to achieve their potential by equipping them with the proper knowledge and resources. However, Lambda Phi Nu is more than just a fraternity that develops professionalism; The fraternity has helped me discover various facets of myself that I was unaware of and has helped foster personal growth. The fraternity is made up of individuals who I can trust with my life and already feels like home. Seeing the motivated, driven individuals greatly inspires me, and I can confidently say that rushing Lambda Phi Nu was one of the best decisions I have made in college. ",
+        whyLPN: "To me, Lambda Phi Nu is an organization that allows individuals to achieve their potential by equipping them with the proper knowledge and resources. However, Lambda Phi Nu is more than just a fraternity that develops professionalism; The fraternity has helped me discover various facets of myself that I was unaware of and has helped foster personal growth. The fraternity is made up of individuals who I can trust with my life and already feels like home. Seeing the motivated, driven individuals greatly inspires me, and I can confidently say that rushing Lambda Phi Nu was one of the best decisions I have made in college.",
         img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg")
     },
     Omar_Naji: {
@@ -454,10 +454,10 @@ export const profiles = {
         minor: "",
         emphasis: "",
         practice: "Human Resources",
-        experience: {"Talent Acquisition Intern": "TikTok", "Marketing Strategy Intern": "NUDA Juice & Wellness Shop", "Marketing Intern": "Dance4Joy Ministries"},
-        campusInvolvements: {"VP of Membership": "Human Resources Management Association", "VP of Community Development": "Management Information Student Society", "Campus Ambassador": "Quokka Brew"},
-        interests: ["Trombone", "Hiking", "Going to the gym", "Competitive sports", "Skating"],
-        whyLPN: "I joined LPN because I wanted to join a community of like-minded, driven individuals in order to prepare myself for the real world. On top of that, I met people that I would call family. As a first-year, I had no professional experience whatsoever. I was very overwhelmed, and I was struggling to find a community. LPN gave me the community I was looking for while helping me prepare to be the best version of myself I can be.",
+        experience: {"Talent Acquisition Intern": "TikTok", "Marketing Strategy Intern": "NUDA Juice & Wellness Shop", "Head Marketing Intern": "Dance4Joy Ministries"},
+        campusInvolvements: {"VP of Membership": "Human Resources Management Association", "VP of Community Development": "Management Information Student Society", "Resident Advisor":"UCI Housing","Brand Ambassador": "Quokka Brew"},
+        interests: ["Video games", "Sports", "Playing Trombone"],
+        whyLPN: "Having been in ΛΦΝ for almost 2 years now, I can confidently say that this fraternity has completely shaped and solidified my personal and professional growth at college. As a first-year, I had no professional experience whatsoever. I was very overwhelmed, and I was struggling to find a community to call a home away from home. Lambda Phi Nu has given me those life-long friendships as well as a solid understanding of what I need to do to succeed in my life. I am forever in debt to this fraternity, and I hope to continue to give back to the business and UCI community as I have been given so much.",
         img: require("../../../../assets/actives/brothers/Omar_Naji.jpg")
     },
     Philip_Cheung: {
@@ -637,8 +637,8 @@ export const profiles = {
         minor: "Psychological Sciences",
         emphasis: "",
         practice: "Human Resources",
-        experience: {"Social Media Manager": "Twinkle Brown Sugar", "Human Resources Intern": "GaoTek Inc.", "Campus Ambassador": "The Economist"},
-        campusInvolvements: { "Marketing Strategy Intern":"Associated Students of UCI", "VP of Professional Development":"Undergraduate Business Association", "Mentee": "Antleader Mentorship Program"},
+        experience: {"Talent Acquisition Intern":"TikTok","Social Media Manager": "Twinkle Brown Sugar", "Human Resources Intern": "GaoTek Inc.", "Campus Ambassador": "The Economist"},
+        campusInvolvements: { "Internal Auditor":"Lambda Phi Nu","VP of Professional Development":"Undergraduate Business Association","Marketing Strategy Associate Director":"Associated Students of UCI"},
         interests: ["Boba", "Disney", "Just Dance", "Window shopping"],
         whyLPN: "I came into UCI as an undeclared student with no idea what I wanted to do for my career. I wanted to be involved as much as possible on campus, but I did not know where to start. However, after finding LPN, I soon realized how inspirational everyone was and found myself wanting to be a leader—just like them. I know that joining LPN was the best decision I have made because I have learned so much and gained so many friends that I call my second family.",
         img: require("../../../../assets/actives/brothers/Kaylie_Zhou.png")
@@ -697,8 +697,8 @@ export const profiles = {
         minor: "",
         emphasis: "",
         practice: "Human Resources, Marketing",
-        experience: {"Digital Marketing Intern": "Kanerani", "Apple Technical Support Specialist": "Volt Solutions Workforces"},
-        campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "Speaker's Commission Intern": "Associated Students of UCI", "Finance Associate": "Lambda Phi Nu"},
+        experience: {"Digital Marketing Intern": "Kanerani", "Talent Acquisition Intern":"Unifi","People Development Intern":"Dow Jones"},
+        campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "VP of Outreach": "Human Resources Management Association"},
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
         img: require("../../../../assets/actives/brothers/Vivian_Tran.jpg")
@@ -730,10 +730,10 @@ export const profiles = {
         minor: "",
         emphasis: "",
         practice: "Real Estate",
-        experience: { "Brokerage Operations Intern": "Side", "Interim Sales Manager": "UCI Campus Recreation" },
-        campusInvolvements: { "Director of Public Relations": "Real Estate Association", "Academic Community Excellence Programmer": "UCI Middle Earth", "VP of Internal Affairs": "UCI Women in Leadership" },
-        interests: "",
-        whyLPN: "",
+        experience: { "Research Analyst Intern":"CBRE","Brokerage Operations Intern": "Side, Inc.", "Academic Community Excellence Programmer": "UCI Housing" },
+        campusInvolvements: { "Winter Associate Counselor":"Lambda Phi Nu","Member":"UCI Dragon Boat","Member":"Real Estate Association" },
+        interests: ["Stretching", "Yelping", "Paddling", "Brawl Stars", "Board Games" ],
+        whyLPN: "Thanks to LPN, I am provided with a nurturing environment that encourages me to grow professionally and chase the stars. This community is full of passionate people who inspire me to live my best life every day.",
         img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg')
     },
     Ethan_Canavan: {
@@ -775,10 +775,10 @@ export const profiles = {
         minor: "",
         emphasis: "",
         practice: "Marketing",
-        experience: { "Employee": "Juma Ventures", "Teacher Assistant": "Aim High" },
-        campusInvolvements: "",
-        interests: "",
-        whyLPN: "",
+        experience: { "Human Resources Intern":"UpCancer","Social Media Intern":"Oigetit"},
+        campusInvolvements: {"Member Relations Director":"Marketing Association","Recruiter - Winter Quarter":"Lambda Phi Nu"},
+        interests: ["Dancing", "Video Games", "Reading"],
+        whyLPN: "I choose Lambda Phi Nu because I felt lost and unsure of what to do with my future, so I pushed myself out of my comfort zone during quarantine to make new connections and strive to better myself professionally. I found all of that and more with Lambda Phi Nu. Not only did I make long-lasting connections, I found myself taking on internships and positions that I would never have imagined without LPN.",
         img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg')
     },
     Lilian_Luu: {

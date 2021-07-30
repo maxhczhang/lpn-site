@@ -1,6 +1,6 @@
-import relationships from '../../../../assets/home/carousel2/Relationships.jpg'
+import relationships from '../../../../assets/home/carousel2/Relationships.JPG'
 import altruism from '../../../../assets/home/carousel2/Dodge_for_dollars.jpg'
-import excellence from '../../../../assets/home/carousel2/Excellence2.jpg'
+import excellence from '../../../../assets/home/carousel2/Excellence.JPG'
 
 export const carousel2photos = [
     {
