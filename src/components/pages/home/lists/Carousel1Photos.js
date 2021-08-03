@@ -1,6 +1,7 @@
 import Omicron from '../../../../assets/home/carousel1/Omicron_Inside.jpg'
 import Xi from '../../../../assets/home/carousel1/Xi_Casual.jpg'
-import Mu from '../../../../assets/gallery/Mu_Sky.JPG'
+//import Mu from '../../../../assets/gallery/Mu_Sky.JPG'
+import Pi from '../../../../assets/home/carousel1/Pi_Formal.jpg'
 
 export const carousel1photos = [
     {
@@ -12,8 +13,8 @@ export const carousel1photos = [
         title: 'Xi Class'
     },
     {
-        img: Mu,
-        title: 'Mu Class'
+        img: Pi,
+        title: 'Pi Class'
     },
 ];
 
