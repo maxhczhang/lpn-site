@@ -109,8 +109,8 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers_small/Sera_Xu.jpg"),
         name: "Sera Xu",
-        logo: require('../../../../assets/actives/logos/Sera_Xu.png'),
-        company: 'Creator Up',
+        logo: require('../../../../assets/actives/logos/pwc.svg'),
+        company: 'PWC',
         width: "35%"
     },
 
@@ -161,8 +161,8 @@ export const brothers = [
      {
         img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
         name: "Serina Nguyen",
-        logo: require('../../../../assets/actives/logos/Serina_Nguyen.png'),
-        company: 'Issuu',
+        logo: require('../../../../assets/actives/logos/amyris.jpeg'),
+        company: 'Amyris',
         width: "35%",
         pfp_width: 218
     },
@@ -184,9 +184,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers_small/Haley_Kim.jpg'),
         name: "Haley Kim",
-        logo: require('../../../../assets/actives/logos/BlackBerry.png'),
-        company: 'BlackBerry',
-        width: "35%"
+        logo: require('../../../../assets/actives/logos/crowdstrike.png'),
+        company: 'Crowdstrike',
+        width: "65%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Julio_Cano.jpg'),
@@ -197,14 +197,24 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg'),
         name: "Elizabeth Chan",
+        logo: require('../../../../assets/actives/logos/cbre.png'),
+        company: 'CBRE',
+        width: "35%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg'),
         name: "Hanui Lee",
+        logo: require('../../../../assets/actives/logos/instaboost.png'),
+        company: 'Instaboost Media',
+        width: "75%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg'),
         name: "Jamie Zhao",
+        logo: require('../../../../assets/actives/logos/oigetit.png'),
+        company: 'Oigetit',
+        width: "45%"
+        
     },
 
     {

@@ -4,8 +4,8 @@ export const directors = [
         img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
         name: "Raymond Dinh",
         title: 'Strategy Director',
-        logo: require('../../../../assets/actives/logos/AgoraNeos.png'),
-        company: 'Agora Neos',
+        logo: require('../../../../assets/actives/logos/HP.png'),
+        company: 'HP',
         width: "70%"
     },    
     {
@@ -49,7 +49,10 @@ export const directors = [
     {
         img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
         name: "Rithu Eswaramoorthy",
-        title: "Webmaster"
+        title: "Webmaster",
+        logo: require('../../../../assets/actives/logos/firstly.png'),
+        company: 'Firstly',
+        width: "50%"
     },
 
 
@@ -88,14 +91,17 @@ export const directors = [
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Cathy Yun",
         title: 'Associate Auditor',
-        logo: require('../../../../assets/actives/logos/BDO.png'),
-        company: 'BDO USA',
+        logo: require('../../../../assets/actives/logos/hcvt.png'),
+        company: 'HCVT',
         width: "45%"
     },
     {
         img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
         name: "Courtney Tsao",
-        title: "Associate Counselor"
+        title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/webtoon.png'),
+        company: 'Webtoon',
+        width: "45%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
