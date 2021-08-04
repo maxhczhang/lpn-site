@@ -79,6 +79,7 @@ export const roles2021 = {
         ],
         "Human Resources": [
             {name: 'Jeffrey Cho', company: 'Western Digital', position: "HR Coordinator"},
+            {name: 'Andrew Duong', company: 'Armanino LLP', position: "Sourcing Recruiter"},
         ],
     }
 };
