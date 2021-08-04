@@ -47,7 +47,7 @@ export const brothers = [
     //     width: "30%"
     // },
       {
-        img: require('../../../../assets/actives/brothers/Ben_Fan.JPG'),
+        img: require('../../../../assets/actives/brothers/Ben_Fan.jpg'),
         name: "Ben Fan",
         logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
         company: 'KJ Soft',

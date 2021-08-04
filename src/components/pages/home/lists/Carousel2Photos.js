@@ -1,4 +1,4 @@
-import relationships from '../../../../assets/home/carousel2/Relationships.JPG'
+import relationships from '../../../../assets/home/carousel2/Relationships.jpg'
 import altruism from '../../../../assets/home/carousel2/Dodge_for_dollars.jpg'
 import excellence from '../../../../assets/home/carousel2/Excellence.JPG'
 
