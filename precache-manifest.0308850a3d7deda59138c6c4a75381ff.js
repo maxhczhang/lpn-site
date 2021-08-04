@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87b7dd7ff61a0eb0bdbe713acca76ae2",
+    "revision": "48af15221b63fce98b44e7df1d938ef0",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "cee4805e2513c1c48ec9",
+    "revision": "23895ce0cf79a69a6e88",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.75656831.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cee4805e2513c1c48ec9",
-    "url": "/static/js/main.893c2e58.chunk.js"
+    "revision": "23895ce0cf79a69a6e88",
+    "url": "/static/js/main.dbc3fdc5.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -73,7 +73,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "633246d432cfa9c5e7afd49af3f7f3fb",
-    "url": "/static/media/Ben_Fan.633246d4.JPG"
+    "url": "/static/media/Ben_Fan.633246d4.jpg"
   },
   {
     "revision": "f923332f108b85d5ee62616f4b1f2cdd",
@@ -326,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "773d9404315106a107798a2b82d2c9a6",
     "url": "/static/media/Julian_Rachman.773d9404.jpg"
+  },
+  {
+    "revision": "f6e286d28eb287b2a5ad95aca44db975",
+    "url": "/static/media/Julian_Rachman.f6e286d2.png"
   },
   {
     "revision": "0b28e27f36985f20b0d63239d7a73a7e",
@@ -602,10 +606,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1347c9a1e6c5b419b374d89ba8903c7a",
     "url": "/static/media/Twitter.1347c9a1.png"
-  },
-  {
-    "revision": "3c9490a8d4df0a4c17c509245a75c68c",
-    "url": "/static/media/TwoSigma.3c9490a8.png"
   },
   {
     "revision": "add7c7050bf7c32c96b29de70e865b72",
