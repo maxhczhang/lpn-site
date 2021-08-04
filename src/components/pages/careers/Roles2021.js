@@ -71,10 +71,15 @@ export const roles2021 = {
         ],
         "Marketing": [
             { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
+            {name: 'Jenny Cheung', company: 'SAP', position: "Marketing Coordinator"},
+            {name: 'Le An Pham', company: 'Redbubble', position: "Brand Partnerships Coordinator"},
         ],
        "Finance": [
             { name: <Link component={RouterLink} to="/active-brothers/yong-lin" color="inherit">Yong Lin</Link>, company: 'Capital One', position: "Commercial Rotational Program Associate" },
-        ]
+        ],
+        "Human Resources": [
+            {name: 'Jeffrey Cho', company: 'Western Digital', position: "HR Coordinator"},
+        ],
     }
 };
 
