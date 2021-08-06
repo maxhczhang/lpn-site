@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3222a954c0044be717c3131ca6c9d595",
+    "revision": "48bd4b4b940288972a228c4beaacabcf",
     "url": "/index.html"
   },
   {
-    "revision": "63ea117dd974cad38d73",
+    "revision": "677feb129c6ca86e38c6",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "90fd7650a2211de8a800",
+    "revision": "6042bbe7aafd82414699",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
-    "revision": "63ea117dd974cad38d73",
-    "url": "/static/js/2.31046467.chunk.js"
+    "revision": "677feb129c6ca86e38c6",
+    "url": "/static/js/2.77c628b8.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.31046467.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.77c628b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90fd7650a2211de8a800",
-    "url": "/static/js/main.04c275aa.chunk.js"
+    "revision": "6042bbe7aafd82414699",
+    "url": "/static/js/main.899c1453.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -608,10 +608,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/UFA.83232366.png"
   },
   {
-    "revision": "d758f3c193e7f9abc551026e1eb36f61",
-    "url": "/static/media/UnitedExchangeCorp.d758f3c1.png"
-  },
-  {
     "revision": "6c3239a81717d9aeb7eb24b509065f4c",
     "url": "/static/media/Values_Separator.6c3239a8.jpg"
   },
@@ -660,6 +656,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/eBay.f238e354.png"
   },
   {
+    "revision": "3a795a4c0e834e2554e2f73737ec82e3",
+    "url": "/static/media/engie.3a795a4c.png"
+  },
+  {
     "revision": "3193bb813d575d6c0e057aca2b1441fc",
     "url": "/static/media/firstly.3193bb81.png"
   },
@@ -686,6 +686,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37c3c987097924f6c51ff5a2d49606aa",
     "url": "/static/media/pwc.37c3c987.svg"
+  },
+  {
+    "revision": "03f8a5d8a8cab7f3b23c5e638c2b8a0e",
+    "url": "/static/media/skechers.03f8a5d8.png"
   },
   {
     "revision": "0a24a1829981119c8698987b4f2119b6",
