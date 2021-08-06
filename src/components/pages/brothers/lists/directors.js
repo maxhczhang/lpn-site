@@ -12,9 +12,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers_small/Vivian_Tran.jpg'),
         name: "Vivian Tran",
         title: "Alumni Relations Director | Recruiter",
-        logo: require('../../../../assets/actives/logos/Kanerani.png'),
-        company: 'Kanerani',
-        width: "30%"
+        logo: require('../../../../assets/actives/logos/dowjones.png'),
+        company: 'Dow Jones',
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
@@ -107,9 +107,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
         name: "Joshua Tong",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/UnitedExchangeCorp.png'),
-        company: 'United Exchange Corporation',
-        width: "45%"
+        logo: require('../../../../assets/actives/logos/skechers.png'),
+        company: 'Skechers',
+        width: "75%"
     },
 
     {

@@ -19,7 +19,7 @@ export const profiles = {
     Julian_Rachman: {
         linkedIn: "https://www.linkedin.com/in/julian-rachman/",
         homeTown: "Torrance, CA",
-        year: "3rd",
+        year: "4th",
         class: "Iota",
         major: "Computer Science, Business Information Management",
         minor: "",
@@ -34,7 +34,7 @@ export const profiles = {
     Karen_Ching: {
         linkedIn: "https://www.linkedin.com/in/kching/",
         homeTown: "San Francisco, CA",
-        year: "3rd",
+        year: "4th",
         class: "Iota",
         major: "Education Sciences",
         minor: "",
@@ -201,7 +201,7 @@ export const profiles = {
     Sandy_Nguyen: {
         linkedIn: "https://linkedin.com/in/-sandy-nguyen",
         homeTown: "West Covina, CA",
-        year: "3rd",
+        year: "4th",
         class: "Kappa",
         major: "Business Administration",
         minor: "Informatics",
@@ -216,7 +216,7 @@ export const profiles = {
     Stephen_Minn: {
         linkedIn: "https://www.linkedin.com/in/stephenminn/",
         homeTown: "Stockton, CA",
-        year: "3rd",
+        year: "4th",
         class: "Kappa",
         major: "Business Administration",
         minor: "",
@@ -234,7 +234,7 @@ export const profiles = {
         major: "Business Administration",
         minor: "",
         emphasis: "Accounting, Finance",
-        year: "3rd",
+        year: "4th",
         linkedIn: "https://linkedin.com/in/tiffanylwong/",
         practice: "Audit, Finance",
         interests: ["Cooking", "Sports", "Hiking"],
@@ -249,7 +249,7 @@ export const profiles = {
     Faith_Chia: {
         linkedIn: "https://www.linkedin.com/in/faith-chia/",
         homeTown: "Irvine, CA",
-        year: "2nd",
+        year: "3rd",
         pronouns: "She/Her/Hers",
         class: "Mu",
         major: "Business Administration",
@@ -265,7 +265,7 @@ export const profiles = {
     Joshua_Tong: {
         linkedIn: "https://www.linkedin.com/in/jjtong1/",
         homeTown: "Hacienda Heights, CA",
-        year: "3rd",
+        year: "4th",
         class: "Mu",
         major: "Business Administration",
         minor: "Digital Filmmaking",
@@ -280,14 +280,14 @@ export const profiles = {
     Linda_Woo: {
         linkedIn: "https://linkedin.com/in/lindawoo",
         homeTown: "San Gabriel, CA",
-        year: "3rd",
+        year: "4th",
         class: "Mu",
         major: "Business Economics",
         minor: "",
         emphasis: "",
         practice: "Advisory",
-        experience: {"Marketing Intern": "Cali Raw Nutrition", "Advisory Intern": "KPMG", "Program Assistant": "UC Irvine", },
-        campusInvolvements: {"Fundraising Chair": "Phi Zeta Tau", "Webmistress": "Phi Zeta Tau", "Mentor": "Management Information Student Society"},
+        experience: {"Marketing and Operations Intern":"ENGIE North America","Marketing Intern": "Cali Raw Nutrition", "Advisory Intern": "KPMG", "Program Assistant": "UC Irvine", },
+        campusInvolvements: {"President": "Phi Zeta Tau"},
         interests: ["Binging Netflix", "Collecting stationary", "Grocery shopping"],
         whyLPN: "LPN is an organization that has encouraged, pushed, and challenged me to build myself up to the best possible version of myself. I am extremely grateful for all the relationships, memories, and support I’ve received from brothers of LPN I’ve meet this past year; they all have truly changed my college experience for the better and gave me the opportunity to take charge of my career path. I can wholeheartedly say joining LPN was the best decision of college thus far and I encourage everyone to come checkout what makes us so special.",
         img: require("../../../../assets/actives/brothers/Linda_Woo.jpg")
@@ -310,7 +310,7 @@ export const profiles = {
     Sahana_Vairavaraj: {
         linkedIn: "https://www.linkedin.com/in/sahana-vairavaraj",
         homeTown: "Cypress, CA",
-        year: "3rd",
+        year: "4th",
         class: "Mu",
         major: "Business Administration",
         minor: "English, Political Science",
@@ -325,7 +325,7 @@ export const profiles = {
     Sera_Xu: {
         linkedIn: "https://www.linkedin.com/in/ziqing-sera-xu/",
         homeTown: "Wuhan, Hubei",
-        year: "2nd",
+        year: "3rd",
         class: "Mu",
         major: "Business Economics",
         minor: "",
@@ -373,7 +373,7 @@ export const profiles = {
     Catherine_Lin: {
         linkedIn: "https://www.linkedin.com/in/catherineylin/",
         homeTown: "",
-        year: "3rd",
+        year: "4th",
         class: "Xi",
         major: "Business Information Management",
         minor: "",
@@ -388,7 +388,7 @@ export const profiles = {
     Catherine_Nguyen: {
         linkedIn: "https://www.linkedin.com/in/catherine-nguyen7/",
         homeTown: "Huntington Beach, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Xi",
         major: "Business Administration, Sociology",
         minor: "",
@@ -403,7 +403,7 @@ export const profiles = {
     Ian_Han: {
         linkedIn: "https://www.linkedin.com/in/ianqhan",
         homeTown: "Alhambra, CA",
-        year: "3rd",
+        year: "4th",
         class: "Xi",
         major: "Business Administration",
         minor: "",
@@ -421,7 +421,7 @@ export const profiles = {
         major: "Business Administration",
         minor: "",
         emphasis: "Finance, Accounting",
-        year: "3rd",
+        year: "4th",
         linkedIn: "https://www.linkedin.com/in/lucian-liu/",
         practice: "Finance",
         interests: ["Day Hikes", "Tennis", "Marvel", "Ice Skating", "Photography", "Ping Pong"],
@@ -448,7 +448,7 @@ export const profiles = {
     Omar_Naji: {
         linkedIn: "https://www.linkedin.com/in/omaranaji/",
         homeTown: "Diamond Bar, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Xi",
         major: "Business Economics",
         minor: "",
@@ -478,7 +478,7 @@ export const profiles = {
     Raymond_Dinh: {
         linkedIn: "https://www.linkedin.com/in/rdinh/",
         homeTown: "San Jose",
-        year: "2nd",
+        year: "3rd",
         class: "Xi",
         major: "Business Administration",
         minor: "",
@@ -493,7 +493,7 @@ export const profiles = {
     Ryan_Miranda: {
         linkedIn: "https://www.linkedin.com/in/ryan-miranda-/",
         homeTown: "Cupertino, CA",
-        year: "3rd",
+        year: "4th",
         class: "Xi",
         major: "Computer Science",
         minor: "",
@@ -523,7 +523,7 @@ export const profiles = {
     Tyler_Newman: {
         linkedIn: "https://www.linkedin.com/in/tylernewman3/",
         homeTown: "Elk Grove, CA",
-        year: "3rd",
+        year: "4th",
         class: "Xi",
         major: "Quantitative Economics",
         minor: "",
@@ -556,7 +556,7 @@ export const profiles = {
     Adrian_Siu: {
         linkedIn: "https://www.linkedin.com/in/adrianmsiu/",
         homeTown: "Millbrae, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Business Administration",
         minor: "",
@@ -571,7 +571,7 @@ export const profiles = {
     Cathy_Yun: {
         linkedIn: "https://www.linkedin.com/in/cathylyun/",
         homeTown: "Buena Park, CA",
-        year: "3rd",
+        year: "4th",
         class: "Omicron",
         major: "Business Economics",
         minor: "Accounting",
@@ -586,7 +586,7 @@ export const profiles = {
     Haley_Kim: {
         linkedIn: "https://www.linkedin.com/in/haley-kim/",
         homeTown: "Irvine, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Business Economics",
         minor: "",
@@ -601,7 +601,7 @@ export const profiles = {
     Jennifer_Lin: {
         linkedIn: "https://www.linkedin.com/in/chia-chenjenniferlin/",
         homeTown: "Fullerton, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Psychology, Sociology",
         minor: "Management",
@@ -616,7 +616,7 @@ export const profiles = {
     Julio_Cano: {
         linkedIn: "https://www.linkedin.com/in/julioccano/",
         homeTown: "Los Angeles, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Business Economics",
         minor: "",
@@ -631,7 +631,7 @@ export const profiles = {
     Kaylie_Zhou: {
         linkedIn: "https://www.linkedin.com/in/kaylie-zhou/",
         homeTown: "San Gabriel, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Business Economics",
         minor: "Psychological Sciences",
@@ -646,7 +646,7 @@ export const profiles = {
     Khoa_Tran: {
         linkedIn: "https://www.linkedin.com/in/khoattran/",
         homeTown: "Huntington Beach, CA",
-        year: "3rd",
+        year: "4th",
         class: "Omicron",
         major: "Business Administration",
         minor: "",
@@ -661,7 +661,7 @@ export const profiles = {
     Naveen_Sastri: {
         linkedIn: "https://www.linkedin.com/in/naveen-dhillon-sastri/",
         homeTown: "Campbell, CA",
-        year: "2nd",
+        year: "3rd",
         class: "Omicron",
         major: "Business Information Management",
         minor: "",
@@ -676,7 +676,7 @@ export const profiles = {
     Raj_Singh: {
         linkedIn: "https://www.linkedin.com/in/jasrajsingh1/",
         homeTown: "Fremont, CA",
-        year: "1st",
+        year: "2nd",
         class: "Omicron",
         major: "Business Economics",
         minor: "",
@@ -691,13 +691,13 @@ export const profiles = {
     Vivian_Tran: {
         linkedIn: "https://www.linkedin.com/in/vivianltrvnn/",
         homeTown: "Elk Grove, CA",
-        year: "1st",
+        year: "2nd",
         class: "Omicron",
         major: "Business Administration",
         minor: "",
         emphasis: "",
         practice: "Human Resources, Marketing",
-        experience: {"Digital Marketing Intern": "Kanerani", "Talent Acquisition Intern":"Unifi","People Development Intern":"Dow Jones"},
+        experience: {"People Development Intern":"Dow Jones","Talent Acquisition Intern":"Unifi","Digital Marketing Intern": "Kanerani"},
         campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "VP of Outreach": "Human Resources Management Association"},
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
@@ -709,7 +709,7 @@ export const profiles = {
     Courtney_Tsao: {
         linkedIn: "https://www.linkedin.com/in/courtney-tsao/",
         homeTown: "",
-        year: "2nd",
+        year: "3rd",
         class: "Pi",
         major: "Business Economics, Sociology",
         minor: "",
@@ -724,7 +724,7 @@ export const profiles = {
     Elizabeth_Chan: {
         linkedIn: "https://www.linkedin.com/in/elizabethbchan/",
         homeTown: "San Francisco, CA",
-        year: "3rd",
+        year: "4th",
         class: "Pi",
         major: "Business Economics",
         minor: "",
@@ -739,7 +739,7 @@ export const profiles = {
     Ethan_Canavan: {
         linkedIn: "https://www.linkedin.com/in/ethancanavan/",
         homeTown: "",
-        year: "3rd",
+        year: "4th",
         class: "Pi",
         major: "Business Administration",
         minor: "",
@@ -754,7 +754,7 @@ export const profiles = {
     Hanui_Lee: {
         linkedIn: "https://www.linkedin.com/in/hanui-lee/",
         homeTown: "Berkeley, CA",
-        year: "2rd",
+        year: "3rd",
         class: "Pi",
         major: "Business Economics",
         minor: "",
@@ -769,7 +769,7 @@ export const profiles = {
     Jamie_Zhao: {
         linkedIn: "https://www.linkedin.com/in/jamiezh/",
         homeTown: "San Francisco, CA",
-        year: "1st",
+        year: "2nd",
         class: "Pi",
         major: "Undeclared",
         minor: "",
@@ -784,7 +784,7 @@ export const profiles = {
     Lilian_Luu: {
         linkedIn: "https://www.linkedin.com/in/lluu/",
         homeTown: "",
-        year: "1st",
+        year: "2nd",
         class: "Pi",
         major: "Business Administration",
         minor: "",
@@ -799,7 +799,7 @@ export const profiles = {
     Lumin_Oo: {
         linkedIn: "https://www.linkedin.com/in/luminoo/",
         homeTown: "Stockton, CA",
-        year: "1st",
+        year: "2nd",
         class: "Pi",
         major: "Business Administration",
         minor: "",
@@ -814,7 +814,7 @@ export const profiles = {
     Rithu_Eswaramoorthy: {
         linkedIn: "https://www.linkedin.com/in/rithu-eswaramoorthy/",
         homeTown: "Cupertino, CA",
-        year: "1st",
+        year: "2nd",
         class: "Pi",
         major: "Computer Science",
         minor: "",

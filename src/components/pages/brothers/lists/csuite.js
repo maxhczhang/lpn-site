@@ -11,8 +11,8 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers_small/Linda_Woo.jpg'),
         name: "Linda Woo",
         title: 'Chief Information Officer',
-        logo: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
-        company: 'KPMG',
+        logo: require('../../../../assets/actives/logos/engie.png'),
+        company: 'ENGIE',
         width: "55%"
     },
     {
