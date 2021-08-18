@@ -74,6 +74,7 @@ export const involvements2021 = {
         { name: <Link component={RouterLink} to="/active-brothers/naveen-sastri" color="inherit">Naveen Sastri</Link>, company: 'UBA', position: "VP of Professional Development" },
         { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'UBA', position: 'VP of Marketing' },
         { name: <Link component={RouterLink} to="/active-brothers/lumin-oo" color="inherit">Lumin Oo</Link>, company: 'UBA', position: 'VP of Marketing' },
+        { name: <Link component={RouterLink} to="/active-brothers/lilian-luu" color="inherit">Lilian Luu</Link>, company: 'UBA', position: 'VP of Company Relations' },
     ],
 
     "Undergraduate Finance Association": [
