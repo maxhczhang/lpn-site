@@ -45,11 +45,15 @@ export const involvements2021 = {
         { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'MAISS', position: 'VP of Community Development' },
     ],
 
-    // "Marketing Association": [
+    "Marketing Association": [
+        { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'MA', position: "VP of Internal Affairs" },
+        { name: <Link component={RouterLink} to="/active-brothers/lumin-oo" color="inherit">Lumin Oo</Link>, company: 'MA', position: "Alumni and Campus Relations Director" },
+        { name: <Link component={RouterLink} to="/active-brothers/jamie-zhao" color="inherit">Jamie Zhao</Link>, company: 'MA', position: "Member Relations Director" },
+        { name: <Link component={RouterLink} to="/active-brothers/naveen-sastri" color="inherit">Naveen Sastri</Link>, company: 'MA', position: "Finance Director" },
     //     { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'MA', position: "President" },
     //     { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'MA', position: 'VP of Internal Affairs' },
     //     { name: <Link component={RouterLink} to="/active-brothers/raj-singh" color="inherit">Raj Singh</Link>, company: 'MA', position: 'External Affairs Intern' },
-    // ],
+    ],
 
     "Merage Undergraduate Student Association": [
         { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'MUSA', position: 'VP of Academic Affairs' },

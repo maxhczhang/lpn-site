@@ -73,6 +73,7 @@ export const roles2021 = {
             { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
             {name: 'Jenny Cheung', company: 'SAP', position: "Marketing Coordinator"},
             {name: 'Le An Pham', company: 'Redbubble', position: "Brand Partnerships Coordinator"},
+            {name: 'Jasmin He', company: 'Henkel Beauty', position: "Brand Management/Product Development"},
         ],
        "Finance": [
             { name: <Link component={RouterLink} to="/active-brothers/yong-lin" color="inherit">Yong Lin</Link>, company: 'Capital One', position: "Commercial Rotational Program Associate" },

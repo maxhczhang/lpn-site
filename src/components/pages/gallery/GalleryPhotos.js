@@ -5,10 +5,20 @@ export const GalleryPhotos = [
         rows: 1,
     },
     {
-        img: require('../../../assets/gallery/Basketball.JPG'),
+        img: require('../../../assets/gallery/Fall_Talent_2020.JPG'),
         cols: 2,
-        rows: 1
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Retreat_Hike.JPG'),
+        cols: 2,
+        rows: 2
     },   
+    {
+        img: require('../../../assets/gallery/Picnic.JPG'),
+        cols: 1,
+        rows: 2,
+    },
     {
         img: require('../../../assets/gallery/CoreValues_Separator.jpg'),
         cols: 2,

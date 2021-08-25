@@ -46,13 +46,13 @@ export const brothers = [
     //     company: 'EY',
     //     width: "30%"
     // },
-      {
-        img: require('../../../../assets/actives/brothers/Ben_Fan.jpg'),
-        name: "Ben Fan",
-        logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
-        company: 'KJ Soft',
-        width: "35%"
-    },
+    //   {
+    //     img: require('../../../../assets/actives/brothers/Ben_Fan.jpg'),
+    //     name: "Ben Fan",
+    //     logo: require('../../../../assets/actives/logos/Ben_Fan.png'),
+    //     company: 'KJ Soft',
+    //     width: "35%"
+    // },
     // {
     //     img: require('../../../../assets/actives/brothers_small/Emily_Nguyen.jpeg'),
     //     name: "Emily Nguyen",
@@ -75,14 +75,14 @@ export const brothers = [
     //     company: 'Shiseido',
     //     width: "65%"
     // },
-    {
-        img: require("../../../../assets/actives/brothers_small/Sandy_Nguyen.jpg"),
-        name: "Sandy Nguyen",
-        logo: require('../../../../assets/actives/logos/MongoDB.png'),
-        company: 'MongoDB',
-        width: "40%",
-        pfp_width: 218
-    },
+    // {
+    //     img: require("../../../../assets/actives/brothers_small/Sandy_Nguyen.jpg"),
+    //     name: "Sandy Nguyen",
+    //     logo: require('../../../../assets/actives/logos/MongoDB.png'),
+    //     company: 'MongoDB',
+    //     width: "40%",
+    //     pfp_width: 218
+    // },
     {
         img: require("../../../../assets/actives/brothers_small/Stephen_Minn.jpg"),
         name: "Stephen Minn",
@@ -123,14 +123,14 @@ export const brothers = [
     //     width: "60%",
     //     pfp_width: 218
     // },
-    {
-        img: require("../../../../assets/actives/brothers_small/Catherine_Lin.jpg"),
-        name: "Catherine Lin",
-        logo: require('../../../../assets/actives/logos/Catherine_Lin.png'),
-        company: 'UCI eSports',
-        width: "30%",
-        pfp_width: 218
-    },
+    // {
+    //     img: require("../../../../assets/actives/brothers_small/Catherine_Lin.jpg"),
+    //     name: "Catherine Lin",
+    //     logo: require('../../../../assets/actives/logos/Catherine_Lin.png'),
+    //     company: 'UCI eSports',
+    //     width: "30%",
+    //     pfp_width: 218
+    // },
     {
         img: require('../../../../assets/actives/brothers_small/Ian_Han.jpg'),
         name: "Ian Han",
@@ -158,14 +158,14 @@ export const brothers = [
         company: 'Microsoft',
         width: "30%"
     },
-     {
-        img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
-        name: "Serina Nguyen",
-        logo: require('../../../../assets/actives/logos/amyris.jpeg'),
-        company: 'Amyris',
-        width: "35%",
-        pfp_width: 218
-    },
+    //  {
+    //     img: require('../../../../assets/actives/brothers_small/Serina_Nguyen.jpg'),
+    //     name: "Serina Nguyen",
+    //     logo: require('../../../../assets/actives/logos/amyris.jpeg'),
+    //     company: 'Amyris',
+    //     width: "35%",
+    //     pfp_width: 218
+    // },
     {
         img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
         name: "Tyler Newman",
@@ -200,13 +200,6 @@ export const brothers = [
         logo: require('../../../../assets/actives/logos/cbre.png'),
         company: 'CBRE',
         width: "35%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg'),
-        name: "Hanui Lee",
-        logo: require('../../../../assets/actives/logos/instaboost.png'),
-        company: 'Instaboost Media',
-        width: "75%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg'),

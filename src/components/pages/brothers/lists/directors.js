@@ -87,13 +87,21 @@ export const directors = [
     },
    
     
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Cathy Yun",
+    //     title: 'Associate Auditor',
+    //     logo: require('../../../../assets/actives/logos/hcvt.png'),
+    //     company: 'HCVT',
+    //     width: "45%"
+    // },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Cathy Yun",
-        title: 'Associate Auditor',
-        logo: require('../../../../assets/actives/logos/hcvt.png'),
-        company: 'HCVT',
-        width: "45%"
+        img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg'),
+        name: "Hanui Lee",
+        title: "Associate Auditor",
+        logo: require('../../../../assets/actives/logos/instaboost.png'),
+        company: 'Instaboost Media',
+        width: "75%"
     },
     {
         img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
