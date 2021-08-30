@@ -60,7 +60,7 @@ export default function LPNSite() {
     }
 
     return (
-       <BrowserRouter>
+       <HashRouter>
            <ScrollToTop></ScrollToTop>
                       
             <div className={classes.app}>
@@ -116,6 +116,6 @@ export default function LPNSite() {
                 </ThemeProvider>
             
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
