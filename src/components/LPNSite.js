@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
+import { Redirect, BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga'
 
 import BckgrndSelector from './utils/BckgrndSelector'
@@ -59,7 +60,7 @@ export default function LPNSite() {
     }
 
     return (
-       <HashRouter>
+       <BrowserRouter>
            <ScrollToTop></ScrollToTop>
                       
             <div className={classes.app}>
@@ -115,6 +116,6 @@ export default function LPNSite() {
                 </ThemeProvider>
             
             </div>
-        </HashRouter>
+        </BrowserRouter>
     );
 }
