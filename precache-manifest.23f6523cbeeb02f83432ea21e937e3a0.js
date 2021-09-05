@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3af76ab05aba1cb05791755835661e24",
+    "revision": "4f89d9618a50e82207e27fa5f7b240ab",
     "url": "/index.html"
   },
   {
-    "revision": "57f5eaee033a1fe3cf68",
+    "revision": "a4ead4d26a3d61f8c9e4",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "6af0968e39dc79d4205a",
+    "revision": "9eb7c879101d324d7743",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
-    "revision": "57f5eaee033a1fe3cf68",
-    "url": "/static/js/2.c6078ca4.chunk.js"
+    "revision": "a4ead4d26a3d61f8c9e4",
+    "url": "/static/js/2.6034fd9d.chunk.js"
   },
   {
     "revision": "9110c923800987d12d856da8548c4502",
-    "url": "/static/js/2.c6078ca4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6034fd9d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6af0968e39dc79d4205a",
-    "url": "/static/js/main.4beec146.chunk.js"
+    "revision": "9eb7c879101d324d7743",
+    "url": "/static/js/main.6846146d.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Faith_Chia.d84854f6.jpg"
   },
   {
+    "revision": "8bf18a123277cdbd3d69f3d3e000741f",
+    "url": "/static/media/Fall_2021_Cover.8bf18a12.png"
+  },
+  {
     "revision": "0aa1b59abb2d2f5fe7ba0d86f9149461",
     "url": "/static/media/Fall_Rush_Cover.0aa1b59a.png"
   },
@@ -224,8 +228,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Hanui_Lee.56445082.jpg"
   },
   {
-    "revision": "519fa5954fe7476cebf9163c1135e0eb",
-    "url": "/static/media/Home.519fa595.jpeg"
+    "revision": "d102c5eb4b1da2ebc8e4991bf7ebd0b5",
+    "url": "/static/media/Home.d102c5eb.jpg"
   },
   {
     "revision": "d3bb9cd9093a035b86f7fb9f8d32cdf1",

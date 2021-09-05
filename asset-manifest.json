@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.4beec146.chunk.js",
-    "main.js.map": "/static/js/main.4beec146.chunk.js.map",
+    "main.js": "/static/js/main.6846146d.chunk.js",
+    "main.js.map": "/static/js/main.6846146d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.c6078ca4.chunk.js": "/static/js/2.c6078ca4.chunk.js",
-    "static/js/2.c6078ca4.chunk.js.map": "/static/js/2.c6078ca4.chunk.js.map",
+    "static/js/2.6034fd9d.chunk.js": "/static/js/2.6034fd9d.chunk.js",
+    "static/js/2.6034fd9d.chunk.js.map": "/static/js/2.6034fd9d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4417f977d5ef2c065aca2d8784ce53ab.js": "/precache-manifest.4417f977d5ef2c065aca2d8784ce53ab.js",
+    "precache-manifest.23f6523cbeeb02f83432ea21e937e3a0.js": "/precache-manifest.23f6523cbeeb02f83432ea21e937e3a0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.c6078ca4.chunk.js.LICENSE.txt": "/static/js/2.c6078ca4.chunk.js.LICENSE.txt",
+    "static/js/2.6034fd9d.chunk.js.LICENSE.txt": "/static/js/2.6034fd9d.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.398f16bd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -46,6 +46,7 @@
     "static/media/Excellence.JPG": "/static/media/Excellence.d62f2214.JPG",
     "static/media/Experian.png": "/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/static/media/Faith_Chia.d84854f6.jpg",
+    "static/media/Fall_2021_Cover.png": "/static/media/Fall_2021_Cover.8bf18a12.png",
     "static/media/Fall_Rush_Cover.png": "/static/media/Fall_Rush_Cover.0aa1b59a.png",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.de69a6ac.JPG",
     "static/media/Founders_Alt_1.png": "/static/media/Founders_Alt_1.a68a20f7.png",
@@ -58,7 +59,7 @@
     "static/media/HRMA.png": "/static/media/HRMA.1a622e17.png",
     "static/media/Haley_Kim.jpg": "/static/media/Haley_Kim.c23644c4.jpg",
     "static/media/Hanui_Lee.jpg": "/static/media/Hanui_Lee.56445082.jpg",
-    "static/media/Home.jpeg": "/static/media/Home.519fa595.jpeg",
+    "static/media/Home.jpg": "/static/media/Home.d102c5eb.jpg",
     "static/media/ISBA.png": "/static/media/ISBA.d3bb9cd9.png",
     "static/media/Ian_Han.jpg": "/static/media/Ian_Han.7c513a8f.jpg",
     "static/media/IngramMicro.png": "/static/media/IngramMicro.58c35c9f.png",
@@ -158,8 +159,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.c6078ca4.chunk.js",
+    "static/js/2.6034fd9d.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.4beec146.chunk.js"
+    "static/js/main.6846146d.chunk.js"
   ]
 }
