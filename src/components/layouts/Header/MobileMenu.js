@@ -44,7 +44,7 @@ export default function MobileMenu() {
                         <MenuItem onClick={popupState.close} component={Link} to="/active-brothers" className={classes.menuItem}>Active Brothers</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/campus-involvement" className={classes.menuItem}>Campus Involvements</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/careers" className={classes.menuItem}>Careers</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/recruitment" className={classes.menuItem}>Fall Rush 2021</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/recruitment" className={classes.menuItem}>Winter Rush 2021</MenuItem>
                         {/* <MenuItem onClick={popupState.close} component={Link} to="/fall-rush-2020" className={classes.menuItem}>Fall Rush 2020</MenuItem> */}
                         <MenuItem onClick={popupState.close} component={Link} to="/faqs" className={classes.menuItem}>FAQs</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/gallery" className={classes.menuItem}>Gallery</MenuItem>

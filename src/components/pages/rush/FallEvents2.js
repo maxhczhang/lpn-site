@@ -1,7 +1,7 @@
 export const events = [
     {
         title: "Info Night",
-        date: "Sept 26",
+        date: "Sept 27",
         description: "Learn about who we are, our history, and what we value.",
         dressCode: "Business Casual Attire",
         // ics: {

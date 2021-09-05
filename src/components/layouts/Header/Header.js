@@ -63,22 +63,22 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const recruitmentMenu = [
-  // {
-  //   title: "WINTER RUSH 2021",
-  //   url: "/recruitment"
-  // },
   {
-    title: "FALL RUSH 2021",
+    title: "WINTER RUSH 2021",
     url: "/recruitment"
   },
   // {
-  //   title: "FALL RUSH 2020",
-  //   url: "/fall-rush-2020"
+  //   title: "FALL RUSH 2021",
+  //   url: "/recruitment"
   // },
   {
-    title: "FAQS",
-    url: "/faqs"
-  }
+    title: "FALL RUSH 2020",
+    url: "/fall-rush-2020"
+  },
+  // {
+  //   title: "FAQS",
+  //   url: "/faqs"
+  // }
 ]
 
 const brothersMenu = [
@@ -115,7 +115,7 @@ export default function Header({ pageNum }) {
       <AppBar position='static' className={appBarClass} elevation={elevation}>
         
         <div className={classes.root}>
-          <Grid container direction="row" justify="space-between" spacing={3} alignItems="center" >
+          <Grid container direction="row" justify="space-between" alignItems="center" >
             <Grid item>
               <Link to="/">
                 <img src={logo_white} className={isMobile ? classes.mobileLogo : classes.logo} alt="LPN"></img>
@@ -149,6 +149,8 @@ export default function Header({ pageNum }) {
                   <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
                   
                   <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
+
+                  <Button size="large" className={classes.button} component={Link} to="/faqs">FAQ</Button>
 
                 </Box>
               </Grid>

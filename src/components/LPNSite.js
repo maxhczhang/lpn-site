@@ -89,15 +89,15 @@ export default function LPNSite() {
                         <Careers setPage={setPage} />
                     </Route>
 
-                    {/* <Route exact path="/recruitment">
-                        <Winter2021 setPage={setPage} />
-                    </Route> */}
                     <Route exact path="/recruitment">
-                        <Fall2021 setPage={setPage} />
+                        <Winter2021 setPage={setPage} />
                     </Route>
-                    {/* <Route exact path="/fall-rush-2020">
-                        <Fall2020 setPage={setPage} />
+                    {/* <Route exact path="/recruitment">
+                        <Fall2021 setPage={setPage} />
                     </Route> */}
+                    <Route exact path="/fall-rush-2020">
+                        <Fall2020 setPage={setPage} />
+                    </Route>
                     <Route exact path="/faqs">
                         <FAQs setPage={setPage} />
                     </Route>
