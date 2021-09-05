@@ -17,6 +17,7 @@ import CampusInvolvement from './pages/campusInvolvements/CampusInvolvement'
 import Careers from './pages/careers/Careers'
 import Winter2021 from './pages/rush/Winter2021'
 import Fall2020 from './pages/rush/Fall2020'
+import Fall2021 from './pages/rush/Fall2021'
 import FAQs from './pages/faqs/FAQs'
 import Gallery from './pages/gallery/Gallery'
 import Contact from './pages/contact/Contact'
@@ -60,7 +61,7 @@ export default function LPNSite() {
     }
 
     return (
-       <HashRouter>
+       <BrowserRouter>
            <ScrollToTop></ScrollToTop>
                       
             <div className={classes.app}>
@@ -88,12 +89,15 @@ export default function LPNSite() {
                         <Careers setPage={setPage} />
                     </Route>
 
-                    <Route exact path="/recruitment">
+                    {/* <Route exact path="/recruitment">
                         <Winter2021 setPage={setPage} />
+                    </Route> */}
+                    <Route exact path="/recruitment">
+                        <Fall2021 setPage={setPage} />
                     </Route>
-                    <Route exact path="/fall-rush-2020">
+                    {/* <Route exact path="/fall-rush-2020">
                         <Fall2020 setPage={setPage} />
-                    </Route>
+                    </Route> */}
                     <Route exact path="/faqs">
                         <FAQs setPage={setPage} />
                     </Route>
@@ -116,6 +120,6 @@ export default function LPNSite() {
                 </ThemeProvider>
             
             </div>
-        </HashRouter>
+        </BrowserRouter>
     );
 }

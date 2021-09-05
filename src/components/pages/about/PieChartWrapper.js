@@ -59,7 +59,7 @@ export default function PieChartWrapper({dataIn, lightened, title, angle, isMobi
                 labelPosition={120}
                 animate
                 radius={35}
-                style={{ height: isMobile ? 200 : 251 }}
+                style={{ height: isMobile ? 200 : 251,width: isMobile ? 300 : 300 }}
                 startAngle={angle}
 
                 // segmentsStyle={{ transition: 'stroke .3s', cursor: 'pointer' }}

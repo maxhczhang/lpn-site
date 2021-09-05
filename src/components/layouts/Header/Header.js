@@ -16,8 +16,8 @@ import useWindowDimensions from '../../utils/WindowListener'
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: 100,
-    width: 100,
+    height: 70,
+    width: 70,
     marginLeft: theme.spacing(2),
   },
   mobileLogo: {
@@ -33,6 +33,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
     flexDirection: "column",
+    paddingRight: 350,
+    //alignContent: "center",
   },
   appBarDark: {
     position: "relative",
@@ -61,14 +63,18 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const recruitmentMenu = [
+  // {
+  //   title: "WINTER RUSH 2021",
+  //   url: "/recruitment"
+  // },
   {
-    title: "WINTER RUSH 2021",
+    title: "FALL RUSH 2021",
     url: "/recruitment"
   },
-  {
-    title: "FALL RUSH 2020",
-    url: "/fall-rush-2020"
-  },
+  // {
+  //   title: "FALL RUSH 2020",
+  //   url: "/fall-rush-2020"
+  // },
   {
     title: "FAQS",
     url: "/faqs"
@@ -109,22 +115,22 @@ export default function Header({ pageNum }) {
       <AppBar position='static' className={appBarClass} elevation={elevation}>
         
         <div className={classes.root}>
-          <Grid container direction="row" justify="space-between" alignItems="center">
+          <Grid container direction="row" justify="space-between" spacing={3} alignItems="center" >
             <Grid item>
               <Link to="/">
                 <img src={logo_white} className={isMobile ? classes.mobileLogo : classes.logo} alt="LPN"></img>
               </Link>
             </Grid>
 
-            {isMobile &&
+            {/* {isMobile &&
               <Grid item>
                 <Button variant="contained" size="medium" color="inherit" component={Link} to="/recruitment"
                   className={classes.joinButton}>
                   Join Us
                 </Button>
               </Grid>
-            }
-
+            } */}
+          <div display="flex">
             {isMobile 
               ? <MobileMenu></MobileMenu>
               : <Grid item>
@@ -147,15 +153,15 @@ export default function Header({ pageNum }) {
                 </Box>
               </Grid>
             }
-          
-            {!isMobile &&
+          </div>
+            {/* {!isMobile &&
               <Grid item>
                 <Button variant="contained" size="large" color="inherit" component={Link} to="/recruitment"
                   className={classes.joinButton}>
                   Join Us
                 </Button>
               </Grid>
-            }
+            } */}
             
           </Grid>
         </div>
