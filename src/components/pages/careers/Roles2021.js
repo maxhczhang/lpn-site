@@ -33,19 +33,19 @@ export const roles2021 = {
 
         "Marketing": [
             { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Westhaven Power', position: "Marketing Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/le-an-pham" color="inherit">Le An Pham</Link>, company: 'Fiddler', position: "Marketing Intern" },
+            { name: 'Le An Pham', company: 'Fiddler', position: "Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'EtherWAN Systems', position: "Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'HashiCorp', position: "Marketing Demand Generation Intern" },
             { name: <Link color="inherit">Courtney Tsao</Link>, company: 'SoundOff', position: 'Brand Management & PR Intern' },
             { name: <Link component={RouterLink} to="/active-brothers/faith-chia" color="inherit">Faith Chia</Link>, company: 'TJX Companies', position: "Merchandising Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/jenny-cheung" color="inherit">Jenny Cheung</Link>, company: 'Saks OFF 5th', position: "Social Media Intern" },
+            { name: 'Jenny Cheung', company: 'Saks OFF 5th', position: "Social Media Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'United Exchange Corporation', position: "Marketing Assistant" },
             { name: <Link component={RouterLink} to="/active-brothers/naveen-sastri" color="inherit">Naveen Sastri</Link>, company: 'eBay', position: "Marketing Planning Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/raj-singh" color="inherit">Raj Singh</Link>, company: 'Sencha Credit', position: "Content Marketer" },
         ],
 
         "Operations": [
-            { name: <Link component={RouterLink} to="/active-brothers/emily-nguyen" color="inherit">Emily Nguyen</Link>, company: 'Samba TV', position: "Business Operations Intern" },
+            { name:'Emily Nguyen', company: 'Samba TV', position: "Business Operations Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'BlackBerry', position: "Managed Security Service Provider" },
             { name: 'Jasmin He', company: 'Henkel', position: "Brand Management Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'Agora Néos', position: "Project Management Intern", },
@@ -63,11 +63,11 @@ export const roles2021 = {
 
     "Full Times" : {
         "Accounting" : [
-            { name: <Link component={RouterLink} to="/active-brothers/david-sonq" color="inherit">David Sonq</Link>, company: 'EY', position: "Tax Staff" },
-            { name: <Link component={RouterLink} to="/active-brothers/tiffany-chan" color="inherit">Tiffany Chan</Link>, company: 'RSM', position: "Audit Associate" },
+            { name: 'David Sonq', company: 'EY', position: "Tax Staff" },
+            { name: 'Tiffany Chan', company: 'RSM', position: "Audit Associate" },
         ],
         "Consulting" : [
-            { name: <Link component={RouterLink} to="/active-brothers/philip-cheung" color="inherit">Philip Cheung</Link>, company: 'Deloitte', position: "Application & Program Analyst" },
+            { name: 'Philip Cheung', company: 'Deloitte', position: "Application & Program Analyst" },
         ],
         "Marketing": [
             { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
@@ -76,7 +76,7 @@ export const roles2021 = {
             {name: 'Jasmin He', company: 'Henkel Beauty', position: "Brand Management/Product Development"},
         ],
        "Finance": [
-            { name: <Link component={RouterLink} to="/active-brothers/yong-lin" color="inherit">Yong Lin</Link>, company: 'Capital One', position: "Commercial Rotational Program Associate" },
+            { name: 'Yong Lin', company: 'Capital One', position: "Commercial Rotational Program Associate" },
         ],
         "Human Resources": [
             {name: 'Jeffrey Cho', company: 'Western Digital', position: "HR Coordinator"},

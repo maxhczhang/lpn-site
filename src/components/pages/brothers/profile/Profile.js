@@ -105,8 +105,14 @@ export default function Profile({setPage, match}) {
                                     {name}
                                 </Box>
                             </Grid>
+                            <Grid item xs={12}>
+                            <Typography variant="h6" color="textSecondary">
+                                {profile['pronouns']}
+                            </Typography>
+                            </Grid>
 
                             <Grid item xs={12}>
+                                
                                 <Box fontSize="h4.fontSize" mb={8}>
                                     {profile['class']} Class
                                 </Box>
