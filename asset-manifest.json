@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.ce7f97e8.chunk.js",
-    "main.js.map": "/static/js/main.ce7f97e8.chunk.js.map",
+    "main.js": "/static/js/main.f7373933.chunk.js",
+    "main.js.map": "/static/js/main.f7373933.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.21b04418.chunk.js": "/static/js/2.21b04418.chunk.js",
-    "static/js/2.21b04418.chunk.js.map": "/static/js/2.21b04418.chunk.js.map",
+    "static/js/2.8c0fa54a.chunk.js": "/static/js/2.8c0fa54a.chunk.js",
+    "static/js/2.8c0fa54a.chunk.js.map": "/static/js/2.8c0fa54a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1c1f7b7abdb6458224693a73f645dc78.js": "/precache-manifest.1c1f7b7abdb6458224693a73f645dc78.js",
+    "precache-manifest.62fc5040bb30c91d631e9eda7c473409.js": "/precache-manifest.62fc5040bb30c91d631e9eda7c473409.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.21b04418.chunk.js.LICENSE.txt": "/static/js/2.21b04418.chunk.js.LICENSE.txt",
+    "static/js/2.8c0fa54a.chunk.js.LICENSE.txt": "/static/js/2.8c0fa54a.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.398f16bd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -46,6 +46,7 @@
     "static/media/Excellence.JPG": "/static/media/Excellence.d62f2214.JPG",
     "static/media/Experian.png": "/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/static/media/Faith_Chia.d84854f6.jpg",
+    "static/media/Fall2021_Video.mp4": "/static/media/Fall2021_Video.77195518.mp4",
     "static/media/Fall_2021_Cover.png": "/static/media/Fall_2021_Cover.8bf18a12.png",
     "static/media/Fall_Rush_Cover.png": "/static/media/Fall_Rush_Cover.0aa1b59a.png",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.de69a6ac.JPG",
@@ -159,8 +160,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.21b04418.chunk.js",
+    "static/js/2.8c0fa54a.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.ce7f97e8.chunk.js"
+    "static/js/main.f7373933.chunk.js"
   ]
 }
