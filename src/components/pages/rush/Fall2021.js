@@ -128,17 +128,14 @@ export default function Winter2021({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            {/* <Typography component="div" className={classes.paragraph} align="left">
+            <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                    2020 was a year of change - everything became virtual, and we had to adapt to a new normal, changing our lives forever for better or worse. Whether we thrived in this online learning environment, struggled with the disconnect from others, or missed meaningful milestones in our lives, we all experienced it together. This year was challenging to say the least, but as we begin the new year, the brothers of Lambda Phi Nu are optimistic for the opportunities it’ll bring and the new memories we’ll make!
+                While this past year of virtual learning has been difficult, our brothers have continued to build relationships, pursue internships to advance our careers, and take on leadership positions in our business community during COVID-19. Even in the darkness, Lambda Phi Nu shines by developing our brothers and giving back to the UCI community.
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                    We want to dream big and look toward a year of possibilities: a year where we start our careers, discover our passions, learn how to cook our first college meals, and find another group of ambitious, driven individuals to join our Pi class starting on January 5th. We hope to see you there as we Venture Beyond the constraints of 2020 and discover tomorrow's innovators, leaders, and life-long brothers!  
+                As UCI begins to shift back to campus, we are excited to return to in-person recruitment and pledge for Fall 2021. We hope that you will attend our recruitment events starting September 27 to learn about our fraternity, meet our Brothers, and become a part of the Rho class to Illuminate the path to your next journey!
                 </Box>
-                <Box mb={10} fontSize="h6.fontSize">
-                    Thank you to all the candidates who participated in our Winter 2021 recruitment, and a special congratulations to our newest Associates! To those who unfortunately did not receive a bid, the Brothers of Lambda Phi Nu will be eagerly awaiting you this Fall.
-                </Box>
-            </Typography> */}
+            </Typography>
 
             <Divider className={classes.divider}></Divider>
 
