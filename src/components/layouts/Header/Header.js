@@ -63,14 +63,14 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const recruitmentMenu = [
-  {
-    title: "WINTER RUSH 2021",
-    url: "/recruitment"
-  },
   // {
-  //   title: "FALL RUSH 2021",
+  //   title: "WINTER RUSH 2021",
   //   url: "/recruitment"
   // },
+  {
+    title: "FALL RUSH 2021",
+    url: "/recruitment"
+  },
   {
     title: "FALL RUSH 2020",
     url: "/fall-rush-2020"
@@ -144,7 +144,8 @@ export default function Header({ pageNum }) {
                   
                   <Button size="large" className={classes.button} component={Link} to="/careers">Careers</Button>
       
-                  <MyMenu mainTitle="Recruitment" menuItems={recruitmentMenu} buttonStyle={classes.button}></MyMenu>
+                  {/* <MyMenu mainTitle="Recruitment" menuItems={recruitmentMenu} buttonStyle={classes.button}></MyMenu> */}
+                  <Button size="large" className={classes.button} component={Link} to="/recruitment">Recruitment</Button>
 
                   <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
                   
