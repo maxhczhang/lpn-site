@@ -56,7 +56,7 @@ export const events = [
         date: "Oct 04",
         description: "Network with some of our most accomplished alumni.",
         dressCode: "Business Professional Attire",
-        Location: "Emerald Bay A",
+        location: "Emerald Bay A",
         // ics: {
         //     title: "LPN Rush: Professional Night",
         //     description: "Network with some of our most accomplished alumni! Event check in: https://uci.zoom.us/meeting/register/tJIofu2hrDojHtaQD0KdRcpgOABnXyJoHYjY",
