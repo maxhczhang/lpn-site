@@ -4,6 +4,7 @@ export const events = [
         date: "Sept 27",
         description: "Learn about who we are, our history, and what we value.",
         dressCode: "Business Casual Attire",
+        location: "Doheny Beach A",
         // ics: {
         //     title: "LPN Rush: Info Night",
         //     description: "Learn about who we are, our history, and what we value! Event check in: https://uci.zoom.us/meeting/register/tJYvde2rqDIoHtC58bpd4MBTIom6KGmqt8ip",
@@ -20,6 +21,7 @@ export const events = [
         date: "Sept 29",
         description: "Our amazing brothers are eager to meet you!",
         dressCode: "Casual Attire",
+        location: "Doheny Beach B",
         // ics: {
         //     title: "LPN Rush: Meet the Bros",
         //     description: "All our brothers are eager to meet you! Event check in: https://uci.zoom.us/meeting/register/tJUoce2vrTMqHNIUL7bdIHEZcW08xcm6BHvY",
@@ -36,6 +38,7 @@ export const events = [
         date: "Sept 31, Oct 05",
         description: "Attend scheduled, 1:1 chats with our brothers on either day. Sign up for a time slot!",
         dressCode: "Casual Atire",
+        location: "Zoom",
         // ics: {
         //     title: "LPN Rush: Coffee Chats",
         //     description: "Attend scheduled, 1:1 chats with our brothers on either day. Sign up for a time slot: https://doodle.com/poll/ha483m7evwcqa85z?utm_source=poll&utm_medium=link",
@@ -53,6 +56,7 @@ export const events = [
         date: "Oct 04",
         description: "Network with some of our most accomplished alumni.",
         dressCode: "Business Professional Attire",
+        Location: "Emerald Bay A",
         // ics: {
         //     title: "LPN Rush: Professional Night",
         //     description: "Network with some of our most accomplished alumni! Event check in: https://uci.zoom.us/meeting/register/tJIofu2hrDojHtaQD0KdRcpgOABnXyJoHYjY",
