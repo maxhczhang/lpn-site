@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
         color: "black",
         fontWeight: "bold",
         '&:hover': {
-            color: "#A92C26"
+            color: "rgb(39, 57, 141)"
         }
     },
     highlightText: {

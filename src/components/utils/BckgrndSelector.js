@@ -202,12 +202,15 @@ export default function BckgrndSelector({ pageNum }) {
                         {
                             amount: 0.2,
                             children:
-                                <iframe width="100%" height="100%" title="Rush Video"
-                                    src="https://www.youtube-nocookie.com/embed/44pkNiN451A?playlist=44pkNiN451A&loop=1&autoplay=1&mute=1&vq=hd720&controls=0"
-                                    frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-                                    style={isMobile ? {} : { pointerEvents: "none" }}
-                                >
-                                </iframe>
+                                // <iframe width="100%" height="100%" title="Rush Video"
+                                //     src="https://www.youtube-nocookie.com/embed/44pkNiN451A?playlist=44pkNiN451A&loop=1&autoplay=1&mute=1&vq=hd720&controls=0"
+                                //     frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
+                                //     style={isMobile ? {} : { pointerEvents: "none" }}
+                                // >
+                                // </iframe>
+                                <iframe width="100%" height="100%" title="Rush Video" src="https://www.youtube-nocookie.com/embed/GbB8dJIyrB4?playlist=GbB8dJIyrB4&loop=1&autoplay=1&mute=1&vq=hd720&controls=0" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
                         },
                     ]}
                 >

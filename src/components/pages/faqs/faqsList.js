@@ -1,7 +1,7 @@
 export const faqsList = [
     {
-        question: "Are we holding Spring 2021 recruitment?",
-        answer: "Unfortunately, we are not recruiting this Spring. The next opportunity to rush Lambda Phi Nu will be in Fall 2021. Feel free to keep in touch with us until then!",
+        question: "Are we holding Fall 2021 recruitment?",
+        answer: "Yes! We are holding Fall 2021 recruitment this year. Visit the recruitment page for more info! ",
     },
     {
         question: "Why Lambda Phi Nu?",

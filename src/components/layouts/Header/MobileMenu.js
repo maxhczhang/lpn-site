@@ -32,11 +32,9 @@ export default function MobileMenu() {
         <PopupState variant="popover" popupId="demo-popup-menu">
             {(popupState) => (
                 <React.Fragment>
-
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" {...bindTrigger(popupState)}>
+                    <IconButton style={{  paddingLeft: 40 }} color="inherit" aria-label="menu" {...bindTrigger(popupState)}>
                         <MenuIcon />
                     </IconButton>
-                    
                     <Menu {...bindMenu(popupState)} classes={{ paper: classes.paper }}>
 
                         <MenuItem onClick={popupState.close} component={Link} to="/" className={classes.menuItem}>Home</MenuItem>
