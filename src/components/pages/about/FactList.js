@@ -17,7 +17,7 @@ export const facts = [
         title: "Current Leadership Positions",
     },
     {
-        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">6</Link>,
+        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">3</Link>,
         title: "Current President Positions",
     },
     {

@@ -76,7 +76,7 @@ export default function About({setPage}) {
                 </Typography>
             </Box>
 
-            <Grid container spacing={10} justify="space-between" alignItems="center" className={classes.chart}>
+            <Grid container alignItems="center" className={classes.chart}>
                 <Grid item>
                     <PieChartWrapper title="Gender" dataIn={chartData["Gender"]["data"]} lightened={chartData["Gender"]["lightened"]} angle={90} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
