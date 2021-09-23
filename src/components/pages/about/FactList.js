@@ -9,7 +9,7 @@ export const facts = [
         title: "Active & Alumni Brothers",
     },
     {
-        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">8</Link>,
+        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">9</Link>,
         title: "Business Orgs Founded",
     },
     {
@@ -25,7 +25,7 @@ export const facts = [
         title: "Internship Placement Rate",
     },
     {
-        answer: <Link component={RouterLink} to="/careers" color="inherit" underline="none">2.9</Link>,
+        answer: <Link component={RouterLink} to="/careers" color="inherit" underline="none">2.8</Link>,
         title: "Average Internships Per Active",
     },
    
