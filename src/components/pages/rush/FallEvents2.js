@@ -46,8 +46,7 @@ export const events = [
         //     endTime: "2021-01-08T16:00:00-08:00",
         //     location: "Zoom"
         // },
-        // checkinLink: "https://doodle.com/poll/ha483m7evwcqa85z?utm_source=poll&utm_medium=link",
-        time: "TBA",
+        checkinLink: "https://doodle.com/meeting/participate/id/Qe1rv7ja/vote?fbclid=IwAR0L3cOYKiPaQWkezBxdha3UirG4UkxLA05NbRY0J_6dzVzibzLal2T5NIE",
         eventIcon: "schedule",
         eventTooltip: "Sign up for a time slot"
     },
