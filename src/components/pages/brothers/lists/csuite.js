@@ -19,6 +19,9 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers_small/Ethan_Canavan.jpg'),
         name: "Ethan Canavan",
         title: 'Chief Financial Officer',
+        logo: require('../../../../assets/actives/logos/ochin.jpeg'),
+        company: 'OCHIN',
+        width: "55%"
     },
     {
         img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),

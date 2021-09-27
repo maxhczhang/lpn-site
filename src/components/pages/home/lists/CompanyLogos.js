@@ -48,8 +48,8 @@ export const companyLogos = [
         title: 'Disney'
     },
     {
-        img: require('../../../../assets/companyLogos/Blizzard.png'),
-        title: 'Blizzard'
+        img: require('../../../../assets/companyLogos/TikTok.png'),
+        title: 'TikTok'
     },
     {
         img: require('../../../../assets/companyLogos/Apple.png'),

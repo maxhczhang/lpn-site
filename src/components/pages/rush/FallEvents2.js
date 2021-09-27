@@ -13,7 +13,7 @@ export const events = [
         //     location: "Zoom"
         // },
         // checkinLink: 'https://uci.zoom.us/meeting/register/tJYvde2rqDIoHtC58bpd4MBTIom6KGmqt8ip',
-        time: "7:00PM - 9:00PM",
+        time: "7:00PM - 9:30PM",
         eventTooltip: "Zoom Check In"
     },
     {
@@ -30,12 +30,13 @@ export const events = [
         //     location: "Zoom"
         // },
         // checkinLink: 'https://uci.zoom.us/meeting/register/tJUoce2vrTMqHNIUL7bdIHEZcW08xcm6BHvY',
-        time: "7:00PM - 10:00PM",
+        time: "7:00PM - 9:30PM",
         eventTooltip: "Zoom Check In"
     },
     {
         title: "Coffee Chats",
-        date: "Sept 31, Oct 05",
+        subtitle:"(By Appointment)",
+        date: "Sept 30",
         description: "Attend scheduled, 1:1 chats with our brothers on either day. Sign up for a time slot!",
         dressCode: "Casual Atire",
         location: "Zoom",

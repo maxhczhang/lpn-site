@@ -68,12 +68,14 @@ export const roles2021 = {
         ],
         "Consulting" : [
             { name: 'Philip Cheung', company: 'Deloitte', position: "Application & Program Analyst" },
+            { name: 'Naishal Shah', company: 'Green Street Advisors', position: "Market Research Associate"},
         ],
         "Marketing": [
             { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
             {name: 'Jenny Cheung', company: 'SAP', position: "Marketing Coordinator"},
             {name: 'Le An Pham', company: 'Redbubble', position: "Brand Partnerships Coordinator"},
             {name: 'Jasmin He', company: 'Henkel Beauty', position: "Brand Management/Product Development"},
+            { name: 'Matthew Nagata', company: 'Workday', position: "" },
         ],
        "Finance": [
             { name: 'Yong Lin', company: 'Capital One', position: "Commercial Rotational Program Associate" },

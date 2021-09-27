@@ -13,7 +13,7 @@ export const facts = [
         title: "Business Orgs Founded",
     },
     {
-        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">67</Link>,
+        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">55</Link>,
         title: "Current Leadership Positions",
     },
     {

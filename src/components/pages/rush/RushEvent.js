@@ -89,7 +89,11 @@ export default function RushEvent({event, cardStyle}) {
                 disableTypography={true}
                 className={classes.paragraph}
             />
-           
+           <CardContent className={classes.paragraph}>
+                <Typography component="div">
+                    <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium" letterSpacing={2}>{event.subtitle}</Box>
+                </Typography>
+            </CardContent>
             <CardContent className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium" letterSpacing={2}>{event.time}</Box>
