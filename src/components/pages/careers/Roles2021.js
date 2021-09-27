@@ -75,7 +75,7 @@ export const roles2021 = {
             {name: 'Jenny Cheung', company: 'SAP', position: "Marketing Coordinator"},
             {name: 'Le An Pham', company: 'Redbubble', position: "Brand Partnerships Coordinator"},
             {name: 'Jasmin He', company: 'Henkel Beauty', position: "Brand Management/Product Development"},
-            { name: 'Matthew Nagata', company: 'Workday', position: "" },
+            { name: 'Matthew Nagata', company: 'Workday', position: "Field Readiness Architect" },
         ],
        "Finance": [
             { name: 'Yong Lin', company: 'Capital One', position: "Commercial Rotational Program Associate" },
