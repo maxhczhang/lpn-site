@@ -36,7 +36,7 @@ export const events = [
     {
         title: "Coffee Chats",
         subtitle:"(By Appointment)",
-        date: "Sept 30",
+        date: "Sept 30, Oct 05",
         description: "Attend scheduled, 1:1 chats with our brothers on either day. Sign up for a time slot!",
         dressCode: "Casual Atire",
         location: "Zoom",
@@ -65,7 +65,7 @@ export const events = [
         //     location: "Zoom"
         // },
         // checkinLink: 'https://uci.zoom.us/meeting/register/tJIofu2hrDojHtaQD0KdRcpgOABnXyJoHYjY',
-        time: "7:00PM - 10:00PM",
+        time: "7:00PM - 9:30PM",
         eventTooltip: "Zoom Check In"
     },
     {
