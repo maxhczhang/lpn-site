@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.4c8e7062.chunk.js",
-    "main.js.map": "/static/js/main.4c8e7062.chunk.js.map",
+    "main.js": "/static/js/main.1677f92e.chunk.js",
+    "main.js.map": "/static/js/main.1677f92e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.21b04418.chunk.js": "/static/js/2.21b04418.chunk.js",
-    "static/js/2.21b04418.chunk.js.map": "/static/js/2.21b04418.chunk.js.map",
+    "static/js/2.109388c8.chunk.js": "/static/js/2.109388c8.chunk.js",
+    "static/js/2.109388c8.chunk.js.map": "/static/js/2.109388c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c8c30ca3937741e8d2cefcc3160a755e.js": "/precache-manifest.c8c30ca3937741e8d2cefcc3160a755e.js",
+    "precache-manifest.83962734ef2c85da7d486410d9dac8c4.js": "/precache-manifest.83962734ef2c85da7d486410d9dac8c4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.21b04418.chunk.js.LICENSE.txt": "/static/js/2.21b04418.chunk.js.LICENSE.txt",
+    "static/js/2.109388c8.chunk.js.LICENSE.txt": "/static/js/2.109388c8.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.398f16bd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -151,6 +151,7 @@
     "static/media/instaboost.png": "/static/media/instaboost.bdf3bb48.png",
     "static/media/logo.png": "/static/media/logo.f68038e3.png",
     "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png",
+    "static/media/ochin.jpeg": "/static/media/ochin.5d6edfda.jpeg",
     "static/media/oigetit.png": "/static/media/oigetit.20936cac.png",
     "static/media/pwc.svg": "/static/media/pwc.37c3c987.svg",
     "static/media/skechers.png": "/static/media/skechers.03f8a5d8.png",
@@ -159,8 +160,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.21b04418.chunk.js",
+    "static/js/2.109388c8.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.4c8e7062.chunk.js"
+    "static/js/main.1677f92e.chunk.js"
   ]
 }
