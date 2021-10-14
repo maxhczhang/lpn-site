@@ -8,7 +8,7 @@ export const brothers = [
         width: "40%"
     },
     {
-        img: require("../../../../assets/actives/brothers/Karen_Ching.jpg"),
+        img: require("../../../../assets/actives/brothers/Karen_Ching.JPG"),
         name: "Karen Ching",
         logo: require('../../../../assets/actives/logos/UCIGradDivision.png'),
         company: 'UCI Graduate Division',
@@ -91,7 +91,7 @@ export const brothers = [
         width: "30%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Tiffany_Wong.jpg'),
+        img: require('../../../../assets/actives/brothers/Tiffany_Wong.JPG'),
         name: "Tiffany Wong",
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
         company: 'JP Morgan Chase & Co',
@@ -166,11 +166,11 @@ export const brothers = [
     //     width: "35%",
     //     pfp_width: 218
     // },
-    {
-        img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
-        name: "Tyler Newman",
-        pfp_width: 218
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers_small/Tyler_Newman.jpg'),
+    //     name: "Tyler Newman",
+    //     pfp_width: 218
+    // },
     // {
     //     img: require('../../../../assets/actives/brothers_small/Yong_Lin.jpg'),
     //     name: "Yong Lin",

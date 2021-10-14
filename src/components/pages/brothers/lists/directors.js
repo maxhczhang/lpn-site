@@ -57,7 +57,7 @@ export const directors = [
 
 
     {
-        img: require('../../../../assets/actives/brothers/Khoa_Tran.jpg'),
+        img: require('../../../../assets/actives/brothers/Khoa_Tran.JPG'),
         name: "Khoa Tran",
         title: "Career Catalyst Director",
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
@@ -65,7 +65,7 @@ export const directors = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Jennifer_Lin.jpg'),
+        img: require('../../../../assets/actives/brothers/Jennifer_Lin.JPG'),
         name: "Jennifer Lin",
         title: 'Culture & Relationships Director | Recruiter',
     },
@@ -78,7 +78,7 @@ export const directors = [
         width: "40%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Raj_Singh.jpg'),
+        img: require('../../../../assets/actives/brothers/Raj_Singh.JPG'),
         name: "Jasraj Singh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
