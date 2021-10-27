@@ -1,5 +1,15 @@
 export const GalleryPhotos = [
     {
+        img: require('../../../assets/gallery/Pumpkin_Patch.jpeg'),
+        cols: 2,
+        rows: 2,
+    },
+    {
+        img: require('../../../assets/gallery/Csuite_2021.jpeg'),
+        cols: 1,
+        rows: 2,
+    },
+    {
         img: require('../../../assets/gallery/Xi_Frat_Social.JPG'),
         cols: 1,
         rows: 1,

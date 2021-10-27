@@ -1,7 +1,7 @@
 export const chartData = {
     "Major": {
         "data": [
-            { title: 'Consulting', value: 17, color: '#ef5675' },
+            { title: 'Consulting', value: 17, color: '#f2669c' },
             { title: 'Human Resources', value: 5, color: '#374c80' },
             { title: 'Technolgy', value: 5, color: '#003f5c' },
             { title: 'Finance', value: 3, color: "#7a5195" },
@@ -10,11 +10,11 @@ export const chartData = {
             { title: 'Marketing', value: 17, color: '#bc5090' },
         ],
         "lightened": [
-            '#ff7493',
+            '#eb8db1',
             '#556a9e',
             '#1e5d7a',
             '#986fb3',
-            '#ff9568',
+            '#ff9568', 
             '#ffc31e',
             '#da6eaf',
         ]
