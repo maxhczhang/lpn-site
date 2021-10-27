@@ -3,7 +3,7 @@ export const chartData = {
         "data": [
             { title: 'Consulting', value: 17, color: '#f2669c' },
             { title: 'Human Resources', value: 5, color: '#374c80' },
-            { title: 'Technolgy', value: 5, color: '#003f5c' },
+            { title: 'Technology', value: 5, color: '#003f5c' },
             { title: 'Finance', value: 3, color: "#7a5195" },
             { title: 'Accounting', value: 3, color: '#ff764a' },
             { title: 'Other', value: 3, color: '#ffa600' },
