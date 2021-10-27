@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.ded8e40a.chunk.js",
-    "main.js.map": "/static/js/main.ded8e40a.chunk.js.map",
+    "main.js": "/static/js/main.eba15216.chunk.js",
+    "main.js.map": "/static/js/main.eba15216.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.1db29d30.chunk.js": "/static/js/2.1db29d30.chunk.js",
-    "static/js/2.1db29d30.chunk.js.map": "/static/js/2.1db29d30.chunk.js.map",
+    "static/js/2.b0af1b1e.chunk.js": "/static/js/2.b0af1b1e.chunk.js",
+    "static/js/2.b0af1b1e.chunk.js.map": "/static/js/2.b0af1b1e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8f6632e04fb5fcc2184a7128b3b29241.js": "/precache-manifest.8f6632e04fb5fcc2184a7128b3b29241.js",
+    "precache-manifest.c38d4e5ff2cac241aa688629f5d384a6.js": "/precache-manifest.c38d4e5ff2cac241aa688629f5d384a6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.1db29d30.chunk.js.LICENSE.txt": "/static/js/2.1db29d30.chunk.js.LICENSE.txt",
+    "static/js/2.b0af1b1e.chunk.js.LICENSE.txt": "/static/js/2.b0af1b1e.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/About.jpg": "/static/media/About.398f16bd.jpg",
     "static/media/Accenture.png": "/static/media/Accenture.c457ca34.png",
@@ -32,6 +32,7 @@
     "static/media/Cathy_Yun.jpg": "/static/media/Cathy_Yun.a1f3118c.jpg",
     "static/media/CoreValues_Separator.jpg": "/static/media/CoreValues_Separator.65d26d73.jpg",
     "static/media/Courtney_Tsao.jpg": "/static/media/Courtney_Tsao.b288e8ca.jpg",
+    "static/media/Csuite_2021.jpeg": "/static/media/Csuite_2021.67304fba.jpeg",
     "static/media/David_Sonq.png": "/static/media/David_Sonq.2af4b299.png",
     "static/media/David_Sonq.jpg": "/static/media/David_Sonq.93e9f186.jpg",
     "static/media/Deloitte.png": "/static/media/Deloitte.e48af6d0.png",
@@ -106,6 +107,7 @@
     "static/media/Pi_Formal.jpg": "/static/media/Pi_Formal.afc8428a.jpg",
     "static/media/Picnic.JPG": "/static/media/Picnic.681f694a.JPG",
     "static/media/Prudential.png": "/static/media/Prudential.e183896f.png",
+    "static/media/Pumpkin_Patch.jpeg": "/static/media/Pumpkin_Patch.60cbb210.jpeg",
     "static/media/Raj_Singh.JPG": "/static/media/Raj_Singh.db738da7.JPG",
     "static/media/Raymond_Dinh.jpg": "/static/media/Raymond_Dinh.ea009704.jpg",
     "static/media/Relationships.jpg": "/static/media/Relationships.2adec5e0.jpg",
@@ -158,8 +160,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.1db29d30.chunk.js",
+    "static/js/2.b0af1b1e.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.ded8e40a.chunk.js"
+    "static/js/main.eba15216.chunk.js"
   ]
 }
