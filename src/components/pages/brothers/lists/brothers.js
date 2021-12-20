@@ -209,13 +209,37 @@ export const brothers = [
         width: "45%"
         
     },
-
     {
-        empty: true
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Aaron Lee",
     },
     {
-        empty: true
-
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Talia Yip",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Sydney Yu",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Nicole Nguyen",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Yllana Casim",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Ashley London",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Eddie Rios",
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Kayla Wong",
     },
     
 ];
