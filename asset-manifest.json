@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.d4acab23.chunk.js",
-    "main.js.map": "/static/js/main.d4acab23.chunk.js.map",
+    "main.js": "/static/js/main.4ae45a5f.chunk.js",
+    "main.js.map": "/static/js/main.4ae45a5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
     "static/js/2.52a83594.chunk.js": "/static/js/2.52a83594.chunk.js",
     "static/js/2.52a83594.chunk.js.map": "/static/js/2.52a83594.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2e5e3cf96ddbed9ccf97cc50044117cb.js": "/precache-manifest.2e5e3cf96ddbed9ccf97cc50044117cb.js",
+    "precache-manifest.ed1fa6871607fca36bee74b15dd792ae.js": "/precache-manifest.ed1fa6871607fca36bee74b15dd792ae.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
@@ -47,7 +47,6 @@
     "static/media/Excellence.JPG": "/static/media/Excellence.c18061c3.JPG",
     "static/media/Experian.png": "/static/media/Experian.4f60c0ac.png",
     "static/media/Faith_Chia.jpg": "/static/media/Faith_Chia.d84854f6.jpg",
-    "static/media/Fall_2021_Cover.png": "/static/media/Fall_2021_Cover.8bf18a12.png",
     "static/media/Fall_Rush_Cover.png": "/static/media/Fall_Rush_Cover.0aa1b59a.png",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.de69a6ac.JPG",
     "static/media/Founders_Alt_1.png": "/static/media/Founders_Alt_1.a68a20f7.png",
@@ -141,6 +140,7 @@
     "static/media/Vivian_Tran.jpg": "/static/media/Vivian_Tran.63d65b2e.jpg",
     "static/media/Western_Digital.png": "/static/media/Western_Digital.2ac2d36e.png",
     "static/media/Winter2021_Flyer.png": "/static/media/Winter2021_Flyer.c0221a22.png",
+    "static/media/Winter2022.png": "/static/media/Winter2022.de954303.png",
     "static/media/Xi_Casual.jpg": "/static/media/Xi_Casual.9433889c.jpg",
     "static/media/Xi_Frat_Social.JPG": "/static/media/Xi_Frat_Social.7d62310a.JPG",
     "static/media/Yong_Lin.jpg": "/static/media/Yong_Lin.4afc1086.jpg",
@@ -163,6 +163,6 @@
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.52a83594.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.d4acab23.chunk.js"
+    "static/js/main.4ae45a5f.chunk.js"
   ]
 }

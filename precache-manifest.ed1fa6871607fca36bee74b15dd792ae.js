@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe798cee49b63cc078b13996c93b73c6",
+    "revision": "c1034c48f9618c570237f87d83813000",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "250f464dd28af58ba407",
+    "revision": "f3f603d5d06f4fd98d1f",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.52a83594.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "250f464dd28af58ba407",
-    "url": "/static/js/main.d4acab23.chunk.js"
+    "revision": "f3f603d5d06f4fd98d1f",
+    "url": "/static/js/main.4ae45a5f.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -174,10 +174,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d84854f637c8d57b56adc00dce0c668f",
     "url": "/static/media/Faith_Chia.d84854f6.jpg"
-  },
-  {
-    "revision": "8bf18a123277cdbd3d69f3d3e000741f",
-    "url": "/static/media/Fall_2021_Cover.8bf18a12.png"
   },
   {
     "revision": "0aa1b59abb2d2f5fe7ba0d86f9149461",
@@ -614,6 +610,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0221a221d491ddab7e5d38014b7239e",
     "url": "/static/media/Winter2021_Flyer.c0221a22.png"
+  },
+  {
+    "revision": "de954303fef5d64a76748b98dc1d5905",
+    "url": "/static/media/Winter2022.de954303.png"
   },
   {
     "revision": "9433889c5a24aed2d4d2b215d19e7230",
