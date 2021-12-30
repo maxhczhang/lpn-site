@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './FallEvents2'
-import flyer from '../../../assets/recruitment/Fall_2021_Cover.png'
+import { events } from './FallEvents'
+import flyer from '../../../assets/recruitment/Winter2022.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,10 +27,10 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "rgb(39, 34, 98)",
+        backgroundColor: "rgb(143,75,78)",
         color: "white",
         '&:hover': {
-            backgroundColor: "rgb(39, 57, 141)"
+            backgroundColor: "rgb(173,95,93)"
         },
         width: 150
     },
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     cover: {
         marginTop: 60,
         marginBottom: 90,
-        width: 735,
+        width: 800,
         height: 500,
         transition: 'transform .2s',
         '&:hover': {
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
         color: "black",
         fontWeight: "bold",
         '&:hover': {
-            color: "rgb(39, 57, 141)"
+            color: "rgb(94,78,100)"
         }
     },
     highlightText: {
@@ -88,12 +88,12 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(350deg, rgba(16, 9, 23, 1) 0%, rgba(117, 88, 198, 1) 50%, rgba(42, 62, 149, 1) 100%)",
+        background: "linear-gradient(350deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
         color: "white",
         width: 350,
     },
     mobileCard: {
-        background: "linear-gradient(6deg, rgba(16, 9, 23, 1) 0%, rgba(117, 88, 198, 1) 50%, rgba(42, 62, 149, 1) 100%)",
+        background: "linear-gradient(6deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
         color: "white",
         width: "95%",
     },
@@ -114,26 +114,26 @@ export default function Winter2021({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
-                        <a href="https://www.facebook.com/events/375298270874746" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Illuminate</a>
+                        <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Emerge</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Rho Class Recruitment
+                        Sigma Class Recruitment
                     </Box>
                 </Typography>
             </Box>
 
-            <a href="https://www.facebook.com/events/375298270874746" target="_blank" rel="noopener noreferrer">
-                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2020"></img>
+            <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer">
+                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2022"></img>
             </a>
 
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                While this past year of virtual learning has been difficult, our brothers have continued to build relationships, pursue internships to advance our careers, and take on leadership positions in our business community during COVID-19. Even in the darkness, Lambda Phi Nu shines by developing our brothers and giving back to the UCI community.
+                Join us for our virtual winter recruitment with Lambda Phi Nu, a business leadership fraternity founded here at UC Irvine.
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                As UCI begins to shift back to campus, we are excited to return to in-person recruitment and pledge for Fall 2021. We hope that you will attend our recruitment events starting September 27 to learn about our fraternity, meet our Brothers, and become a part of the Rho class to Illuminate the path to your next journey!
+                We are devoted to supporting one another to achieve excellence in order to create both inspiring and lasting impacts in the greater community. As an organization that is a gateway to a lifelong brotherhood, a partner to the community, and a foremost exporter of leaders to not only firms but the society we all live in today, we strive to illuminate the paths of wherever our Active Brothers venture.
                 </Box>
             </Typography>
 
