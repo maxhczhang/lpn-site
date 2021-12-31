@@ -1,6 +1,6 @@
 export const csuite = [
     {
-        img: require('../../../../assets/actives/brothers_small/Lucian_Liu.jpg'),
+        img: require('../../../../assets/actives/brothers/Lucian_Liu.jpg'),
         name: "Lucian Liu",
         title: 'Chief Executive Officer',
         logo: require('../../../../assets/actives/logos/Prudential.png'),
@@ -16,7 +16,7 @@ export const csuite = [
         width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Ethan_Canavan.jpg'),
+        img: require('../../../../assets/actives/brothers/Ethan_Canavan.jpg'),
         name: "Ethan Canavan",
         title: 'Chief Financial Officer',
         logo: require('../../../../assets/actives/logos/ochin.jpeg'),
@@ -24,7 +24,7 @@ export const csuite = [
         width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Catherine_Nguyen.jpg'),
+        img: require('../../../../assets/actives/brothers/Catherine_Nguyen.jpg'),
         name: "Catherine Nguyen",
         title: 'Chief Operating Officer',
         logo: require('../../../../assets/actives/logos/HashiCorp.png'),
@@ -32,7 +32,7 @@ export const csuite = [
         width: "25%",
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Faith_Chia.jpg'),
+        img: require('../../../../assets/actives/brothers/Faith_Chia.jpg'),
         name: "Faith Chia",
         title: 'Fall Chief Talent Officer',
         logo: require('../../../../assets/actives/logos/TJX.png'),
@@ -40,7 +40,7 @@ export const csuite = [
         width: "35%"
     },
      {
-        img: require('../../../../assets/actives/brothers_small/Omar_Naji.jpg'),
+        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
         name: "Omar Naji",
         title: 'Winter Chief Talent Officer',
         logo: require('../../../../assets/actives/logos/TikTok.png'),

@@ -1,7 +1,7 @@
 export const directors = [
 
      {
-        img: require('../../../../assets/actives/brothers_small/Raymond_Dinh.jpg'),
+        img: require('../../../../assets/actives/brothers/Raymond_Dinh.jpg'),
         name: "Raymond Dinh",
         title: 'Strategy Director',
         logo: require('../../../../assets/actives/logos/HP.png'),
@@ -11,7 +11,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/brothers_small/Vivian_Tran.jpg'),
         name: "Vivian Tran",
-        title: "Alumni Relations Director | Recruiter",
+        title: "Alumni Relations Director",
         logo: require('../../../../assets/actives/logos/dowjones.png'),
         company: 'Dow Jones',
         width: "70%"
@@ -57,7 +57,7 @@ export const directors = [
 
 
     {
-        img: require('../../../../assets/actives/brothers/Khoa_Tran.JPG'),
+        img: require('../../../../assets/actives/brothers/Khoa_Tran.jpg'),
         name: "Khoa Tran",
         title: "Career Catalyst Director",
         logo: require('../../../../assets/actives/logos/JPMorgan.png'),
@@ -65,9 +65,9 @@ export const directors = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Jennifer_Lin.JPG'),
+        img: require('../../../../assets/actives/brothers/Jennifer_Lin.jpg'),
         name: "Jennifer Lin",
-        title: 'Culture & Relationships Director | Recruiter',
+        title: 'Culture & Relationships Director',
     },
     {
         img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.jpg'),
@@ -78,7 +78,7 @@ export const directors = [
         width: "40%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Raj_Singh.JPG'),
+        img: require('../../../../assets/actives/brothers/Raj_Singh.jpg'),
         name: "Jasraj Singh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
@@ -96,37 +96,37 @@ export const directors = [
     //     width: "45%"
     // },
     {
-        img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg'),
-        name: "Hanui Lee",
-        title: "Associate Auditor",
-        logo: require('../../../../assets/actives/logos/instaboost.png'),
-        company: 'Instaboost Media',
-        width: "75%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
-        name: "Courtney Tsao",
-        title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/webtoon.png'),
-        company: 'Webtoon',
+        img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
+        name: "Jamie Zhao",
+        title: "Recruiter",
+        logo: require('../../../../assets/actives/logos/oigetit.png'),
+        company: 'Oigetit',
         width: "45%"
+        
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
-        name: "Joshua Tong",
+        img: require('../../../../assets/actives/brothers/Haley_Kim.jpg'),
+        name: "Haley Kim",
+        title: "Recruiter",
+        logo: require('../../../../assets/actives/logos/crowdstrike.png'),
+        company: 'Crowdstrike',
+        width: "65%"
+    },
+    {
+        img: require("../../../../assets/actives/brothers_small/Sahana_Vairavaraj.jpg"),
+        name: "Sahana Vairavaraj",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/skechers.png'),
-        company: 'Skechers',
-        width: "75%"
+        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
+        company: 'Capital One',
+        width: "60%"
     },
-
     {
-        empty: true
-    },
-
-    {
-        empty: true
-       
+        img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg'),
+        name: "Elizabeth Chan",
+        title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/cbre.png'),
+        company: 'CBRE',
+        width: "35%"
     },
   
 ];
