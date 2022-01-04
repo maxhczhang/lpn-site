@@ -140,14 +140,13 @@ export const brothers = [
     //     width: "60%",
     //     pfp_width: 218
     // },
-    // {
-    //     img: require("../../../../assets/actives/brothers_small/Catherine_Lin.jpg"),
-    //     name: "Catherine Lin",
-    //     logo: require('../../../../assets/actives/logos/Catherine_Lin.png'),
-    //     company: 'UCI eSports',
-    //     width: "30%",
-    //     pfp_width: 218
-    // },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Catherine Lin",
+        logo: require('../../../../assets/actives/logos/Catherine_Lin.png'),
+        company: 'UCI eSports',
+        width: "30%",
+    },
     {
         img: require('../../../../assets/actives/brothers/Ian_Han.jpg'),
         name: "Ian Han",
