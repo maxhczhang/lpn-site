@@ -95,14 +95,13 @@ export const brothers = [
     //     company: 'Shiseido',
     //     width: "65%"
     // },
-    // {
-    //     img: require("../../../../assets/actives/brothers_small/Sandy_Nguyen.jpg"),
-    //     name: "Sandy Nguyen",
-    //     logo: require('../../../../assets/actives/logos/MongoDB.png'),
-    //     company: 'MongoDB',
-    //     width: "40%",
-    //     pfp_width: 218
-    // },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Sandy Nguyen",
+        logo: require('../../../../assets/actives/logos/MongoDB.png'),
+        company: 'MongoDB',
+        width: "40%",
+    },
     {
         img: require("../../../../assets/actives/brothers/Stephen_Minn.jpg"),
         name: "Stephen Minn",
@@ -117,7 +116,11 @@ export const brothers = [
         company: 'JP Morgan Chase & Co',
         width: "60%"
     },
-   
+    {
+        img: require('../../../../assets/actives/brothers/Cathy_Yun.JPG'),
+        name: "Cathy Yun",
+        width: "60%"
+    },
 
     
     {
