@@ -9,7 +9,7 @@ export const directors = [
         width: "70%"
     },    
     {
-        img: require('../../../../assets/actives/brothers_small/Vivian_Tran.jpg'),
+        img: require('../../../../assets/actives/brothers/Vivian_Tran.JPG'),
         name: "Vivian Tran",
         title: "Alumni Relations Director",
         logo: require('../../../../assets/actives/logos/dowjones.png'),
@@ -47,7 +47,7 @@ export const directors = [
         title: "Marketing Director"
     },
     {
-        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.JPG'),
         name: "Rithu Eswaramoorthy",
         title: "Webmaster",
         logo: require('../../../../assets/actives/logos/firstly.png'),
@@ -70,7 +70,7 @@ export const directors = [
         title: 'Culture & Relationships Director',
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Naveen_Sastri.jpg'),
+        img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
         name: "Naveen Sastri",
         title: 'Culture & Relationships Director',
         logo: require('../../../../assets/companyLogos/eBay.png'),
@@ -113,7 +113,7 @@ export const directors = [
         width: "65%"
     },
     {
-        img: require("../../../../assets/actives/brothers_small/Sahana_Vairavaraj.jpg"),
+        img: require("../../../../assets/actives/brothers/Sahana_Vairavaraj.JPG"),
         name: "Sahana Vairavaraj",
         title: "Associate Counselor",
         logo: require('../../../../assets/actives/logos/CapitalOne.png'),
@@ -121,7 +121,7 @@ export const directors = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg'),
+        img: require('../../../../assets/actives/brothers/Liz_Chan.JPG'),
         name: "Elizabeth Chan",
         title: "Associate Counselor",
         logo: require('../../../../assets/actives/logos/cbre.png'),

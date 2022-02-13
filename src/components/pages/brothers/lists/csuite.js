@@ -8,7 +8,7 @@ export const csuite = [
         width: "32%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Linda_Woo.jpg'),
+        img: require('../../../../assets/actives/brothers/Linda_Woo.JPG'),
         name: "Linda Woo",
         title: 'Chief Information Officer',
         logo: require('../../../../assets/actives/logos/engie.png'),

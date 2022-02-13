@@ -14,14 +14,14 @@ export const brothers = [
         width: "45%"
     },
     {
-        img: require('../../../../assets/actives/brothers_small/Joshua_Tong.jpg'),
+        img: require('../../../../assets/actives/brothers/Josh_Tong.JPG'),
         name: "Joshua Tong",
         logo: require('../../../../assets/actives/logos/skechers.png'),
         company: 'Skechers',
         width: "75%"
     },
     {
-        img: require("../../../../assets/actives/brothers_small/Julian_Rachman.jpg"),
+        img: require("../../../../assets/actives/brothers/Julian_Rachman.JPG"),
         name: "Julian Rachman",
         logo: require('../../../../assets/actives/logos/TwoSigma.png'),
         company: 'Two Sigma',
@@ -50,13 +50,13 @@ export const brothers = [
     //     width: "30%",
     //     pfp_width: 218
     // },
-    // {
-    //     img: require("../../../../assets/actives/brothers_small/Vivi_Liu.jpg"),
-    //     name: "Vivi Liu",
-    //     logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
-    //     company: 'Cross Bond Global Consultant',
-    //     width: "35%"
-    // },
+    {
+        img: require("../../../../assets/actives/brothers/Vivi_Liu.JPG"),
+        name: "Vivi Liu",
+        logo: require('../../../../assets/actives/logos/Vivi_Liu.png'),
+        company: 'Cross Bond Global Consultant',
+        width: "35%"
+    },
 
 
     // {
@@ -96,7 +96,7 @@ export const brothers = [
     //     width: "65%"
     // },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Sandy_Nguyen.JPG'),
         name: "Sandy Nguyen",
         logo: require('../../../../assets/actives/logos/MongoDB.png'),
         company: 'MongoDB',
@@ -199,7 +199,7 @@ export const brothers = [
 
     
     {
-        img: require('../../../../assets/actives/brothers_small/Julio_Cano.jpg'),
+        img: require('../../../../assets/actives/brothers/Julio_Cano.JPG'),
         name: "Julio Cano",
     },
     
@@ -221,7 +221,7 @@ export const brothers = [
         name: "Nicole Nguyen",
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Yllana_Casim.JPG'),
         name: "Yllana Casim",
     },
     {

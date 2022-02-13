@@ -30,7 +30,7 @@ export const profiles = {
         campusInvolvements: "",
         interests: ["Cryptocurrency", "Blockchain", "Ice Hockey"],
         whyLPN: "As a computer science major trying to find a place to break into the business ecosystem, I found that LPN is the best place for carrying out my ambitions while also being surrounded by an overly supportive family with generations before it. They really take their time to personally provide you with the best resources and guidance to set you on the right path towards achieving your end goal. To me, family is all about empowering those to carry out their ambitions, caring for each other unconditionally, and leaving a legacy behind for the next generation to fulfill their calling. I believe that the Lambda Phi Nu family embodies the description perfectly.",
-        img: require("../../../../assets/actives/brothers/Julian_Rachman.jpg")
+        img: require("../../../../assets/actives/brothers/Julian_Rachman.JPG")
     },
     Karen_Ching: {
         linkedIn: "https://www.linkedin.com/in/kching/",
@@ -92,7 +92,7 @@ export const profiles = {
         campusInvolvements: {"Mentorship Director": "Undergraduate Business Association", "VP of Internal Affairs": "Marketing Association", "Media and Communications Intern": "Associated Students of UCI"},
         interests: ["Bouldering", "Cooking", "Investing"],
         whyLPN: "My family in the United States :)",
-        img: require("../../../../assets/actives/brothers/Vivi_Liu.jpg")
+        img: require("../../../../assets/actives/brothers/Vivi_Liu.JPG")
     },
 
     // Kappa
@@ -221,7 +221,7 @@ export const profiles = {
         campusInvolvements: {"President": "Marketing Association", "Co-founder & VP of Finance": "Human Resources Management Association", "Student Intern": "Undergraduate Business Association"},
         interests: ["Gundams", "Painting", "Napping"],
         whyLPN: "Because why not?",
-        img: require("../../../../assets/actives/brothers/Sandy_Nguyen.jpg")
+        img: require("../../../../assets/actives/brothers/Sandy_Nguyen.JPG")
     },
     Stephen_Minn: {
         linkedIn: "https://www.linkedin.com/in/stephenminn/",
@@ -289,7 +289,7 @@ export const profiles = {
         campusInvolvements: {"Media & Technology Commissioner":"Associated Students of UCI","Content Creation Commissioner": "Associated Students of UCI", "VP of Technology": "Merage Undergraduate Student Association", "Mentor": "Management Information Student Society","Associate Counselor":"Lambda Phi Nu","Culture & Relationships Director":"Lambda Phi Nu"},
         interests: ["Weightlifting", "Snowboarding", "Basketball", "Protein", "Filmmaking", "Rock Watching"],
         whyLPN: "Group of professionals who thrive to excel in the professional world but also a group of people who like to have fun :)",
-        img: require("../../../../assets/actives/brothers/Joshua_Tong.jpg")
+        img: require("../../../../assets/actives/brothers/Josh_Tong.JPG")
     },
     Linda_Woo: {
         linkedIn: "https://linkedin.com/in/lindawoo",
@@ -305,7 +305,7 @@ export const profiles = {
         campusInvolvements: {"President": "Phi Zeta Tau"},
         interests: ["Binging Netflix", "Collecting stationary", "Grocery shopping"],
         whyLPN: "LPN is an organization that has encouraged, pushed, and challenged me to build myself up to the best possible version of myself. I am extremely grateful for all the relationships, memories, and support I’ve received from brothers of LPN I’ve meet this past year; they all have truly changed my college experience for the better and gave me the opportunity to take charge of my career path. I can wholeheartedly say joining LPN was the best decision of college thus far and I encourage everyone to come checkout what makes us so special.",
-        img: require("../../../../assets/actives/brothers/Linda_Woo.jpg")
+        img: require("../../../../assets/actives/brothers/Linda_Woo.JPG")
     },
     Matthew_Nagata: {
         linkedIn: "https://www.linkedin.com/in/mattnagata/",
@@ -337,7 +337,7 @@ export const profiles = {
         campusInvolvements: {"Member": "Human Resources Management Association"},
         interests: ["Karaoke", "Reading", "NBA (Warriors!)"],
         whyLPN: "I love LPN because there's so many different people, but the one thing that connects us all is a real passion for giving back and a drive to be constantly challenge ourselves. LPN has always reminded me that I shouldn't settle, whether it be in my career or my life, and I'm so grateful to everyone that pushes me to fight for what I want out of life.",
-        img: require("../../../../assets/actives/brothers/Sahana_Vairavaraj.jpg")
+        img: require("../../../../assets/actives/brothers/Sahana_Vairavaraj.JPG")
     },
     Sera_Xu: {
         linkedIn: "https://www.linkedin.com/in/ziqing-sera-xu/",
@@ -662,7 +662,7 @@ export const profiles = {
         campusInvolvements: {"Mentor": "Undergraduate/Undeclared Mentoring Program", "Scholarship Recipient": "Hispanic 100 Foundation"},
         interests: ["Running", "Swimming", "Badminton", "Hiking", "Skincare", "Cooking", "Digital Art"],
         whyLPN: "Family. Coming into UCI as a biology major and quickly realizing it was not the career for me was a very daunting experience. Hence a large majority of my friends were biology or non-business majors. As I finished my GE’s and began taking business-related courses, I found myself with no one to turn to or relate to. I then decided to seek a community that shared the same passion for business as I did, but instead, I not only found a community but a family. Lambda Phi Nu is filled with individuals who are committed, determined, and passionate about reaching their full potential, prompting one also to adopt those characteristics and become driven and motivated themselves.",
-        img: require("../../../../assets/actives/brothers/Julio_Cano.jpg")
+        img: require("../../../../assets/actives/brothers/Julio_Cano.JPG")
     },
     Kaylie_Zhou: {
         linkedIn: "https://www.linkedin.com/in/kaylie-zhou/",
@@ -742,7 +742,7 @@ export const profiles = {
         campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "VP of Outreach": "Human Resources Management Association"},
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
-        img: require("../../../../assets/actives/brothers/Vivian_Tran.jpg")
+        img: require("../../../../assets/actives/brothers/Vivian_Tran.JPG")
     },
 
 
@@ -873,7 +873,7 @@ export const profiles = {
         campusInvolvements: {"Corporate Organizer":"Hack at UCI","Software Engineer": "MAISS Project Teams","Webmaster":"Lambda Phi Nu","Member":"Women in Information and Computer Science"},
         interests: ["Baking","Food","Hiking","Pinterest Boards"],
         whyLPN: "I chose LPN to expand my social circle and academic focus as a CS major. Even during the short period of time that I have been a part of LPN, I have been able to meet so many motivated and kind individuals who I am looking forward to grow with the rest of my college career.",
-        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg')
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.JPG')
     },
     Aaron_Lee: {
         linkedIn: "https://www.linkedin.com/in/kyngnlee/",
@@ -889,7 +889,7 @@ export const profiles = {
         campusInvolvements: {"Executive Associate":"Lambda Phi Nu"},
         interests: ["Basketball", "Shoes", "Late night walks"],
         whyLPN: "I chose LPN because I wanted a family. LPN is where it inspires me to push myself to be the best. The brotherhood and nurturing environment from my class and active members helped me grow as a person, and professionally. In LPN, I found my best friends, mentor, role model, and family. I am happy to say that LPN is my new home.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Aaron_Lee.jpg')
     },
     Talia_Yip: {
         linkedIn: "https://www.linkedin.com/in/taliayip/",
@@ -905,7 +905,7 @@ export const profiles = {
         campusInvolvements: {},
         interests: ["Dancing", "Disney", "Exploring new taco trucks"],
         whyLPN: "LPN was the first group of people I met at UC Irvine. Coming in as a second year during the pandemic, I had no idea how to navigate the business world or put myself out there. I chose LPN because the people were so welcoming and willing to lend a hand. Whether it is professionally or personally, I know that this group of individuals will support and guide me forever!",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Talia_Yip.jpg')
     },
     Sydney_Yu: {
         linkedIn: "https://www.linkedin.com/in/sydneymyu/",
@@ -921,7 +921,7 @@ export const profiles = {
         campusInvolvements: {},
         interests: ["Figure Skating", "Dance", "Upcycling Clothes", "Fashion", "Watching Movies"],
         whyLPN: "Coming into my first quarter on campus at UCI, my initial goal was to focus solely on my professional development. However, with LPN, I not only found a group of people that would motivate me to grow professionally, but would also push me to get out of my comfort zone. It is crazy to look back and see just how much I have grown since the start of the year. I have learned more in the span of 8 weeks than I have in my entire life and I know that my growth will only continue with the support of my fellow brothers.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Sydney_Yu.jpg')
     },
     Nicole_Nguyen: {
         linkedIn: "https://www.linkedin.com/in/nicolexn/",
@@ -937,7 +937,7 @@ export const profiles = {
         campusInvolvements: {"Co-VP of Fellowship":"Product Association","Representative":"Merage Undergraduate Student Association"},
         interests: ["Snowboarding", "Thrifting", "Shopping", "Running", "Hiking", "Reading", "Video Games"],
         whyLPN: "I chose LPN because of its emphasis on building relationships. Coming into my first in person and second year of college, I had yet to build a strong community on campus. LPN introduced me to that community. Over the last couple of months, LPN has taught me a new definition of friendship and family. I've grown so much professionally and personally throughout my time in LPN thus far, and I am so grateful for the relationships I have been able to develop.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg')
     },
     Yllana_Casim: {
         linkedIn: "https://www.linkedin.com/in/yllanacasim/",
@@ -953,7 +953,7 @@ export const profiles = {
         campusInvolvements: {"Co-VP of Community Development":"Management Information Student Society","Campus Outreach Leader":"TEDxUCIrvine","Consulting Apprentice":"Deloitte Diversity Mentorship Program","Second Tier Family Head":"Kababayan","General Member":"Pi Beta Phi"},
         interests: ["Skating", "Thrifting", "Sports", "Fixing cars", "Photoshoots", "TED talks", "Spotify playlists", "Singing", "Playing the piano"],
         whyLPN: "Before I joined LPN, the brothers I stayed connected with have been the most altruistic, kind, and supportive people I have met throughout college. I knew that I wanted to be part of an organization that is devoted to not only my self-growth, but are passionate about extending help to others outside the organization as well. I always learn something new through any LPN experience. LPN to me means having a tight-knit community of supportive and career-driven individuals. We are all collectively working together to achieve our own goals, whether it’s professional or personal. LPN has provided me with a family that I know I will stay connected with even after college.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Yllana_Casim.JPG')
     },
     Ashley_London: {
         linkedIn: "https://www.linkedin.com/in/ashley-london/",
@@ -969,7 +969,7 @@ export const profiles = {
         campusInvolvements: {"Discussion Leader":"University Studies 1","Mentor":"Undergraduate/Undeclared Mentorship Program","Hall Representative":"Mesa Court City Council"},
         interests: ["All things Disney", "Thrifting", "Making Pinterest Boards", "Testing Out DIYs"],
         whyLPN: "I chose LPN because of its message to “Grow Froward. Give Back.” As someone who originally entered UCI as Undeclared, I faced many hardships on my path to switch majors into Business Administration. I wanted to ensure that I could help those that came after me within the undeclared community, and now it is my time to do so in the business community. Alongside this, I wanted to hit the ground running and push myself outside of my comfort zone. LPN has pushed me to become a version of myself I did not know was possible. I am so grateful for LPN because it has helped me continue to strive for bigger and better things, take initiative, and develop relationships that I treasure. The community here is extremely supportive and has helped me grow in so many aspects. LPN is a family that will support you and push you to further your development both professionally and personally.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Ashley_London.jpg')
     },
     Eddie_Rios: {
         linkedIn: "https://www.linkedin.com/in/eddierioss/",
@@ -985,7 +985,7 @@ export const profiles = {
         campusInvolvements: {"Representative":"Merage Undergraduate Student Association"},
         interests: ["Roller skating", "Clothes shopping"],
         whyLPN: "To me, LPN means community. There’s an endless amount of people to be inspired by and always someone to back you up. LPN has opened my eyes to the opportunities that I otherwise would’ve missed out on. Through LPN, I was able to find the person I want to be, and I now have the resources to strive towards becoming that person.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Eddie_Rios.jpg')
     },
     Kayla_Wong: {
         linkedIn: "https://www.linkedin.com/in/hfkaylawong/",
@@ -1001,7 +1001,7 @@ export const profiles = {
         campusInvolvements: {"Representative":"Merage Undergraduate Student Association","Operations Associate":"Lambda Phi Nu"},
         interests: ["Dance", "Weightlifting", "Napping", "Eating ice", "Hanging out with my cat", "Slime"],
         whyLPN: "To me LPN is a safe space for me to grow and authentically be myself. Coming in as a first-year, I felt very lost when it came to starting my professional career. I was super overwhelmed which is why I initially rushed for LPN. After the first quarter, I have realized that what LPN has provided me is much more than just professional guidance. From LPN I have gained a new support system and family whom I love unconditionally.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Kayla_Wong.jpg')
     },
 
 };

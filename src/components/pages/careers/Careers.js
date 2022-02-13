@@ -11,6 +11,7 @@ import Tab from '@material-ui/core/Tab';
 
 import useWindowDimensions from '../../utils/WindowListener';
 import { companyLogos } from './CompanyLogos'
+import { roles2022 } from './Roles2022'
 import { roles2021 } from './Roles2021'
 import { roles2020 } from './Roles2020'
 import { roles2019 } from './Roles2019'
@@ -142,6 +143,9 @@ export default function Careers({ setPage }) {
             <Tabs value={value} onChange={handleChange} aria-label="toggle between different years"
                 TabIndicatorProps={{ className: classes.tabs }}>
                 <Tab label={
+                    <Typography variant="h6">2022</Typography>
+                } {...a11yProps(0)} />
+                <Tab label={
                     <Typography variant="h6">2021</Typography>
                 } {...a11yProps(0)} />
                 <Tab label={
@@ -156,24 +160,30 @@ export default function Careers({ setPage }) {
             </Tabs>
 
             <TabPanel value={value} index={0} className={classes.tabPanel}>
+                <Chart title="2022 Internships" positions={roles2022["Internships"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2022 Full Times" positions={roles2022["Full Times"]} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={value} index={1} className={classes.tabPanel}>
                 <Chart title="2021 Internships" positions={roles2021["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2021 Full Times" positions={roles2021["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={1} className={classes.tabPanel}>
+            <TabPanel value={value} index={2} className={classes.tabPanel}>
                 <Chart title="2020 Internships" positions={roles2020["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2020 Full Times" positions={roles2020["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={2} className={classes.tabPanel}>
+            <TabPanel value={value} index={3} className={classes.tabPanel}>
                 <Chart title="2019 Internships" positions={roles2019["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2019 Full Times" positions={roles2019["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={3} className={classes.tabPanel}>
+            <TabPanel value={value} index={4} className={classes.tabPanel}>
                 <Chart title="2018 Internships" positions={roles2018["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2018 Full Times" positions={roles2018["Full Times"]} isMobile={isMobile}></Chart>
