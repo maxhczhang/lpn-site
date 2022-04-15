@@ -14,22 +14,23 @@ export const roles2022 = {
         // ],
 
         // "Consulting": [
-        //     { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'Sizigi', position: "Strategy Consulting Intern" },
-        //     { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'Mentor Global Consultants', position: "Management Consulting Intern" },
-        //     { name: <Link component={RouterLink} to="/active-brothers/sera-xu" color="inherit">Sera Xu</Link>, company: '180 Degrees Consulting', position: "Associate Consultant" },
+        //     { name: <Link component={RouterLink} to="/active-brothers/lumin-oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Consulting Intern" },
+        
         // ],
 
         "Finance": [
             { name: <Link component={RouterLink} to="/active-brothers/Haley-Kim" color="inherit">Haley Kim</Link>, company: 'Wells Fargo', position: "Corporate Banking Summer Analyst" },
         ],
 
-        // "Human Resources": [
-        //     { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'TikTok', position: "Talent Acquisition Intern" },
-        //     { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Capital One', position: "HR Rotational Program Intern" },
-        // ],
+        "Human Resources": [
+            { name: "Justin Chao", company: 'Unilever', position: "Human Resources Intern" },
+            // { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Capital One', position: "HR Rotational Program Intern" },
+        ],
 
         "Marketing": [
+            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'Ingram Micro', position: "Global IOT Marketing Intern" },
             { name:'Josh Tong', company: 'UFC', position: "Content Marketing Intern" },
+            { name: 'Jamie Zhao', company: 'ServiceNow', position: "Strategic Events Marketing Intern" },
         //     { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Westhaven Power', position: "Marketing Intern" },
         //     { name: 'Le An Pham', company: 'Fiddler', position: "Marketing Intern" },
         //     { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'EtherWAN Systems', position: "Marketing Intern" },
@@ -44,6 +45,7 @@ export const roles2022 = {
 
         "Operations": [
             { name:'Aaron Lee', company: 'Oppti', position: "Business Development Intern" },
+            { name: 'Kayla Wong', company: 'Accenture', position: "Business Analyst Intern" },
         ],
 
         // "Product": [
@@ -62,11 +64,10 @@ export const roles2022 = {
     //         { name: 'David Sonq', company: 'EY', position: "Tax Staff" },
     //         { name: 'Tiffany Chan', company: 'RSM', position: "Audit Associate" },
     //     ],
-    //     "Consulting" : [
-    //         { name: 'Philip Cheung', company: 'Deloitte', position: "Application & Program Analyst" },
-    //         { name: 'Naishal Shah', company: 'Green Street Advisors', position: "Market Research Associate"},
-    //         { name: 'Matthew Nagata', company: 'Workday', position: "Field Readiness Architect" },
-    //     ],
+        "Consulting" : [
+            { name: 'Linda Woo', company: 'Deloitte', position: "Application & Program Analyst" },
+            { name: 'Ethan Canavan', company: 'Deloitte', position: "Application & Program Analyst" },
+        ],
     //     "Marketing": [
     //         { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
     //         {name: 'Jenny Cheung', company: 'SAP', position: "Marketing Coordinator"},
