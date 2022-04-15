@@ -33,8 +33,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
     flexDirection: "column",
-    paddingRight: 350,
-    //alignContent: "center",
+    // paddingRight: 350,
+    alignContent: "center",
+    paddingRight: 25
   },
   appBarDark: {
     position: "relative",
@@ -62,24 +63,24 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const recruitmentMenu = [
-  // {
-  //   title: "WINTER RUSH 2021",
-  //   url: "/recruitment"
-  // },
-  {
-    title: "FALL RUSH 2021",
-    url: "/recruitment"
-  },
-  {
-    title: "FALL RUSH 2020",
-    url: "/fall-rush-2020"
-  },
-  // {
-  //   title: "FAQS",
-  //   url: "/faqs"
-  // }
-]
+// const recruitmentMenu = [
+//   // {
+//   //   title: "WINTER RUSH 2021",
+//   //   url: "/recruitment"
+//   // },
+//   {
+//     title: "FALL RUSH 2021",
+//     url: "/recruitment"
+//   },
+//   {
+//     title: "FALL RUSH 2020",
+//     url: "/fall-rush-2020"
+//   },
+//   // {
+//   //   title: "FAQS",
+//   //   url: "/faqs"
+//   // }
+// ]
 
 const brothersMenu = [
   {

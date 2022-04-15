@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
-import { Redirect, BrowserRouter } from "react-router-dom";
+// import { Redirect, BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga'
 
 import BckgrndSelector from './utils/BckgrndSelector'
@@ -15,7 +15,7 @@ import ActiveBrothers from './pages/brothers/ActiveBrothers'
 import Profile from './pages/brothers/profile/Profile'
 import CampusInvolvement from './pages/campusInvolvements/CampusInvolvement'
 import Careers from './pages/careers/Careers'
-import Winter2021 from './pages/rush/Winter2021'
+// import Winter2021 from './pages/rush/Winter2021'
 import Fall2020 from './pages/rush/Fall2020'
 import Fall2021 from './pages/rush/Fall2021'
 import FAQs from './pages/faqs/FAQs'

@@ -1,20 +1,5 @@
 export const profiles = {
-    // Astyr_Ko: {
-    //     linkedIn: "https://www.linkedin.com/in/astyrko/",
-    //     homeTown: "Brea, CA",
-    //     year: "4th",
-    //     class: "Theta",
-    //     major: "Business Administration",
-    //     minor: "",
-    //     emphasis: "Marketing",
-    //     practice: "Marketing",
-    //     experience: ["ServiceNow, Global Talent Brand & Marketing Intern", "UCI Summer Session, Marketing Intern", "Insomnia Cookies, Campus Marketing Representative"],
-    //     campusInvolvements: ["Lambda Phi Nu, Chief Talent Officer", "Marketing Association, VP of External Affairs", "MUSA, Representative",],
-    //     interests: ["Eating a startling amount of food (especially Korean food)", "Skincare", "Animal Crossing"],
-    //     whyLPN: "Joining LPN is one of the best decisions I made in college. From career opportunities to contagious and painful laughter, LPN makes my college experience special. I met people who inspire, motivate, and challenge me to be a better person.",
-    //     img: require("../../../../assets/actives/brothers/Astyr_Ko.jpg")
-    // },
-
+   
     // Iota
     Julian_Rachman: {
         linkedIn: "https://www.linkedin.com/in/julian-rachman/",
@@ -30,7 +15,7 @@ export const profiles = {
         campusInvolvements: "",
         interests: ["Cryptocurrency", "Blockchain", "Ice Hockey"],
         whyLPN: "As a computer science major trying to find a place to break into the business ecosystem, I found that LPN is the best place for carrying out my ambitions while also being surrounded by an overly supportive family with generations before it. They really take their time to personally provide you with the best resources and guidance to set you on the right path towards achieving your end goal. To me, family is all about empowering those to carry out their ambitions, caring for each other unconditionally, and leaving a legacy behind for the next generation to fulfill their calling. I believe that the Lambda Phi Nu family embodies the description perfectly.",
-        img: require("../../../../assets/actives/brothers/Julian_Rachman.JPG")
+        img: require("../../../../assets/actives/brothers/Julian_Rachman.jpg")
     },
     Karen_Ching: {
         linkedIn: "https://www.linkedin.com/in/kching/",
@@ -42,42 +27,12 @@ export const profiles = {
         emphasis: "",
         practice: "Education",
         pronouns: "She/Her/Hers",
-        experience: {"Mentor":"UCI School of Education","Teacher Aide":"UCI child care services","Research Assistant": "UCI Graduate Divison", "Peer Assistant": "UCI School of Education", "Marketing Intern": "HomeTown Financial Services"},
-        campusInvolvements: { "Member Relations Director": "Marketing Association", "Corporate Relations Director": "Lambda Phi Nu", "CALPIRG": ""},
+        experience: { "Mentor": "UCI School of Education", "Teacher Aide": "UCI child care services", "Research Assistant": "UCI Graduate Divison", "Peer Assistant": "UCI School of Education", "Marketing Intern": "HomeTown Financial Services" },
+        campusInvolvements: { "Member Relations Director": "Marketing Association", "Corporate Relations Director": "Lambda Phi Nu", "CALPIRG": "" },
         interests: ["Baking", "Exploring new things", "Volleyball", "Traveling", "Hiking", "Drawing"],
         whyLPN: "Through my time in LPN, I was able to discover my true passions and interests. LPN has also given me some of the most memorable experiences that I never could've imagined. I have been so fortunate enough to build meaningful relationships with some of the brothers of LPN. Though it may feel like a rollercoaster, I appreciate all the memories and experiences that I've gained to help me grow, and I wouldn't want it any other way. LPN has helped me develop professionally, but I'm fortunate to have gained so much more.",
-        img: require("../../../../assets/actives/brothers/Karen_Ching.JPG")
+        img: require("../../../../assets/actives/brothers/Karen_Ching.jpg")
     },
-    // Tiffany_Chan: {
-    //     linkedIn: "https://www.linkedin.com/in/tiffanyh-chan",
-    //     homeTown: "San Francisco, CA",
-    //     year: "4th",
-    //     class: "Iota",
-    //     major: "Business Economics",
-    //     minor: "Accounting",
-    //     emphasis: "",
-    //     practice: "Audit",
-    //     experience: {"Audit Associate":"RSM", "Assurance Intern": "RSM", "SLP Attendant": "RSM"},
-    //     campusInvolvements: {"President": "UCI Dragon Boat", "Mentor": "Accouting Association", "Social Impact Director": "Lambda Phi Nu"},
-    //     interests: ["Trying new foods", "Hiking", "Paddling"],
-    //     whyLPN: "After my first year of college, I felt very stagnant in terms of my involvement in the business community at UCI and my own professional growth. Through LPN, I found such a group of passionate, driven individuals who were so willing to give back to an organization that gave so much to them.LPN has given me the chance to immerse myself with individuals who have provided me with the skills I need to succeed in the professional world.This community has also pushed me to become the best version of myself through the mentors I have found in this fraternity. Most importantly, I have made lifelong relationships with these individuals who I know will remain a huge presence in my life even after I graduate college.",
-    //     img: require("../../../../assets/actives/brothers/Tiffany_Chan.jpg")
-    // },
-    // Tony_Zhou: {
-    //     linkedIn: "https://www.linkedin.com/in/tony-gzhou/",
-    //     homeTown: "San Francisco",
-    //     year: "4th",
-    //     class: "Iota",
-    //     major: "Business Administration",
-    //     minor: "Computer Science",
-    //     emphasis: "Accounting, Finance",
-    //     practice: "Risk",
-    //     experience: {"Business Consulting Intern": "EY", "Risk & Financial Advisory Pathways Program": "RSM", "SLP Attendant": "Grow with Grant Thornton"},
-    //     campusInvolvements: {"Conversation Partner": "UCI Division of Continuing Education", "Director of Alumni Relations": "Beta Alpha Psi", "Mentor": "AA Leadership Development Program"},
-    //     interests: ["Gym", "Cycling"],
-    //     whyLPN: "LPN because I wanted to surround myself with motivated individuals.",
-    //     img: require("../../../../assets/actives/brothers/Tony_Zhou.jpg")
-    // },
     Vivi_Liu: {
         linkedIn: "https://www.linkedin.com/in/vivi-liu/",
         homeTown: "Taipei, Taiwan",
@@ -92,121 +47,10 @@ export const profiles = {
         campusInvolvements: {"Mentorship Director": "Undergraduate Business Association", "VP of Internal Affairs": "Marketing Association", "Media and Communications Intern": "Associated Students of UCI"},
         interests: ["Bouldering", "Cooking", "Investing"],
         whyLPN: "My family in the United States :)",
-        img: require("../../../../assets/actives/brothers/Vivi_Liu.JPG")
+        img: require("../../../../assets/actives/brothers/Vivi_Liu.jpg")
     },
 
     // Kappa
-    Ben_Fan: {
-        linkedIn: "https://www.linkedin.com/in/benfan1123/",
-        homeTown: "Taipei, Taiwan",
-        year: "4th",
-        class: "Kappa",
-        major: "Data Science",
-        minor: "",
-        emphasis: "",
-        practice: "Technology",
-        pronouns: "He/Him/His",
-        experience: {"Data Science Intern": "KJ Soft", "Math Instructor": "IvyWay"},
-        campusInvolvements: { "Information Systems Director": "Lambda Phi Nu", "Sports Business Association": ""},
-        interests: ["Basketball", "NBA", "Pool Table", "Traveling"],
-        whyLPN: "Great people with passion to be successful.",
-        img: require("../../../../assets/actives/brothers/Ben_Fan.jpg")
-    },
-    David_Sonq: {
-        linkedIn: "https://www.linkedin.com/in/davidsonq/",
-        homeTown: "Cerritos, CA",
-        year: "4th",
-        class: "Kappa",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Accounting",
-        practice: "Tax",
-        pronouns: "He/Him/His",
-        experience: {"Tax Staff": "EY", "Tax Intern": "EY", "Summer Leadership Program": "EY, KPMG, RSM, BDO"},
-        campusInvolvements: {"Director of Professional Development": "Accounting Association", "Mentor": "AA Leadership Development Program", "Secretary": "Beta Alpha Psi"},
-        interests: ["Watching Youtube & Netflix", "Escape Rooms", "Eating", "Traveling", "Bouldering"],
-        whyLPN: "I remember going into my first LPN rush event not knowing what to expect and feeling extremely nervous. By the end of it, however, I never felt more eager to challenge myself and get out of my comfort zone. Instead of feeling intimidated, I felt inspired being surrounded by so many hardworking individuals. It was one of the few times where I not only felt connected but felt an innate drive to succeed. I knew I wanted to continuously be surrounded by such amazing people and make lasting relationships. To this day, LPN still means a lot to me. I not only developed professionally, but I built up my confidence, learned more about myself than ever before, and truly understood what it means to be part of a family.",
-        img: require("../../../../assets/actives/brothers/David_Sonq.jpg"),
-    },
-    Emily_Nguyen: {
-        linkedIn: "https://www.linkedin.com/in/eqnguyen9/",
-        homeTown: "Fremont, CA",
-        year: "4th",
-        class: "Kappa",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Human Resources, Marketing, Project Management",
-        practice: "Human Resources",
-        pronouns: "She/Her/Hers",
-        experience: {"Business Operations Intern": "Samba TV", "Talent & Organizational Development Intern": "New Relic", "WorkPlace Services Business Operations Intern": "Lumentum"},
-        campusInvolvements: { "Media and Technology Comissioner": "Associated Students of UCI", "Media and Technology Intern": "Associated Students of UCI", "Mentor": "Management Information Student Society"},
-        interests: ["Crocs", "Photography", "Noodle soup dishes"],
-        whyLPN: "In Lambda Phi Nu, you find a family. This family has pushed me to do my best in all aspects of my life. These people, past and present, have been with me through all the joys, the excitement, the fears, and the tears. I've learned things from my brothers that help me push my career and help me become a better person.",
-        img: require("../../../../assets/actives/brothers/Emily_Nguyen.jpeg")
-    },
-    // Jasmin_He: {
-    //     linkedIn: "https://www.linkedin.com/in/jasminhe/",
-    //     homeTown: "Salinas, CA",
-    //     year: "4th",
-    //     class: "Kappa",
-    //     major: "Business Administration",
-    //     minor: "",
-    //     emphasis: "Marketing, Organizational Management",
-    //     practice: "Marketing, Strategy",
-    //     experience: {"Product Line Management Intern": "Seagate Technology", "Campus Influencer": "Daniel Wellington", "Social Media Intern": "The BachBox"},
-    //     campusInvolvements: {"Business Relations Commissioner": "Associated Students of UCI", "Business Relations Intern": "Associated Students of UCI", "Student Representative": "Merage Undergradate Student Association"},
-    //     interests: ["Podcasts", "Calligraphy", "Real Estate", "Thrifting"],
-    //     whyLPN: "Being eager to get involved in college, I actively sought out involvements and different communities to be a part of in the hopes of integrating myself to UCI and finding friends that had similar goals to mine. After a year and a quarter of feeling lost, rejected, and questioning if I even belonged at this school, LPN found me. This organization consists of some of the most hardworking, driven, talented, quirky, and genuine people I have ever met. LPN stood out to me as a place I would be welcomed, accepted, and loved as my true self, while also providing me with the network, training, and experience I needed to jumpstart my professional career. As unique as everyone is, we have one commonality: a passion for giving back the same community and experience we were so fortunate to receive during our time as Associates.",
-    //     img: require("../../../../assets/actives/brothers/Jasmin_He.jpg")
-    // },
-    Jeffrey_Cho: {
-        class: "Kappa",
-        homeTown: "Fullerton, CA",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Organization & Management, Information Systems",
-        year: "4th",
-        linkedIn: "https://linkedin.com/in/jeffreywellscho",
-        practice: "Human Resources",
-        pronouns: "He/Him/His",
-        interests: ["Traveling", "Japanese Anime", "Board Games"],
-        experience: {"RAMP HR Intern": "Western Digital", "Peer Academic Advisor": "Paul Merage School of Business", "Client Management Intern": "Optum"},
-        campusInvolvements: {"Supervisor": "Anteater Ambassadors Network", "VP of Communications": "Merage Undergraduate Student Association", "Student Programming Funding Board At-Large Intern": "Associated Students of UCI"},
-        whyLPN: "I joined LPN because of the ambitious and genuine people who I knew would push me to become the best version of myself. I also really resonated with the values of the organization and wanted to surround myself with similar minded people that I respect. LPN to me is not only a brotherhood to share highs and lows with, but also a mindset to embody \"grow forward, give back\" through things such as honing professional skills and community service.",
-        img: require("../../../../assets/actives/brothers/Jeffrey_Cho.jpg"),
-    },
-    Jenny_Cheung: {
-        linkedIn: "https://www.linkedin.com/in/jennycheung9/",
-        homeTown: "Upland, CA",
-        year: "4th",
-        class: "Kappa",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Marketing, Organizational Management",
-        practice: "Brand Marketing",
-        pronouns: "She/Her/Hers",
-        experience: { "Social Media Intern": "Saks OFF 5th", "Summer Marketing Intern": "Shiseido", "Corporate Marketing Intern": "BlackBerry"},
-        campusInvolvements: {"Internal Relations Intern": "Marketing Association", "Vendor Fair Marketing Intern": "Associated Students of UCI", "Mentor": "AntLeader Mentorship Program"},
-        interests: ["Fashion", "Beauty", "Traveling", "Eating", "Reading", "Listening to podcasts"],
-        whyLPN: "Lambda Phi Nu has challenged me to step out of my comfort zone to deeply reflect on and discover my inner passions, both personal and professional. It has given me the strength and support to take a leap of faith in going after my long-held dreams that I never would have imagine myself chasing after if it weren't for the wonderful alumni and actives urging me to. Most importantly, it has provided me with a supportive community who I can always count on during tough times in college and beyond! ",
-        img: require("../../../../assets/actives/brothers/Jenny_Cheung.jpg")
-    },
-    Le_An_Pham: {
-        linkedIn: "https://www.linkedin.com/in/lean-pham/",
-        homeTown: "San Marcos, CA",
-        year: "4th",
-        class: "Kappa",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Marketing",
-        practice: "Marketing",
-        pronouns: "She/Her/Hers",
-        experience: {" Marketing Intern": "Fiddler", "Marketing & Product Development Intern": "United Exchange Corporation", "Marketing Intern": "Sunwest Bank"},
-        campusInvolvements: {"President": "Management Information Student Society", "VP of Marketing": "Management Information Student Society", "Membership Development and Relations Chair": "Circle K International"},
-        interests: ["Dancing", "Traveling", "Film photography", "Painting"],
-        whyLPN: "What makes LPN stand out is their overwhelming presence within the business community on campus and their motivation to serve others doesn’t go unnoticed. Both actives and alumni have inspired me with their amazing feats to always reach for more and continuously develop as a professional and as a person. LPN provided me with a brotherhood and sense of family when I felt lost during college and didn’t know where to turn to. I’m forever grateful for the opportunities the fraternity has offered to me and the friendships I can always rely on.",
-        img: require("../../../../assets/actives/brothers/Le_An_Pham.jpg")
-    },
     Sandy_Nguyen: {
         linkedIn: "https://linkedin.com/in/-sandy-nguyen",
         homeTown: "West Covina, CA",
@@ -221,7 +65,7 @@ export const profiles = {
         campusInvolvements: {"President": "Marketing Association", "Co-founder & VP of Finance": "Human Resources Management Association", "Student Intern": "Undergraduate Business Association"},
         interests: ["Gundams", "Painting", "Napping"],
         whyLPN: "Because why not?",
-        img: require("../../../../assets/actives/brothers/Sandy_Nguyen.JPG")
+        img: require("../../../../assets/actives/brothers/Sandy_Nguyen.jpg")
     },
     Stephen_Minn: {
         linkedIn: "https://www.linkedin.com/in/stephenminn/",
@@ -256,7 +100,6 @@ export const profiles = {
         img: require("../../../../assets/actives/brothers/Tiffany_Wong.jpg")
     },
 
-
     // Mu
     Faith_Chia: {
         linkedIn: "https://www.linkedin.com/in/faith-chia/",
@@ -289,7 +132,7 @@ export const profiles = {
         campusInvolvements: {"Media & Technology Commissioner":"Associated Students of UCI","Content Creation Commissioner": "Associated Students of UCI", "VP of Technology": "Merage Undergraduate Student Association", "Mentor": "Management Information Student Society","Associate Counselor":"Lambda Phi Nu","Culture & Relationships Director":"Lambda Phi Nu"},
         interests: ["Weightlifting", "Snowboarding", "Basketball", "Protein", "Filmmaking", "Rock Watching"],
         whyLPN: "Group of professionals who thrive to excel in the professional world but also a group of people who like to have fun :)",
-        img: require("../../../../assets/actives/brothers/Josh_Tong.JPG")
+        img: require("../../../../assets/actives/brothers/Josh_Tong.jpg")
     },
     Linda_Woo: {
         linkedIn: "https://linkedin.com/in/lindawoo",
@@ -305,23 +148,7 @@ export const profiles = {
         campusInvolvements: {"President": "Phi Zeta Tau"},
         interests: ["Binging Netflix", "Collecting stationary", "Grocery shopping"],
         whyLPN: "LPN is an organization that has encouraged, pushed, and challenged me to build myself up to the best possible version of myself. I am extremely grateful for all the relationships, memories, and support I’ve received from brothers of LPN I’ve meet this past year; they all have truly changed my college experience for the better and gave me the opportunity to take charge of my career path. I can wholeheartedly say joining LPN was the best decision of college thus far and I encourage everyone to come checkout what makes us so special.",
-        img: require("../../../../assets/actives/brothers/Linda_Woo.JPG")
-    },
-    Matthew_Nagata: {
-        linkedIn: "https://www.linkedin.com/in/mattnagata/",
-        homeTown: "Cerritos, CA",
-        year: "4th",
-        class: "Mu",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Information Systems, Organization and Management",
-        practice: "Consulting",
-        pronouns: "He/Him/His",
-        experience: {"Strategy Analyst Intern": "Atrium Hotel", "Business Development Intern": "Bear Street Holdings", "Research Intern": "Hotel Current"},
-        campusInvolvements: {"Macroeconomics Analyst": "SMIF", "VP of Finance": "Management Information Student Society", "Mentor": "Antleader Mentorship Program"},
-        interests: ["KumaThoughts", "Boba", "Basketball", "Bowling", "Volleyball", "Thrift shopping", "Travelling"],
-        whyLPN: "I chose LPN because of the supportive atmosphere and strong brotherhood.I know I am surrounded by brothers who push me past my limits and continually help me pursue my ambitions. To me, LPN is about fostering strong relationships with the all the brothers, and growing the fraternity together to endure through countless generations.Also through the constant support of the alumni, the fraternity creates an extensive family that provides guidance and support for the active brothers.",
-        img: require("../../../../assets/actives/brothers/Matthew_Nagata.jpg")
+        img: require("../../../../assets/actives/brothers/Linda_Woo.jpg")
     },
     Sahana_Vairavaraj: {
         linkedIn: "https://www.linkedin.com/in/sahana-vairavaraj",
@@ -337,7 +164,7 @@ export const profiles = {
         campusInvolvements: {"Member": "Human Resources Management Association"},
         interests: ["Karaoke", "Reading", "NBA (Warriors!)"],
         whyLPN: "I love LPN because there's so many different people, but the one thing that connects us all is a real passion for giving back and a drive to be constantly challenge ourselves. LPN has always reminded me that I shouldn't settle, whether it be in my career or my life, and I'm so grateful to everyone that pushes me to fight for what I want out of life.",
-        img: require("../../../../assets/actives/brothers/Sahana_Vairavaraj.JPG")
+        img: require("../../../../assets/actives/brothers/Sahana_Vairavaraj.jpg")
     },
     Sera_Xu: {
         linkedIn: "https://www.linkedin.com/in/ziqing-sera-xu/",
@@ -356,39 +183,7 @@ export const profiles = {
         img: require("../../../../assets/actives/brothers/Sera_Xu.jpg")
     },
    
-   
     // Xi
-    // Alex_Cole: {
-    //     linkedIn: "https://www.linkedin.com/in/colealexj/",
-    //     homeTown: "Vallejo, CA",
-    //     year: "4th",
-    //     class: "Xi",
-    //     major: "Business Administration",
-    //     minor: "",
-    //     emphasis: "Marketing, Finance",
-    //     practice: "Marketing",
-    //     experience: ["Target, Guest Advocate"],
-    //     campusInvolvements: ["Lambda Phi Nu, Finance Director",],
-    //     interests: ["Cooking/Baking", "Making coffee & kombucha", "Gaming", "Learning new skills"],
-    //     whyLPN: "I joined LPN as a 3rd-year transfer student new to both the business world and UCI. I had recently moved down to Irvine after spending most of my life in Northern California. Naturally, I was looking to learn more about the professional world and to meet new people. Being surrounded by a group of such driven individuals greatly helped me in both of these respects. I have definitely had my ups and downs, but I will always remember the memories and experiences LPN gave to me as well as the impact the organization and its brothers have had on both my professional and personal life.",
-    //     img: require("../../../../assets/actives/brothers/finance/Alex_Cole.jpg")
-    // },
-    Andrew_Duong: {
-        linkedIn: "https://www.linkedin.com/in/andrewduong86/",
-        homeTown: "Daly City",
-        year: "4th",
-        class: "Xi",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Accounting",
-        practice: "Tax",
-        pronouns: "He/Him/His",
-        experience: {"Tax Intern": "Crowe", "Teaching Assistant": "Kumon"},
-        campusInvolvements: {"Committee Board Officer": "Accounting Association", "Mentor": "AA Leadership Development Program"},
-        interests: ["Anime", "Webtoons", "Basketball"],
-        whyLPN: "As a transfer student, I struggled to fit in and find my place at UCI. I wanted to meet people with similar interests and that were motivated to succeed in life. Coming across LPN, I can confidently say that I have found my home away from home. The memories you make within this organization and the people you meet are the best. I am grateful for what LPN has provided me because it has made my college experience so memorable. ",
-        img: require("../../../../assets/actives/brothers/Andrew_Duong.jpg")
-    },
     Catherine_Lin: {
         linkedIn: "https://www.linkedin.com/in/catherineylin/",
         homeTown: "",
@@ -453,22 +248,6 @@ export const profiles = {
         whyLPN: "I chose Lambda Phi Nu because I was looking for a community of driven individuals, but what I found was much more. This organization has been an integral part of my college experience, and I'm extremely grateful for the memories I've made with other brothers. I am glad that I came out because LPN is a place I can confidently call my second home. Regardless of background, LPN has been accepting and welcoming of all walks of life, and I've been fortunate to meet so many unique individuals!",
         img: require("../../../../assets/actives/brothers/Lucian_Liu.jpg")
     },
-    Naishal_Shah: {
-        linkedIn: "https://www.linkedin.com/in/naishalshah/",
-        homeTown: "Cupertino, CA",
-        year: "4th",
-        class: "Xi",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Finance, Information Systems",
-        practice: "Finance",
-        pronouns: "He/Him/His",
-        experience: {"Intern": "Motilal Oswal"},
-        campusInvolvements: { "Mentor": "Management Information Student Society", "Macroeconomics Analyst": "Student Managed Investment Fund", "Associate Counselor": "Lambda Phi Nu"},
-        interests: ["Watching/Playing sports", "Cooking", "Cars", "Making new connections"],
-        whyLPN: "To me, Lambda Phi Nu is an organization that allows individuals to achieve their potential by equipping them with the proper knowledge and resources. However, Lambda Phi Nu is more than just a fraternity that develops professionalism; The fraternity has helped me discover various facets of myself that I was unaware of and has helped foster personal growth. The fraternity is made up of individuals who I can trust with my life and already feels like home. Seeing the motivated, driven individuals greatly inspires me, and I can confidently say that rushing Lambda Phi Nu was one of the best decisions I have made in college.",
-        img: require("../../../../assets/actives/brothers/Naishal_Shah.jpg")
-    },
     Omar_Naji: {
         linkedIn: "https://www.linkedin.com/in/omaranaji/",
         homeTown: "Diamond Bar, CA",
@@ -484,22 +263,6 @@ export const profiles = {
         interests: ["Video games", "Sports", "Playing Trombone"],
         whyLPN: "Having been in ΛΦΝ for almost 2 years now, I can confidently say that this fraternity has completely shaped and solidified my personal and professional growth at college. As a first-year, I had no professional experience whatsoever. I was very overwhelmed, and I was struggling to find a community to call a home away from home. Lambda Phi Nu has given me those life-long friendships as well as a solid understanding of what I need to do to succeed in my life. I am forever in debt to this fraternity, and I hope to continue to give back to the business and UCI community as I have been given so much.",
         img: require("../../../../assets/actives/brothers/Omar_Naji.jpg")
-    },
-    Philip_Cheung: {
-        linkedIn: "https://www.linkedin.com/in/philip-tao-cheung/",
-        homeTown: "Hacienda Heights, CA",
-        year: "4th",
-        class: "Xi",
-        major: "Business Economics",
-        minor: "",
-        emphasis: "",
-        practice: "Management Consulting",
-        pronouns: "He/Him/His",
-        experience: {"Application & Program Analyst": "Deloitte", "Business Development Intern": "COPE Health Solutions", "eMoney Consultant": "Holistic Financial Planning"},
-        campusInvolvements: {"Mentor": "Management Information Student Society", "Recruiter": "Lambda Phi Nu", "Information Associate": "Lambda Phi Nu"},
-        interests: ["Gaming", "Snowboarding", "Music", "Hiking", "Running", "Personal Finance", "Clothing"],
-        whyLPN: "Being a transfer student, LPN was a great way to get myself involved and to be apart of a community filled with like-minded individuals. Not only was I able to build meaningful relationships, but I was able to push myself to become a more professional individual as well. Above all, LPN enriched my overall college experience in a way that will serve me well in my future careers.",
-        img: require("../../../../assets/actives/brothers/Philip_Cheung.jpg")
     },
     Raymond_Dinh: {
         linkedIn: "https://www.linkedin.com/in/rdinh/",
@@ -533,56 +296,7 @@ export const profiles = {
         whyLPN: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
         img: require("../../../../assets/actives/brothers/Ryan_Miranda.jpg")
     },
-    Serina_Nguyen: {
-        linkedIn: "https://www.linkedin.com/in/serinanguyen6/",
-        homeTown: "San Jose, CA",
-        year: "4th",
-        class: "Xi",
-        major: "Business Administration",
-        minor: "",
-        emphasis: "Marketing",
-        practice: "Marketing",
-        pronouns: "She/Her/Hers",
-        experience: {"Social Media & Content Intern":"Amyris","Marketing Assistant":"Pixel","Marketing Intern":"EtherWAN Systems", "Marketing Projects Intern": "Issuu", "Editor-in-chief": "Exposure Magazine"},
-        campusInvolvements: {"VP of Marketing": "Undergraduate Finance Association", "VP of Internal Affairs": "Marketing Association", "Marketing Director": "Lambda Phi Nu"},
-        interests: ["Thrifting & upcycling", "Food Adventures", "Disney", "Skincare"],
-        whyLPN: "LPN is full of driven individuals who motivate me to become the best version of myself. It provided me with a community that actively helps me pursue my professional goals and has given me amazing friends I can always depend on for a good laugh.",
-        img: require("../../../../assets/actives/brothers/Serina_Nguyen.jpg")
-    },
-    Tyler_Newman: {
-        linkedIn: "https://www.linkedin.com/in/tylernewman3/",
-        homeTown: "Elk Grove, CA",
-        year: "4th",
-        class: "Xi",
-        major: "Quantitative Economics",
-        minor: "",
-        emphasis: "",
-        practice: "Finance and Data Analysis",
-        pronouns: "He/Him/His",
-        experience: {"Accounting Intern": "Michelle Rogers CPA", "Operations Crew Member": "Student Center & Events Services"},
-        campusInvolvements: {"Co-President": "Management Information Student Society", "Culture & Relationships Director": "Lambda Phi Nu", "Treasurer": "Kababayan"},
-        interests: ["Climbing", "Gaming", "Eating", "Movie critiquing"],
-        whyLPN: "LPN is where I truly found people who were pushing to make their future happen on their own terms. I loved the energy and thrived on it as motivation. I grew in this org and I owe it to my p-bros and my big.",
-        img: require("../../../../assets/actives/brothers/Tyler_Newman.jpg")
-    },
-    Yong_Lin: {
-        linkedIn: "https://www.linkedin.com/in/yong--lin/",
-        homeTown: "Shenzhen, China",
-        year: "4th",
-        class: "Xi",
-        major: "Math, Quantitative Economics",
-        minor: "",
-        emphasis: "Finance",
-        practice: "Finance",
-        pronouns: "He/Him/His",
-        experience: {"Commercial Rotational Program Associate": "Capital One", "Specialty Banking Summer Analyst": "City National Bank", "Portfolio Analyst Intern": "Wells Fargo Advisors"},
-        campusInvolvements: {"President": "Undergraduate Finance Association", "Macroeconomics Team Lead": "Student Managed Investment Fund", "Mentor": "Management Information Student Society"},
-        interests: ["Basketball", "K-dramas", "Reading Biographies", "Traveling", "Swimming"],
-        whyLPN: "I joined LPN because of its value on the relationship and the close-tied community. I am very glad that I decided to rush and pledge even though I had a busy schedule. The time I spent with all my p-bros is one of my most memorable moments throughout college. From LPN, I was able to develop myself emotionally and connect with people who I may never have a chance to meet with otherwise. I came into the process without knowing the growth that it would give me, beyond just professionally. LPN gave me a chance to discover many new things that I would have never experienced and enjoyed.",
-        img: require("../../../../assets/actives/brothers/Yong_Lin.jpg")
-    },
-
-    
+   
     // Omicron
     Adrian_Siu: {
         linkedIn: "https://www.linkedin.com/in/adrianmsiu/",
@@ -614,7 +328,7 @@ export const profiles = {
         campusInvolvements: {"Vice President":"Beta Alpha Psi", "Director of Finance": "TEDxUCIrvine","Member":"Kappa Alpha Theta"},
         interests: ["Organizing", "Hydroponics", "Handmade crafts", "Disneyland", "Ice skating", "Health foods"],
         whyLPN: "I have learned so much from LPN brothers even before rushing, and I realized how genuine and selfless these individuals were. I never felt like I had to be someone else other than myself here. Friends are family that you can choose; LPN to me is the home I chose to thrive and belong in.",
-        img: require("../../../../assets/actives/brothers/Cathy_Yun.JPG")
+        img: require("../../../../assets/actives/brothers/Cathy_Yun.jpg")
     },
     Haley_Kim: {
         linkedIn: "https://www.linkedin.com/in/haley-kim/",
@@ -662,7 +376,7 @@ export const profiles = {
         campusInvolvements: {"Mentor": "Undergraduate/Undeclared Mentoring Program", "Scholarship Recipient": "Hispanic 100 Foundation"},
         interests: ["Running", "Swimming", "Badminton", "Hiking", "Skincare", "Cooking", "Digital Art"],
         whyLPN: "Family. Coming into UCI as a biology major and quickly realizing it was not the career for me was a very daunting experience. Hence a large majority of my friends were biology or non-business majors. As I finished my GE’s and began taking business-related courses, I found myself with no one to turn to or relate to. I then decided to seek a community that shared the same passion for business as I did, but instead, I not only found a community but a family. Lambda Phi Nu is filled with individuals who are committed, determined, and passionate about reaching their full potential, prompting one also to adopt those characteristics and become driven and motivated themselves.",
-        img: require("../../../../assets/actives/brothers/Julio_Cano.JPG")
+        img: require("../../../../assets/actives/brothers/Julio_Cano.jpg")
     },
     Kaylie_Zhou: {
         linkedIn: "https://www.linkedin.com/in/kaylie-zhou/",
@@ -678,7 +392,7 @@ export const profiles = {
         campusInvolvements: { "Internal Auditor":"Lambda Phi Nu","VP of Professional Development":"Undergraduate Business Association","Marketing Strategy Associate Director":"Associated Students of UCI"},
         interests: ["Boba", "Disney", "Just Dance", "Window shopping"],
         whyLPN: "I came into UCI as an undeclared student with no idea what I wanted to do for my career. I wanted to be involved as much as possible on campus, but I did not know where to start. However, after finding LPN, I soon realized how inspirational everyone was and found myself wanting to be a leader—just like them. I know that joining LPN was the best decision I have made because I have learned so much and gained so many friends that I call my second family.",
-        img: require("../../../../assets/actives/brothers/Kaylie_Zhou.png")
+        img: require("../../../../assets/actives/brothers/Kaylie_Zhou.jpg")
     },
     Khoa_Tran: {
         linkedIn: "https://www.linkedin.com/in/khoattran/",
@@ -742,9 +456,8 @@ export const profiles = {
         campusInvolvements: { "VP of Community Development": "Merage Undergraduate Student Association", "VP of Outreach": "Human Resources Management Association"},
         interests: ["Impulse shopping", "Jamming out to music", "Chatting with friends"],
         whyLPN: "LPN gave me a community that pushes me to become the best version of myself and friends that I can call family. I know that no matter where I go I have endless encouragement and support.",
-        img: require("../../../../assets/actives/brothers/Vivian_Tran.JPG")
+        img: require("../../../../assets/actives/brothers/Vivian_Tran.jpg")
     },
-
 
     // Pi
     Courtney_Tsao: {
@@ -761,7 +474,7 @@ export const profiles = {
         campusInvolvements: { "Vice President of Marketing": "Undergraduate Business Association", "Incoming Associate Counselor": "Lambda Phi Nu", "Vice President of Internal Affairs": "Marketing Association" },
         interests: "",
         whyLPN: "",
-        img: require("../../../../assets/actives/brothers/Courtney_Tsao.JPG")
+        img: require("../../../../assets/actives/brothers/Courtney_Tsao.jpg")
     },
     Elizabeth_Chan: {
         linkedIn: "https://www.linkedin.com/in/elizabethbchan/",
@@ -873,8 +586,10 @@ export const profiles = {
         campusInvolvements: {"Corporate Organizer":"Hack at UCI","Software Engineer": "MAISS Project Teams","Webmaster":"Lambda Phi Nu","Member":"Women in Information and Computer Science"},
         interests: ["Baking","Food","Hiking","Pinterest Boards"],
         whyLPN: "I chose LPN to expand my social circle and academic focus as a CS major. Even during the short period of time that I have been a part of LPN, I have been able to meet so many motivated and kind individuals who I am looking forward to grow with the rest of my college career.",
-        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.JPG')
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg')
     },
+
+    //Rho
     Aaron_Lee: {
         linkedIn: "https://www.linkedin.com/in/kyngnlee/",
         homeTown: "Seoul, South Korea",
@@ -953,7 +668,7 @@ export const profiles = {
         campusInvolvements: {"Co-VP of Community Development":"Management Information Student Society","Campus Outreach Leader":"TEDxUCIrvine","Consulting Apprentice":"Deloitte Diversity Mentorship Program","Second Tier Family Head":"Kababayan","General Member":"Pi Beta Phi"},
         interests: ["Skating", "Thrifting", "Sports", "Fixing cars", "Photoshoots", "TED talks", "Spotify playlists", "Singing", "Playing the piano"],
         whyLPN: "Before I joined LPN, the brothers I stayed connected with have been the most altruistic, kind, and supportive people I have met throughout college. I knew that I wanted to be part of an organization that is devoted to not only my self-growth, but are passionate about extending help to others outside the organization as well. I always learn something new through any LPN experience. LPN to me means having a tight-knit community of supportive and career-driven individuals. We are all collectively working together to achieve our own goals, whether it’s professional or personal. LPN has provided me with a family that I know I will stay connected with even after college.",
-        img: require('../../../../assets/actives/brothers/Yllana_Casim.JPG')
+        img: require('../../../../assets/actives/brothers/Yllana_Casim.jpg')
     },
     Ashley_London: {
         linkedIn: "https://www.linkedin.com/in/ashley-london/",
