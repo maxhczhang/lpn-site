@@ -137,6 +137,43 @@ export const brothers = [
         img: require('../../../../assets/actives/brothers/Yllana_Casim.jpg'),
         name: "Yllana Casim",
     },
+
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Deena Toofan",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Hans Chang",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Jaejin Kim",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Jodie Tai",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Julie Hsieh",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Justin Chao",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Qui Hoang",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Ruby Ko",
+    // },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Will Bordessa",
+    // },
     
 ];
 

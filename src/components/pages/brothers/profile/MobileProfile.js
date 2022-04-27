@@ -15,7 +15,7 @@ export default function MobileProfile({name, profile, classes}) {
     return (
         <Box mt={8} mb={10} className={classes.root}>
             
-            <Grid container justify="center">
+            <Grid container justifyContent="center">
             
                 <Grid item xs={12}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" mb={1}>
@@ -40,7 +40,7 @@ export default function MobileProfile({name, profile, classes}) {
             <Box mt={4}></Box>
                 
             <Typography component="div" className={classes.paragraph}>
-                <Grid container direction="row" justify="align-start" spacing={2}>
+                <Grid container direction="row" justifyContent="align-start" spacing={2}>
 
                     <Grid item xs={6}>
                         <ProfileSingle data={profile["year"]} title="Year" isMobile={true}></ProfileSingle>

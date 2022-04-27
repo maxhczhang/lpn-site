@@ -84,9 +84,9 @@ export default function HeaderContent({pageNum}) {
 
                             <Box fontWeight="fontWeightBold" fontSize='6rem' letterSpacing={6}>{titles[1]}</Box>
 
-                            {captions.map((caption, i) => (
-                                <div>
-                                    <Typography key={i} variant="h4">{caption}</Typography>
+                            {captions.map((caption) => (
+                                <div key="{caption}">
+                                    <Typography variant="h4">{caption}</Typography>
                                     <Typist.Backspace count={caption.length} delay={1000}></Typist.Backspace>
                                 </div>
                             ))}

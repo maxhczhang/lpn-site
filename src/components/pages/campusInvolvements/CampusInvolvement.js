@@ -17,8 +17,6 @@ import { involvements2019 } from './Involvements2019';
 import { involvements2018 } from './Involvements2018';
 import Chart from '../../utils/Chart';
 
-// import MaterialTable from 'material-table';
-
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -114,7 +112,7 @@ export default function CampusInvolvement({ setPage }) {
     return (
         <Box mt={18} mb={18} className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" className={classes.content} spacing={5}>
+            <Grid container direction="row" justifyContent="center" alignItems="center" className={classes.content} spacing={5}>
                 {orgsLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
                         <a href={tile.link} target="_blank" rel="noopener noreferrer">

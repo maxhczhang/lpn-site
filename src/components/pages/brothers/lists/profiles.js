@@ -718,6 +718,30 @@ export const profiles = {
         whyLPN: "To me LPN is a safe space for me to grow and authentically be myself. Coming in as a first-year, I felt very lost when it came to starting my professional career. I was super overwhelmed which is why I initially rushed for LPN. After the first quarter, I have realized that what LPN has provided me is much more than just professional guidance. From LPN I have gained a new support system and family whom I love unconditionally.",
         img: require('../../../../assets/actives/brothers/Kayla_Wong.jpg')
     },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
+    // Deena_Toofan: {
+    //     class: "Rho",
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    // },
 
 };
 

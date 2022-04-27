@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
-import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { HashRouter, Switch, Route, } from "react-router-dom";
 // import { Redirect, BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga'
@@ -24,7 +24,7 @@ import Contact from './pages/contact/Contact'
 import Footer from './layouts/Footer'
 
 
-let theme = createMuiTheme({
+let theme = createTheme({
     // typography: {
     //     fontFamily: "Source Sans Pro,sans-serif"
     // },

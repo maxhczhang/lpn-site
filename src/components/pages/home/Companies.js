@@ -35,7 +35,7 @@ export default function Companies({isMobile}) {
     return (
         <div className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
+            <Grid container direction="row" justifyContent="center" alignItems="center" spacing={5}>
                 {companyLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
                         <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />

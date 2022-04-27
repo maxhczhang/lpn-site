@@ -89,7 +89,7 @@ export default function Profile({setPage, match}) {
         return (
             <Box mt={10} mb={10} className={classes.root}>
 
-                <Grid container direction="row" justify="center">
+                <Grid container direction="row" justifyContent="center">
 
                     <Grid item xs={6} container>
                         <Grid item xs={12} style={{ pointerEvents: "none" }}>
@@ -153,7 +153,7 @@ export default function Profile({setPage, match}) {
                 <Box mt={6}></Box>
 
                 <Typography component="div" className={classes.paragraph}>
-                    <Grid container spacing={6} direction="row" justify="space-between">
+                    <Grid container spacing={6} direction="row" justifyContent="space-between">
 
                         <Grid item>
                             <ProfileObject data={profile["experience"]} title="Experience" isMobile={isMobile}></ProfileObject>

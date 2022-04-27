@@ -144,7 +144,7 @@ export default function Fall2020({ setPage }) {
             <Divider className={classes.divider}></Divider>
 
             <Box mt={14} mb={14} className={classes.content}>
-                <Grid container direction="row" justify="space-evenly" alignItems="center" spacing={10}>
+                <Grid container direction="row" justifyContent="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
                         <Grid item xs={isMobile ? 12 : 6} align="center">
                             <RushEvent event={event} cardStyle={isMobile ? classes.mobileCard : classes.card}></RushEvent>
@@ -156,7 +156,7 @@ export default function Fall2020({ setPage }) {
             <Divider className={classes.divider}></Divider>
 
             <Box mt={12} className={classes.content}>
-                <Grid container direction="row" justify="center" alignItems="center" spacing={6}>
+                <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
                         <Button size="large" variant="contained" className={classes.button} component={Link} to="/about">
                             Why LPN?

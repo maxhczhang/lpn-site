@@ -17,7 +17,7 @@ export default function CoreValues() {
     }
 
     return (
-        <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
+        <Grid container direction="row" justifyContent="center" alignItems="center" spacing={5}>
 
             <Grid item xs={cols} >
                 <PlainCoreValue title="Curiosity" description="Our brothers explore 'what could be' and challenge the status quo by continously acquiring knowledge beyond our business concentrations."></PlainCoreValue>

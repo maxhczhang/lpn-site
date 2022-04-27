@@ -119,7 +119,7 @@ export default function Home({setPage}) {
             <MyCarousel isMobile={isMobile} photos={carousel1photos} spacing={40}></MyCarousel>
 
             <Box mt={12} mb={10} className={classes.carouselWidth}>
-                <Grid container spacing={10} direction="row" justify="space-evenly">
+                <Grid container spacing={10} direction="row" justifyContent="space-evenly">
 
                     <Grid item xs={cols}>
                         <Typography component="div" >

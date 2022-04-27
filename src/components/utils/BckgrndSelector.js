@@ -6,7 +6,7 @@ import Header from '../layouts/Header/Header'
 import HeaderContent from '../layouts/Header/HeaderContent'
 import Home from '../../assets/backgrounds/Home.jpg'
 import About from '../../assets/backgrounds/About.jpg'
-import CampusInvolvements from '../../assets/backgrounds/CampusInvolvement.jpg'
+import CampusInvolvements from '../../assets/backgrounds/Gallery.jpeg'
 import Careers from '../../assets/backgrounds/Careers.jpeg'
 import Gallery from '../../assets/backgrounds/Gallery.jpg'
 
@@ -209,18 +209,14 @@ export default function BckgrndSelector({ pageNum }) {
                                 // >
                                 // </iframe>
                                 <iframe width="100%" height="100%" title="Rush Video" src="https://www.youtube-nocookie.com/embed/8MgFYLCZnS4?playlist=8MgFYLCZnS4&loop=1&autoplay=1&mute=1&vq=hd720&controls=0" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
+                                encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
                         },
                     ]}
                 >
                     <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </ParallaxBanner>
-                // <React.Fragment>
-                //     <Header pageNum={pageNum}></Header>
-                //     <HeaderContent pageNum={pageNum}></HeaderContent>
-                // </React.Fragment>
             )
         
         default:

@@ -43,7 +43,7 @@ const BrothersList = ({ brothers, scrollPosition, width, height, isCsuite }) => 
     return (
         <div className={classes.root}>
 
-            <Grid container direction="row" justify="center" alignItems="center" spacing={4}>
+            <Grid container direction="row" justifyContent="center" alignItems="center" spacing={4}>
                 {brothers.map((tile, i) => (
                     <Grid item key={i}>   
                     

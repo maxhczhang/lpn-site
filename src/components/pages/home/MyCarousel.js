@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
+import ImageList from '@material-ui/core/ImageList';
+import ImageListItem from '@material-ui/core/ImageListItem';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -25,13 +25,13 @@ export default function MyCarousel({isMobile, photos, spacing}) {
 
     return (
         <div className={classes.root}>
-            <GridList className={classes.gridList} cols={isMobile ? 1 : 3} cellHeight={250} spacing={spacing}>
+            <ImageList className={classes.gridList} cols={isMobile ? 1 : 3} cellHeight={250} spacing={spacing}>
                 {photos.map((tile, i) => (
-                    <GridListTile key={i}>
+                    <ImageListItem key={i}>
                         <img src={tile.img} alt={tile.title} className={classes.image} />
-                    </GridListTile>
+                    </ImageListItem>
                 ))}
-            </GridList>
+            </ImageList>
         </div>
     )
 }

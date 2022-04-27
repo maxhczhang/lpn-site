@@ -41,7 +41,7 @@ export default function HomeCoreValues({isMobile}) {
     return (
         <div className={classes.root}>
 
-            <Grid container spacing={10} direction="row" justify="space-evenly">
+            <Grid container spacing={10} direction="row" justifyContent="space-evenly">
                 
                 <Grid item xs={isMobile ? 12 : 4}>
                     <Typography component="div">

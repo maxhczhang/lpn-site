@@ -40,7 +40,7 @@ export default function Footer() {
         <div className={classes.root}>
         <Grid container spacing={2}>
             <Grid item xs={12}>
-                <Grid container justify="center">
+                <Grid container justifyContent="center">
                     <Grid item>
                         <a href="https://www.linkedin.com/company/lambdaphinu/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <IconButton size="medium" aria-label="LinkedIn" className={classes.button}>
@@ -70,7 +70,7 @@ export default function Footer() {
                         </a>
                     </Grid>
                 </Grid>
-                <Grid container justify="center">
+                <Grid container justifyContent="center">
                     <Grid item>
                         <Typography component="div">
                             <Box fontSize="subtitle1.fontSize" fontWeight="fontWeightMedium" mb={1}>

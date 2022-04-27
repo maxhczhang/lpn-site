@@ -116,7 +116,7 @@ export default function Header({ pageNum }) {
       <AppBar position='static' className={appBarClass} elevation={elevation}>
         
         <div className={classes.root}>
-          <Grid container direction="row" justify="space-between" alignItems="center" >
+          <Grid container direction="row" justifyContent="space-between" alignItems="center" >
             <Grid item>
               <Link to="/">
                 <img src={logo_white} className={isMobile ? classes.mobileLogo : classes.logo} alt="LPN"></img>
