@@ -67,7 +67,7 @@ const postToServer = async (newRow) => {
         body: JSON.stringify({ newRow })
     };
 
-    fetch('https://lpn-site-server.herokuapp.com/v1/sheets', requestOptions)
+    fetch('https://lpn-site-server.herokuapp.com/submit-form', requestOptions)
         .then(response => response.json())
         .then(data => console.log(data));
 };
