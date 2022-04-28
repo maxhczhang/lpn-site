@@ -19,7 +19,7 @@ export default function ProfileObject({data, title, isMobile}) {
                     <Box fontSize="body1.fontSize">
                         <List>
                             {Object.keys(data).map((position, i) => (
-                                <ListItem disableGutters={true}>
+                                <ListItem disableGutters={true} key={i}>
                                     <ListItemText
                                         primary={position}
                                         secondary={data[position] && data[position]} 
@@ -42,10 +42,10 @@ export default function ProfileObject({data, title, isMobile}) {
                         <List>
                             <List>
                             {Object.keys(data).map((position, i) => (
-                                <ListItem disableGutters={true}>
+                                <ListItem disableGutters={true} key={i}>
                                     <ListItemText
                                         primary={<Box fontSize="h5.fontSize">{position}</Box>}
-                                        secondary={data[position] && <Box fontSize="h6.fontSize">{data[position]}</Box>} 
+                                        secondary={data[position] && <Box fontSize="h6.fontSize" component="span">{data[position]}</Box>} 
                                     />
                                 </ListItem>
                             ))}

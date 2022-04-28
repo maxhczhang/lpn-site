@@ -49,7 +49,7 @@ export default function FAQs({setPage}) {
        <Box mt={10} mb={18} className={classes.root}>
 
             {faqsList.map((content, i) => (
-                <Box mb={6} border={1} className={classes.accordian}>
+                <Box mb={6} border={1} className={classes.accordian} key={i}>
                     <Accordion>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}

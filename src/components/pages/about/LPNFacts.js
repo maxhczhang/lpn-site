@@ -41,7 +41,7 @@ export default function LPNFacts({isMobile}) {
         <Typography component="div">
             <Grid container spacing={6}>
                 {facts.map((fact, i) => (
-                    <Grid item xs={cols}>
+                    <Grid item xs={cols} key={i}>
                         <Box fontWeight="fontWeightBold" fontSize={answerSize} className={classes.fact}>{fact.answer}</Box>
                         <Box fontSize={titleSize} letterSpacing={2} className={classes.title}>{fact.title}</Box>
                     </Grid>

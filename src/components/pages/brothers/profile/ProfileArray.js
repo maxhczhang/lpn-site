@@ -18,7 +18,7 @@ export default function ProfileArray({ data, title, isMobile }) {
                 <Box fontSize={isMobile ? "body1.fontSize" : "h6.fontSize"}>
                     <List>
                         {data.map((item, i) => (
-                            <ListItem disableGutters={true}>
+                            <ListItem disableGutters={true} key={i}>
                                 <ListItemText
                                     primary={isMobile ? item : <Box fontSize="h5.fontSize">{item}</Box>}
                                 />

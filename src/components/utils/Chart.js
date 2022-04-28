@@ -1,9 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-
-// import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
 
@@ -29,17 +26,17 @@ export default function Chart({title, positions, isMobile}) {
     const classes = useStyles();
 
     return (
-        <Typography component="div" className={classes.root}>
+        <div className={classes.root}>
 
-            <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={4}>{title}</Box>           
+            <Box fontSize="h2.fontSize" fontWeight="fontWeightMedium" mt={4}>{title}</Box>
 
-            {Object.keys(positions).map((industry, index) => (
+            {Object.keys(positions).map((industry, i) => (
 
-                <React.Fragment>
+                <React.Fragment key={i}>
                     <Box fontSize="h4.fontSize" fontWeight="fontWeightBold" align="left" mt={6} mb={2}>{industry}</Box>
 
                     {positions[industry].map((position, i) => (
-                        <Grid container direction="row" justify="center" alignItems="center" key={i}>
+                        <Grid container direction="row" justifyContent="center" alignItems="center" key={i}>
                             <Grid item xs={4}>
                                 <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.name}</Box>
                             </Grid>
@@ -49,16 +46,15 @@ export default function Chart({title, positions, isMobile}) {
                             <Grid item xs={4}>
                                 <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.company}</Box>
                             </Grid>
-                            
-                            {/* <Divider className={classes.divider}></Divider> */}
+
                             <div className={classes.dividerDiv}></div>
 
-                      </Grid>
+                        </Grid>
                     ))}
 
                 </React.Fragment>
             ))}
-        </Typography>
+        </div>
     )
 }
 

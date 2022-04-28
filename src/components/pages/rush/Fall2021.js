@@ -113,7 +113,7 @@ export default function Winter2021({ setPage }) {
         <Box mt={12} mb={18} className={classes.root}>
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
-                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : {}}>
+                    <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" className={isMobile ? classes.content : ""}>
                         <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Emerge</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
@@ -142,7 +142,7 @@ export default function Winter2021({ setPage }) {
             <Box mt={14} mb={14} className={classes.content}>
                 <Grid container direction="row" justifyContent="space-evenly" alignItems="center" spacing={10}>
                     {events.map((event, i) => (
-                        <Grid item xs={isMobile ? 12 : 6} align="center">
+                        <Grid item xs={isMobile ? 12 : 6} align="center" key={i}>
                             <RushEvent event={event} cardStyle={isMobile ? classes.mobileCard : classes.card}></RushEvent>
                         </Grid>
                     ))}
