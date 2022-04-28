@@ -103,28 +103,29 @@ const START_FULLTIMES = "FullTimes2022"
 
 
 export default function Careers({ setPage }) {
-    setPage("Careers")
+    async function getCareers(_sheet1, _sheet2) {
+        const requestOptions = {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        };
+
+        const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:5000/' : 'https://lpn-site-server.herokuapp.com/';
+
+        const url = baseURL + 'careers?' + new URLSearchParams({
+            sheet1: _sheet1,
+            sheet2: _sheet2
+        });
+
+        fetch(url, requestOptions)
+            .then(response => response.json())
+            .then(data => setCurrentCareers(data));
+    }
 
     useEffect(() => {
-
-        async function getCareers(_sheet1, _sheet2) {
-            const requestOptions = {
-                method: 'GET',
-                headers: { 'Content-Type': 'application/json' },
-            };
-
-            const url = 'https://lpn-site-server.herokuapp.com/careers?' + new URLSearchParams({
-                sheet1: _sheet1,
-                sheet2: _sheet2
-            });
-
-            fetch(url, requestOptions)
-                .then(response => response.json())
-                .then(data => setCurrentCareers(data));
-        }
-
-        getCareers(START_INTERNSHIPS, START_FULLTIMES);
-    }, []);
+        setPage("Careers")
+        // UNCOMMENT to GET careers data from the server and change lines 193 and 196
+        // getCareers(START_INTERNSHIPS, START_FULLTIMES);
+    }, [setPage]);
 
     const classes = useStyles();
 
@@ -189,9 +190,11 @@ export default function Careers({ setPage }) {
 
 
             <TabPanel value={tabValue} index={0} className={classes.tabPanel}>
-                <Chart title="2022 Internships" positions={currentCareers[START_INTERNSHIPS]} isMobile={isMobile}></Chart>
+                {/* <Chart title="2022 Internships" positions={currentCareers[START_INTERNSHIPS]} isMobile={isMobile}></Chart> */}
+                <Chart title="2022 Internships" positions={roles2022["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
-                <Chart title="2022 Full Times" positions={currentCareers[START_FULLTIMES]} isMobile={isMobile}></Chart>
+                {/* <Chart title="2022 Full Times" positions={currentCareers[START_FULLTIMES]} isMobile={isMobile}></Chart> */}
+                <Chart title="2022 Full Times" positions={roles2022["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
             <TabPanel value={tabValue} index={1} className={classes.tabPanel}>

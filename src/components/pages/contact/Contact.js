@@ -67,7 +67,9 @@ const postToServer = async (newRow) => {
         body: JSON.stringify({ newRow })
     };
 
-    fetch('https://lpn-site-server.herokuapp.com/submit-form', requestOptions)
+    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:5000/' : 'https://lpn-site-server.herokuapp.com/';
+
+    fetch(baseURL + 'submit-form', requestOptions)
         .then(response => response.json())
         .then(data => console.log(data));
 };
@@ -170,7 +172,7 @@ export default function Contact({ setPage }) {
 
                 </Grid>
 
-                <Box mt={8} className={classes.buttonWrapper} style={{maxWidth: "80%"}}>
+                <Box mt={11} className={classes.buttonWrapper} style={{maxWidth: "80%"}}>
                     <Button className={classes.button} type="submit">Submit</Button>
                 </Box>
             </form>
