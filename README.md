@@ -20,4 +20,4 @@ Lambda Phi Nu is a business leadership fraternity at the University of Californi
 ***
 
 ### Note:
-If running the server locally too, you must go into any components that make HTTP Requests to the server and change the url from "https://lpn-site-server.herokuapp.com" to "http://localhost:5000". Currently, this is just Careers.js and Contact.js.
+If running the server locally too, you must go into any components that make HTTP Requests to the server and change the port number to whatever port your server is running on. Currently the only files accessing the server are `Careers.js` and `Contact.js`.
