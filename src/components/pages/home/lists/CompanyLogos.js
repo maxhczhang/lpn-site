@@ -8,7 +8,7 @@ export const companyLogos = [
         title: 'Microsoft'
     },
     {
-        img: require('../../../../assets/actives/logos/David_Sonq.png'),
+        img: require('../../../../assets/actives/logos/Ey.png'),
         title: 'EY'
     },
     {
@@ -36,11 +36,11 @@ export const companyLogos = [
         title: 'Deloitte'
     },
     {
-        img: require('../../../../assets/actives/logos/Tiffany_Wong.png'),
+        img: require('../../../../assets/actives/logos/Kpmg.png'),
         title: 'KPMG'
     },
     {
-        img: require('../../../../assets/actives/logos/Astyr_Ko.png'),
+        img: require('../../../../assets/actives/logos/ServiceNow.png'),
         title: 'ServiceNow'
     },
     {
@@ -56,7 +56,7 @@ export const companyLogos = [
         title: 'Apple'
     },
     {
-        img: require('../../../../assets/companyLogos/JPMorgan.jpg'),
+        img: require('../../../../assets/companyLogos/JpMorgan.jpg'),
         title: 'JPMorgan Chase'
     },
     {

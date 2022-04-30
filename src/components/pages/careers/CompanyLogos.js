@@ -5,7 +5,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/david-sonq'
     },
     {
-        img: require('../../../assets/companyLogos/eBay.png'),
+        img: require('../../../assets/companyLogos/Ebay.png'),
         title: 'eBay',
         link: 'https://www.lpnuci.com/#/active-brothers/naveen-sastri',
     },
@@ -45,7 +45,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
     },
     {
-        img: require('../../../assets/companyLogos/JPMorgan.jpg'),
+        img: require('../../../assets/companyLogos/JpMorgan.jpg'),
         title: 'JP Morgan Chase & Co',
         link: 'https://www.lpnuci.com/#/active-brothers/tiffany-wong',
     },
@@ -55,7 +55,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/jeffrey-cho'
     },
     {
-        img: require('../../../assets/actives/logos/Tiffany_Wong.png'),
+        img: require('../../../assets/actives/logos/Kpmg.png'),
         title: 'KPMG',
         link: 'https://www.lpnuci.com/#/active-brothers/linda-woo',
     },

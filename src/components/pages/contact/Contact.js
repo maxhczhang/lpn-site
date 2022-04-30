@@ -67,7 +67,7 @@ const postToServer = async (newRow) => {
         body: JSON.stringify({ newRow })
     };
 
-    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:5000/' : 'https://lpn-site-server.herokuapp.com/';
+    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://lpn-site-server.herokuapp.com/';
 
     fetch(baseURL + 'submit-form', requestOptions)
         .then(response => response.json())
