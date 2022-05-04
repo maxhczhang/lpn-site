@@ -108,9 +108,9 @@ export const directors = [
         img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
         name: "Jasraj Singh",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/Google.png'),
-        company: 'Google',
-        width: "40%"
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "30%"
     },
 ];
 

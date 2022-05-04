@@ -30,7 +30,7 @@ export const brothers = [
         img: require("../../../../assets/actives/brothers/Sandy_Nguyen.jpg"),
         name: "Sandy Nguyen",
         logo: require('../../../../assets/actives/logos/MongoDB.png'),
-        company: 'UCI Graduate Division',
+        company: 'MongoDB',
         width: "45%"
     }, 
     {
@@ -45,7 +45,7 @@ export const brothers = [
         name: "Tiffany Wong",
         logo: require('../../../../assets/actives/logos/JpMorgan.png'),
         company: 'JP Morgan Chase&Co',
-        width: "50%"
+        width: "40%"
     }, 
 
     // Mu Class
@@ -77,7 +77,7 @@ export const brothers = [
         name: "Linda Woo",
         logo: require('../../../../assets/actives/logos/Engie.png'),
         company: 'Engie',
-        width: "50%"
+        width: "60%"
     },
     
     // Xi Class
@@ -151,9 +151,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
         name: "Kaylie Zhou",
-        // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
-        // company: 'Wells Fargo',
-        width: "35%"
+        logo: require('../../../../assets/actives/logos/Adobe.png'),
+        company: 'Adobe',
+        width: "40%"
     },
     // Pi Class
     {
@@ -175,14 +175,14 @@ export const brothers = [
         name: "Hanui Lee",
         logo: require('../../../../assets/actives/logos/JpMorgan.png'),
         company: 'JP Morgan Chase&Co',
-        width: "50%"
+        width: "40%"
     },
     {
         img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
         name: "Jamie Zhao",
-        // logo: require('../../../../assets/actives/logos/JpMorgan.png'),
-        // company: 'JP Morgan Chase&Co',
-        width: "50%"
+        logo: require('../../../../assets/actives/logos/Oigetit.png'),
+        company: 'Oigetit',
+        width: "40%"
     },
     {
         img: require("../../../../assets/actives/brothers/Liz_Chan.jpg"),
@@ -209,7 +209,7 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Aaron_Lee.jpg'),
         name: "Aaron Lee",
-        logo: require('../../../../assets/actives/logos/Oppti.webp'),
+        logo: require('../../../../assets/actives/logos/Oppti.png'),
         company: 'Oppti',
         width: "50%"
     },
