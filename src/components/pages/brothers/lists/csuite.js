@@ -3,9 +3,9 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers/Faith_Chia.jpg'),
         name: "Faith Chia",
         title: 'Chief Executive Officer',
-        logo: require('../../../../assets/actives/logos/Tjx.png'),
-        company: 'TJX',
-        width: "32%"
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "80%"
     },
     {
         img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
@@ -21,7 +21,7 @@ export const csuite = [
         title: 'Chief Financial Officer',
         logo: require('../../../../assets/actives/logos/Disney.png'),
         company: 'Disney',
-        width: "55%"
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
@@ -43,9 +43,9 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
         name: "Vivian Tran",
         title: 'Winter Chief Talent Officer',
-        logo: require('../../../../assets/actives/logos/DowJones.png'),
-        company: 'Dow Jones',
-        width: "70%"
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "80%"
     },   
     
 ];

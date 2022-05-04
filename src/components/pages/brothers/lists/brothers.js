@@ -76,7 +76,7 @@ export const brothers = [
         img: require("../../../../assets/actives/brothers/Linda_Woo.jpg"),
         name: "Linda Woo",
         logo: require('../../../../assets/actives/logos/Engie.png'),
-        company: 'UFC',
+        company: 'Engie',
         width: "50%"
     },
     
@@ -86,7 +86,7 @@ export const brothers = [
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Catherine Lin",
         logo: require('../../../../assets/actives/logos/UCI_Esports.png'),
-        company: 'Oracle',
+        company: 'UCI Esports',
         width: "45%"
     },
     {
@@ -187,9 +187,9 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers/Liz_Chan.jpg"),
         name: "Liz Chan",
-        // logo: require('../../../../assets/actives/logos/Deloitte.png'),
-        // company: 'Deloitte',
-        // width: "40%"
+        logo: require('../../../../assets/actives/logos/Cbre.png'),
+        company: 'Cbre',
+        width: "40%"
     },
     {
         img: require("../../../../assets/actives/brothers/Lumin_Oo.jpg"),
@@ -231,14 +231,14 @@ export const brothers = [
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Qui Hoang",
-        // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
-        // company: 'Wells Fargo',
-        // width: "35%"
+        logo: require('../../../../assets/actives/logos/GrantThorton.png'),
+        company: 'Grant Thorton',
+        width: "55%"
     },
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Will Bordessa",
-        logo: require('../../../../assets/actives/logos/WesternDigital.png'),
+        logo: require('../../../../assets/actives/logos/WesternDigital.webp'),
         company: 'Western Digital',
         width: "50%"
     },

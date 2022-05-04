@@ -18,17 +18,17 @@ export const directors = [
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Ruby Ko",
         title: "Marketing Director",
-        logo: require('../../../../assets/actives/logos/Merage.webp'),
-        company: 'UCI Merage of Business',
-        width: "55%"
+        logo: require('../../../../assets/actives/logos/Koplus.png'),
+        company: 'Koplus',
+        width: "90%"
     },
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Julie Hsieh",
         title: "Marketing Director",
-        // logo: require('../../../../assets/actives/logos/Merage.webp'),
-        // company: 'UCI Merage of Business',
-        // width: "55%"
+        logo: require('../../../../assets/actives/logos/DayandNight.webp'),
+        company: 'Day and Night',
+        width: "80%"
     },
     
     {
@@ -73,7 +73,7 @@ export const directors = [
     },
     {
         img: require('../../../../assets/actives/brothers/Raymond_Dinh.jpg'),
-        name: "Raymon Dinh",
+        name: "Raymond Dinh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/Salesforce.png'),
         company: 'Salesforce',

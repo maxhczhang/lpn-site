@@ -53,6 +53,10 @@ export const roles2022 = {
         //     { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'MongoDB', position: "Product Design Intern", },
         // ],
 
+        "Real Estate": [
+            { name:'Jodie Tai', company: 'The Walt Disney Company', position: "Real Estate Controls Intern" },
+        ],
+
         "Technology": [
             { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'Microsoft', position: "Software Engineer Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Rithu-Eswaramoorthy" color="inherit">Rithu Eswaramoorthy</Link>, company: 'MongoDB', position: 'Software Engineer Intern'},
