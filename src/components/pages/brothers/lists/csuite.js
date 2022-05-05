@@ -1,51 +1,51 @@
 export const csuite = [
     {
-        img: require('../../../../assets/actives/brothers/Lucian_Liu.jpg'),
-        name: "Lucian Liu",
-        title: 'Chief Executive Officer',
-        logo: require('../../../../assets/actives/logos/Prudential.png'),
-        company: 'Prudential Private Capital',
-        width: "32%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Linda_Woo.jpg'),
-        name: "Linda Woo",
-        title: 'Chief Information Officer',
-        logo: require('../../../../assets/actives/logos/engie.png'),
-        company: 'ENGIE',
-        width: "55%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Ethan_Canavan.jpg'),
-        name: "Ethan Canavan",
-        title: 'Chief Financial Officer',
-        logo: require('../../../../assets/actives/logos/ochin.jpeg'),
-        company: 'OCHIN',
-        width: "55%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Catherine_Nguyen.jpg'),
-        name: "Catherine Nguyen",
-        title: 'Chief Operating Officer',
-        logo: require('../../../../assets/actives/logos/HashiCorp.png'),
-        company: 'HashiCorp',
-        width: "25%",
-    },
-    {
         img: require('../../../../assets/actives/brothers/Faith_Chia.jpg'),
         name: "Faith Chia",
+        title: 'Chief Executive Officer',
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "80%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
+        name: "Nicole Nguyen",
+        title: 'Chief Information Officer',
+        logo: require('../../../../assets/actives/logos/Moody.png'),
+        company: "Moody's Analytics",
+        width: "55%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Jodie Tai",
+        title: 'Chief Financial Officer',
+        logo: require('../../../../assets/actives/logos/Disney.png'),
+        company: 'Disney',
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
+        name: "Naveen Sastri",
+        title: 'Chief Operating Officer',
+        logo: require('../../../../assets/actives/logos/Mastercard.png'),
+        company: 'Mastercard',
+        width: "40%",
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
+        name: "Ryan Miranda",
         title: 'Fall Chief Talent Officer',
-        logo: require('../../../../assets/actives/logos/TJX.png'),
-        company: 'TJX',
-        width: "35%"
+        logo: require('../../../../assets/actives/logos/Microsoft.png'),
+        company: 'Microsoft',
+        width: "25%"
     },
      {
-        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
-        name: "Omar Naji",
+        img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
+        name: "Vivian Tran",
         title: 'Winter Chief Talent Officer',
-        logo: require('../../../../assets/actives/logos/TikTok.png'),
-        company: 'TikTok',
-        width: "35%"
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "80%"
     },   
     
 ];
