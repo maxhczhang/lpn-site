@@ -224,9 +224,9 @@ export const brothers = [
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Hans Chang",
-        // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
-        // company: 'Wells Fargo',
-        // width: "35%"
+        logo: require('../../../../assets/actives/logos/MediaTek.png'),
+        company: 'MediaTek',
+        width: "80%"
     },
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),

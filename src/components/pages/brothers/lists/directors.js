@@ -4,8 +4,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Ashley_London.jpg'),
         name: "Ashley London",
         title: 'Strategy Director',
-        // company: 'HP',
-        // width: "70%"
+        logo: require('../../../../assets/actives/logos/RevolutionEntertainment.webp'),
+        company: 'Revolution Entertainment',
+        width: "60%"
     },    
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
