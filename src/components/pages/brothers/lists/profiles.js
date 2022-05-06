@@ -290,9 +290,9 @@ export const profiles = {
         practice: "Software Engineering",
         pronouns: "He/Him/His",
         // Hmm let's figure it out
-        experience: {"Software Engineer Intern ": "Microsoft", "Software Engineer Intern ": "Microsoft", "Software Engineer Intern": "Vusar"},
-        campusInvolvements: {"VP of Professional Development":"Management Information Student Society", "Exeuctive Vice President": "Management Information Student Society"},
-        interests: ["Playing guitar", "Eating", "Peanut Butter", "TechCrunch", "Gym"],
+        experience: {"Software Engineer Intern ": "Microsoft", "Software Engineer Intern": "Microsoft", "Software Engineer Intern": "Vusar"},
+        campusInvolvements: {"Exeuctive Vice President": "Management Information Student Society", "VP of Professional Development": "Management Information Student Society"},
+        interests: ["Playing guitar", "Eating", "Tesla", "TechCrunch", "Gym"],
         whyLPN: "I came to LPN’s rush not knowing a single non-engineering student at UCI and without a solid group of friends. I was very introverted, but I wanted to meet new people from different majors and backgrounds than I was used to! I was amazed by how open every active brother was; no one tried to sell LPN to me. Instead, they talked about the amazing memories they had with the organization and the family they had found. After going through the pledging process with my amazing P-Bros, I I finally have a family of driven, passionate people who know how to have fun too!",
         img: require("../../../../assets/actives/brothers/Ryan_Miranda.jpg")
     },
