@@ -238,9 +238,9 @@ export const brothers = [
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Will Bordessa",
-        logo: require('../../../../assets/actives/logos/WesternDigital.webp'),
-        company: 'Western Digital',
-        width: "50%"
+        logo: require('../../../../assets/actives/logos/Slalom.png'),
+        company: 'Slalom',
+        width: "70%"
     },
 ];
 
