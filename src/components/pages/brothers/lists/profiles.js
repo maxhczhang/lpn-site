@@ -110,7 +110,7 @@ export const profiles = {
         emphasis: "Marketing, Organization & Management",
         practice: "Product Marketing, Merchandising",
         experience: {"Product Marketing Intern":"ServiceNow","Merchandising Intern": "The TJX Companies, Inc.", 'Admissions Student Assistant': "Merage Fully Employed MBA Program", "Marketing Representative": "Insomnia Cookies"},
-        campusInvolvements: {"Cheif Executive Officer":"Lambda Phi Nu", "Executive Vice President": "Undergraduate Business Association", "Marketing Director": "Undergraduate Business Association","CTO":"Lambda Phi Nu","Recruiter":"Lambda Phi Nu","Associate Auditor":"Lambda Phi Nu", "Member": "Asian American Christian Fellowship"},
+        campusInvolvements: {"Chief Executive Officer":"Lambda Phi Nu", "Executive Vice President": "Undergraduate Business Association", "Marketing Director": "Undergraduate Business Association","CTO":"Lambda Phi Nu","Recruiter":"Lambda Phi Nu","Associate Auditor":"Lambda Phi Nu", "Member": "Asian American Christian Fellowship"},
         interests: ["Fashion", "Thrifting","Beauty", "K-pop", "Anime", "Manga/Manhaw","Games(Video, Word, Card, and Board)", "Skiing","Eating"],
         whyLPN: "Coming into college with almost no business experience, I wanted to not only find direction professionally, but also find a community. Joining LPN during my first quarter at UCI has proven to be one of the best decisions I made at UCI. LPN has given me professional skills, confidence, and an amazing community that I am so thankful to be a part of. It's been my home at UCI and has encouraged me to take on career/leadership positions and embody our motto of \"grow forward, give back.\" Most importantly, I treasure all the friendships I've made so far and look forward to the future ones to come!",
         img: require("../../../../assets/actives/brothers/Faith_Chia.jpg")
@@ -860,7 +860,7 @@ export const profiles = {
         emphasis: "Organization and Management",
         practice: "Human Resources, Consulting",
         pronouns: "He/Him/His",
-        experience: {"Incoming Human Resources Intern":"Western Digital","Social Media Marketing Manager":"Calvary Chapel Bible College Japan"},
+        experience: {"Business Advisory Services Intern":"Slalom","Social Media Marketing Manager":"Calvary Chapel Bible College Japan"},
         campusInvolvements: {"VP of Operations":"Human Resources Management Association","Ministry Team":"Reformed University Fellowship"},
         interests: ["Longboarding","Streaming","Video Games","Winter Sports","Not Just Bikes","Dance-Pop","Travel"],
         whyLPN: "Coming into UCI as a transfer student, I was blown away by how motivated and driven everyone was, particularly those in LPN. I had the chance to meet some amazing brothers throughout Fall quarter who inspired me and gave me the confidence I needed to push myself personally and professionally. Talking with the brothers throughout rush and hearing how LPN has shaped their professional development confirmed that this was an organization I wanted to be a part of. I've seen firsthand how amazing and inspiring this community is, and I wouldn't trade it for any other!",
