@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "217861dad02c57a7975c8a80ea73367e",
+    "revision": "caccb20d9dd3f027e79efd948eb7a262",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "a59b994d4f222beaf721",
+    "revision": "482c2f407487bbf3ee96",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.44d3a573.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a59b994d4f222beaf721",
-    "url": "/static/js/main.781e14f0.chunk.js"
+    "revision": "482c2f407487bbf3ee96",
+    "url": "/static/js/main.b4c737d7.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -520,6 +520,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ServiceNow.e47b063d.png"
   },
   {
+    "revision": "230503ea15e5b0104b2c64d226072679",
+    "url": "/static/media/Slalom.230503ea.png"
+  },
+  {
     "revision": "5818923058aa27611b0ed557760e33c9",
     "url": "/static/media/Stephen_Minn.58189230.jpg"
   },
@@ -598,10 +602,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "195a0f74c949c85d486c94d38905b431",
     "url": "/static/media/Wellsfargo.195a0f74.png"
-  },
-  {
-    "revision": "8ebf9186875213b2f688e3aebdb2d106",
-    "url": "/static/media/WesternDigital.8ebf9186.webp"
   },
   {
     "revision": "2ac2d36e6b5353ab44ebc7354f5d8eed",

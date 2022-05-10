@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.781e14f0.chunk.js",
-    "main.js.map": "/static/js/main.781e14f0.chunk.js.map",
+    "main.js": "/static/js/main.b4c737d7.chunk.js",
+    "main.js.map": "/static/js/main.b4c737d7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
     "static/js/2.44d3a573.chunk.js": "/static/js/2.44d3a573.chunk.js",
     "static/js/2.44d3a573.chunk.js.map": "/static/js/2.44d3a573.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.02db68a78d8997ae46105370ee1da456.js": "/precache-manifest.02db68a78d8997ae46105370ee1da456.js",
+    "precache-manifest.ee4ff4eab4d2fa39c400e6010df418d5.js": "/precache-manifest.ee4ff4eab4d2fa39c400e6010df418d5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
@@ -130,6 +130,7 @@
     "static/media/SenchaCredit.png": "/static/media/SenchaCredit.4293c3af.png",
     "static/media/Sera_Xu.jpg": "/static/media/Sera_Xu.ff21f2fc.jpg",
     "static/media/ServiceNow.png": "/static/media/ServiceNow.e47b063d.png",
+    "static/media/Slalom.png": "/static/media/Slalom.230503ea.png",
     "static/media/Stephen_Minn.jpg": "/static/media/Stephen_Minn.58189230.jpg",
     "static/media/Sydney_Yu.jpg": "/static/media/Sydney_Yu.a094bf75.jpg",
     "static/media/Taiwan_1.jpg": "/static/media/Taiwan_1.825bb744.jpg",
@@ -150,7 +151,6 @@
     "static/media/Vivi_Liu.png": "/static/media/Vivi_Liu.a38cfafd.png",
     "static/media/Vivian_Tran.jpg": "/static/media/Vivian_Tran.1496fb8e.jpg",
     "static/media/Wellsfargo.png": "/static/media/Wellsfargo.195a0f74.png",
-    "static/media/WesternDigital.webp": "/static/media/WesternDigital.8ebf9186.webp",
     "static/media/Western_Digital.png": "/static/media/Western_Digital.2ac2d36e.png",
     "static/media/Winter2022.png": "/static/media/Winter2022.de954303.png",
     "static/media/Xi_Casual.jpg": "/static/media/Xi_Casual.9433889c.jpg",
@@ -165,6 +165,6 @@
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.44d3a573.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.781e14f0.chunk.js"
+    "static/js/main.b4c737d7.chunk.js"
   ]
 }
