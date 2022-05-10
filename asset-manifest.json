@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.4ed88915.chunk.js",
-    "main.js.map": "/static/js/main.4ed88915.chunk.js.map",
+    "main.js": "/static/js/main.781e14f0.chunk.js",
+    "main.js.map": "/static/js/main.781e14f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.c1839827.chunk.js": "/static/js/2.c1839827.chunk.js",
-    "static/js/2.c1839827.chunk.js.map": "/static/js/2.c1839827.chunk.js.map",
+    "static/js/2.44d3a573.chunk.js": "/static/js/2.44d3a573.chunk.js",
+    "static/js/2.44d3a573.chunk.js.map": "/static/js/2.44d3a573.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97d7a81a57688c5f19bd9e666b123190.js": "/precache-manifest.97d7a81a57688c5f19bd9e666b123190.js",
+    "precache-manifest.02db68a78d8997ae46105370ee1da456.js": "/precache-manifest.02db68a78d8997ae46105370ee1da456.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.c1839827.chunk.js.LICENSE.txt": "/static/js/2.c1839827.chunk.js.LICENSE.txt",
+    "static/js/2.44d3a573.chunk.js.LICENSE.txt": "/static/js/2.44d3a573.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/Aaron_Lee.jpg": "/static/media/Aaron_Lee.2af96585.jpg",
     "static/media/About.jpg": "/static/media/About.80f6e046.jpg",
@@ -116,6 +116,7 @@
     "static/media/Raymond_Dinh.jpg": "/static/media/Raymond_Dinh.cd00c454.jpg",
     "static/media/Relationships.jpg": "/static/media/Relationships.2adec5e0.jpg",
     "static/media/Retreat_Hike.JPG": "/static/media/Retreat_Hike.30dc1328.JPG",
+    "static/media/RevolutionEntertainment.webp": "/static/media/RevolutionEntertainment.919f8dc8.webp",
     "static/media/Rithu_Eswaramoorthy.jpg": "/static/media/Rithu_Eswaramoorthy.6eafabb6.jpg",
     "static/media/Rubies_Seniors.jpg": "/static/media/Rubies_Seniors.3a79d1a0.jpg",
     "static/media/RyanChen_Circle.jpg": "/static/media/RyanChen_Circle.6abb22cd.jpg",
@@ -162,8 +163,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.c1839827.chunk.js",
+    "static/js/2.44d3a573.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.4ed88915.chunk.js"
+    "static/js/main.781e14f0.chunk.js"
   ]
 }
