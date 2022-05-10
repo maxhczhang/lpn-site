@@ -105,13 +105,6 @@ export const brothers = [
         company: 'Oracle',
         width: "45%"
     },
-    {
-        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
-        name: "Omar Naji",
-        logo: require('../../../../assets/actives/logos/Tiktok.png'),
-        company: 'Tiktok',
-        width: "35%"
-    },
     // Omicron Clas
     {
         img: require('../../../../assets/actives/brothers/Adrian_Siu.jpg'),
@@ -155,6 +148,13 @@ export const brothers = [
         company: 'Adobe',
         width: "40%"
     },
+    {
+        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
+        name: "Jasraj Singh",
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "30%"
+    },
     // Pi Class
     {
         img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
@@ -168,7 +168,7 @@ export const brothers = [
         name: "Ethan Canavan",
         logo: require('../../../../assets/actives/logos/Deloitte.png'),
         company: 'Deloitte',
-        width: "45%"
+        width: "60%"
     },
     {
         img: require('../../../../assets/actives/brothers/Hanui_Lee.jpg'),
@@ -189,14 +189,14 @@ export const brothers = [
         name: "Liz Chan",
         logo: require('../../../../assets/actives/logos/Cbre.png'),
         company: 'Cbre',
-        width: "40%"
+        width: "50%"
     },
     {
         img: require("../../../../assets/actives/brothers/Lumin_Oo.jpg"),
         name: "Lumin Oo",
         logo: require('../../../../assets/actives/logos/Deloitte.png'),
         company: 'Deloitte',
-        width: "40%"
+        width: "60%"
     },
     {
         img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
@@ -238,9 +238,9 @@ export const brothers = [
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Will Bordessa",
-        logo: require('../../../../assets/actives/logos/WesternDigital.webp'),
-        company: 'Western Digital',
-        width: "50%"
+        logo: require('../../../../assets/actives/logos/Slalom.png'),
+        company: 'Slalom',
+        width: "60%"
     },
 ];
 

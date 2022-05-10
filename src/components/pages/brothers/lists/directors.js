@@ -105,13 +105,14 @@ export const directors = [
         company: 'Instaboost Media',
         width: "70%"
     },
+    
     {
-        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
-        name: "Jasraj Singh",
+        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
+        name: "Omar Naji",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
-        company: 'Sencha Credit',
-        width: "30%"
+        logo: require('../../../../assets/actives/logos/Tiktok.png'),
+        company: 'Tiktok',
+        width: "35%"
     },
 ];
 
