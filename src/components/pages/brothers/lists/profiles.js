@@ -749,7 +749,7 @@ export const profiles = {
         practice: "Fintech/Finance",
         pronouns: "He/Him/His",
         experience: {"Accounting Assistant":"MediaTek Inc."},
-        campusInvolvements: {"Cheif Finance Officer":"Taiwanese National Organization", "Media Team (Department of Marketing)":"Taiwanese National Organization"},
+        campusInvolvements: {"Chief Finance Officer":"Taiwanese National Organization", "Media Team (Department of Marketing)":"Taiwanese National Organization"},
         interests: ["Basketball","Formula 1","Thrifting","Skiing","Hanging out with friends"],
         whyLPN: "After having freshman year entirely online, I realized I didn't have much time left. I was not only trying to push myself out of my comfort zone but also looking for a community that could help me develop both personally and professionally. I am thankful for what LPN has taught me and shaped me into the person I am today.",
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),

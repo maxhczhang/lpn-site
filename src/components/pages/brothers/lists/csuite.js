@@ -19,7 +19,7 @@ export const csuite = [
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Jodie Tai",
         title: 'Chief Financial Officer',
-        logo: require('../../../../assets/actives/logos/Disney.png'),
+        logo: require('../../../../assets/actives/logos/WaltDisney.png'),
         company: 'Disney',
         width: "70%"
     },
