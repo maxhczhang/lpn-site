@@ -64,13 +64,13 @@ export const roles2022 = {
     },
 
     "Full Times" : {
-    //     "Accounting" : [
+        "Accounting" : [
     //         { name: 'David Sonq', company: 'EY', position: "Tax Staff" },
-    //         { name: 'Tiffany Chan', company: 'RSM', position: "Audit Associate" },
-    //     ],
+            { name: 'Tiffany Wong', company: 'KPMG', position: "Audit Associate" },
+        ],
         "Consulting" : [
-            { name: 'Linda Woo', company: 'Deloitte', position: "Application & Program Analyst" },
             { name: 'Ethan Canavan', company: 'Deloitte', position: "Application & Program Analyst" },
+            { name: 'Linda Woo', company: 'Deloitte', position: "Application & Program Analyst" }
         ],
     //     "Marketing": [
     //         { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
@@ -78,15 +78,22 @@ export const roles2022 = {
     //         {name: 'Le An Pham', company: 'Redbubble', position: "Brand Partnerships Coordinator"},
     //         {name: 'Jasmin He', company: 'Henkel Beauty', position: "Brand Management/Product Development"},
     //     ],
-       "Finance": [
-            { name: 'Khoa Tran', company: 'JP Morgan Chase & Co', position: "Analyst" },
+        "Finance": [
+            { name: 'Lucian Liu', company: 'Prudential Private Capital', position: "Investment Analyst" },
+            { name: 'Khoa Tran', company: 'JP Morgan Chase & Co.', position: "MMBSI Analyst" },
         ],
         "Human Resources": [
             {name: 'Sahana Vairavaraj', company: 'Capital One', position: 'Human Resources Rotational Program Associate'},
         ],
+        "Management": [
+            { name: 'Cathy Yun', company: 'Capital One', position: "Management Rotational Program" },
+        ],
         "Product": [
             { name: 'Sandy Nguyen', company: 'MongoDB', position: 'Product Designer'}
-        ]
+        ],
+        "Tech Sales" : [
+            { name: 'Ian Han', company: 'Oracle', position: "Business Development Consultant" },
+        ],
     }
 };
 

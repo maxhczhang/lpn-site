@@ -43,9 +43,9 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers/Tiffany_Wong.jpg"),
         name: "Tiffany Wong",
-        logo: require('../../../../assets/actives/logos/JpMorgan.png'),
-        company: 'JP Morgan Chase&Co',
-        width: "40%"
+        logo: require('../../../../assets/actives/logos/Kpmg.png'),
+        company: 'KPMG',
+        width: "60%"
     }, 
 
     // Mu Class
@@ -135,6 +135,13 @@ export const brothers = [
         width: "35%"
     },
     {
+        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
+        name: "Jasraj Singh",
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "30%"
+    },
+    {
         img: require('../../../../assets/actives/brothers/Julio_Cano.jpg'),
         name: "Julio Cano",
         // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
@@ -149,12 +156,13 @@ export const brothers = [
         width: "40%"
     },
     {
-        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
-        name: "Jasraj Singh",
-        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
-        company: 'Sencha Credit',
-        width: "30%"
+        img: require('../../../../assets/actives/brothers/Khoa_Tran.jpg'),
+        name: "Khoa Tran",
+        logo: require('../../../../assets/actives/logos/JpMorgan.png'),
+        company: 'JPMorgan Chase & Co.',
+        width: "50%"
     },
+    
     // Pi Class
     {
         img: require('../../../../assets/actives/brothers/Courtney_Tsao.jpg'),
