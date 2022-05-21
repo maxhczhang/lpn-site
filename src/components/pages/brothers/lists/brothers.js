@@ -160,7 +160,7 @@ export const brothers = [
         name: "Khoa Tran",
         logo: require('../../../../assets/actives/logos/JpMorgan.png'),
         company: 'JPMorgan Chase & Co.',
-        width: "50%"
+        width: "40%"
     },
     
     // Pi Class
@@ -169,7 +169,7 @@ export const brothers = [
         name: "Courtney Tsao",
         logo: require('../../../../assets/actives/logos/Nbc.png'),
         company: 'NBCUniversal',
-        width: "60%"
+        width: "45%"
     },
     {
         img: require('../../../../assets/actives/brothers/Ethan_Canavan.jpg'),
