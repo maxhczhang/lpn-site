@@ -26,7 +26,7 @@ export const csuite = [
     {
         img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
         name: "Naveen Sastri",
-        title: 'Chief Operating Officer',
+        title: 'Chief Operations Officer',
         logo: require('../../../../assets/actives/logos/Mastercard.png'),
         company: 'Mastercard',
         width: "40%",
