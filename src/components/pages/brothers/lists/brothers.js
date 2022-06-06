@@ -188,9 +188,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
         name: "Jamie Zhao",
-        logo: require('../../../../assets/actives/logos/Oigetit.png'),
-        company: 'Oigetit',
-        width: "40%"
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "85%"
     },
     {
         img: require("../../../../assets/actives/brothers/Liz_Chan.jpg"),

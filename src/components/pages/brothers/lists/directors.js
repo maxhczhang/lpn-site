@@ -44,17 +44,17 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Talia_Yip.jpg'),
         name: "Talia Yip",
         title: "Finance Director | Recruiter",
-        // logo: require('../../../../assets/actives/logos/Merage.webp'),
-        // company: 'UCI Merage of Business',
-        // width: "55%"
+        logo: require('../../../../assets/actives/logos/Pwc.png'),
+        company: 'PWC',
+        width: "90%"
     },
     {
         img: require('../../../../assets/actives/brothers/Sydney_Yu.jpg'),
         name: "Sydney Yu",
         title: "Career Catalyst Director",
-        // logo: require('../../../../assets/actives/logos/JpMorgan.png'),
-        // company: 'JP Morgan Chase & Co',
-        // width: "60%"
+        logo: require('../../../../assets/actives/logos/Ey.png'),
+        company: 'EY',
+        width: "35%"
     },
     {
         img: require('../../../../assets/actives/brothers/Kayla_Wong.jpg'),
