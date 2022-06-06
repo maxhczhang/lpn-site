@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.05edd9cf.chunk.js",
-    "main.js.map": "/static/js/main.05edd9cf.chunk.js.map",
+    "main.js": "/static/js/main.99eb2077.chunk.js",
+    "main.js.map": "/static/js/main.99eb2077.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.aec319b1.chunk.js": "/static/js/2.aec319b1.chunk.js",
-    "static/js/2.aec319b1.chunk.js.map": "/static/js/2.aec319b1.chunk.js.map",
+    "static/js/2.9516cfed.chunk.js": "/static/js/2.9516cfed.chunk.js",
+    "static/js/2.9516cfed.chunk.js.map": "/static/js/2.9516cfed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fdb692157e63e80a55199dc51f0c85c.js": "/precache-manifest.2fdb692157e63e80a55199dc51f0c85c.js",
+    "precache-manifest.9531644a22bf82d131ace5f76399f746.js": "/precache-manifest.9531644a22bf82d131ace5f76399f746.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.aec319b1.chunk.js.LICENSE.txt": "/static/js/2.aec319b1.chunk.js.LICENSE.txt",
+    "static/js/2.9516cfed.chunk.js.LICENSE.txt": "/static/js/2.9516cfed.chunk.js.LICENSE.txt",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/Aaron_Lee.jpg": "/static/media/Aaron_Lee.2af96585.jpg",
     "static/media/About.jpg": "/static/media/About.80f6e046.jpg",
@@ -106,7 +106,6 @@
     "static/media/Naveen_Sastri.jpg": "/static/media/Naveen_Sastri.9b0481f4.jpg",
     "static/media/Nbc.png": "/static/media/Nbc.7b3ea40b.png",
     "static/media/Nicole_Nguyen.jpg": "/static/media/Nicole_Nguyen.17a67e57.jpg",
-    "static/media/Oigetit.png": "/static/media/Oigetit.20936cac.png",
     "static/media/Omar_Naji.jpg": "/static/media/Omar_Naji.6868fedf.jpg",
     "static/media/Omicron_Inside.jpg": "/static/media/Omicron_Inside.3c805081.jpg",
     "static/media/Oppti.png": "/static/media/Oppti.ee9c54c5.png",
@@ -166,8 +165,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.aec319b1.chunk.js",
+    "static/js/2.9516cfed.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.05edd9cf.chunk.js"
+    "static/js/main.99eb2077.chunk.js"
   ]
 }
