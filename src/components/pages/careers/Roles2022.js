@@ -7,30 +7,53 @@ export const roles2022 = {
 
     "Internships" : {
 
-        // "Accounting": [
-        //     { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'BDO', position: "Tax Intern" },
-        //     { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'Holthouse Carlin & Van Trigt', position: "Tax Intern" },
-        //     { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Baker Tilly', position: "Tax Intern" },
-        // ],
+        "Accounting": [
+            { name:'Jasraj Singh', company: 'Valleysoft Directions', position: 'Director'},
+            { name:'Ashley London', company: 'Revolution Entertainment Services', position: 'Accounting Assistant'},
+            { name:'Qui Hoang', company: 'Grant Thornton', position: 'Rotational Intern'},
+            { name:'Sydney Yu', company: 'EY', position: 'Audit Intern'},
+            { name:'Tali Yip', company: 'PwC', position: 'Audit Intern'},
+            // { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'BDO', position: "Tax Intern" },
+            // { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'Holthouse Carlin & Van Trigt', position: "Tax Intern" },
+            // { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Baker Tilly', position: "Tax Intern" },
+        ],
 
-        // "Consulting": [
-        //     { name: <Link component={RouterLink} to="/active-brothers/lumin-oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Consulting Intern" },
-        
-        // ],
+        "Consulting": [
+            { name:'Sera Xu', company: 'Glassdoor', position: 'Business Operations Intern'},
+            { name:'Raymond Dinh', company: 'Salesforce', position: 'Business Systems Analyst'},
+            { name:'Eddie Rios', company: 'Mentor Global Consultants', position: 'Research and Business Analyst'},
+            { name:'Will Bordessa', company: 'Slalom', position: 'Business Advisory Services'},
+            { name:'Lumin Oo', company: 'Deloitte', position: "Consulting Discovery Intern" }
+        ],
 
         "Finance": [
             { name: <Link component={RouterLink} to="/active-brothers/Haley-Kim" color="inherit">Haley Kim</Link>, company: 'Wells Fargo', position: "Corporate Banking Summer Analyst" },
+            { name: <Link component={RouterLink} to="/active-brothers/Haley-Kim" color="inherit">Deena Toofan</Link>, company: 'Comfort Keepers', position: "Finance Intern" },
         ],
 
         "Human Resources": [
             { name: "Justin Chao", company: 'Unilever', position: "Human Resources Intern" },
+            { name: "Omar Naji", company: 'Captial One', position: "Human Resource Information Professional" },
+            { name: "Kaylie Zhou", company: 'Adobe', position: "Global Rewards Intern" },
             // { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Capital One', position: "HR Rotational Program Intern" },
         ],
 
         "Marketing": [
-            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'Ingram Micro', position: "Global IOT Marketing Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'NBCUniversal', position: "Consumer Insights Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Stephen Minn</Link>, company: 'Cox Automotive', position: "Product Management Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Faith Chia</Link>, company: 'ServiceNow', position: "Product Marketing Co-Op" },
+            { name:'Catherine Lin', company: 'UCI Esports', position: "Stream production Intern" },
+            { name:'Catherine Nguyen', company: 'Amazon', position: "AWS Sales Intern" },
+            { name:'Adrian Siu', company: 'ServiceNow', position: "Solutions Marketing Intern" },
+            { name:'Naveen Sastri', company: 'MasterCard', position: "Cyber & Intelligence Solutions" },
+            { name:'Lilian Luu', company: 'Comcast', position: "Public Relations Intern" },
+            { name:'Nicole Nguyen', company: "Moody's Analytics", position: "Data Solutions Marketing Intern" },
+            { name:'Yllana Casim', company: "Intel", position: "Ecosystem Portfolio Scale and Enablement Intern" },
+            { name:'Julie Hsieh', company: "Day and Night International Co.", position: "Marketing Intern" },
+            { name:'Ruby Ko', company: "Smith & Associates", position: "Sales Assistant Intern" },
+            { name:'Hans Chang', company: "BENQ", position: "Ecommerce Marketing Intern" },
+            { name:'Jamie Zhao', company: 'ServiceNow', position: "Strategic Events Marketing Intern" },
             { name:'Josh Tong', company: 'UFC', position: "Content Marketing Intern" },
-            { name: 'Jamie Zhao', company: 'ServiceNow', position: "Strategic Events Marketing Intern" },
         //     { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Westhaven Power', position: "Marketing Intern" },
         //     { name: 'Le An Pham', company: 'Fiddler', position: "Marketing Intern" },
         //     { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'EtherWAN Systems', position: "Marketing Intern" },
@@ -45,13 +68,14 @@ export const roles2022 = {
 
         "Operations": [
             { name:'Aaron Lee', company: 'Oppti', position: "Business Development Intern" },
-            { name: 'Kayla Wong', company: 'Accenture', position: "Business Analyst Intern" },
+            { name: 'Kayla Wong', company: 'Accenture', position: "Salesforce Project: Business Analyst Intern" },
         ],
 
-        // "Product": [
-        //     { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'McAfee', position: "Product Design Intern", },
-        //     { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'MongoDB', position: "Product Design Intern", },
-        // ],
+        "Product": [
+            { name:'Hanui Lee', company: 'JP Morgan Chase & Co.', position: "Summer Design Analyst	" },
+            // { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'McAfee', position: "Product Design Intern", },
+            // { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'MongoDB', position: "Product Design Intern", },
+        ],
 
         "Real Estate": [
             { name:'Jodie Tai', company: 'The Walt Disney Company', position: "Real Estate Controls Intern" },
@@ -70,7 +94,7 @@ export const roles2022 = {
         ],
         "Consulting" : [
             { name: 'Ethan Canavan', company: 'Deloitte', position: "Application & Program Analyst" },
-            { name: 'Linda Woo', company: 'Deloitte', position: "Application & Program Analyst" }
+            { name: 'Linda Woo', company: 'Deloitte', position: "Application & Program Analyst" },
         ],
     //     "Marketing": [
     //         { name: 'Astyr Ko', company: 'Western Digital', position: "Marketing Communications Specialist"},
