@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d97a502de0ffa34f84efe91a98682ae",
+    "revision": "123bbe30aa3ec55daff408f0b630b168",
     "url": "/index.html"
   },
   {
-    "revision": "2a16c46a6af6f7fa4d2a",
+    "revision": "674fdc61cfe1ee2a605e",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "c4a8da19229f00b9b14c",
+    "revision": "1073fde2a87be4b18425",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
-    "revision": "2a16c46a6af6f7fa4d2a",
-    "url": "/static/js/2.c0c56832.chunk.js"
+    "revision": "674fdc61cfe1ee2a605e",
+    "url": "/static/js/2.0035a59c.chunk.js"
   },
   {
-    "revision": "51487bead9617837ea8a36c4e549c8d4",
-    "url": "/static/js/2.c0c56832.chunk.js.LICENSE.txt"
+    "revision": "3ae8240266c7f67b942dab69ea230db8",
+    "url": "/static/js/2.0035a59c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4a8da19229f00b9b14c",
-    "url": "/static/js/main.33cdc574.chunk.js"
+    "revision": "1073fde2a87be4b18425",
+    "url": "/static/js/main.4eeae83c.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -174,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5856fb21624942690948022268ca38e",
     "url": "/static/media/Faith_Chia.b5856fb2.jpg"
+  },
+  {
+    "revision": "eda974f928df33bf6c7e0a3adb42763f",
+    "url": "/static/media/Fall_2022.eda974f9.png"
   },
   {
     "revision": "0aa1b59abb2d2f5fe7ba0d86f9149461",
@@ -606,10 +610,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bbf6d626f68e50f45ae527da4f7591a6",
     "url": "/static/media/Will_Bordessa.bbf6d626.jpg"
-  },
-  {
-    "revision": "de954303fef5d64a76748b98dc1d5905",
-    "url": "/static/media/Winter2022.de954303.png"
   },
   {
     "revision": "9433889c5a24aed2d4d2b215d19e7230",
