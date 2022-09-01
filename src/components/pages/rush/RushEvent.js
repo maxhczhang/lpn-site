@@ -22,6 +22,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import LocalCafeIcon from '@material-ui/icons/LocalCafe';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 import ICalendarLink from "react-icalendar-link";
 
@@ -70,8 +71,8 @@ export default function RushEvent({event, cardStyle}) {
             <CardHeader
                 title={
                     <React.Fragment>
-                        {event.title === "Info Night" && <InfoIcon fontSize="large" className={classes.titleIcon}></InfoIcon>}
                         {event.title === "Meet the Bros" && <PeopleIcon fontSize="large" className={classes.titleIcon}></PeopleIcon>}
+                        {event.title === "Info Night" && <InfoIcon fontSize="large" className={classes.titleIcon}></InfoIcon>}
                         {event.title === "Professional Night" && <BusinessCenterIcon fontSize="large" className={classes.titleIcon}></BusinessCenterIcon>}
                         {event.title === "Invite-Only Social" && <MailIcon fontSize="large" className={classes.titleIcon}></MailIcon>}
                         {event.title === "Coffee Chats" && <LocalCafeIcon fontSize="large" className={classes.titleIcon}></LocalCafeIcon>}
@@ -114,7 +115,7 @@ export default function RushEvent({event, cardStyle}) {
             </CardContent> */}
 
             <CardActions disableSpacing>
-                    {event.ics && 
+                    {/* {event.ics && 
                         <Tooltip title="Add to calendar">
                             <ICalendarLink event={event.ics}>
                                 <IconButton aria-label="add to calendar" className={classes.iconButton}>
@@ -123,8 +124,18 @@ export default function RushEvent({event, cardStyle}) {
                             </ICalendarLink>
                         </Tooltip>
                     }
+
+                    {event.ics && 
+                        <Tooltip title="Add to calendar">
+                            <ICalendarLink event={event.ics}>
+                                <IconButton aria-label="add to calendar" className={classes.iconButton}>
+                                    <EventIcon />
+                                </IconButton>
+                            </ICalendarLink>
+                        </Tooltip>
+                    } */}
             
-                    {event.checkinLink && 
+                    {/* {event.checkinLink && 
                         <Tooltip title={event.eventTooltip}>
                             <a href={event.checkinLink} target="_blank" rel="noopener noreferrer" className={classes.link}>
                                 <IconButton aria-label="Zoom" className={classes.iconButton}>
@@ -135,7 +146,7 @@ export default function RushEvent({event, cardStyle}) {
                                 </IconButton>
                             </a>
                         </Tooltip>
-                    }
+                    } */}
 
                     <IconButton
                         className={clsx(classes.expand, {

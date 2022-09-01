@@ -18,6 +18,7 @@ import Careers from './pages/careers/Careers'
 // import Winter2021 from './pages/rush/Winter2021'
 import Fall2020 from './pages/rush/Fall2020'
 import Fall2021 from './pages/rush/Fall2021'
+import Fall2022 from './pages/rush/Fall2022'
 import FAQs from './pages/faqs/FAQs'
 import Gallery from './pages/gallery/Gallery'
 import Contact from './pages/contact/Contact'
@@ -93,7 +94,7 @@ export default function LPNSite() {
                         <Winter2021 setPage={setPage} />
                     </Route> */}
                     <Route exact path="/recruitment">
-                        <Fall2021 setPage={setPage} />
+                        <Fall2022 setPage={setPage} />
                     </Route>
                     <Route exact path="/fall-rush-2020">
                         <Fall2020 setPage={setPage} />

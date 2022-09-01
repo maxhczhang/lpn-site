@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './FallEvents'
+import { events } from './Fall22Events'
 import flyer from '../../../assets/recruitment/Fall_2022.png'
 
 
@@ -27,10 +27,10 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "rgb(143,75,78)",
+        backgroundColor: "rgba(23,102,135,255)",
         color: "white",
         '&:hover': {
-            backgroundColor: "rgb(173,95,93)"
+            backgroundColor: "rgb(88,148,163)"
         },
         width: 150
     },
@@ -88,12 +88,12 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(350deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
+        background: "linear-gradient(350deg, rgba(191,159,42,255) 0%, rgba(157,172,124,255) 50%, rgb(160,189,200) 80%, rgba(242,245,246,255) 100%)",
         color: "white",
         width: 350,
     },
     mobileCard: {
-        background: "linear-gradient(6deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
+        background: "linear-gradient(350deg, rgba(191,159,42,255) 0%, rgba(157,172,124,255) 50%, rgb(160,189,200) 80%, rgba(242,245,246,255) 100%)",
         color: "white",
         width: "95%",
     },
