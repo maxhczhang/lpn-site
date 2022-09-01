@@ -9,14 +9,14 @@ export const directors = [
         width: "60%"
     },    
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
         name: "Justin Chao",
         title: "Alumni Relations Director",
         // company: 'Dow Jones',
         // width: "70%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Ruby_Ko.jpg'),
         name: "Ruby Ko",
         title: "Marketing Director",
         logo: require('../../../../assets/actives/logos/Koplus.png'),
@@ -24,7 +24,7 @@ export const directors = [
         width: "90%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
         name: "Julie Hsieh",
         title: "Marketing Director",
         logo: require('../../../../assets/actives/logos/DayandNight.webp'),
@@ -33,7 +33,7 @@ export const directors = [
     },
     
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
         name: "Jaejin kim",
         title: "Webmaster",
         logo: require('../../../../assets/actives/logos/UCI_Medicine.png'),
@@ -65,7 +65,7 @@ export const directors = [
         width: "30%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Deena_Toofan.jpg'),
         name: "Deena Toofan",
         title: 'Culture & Relationships Director',
         logo: require('../../../../assets/actives/logos/ComfortKeepers.png'),
@@ -73,7 +73,7 @@ export const directors = [
         width: "70%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Raymond_Dinh.jpg'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Raymond Dinh",
         title: "Social Impact Director",
         logo: require('../../../../assets/actives/logos/Salesforce.png'),

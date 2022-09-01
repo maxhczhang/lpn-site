@@ -16,7 +16,7 @@ export const csuite = [
         width: "55%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jodie_Tai.jpg'),
         name: "Jodie Tai",
         title: 'Chief Financial Officer',
         logo: require('../../../../assets/actives/logos/WaltDisney.png'),
@@ -40,7 +40,7 @@ export const csuite = [
         width: "25%"
     },
      {
-        img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
         name: "Vivian Tran",
         title: 'Winter Chief Talent Officer',
         logo: require('../../../../assets/actives/logos/ServiceNow.png'),
