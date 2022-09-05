@@ -59,9 +59,9 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers/Sera_Xu.jpg"),
         name: "Sera Xu",
-        logo: require('../../../../assets/actives/logos/Pwc.png'),
-        company: 'PWC',
-        width: "80%"
+        logo: require('../../../../assets/actives/logos/GlassDoor.png'),
+        company: 'Glassdoor',
+        width: "40%"
     },   
     // {
     //     // Graudated

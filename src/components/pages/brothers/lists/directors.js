@@ -12,24 +12,25 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
         name: "Justin Chao",
         title: "Alumni Relations Director",
-        // company: 'Dow Jones',
-        // width: "70%"
+        logo: require('../../../../assets/actives/logos/WesternDigital.webp'),
+        company: 'Western Digital',
+        width: "50%"
     },
     {
         img: require('../../../../assets/actives/brothers/Ruby_Ko.jpg'),
         name: "Ruby Ko",
         title: "Marketing Director",
-        logo: require('../../../../assets/actives/logos/Koplus.png'),
-        company: 'Koplus',
-        width: "90%"
+        logo: require('../../../../assets/actives/logos/Smith.png'),
+        company: 'Smith & Associates',
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
         name: "Julie Hsieh",
         title: "Marketing Director",
-        logo: require('../../../../assets/actives/logos/DayandNight.webp'),
-        company: 'Day and Night',
-        width: "80%"
+        logo: require('../../../../assets/actives/logos/lnData.png'),
+        company: 'LnData',
+        width: "40%"
     },
     
     {
@@ -102,9 +103,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
         name: "Omar Naji",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/Tiktok.png'),
-        company: 'Tiktok',
-        width: "35%"
+        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
+        company: 'CapitalOne',
+        width: "70%"
     },
 ];
 
