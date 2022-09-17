@@ -36,9 +36,9 @@ export const brothers = [
     {
         img: require("../../../../assets/actives/brothers/Stephen_Minn.jpg"),
         name: "Stephen Minn",
-        logo: require('../../../../assets/actives/logos/Kyte.png'),
-        company: 'Kyte',
-        width: "45%"
+        logo: require('../../../../assets/actives/logos/Cox.png'),
+        company: 'Cox Automotive Inc.',
+        width: "80%"
     },   
     // {
     //     img: require("../../../../assets/actives/brothers/Tiffany_Wong.jpg"),
@@ -61,7 +61,7 @@ export const brothers = [
         name: "Sera Xu",
         logo: require('../../../../assets/actives/logos/GlassDoor.png'),
         company: 'Glassdoor',
-        width: "40%"
+        width: "35%"
     },   
     // {
     //     // Graudated

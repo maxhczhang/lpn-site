@@ -733,7 +733,7 @@ export const profiles = {
         emphasis: "Accounting",
         practice: "Audit",
         pronouns: "She/Her/Hers",
-        experience: {"Finance Intern":"Comfort Keepers","Accounting Intern":"Solexir Technology"},
+        experience: {"Finance Intern":"Sodexo","Accounting Intern":"Solexir Technology"},
         campusInvolvements: {"Culture & Relationships Director":"Lambda Phi Nu"},
         interests: ["Photography","Volleyball","Hiking","Video games","Camping","Karaoke"],
         whyLPN: "Transferring into UCI, I couldn't find a community where I felt like I belonged. It is safe to say, LPN has given me everything I have wanted and more for my college experience. I have developed life-long friendships with my fellow brothers, and I am constantly surrounded by driven individuals that motivate me every day. Everyone here is a role model, and I am so lucky and grateful to be a part of this fraternity.",

@@ -60,6 +60,8 @@ const useStyles = makeStyles((theme) => ({
     '&:hover': {
       backgroundColor: "rgb(0,0,0, 0.2)"
     }
+    ,
+    textDecoration: 'none'
   },
 }));
 
@@ -153,7 +155,10 @@ export default function Header({ pageNum }) {
                   <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
 
                   <Button size="large" className={classes.button} component={Link} to="/faqs">FAQ</Button>
-
+                  <a href="http://tinyurl.com/lpnfallrush2022"> 
+                    <Button style={{ textDecoration:'none' }} size="large" className={classes.button} >Apply</Button>
+                  </a>
+                  
                 </Box>
               </Grid>
             }

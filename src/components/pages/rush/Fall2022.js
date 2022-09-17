@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "rgba(23,102,135,255)",
+        backgroundColor: "#3079c3",
         color: "white",
         '&:hover': {
             backgroundColor: "rgb(88,148,163)"
@@ -88,7 +88,7 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(350deg, rgba(191,159,42,255) 0%, rgba(157,172,124,255) 50%, rgb(160,189,200) 80%, rgba(242,245,246,255) 100%)",
+        background: "linear-gradient(275deg, rgba(242,245,246,255) 0%, #ADD8E6 60%, #3079c3 90%, rgba(38,97,156) 100%)",
         color: "white",
         width: 350,
     },
@@ -122,8 +122,8 @@ export default function Winter2021({ setPage }) {
                 </Typography>
             </Box>
             
-            <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer">
-                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2022"></img>
+            <a href="https://www.facebook.com/events/1116329235984973" target="_blank" rel="noopener noreferrer">
+                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2022"></img>
             </a>
 
             <Divider className={classes.divider}></Divider>

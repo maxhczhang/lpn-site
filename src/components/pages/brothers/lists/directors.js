@@ -69,8 +69,8 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Deena_Toofan.jpg'),
         name: "Deena Toofan",
         title: 'Culture & Relationships Director',
-        logo: require('../../../../assets/actives/logos/ComfortKeepers.png'),
-        company: 'Comfort Keepers',
+        logo: require('../../../../assets/actives/logos/Sodexo.png'),
+        company: 'Sodexo',
         width: "70%"
     },
     {
