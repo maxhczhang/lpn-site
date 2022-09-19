@@ -89,12 +89,12 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(310deg, rgba(242,245,246,255) 0%, #ADD8E6 60%, #3079c3 90%, rgba(38,97,156) 100%)",
+        background: "linear-gradient(135deg, rgba(0, 48, 97) 0%, rgba(34, 83, 125) 20%, rgba(78, 118, 152) 40%, rgba(121, 153, 180) 60%, rgba(165, 188, 207) 80%, rgba(209, 223, 235) 100%)",
         color: "white",
         width: 350,
     },
     mobileCard: {
-        background: "linear-gradient(350deg, rgba(191,159,42,255) 0%, rgba(157,172,124,255) 50%, rgb(160,189,200) 80%, rgba(242,245,246,255) 100%)",
+        background: "linear-gradient(135deg, rgba(0, 48, 97) 0%, rgba(34, 83, 125) 20%, rgba(78, 118, 152) 40%, rgba(121, 153, 180) 60%, rgba(165, 188, 207) 80%, rgba(209, 223, 235) 100%)",
         color: "white",
         width: "95%",
     },
@@ -173,6 +173,9 @@ export default function Winter2021({ setPage }) {
                             FAQs
                         </Button>
                     </Grid>
+                </Grid>
+
+                <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSewR7DdZF47clyJ0SUu51PP2Mw2nk4LSy6uWMQi5jTq6Cr5HA/viewform" style={{textDecoration:'none'}}>
                             <Button size="large" variant="contained" className={classes.button}>

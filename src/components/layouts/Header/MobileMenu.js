@@ -42,12 +42,15 @@ export default function MobileMenu() {
                         <MenuItem onClick={popupState.close} component={Link} to="/active-brothers" className={classes.menuItem}>Active Brothers</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/campus-involvement" className={classes.menuItem}>Campus Involvements</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/careers" className={classes.menuItem}>Careers</MenuItem>
-                        <MenuItem onClick={popupState.close} component={Link} to="/recruitment" className={classes.menuItem}>Winter Rush 2022</MenuItem>
+                        <MenuItem onClick={popupState.close} component={Link} to="/recruitment" className={classes.menuItem}>Fall Rush 2022</MenuItem>
                         {/* <MenuItem onClick={popupState.close} component={Link} to="/fall-rush-2020" className={classes.menuItem}>Fall Rush 2020</MenuItem> */}
                         <MenuItem onClick={popupState.close} component={Link} to="/faqs" className={classes.menuItem}>FAQs</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/gallery" className={classes.menuItem}>Gallery</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/contact" className={classes.menuItem}>Contact</MenuItem>
-
+                        <a style={{textDecoration:'none', color:'white'}}href="https://docs.google.com/forms/d/e/1FAIpQLSewR7DdZF47clyJ0SUu51PP2Mw2nk4LSy6uWMQi5jTq6Cr5HA/viewform">
+                            <MenuItem onClick={popupState.close} className={classes.menuItem}>Apply</MenuItem>
+                        </a>
+                        
                     </Menu>
                 </React.Fragment>
             )}

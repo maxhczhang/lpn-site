@@ -127,13 +127,13 @@ export const brothers = [
     //     company: 'Wells Fargo',
     //     width: "35%"
     // },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Jennifer Lin",
-        // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
-        // company: 'Wells Fargo',
-        width: "35%"
-    },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Jennifer Lin",
+    //     // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
+    //     // company: 'Wells Fargo',
+    //     width: "35%"
+    // },
     {
         img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
         name: "Jasraj Singh",
