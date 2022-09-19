@@ -155,7 +155,7 @@ export default function Header({ pageNum }) {
                   <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
 
                   <Button size="large" className={classes.button} component={Link} to="/faqs">FAQ</Button>
-                  <a href="http://tinyurl.com/lpnfallrush2022"> 
+                  <a href="http://tinyurl.com/lpnfallrush2022" style={{textDecoration:'none'}}> 
                     <Button style={{ textDecoration:'none' }} size="large" className={classes.button} >Apply</Button>
                   </a>
                   

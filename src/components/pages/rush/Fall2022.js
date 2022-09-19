@@ -32,7 +32,8 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             backgroundColor: "rgb(88,148,163)"
         },
-        width: 150
+        width: 150,
+        textDecoration: 'none'
     },
     divider: {
         height: 1,
@@ -88,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(275deg, rgba(242,245,246,255) 0%, #ADD8E6 60%, #3079c3 90%, rgba(38,97,156) 100%)",
+        background: "linear-gradient(310deg, rgba(242,245,246,255) 0%, #ADD8E6 60%, #3079c3 90%, rgba(38,97,156) 100%)",
         color: "white",
         width: 350,
     },
@@ -171,6 +172,13 @@ export default function Winter2021({ setPage }) {
                         <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
                             FAQs
                         </Button>
+                    </Grid>
+                    <Grid item>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSewR7DdZF47clyJ0SUu51PP2Mw2nk4LSy6uWMQi5jTq6Cr5HA/viewform" style={{textDecoration:'none'}}>
+                            <Button size="large" variant="contained" className={classes.button}>
+                                Apply
+                            </Button>
+                        </a>
                     </Grid>
                 </Grid>
             </Box>
