@@ -219,7 +219,7 @@ export const brothers = [
         name: "Aaron Lee",
         logo: require('../../../../assets/actives/logos/Oppti.png'),
         company: 'Oppti',
-        width: "50%"
+        width: "60%"
     },
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),
@@ -232,9 +232,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Hans_Chang.jpg'),
         name: "Hans Chang",
-        logo: require('../../../../assets/actives/logos/MediaTek.png'),
-        company: 'MediaTek',
-        width: "80%"
+        logo: require('../../../../assets/actives/logos/BenQ.png'),
+        company: 'BenQ',
+        width: "75%"
     },
     // {
     //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
