@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     root: {
         backgroundColor: "#001253",
         color: "white",
+        width: "100%",
         height: "12vh",
         display: "flex",
         justifyContent: 'center',
@@ -38,7 +39,7 @@ export default function Footer() {
 
     return (
         <div className={classes.root}>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} style={{width:"100%"}}>
             <Grid item xs={12}>
                 <Grid container justifyContent="center">
                     <Grid item>
