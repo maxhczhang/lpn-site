@@ -32,10 +32,12 @@ export const involvements2022 = {
     ],
 
     "Management Information Student Society": [
-        { name: <Link component={RouterLink} to="/active-brothers/tyler-newman" color="inherit">Tyler Newman</Link>, company: 'MAISS', position: "Co-President" },
-        { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'MAISS', position: "Executive Vice President" },
-        { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'MAISS', position: 'VP of Finance' },
-        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'MAISS', position: 'VP of Community Development' },
+        // { name: <Link component={RouterLink} to="/active-brothers/tyler-newman" color="inherit">Tyler Newman</Link>, company: 'MAISS', position: "Co-President" },
+        // { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'MAISS', position: "Executive Vice President" },
+        // { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'MAISS', position: 'VP of Finance' },
+        { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Ewaramoorthy</Link>, company: 'MAISS', position: 'VP of Professional Development' },
+        { name: <Link component={RouterLink} to="/active-brothers/yllana-casim" color="inherit">Yllana Casim</Link>, company: 'MAISS', position: 'Co-President' },
+    
     ],
 
     "Marketing Association": [
