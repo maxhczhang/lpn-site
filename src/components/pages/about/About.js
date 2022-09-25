@@ -83,10 +83,10 @@ export default function About({setPage}) {
                     <PieChartWrapper title="Gender" dataIn={chartData["Gender"]["data"]} lightened={chartData["Gender"]["lightened"]} angle={90} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
                 <Grid item xs={4}>
-                    <PieChartWrapper title="MBTI" dataIn={chartData["MBTI"]["data"]} lightened={chartData["MBTI"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
+                    <PieChartWrapper title="Major" dataIn={chartData["Major"]["data"]} lightened={chartData["Major"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
                 <Grid item xs={4}>
-                    <PieChartWrapper title="Industries" dataIn={chartData["Major"]["data"]} lightened={chartData["Major"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
+                    <PieChartWrapper title="Industry" dataIn={chartData["Industry"]["data"]} lightened={chartData["Industry"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
             </Grid>
             <Box mb={8}></Box>

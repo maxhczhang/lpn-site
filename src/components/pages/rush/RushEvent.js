@@ -104,15 +104,16 @@ export default function RushEvent({event, cardStyle}) {
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium" letterSpacing={2}>{event.location}</Box>
                 </Typography>
+                {/* <Typography component="div">
+                    <Box fontSize="h6.fontSize" fontWeight="fontWeightLight" letterSpacing={2}>{event.dressCode}</Box>
+                </Typography> */}
+            </CardContent>
+            
+            <CardContent className={classes.paragraph}>
                 <Typography component="div">
                     <Box fontSize="h6.fontSize" fontWeight="fontWeightLight" letterSpacing={2}>{event.dressCode}</Box>
                 </Typography>
             </CardContent>
-            {/* <CardContent className={classes.paragraph}>
-                <Typography component="div">
-                    <Box fontSize="h6.fontSize" fontWeight="fontWeightMedium" letterSpacing={2}>{event.dressCode}</Box>
-                </Typography>
-            </CardContent> */}
 
             <CardActions disableSpacing>
                     {/* {event.ics && 
@@ -123,9 +124,9 @@ export default function RushEvent({event, cardStyle}) {
                                 </IconButton>
                             </ICalendarLink>
                         </Tooltip>
-                    }
+                    } */}
 
-                    {event.ics && 
+                    {/* {event.ics && 
                         <Tooltip title="Add to calendar">
                             <ICalendarLink event={event.ics}>
                                 <IconButton aria-label="add to calendar" className={classes.iconButton}>
@@ -133,20 +134,21 @@ export default function RushEvent({event, cardStyle}) {
                                 </IconButton>
                             </ICalendarLink>
                         </Tooltip>
-                    } */}
-            
-                    {/* {event.checkinLink && 
+                    }
+                    */}
+                    {event.checkinLink && 
                         <Tooltip title={event.eventTooltip}>
                             <a href={event.checkinLink} target="_blank" rel="noopener noreferrer" className={classes.link}>
-                                <IconButton aria-label="Zoom" className={classes.iconButton}>
-                                    {event.eventIcon === 'schedule' 
+                                <IconButton aria-label="sign up" className={classes.iconButton}>
+                                    {event.eventIcon === 'signup' 
                                         ? <ScheduleIcon />
-                                        : <VideocamIcon />
+                                        : <EventIcon />
                                     }
                                 </IconButton>
                             </a>
                         </Tooltip>
-                    } */}
+                    }
+                     
 
                     <IconButton
                         className={clsx(classes.expand, {

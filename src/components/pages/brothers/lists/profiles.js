@@ -292,7 +292,7 @@ export const profiles = {
         pronouns: "He/Him/His",
         // Hmm let's figure it out
         experience: {"Software Engineer Intern  ": "Microsoft  ", "Software Engineer Intern ": "Microsoft", "Software Engineer Intern ": "Microsoft", "Software   Engineer Intern": "Microsoft", "Software Engineer Intern": "Vusar"},
-        campusInvolvements: {"Exeuctive Vice President": "Management Information Student Society", "VP of Professional Development": "Management Information Student Society", "Professional Development Intern ": "Management Information Student Society","Fall Chief Talent Officer": "Lambda Phi Nu"},
+        campusInvolvements: {"Executive Vice President": "Management Information Student Society", "VP of Professional Development": "Management Information Student Society", "Professional Development Intern ": "Management Information Student Society","Fall Chief Talent Officer": "Lambda Phi Nu"},
         interests: ["Trying new foods", "Working out", "Cooking"],
         whyLPN: "LPN is a group of amazing people who never fail to bring out the best in myself. They allowed me to grow so much, gave me my favorite college memories, and are the reason I stayed another year at UCI!",
         img: require("../../../../assets/actives/brothers/Ryan_Miranda.jpg")

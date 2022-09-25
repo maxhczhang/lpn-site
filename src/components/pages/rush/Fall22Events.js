@@ -5,7 +5,7 @@ export const events = [
         description: "Come meet our brothers through a night of fun games and chats!",
         dressCode: "Casual",
         ics: "",
-        checkinLink: 'https://tinyurl.com/lpninfonight',
+        // checkinLink: 'https://tinyurl.com/lpninfonight',
         time: "7:00PM - 9:30PM",
         location: "Doheny Beach B",
         eventTooltip: "Zoom Check In"
@@ -16,7 +16,7 @@ export const events = [
         description: "Learn about our fraternitiy's history, involvements, and culture.",
         dressCode: "Business Casual",
         ics: "",
-        checkinLink: 'https://tinyurl.com/lpnmeetthebros',
+        // checkinLink: 'https://tinyurl.com/lpnmeetthebros',
         time: "7:00PM - 9:30PM",
         location: "On Campus - TBD",
         eventTooltip: "Zoom Check In"
@@ -27,9 +27,9 @@ export const events = [
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Casual",
         ics: "",
-        checkinLink: "",
+        checkinLink: "https://tinyurl.com/LPNFallRush2022CoffeeChats",
         time: "By Appointment",
-        location: "Sign Up link that links to our Coffee Chats google form",
+        location: "Sign Up Here",
         eventIcon: "schedule",
         eventTooltip: "Sign up for a time slot"
     },
@@ -39,7 +39,7 @@ export const events = [
         description: " Network with our distinguished alumni in different fields of business and learn about resumes, elevator pitches, and interviews.",
         dressCode: "Business Professional",
         ics: "",
-        checkinLink: 'https://tinyurl.com/lpnprofessionalnight',
+        // checkinLink: 'https://tinyurl.com/lpnprofessionalnight',
         time: "7:00PM - 9:30PM",
         location: "Emerald Bay A",
         eventTooltip: "Zoom Check In"

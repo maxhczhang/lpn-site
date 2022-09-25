@@ -1,13 +1,13 @@
 export const chartData = {
-    "Major": {
+    "Industry": {
         "data": [
-            { title: 'Consulting', value: 17, color: '#f2669c' },
-            { title: 'Human Resources', value: 5, color: '#374c80' },
-            { title: 'Technology', value: 5, color: '#003f5c' },
+            { title: 'Consulting', value: 6, color: '#f2669c' },
+            { title: 'Human Resources', value: 3, color: '#374c80' },
+            { title: 'Technology', value: 8, color: '#003f5c' },
             { title: 'Finance', value: 3, color: "#7a5195" },
             { title: 'Accounting', value: 3, color: '#ff764a' },
-            { title: 'Other', value: 3, color: '#ffa600' },
-            { title: 'Marketing', value: 17, color: '#bc5090' },
+            // { title: 'Other', value: 3, color: '#ffa600' },
+            { title: 'Marketing', value: 11, color: '#bc5090' },
         ],
         "lightened": [
             '#eb8db1',
@@ -19,16 +19,16 @@ export const chartData = {
             '#da6eaf',
         ]
     },
-    "MBTI": {
+    
+    
+    "Major": {
         "data": [
-            { title: 'ESFP', value: 12, color: "#417293" },
-            { title: 'ENFJ', value: 12, color: '#719bbb' },
-            { title: 'E Other', value: 6, color: '#a0c6e4' },
-            { title: 'ISFJ', value: 12, color: '#ffa600' },
-            { title: 'INFP', value: 10, color: '#f1a947' },
-            { title: 'INTP', value: 6, color: '#e0ac6e' },
-            { title: 'I Other', value: 10, color: '#cbaf91' },
-            { title: 'ENFP', value: 26, color: '#004c6d' },
+            { title: 'BA', value: 17, color: "#417293" },
+            { title: 'Sociology', value: 4, color: '#719bbb' },
+            { title: 'BIM', value: 1, color: '#a0c6e4 ' },
+            { title: 'CS', value: 3, color: '#ffa600' },
+            { title: 'Bus Econ', value: 9, color: '#f1a947' },
+
         ],
         "lightened": [
             '#5F90B1',
@@ -41,10 +41,11 @@ export const chartData = {
             '#1E6A8B',
         ]
     },
+    
     "Gender": {
         "data": [
-            { title: 'Male', value: 50, color: "#383e56" },
-            { title: 'Female', value: 50, color: '#fb743e' },
+            { title: 'Male', value: 15, color: "#383e56" },
+            { title: 'Female', value: 19, color: '#fb743e' },
         ],
         "lightened": [
             '#565C74',
