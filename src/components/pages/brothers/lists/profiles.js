@@ -772,7 +772,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
     },
     Jodie_Tai: {
-        linkedIn: "https://www.linkedin.com/in/hfkaylawong/",
+        linkedIn: "https://www.linkedin.com/in/jodieetai/",
         homeTown: "San Lorenzo, CA",
         year: "4th",
         class: "Sigma",
@@ -782,9 +782,9 @@ export const profiles = {
         practice: "Real Estate, Finance",
         pronouns: "She/Her/Hers",
         experience: {"Real Estate Controls Intern":"The Walt Disney Company"},
-        campusInvolvements: {"Chief Financial Officer":"Lambda Phi Nu","Finance Associate":"Lambda Phi Nu"},
+        campusInvolvements: {"Chief Financial Officer":"Lambda Phi Nu","Finance Associate":"Lambda Phi Nu", "Mentor":"Undergraduate Business Association", "Undergraduate Researcher":"UCI School of Education"},
         interests: ["Coffee", "Yoga", "Traveling", "Fashion", "Food", "Art", "Interior design", "Organizing things"],
-        whyLPN: "As a transfer student, I came to UCI hoping to find a community that would provide me the support and space to become the best version of myself. LPN has undoubtedly pushed me to great lengths with my professional growth, but it has been much more. It has been a second family. A family I know I can forever rely on, and I couldn't imagine my UCI experience without the unforgettable memories I've created here.",
+        whyLPN: "As a transfer student, I feared not being able to find a community at UCI. Little did I know that deciding to rush Lambda Phi Nu after stumbling across the Winter 2022 Recruitment post on Facebook would be a pivotal point in my college journey. Being surrounded by individuals with an infinite amount of perseverance has motivated me to step out of my comfort zone and maximize my potential. But most importantly, LPN has become a forever family.",
         img: require('../../../../assets/actives/brothers/Jodie_Tai.jpg'),
     },
     Julie_Hsieh: {
