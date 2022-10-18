@@ -24,11 +24,16 @@ export const involvements2022 = {
     //     { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'Phi Delta Theta', position: 'Phikeia Educator' },
     // ],
 
+    "Hack at UCI": [
+        { name: <Link component={RouterLink} to="/active-brothers/jaejin-kim" color="inherit">Jaejin Kim</Link>, company: 'Hack at UCI', position: "Corporate Organizer" },
+        { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Ewaramoorthy</Link>, company: 'Hack at UCI', position: 'Corporate Organizer' },
+        ],
+
     "Human Resources Management Association": [
         { name: <Link component={RouterLink} to="/active-brothers/Eddie-Rios" color="inherit">Eddie Rios</Link>, company: 'HRMA', position: "VP of Operations" },
         { name: <Link component={RouterLink} to="/active-brothers/justin-chao" color="inherit">Justin Chao</Link>, company: 'HRMA', position: "VP of External Relations" },
         { name: <Link component={RouterLink} to="/active-brothers/will-bordessa" color="inherit">Will Bordessa</Link>, company: 'HRMA', position: "Vice President of Operations" },
-        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'HRMA', position: "VVP of Membership" },
+        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'HRMA', position: "VP of Membership" },
     ],
 
     "Management Information Student Society": [
@@ -37,6 +42,7 @@ export const involvements2022 = {
         // { name: <Link component={RouterLink} to="/active-brothers/haley-kim" color="inherit">Haley Kim</Link>, company: 'MAISS', position: 'VP of Finance' },
         { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Ewaramoorthy</Link>, company: 'MAISS', position: 'VP of Professional Development' },
         { name: <Link component={RouterLink} to="/active-brothers/yllana-casim" color="inherit">Yllana Casim</Link>, company: 'MAISS', position: 'Co-President' },
+        { name: <Link component={RouterLink} to="/active-brothers/jaejin-kim" color="inherit">Jaejin Kim</Link>, company: 'MAISS', position: 'Mentee' },
     
     ],
 
