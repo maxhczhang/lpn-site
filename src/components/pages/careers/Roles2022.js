@@ -19,7 +19,7 @@ export const roles2022 = {
         "Consulting": [
             { name: <Link component={RouterLink} to="/active-brothers/Eddie-Rios" color="inherit">Eddie Rios</Link>, company: 'Mentor Global Consultants', position: "Research and Business Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Kayla-Wong" color="inherit">Kayla Wong</Link>, company: 'Accenture', position: "Salesforce Project: Business Analyst Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Lumin-Oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Consulting Discovery Internr" },
+            { name: <Link component={RouterLink} to="/active-brothers/Lumin-Oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Consulting Discovery Interrn" },
             { name: <Link component={RouterLink} to="/active-brothers/Raymond-Dinh" color="inherit">Raymond Dinh</Link>, company: 'Salesforce', position: "Business Systems Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Will-Bordessa" color="inherit">Will Bordessa</Link>, company: 'Slalom', position: "Business Advisory Services" },
         ],
@@ -30,18 +30,20 @@ export const roles2022 = {
         ],
 
         "Human Resources": [
-            { name: <Link component={RouterLink} to="/active-brothers/Justin-Chao" color="inherit">Justin Chao</Link>, company: 'Unilever', position: "Human Resources Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Omar-Naji" color="inherit">Omar Naji</Link>, company: 'Captial One', position: "Human Resource Information Professional" },
+            { name: <Link component={RouterLink} to="/active-brothers/Justin-Chao" color="inherit">Justin Chao</Link>, company: 'Western Digital', position: "Human Resources Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/Omar-Naji" color="inherit">Omar Naji</Link>, company: 'Capital One', position: "Human Resource Information Professional" },
             { name: <Link component={RouterLink} to="/active-brothers/Kaylie-Zhou" color="inherit">Kaylie Zhou</Link>, company: 'Adobe', position: "Global Rewards Intern" },
         ],
 
         "Management": [
             { name: <Link component={RouterLink} to="/active-brothers/Vivian-Tran" color="inherit">Vivian Tran</Link>, company: 'ServiceNow', position: "IT Project Management Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/Yllana-Casim" color="inherit">Yllana Casim</Link>, company: 'Intel', position: "Ecosystem Portfolio Scale and Enablement Intern" },
+        
         ],        
 
         "Marketing": [
             { name: <Link component={RouterLink} to="/active-brothers/Adrian-Siu" color="inherit">Adrian Siu</Link>, company: 'ServiceNow', position: "Solutions Marketing Co-op" },
-            { name: <Link component={RouterLink} to="/active-brothers/Catherine-Lin" color="inherit">Catherine Lin</Link>, company: 'UCI Esports', position: "Stream production Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/Catherine-Lin" color="inherit">Catherine Lin</Link>, company: 'UCI Esports', position: "Stream Production Intern" },
 
             { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'NBCUniversal', position: "Consumer Insights Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Hans-Chang" color="inherit">Hans Chang</Link>, company: 'BENQ', position: "Ecommerce Marketing Intern" },
@@ -65,8 +67,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Hanui-Lee" color="inherit">Hanui Lee</Link>, company: 'JP Morgan Chase & Co.', position: "Summer Design Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Nicole-Nguyen" color="inherit">Nicole Nguyen</Link>, company: "Moody's Analytics", position: "Data Solutions Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Stephen-Minn" color="inherit">Stephen Minn</Link>, company: 'Cox Automotive', position: "Product Management Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Yllana-Casim" color="inherit">Yllana Casim</Link>, company: 'Intel', position: "Ecosystem Portfolio Scale and Enablement Intern" },
-        ],
+            ],
 
         "Public Relations": [
             { name: <Link component={RouterLink} to="/active-brothers/Lilian-Luu" color="inherit">Lilian Luu</Link>, company: 'Comcast', position: "Public Relations Intern" },
