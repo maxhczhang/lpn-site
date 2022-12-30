@@ -33,13 +33,13 @@ export const brothers = [
     //     company: 'MongoDB',
     //     width: "45%"
     // }, 
-    {
-        img: require("../../../../assets/actives/brothers/Stephen_Minn.jpg"),
-        name: "Stephen Minn",
-        logo: require('../../../../assets/actives/logos/Cox.png'),
-        company: 'Cox Automotive Inc.',
-        width: "80%"
-    },   
+    // {
+    //     img: require("../../../../assets/actives/brothers/Stephen_Minn.jpg"),
+    //     name: "Stephen Minn",
+    //     logo: require('../../../../assets/actives/logos/Cox.png'),
+    //     company: 'Cox Automotive Inc.',
+    //     width: "80%"
+    // },   
     // {
     //     img: require("../../../../assets/actives/brothers/Tiffany_Wong.jpg"),
     //     name: "Tiffany Wong",
@@ -89,13 +89,13 @@ export const brothers = [
         company: 'UCI Esports',
         width: "45%"
     },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Catherine Nguyen",
-        logo: require('../../../../assets/actives/logos/Amazon.png'),
-        company: 'Amazon',
-        width: "45%"
-    },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Catherine Nguyen",
+    //     logo: require('../../../../assets/actives/logos/Amazon.png'),
+    //     company: 'Amazon',
+    //     width: "45%"
+    // },
     
     // {
     //     // Graudated
@@ -141,20 +141,20 @@ export const brothers = [
         company: 'Sencha Credit',
         width: "30%"
     },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Julio Cano",
-        // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
-        // company: 'Wells Fargo',
-        width: "35%"
-    },
     // {
-    //     img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
-    //     name: "Kaylie Zhou",
-    //     logo: require('../../../../assets/actives/logos/Adobe.png'),
-    //     company: 'Adobe',
-    //     width: "40%"
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Julio Cano",
+    //     // logo: require('../../../../assets/actives/logos/Wellsfargo.png'),
+    //     // company: 'Wells Fargo',
+    //     width: "35%"
     // },
+    {
+        img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
+        name: "Kaylie Zhou",
+        logo: require('../../../../assets/actives/logos/Adobe.png'),
+        company: 'Adobe',
+        width: "40%"
+    },
     // {
     //     img: require('../../../../assets/actives/brothers/Khoa_Tran.jpg'),
     //     name: "Khoa Tran",
@@ -185,13 +185,13 @@ export const brothers = [
         company: 'JP Morgan Chase&Co',
         width: "40%"
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
-    //     name: "Jamie Zhao",
-    //     logo: require('../../../../assets/actives/logos/ServiceNow.png'),
-    //     company: 'ServiceNow',
-    //     width: "85%"
-    // },
+    {
+        img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
+        name: "Jamie Zhao",
+        logo: require('../../../../assets/actives/logos/ServiceNow.png'),
+        company: 'ServiceNow',
+        width: "85%"
+    },
     {
         img: require("../../../../assets/actives/brothers/Liz_Chan.jpg"),
         name: "Liz Chan",
@@ -249,6 +249,77 @@ export const brothers = [
         logo: require('../../../../assets/actives/logos/Slalom.png'),
         company: 'Slalom',
         width: "60%"
+    },
+    // Tau Class
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Alex Zhou",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Brandyn Huynh",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Denise Wei",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Evan Choe",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Grace Xu",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Jacob Uradnik",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Madhu Sharma",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Rainer Setiawan",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Tannvi Banerjee",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Teresa Chu",
+        // logo: require('../../../../assets/actives/logos/BenQ.png'),
+        // company: 'BenQ',
+        width: "75%"
     },
 ];
 

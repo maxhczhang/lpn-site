@@ -1,7 +1,7 @@
 export const faqsList = [
     {
-        question: "Are we holding Fall 2022 recruitment?",
-        answer: "Yes! We are holding Fall 2022 recruitment this year. Look out for more information to come out soon!",
+        question: "Are we holding Winter 2023 recruitment?",
+        answer: "Yes! We are holding Winter 2023 recruitment this year. Look out for more information to come out soon!",
     },
     {
         question: "Why Lambda Phi Nu?",

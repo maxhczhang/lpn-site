@@ -21,7 +21,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Kayla-Wong" color="inherit">Kayla Wong</Link>, company: 'Accenture', position: "Salesforce Project: Business Analyst Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Lumin-Oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Consulting Discovery Interrn" },
             { name: <Link component={RouterLink} to="/active-brothers/Raymond-Dinh" color="inherit">Raymond Dinh</Link>, company: 'Salesforce', position: "Business Systems Analyst" },
-            { name: <Link component={RouterLink} to="/active-brothers/Will-Bordessa" color="inherit">Will Bordessa</Link>, company: 'Slalom', position: "Business Advisory Services" },
+            { name: <Link component={RouterLink} to="/active-brothers/Will-Bordessa" color="inherit">Will Bordessa</Link>, company: 'Slalom', position: "Business Advisory Services Intern" },
         ],
 
         "Finance": [
@@ -50,7 +50,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Jamie-Zhao" color="inherit">Jamie Zhao</Link>, company: 'ServiceNow', position: "Strategic Events Marketing Co-op" },
             // { name: <Link component={RouterLink} to="/active-brothers/Josh-Tong" color="inherit">Josh Tong</Link>, company: 'UFC', position: "Content Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Julie-Hsieh" color="inherit">Julie Hsieh</Link>, company: 'Day and Night International Co.', position: "Marketing Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Naveen-Sastri" color="inherit">Naveen Sastri</Link>, company: 'MasterCard', position: "Cyber & Intelligence Solutions" },
+            { name: <Link component={RouterLink} to="/active-brothers/Naveen-Sastri" color="inherit">Naveen Sastri</Link>, company: 'MasterCard', position: "Cyber & Intelligence Solutions Intern" },
 
             
 

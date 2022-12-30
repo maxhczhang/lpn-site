@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './Fall22Events'
-import flyer from '../../../assets/recruitment/Fall_2022.png'
+import flyer from '../../../assets/recruitment/winter_2023.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -115,10 +115,10 @@ export default function Winter2021({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2022</a>
+                        <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2023</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Tau Class Recruitment
+                        Upsilon Class Recruitment
                     </Box>
                 </Typography>
             </Box>
@@ -131,11 +131,9 @@ export default function Winter2021({ setPage }) {
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                We're excited to hold our Fall 2022 Rush cycle to recruit out 18th class of LPN brothers! Check out any of our Rush Events below starting on September 26, and catch us at the Anteater Involvement Fair, MUSA Orgs Fair, and more. We're excited to meet you!
-                </Box>
+                Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 200 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!</Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                Many of our brothers came into UCI unsure of their potential. Through our pledging curriculum, they went on to become leaders in campus orgs and excel in internships at companies like Microsoft, Goldman Sachs, PwC, and more! If you're looking for professional growth and a lifelong community, we ask that you take the leap and wonder how far you can go with Lambda Phi Nu.
-                </Box>
+                Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.</Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>
@@ -177,7 +175,7 @@ export default function Winter2021({ setPage }) {
 
                 <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSewR7DdZF47clyJ0SUu51PP2Mw2nk4LSy6uWMQi5jTq6Cr5HA/viewform" style={{textDecoration:'none'}}>
+                        <a href="http://www.tinyurl.com/LPNWinterrush2023" style={{textDecoration:'none'}}>
                             <Button size="large" variant="contained" className={classes.button}>
                                 Apply
                             </Button>

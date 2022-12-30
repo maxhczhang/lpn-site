@@ -11,7 +11,7 @@ export const directors = [
     {
         img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
         name: "Justin Chao",
-        title: "Alumni Relations Director",
+        title: "Alumni Relations Director | Recruiter",
         logo: require('../../../../assets/actives/logos/WesternDigital.webp'),
         company: 'Western Digital',
         width: "50%"
@@ -73,14 +73,14 @@ export const directors = [
         company: 'Sodexo',
         width: "70%"
     },
-    {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Raymond Dinh",
-        title: "Social Impact Director",
-        logo: require('../../../../assets/actives/logos/Salesforce.png'),
-        company: 'Salesforce',
-        width: "60%"
-    },
+    // {
+    //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    //     name: "Raymond Dinh",
+    //     title: "Social Impact Director",
+    //     logo: require('../../../../assets/actives/logos/Salesforce.png'),
+    //     company: 'Salesforce',
+    //     width: "60%"
+    // },
     // When someone has more than one position, what should we do?
     {
         img: require('../../../../assets/actives/brothers/Eddie_Rios.jpg'),
@@ -89,6 +89,14 @@ export const directors = [
         logo: require('../../../../assets/actives/logos/MentorGlobalConsultants.png'),
         company: 'Mentor Global Consultants',
         width: "90%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Qui Hoang",
+        title: "Recruiter",
+        logo: require('../../../../assets/actives/logos/GrantThorton.png'),
+        company: 'Grant Thorton',
+        width: "55%"
     },
     {
         img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),

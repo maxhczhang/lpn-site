@@ -26,21 +26,21 @@ export const csuite = [
     {
         img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
         name: "Naveen Sastri",
-        title: 'Chief Operations Officer',
+        title: 'Chief Operating Officer',
         logo: require('../../../../assets/actives/logos/Mastercard.png'),
         company: 'Mastercard',
         width: "40%",
     },
-    {
-        img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
-        name: "Ryan Miranda",
-        title: 'Fall Chief Talent Officer',
-        logo: require('../../../../assets/actives/logos/Microsoft.png'),
-        company: 'Microsoft',
-        width: "25%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
+    //     name: "Ryan Miranda",
+    //     title: 'Fall Chief Talent Officer',
+    //     logo: require('../../../../assets/actives/logos/Microsoft.png'),
+    //     company: 'Microsoft',
+    //     width: "25%"
+    // },
      {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
         name: "Vivian Tran",
         title: 'Winter Chief Talent Officer',
         logo: require('../../../../assets/actives/logos/ServiceNow.png'),

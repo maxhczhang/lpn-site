@@ -258,7 +258,7 @@ export const profiles = {
         practice: "Human Resources",
         pronouns: "He/Him/His",
         experience: {"Human Resources Intern": "Capital One","Talent Acquisition Intern": "TikTok", "Marketing Strategy Intern": "NUDA Juice & Wellness Shop", "Head Marketing Intern": "Dance4Joy Ministries"},
-        campusInvolvements: {"Executive Vice President":"Management Information Student Society","VP of Community Development":"Management  Information Student Society","Professional Development Intern":"Management  Information Student Society","Mentee":"Management  Information Student Society", "Associate Counseler":"Lambda Phi Nu", "Chief Talent Officer":"Lambda Phi Nu", "Recruiter":"Lambda Phi Nu", "Finance Associate":"Lambda Phi Nu","VP of Membership": "Human Resources Management Association","Intern": "Human Resources Management Association", "Resident Advisor":"UCI Housing","Brand Ambassador": "Quokka Brew"},
+        campusInvolvements: {"Executive Vice President":"Management Information Student Society","VP of Community Development":"Management Information Student Society","Professional Development Intern":"Management  Information Student Society","Mentee":"Management  Information Student Society", "Associate Counseler":"Lambda Phi Nu", "Chief Talent Officer":"Lambda Phi Nu", "Recruiter":"Lambda Phi Nu", "Finance Associate":"Lambda Phi Nu","VP of Membership": "Human Resources Management Association","Intern": "Human Resources Management Association", "Resident Advisor":"UCI Housing","Brand Ambassador": "Quokka Brew"},
         interests: ["Concert", "Going Out", "Personal Development"],
         whyLPN: "LPN has truly defined my college experience, and I wouldn’t be the same.",
         img: require("../../../../assets/actives/brothers/Omar_Naji.jpg")
@@ -867,7 +867,39 @@ export const profiles = {
         whyLPN: "I knew LPN was the right place for me during rush when I realized I was learning so much from the brothers I talked to. Even before I received a bid, they gave me confidence in myself and in my ability to chase a successful career. They've not only given me professional development but a community of life-long friends and dependable individuals who are truly invested in me, and that is what motivates me to give back.",
         img: require('../../../../assets/actives/brothers/Will_Bordessa.jpg'),
     },
-
+    // Tau
+    Alex_Zhou: {
+        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        homeTown: "Southlake, TX",
+        year: "1st",
+        class: "Tau",
+        major: "Computer Science",
+        // minor: "Urban and Regional Planning",
+        // emphasis: "Organization and Management",
+        practice: "Software Engineering",
+        pronouns: "He/Him/His",
+        // experience: {"Business Advisory Services Intern":"Slalom","E-commerce Team Member":"Whole Foods Market","Social Media Marketing Manager":"Calvary Chapel Bible College Japan"},
+        campusInvolvements: {"Mentee":"Management Information Student Society","Member":"Chinese Association"},
+        interests: ["Video Games", "Reading", "Traveling", "Online Shopping", "Hanging out with friends"],
+        whyLPN: "Coming in as a transfer, I wanted to get involved as much as possible and seek out any opportunities for personal growth and professional development. I still had a lot of learning about the different industries within the business realm and was still determining what I wanted to pursue career-wise. However, once joining LPN, I had the chance to be surrounded by a community of unique and motivated individuals who supported me by helping me figure out my career goals and also allowing me to learn from their experiences personally and professionally. LPN is a tight-knit community that fosters strong brotherhood and has given me a community of people I know I can always depend on and draw inspiration from.",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    },
+    Brandyn_Huynh: {
+        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        homeTown: "Milpitas, CA",
+        year: "3rd",
+        class: "Tau",
+        major: "Business Administration",
+        // minor: "Urban and Regional Planning",
+        emphasis: "Marketing and Organizational Management ",
+        practice: "Human Resources",
+        pronouns: "He/Him/His",
+        experience: {"Shift Lead":"Tea Doraku", "Founder": "B's Premium Teas", "English Second Language Tutor": "San Jose City College"},
+        campusInvolvements: {"Co-Company Relations Director":"Marketing Association"},
+        interests: ["Evening runs", "Biking", "Concerts", "Painting", "Thrifting", "Trying different food places", "Learning different instruments" ],
+        whyLPN: "LPN gave me a supportive community that will undoubtedly have my back for life. I rushed with the intention of gaining professional help, but I ended up leaving with so much more.",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+    },
 };
 
 export default { profiles };
