@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './FallEvents'
+import { events } from './_FallEvents'
 import cover from '../../../assets/recruitment/Fall_Rush_Cover.png'
 
 

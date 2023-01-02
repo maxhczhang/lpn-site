@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './Fall22Events'
-import flyer from '../../../assets/recruitment/winter_2023.png'
+import { events } from './_FallEvents'
+import flyer from '../../../assets/recruitment/Fall_2022.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,13 +27,12 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
         },
-        backgroundColor: "#3079c3",
+        backgroundColor: "rgb(143,75,78)",
         color: "white",
         '&:hover': {
-            backgroundColor: "rgb(88,148,163)"
+            backgroundColor: "rgb(173,95,93)"
         },
-        width: 150,
-        textDecoration: 'none'
+        width: 150
     },
     divider: {
         height: 1,
@@ -89,12 +88,12 @@ const useStyles = makeStyles((theme) => ({
         height: 500,
     },
     card: {
-        background: "linear-gradient(135deg, rgba(0, 48, 97) 0%, rgba(34, 83, 125) 20%, rgba(78, 118, 152) 40%, rgba(121, 153, 180) 60%, rgba(165, 188, 207) 80%, rgba(209, 223, 235) 100%)",
+        background: "linear-gradient(350deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
         color: "white",
         width: 350,
     },
     mobileCard: {
-        background: "linear-gradient(135deg, rgba(0, 48, 97) 0%, rgba(34, 83, 125) 20%, rgba(78, 118, 152) 40%, rgba(121, 153, 180) 60%, rgba(165, 188, 207) 80%, rgba(209, 223, 235) 100%)",
+        background: "linear-gradient(6deg, rgb(94,78,100) 0%, rgb(173,95,93) 50%, rgb(163,126,116) 100%)",
         color: "white",
         width: "95%",
     },
@@ -115,25 +114,27 @@ export default function Winter2021({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2023</a>
+                        <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2022</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Upsilon Class Recruitment
+                        Tau Class Recruitment
                     </Box>
                 </Typography>
             </Box>
             
-            <a href="https://www.facebook.com/events/1116329235984973" target="_blank" rel="noopener noreferrer">
-                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2022"></img>
+            <a href="https://www.facebook.com/events/637598140621270" target="_blank" rel="noopener noreferrer">
+                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2022"></img>
             </a>
 
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div" className={classes.paragraph} align="left">
                 <Box mt={10} fontSize="h6.fontSize">
-                Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 200 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!</Box>
+                We're excited to hold our Fall 2022 Rush cycle to recruit out 18th class of LPN brothers! Check out any of our Rush Events below starting on September 26, and catch us at the Anteater Involvement Fair, MUSA Orgs Fair, and more. We're excited to meet you!
+                </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.</Box>
+                Many of our brothers came into UCI unsure of their potential. Through our pledging curriculum, they went on to become leaders in campus orgs and excel in internships at companies like Microsoft, Goldman Sachs, PwC, and more! If you're looking for professional growth and a lifelong community, we ask that you take the leap and wonder how far you can go with Lambda Phi Nu.
+                </Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>
@@ -170,16 +171,6 @@ export default function Winter2021({ setPage }) {
                         <Button size="large" variant="contained" className={classes.button} component={Link} to="/faqs">
                             FAQs
                         </Button>
-                    </Grid>
-                </Grid>
-
-                <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
-                    <Grid item>
-                        <a href="http://www.tinyurl.com/LPNWinterrush2023" style={{textDecoration:'none'}}>
-                            <Button size="large" variant="contained" className={classes.button}>
-                                Apply
-                            </Button>
-                        </a>
                     </Grid>
                 </Grid>
             </Box>

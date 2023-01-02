@@ -32,7 +32,7 @@ export const involvements2022 = {
     "Human Resources Management Association": [
         { name: <Link component={RouterLink} to="/active-brothers/Eddie-Rios" color="inherit">Eddie Rios</Link>, company: 'HRMA', position: "VP of Operations" },
         { name: <Link component={RouterLink} to="/active-brothers/justin-chao" color="inherit">Justin Chao</Link>, company: 'HRMA', position: "VP of External Relations" },
-        { name: <Link component={RouterLink} to="/active-brothers/will-bordessa" color="inherit">Will Bordessa</Link>, company: 'HRMA', position: "Vice President of Operations" },
+        { name: <Link component={RouterLink} to="/active-brothers/will-bordessa" color="inherit">Will Bordessa</Link>, company: 'HRMA', position: "VP of Operations" },
         { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'HRMA', position: "VP of Membership" },
     ],
 

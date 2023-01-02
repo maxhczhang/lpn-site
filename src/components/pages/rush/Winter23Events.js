@@ -52,7 +52,7 @@ export const events = [
         description: "Receive an invitation to a light dinner and fireside chat with all our Active Brothers.",
         dressCode: "Dressy Casual",
         ics: "",
-        time: "7:00PM - 9:30PM"
+        time: "6:30PM - 9:00PM"
     },
 ];
 

@@ -2,7 +2,7 @@ export const companyLogos = [
     {
         img: require('../../../assets/companyLogos/EY.png'),
         title: 'EY',
-        link: 'https://www.lpnuci.com/#/active-brothers/david-sonq'
+        link: 'https://www.lpnuci.com/#/active-brothers/sydney-yu'
     },
     {
         img: require('../../../assets/companyLogos/Ebay.png'),
@@ -17,47 +17,47 @@ export const companyLogos = [
     {
         img: require('../../../assets/companyLogos/TikTok.png'),
         title: 'TikTok',
-        link: 'https://www.lpnuci.com/#/active-brothers/omar-naji'
+        link: 'https://www.lpnuci.com/#/active-brothers/kaylie-zhou'
     },
     {
         img: require('../../../assets/companyLogos/Microsoft.png'),
         title: 'Microsoft',
-        link: 'https://www.lpnuci.com/#/active-brothers/ryan-miranda'
+        // link: 'https://www.lpnuci.com/#/active-brothers/ryan-miranda'
     },   
     {
         img: require('../../../assets/companyLogos/Deloitte.png'),
         title: 'Deloitte',
-        link: 'https://www.lpnuci.com/#/active-brothers/philip-cheung',
+        link: 'https://www.lpnuci.com/#/active-brothers/deena-toofan',
     },
     {
         img: require('../../../assets/companyLogos/Experian.png'),
         title: 'Experian',
-        link: 'https://www.lpnuci.com/#/active-brothers/lucian-liu'
+        // link: 'https://www.lpnuci.com/#/active-brothers/lucian-liu'
     },
     {
         img: require('../../../assets/companyLogos/CapitalOne.png'),
         title: 'Capital One',
-        link: 'https://www.lpnuci.com/#/active-brothers/yong-lin',
+        link: 'https://www.lpnuci.com/#/active-brothers/omar-naji',
     },
     {
         img: require('../../../assets/actives/logos/Jenny_Cheung.png'),
         title: 'Shiseido',
-        link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
+        // link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
     },
     {
         img: require('../../../assets/companyLogos/JpMorgan.jpg'),
         title: 'JP Morgan Chase & Co',
-        link: 'https://www.lpnuci.com/#/active-brothers/tiffany-wong',
+        link: 'https://www.lpnuci.com/#/active-brothers/hanui-lee',
     },
     {
         img: require('../../../assets/companyLogos/Western_Digital.png'),
         title: 'Western Digital',
-        link: 'https://www.lpnuci.com/#/active-brothers/jeffrey-cho'
+        link: 'https://www.lpnuci.com/#/active-brothers/justin-chao'
     },
     {
         img: require('../../../assets/actives/logos/Kpmg.png'),
         title: 'KPMG',
-        link: 'https://www.lpnuci.com/#/active-brothers/linda-woo',
+        // link: 'https://www.lpnuci.com/#/active-brothers/linda-woo',
     },
    
 ];

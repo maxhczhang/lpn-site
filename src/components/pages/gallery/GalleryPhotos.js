@@ -1,4 +1,7 @@
 export const GalleryPhotos = [
+
+
+    
     {
         img: require('../../../assets/gallery/Pumpkin_Patch.jpeg'),
         cols: 2,

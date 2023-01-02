@@ -83,11 +83,19 @@ export const brothers = [
     // Xi Class
     {
         // Graudated
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Catherine_Lin.jpg'),
         name: "Catherine Lin",
         logo: require('../../../../assets/actives/logos/UCI_Esports.png'),
         company: 'UCI Esports',
         width: "45%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
+        name: "Omar Naji",
+        // title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
+        company: 'CapitalOne',
+        width: "70%"
     },
     // {
     //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
@@ -107,7 +115,7 @@ export const brothers = [
     // },
     // Omicron Clas
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Adrian_Siu.jpg'),
         name: "Adrian Siu",
         logo: require('../../../../assets/actives/logos/ServiceNow.png'),
         company: 'ServiceNow',
@@ -134,13 +142,6 @@ export const brothers = [
     //     // company: 'Wells Fargo',
     //     width: "35%"
     // },
-    {
-        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
-        name: "Jasraj Singh",
-        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
-        company: 'Sencha Credit',
-        width: "30%"
-    },
     // {
     //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
     //     name: "Julio Cano",
@@ -193,6 +194,13 @@ export const brothers = [
         width: "85%"
     },
     {
+        img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),
+        name: "Lilian Luu",
+        logo: require('../../../../assets/actives/logos/Comcast.png'),
+        company: 'Comcast',
+        width: "70%"
+    },
+    {
         img: require("../../../../assets/actives/brothers/Liz_Chan.jpg"),
         name: "Liz Chan",
         logo: require('../../../../assets/actives/logos/Cbre.png'),
@@ -222,7 +230,7 @@ export const brothers = [
         width: "60%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Yllana_Casim.jpg'),
         name: "Yllana Casim",
         logo: require('../../../../assets/actives/logos/Intel.png'),
         company: 'Intel',
@@ -243,13 +251,7 @@ export const brothers = [
     //     company: 'Grant Thorton',
     //     width: "55%"
     // },
-    {
-        img: require('../../../../assets/actives/brothers/Will_Bordessa.jpg'),
-        name: "Will Bordessa",
-        logo: require('../../../../assets/actives/logos/Slalom.png'),
-        company: 'Slalom',
-        width: "60%"
-    },
+
     // Tau Class
     {
         img: require('../../../../assets/lpn_assets/pfp_temp.png'),

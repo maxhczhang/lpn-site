@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
-import { events } from './WinterEvents'
+import { events } from './_WinterEvents'
 import flyer from '../../../assets/recruitment/Winter2021_Flyer.png'
 
 

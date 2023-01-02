@@ -113,11 +113,14 @@ export default function Contact({ setPage }) {
 
     return (
         <Box mt={8} mb={14} className={classes.root}>
-            <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
+            
 
             <Box mt={4}></Box>
-            
-            <form onSubmit={handleSubmit}>
+                <h2>
+                    Contact ucilpn.recruiter@gmail.com with questions regarding recruitment! 
+                </h2>
+                <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
+            {/* <form onSubmit={handleSubmit}>
                 <Grid container spacing={7}>
                     <Grid item xs={12}>
                         <TextField
@@ -195,7 +198,7 @@ export default function Contact({ setPage }) {
                         </IconButton>
                     }
                 ></SnackbarContent>
-            </Snackbar>
+            </Snackbar> */}
             
         </Box>
     )

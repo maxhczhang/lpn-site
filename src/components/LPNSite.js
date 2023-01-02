@@ -16,9 +16,12 @@ import Profile from './pages/brothers/profile/Profile'
 import CampusInvolvement from './pages/campusInvolvements/CampusInvolvement'
 import Careers from './pages/careers/Careers'
 // import Winter2021 from './pages/rush/Winter2021'
-import Fall2020 from './pages/rush/Fall2020'
-import Fall2021 from './pages/rush/Fall2021'
-import Fall2022 from './pages/rush/Fall2022'
+// import Fall2020 from './pages/rush/Fall2020'
+// import Fall2021 from './pages/rush/Fall2021'
+// import Fall2022 from './pages/rush/Winter2023'
+
+import Winter2023 from './pages/rush/Winter2023'
+
 import FAQs from './pages/faqs/FAQs'
 import Gallery from './pages/gallery/Gallery'
 import Contact from './pages/contact/Contact'
@@ -94,11 +97,14 @@ export default function LPNSite() {
                         <Winter2021 setPage={setPage} />
                     </Route> */}
                     <Route exact path="/recruitment">
-                        <Fall2022 setPage={setPage} />
+                        <Winter2023 setPage={setPage} />
                     </Route>
-                    <Route exact path="/fall-rush-2020">
+                    {/* <Route exact path="/recruitment">
+                        <Winter2023 setPage={setPage} />
+                    </Route> */}
+                    {/* <Route exact path="/fall-rush-2020">
                         <Fall2020 setPage={setPage} />
-                    </Route>
+                    </Route> */}
                     <Route exact path="/faqs">
                         <FAQs setPage={setPage} />
                     </Route>

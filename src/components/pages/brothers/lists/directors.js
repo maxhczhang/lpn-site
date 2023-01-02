@@ -91,7 +91,7 @@ export const directors = [
         width: "90%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Qui_Hoang.jpg'),
         name: "Qui Hoang",
         title: "Recruiter",
         logo: require('../../../../assets/actives/logos/GrantThorton.png'),
@@ -99,22 +99,22 @@ export const directors = [
         width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Lilian_Luu.jpg'),
-        name: "Lilian Luu",
+        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
+        name: "Jasraj Singh",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/Comcast.png'),
-        company: 'Comcast',
-        width: "70%"
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "30%"
     },
-    
     {
-        img: require('../../../../assets/actives/brothers/Omar_Naji.jpg'),
-        name: "Omar Naji",
+        img: require('../../../../assets/actives/brothers/Will_Bordessa.jpg'),
+        name: "Will Bordessa",
         title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/CapitalOne.png'),
-        company: 'CapitalOne',
-        width: "70%"
+        logo: require('../../../../assets/actives/logos/Slalom.png'),
+        company: 'Slalom',
+        width: "60%"
     },
+
 ];
 
 export default { directors };
