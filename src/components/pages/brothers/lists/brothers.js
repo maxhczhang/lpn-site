@@ -254,70 +254,70 @@ export const brothers = [
 
     // Tau Class
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Alex_Zhou.jpg'),
         name: "Alex Zhou",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Brandyn_Huynh.jpg'),
         name: "Brandyn Huynh",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Denise_Wei.jpg'),
         name: "Denise Wei",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Evan_Choe.jpg'),
         name: "Evan Choe",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Grace_Xu.jpg'),
         name: "Grace Xu",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jacob_Uradnik.jpg'),
         name: "Jacob Uradnik",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Madhu_Sharma.jpg'),
         name: "Madhu Sharma",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Rainer_Setiawan.jpg'),
         name: "Rainer Setiawan",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg'),
         name: "Tannvi Banerjee",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Teresa_Chu.jpg'),
         name: "Teresa Chu",
         // logo: require('../../../../assets/actives/logos/BenQ.png'),
         // company: 'BenQ',
