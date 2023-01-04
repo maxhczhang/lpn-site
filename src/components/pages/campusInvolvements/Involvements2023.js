@@ -23,11 +23,15 @@ export const involvements2023 = {
 
     "Management Information Student Society": [
         { name: <Link component={RouterLink} to="/active-brothers/yllana-casim" color="inherit">Yllana Casim</Link>, company: 'MAISS', position: 'President' },
+        { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'MAISS', position: 'Co-Executive Vice President' },
+        { name: <Link component={RouterLink} to="/active-brothers/jamie-zhao" color="inherit">Jamie Zhao</Link>, company: 'MAISS', position: 'Vice President of External Affairs' },
         { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Ewaramoorthy</Link>, company: 'MAISS', position: 'VP of Professional Development' },
+        { name: <Link component={RouterLink} to="/active-brothers/evan-choe" color="inherit">Evan Choe</Link>, company: 'MAISS', position: 'External Affairs Intern' },
+        { name: <Link component={RouterLink} to="/active-brothers/hans-chang" color="inherit">Hans Chang</Link>, company: 'MAISS', position: 'Mentor' },
+        { name: <Link component={RouterLink} to="/active-brothers/lumin-oo" color="inherit">Lumin Oo</Link>, company: 'MAISS', position: 'Mentor' },
+        { name: <Link component={RouterLink} to="/active-brothers/raymond-dinh" color="inherit">Raymond Dinh</Link>, company: 'MAISS', position: 'Mentor' },
         { name: <Link component={RouterLink} to="/active-brothers/jaejin-kim" color="inherit">Jaejin Kim</Link>, company: 'MAISS', position: 'Mentee' },
-        { name: <Link component={RouterLink} to="/active-brothers/tannvi-banerjee" color="inherit">Tannvi Banerjee</Link>, company: 'MAISS', position: 'Intern' },
-        
-    
+        { name: <Link component={RouterLink} to="/active-brothers/alex-zhou" color="inherit">Alex Zhou</Link>, company: 'MAISS', position: 'Mentee' },
     ],
 
     "Marketing Association": [

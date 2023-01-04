@@ -493,7 +493,7 @@ export const profiles = {
         campusInvolvements: {"Executive Vice President":"Product at UCI","VP of Fellowship": "Product @ UCI", "Associate Auditor": "Lambda Phi Nu",},
         interests: ["Cooking","Baking","Reading","Video Games","Swimming","Music","Fonts"],
         whyLPN: "Memories, and are the reason I'm staying another year at UCI!",
-        img: require('../../../../assets/actives/brothers_small/Hanui_Lee.jpg')
+        img: require('../../../../assets/actives/brothers/Hanui_Lee.jpg')
     },
     Jamie_Zhao: {
         linkedIn: "https://www.linkedin.com/in/jamiezh/",
@@ -509,7 +509,7 @@ export const profiles = {
         campusInvolvements: {"VP of External Affairs":"Management Information Student Society", "Member Relations Director":"Marketing Association","Recruiter - Winter Quarter":"Lambda Phi Nu"},
         interests: ["Dancing", "Video Games", "Trying out new foods"],
         whyLPN: "I chose to rush LPN because I really wanted to push myself out of my comfort zone. During my freshman year, I felt isolated and demotivated during quarantine. I wanted to push myself out of my slump by joining this fraternity that not only furthered myself professionally, but I also created so many connections that I treasure deeply. I know that I would not be where I am without LPN.",
-        img: require('../../../../assets/actives/brothers_small/Jamie_Zhao.jpg')
+        img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg')
     },
     Lilian_Luu: {
         linkedIn: "https://www.linkedin.com/in/lluu/",
@@ -573,7 +573,7 @@ export const profiles = {
         campusInvolvements: { "Winter Associate Counselor":"Lambda Phi Nu","Operations Associate":"Lambda Phi Nu", "Member":"UCI Dragon Boat","Director of Public Relations":"Real Estate Association","Vice President of Community Development":"Real Estate Association", "Vice President of Internal Affairs":"Women in Leadership" },
         interests: ["Stretching", "Yelping", "Paddling", "Crying", "Brawl Stars" ],
         whyLPN: "Thanks to LPN, I am provided with a nurturing environment that encourages me to grow professionally and chase the stars. This community is full of passionate people who inspire me to live my best life every day.",
-        img: require('../../../../assets/actives/brothers_small/Elizabeth_Chan.jpg')
+        img: require('../../../../assets/actives/brothers/Liz_Chan.jpg')
     },
     Ethan_Canavan: {
         linkedIn: "https://www.linkedin.com/in/ethancanavan/",
