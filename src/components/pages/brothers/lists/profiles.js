@@ -882,7 +882,7 @@ export const profiles = {
         campusInvolvements: {"Mentee":"Management Information Student Society","Member":"Chinese Association"},
         interests: ["Video Games", "Reading", "Traveling", "Online Shopping", "Hanging out with friends"],
         whyLPN: "LPN gave me a supportive community that will undoubtedly have my back for life. I rushed with the intention of gaining professional help, but I ended up leaving with so much more.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Alex_Zhou.jpg')
     },
     Brandyn_Huynh: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
