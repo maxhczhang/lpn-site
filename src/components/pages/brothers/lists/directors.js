@@ -82,14 +82,7 @@ export const directors = [
     //     width: "60%"
     // },
     // When someone has more than one position, what should we do?
-    {
-        img: require('../../../../assets/actives/brothers/Eddie_Rios.jpg'),
-        name: "Eddie Rios",
-        title: "Recruiter",
-        logo: require('../../../../assets/actives/logos/MentorGlobalConsultants.png'),
-        company: 'Mentor Global Consultants',
-        width: "90%"
-    },
+
     {
         img: require('../../../../assets/actives/brothers/Qui_Hoang.jpg'),
         name: "Qui Hoang",

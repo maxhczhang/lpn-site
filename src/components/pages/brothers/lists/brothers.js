@@ -230,6 +230,14 @@ export const brothers = [
         width: "60%"
     },
     {
+        img: require('../../../../assets/actives/brothers/Eddie_Rios.jpg'),
+        name: "Eddie Rios",
+        // title: "Recruiter",
+        logo: require('../../../../assets/actives/logos/MentorGlobalConsultants.png'),
+        company: 'Mentor Global Consultants',
+        width: "90%"
+    },
+    {
         img: require('../../../../assets/actives/brothers/Yllana_Casim.jpg'),
         name: "Yllana Casim",
         logo: require('../../../../assets/actives/logos/Intel.png'),
