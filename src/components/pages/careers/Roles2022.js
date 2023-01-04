@@ -19,7 +19,7 @@ export const roles2022 = {
         "Consulting": [
             { name: <Link component={RouterLink} to="/active-brothers/Eddie-Rios" color="inherit">Eddie Rios</Link>, company: 'Mentor Global Consultants', position: "Research and Business Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Kayla-Wong" color="inherit">Kayla Wong</Link>, company: 'Accenture', position: "Salesforce Project: Business Analyst Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Lumin-Oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Discovery Consulting Interrn" },
+            { name: <Link component={RouterLink} to="/active-brothers/Lumin-Oo" color="inherit">Lumin Oo</Link>, company: 'Deloitte', position: "Discovery Consulting Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Raymond-Dinh" color="inherit">Raymond Dinh</Link>, company: 'Salesforce', position: "Business Systems Analyst Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Will-Bordessa" color="inherit">Will Bordessa</Link>, company: 'Slalom', position: "Business Advisory Services Intern" },
         ],

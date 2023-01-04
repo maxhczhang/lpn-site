@@ -874,8 +874,8 @@ export const profiles = {
         year: "1st",
         class: "Tau",
         major: "Computer Science",
-        // minor: "Urban and Regional Planning",
-        // emphasis: "Organization and Management",
+        minor: "",
+        emphasis: "",
         practice: "Software Engineering",
         pronouns: "He/Him/His",
         // experience: {"Business Advisory Services Intern":"Slalom","E-commerce Team Member":"Whole Foods Market","Social Media Marketing Manager":"Calvary Chapel Bible College Japan"},
@@ -890,7 +890,7 @@ export const profiles = {
         year: "3rd",
         class: "Tau",
         major: "Business Administration",
-        // minor: "Urban and Regional Planning",
+        minor: "",
         emphasis: "Marketing and Organizational Management",
         practice: "Human Resources",
         pronouns: "He/Him/His",
@@ -898,7 +898,7 @@ export const profiles = {
         campusInvolvements: {"Co-Company Relations Director":"Marketing Association"},
         interests: ["Evening runs", "Biking", "Concerts", "Painting", "Thrifting", "Trying different food places", "Learning different instruments" ],
         whyLPN: "Coming in as a transfer, I wanted to get involved as much as possible and seek out any opportunities for personal growth and professional development. I still had a lot of learning about the different industries within the business realm and was still determining what I wanted to pursue career-wise. However, once joining LPN, I had the chance to be surrounded by a community of unique and motivated individuals who supported me by helping me figure out my career goals and also allowing me to learn from their experiences personally and professionally. LPN is a tight-knit community that fosters strong brotherhood and has given me a community of people I know I can always depend on and draw inspiration from.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Brandyn_Huynh.jpg')
     },
     Denise_Wei: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -906,7 +906,7 @@ export const profiles = {
         year: "3rd",
         class: "Tau",
         major: "Business Administration, Data Science",
-        // minor: "Urban and Regional Planning",
+        minor: "",
         emphasis: "Accounting",
         practice: "Audit",
         pronouns: "She/Her/Hers",
@@ -914,7 +914,7 @@ export const profiles = {
         campusInvolvements: {"Committee Board Officer":"Accounting Association", "Finance Associate":"Lambda Phi Nu"},
         interests: ["Golf", "Snowboarding", "Card games", "Trying new extreme sports" ],
         whyLPN: "I wanted to immerse myself in a community of driven and supportive individuals. Everyone at LPN carries themselves with confidence and are always willing to help out, even those outside of the fraternity. Seeing this through rush was what ultimately led me to join LPN. Through LPN, I have been able to form meaningful relationships with both my Pledge Class and Active Brothers, and I can always rely on them for personal and professional help. These connections are unique in that I know they will extend beyond college.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Denise_Wei.jpg')
     },
     Evan_Choe: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -922,7 +922,7 @@ export const profiles = {
         year: "1st",
         class: "Tau",
         major: "Business Administration",
-        // minor: "Urban and Regional Planning",
+        minor: "",
         emphasis: "Finance, Marketing",
         practice: "Consulting, Product Management",
         pronouns: "He/Him/His",
@@ -930,7 +930,7 @@ export const profiles = {
         campusInvolvements: {"Executive Associate":"Lambda Phi Nu", "Alumni Relations Intern":"Lambda Phi Nu"},
         interests: ["Hanging Out", "Writing", "Reading", "History & Philosophy", "Going on Walks", "Skiing", "Soccer", "Video Games", "Wikipedia Rabbit Holes", "Guessing Peoples' MBTI" ],
         whyLPN: "I have never grown faster within such a short period of time as I have here in LPN. As long as I put in the effort, I knew I was improving every step of the way. More importantly, there were rarely times I experienced something alone. In common struggle and common joy, I could not imagine myself in LPN without those who were there to support me. Now, I have a community with which to further cultivate such meaningful relationships and give back with sincerity.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Evan_Choe.jpg')
     },
     Grace_Xu: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -938,15 +938,15 @@ export const profiles = {
         year: "2nd",
         class: "Tau",
         major: "Business Economics",
-        // minor: "Urban and Regional Planning",
-        // emphasis: "Finance, Marketing",
+        minor: "",
+        emphasis: "",
         practice: "Marketing",
         pronouns: "She/Her/Hers",
         experience: {"Desk Assistant":"Langson Library","Music Radio Host":"KUCI", "Music Librarian":"KUCI"},
         campusInvolvements: {"Audio Intern":"KUCI"},
         interests: ["Doodling", "Shopping for clothes", "Gaming", "Listening to music", "Creating Spotify playlists", "Playing violin" ],
         whyLPN: "I chose LPN because of the tight-knit community and the message. Everyone here genuinely wants to see you grow professionally and is willing to help you along the way. LPN is like my second family!",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Grace_Xu.jpg')
     },
     Jacob_Uradnik: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -954,15 +954,15 @@ export const profiles = {
         year: "2nd",
         class: "Tau",
         major: "Business Administration",
-        // minor: "Urban and Regional Planning",
+        minor: "",
         emphasis: "Organization and Management",
-        // practice: "Consulting, Product Management",
+        practice: "",
         pronouns: "He/Him/His",
         experience: {"Catering Chef":"Foodz","Aldarra":"Outdoor Services"},
         campusInvolvements: {"Representative":"Merage Undergraduate Student Association"},
         interests: ["Cooking", "Bouldering", "Skiing", "Hiking", "Fishing", "Thrifting", "Listening to music", "Spending quality time with friends" ],
         whyLPN: "I struggled a lot during my first year at UCI. Coming from out of state, I was in a completely new environment. I had a hard time making friends and couldn’t find the motivation to complete any of my school work. I didn’t like being a business administration major, and I wanted to transfer. The following year, I was dreading going back to UCI. I knew I needed to get involved around campus more, but I didn’t know how. When I first rushed for LPN, it gave me a new sense of direction. Not only did I meet people who I now know will be my lifelong friends, but I finally felt motivated to pursue business. The brotherhood and direction that LPN gave me has completely changed my college experience, and I am forever grateful.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jacob_Uradnik.jpg')
     },
     Madhu_Sharma: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -970,15 +970,15 @@ export const profiles = {
         year: "2nd",
         class: "Tau",
         major: "Computer Science",
-        // minor: "Urban and Regional Planning",
-        // emphasis: "Organization and Management",
+        minor: "",
+        emphasis: "",
         practice: "Software Engineering, Entrepreneurship",
         pronouns: "He/Him/His",
         experience: {"Co-Founder":"Bonsai","Software Development Engineer Intern":"Amazon","Software Developer":"Delta System & Software, Inc."},
         campusInvolvements: {"Technical Lead":"Commit the Change","Information Associate":"Lambda Phi Nu"},
         interests: ["Hanging out with friends", "Trying out new foods", "Videogames", "Music", "Anime", "K-Pop Dance", "Volleyball, Weightlifting" ],
         whyLPN: "I initially wanted to join a business fraternity because I value creating life-long relationships with others. Not the type of friends you only hang out with, but also the ones that will push you to be the best version of yourself. Upon hearing about Lambda Phi Nu, I connected with the motto: 'Grow Forward. Give Back.' Throughout my life, I have had amazing people help me grow forward, and I enjoy helping people, especially those who used to be in my position. Since joining LPN, I have enjoyed every interaction I have with the Active Brothers, and I look forward to spending more time with them in the upcoming years.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Madhu_Sharma.jpg')
     },
     Rainer_Setiawan: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -986,7 +986,7 @@ export const profiles = {
         year: "3rd",
         class: "Tau",
         major: "Business Administration",
-        // minor: "Urban and Regional Planning",
+        minor: "",
         emphasis: "Finance and Information Systems",
         practice: "Product Design",
         pronouns: "He/Him/His",
@@ -994,7 +994,7 @@ export const profiles = {
         campusInvolvements: {"TCohort":"LEADS Program","Information Associate":"Design at UCI "},
         interests: ["Tennis", "Basketball", "Video Games", "Anime", "Manga", "Sleep" ],
         whyLPN: "Despite being from the area, I came to UCI knowing very few people. As a transfer and not knowing what career path to choose, rushing LPN was the best decision I could have made. I learned the directions I want to take stepping into the professional world and how to better socialize with others. My growth through joining LPN has been significant, and I look forward to using what I have learned to succeed. As an LPN brother, I know that I am not alone. It is always reassuring to know there are others I can rely on and will always be there for me every step of the way.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Rainer_Setiawan.jpg')
     },
     Tannvi_Banerjee: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -1002,15 +1002,15 @@ export const profiles = {
         year: "1st",
         class: "Tau",
         major: "Computer Science",
-        // minor: "Urban and Regional Planning",
-        // emphasis: "Finance and Information Systems",
+        minor: "",
+        emphasis: "",
         practice: "Software Engineering, Venture Capital",
         pronouns: "She/Her/Hers",
         experience: {"Computational Economics Researcher":"New York University","Data Science Intern":"Stanford Daily", "Computational Biology Researcher":"ASDRP Research Labs"},
         campusInvolvements: {"Software Engineering Fellow":"Product Association","Professional Development Intern":"Management Information Student Society","Software Developer":"Commit the Change"},
         interests: ["Baking", "Kayaking", "Fashion", "Curating Spotify Playlists", "Collecting Succulents", "Making Pinterest Boards", "Badminton", "Crossword Puzzles", "Watching Crime/Horror Movies", "Eating", "Napping", "Petting Dogs" ],
         whyLPN: "I rushed LPN looking to find a tight-knit community as a first-year in college. Since joining LPN, I have met some of the most genuine people who have pushed me to grow and challenge my own perspective. What I value the most about this community is how supportive everyone is. I can rely on the Active Brothers to help me navigate the ups and downs of college life. And because everyone is always up to something cool, I end up having the most interesting conversations with other brothers!",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg')
     },
     Teresa_Chu: {
         // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
@@ -1026,7 +1026,7 @@ export const profiles = {
         campusInvolvements: {"Operations Associate":"Lambda Phi Nu","Administrative Student Intern":"Administrative Internship Program","Director of External Relations":"FLA","LIFEvest Resident Advisor":"UCI Paul Merage CIWM","LIFEvest Alumni Mentorship Program (LAMP) Mentor":"UCI Paul Merage CIWM","Goldman Sachs Excel Skills for Business Virtual Experience Program":"UC Investment Academy, Pilot Program with Forage","Mentor":"IPG","Scholar Committee Member":"IPG","Mentee":"IPG","Intern":"UBA","Mentee":"UBA","Mentee":"MAISS"},
         interests: ["Major Foodie", "Cooking", "Traveling", "Skiing", "Hiking", "Swimming", "Gymming", "Skincare", "Hanging out with friends" ],
         whyLPN: "LPN is a place where I can 'Grow Forward. Give Back' to the community with a group of driven people. I am grateful that I have learned and been helped a lot during my time as a mentee in my freshmen year. Therefore, I am eager to advocate the virtuous cycle of mentorship, as I am constantly learning from others and offering help to others. I love how this family empowers people to become the best version of themselves.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Teresa_Chu.jpg')
     },
 };
 
