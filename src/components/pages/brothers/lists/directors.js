@@ -91,22 +91,8 @@ export const directors = [
         company: 'Grant Thorton',
         width: "55%"
     },
-    {
-        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
-        name: "Jasraj Singh",
-        title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
-        company: 'Sencha Credit',
-        width: "30%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Will_Bordessa.jpg'),
-        name: "Will Bordessa",
-        title: "Associate Counselor",
-        logo: require('../../../../assets/actives/logos/Slalom.png'),
-        company: 'Slalom',
-        width: "60%"
-    },
+    
+
 
 ];
 

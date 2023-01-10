@@ -150,6 +150,14 @@ export const brothers = [
     //     width: "35%"
     // },
     {
+        img: require("../../../../assets/actives/brothers/Raj_Singh.jpg"),
+        name: "Jasraj Singh",
+        // title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/SenchaCredit.png'),
+        company: 'Sencha Credit',
+        width: "30%"
+    },
+    {
         img: require('../../../../assets/actives/brothers/Kaylie_Zhou.jpg'),
         name: "Kaylie Zhou",
         logo: require('../../../../assets/actives/logos/Adobe.png'),
@@ -251,6 +259,14 @@ export const brothers = [
         logo: require('../../../../assets/actives/logos/BenQ.png'),
         company: 'BenQ',
         width: "75%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Will_Bordessa.jpg'),
+        name: "Will Bordessa",
+        // title: "Associate Counselor",
+        logo: require('../../../../assets/actives/logos/Slalom.png'),
+        company: 'Slalom',
+        width: "60%"
     },
     // {
     //     img: require('../../../../assets/lpn_assets/pfp_temp.png'),
