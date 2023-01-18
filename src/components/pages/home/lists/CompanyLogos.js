@@ -16,8 +16,8 @@ export const companyLogos = [
         title: 'Amazon'
     },
     {
-        img: require('../../../../assets/companyLogos/Experian.png'),
-        title: 'Experian'
+        img: require('../../../../assets/actives/logos/Salesforce.png'),
+        title: 'Salesforce'
     }, 
     {
         img: require('../../../../assets/companyLogos/Google.png'),
@@ -36,8 +36,8 @@ export const companyLogos = [
         title: 'Deloitte'
     },
     {
-        img: require('../../../../assets/actives/logos/Kpmg.png'),
-        title: 'KPMG'
+        img: require('../../../../assets/actives/logos/PwC_Black.png'),
+        title: 'PwC'
     },
     {
         img: require('../../../../assets/actives/logos/ServiceNow.png'),

@@ -12,7 +12,7 @@ export const orgsLogos = [
     {
         img: require('../../../assets/orgsLogos/BAP.png'),
         title: 'Beta Alpha Psi',
-        link: 'https://www.accountinguci.com/bap.html'
+        link: 'https://www.accountinguci.com/aboutbap.html'
     },
     {
         img: require('../../../assets/orgsLogos/HRMA.png'),
@@ -37,7 +37,7 @@ export const orgsLogos = [
     {
         img: require('../../../assets/orgsLogos/ISBA.png'),
         title: 'International Student Business Association',
-        link: 'https://instabio.cc/21022hjMc4O'
+        link: 'https://campusgroups.uci.edu/iba/home/'
     },
 ];
 

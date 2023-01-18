@@ -5,14 +5,14 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/sydney-yu'
     },
     {
-        img: require('../../../assets/companyLogos/Ebay.png'),
-        title: 'eBay',
-        link: 'https://www.lpnuci.com/#/active-brothers/naveen-sastri',
+        img: require('../../../assets/companyLogos/Accenture.png'),
+        title: 'Accenture',
+        link: 'https://www.lpnuci.com/#/active-brothers/kayla-wong',
     },
     {
-        img: require('../../../assets/companyLogos/Amazon.png'),
-        title: 'Amazon',
-        link: 'https://www.lpnuci.com/#/active-brothers/julian-rachman'
+        img: require('../../../assets/actives/logos/Comcast_Black.png'),
+        title: 'Comcast',
+        link: 'https://www.lpnuci.com/#/active-brothers/lilian-luu'
     },
     {
         img: require('../../../assets/companyLogos/TikTok.png'),
@@ -22,7 +22,7 @@ export const companyLogos = [
     {
         img: require('../../../assets/companyLogos/Microsoft.png'),
         title: 'Microsoft',
-        // link: 'https://www.lpnuci.com/#/active-brothers/ryan-miranda'
+        link: 'https://www.lpnuci.com/#/active-brothers/ryan-miranda'
     },   
     {
         img: require('../../../assets/companyLogos/Deloitte.png'),
@@ -30,9 +30,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/deena-toofan',
     },
     {
-        img: require('../../../assets/companyLogos/Experian.png'),
-        title: 'Experian',
-        // link: 'https://www.lpnuci.com/#/active-brothers/lucian-liu'
+        img: require('../../../assets/actives/logos/Salesforce.png'),
+        title: 'Salesforce',
+        link: 'https://www.lpnuci.com/#/active-brothers/raymond-dinh'
     },
     {
         img: require('../../../assets/companyLogos/CapitalOne.png'),
@@ -40,9 +40,9 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/omar-naji',
     },
     {
-        img: require('../../../assets/actives/logos/Jenny_Cheung.png'),
-        title: 'Shiseido',
-        // link: 'https://www.lpnuci.com/#/active-brothers/jenny-cheung'
+        img: require('../../../assets/actives/logos/Adobe.png'),
+        title: 'Adobe',
+        link: 'https://www.lpnuci.com/#/active-brothers/kaylie-zhou'
     },
     {
         img: require('../../../assets/companyLogos/JpMorgan.jpg'),
@@ -50,14 +50,14 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/hanui-lee',
     },
     {
-        img: require('../../../assets/companyLogos/Western_Digital.png'),
-        title: 'Western Digital',
-        link: 'https://www.lpnuci.com/#/active-brothers/justin-chao'
+        img: require('../../../assets/companyLogos/Amazon.png'),
+        title: 'Amazon',
+        link: 'https://www.lpnuci.com/#/active-brothers/catherine-ngyuen'
     },
     {
-        img: require('../../../assets/actives/logos/Kpmg.png'),
-        title: 'KPMG',
-        // link: 'https://www.lpnuci.com/#/active-brothers/linda-woo',
+        img: require('../../../assets/actives/logos/PwC_Black.png'),
+        title: 'PwC',
+        link: 'https://www.lpnuci.com/#/active-brothers/talia-yip',
     },
    
 ];

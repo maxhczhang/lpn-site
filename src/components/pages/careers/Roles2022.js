@@ -44,22 +44,16 @@ export const roles2022 = {
         "Marketing": [
             { name: <Link component={RouterLink} to="/active-brothers/Adrian-Siu" color="inherit">Adrian Siu</Link>, company: 'ServiceNow', position: "Solutions Marketing Co-op" },
             { name: <Link component={RouterLink} to="/active-brothers/Catherine-Lin" color="inherit">Catherine Lin</Link>, company: 'UCI Esports', position: "Stream Production Intern" },
-
             { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Courtney Tsao</Link>, company: 'NBCUniversal', position: "Consumer Insights Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Hans-Chang" color="inherit">Hans Chang</Link>, company: 'BENQ', position: "Ecommerce Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Jamie-Zhao" color="inherit">Jamie Zhao</Link>, company: 'ServiceNow', position: "Strategic Events Marketing Co-Op" },
-            // { name: <Link component={RouterLink} to="/active-brothers/Josh-Tong" color="inherit">Josh Tong</Link>, company: 'UFC', position: "Content Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Julie-Hsieh" color="inherit">Julie Hsieh</Link>, company: 'Day and Night International Co.', position: "Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Naveen-Sastri" color="inherit">Naveen Sastri</Link>, company: 'MasterCard', position: "Cyber & Intelligence Solutions Intern" },
-
-            
-
         ],
 
         "Operations": [
             { name: <Link component={RouterLink} to="/active-brothers/Aaron-Lee" color="inherit">Aaron Lee</Link>, company: 'Oppti', position: "Business Development Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Sera-Xu" color="inherit">Sera Xu</Link>, company: 'Glassdoor', position: "Business Operations Intern" },
-            
         ],
 
         "Product": [
@@ -67,7 +61,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Hanui-Lee" color="inherit">Hanui Lee</Link>, company: 'JP Morgan Chase & Co.', position: "Design Development Summer Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Nicole-Nguyen" color="inherit">Nicole Nguyen</Link>, company: "Moody's Analytics", position: "Data Solutions Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Stephen-Minn" color="inherit">Stephen Minn</Link>, company: 'Cox Automotive', position: "Product Management Intern" },
-            ],
+        ],
 
         "Public Relations": [
             { name: <Link component={RouterLink} to="/active-brothers/Lilian-Luu" color="inherit">Lilian Luu</Link>, company: 'Comcast', position: "Public Relations Intern" },
