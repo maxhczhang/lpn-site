@@ -48,7 +48,7 @@ export default function HomeCoreValues({isMobile}) {
                         <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
                             Excellence
                         </Box>
-                        <Box fontSize="h6.fontSize">Whether its scaling a rock wall or securing positions at top-tier firms, our Brothers excel at everything they do.</Box>
+                        <Box fontSize="h6.fontSize">Whether its leading campus organizations or securing positions at top-tier firms, our Brothers excel at everything they do.</Box>
                     </Typography>
                 </Grid>
 
@@ -57,7 +57,7 @@ export default function HomeCoreValues({isMobile}) {
                         <Box fontWeight="fontWeightMedium" fontSize="h3.fontSize" mt={5} mb={2}>
                             Relationships
                         </Box>
-                        <Box fontSize="h6.fontSize">Our Brothers form life-long relationships with the friends they cross with as well as all our Active and Alumni Brothers.</Box>
+                        <Box fontSize="h6.fontSize">Our Brothers form life-long relationships with their Pledge Class in addition to all our Active and Alumni Brothers.</Box>
                     </Typography>
                 </Grid>
 

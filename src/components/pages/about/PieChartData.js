@@ -1,13 +1,15 @@
+// Updated to include the Tau Data
+
 export const chartData = {
     "Industry": {
         "data": [
-            { title: 'Consulting', value: 6, color: '#f2669c' },
-            { title: 'Human Resources', value: 3, color: '#374c80' },
-            { title: 'Technology', value: 8, color: '#003f5c' },
-            { title: 'Finance', value: 3, color: "#7a5195" },
-            { title: 'Accounting', value: 3, color: '#ff764a' },
-            // { title: 'Other', value: 3, color: '#ffa600' },
-            { title: 'Marketing', value: 11, color: '#bc5090' },
+            { title: 'Consulting', value: 7, color: '#f2669c' },
+            { title: 'Human Resources', value: 4, color: '#374c80' },
+            { title: 'Product', value: 8, color: '#003f5c' },
+            { title: 'Finance', value: 4, color: "#7a5195" },
+            { title: 'Accounting', value: 6, color: '#ff764a' },
+            { title: 'SWE', value: 6, color: '#ffa600' },
+            { title: 'Marketing', value: 9, color: '#bc5090' },
         ],
         "lightened": [
             '#eb8db1',
@@ -20,15 +22,13 @@ export const chartData = {
         ]
     },
     
-    
     "Major": {
         "data": [
-            { title: 'BA', value: 17, color: "#417293" },
+            { title: 'Business Admin.', value: 22, color: "#417293" },
             { title: 'Sociology', value: 4, color: '#719bbb' },
             { title: 'BIM', value: 1, color: '#a0c6e4 ' },
-            { title: 'CS', value: 3, color: '#ffa600' },
-            { title: 'Bus Econ', value: 9, color: '#f1a947' },
-
+            { title: 'CS', value: 6, color: '#ffa600' },
+            { title: 'Business Econ.', value: 14, color: '#FFB755' },
         ],
         "lightened": [
             '#5F90B1',
@@ -44,8 +44,8 @@ export const chartData = {
     
     "Gender": {
         "data": [
-            { title: 'Male', value: 15, color: "#383e56" },
-            { title: 'Female', value: 19, color: '#fb743e' },
+            { title: 'Male', value: 20, color: "#383e56" },
+            { title: 'Female', value: 27, color: '#fb743e' },
         ],
         "lightened": [
             '#565C74',
@@ -56,3 +56,4 @@ export const chartData = {
 };
 
 export default { chartData };
+

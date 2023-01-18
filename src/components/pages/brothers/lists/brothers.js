@@ -1,5 +1,3 @@
-import { Class } from "@material-ui/icons";
-
 export const brothers = [
     // Iota Class
     // {

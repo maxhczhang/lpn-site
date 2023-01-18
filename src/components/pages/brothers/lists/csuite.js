@@ -8,20 +8,20 @@ export const csuite = [
         width: "80%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
-        name: "Nicole Nguyen",
-        title: 'Chief Information Officer',
-        logo: require('../../../../assets/actives/logos/Moody.png'),
-        company: "Moody's Analytics",
-        width: "55%"
-    },
-    {
         img: require('../../../../assets/actives/brothers/Jodie_Tai.jpg'),
         name: "Jodie Tai",
         title: 'Chief Financial Officer',
         logo: require('../../../../assets/actives/logos/WaltDisney.png'),
         company: 'Disney',
         width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
+        name: "Nicole Nguyen",
+        title: 'Chief Information Officer',
+        logo: require('../../../../assets/actives/logos/Moody.png'),
+        company: "Moody's Analytics",
+        width: "55%"
     },
     {
         img: require('../../../../assets/actives/brothers/Naveen_Sastri.jpg'),
