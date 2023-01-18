@@ -31,14 +31,14 @@ export const csuite = [
         company: 'Mastercard',
         width: "40%",
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
-    //     name: "Ryan Miranda",
-    //     title: 'Fall Chief Talent Officer',
-    //     logo: require('../../../../assets/actives/logos/Microsoft.png'),
-    //     company: 'Microsoft',
-    //     width: "25%"
-    // },
+    {
+        img: require('../../../../assets/actives/brothers/Ryan_Miranda.jpg'),
+        name: "Ryan Miranda",
+        title: 'Fall Chief Talent Officer',
+        logo: require('../../../../assets/actives/logos/Microsoft.png'),
+        company: 'Microsoft',
+        width: "25%"
+    },
      {
         img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
         name: "Vivian Tran",

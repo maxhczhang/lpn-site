@@ -869,7 +869,7 @@ export const profiles = {
     },
     // Tau
     Alex_Zhou: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/zhouaz/",
         homeTown: "Southlake, TX",
         year: "1st",
         class: "Tau",
@@ -885,7 +885,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Alex_Zhou.jpg')
     },
     Brandyn_Huynh: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/brandyn-le-huynh/",
         homeTown: "Milpitas, CA",
         year: "3rd",
         class: "Tau",
@@ -901,7 +901,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Brandyn_Huynh.jpg')
     },
     Denise_Wei: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/denise-wei/",
         homeTown: "San Francisco, CA",
         year: "3rd",
         class: "Tau",
@@ -917,7 +917,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Denise_Wei.jpg')
     },
     Evan_Choe: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/evan-c-choe/",
         homeTown: "Irvine, CA",
         year: "1st",
         class: "Tau",
@@ -933,7 +933,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Evan_Choe.jpg')
     },
     Grace_Xu: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/grace-xuuu/",
         homeTown: "Birmingham, AL",
         year: "2nd",
         class: "Tau",
@@ -949,7 +949,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Grace_Xu.jpg')
     },
     Jacob_Uradnik: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/jacob-uradnik/",
         homeTown: "Sammamish, WA",
         year: "2nd",
         class: "Tau",
@@ -965,7 +965,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Jacob_Uradnik.jpg')
     },
     Madhu_Sharma: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/madhuxsharma/",
         homeTown: "Plano, TX",
         year: "2nd",
         class: "Tau",
@@ -981,7 +981,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Madhu_Sharma.jpg')
     },
     Rainer_Setiawan: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/rainer-setiawan/",
         homeTown: "Chino Hills, CA",
         year: "3rd",
         class: "Tau",
@@ -997,7 +997,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Rainer_Setiawan.jpg')
     },
     Tannvi_Banerjee: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/tannvi-banerjee/",
         homeTown: "Fremont, CA",
         year: "1st",
         class: "Tau",
@@ -1013,7 +1013,7 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg')
     },
     Teresa_Chu: {
-        // linkedIn: "https://www.linkedin.com/in/will-bordessa/",
+        linkedIn: "https://www.linkedin.com/in/teresa-chu56/",
         homeTown: "Taipei, Taiwan",
         year: "2nd",
         class: "Tau",
