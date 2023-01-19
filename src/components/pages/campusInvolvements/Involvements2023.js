@@ -11,7 +11,7 @@ export const involvements2023 = {
 
     "Hack at UCI": [
         { name: <Link component={RouterLink} to="/active-brothers/jaejin-kim" color="inherit">Jaejin Kim</Link>, company: 'Hack at UCI', position: "Corporate Organizer" },
-        { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Ewaramoorthy</Link>, company: 'Hack at UCI', position: 'Corporate Organizer' },
+        { name: <Link component={RouterLink} to="/active-brothers/rithu-eswaramoorthy" color="inherit">Rithu Eswaramoorthy</Link>, company: 'Hack at UCI', position: 'Corporate Organizer' },
         ],
 
     "Human Resources Management Association": [

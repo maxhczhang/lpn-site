@@ -10,7 +10,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/kayla-wong',
     },
     {
-        img: require('../../../assets/actives/logos/Comcast_Black.png'),
+        img: require('../../../assets/companyLogos/Comcast_Black.png'),
         title: 'Comcast',
         link: 'https://www.lpnuci.com/#/active-brothers/lilian-luu'
     },
@@ -30,7 +30,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/deena-toofan',
     },
     {
-        img: require('../../../assets/actives/logos/Salesforce.png'),
+        img: require('../../../assets/companyLogos/Salesforce.png'),
         title: 'Salesforce',
         link: 'https://www.lpnuci.com/#/active-brothers/raymond-dinh'
     },
@@ -40,7 +40,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/omar-naji',
     },
     {
-        img: require('../../../assets/actives/logos/Adobe.png'),
+        img: require('../../../assets/companyLogos/Adobe.png'),
         title: 'Adobe',
         link: 'https://www.lpnuci.com/#/active-brothers/kaylie-zhou'
     },
@@ -55,7 +55,7 @@ export const companyLogos = [
         link: 'https://www.lpnuci.com/#/active-brothers/catherine-ngyuen'
     },
     {
-        img: require('../../../assets/actives/logos/PwC_Black.png'),
+        img: require('../../../assets/companyLogos/PwC.png'),
         title: 'PwC',
         link: 'https://www.lpnuci.com/#/active-brothers/talia-yip',
     },

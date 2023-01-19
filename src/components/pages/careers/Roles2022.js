@@ -14,6 +14,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Qui-Hoang" color="inherit">Qui Hoang</Link>, company: 'Grant Thornton', position: "Rotational Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Sydney-Yu" color="inherit">Sydney Yu</Link>, company: 'EY', position: "Audit Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Talia-Yip" color="inherit">Talia Yip</Link>, company: 'PwC', position: "Audit Intern" },
+            { name: <Link component={RouterLink} to="/active-brothers/Denise-Wei" color="inherit">Denise Wei</Link>, company: 'PwC', position: "Audit Intern" },
         ],
 
         "Consulting": [
@@ -26,7 +27,6 @@ export const roles2022 = {
 
         "Finance": [
             { name: <Link component={RouterLink} to="/active-brothers/Haley-Kim" color="inherit">Haley Kim</Link>, company: 'Wells Fargo', position: "Corporate Banking Summer Analyst" },
-            
         ],
 
         "Human Resources": [
@@ -60,7 +60,7 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Faith-Chia" color="inherit">Faith Chia</Link>, company: 'ServiceNow', position: "Product Marketing Co-Op" },
             { name: <Link component={RouterLink} to="/active-brothers/Hanui-Lee" color="inherit">Hanui Lee</Link>, company: 'JP Morgan Chase & Co.', position: "Design Development Summer Analyst" },
             { name: <Link component={RouterLink} to="/active-brothers/Nicole-Nguyen" color="inherit">Nicole Nguyen</Link>, company: "Moody's Analytics", position: "Data Solutions Marketing Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/Stephen-Minn" color="inherit">Stephen Minn</Link>, company: 'Cox Automotive', position: "Product Management Intern" },
+            { name: 'Stephen Minn', company: 'Cox Automotive', position: "Product Management Intern" },
         ],
 
         "Public Relations": [
@@ -77,7 +77,8 @@ export const roles2022 = {
             { name: <Link component={RouterLink} to="/active-brothers/Catherine-Nguyen" color="inherit">Catherine Nguyen</Link>, company: 'Amazon', position: "AWS Sales Intern" },
         ],
 
-        "Technology": [
+        "Software Engineering": [
+            { name: <Link component={RouterLink} to="/active-brothers/Madhu-Sharma" color="inherit">Madhu Sharma</Link>, company: 'Amazon', position: 'Software Development Engineer Intern'},
             { name: <Link component={RouterLink} to="/active-brothers/Ryan-Miranda" color="inherit">Ryan Miranda</Link>, company: 'Microsoft', position: "Software Engineer Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/Rithu-Eswaramoorthy" color="inherit">Rithu Eswaramoorthy</Link>, company: 'MongoDB', position: 'Software Engineer Intern'},
         ], 

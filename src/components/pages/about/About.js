@@ -11,7 +11,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import useWindowDimensions from '../../utils/WindowListener'
 import CoreValues from './CoreValues'
 import LPNFacts from './LPNFacts'
-import history_sep from '../../../assets/about/Founders_Alt_1.png'
+import history_sep from '../../../assets/about/Founders.png'
 import PieChartWrapper from './PieChartWrapper'
 import { chartData } from './PieChartData';
 
@@ -121,7 +121,7 @@ export default function About({setPage}) {
 
             <ParallaxBanner
                 style={{
-                    height: '60vh',
+                    height: '80vh',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',

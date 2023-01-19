@@ -8,9 +8,9 @@ export const roles2021 = {
     "Internships" : {
 
         "Accounting": [
-            { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'BDO', position: "Tax Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/cathy-yun" color="inherit">Cathy Yun</Link>, company: 'Holthouse Carlin & Van Trigt', position: "Tax Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Baker Tilly', position: "Tax Intern" },
+            { name: 'Cathy Yun', company: 'BDO', position: "Tax Intern" },
+            { name: 'Cathy Yun', company: 'Holthouse Carlin & Van Trigt', position: "Tax Intern" },
+            { name: 'Sahana Vairavaraj', company: 'Baker Tilly', position: "Tax Intern" },
         ],
 
         "Consulting": [
@@ -20,26 +20,26 @@ export const roles2021 = {
         ],
 
         "Finance": [
-            { name: <Link component={RouterLink} to="/active-brothers/julian-rachman" color="inherit">Julian Rachman</Link>, company: 'Two Sigma Ventures', position: "Summer Investor" },
-            { name: <Link component={RouterLink} to="/active-brothers/khoa-tran" color="inherit">Khoa Tran</Link>, company: 'JPMorgan Chase & Co.', position: "MMBSI Summer Analyst" },
-            { name: <Link component={RouterLink} to="/active-brothers/tiffany-wong" color="inherit">Tiffany Wong</Link>, company: 'JPMorgan Chase & Co.', position: "GFBM Summer Analyst" },
-            { name: <Link component={RouterLink} to="/active-brothers/lucian-liu" color="inherit">Lucian Liu</Link>, company: 'Prudential Private Capital', position: "Summer Investment Analyst" },
+            { name: 'Julian Rachman', company: 'Two Sigma Ventures', position: "Summer Investor" },
+            { name: 'Khoa Tran', company: 'JPMorgan Chase & Co.', position: "MMBSI Summer Analyst" },
+            { name: 'Tiffany Wong', company: 'JPMorgan Chase & Co.', position: "GFBM Summer Analyst" },
+            { name: 'Lucian Liu', company: 'Prudential Private Capital', position: "Summer Investment Analyst" },
         ],
 
         "Human Resources": [
             { name: <Link component={RouterLink} to="/active-brothers/omar-naji" color="inherit">Omar Naji</Link>, company: 'TikTok', position: "Talent Acquisition Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/sahana-vairavaraj" color="inherit">Sahana Vairavaraj</Link>, company: 'Capital One', position: "HR Rotational Program Intern" },
+            { name: 'Sahana Vairavaraj', company: 'Capital One', position: "HR Rotational Program Intern" },
         ],
 
         "Marketing": [
             { name: <Link component={RouterLink} to="/active-brothers/catherine-lin" color="inherit">Catherine Lin</Link>, company: 'Westhaven Power', position: "Marketing Intern" },
             { name: 'Le An Pham', company: 'Fiddler', position: "Marketing Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/serina-nguyen" color="inherit">Serina Nguyen</Link>, company: 'EtherWAN Systems', position: "Marketing Intern" },
+            { name: 'Serina Nguyen', company: 'EtherWAN Systems', position: "Marketing Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/catherine-nguyen" color="inherit">Catherine Nguyen</Link>, company: 'HashiCorp', position: "Marketing Demand Generation Intern" },
-            { name: <Link color="inherit">Courtney Tsao</Link>, company: 'SoundOff', position: 'Brand Management & PR Intern' },
+            { name: <Link component={RouterLink} to="/active-brothers/courtney-tsao" color="inherit">Catherine Nguyen</Link>, company: 'SoundOff', position: 'Brand Management & PR Intern' },
             { name: <Link component={RouterLink} to="/active-brothers/faith-chia" color="inherit">Faith Chia</Link>, company: 'TJX Companies', position: "Merchandising Intern" },
             { name: 'Jenny Cheung', company: 'Saks OFF 5th', position: "Social Media Intern" },
-            { name: <Link component={RouterLink} to="/active-brothers/joshua-tong" color="inherit">Joshua Tong</Link>, company: 'United Exchange Corporation', position: "Marketing Assistant" },
+            { name: 'Joshua Tong', company: 'United Exchange Corporation', position: "Marketing Assistant" },
             { name: <Link component={RouterLink} to="/active-brothers/naveen-sastri" color="inherit">Naveen Sastri</Link>, company: 'eBay', position: "Marketing Planning Intern" },
             { name: <Link component={RouterLink} to="/active-brothers/raj-singh" color="inherit">Raj Singh</Link>, company: 'Sencha Credit', position: "Content Marketer" },
         ],
@@ -52,8 +52,8 @@ export const roles2021 = {
         ],
 
         "Product": [
-            { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'McAfee', position: "Product Design Intern", },
-            { name: <Link component={RouterLink} to="/active-brothers/sandy-nguyen" color="inherit">Sandy Nguyen</Link>, company: 'MongoDB', position: "Product Design Intern", },
+            { name: 'Sandy Nguyen', company: 'McAfee', position: "Product Design Intern", },
+            { name: 'Sandy Nguyen', company: 'MongoDB', position: "Product Design Intern", },
         ],
 
         "Technology": [

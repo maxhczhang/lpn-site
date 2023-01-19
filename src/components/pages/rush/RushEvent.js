@@ -19,12 +19,12 @@ import InfoIcon from '@material-ui/icons/Info';
 import PeopleIcon from '@material-ui/icons/People';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import MailIcon from '@material-ui/icons/Mail';
-import VideocamIcon from '@material-ui/icons/Videocam';
+// import VideocamIcon from '@material-ui/icons/Videocam';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import LocalCafeIcon from '@material-ui/icons/LocalCafe';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 
-import ICalendarLink from "react-icalendar-link";
+//import ICalendarLink from "react-icalendar-link";
 
 
 const useStyles = makeStyles((theme) => ({

@@ -8,7 +8,7 @@ export const companyLogos = [
         title: 'Microsoft'
     },
     {
-        img: require('../../../../assets/actives/logos/Ey.png'),
+        img: require('../../../../assets/companyLogos/EY.png'),
         title: 'EY'
     },
     {
@@ -16,7 +16,7 @@ export const companyLogos = [
         title: 'Amazon'
     },
     {
-        img: require('../../../../assets/actives/logos/Salesforce.png'),
+        img: require('../../../../assets/companyLogos/Salesforce.png'),
         title: 'Salesforce'
     }, 
     {
@@ -36,11 +36,11 @@ export const companyLogos = [
         title: 'Deloitte'
     },
     {
-        img: require('../../../../assets/actives/logos/PwC_Black.png'),
+        img: require('../../../../assets/companyLogos/PwC.png'),
         title: 'PwC'
     },
     {
-        img: require('../../../../assets/actives/logos/ServiceNow.png'),
+        img: require('../../../../assets/companyLogos/ServiceNow.png'),
         title: 'ServiceNow'
     },
     {
@@ -60,7 +60,7 @@ export const companyLogos = [
         title: 'JPMorgan Chase'
     },
     {
-        img: require('../../../../assets/companyLogos/WellsFargo.jpeg'),
+        img: require('../../../../assets/companyLogos/WellsFargo.png'),
         title: 'Wells Fargo'
     },
 ];
