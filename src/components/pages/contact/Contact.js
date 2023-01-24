@@ -117,7 +117,7 @@ export default function Contact({ setPage }) {
 
             <Box mt={4}></Box>
                 <h2>
-                    Contact ucilpn.recruiter@gmail.com with questions regarding recruitment! 
+                    Contact ucilpn.ceo@gmail.com with questions! 
                 </h2>
                 <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
             {/* <form onSubmit={handleSubmit}>

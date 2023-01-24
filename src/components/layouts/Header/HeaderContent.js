@@ -1,12 +1,11 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-
 import Typist from 'react-typist'
+
 import useWindowDimensions from '../../utils/WindowListener'
 
 
@@ -68,6 +67,7 @@ export default function HeaderContent({pageNum}) {
 
     switch(pageNum) {
 
+        // Home
         case 0:
             const titles = ["A Business Leadership Fraternity.", "ΛΦΝ"]
             const captions = ["UC Irvine", "Curiosity", "Excellence", "Relationships", "Integrity", "Altruism"]
@@ -104,6 +104,7 @@ export default function HeaderContent({pageNum}) {
                 </React.Fragment>
             )   
             
+        // About
         case 1:
             return (
                 <React.Fragment>
@@ -122,6 +123,7 @@ export default function HeaderContent({pageNum}) {
         case 2:
             return ( <React.Fragment></React.Fragment> )
 
+        // Campus Involvement
         case 3:
             return (
                 <Box className={classes.smBckgrndContent}>
@@ -131,6 +133,7 @@ export default function HeaderContent({pageNum}) {
                 </Box>
             )
 
+        // Careers
         case 4:
             return (
                 <Box className={classes.smBckgrndContent}>
@@ -143,6 +146,8 @@ export default function HeaderContent({pageNum}) {
         case 5:
             return ( <React.Fragment></React.Fragment> )
 
+
+        // FAQs
         case 6:
             return (
                 <Box className={classes.noParallaxBckground}>
@@ -153,6 +158,8 @@ export default function HeaderContent({pageNum}) {
                 </Box>
             )
 
+
+        // Gallery
         case 7:
             return (
                 <React.Fragment>
@@ -169,6 +176,7 @@ export default function HeaderContent({pageNum}) {
                 </React.Fragment>
             )
 
+        // Contact
         case 8:
             return (
                 <Box className={classes.noParallaxBckground}>

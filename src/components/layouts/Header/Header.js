@@ -1,15 +1,13 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
-
 import { Link } from "react-router-dom";
 
 import logo_white from '../../../assets/lpn_assets/logo_white.png';
-import MyMenu from './MyMenu'
+//import MyMenu from './MyMenu'
 import MobileMenu from './MobileMenu'
 import useWindowDimensions from '../../utils/WindowListener'
 
@@ -65,35 +63,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// const recruitmentMenu = [
-//   // {
-//   //   title: "WINTER RUSH 2021",
-//   //   url: "/recruitment"
-//   // },
+// const brothersMenu = [
 //   {
-//     title: "FALL RUSH 2021",
-//     url: "/recruitment"
+//     title: "ACTIVE BROTHERS",
+//     url: "/active-brothers"
 //   },
 //   {
-//     title: "FALL RUSH 2020",
-//     url: "/fall-rush-2020"
+//     title: "CAMPUS INVOLVEMENT",
+//     url: "/campus-involvement"
 //   },
-//   // {
-//   //   title: "FAQS",
-//   //   url: "/faqs"
-//   // }
 // ]
-
-const brothersMenu = [
-  {
-    title: "ACTIVE BROTHERS",
-    url: "/active-brothers"
-  },
-  {
-    title: "CAMPUS INVOLVEMENT",
-    url: "/campus-involvement"
-  },
-]
 
 
 export default function Header({ pageNum }) {
@@ -125,29 +104,23 @@ export default function Header({ pageNum }) {
               </Link>
             </Grid>
 
-            {/* {isMobile &&
-              <Grid item>
-                <Button variant="contained" size="medium" color="inherit" component={Link} to="/recruitment"
-                  className={classes.joinButton}>
-                  Join Us
-                </Button>
-              </Grid>
-            } */}
           <div display="flex">
             {isMobile 
               ? <MobileMenu></MobileMenu>
               : <Grid item>
                 <Box>
-
                   <Button size="large" className={classes.button} component={Link} to="/">Home</Button> 
 
                   <Button size="large" className={classes.button} component={Link} to="/about">About</Button> 
 
-                  <MyMenu mainTitle="Brothers" menuItems={brothersMenu} buttonStyle={classes.button}></MyMenu>
+                  {/* <MyMenu mainTitle="Brothers" menuItems={brothersMenu} buttonStyle={classes.button}></MyMenu> */}
+
+                  <Button size="large" className={classes.button} component={Link} to="/active-brothers">Brothers</Button>
+
+                  <Button size="large" className={classes.button} component={Link} to="/campus-involvement">Campus Involvement</Button>
                   
                   <Button size="large" className={classes.button} component={Link} to="/careers">Careers</Button>
       
-                  {/* <MyMenu mainTitle="Recruitment" menuItems={recruitmentMenu} buttonStyle={classes.button}></MyMenu> */}
                   <Button size="large" className={classes.button} component={Link} to="/recruitment">Recruitment</Button>
 
                   <Button size="large" className={classes.button} component={Link} to="/gallery">Gallery</Button>
@@ -155,23 +128,15 @@ export default function Header({ pageNum }) {
                   <Button size="large" className={classes.button} component={Link} to="/contact">Contact</Button>
 
                   <Button size="large" className={classes.button} component={Link} to="/faqs">FAQ</Button>
-                  <a href="http://www.tinyurl.com/LPNWinterrush2023" style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer"> 
+                 
+                  {/* <a href="http://www.tinyurl.com/LPNWinterrush2023" style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer"> 
                     <Button style={{ textDecoration:'none' }} size="large" className={classes.button}>Apply</Button>
-                  </a>
-                  
+                  </a> */}
                 </Box>
               </Grid>
             }
-          </div>
-            {/* {!isMobile &&
-              <Grid item>
-                <Button variant="contained" size="large" color="inherit" component={Link} to="/recruitment"
-                  className={classes.joinButton}>
-                  Join Us
-                </Button>
-              </Grid>
-            } */}
-            
+          </div>       
+
           </Grid>
         </div>
 

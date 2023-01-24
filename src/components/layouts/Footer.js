@@ -64,7 +64,7 @@ export default function Footer() {
                         </a>
                     </Grid>
                     <Grid item>
-                        <a href="https://www.instagram.com/lpn.uci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://www.instagram.com/lpnuci/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <IconButton size="medium" aria-label="Instagram" className={classes.button}>
                                 <InstagramIcon></InstagramIcon>
                             </IconButton>

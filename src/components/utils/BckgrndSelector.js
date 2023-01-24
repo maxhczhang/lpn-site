@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 import Header from '../layouts/Header/Header'
@@ -9,7 +8,6 @@ import About from '../../assets/backgrounds/About.jpg'
 import CampusInvolvements from '../../assets/backgrounds/CampusInvolvements.jpeg'
 import Careers from '../../assets/backgrounds/Careers.jpeg'
 import Gallery from '../../assets/backgrounds/Gallery.jpg'
-
 import useWindowDimensions from './WindowListener';
 
 
@@ -18,6 +16,8 @@ export default function BckgrndSelector({ pageNum }) {
     const isMobile = width < 700;
 
     switch(pageNum) {
+
+        // Home
         case 0:
             return (
                 <ParallaxBanner
@@ -41,6 +41,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
         
+        // About
         case 1:
             return (
                 <ParallaxBanner
@@ -65,6 +66,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
 
+        // Active Brothers
         case 2:
             return (
                 <React.Fragment>
@@ -73,6 +75,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </React.Fragment>
             )
 
+        // Campus Involvements
         case 3:
             return (
                 <ParallaxBanner
@@ -98,6 +101,8 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
 
+
+        // Careers
         case 4:
             return (
                 <ParallaxBanner
@@ -122,6 +127,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
 
+        // Recruitment
         case 5:
             return (
                 <ParallaxBanner
@@ -131,12 +137,9 @@ export default function BckgrndSelector({ pageNum }) {
                         {
                             amount: 0.2,
                             children: 
-                                <iframe width="100%" height="100%" title="Rush Video"
-                                    src="https://www.youtube-nocookie.com/embed/gKH6xj1xg3U?playlist=gKH6xj1xg3U&loop=1&autoplay=1&mute=1&vq=hd720&controls=0"
-                                    frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-                                    style={isMobile ? {} : {pointerEvents: "none"}}
-                                >
-                                </iframe>
+                            <iframe width="100%" height="100%" title="Rush Video" src="https://www.youtube-nocookie.com/embed/8MgFYLCZnS4?playlist=8MgFYLCZnS4&loop=1&autoplay=1&mute=1&vq=hd1080&controls=0" 
+                            frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
+                            encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
                         },
                     ]}
                 >
@@ -145,6 +148,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
 
+        // FAQs
         case 6:
             return (
                 <React.Fragment>
@@ -153,6 +157,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </React.Fragment>
             )
 
+        // Gallery
         case 7:
             return (
                 <ParallaxBanner
@@ -177,6 +182,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </ParallaxBanner>
             )
 
+        // Contact
         case 8:
             return (
                 <React.Fragment>
@@ -185,6 +191,7 @@ export default function BckgrndSelector({ pageNum }) {
                 </React.Fragment>
             )
 
+        // Individual Profile Pages
         case 9:
             return (
                 <React.Fragment>
@@ -192,33 +199,8 @@ export default function BckgrndSelector({ pageNum }) {
                     <HeaderContent pageNum={pageNum}></HeaderContent>
                 </React.Fragment>
             )
-
-        case 10:
-            return (
-                <ParallaxBanner
-                    style={isMobile ? { height: "40vh" } : { height: "73vh" }}
-
-                    layers={[
-                        {
-                            amount: 0.2,
-                            children:
-                                // <iframe width="100%" height="100%" title="Rush Video"
-                                //     src="https://www.youtube-nocookie.com/embed/44pkNiN451A?playlist=44pkNiN451A&loop=1&autoplay=1&mute=1&vq=hd720&controls=0"
-                                //     frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-                                //     style={isMobile ? {} : { pointerEvents: "none" }}
-                                // >
-                                // </iframe>
-                                <iframe width="100%" height="100%" title="Rush Video" src="https://www.youtube-nocookie.com/embed/8MgFYLCZnS4?playlist=8MgFYLCZnS4&loop=1&autoplay=1&mute=1&vq=hd720&controls=0" 
-                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
-                                encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
-                        },
-                    ]}
-                >
-                    <Header pageNum={pageNum}></Header>
-                    <HeaderContent pageNum={pageNum}></HeaderContent>
-                </ParallaxBanner>
-            )
         
+        // Any other page (we should never reach here)
         default:
             return (
                 <React.Fragment>

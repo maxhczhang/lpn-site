@@ -1,7 +1,7 @@
 export const faqsList = [
     {
-        question: "Are we holding Winter 2023 recruitment?",
-        answer: "Yes! We are holding Winter 2023 recruitment this year. Look out for more information to come out soon!",
+        question: "When can I join?",
+        answer: "We are holding our next recruitment cycle during Fall Quarter 2023. Look out for more information at this time!",
     },
     {
         question: "Why Lambda Phi Nu?",
@@ -18,6 +18,10 @@ export const faqsList = [
     {
         question: "Can non-business majors join?",
         answer: "Yes! We value diverse perspectives from all kinds of backgrounds. Even though the majority of our brothers are majoring in Business Administration, some of our Active Brothers are pursuing degrees in Computer Science and Economics. Furthermore, our Brothers work in fields from all sorts of disciplines, including Consulting, UI/UX Design, Project Management, and more! As long as you are interested in learning more about the world of business, we encourage you to rush.",
+    },
+    {
+        question: "What are the requirements to join Lambda Phi Nu?",
+        answer: "Applicants must be current undergraduate students with at least 2 quarters left to complete at UCI. Additionally, you must have a cumulative GPA of at least 3.0.",
     },
     {
         question: "What qualities do you look for in a candidate?",
