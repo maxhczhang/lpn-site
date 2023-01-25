@@ -1,7 +1,7 @@
 export const faqsList = [
     {
         question: "When can I join?",
-        answer: "We are holding our next recruitment cycle during Fall Quarter 2023. Look out for more information at this time!",
+        answer: "We are holding our next recruitment cycle during Fall Quarter 2023. Look out for more information here and on our Instagram at this time!",
     },
     {
         question: "Why Lambda Phi Nu?",
