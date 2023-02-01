@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-
-// import TextField from '@material-ui/core/TextField';
-// import Grid from '@material-ui/core/Grid';
+import TextField from '@material-ui/core/TextField';
+import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-// import Button from '@material-ui/core/Button';
-// import Snackbar from '@material-ui/core/Snackbar';
-// import IconButton from '@material-ui/core/IconButton';
-// import CloseIcon from '@material-ui/icons/Close';
-// import SnackbarContent from '@material-ui/core/SnackbarContent';
+import Button from '@material-ui/core/Button';
+import Snackbar from '@material-ui/core/Snackbar';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+import SnackbarContent from '@material-ui/core/SnackbarContent';
 
 import colorLogo from '../../../assets/lpn_assets/logo.png'
 import useWindowDimensions from '../../utils/WindowListener'
@@ -60,18 +59,27 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const postToServer = async (newRow) => {
+const postToServer = async (newRow, setMessage, setOpen) => {
     const requestOptions = {
-        method: 'POST',
+        method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ newRow })
+        body: JSON.stringify(newRow)
     };
 
-    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://lpn-site-server.herokuapp.com/';
+    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://silver-stroopwafel-31bcbb.netlify.app/';
 
     fetch(baseURL + 'submit-form', requestOptions)
-        .then(response => response.json())
-        .then(data => console.log(data));
+        .then((response) => {
+            if (!response.ok) {
+                setMessage("Error with your submission! Please contact us through any of our socials.");
+            }
+            else {
+                setMessage("We'll get back to you soon!");
+            }
+            setOpen(true);
+            return response.json();
+        });
+        //.then(data => console.log(data));
 };
 
 
@@ -85,6 +93,7 @@ export default function Contact({ setPage }) {
     const [year, setYear] = useState('');
     const [email, setEmail] = useState('');
     const [question, setQuestion] = useState('');
+    const [message, setMessage] = useState('');
     const [open, setOpen] = useState(false);
 
     const { width } = useWindowDimensions();
@@ -99,9 +108,8 @@ export default function Contact({ setPage }) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const newRow = {Name: name, Year: year, Email: email, Question: question};
-        postToServer(newRow).then(resetState);
-        setOpen(true);
+        const newRow = [name, year, email, question, new Date(Date.now()).toString()];
+        postToServer(newRow, setMessage, setOpen).then(resetState);
     };
 
     const handleClose = (event, reason) => {
@@ -114,13 +122,10 @@ export default function Contact({ setPage }) {
     return (
         <Box mt={8} mb={14} className={classes.root}>
             
-
             <Box mt={4}></Box>
-                <h2>
-                    Contact ucilpn.ceo@gmail.com with questions! 
-                </h2>
-                <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
-            {/* <form onSubmit={handleSubmit}>
+            <img className={isMobile ? classes.mobileLogo : classes.logo} src={colorLogo} alt="LPN"></img>
+            
+            <form onSubmit={handleSubmit}>
                 <Grid container spacing={7}>
                     <Grid item xs={12}>
                         <TextField
@@ -192,13 +197,13 @@ export default function Contact({ setPage }) {
             >
                 <SnackbarContent 
                     className={classes.snack} 
-                    message={"We'll get back to you soon!"} action={
+                    message={message} action={
                         <IconButton size="small" aria-label="close" color="inherit" onClick={handleClose}>
                             <CloseIcon fontSize="small" />
                         </IconButton>
                     }
                 ></SnackbarContent>
-            </Snackbar> */}
+            </Snackbar>
             
         </Box>
     )
