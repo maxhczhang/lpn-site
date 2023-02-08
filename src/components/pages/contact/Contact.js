@@ -66,7 +66,7 @@ const postToServer = async (newRow, setMessage, setOpen) => {
         body: JSON.stringify(newRow)
     };
 
-    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://silver-stroopwafel-31bcbb.netlify.app/';
+    const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
 
     fetch(baseURL + 'submit-form', requestOptions)
         .then((response) => {
