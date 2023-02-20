@@ -11,7 +11,6 @@ import Tab from '@material-ui/core/Tab';
 
 import useWindowDimensions from '../../utils/WindowListener';
 import { companyLogos } from './CompanyLogos'
-// import { roles2023 } from './_Roles2023'
 import { roles2022 } from './Roles2022'
 import { roles2021 } from './Roles2021'
 import { roles2020 } from './Roles2020'
@@ -99,22 +98,20 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const START_INTERNSHIPS = "Internships2022"
-const START_FULLTIMES = "FullTimes2022"
+const START_SHEET_NAME = "2023 Roles"
 
 
 export default function Careers({ setPage }) {
-    async function getCareers(_sheet1, _sheet2) {
+    async function getCareers(_sheetName,) {
         const requestOptions = {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
 
-        const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:5000/' : 'https://lpn-site-server.herokuapp.com/';
+        const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
 
         const url = baseURL + 'careers?' + new URLSearchParams({
-            sheet1: _sheet1,
-            sheet2: _sheet2
+            sheetName: _sheetName,
         });
 
         fetch(url, requestOptions)
@@ -122,11 +119,11 @@ export default function Careers({ setPage }) {
             .then(data => setCurrentCareers(data));
     }
 
+    // Note the empty array as the 2nd parameter, we only want useEffect to execute once
     useEffect(() => {
         setPage("Careers")
-        // UNCOMMENT to GET careers data from the server and change lines 193 and 196
-        // getCareers(START_INTERNSHIPS, START_FULLTIMES);
-    }, [setPage]);
+        getCareers(START_SHEET_NAME);
+    }, []);
 
     const classes = useStyles();
 
@@ -134,7 +131,8 @@ export default function Careers({ setPage }) {
     const isMobile = width < 700;
 
     const [tabValue, setTabValue] = React.useState(0);
-    const [currentCareers, setCurrentCareers] = React.useState({ [START_INTERNSHIPS]: {}, [START_FULLTIMES]: {}});
+    // const [currentCareers, setCurrentCareers] = React.useState({ [START_INTERNSHIPS]: {}, [START_FULLTIMES]: {}});
+    const [currentCareers, setCurrentCareers] = React.useState({ "Internship": {"Loading...": []}, "Full Time": {"Loading...": []}});
     const handleChange = (event, newTabValue) => {
         console.log(newTabValue);
         setTabValue(newTabValue);
@@ -143,7 +141,6 @@ export default function Careers({ setPage }) {
 
     return (
         <Box mt={16} mb={16} className={classes.root} component="div">
-
 
             <Grid container direction="row" justifyContent="center" alignItems="center" className={classes.logoGrid} spacing={3}>
                 {companyLogos.map((tile) => (
@@ -155,7 +152,6 @@ export default function Careers({ setPage }) {
                 ))}
             </Grid>
 
-
             <Typography component="div" className={classes.paragraph}>
                 <Box fontSize="h6.fontSize" mt={8} mb={8} align="left">
                     Our Brothers achieve excellence in the professional world in the form of 
@@ -165,65 +161,63 @@ export default function Careers({ setPage }) {
                 </Box>
             </Typography>
 
-
             <Divider className={classes.divider}></Divider>
             <Box mt={8}></Box>
 
-
             <Tabs value={tabValue} onChange={handleChange} aria-label="toggle between different years"
                 TabIndicatorProps={{ className: classes.tabs }}>
-                {/* <Tab label={
+                <Tab label={
                     <Typography variant="h6">2023</Typography>
-                } {...a11yProps(0)} /> */}
+                } {...a11yProps(0)} />
                 <Tab label={
                     <Typography variant="h6">2022</Typography>
-                } {...a11yProps(0)} />
-                <Tab label={
-                    <Typography variant="h6">2021</Typography>
-                } {...a11yProps(0)} />
-                <Tab label={
-                    <Typography variant="h6">2020</Typography>
                 } {...a11yProps(1)} />
                 <Tab label={
-                    <Typography variant="h6">2019</Typography>
+                    <Typography variant="h6">2021</Typography>
                 } {...a11yProps(2)} />
                 <Tab label={
+                    <Typography variant="h6">2020</Typography>
+                } {...a11yProps(3)} />
+                <Tab label={
+                    <Typography variant="h6">2019</Typography>
+                } {...a11yProps(4)} />
+                <Tab label={
                     <Typography variant="h6">2018</Typography>
-                } {...a11yProps(2)} />
+                } {...a11yProps(5)} />
             </Tabs>
             
 
-            {/* <TabPanel value={tabValue} index={0} className={classes.tabPanel}>
-                <Chart title="2022 Internships" positions={roles2023["Internships"]} isMobile={isMobile}></Chart>
-                <Box mb={8}></Box>
-                <Chart title="2022 Full Times" positions={roles2023["Full Times"]} isMobile={isMobile}></Chart>
-            </TabPanel>  */}
-
             <TabPanel value={tabValue} index={0} className={classes.tabPanel}>
+                <Chart title="2023 Internships" positions={currentCareers["Internship"]} isMobile={isMobile}></Chart>
+                <Box mb={8}></Box>
+                <Chart title="2023 Full Times" positions={currentCareers["Full Time"]} isMobile={isMobile}></Chart>
+            </TabPanel>
+
+            <TabPanel value={tabValue} index={1} className={classes.tabPanel}>
                 <Chart title="2022 Internships" positions={roles2022["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2022 Full Times" positions={roles2022["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={tabValue} index={1} className={classes.tabPanel}>
+            <TabPanel value={tabValue} index={2} className={classes.tabPanel}>
                 <Chart title="2021 Internships" positions={roles2021["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2021 Full Times" positions={roles2021["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={tabValue} index={2} className={classes.tabPanel}>
+            <TabPanel value={tabValue} index={3} className={classes.tabPanel}>
                 <Chart title="2020 Internships" positions={roles2020["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2020 Full Times" positions={roles2020["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={tabValue} index={3} className={classes.tabPanel}>
+            <TabPanel value={tabValue} index={4} className={classes.tabPanel}>
                 <Chart title="2019 Internships" positions={roles2019["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2019 Full Times" positions={roles2019["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={tabValue} index={4} className={classes.tabPanel}>
+            <TabPanel value={tabValue} index={5} className={classes.tabPanel}>
                 <Chart title="2018 Internships" positions={roles2018["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
                 <Chart title="2018 Full Times" positions={roles2018["Full Times"]} isMobile={isMobile}></Chart>
