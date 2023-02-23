@@ -98,11 +98,13 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const START_SHEET_NAME = "2023 Roles"
+const FT_SHEET_RANGE = "2023 Full Times!A2:D";
+const INTERN_SHEET_RANGE = "2023 Internships!A2:D"
 
 
 export default function Careers({ setPage }) {
-    async function getCareers(_sheetName,) {
+
+    async function getCareers(_sheetRange, callback) {
         const requestOptions = {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
@@ -111,18 +113,19 @@ export default function Careers({ setPage }) {
         const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
 
         const url = baseURL + 'careers?' + new URLSearchParams({
-            sheetName: _sheetName,
+            sheetRange: _sheetRange,
         });
 
         fetch(url, requestOptions)
             .then(response => response.json())
-            .then(data => setCurrentCareers(data));
+            .then(data => callback(data));
     }
 
     // Note the empty array as the 2nd parameter, we only want useEffect to execute once
     useEffect(() => {
         setPage("Careers")
-        getCareers(START_SHEET_NAME);
+        getCareers(INTERN_SHEET_RANGE, setCurrentInternships);
+        getCareers(FT_SHEET_RANGE, setCurrentFullTimes);
     }, []);
 
     const classes = useStyles();
@@ -132,7 +135,8 @@ export default function Careers({ setPage }) {
 
     const [tabValue, setTabValue] = React.useState(0);
     // const [currentCareers, setCurrentCareers] = React.useState({ [START_INTERNSHIPS]: {}, [START_FULLTIMES]: {}});
-    const [currentCareers, setCurrentCareers] = React.useState({ "Internship": {"Loading...": []}, "Full Time": {"Loading...": []}});
+    const [currentInternships, setCurrentInternships] = React.useState({ "Loading...": [] });
+    const [currentFullTimes, setCurrentFullTimes] = React.useState({ "Loading...": [] });
     const handleChange = (event, newTabValue) => {
         console.log(newTabValue);
         setTabValue(newTabValue);
@@ -188,9 +192,9 @@ export default function Careers({ setPage }) {
             
 
             <TabPanel value={tabValue} index={0} className={classes.tabPanel}>
-                <Chart title="2023 Internships" positions={currentCareers["Internship"]} isMobile={isMobile}></Chart>
+                <Chart title="2023 Internships" positions={currentInternships} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
-                <Chart title="2023 Full Times" positions={currentCareers["Full Time"]} isMobile={isMobile}></Chart>
+                <Chart title="2023 Full Times" positions={currentFullTimes} isMobile={isMobile}></Chart>
             </TabPanel>
 
             <TabPanel value={tabValue} index={1} className={classes.tabPanel}>
