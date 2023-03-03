@@ -36,7 +36,7 @@ export default function Chart({title, positions, isMobile}) {
                     <Box fontSize="h4.fontSize" fontWeight="fontWeightBold" align="left" mt={6} mb={2}>{industry}</Box>
 
                     {positions[industry].map((position, i) => (
-                        <Grid container direction="row" justifyContent="center" alignItems="center" key={i}>
+                        <Grid container direction="row" justifyContent="space-between" alignItems="center" key={i}>
                             <Grid item xs={4}>
                                 <Box align="left" fontSize={isMobile ? "body2.fontSize" : "body1.fontSize"}>{position.name}</Box>
                             </Grid>

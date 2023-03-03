@@ -47,7 +47,7 @@ export default function PieChartWrapper({dataIn, lightened, title, angle, isMobi
 
             <PieChart
                 data={data}
-                lineWidth={20}
+                lineWidth={35}
                 // paddingAngle={18}
                 // rounded
                 label={({ dataEntry }) => dataEntry.title}
@@ -59,7 +59,7 @@ export default function PieChartWrapper({dataIn, lightened, title, angle, isMobi
                 labelPosition={120}
                 animate
                 radius={35}
-                style={{ height: isMobile ? 200 : 251,width: isMobile ? 400 : 400 }}
+                style={{ height: isMobile ? 200 : 300, width: isMobile ? 300 : 400 }}
                 startAngle={angle}
 
                 // segmentsStyle={{ transition: 'stroke .3s', cursor: 'pointer' }}

@@ -24,12 +24,18 @@ export default function MobileProfile({name, profile, classes}) {
                 </Grid>
 
                 <Grid item xs={12}>
+                    <Typography variant="h6" color="textSecondary">
+                        {profile['pronouns']}
+                    </Typography>
+                </Grid>
+
+                <Grid item xs={12}>
                     <Box fontSize="h4.fontSize" mb={4}>
                         {profile['class']} Class
                     </Box>
                 </Grid>
                 
-                <Grid item xs={12}>
+                <Grid item xs={12} style={{ pointerEvents: "none" }}>
                     <img className={classes.mobileimg} alt={name} src={profile["img"]} />
                 </Grid>
         
@@ -83,7 +89,7 @@ export default function MobileProfile({name, profile, classes}) {
                         <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
                             Why ΛΦΝ?
                         </Box>
-                        <Box fontStyle="italic" fontSize="h6.fontSize" mt={1}>
+                        <Box fontStyle="italic" mt={1}>
                             "{profile["whyLPN"]}"
                         </Box>
                     </Typography>

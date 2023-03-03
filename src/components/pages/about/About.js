@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "60%"
     },
     chart: {
-        // maxWidth: "85%"
+        maxWidth: "85%",
         alignItems: "center",
         justify: "center"
     },
@@ -77,13 +77,13 @@ export default function About({setPage}) {
             </Box>
 
             <Grid container alignItems="center" item xs={12} className={classes.chart}>
-                <Grid item xs={4}>
+                <Grid item xs>
                     <PieChartWrapper title="Gender" dataIn={chartData["Gender"]["data"]} lightened={chartData["Gender"]["lightened"]} angle={90} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs>
                     <PieChartWrapper title="Major" dataIn={chartData["Major"]["data"]} lightened={chartData["Major"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs>
                     <PieChartWrapper title="Industry" dataIn={chartData["Industry"]["data"]} lightened={chartData["Industry"]["lightened"]} isMobile={isMobile}></PieChartWrapper>
                 </Grid>
             </Grid>

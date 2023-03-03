@@ -46,9 +46,9 @@ export default function MobileMenu() {
                         <MenuItem onClick={popupState.close} component={Link} to="/faqs" className={classes.menuItem}>FAQs</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/gallery" className={classes.menuItem}>Gallery</MenuItem>
                         <MenuItem onClick={popupState.close} component={Link} to="/contact" className={classes.menuItem}>Contact</MenuItem>
-                        <a style={{textDecoration:'none', color:'white'}}href="https://docs.google.com/forms/d/e/1FAIpQLSfZCUmIIYTieOTZUdNok7DVwHnc8LUxXto2TOvcwE-tsG0NRg/viewform">
+                        {/* <a style={{textDecoration:'none', color:'white'}}href="https://docs.google.com/forms/d/e/1FAIpQLSfZCUmIIYTieOTZUdNok7DVwHnc8LUxXto2TOvcwE-tsG0NRg/viewform">
                             <MenuItem onClick={popupState.close} className={classes.menuItem}>Apply</MenuItem>
-                        </a>
+                        </a> */}
                         
                     </Menu>
                 </React.Fragment>

@@ -129,11 +129,16 @@ export default function Winter2023({ setPage }) {
 
             <Divider className={classes.divider}></Divider>
 
-            <Typography component="div" className={classes.paragraph} align="left">
-                <Box mt={10} fontSize="h6.fontSize">
-                Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 220 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!</Box>
-                <Box mt={6} mb={6} fontSize="h6.fontSize">
-                Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.</Box>
+            <Typography component="div" className={classes.paragraph} align="center">
+                <Box mt={10} mb={10} fontWeight="fontWeightMedium" fontSize="h5.fontSize"> 
+                    Thank you to everyone who participated in our Winter 2023 Rush cycle! Our next Recruitment will take place during Fall 2023; check back here for more details.
+                </Box>
+                {/* <Box mt={10} fontSize="h6.fontSize"> 
+                    {/* Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 220 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!
+                </Box> */}
+                {/* <Box mt={6} mb={6} fontSize="h6.fontSize">
+                    Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
+                </Box> */}
             </Typography>
 
             <Divider className={classes.divider}></Divider>

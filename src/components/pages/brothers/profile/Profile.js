@@ -20,8 +20,7 @@ const useStyles = makeStyles((theme) => ({
         width: "50%",
     },
     mobileimg: {
-        width: 300,
-        height: 450,
+        width: "70%"
     },
     link: {
         textDecoration: "None",
