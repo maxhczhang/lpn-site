@@ -90,6 +90,12 @@ const useStyles = makeStyles((theme) => ({
     tabs: {
         backgroundColor: "#580C1F"
     },
+    tabPanel: {
+        width: "80%"
+    },
+    mobileTabPanel: {
+        width: "95%"
+    }
 }));
 
 
@@ -106,6 +112,8 @@ export default function CampusInvolvement({ setPage }) {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     }
+
+    const tabPanelClass = isMobile ? classes.mobileTabPanel : classes.tabPanel;
 
     return (
         <Box mt={18} mb={18} className={classes.root}>
@@ -132,7 +140,7 @@ export default function CampusInvolvement({ setPage }) {
             <Box mt={8}></Box>
 
             <Tabs value={value} onChange={handleChange} aria-label="simple tabs example"
-                TabIndicatorProps={{ className: classes.tabs }} className={classes.content}>
+                TabIndicatorProps={{ className: classes.tabs }} className={isMobile ? classes.content : {}}>
                 <Tab label={
                     <Typography variant="h6">2022</Typography>
                 } {...a11yProps(0)} />
@@ -150,23 +158,23 @@ export default function CampusInvolvement({ setPage }) {
                 } {...a11yProps(4)} />
             </Tabs>
 
-            <TabPanel value={value} index={0}>
+            <TabPanel value={value} index={0} className={tabPanelClass}>
                 <Chart title="2022 Campus Involvement" positions={involvements2022} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={1}>
+            <TabPanel value={value} index={1} className={tabPanelClass}>
                 <Chart title="2021 Campus Involvement" positions={involvements2021} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={2}>
+            <TabPanel value={value} index={2} className={tabPanelClass}>
                 <Chart title="2020 Campus Involvement" positions={involvements2020} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={3}>
+            <TabPanel value={value} index={3} className={tabPanelClass}>
                 <Chart title="2019 Campus Involvement" positions={involvements2019} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={4}>
+            <TabPanel value={value} index={4} className={tabPanelClass}>
                 <Chart title="2018 Campus Involvement" positions={involvements2018} isMobile={isMobile}></Chart>
             </TabPanel>
 
