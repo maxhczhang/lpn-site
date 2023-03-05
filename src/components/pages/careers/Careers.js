@@ -103,6 +103,7 @@ const useStyles = makeStyles((theme) => ({
 
 const FT_SHEET_RANGE = "2023 Full Times!A2:D";
 const INTERN_SHEET_RANGE = "2023 Internships!A2:D"
+const CAREERS_SHEET_ID = "1sVdF-tigs9apHHrjGmtARlX6gRPlZlP72qboEE77gz4";
 
 
 export default function Careers({ setPage }) {
@@ -115,8 +116,9 @@ export default function Careers({ setPage }) {
 
         const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
 
-        const url = baseURL + 'careers?' + new URLSearchParams({
+        const url = baseURL + 'positions?' + new URLSearchParams({
             sheetRange: _sheetRange,
+            sheetId: CAREERS_SHEET_ID 
         });
 
         fetch(url, requestOptions)

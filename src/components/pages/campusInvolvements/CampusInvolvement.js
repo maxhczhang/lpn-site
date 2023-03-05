@@ -98,22 +98,48 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+const INVOLVEMENTS_SHEET_RANGE = "2023 Positions!A2:D";
+const INVOLVEMENTS_SHEET_ID = "1jCvsT-XSzzmleOt26Fxo43gN97u_zutoVcyuIl8-9TM";
+
 
 export default function CampusInvolvement({ setPage }) {
+
+    async function getInvolvements(callback) {
+        const requestOptions = {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        };
+
+        const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
+
+        const url = baseURL + 'positions?' + new URLSearchParams({
+            sheetRange: INVOLVEMENTS_SHEET_RANGE,
+            sheetId: INVOLVEMENTS_SHEET_ID
+        });
+
+        fetch(url, requestOptions)
+            .then(response => response.json())
+            .then(data => callback(data));
+    }
+
     useEffect(() => {
         setPage("Campus Involvement")
-    });
+        // To load positions from sheet, uncomment lines 129, 136, and add the positions to the chart below
+        // getInvolvements(setCurrentInvolvements);
+    }, []);
 
     const classes = useStyles();
     const { width } = useWindowDimensions();
     const isMobile = width < 700;
 
+    // const [currentInvolvements, setCurrentInvolvements] = React.useState({ "Loading...": [] });
     const [value, setValue] = React.useState(0);
     const handleChange = (event, newValue) => {
         setValue(newValue);
     }
 
     const tabPanelClass = isMobile ? classes.mobileTabPanel : classes.tabPanel;
+
 
     return (
         <Box mt={18} mb={18} className={classes.root}>
