@@ -42,6 +42,13 @@ export const brothers = [
     },
     // Sigma Class
     {
+        img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
+        name: "Jaejin Kim",
+        logo: require('../../../../assets/companyLogos/Profound2.png'),
+        company: 'Profound',
+        width: "90%"
+    },
+    {
         img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
         name: "Julie Hsieh",
         logo: require('../../../../assets/companyLogos/MentorGlobalConsultants.png'),
