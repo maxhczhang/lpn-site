@@ -56,7 +56,7 @@ export const companyLogos = [
         title: 'Apple'
     },
     {
-        img: require('../../../../assets/companyLogos/JpMorgan.jpg'),
+        img: require('../../../../assets/companyLogos/JPMorgan.jpg'),
         title: 'JPMorgan Chase'
     },
     {

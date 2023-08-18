@@ -1,83 +1,87 @@
 export const directors = [
     {
-        img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
-        name: "Justin Chao",
+        img: require('../../../../assets/actives/brothers/Evan_Choe.jpg'),
+        name: "Evan Choe",
         title: "Alumni Relations Director | Recruiter",
-        logo: require('../../../../assets/companyLogos/WesternDigital.webp'),
-        company: 'Western Digital',
+        // logo: require('../../../../assets/companyLogos/WesternDigital.webp'),
+        // company: 'Western Digital',
         width: "50%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Sydney_Yu.jpg'),
-        name: "Sydney Yu",
+        img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
+        name: "Justin Chao",
         title: "Career Catalyst Director",
-        logo: require('../../../../assets/companyLogos/EY.png'),
-        company: 'EY',
-        width: "35%"
+        logo: require('../../../../assets/companyLogos/West_Monroe.png'),
+        company: 'West Monroe',
+        width: "40%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Kayla_Wong.jpg'),
-        name: "Kayla Wong",
+        img: require('../../../../assets/actives/brothers/Alie_Li.jpg'),
+        name: "Alie Li",
         title: 'Culture & Relationships Director',
-        logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
-        company: 'Accenture',
-        width: "30%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Deena_Toofan.jpg'),
-        name: "Deena Toofan",
-        title: 'Culture & Relationships Director',
-        logo: require('../../../../assets/companyLogos/Deloitte_White.png'),
-        company: 'Deloitte',
+        logo: require('../../../../assets/companyLogos/Integral.png'),
+        company: 'Integral Consulting',
         width: "70%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Talia_Yip.jpg'),
-        name: "Talia Yip",
+        img: require('../../../../assets/actives/brothers/Raj_Singh.jpg'),
+        name: "Raj Singh",
+        title: 'Culture & Relationships Director',
+        logo: require('../../../../assets/companyLogos/Hajoca_Transparent.png'),
+        company: 'Hajoca',
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Denise_Wei.jpg'),
+        name: "Denise Wei",
         title: "Finance Director",
         logo: require('../../../../assets/companyLogos/Pwc_White.png'),
         company: 'PwC',
         width: "50%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Ruby_Ko.jpg'),
-        name: "Ruby Ko",
+        img: require('../../../../assets/actives/brothers/Grace_Xu.jpg'),
+        name: "Grace Xu",
         title: "Marketing Director",
-        logo: require('../../../../assets/companyLogos/Smith.png'),
-        company: 'Smith & Associates',
+        logo: require('../../../../assets/companyLogos/ScaleAgent_White.png'),
+        company: 'ScaleAgent',
         width: "70%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
-        name: "Julie Hsieh",
+        img: require('../../../../assets/actives/brothers/Joseph_Tom.jpg'),
+        name: "Joseph Tom",
         title: "Marketing Director",
-        logo: require('../../../../assets/companyLogos/lnData.png'),
-        company: 'LnData',
         width: "40%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Qui_Hoang.jpg'),
-        name: "Qui Hoang",
+        img: require('../../../../assets/actives/brothers/Rayyaan_Majid.jpg'),
+        name: "Rayyaan Majid",
         title: "Recruiter",
-        logo: require('../../../../assets/companyLogos/GrantThorton.png'),
-        company: 'Grant Thorton',
         width: "55%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Ashley_London.jpg'),
-        name: "Ashley London",
+        img: require('../../../../assets/actives/brothers/Brandyn_Huynh.jpg'),
+        name: "Brandyn Huynh",
+        title: 'Social Impact Director',
+        logo: require('../../../../assets/companyLogos/Amazon_White.png'),
+        company: 'Amazon',
+        width: "50%"
+    },    
+    {
+        img: require('../../../../assets/actives/brothers/Hans_Chang.jpg'),
+        name: "Hans Chang",
         title: 'Strategy Director',
-        logo: require('../../../../assets/companyLogos/RevolutionEntertainment.webp'),
-        company: 'Revolution Entertainment',
+        logo: require('../../../../assets/companyLogos/Deloitte_White.png'),
+        company: 'Deloitte',
         width: "60%"
     },    
     {
-        img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
-        name: "Jaejin kim",
+        img: require('../../../../assets/actives/brothers/Madhu_Sharma.jpg'),
+        name: "Madhu Sharma",
         title: "Webmaster",
-        logo: require('../../../../assets/companyLogos/UCI_Medicine.png'),
-        company: 'UCI School of Medicine',
-        width: "90%"
+        logo: require('../../../../assets/companyLogos/Amazon_White.png'),
+        company: 'Amazon',
+        width: "50%"
     },
    
     // {

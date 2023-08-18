@@ -37,7 +37,7 @@ export default function ActiveBrothers({ setPage }) {
             <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" mb={10}>
                 C-Suite
             </Box>
-            <BrothersList brothers={csuite} isCsuite={true} width={248} height={330}></BrothersList>
+            <BrothersList brothers={csuite} isCsuite={true} width={220} height={330}></BrothersList>
 
             <Box mt={6}></Box>
             <Divider className={classes.divider}></Divider>
@@ -45,7 +45,7 @@ export default function ActiveBrothers({ setPage }) {
             <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" mt={10} mb={10}>
                 Directors
             </Box>
-            <BrothersList brothers={directors} isCsuite={false} width={248} height={330}></BrothersList>
+            <BrothersList brothers={directors} isCsuite={false} width={220} height={330}></BrothersList>
 
             <Box mt={6}></Box>
             <Divider className={classes.divider}></Divider>
@@ -53,7 +53,7 @@ export default function ActiveBrothers({ setPage }) {
             <Box fontWeight="fontWeightBold" fontSize="h1.fontSize" mt={10} mb={10}>
                 Brothers
             </Box>
-            <BrothersList brothers={brothers} isCsuite={false} width={248} height={330}></BrothersList>
+            <BrothersList brothers={brothers} isCsuite={false} width={220} height={330}></BrothersList>
         </Box>
     )
 }
