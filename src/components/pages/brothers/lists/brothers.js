@@ -13,9 +13,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
         name: "Jamie Zhao",
-        logo: require('../../../../assets/companyLogos/ServiceNow.png'),
-        company: 'ServiceNow',
-        width: "85%"
+        logo: require('../../../../assets/companyLogos/Walmart_Connect.png'),
+        company: 'Walmart Connect',
+        width: "75%"
     },
 
     // Rho Class
@@ -51,9 +51,9 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
         name: "Julie Hsieh",
-        logo: require('../../../../assets/companyLogos/MentorGlobalConsultants.png'),
-        company: 'Mentor Global Consultants',
-        width: "90%"
+        logo: require('../../../../assets/companyLogos/lnData.png'),
+        company: 'lnData',
+        width: "40%"
     },
     {
         img: require('../../../../assets/actives/brothers/Ruby_Ko.jpg'),
@@ -119,6 +119,8 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Zoe_Lui.jpg'),
         name: "Zoe Lui",
+        logo: require('../../../../assets/companyLogos/UCI.png'),
+        company: 'UCI - Student Success Initiatives Office',
         width: "75%"
     },
 ];

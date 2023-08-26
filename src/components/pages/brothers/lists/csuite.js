@@ -27,9 +27,9 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers/Kayla_Wong.jpg'),
         name: "Kayla Wong",
         title: 'Chief Operating Officer',
-        logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
-        company: 'Accenture',
-        width: "40%",
+        logo: require('../../../../assets/companyLogos/Drunk_Elephant.png'),
+        company: 'Drunk Elephant',
+        width: "100%",
     },
     {
         img: require('../../../../assets/actives/brothers/Qui_Hoang.jpg'),
