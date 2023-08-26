@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09de894d599960b6def1d5eec541bf68",
+    "revision": "f821ef54c144790edc209b66109538a8",
     "url": "/index.html"
   },
   {
-    "revision": "1a6239581e9dd30841c8",
+    "revision": "ae7fd513b9a9fceaab82",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "bd29fa44f52675a73ac3",
+    "revision": "3f9d9182a48c2032fa03",
     "url": "/static/css/main.ac935714.chunk.css"
   },
   {
-    "revision": "1a6239581e9dd30841c8",
-    "url": "/static/js/2.170bc6ca.chunk.js"
+    "revision": "ae7fd513b9a9fceaab82",
+    "url": "/static/js/2.d47cfeb7.chunk.js"
   },
   {
     "revision": "6472a7d1d95598048b2f7b02095da167",
-    "url": "/static/js/2.170bc6ca.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d47cfeb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd29fa44f52675a73ac3",
-    "url": "/static/js/main.b441a54c.chunk.js"
+    "revision": "3f9d9182a48c2032fa03",
+    "url": "/static/js/main.75ae974f.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c457ca34fec957865c791c1d54d1695c",
     "url": "/static/media/Accenture.c457ca34.png"
-  },
-  {
-    "revision": "cfa277adc3eb353f74d2d1ed3c33ff65",
-    "url": "/static/media/Accenture_Small.cfa277ad.png"
   },
   {
     "revision": "503c684ccc667ad525fe1d703881df2c",
@@ -130,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "192b638419ea9dc5f06828cc491f4fa6",
     "url": "/static/media/Disney.192b6384.png"
+  },
+  {
+    "revision": "91eee1bdca9ec2ea6a496e9514e6edc1",
+    "url": "/static/media/Drunk_Elephant.91eee1bd.png"
   },
   {
     "revision": "45d83dd0a8150bce04bd8124d04fdcd2",
@@ -308,10 +308,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Madhu_Sharma.123366a1.jpg"
   },
   {
-    "revision": "6f38dd24339abd3eee76d89e85bc1f9b",
-    "url": "/static/media/MentorGlobalConsultants.6f38dd24.png"
-  },
-  {
     "revision": "f6a3a5a52901eff9fe2f523a8f5bed20",
     "url": "/static/media/Microsoft.f6a3a5a5.png"
   },
@@ -482,6 +478,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81cc2a22ea97c77c836c3e291a4f9c5c",
     "url": "/static/media/Vivian_Tran.81cc2a22.jpg"
+  },
+  {
+    "revision": "fa3b9d5abeedadc2d6b82ac6f5e00b85",
+    "url": "/static/media/Walmart_Connect.fa3b9d5a.png"
   },
   {
     "revision": "195a0f74c949c85d486c94d38905b431",
