@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import useWindowDimensions from '../../utils/WindowListener';
 import RushEvent from './RushEvent'
 import { events } from './RushEvents'
-import flyer from '../../../assets/recruitment/winter_2023.png'
+import flyer from '../../../assets/recruitment/fall_2023.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -115,30 +115,30 @@ export default function Winter2023({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/events/1169425473670235" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2023</a>
+                        <a href="https://www.facebook.com/events/1169425473670235" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2023</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Upsilon Class Recruitment
+                        Chi Class Recruitment
                     </Box>
                 </Typography>
             </Box>
             
             <a href="https://www.facebook.com/events/1169425473670235" target="_blank" rel="noopener noreferrer">
-                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Winter Rush 2023"></img>
+                <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2023"></img>
             </a>
 
             <Divider className={classes.divider}></Divider>
 
             <Typography component="div" className={classes.paragraph} align="center">
-                <Box mt={10} mb={10} fontWeight="fontWeightMedium" fontSize="h5.fontSize"> 
+                {/* <Box mt={10} mb={10} fontWeight="fontWeightMedium" fontSize="h5.fontSize"> 
                     Thank you to everyone who participated in our Winter 2023 Rush cycle! Our next Recruitment will take place during Fall 2023; check back here for more details.
+                </Box> */}
+                <Box mt={10} fontSize="h6.fontSize"> 
+                    Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 220 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!
                 </Box>
-                {/* <Box mt={10} fontSize="h6.fontSize"> 
-                    {/* Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 220 Active and Alumni brothers, we are now actively recruiting for our Upsilon class!
-                </Box> */}
-                {/* <Box mt={6} mb={6} fontSize="h6.fontSize">
+                <Box mt={6} mb={6} fontSize="h6.fontSize">
                     Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
-                </Box> */}
+                </Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>
