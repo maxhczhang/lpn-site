@@ -49,9 +49,11 @@ export const directors = [
     },
     {
         img: require('../../../../assets/actives/brothers/Joseph_Tom.jpg'),
+        logo: require('../../../../assets/companyLogos/FormFactor-removebg-preview.png'),
+        company: 'FormFactor',
         name: "Joseph Tom",
         title: "Marketing Director",
-        width: "40%"
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Rayyaan_Majid.jpg'),

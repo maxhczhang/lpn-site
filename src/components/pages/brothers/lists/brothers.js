@@ -65,14 +65,18 @@ export const brothers = [
     // Tau Class
     {
         img: require('../../../../assets/actives/brothers/Alex_Zhou.jpg'),
+        logo: require('../../../../assets/companyLogos/Riteline-removebg-preview.png'),
+        company: 'Riteline USA',
         name: "Alex Zhou",
         width: "75%"
     },
 
     {
         img: require('../../../../assets/actives/brothers/Rainer_Setiawan.jpg'),
+        logo: require('../../../../assets/companyLogos/Profound2.png'),
+        company: 'Profound',
         name: "Rainer Setiawan",
-        width: "75%"
+        width: "90%"
     },
     {
         img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg'),
@@ -86,19 +90,23 @@ export const brothers = [
         name: "Teresa Chu",
         logo: require('../../../../assets/companyLogos/UCI_Merage.png'),
         company: 'UCI Paul Merage',
-        width: "75%"
+        width: "85%"
     },
 
     // Upsilon Class
 
     {
         img: require('../../../../assets/actives/brothers/Deborah_Kim.jpg'),
+        logo: require('../../../../assets/companyLogos/UCI.png'),
+        company: 'UCI - Student Success Initiatives Office',
         name: "Deborah Kim",
         width: "75%"
     },
 
     {
         img: require('../../../../assets/actives/brothers/Dustin_Wong.jpg'),
+        logo: require('../../../../assets/companyLogos/Sparrow-removebg-preview.png'),
+        company: 'Sparrow',
         name: "Dustin Wong",
         width: "75%"
     },
@@ -119,8 +127,6 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Zoe_Lui.jpg'),
         name: "Zoe Lui",
-        logo: require('../../../../assets/companyLogos/UCI.png'),
-        company: 'UCI - Student Success Initiatives Office',
         width: "75%"
     },
 ];
