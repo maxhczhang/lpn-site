@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ac935714.chunk.css",
-    "main.js": "/static/js/main.a25720e8.chunk.js",
-    "main.js.map": "/static/js/main.a25720e8.chunk.js.map",
+    "main.js": "/static/js/main.69e3df36.chunk.js",
+    "main.js.map": "/static/js/main.69e3df36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.d47cfeb7.chunk.js": "/static/js/2.d47cfeb7.chunk.js",
-    "static/js/2.d47cfeb7.chunk.js.map": "/static/js/2.d47cfeb7.chunk.js.map",
+    "static/js/2.eabedc8b.chunk.js": "/static/js/2.eabedc8b.chunk.js",
+    "static/js/2.eabedc8b.chunk.js.map": "/static/js/2.eabedc8b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.535a77da610862a9ed2df917f7740fb3.js": "/precache-manifest.535a77da610862a9ed2df917f7740fb3.js",
+    "precache-manifest.6e228e5575a7c8295b9d86cd44145e91.js": "/precache-manifest.6e228e5575a7c8295b9d86cd44145e91.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.ac935714.chunk.css.map": "/static/css/main.ac935714.chunk.css.map",
-    "static/js/2.d47cfeb7.chunk.js.LICENSE.txt": "/static/js/2.d47cfeb7.chunk.js.LICENSE.txt",
+    "static/js/2.eabedc8b.chunk.js.LICENSE.txt": "/static/js/2.eabedc8b.chunk.js.LICENSE.txt",
     "static/media/2022-2023_Csuite.JPG": "/static/media/2022-2023_Csuite.43a5bb20.JPG",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
     "static/media/Aaron_Lee.jpg": "/static/media/Aaron_Lee.b42f5637.jpg",
@@ -47,6 +47,7 @@
     "static/media/Evan_Choe.jpg": "/static/media/Evan_Choe.59e6a697.jpg",
     "static/media/Excellence.jpg": "/static/media/Excellence.81c67940.jpg",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.a8fdc090.JPG",
+    "static/media/FormFactor-removebg-preview.png": "/static/media/FormFactor-removebg-preview.b9ef8488.png",
     "static/media/Founders.png": "/static/media/Founders.2f0460a3.png",
     "static/media/Gallery.jpg": "/static/media/Gallery.171d7e34.jpg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.d6566127.png",
@@ -100,6 +101,7 @@
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.2809b586.jpg",
     "static/media/Retreat_Hike.JPG": "/static/media/Retreat_Hike.30dc1328.JPG",
     "static/media/Rho_Formal.jpg": "/static/media/Rho_Formal.1731c7b2.jpg",
+    "static/media/Riteline-removebg-preview.png": "/static/media/Riteline-removebg-preview.2bebcfee.png",
     "static/media/Rithu_Eswaramoorthy.jpg": "/static/media/Rithu_Eswaramoorthy.17e21833.jpg",
     "static/media/Rubies_Seniors.jpg": "/static/media/Rubies_Seniors.3a79d1a0.jpg",
     "static/media/Ruby_Ko.jpg": "/static/media/Ruby_Ko.f50392f9.jpg",
@@ -112,6 +114,7 @@
     "static/media/ServiceNow.png": "/static/media/ServiceNow.e47b063d.png",
     "static/media/Sigma_Formal.jpg": "/static/media/Sigma_Formal.c4cc1acb.jpg",
     "static/media/Sophia_Tran.jpg": "/static/media/Sophia_Tran.da0fecaa.jpg",
+    "static/media/Sparrow-removebg-preview.png": "/static/media/Sparrow-removebg-preview.399bbb09.png",
     "static/media/Sydney_Yu.jpg": "/static/media/Sydney_Yu.1c9dc18f.jpg",
     "static/media/Taiwan_1.jpg": "/static/media/Taiwan_1.825bb744.jpg",
     "static/media/Taiwan_2.jpg": "/static/media/Taiwan_2.e8f9bb71.jpg",
@@ -138,8 +141,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.d47cfeb7.chunk.js",
+    "static/js/2.eabedc8b.chunk.js",
     "static/css/main.ac935714.chunk.css",
-    "static/js/main.a25720e8.chunk.js"
+    "static/js/main.69e3df36.chunk.js"
   ]
 }
