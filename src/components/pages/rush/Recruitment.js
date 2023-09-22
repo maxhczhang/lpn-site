@@ -115,7 +115,7 @@ export default function Winter2023({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/events/1169425473670235" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2023</a>
+                        <a href="https://facebook.com/events/s/uci-lambda-phi-nu-fall-2023-re/1014564543000719/?mibextid=RQdjqZ" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2023</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
                         Chi Class Recruitment
@@ -123,7 +123,7 @@ export default function Winter2023({ setPage }) {
                 </Typography>
             </Box>
             
-            <a href="https://www.facebook.com/events/1169425473670235" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com/events/s/uci-lambda-phi-nu-fall-2023-re/1014564543000719/?mibextid=RQdjqZ" target="_blank" rel="noopener noreferrer">
                 <img src={flyer} className={isMobile ? classes.coverMobile : classes.cover} alt="Fall Rush 2023"></img>
             </a>
 

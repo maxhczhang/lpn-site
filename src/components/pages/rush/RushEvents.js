@@ -1,13 +1,13 @@
 export const events = [
     {
         title: "Meet the Bros",
-        date: "10/03",
+        date: "10/02",
         description: "Come meet our brothers through a night of fun games and chats!",
         dressCode: "Casual",
         ics: "",
         // checkinLink: 'https://tinyurl.com/lpninfonight',
         time: "7:00PM - 9:30PM",
-        location: "Doheny Beach B",
+        location: "Emerald Bay C",
         eventTooltip: "Zoom Check In"
     },  
     {
@@ -23,7 +23,7 @@ export const events = [
     },
     {
         title: "Coffee Chats",
-        date: "10/04, 10/19",
+        date: "10/04, 10/09",
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Casual",
         ics: "",

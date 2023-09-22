@@ -156,9 +156,7 @@ export default function Careers({ setPage }) {
             <Grid container direction="row" justifyContent="center" alignItems="center" className={classes.logoGrid} spacing={3}>
                 {companyLogos.map((tile) => (
                     <Grid item xs key={tile.img}>
-                        <a href={tile.link} target="_blank" rel="noopener noreferrer">
-                            <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
-                        </a>
+                        <img src={tile.img} alt={tile.title} className={isMobile ? classes.mobileImage : classes.image} />
                     </Grid>
                 ))}
             </Grid>
