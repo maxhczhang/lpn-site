@@ -5,7 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export const facts = [
     {
-        answer: <Link component={RouterLink} to="/active-brothers" color="inherit" underline="none">219</Link>,
+        answer: <Link component={RouterLink} to="/active-brothers" color="inherit" underline="none">227</Link>,
         title: "Active & Alumni Brothers",
     },
     {
@@ -13,7 +13,7 @@ export const facts = [
         title: "Business Orgs Founded",
     },
     {
-        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">36</Link>,
+        answer: <Link component={RouterLink} to="/campus-involvement" color="inherit" underline="none">34</Link>,
         title: "Current Leadership Positions",
     },
     {

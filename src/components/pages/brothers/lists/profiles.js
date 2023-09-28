@@ -539,7 +539,7 @@ export const profiles = {
         practice: "Finance",
         pronouns: "She/Her/Hers",
         experience: {"Summer 2023 Summer Commercial Banking Intern":"1st Century Bank"},
-        campusInvolvements: {"Career Catalyst Director":"Lambda Phi Nu","Secretary":"Accounting Association"}, // Awaiting update
+        campusInvolvements: {"Associate":"Merage Undergraduate Student Association", "Finance Chair":"Sikh Student Association", "CEI Representative": "Undergraduate Finance Assocation"}, // Awaiting update
         interests: ["Singing", "Basketball", "Running", "Songwriting", "Thrifting", "Going to the beach", "Eating"],
         whyLPN: "Joining as a first-year, LPN has given me the unique opportunity to develop professionally at such an early stage in my career. I feel that the network and connections that I have developed in this fraternity have helped me in my professional pursuits, and also to make friendships that I hope will last a lifetime. LPN is truly a family and I love being a part of it.",
         img: require('../../../../assets/actives/brothers/Puneet_Singh.jpg')
