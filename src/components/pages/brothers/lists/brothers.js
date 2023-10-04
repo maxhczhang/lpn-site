@@ -17,6 +17,14 @@ export const brothers = [
         company: 'Walmart Connect',
         width: "75%"
     },
+    {
+        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
+        name: "Rithu Eswaramoorthy",
+        logo: require('../../../../assets/companyLogos/MongoDB.png'),
+        company: 'MongoDB',
+        width: "75%"
+    },
+    
 
     // Rho Class
     {

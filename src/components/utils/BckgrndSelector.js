@@ -137,11 +137,11 @@ export default function BckgrndSelector({ pageNum }) {
                         {
                             amount: 0.2,
                             children: 
-                            <iframe width="100%" height="100%" title="Rush Video" src="https://www.youtube-nocookie.com/embed/8MgFYLCZnS4?playlist=8MgFYLCZnS4&loop=1&autoplay=1&mute=1&vq=hd1080&controls=0" 
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aGlQij0XMk0?si=e60VHSMXGFqW2cuV&loop=1&autoplay=1&mute=1&vq=hd1080&controls=0" 
                             frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
                             encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={isMobile ? {} : { pointerEvents: "none" }}></iframe>
                         },
-                    ]}
+                    ]}  
                 >
                     <Header pageNum={pageNum}></Header>
                     <HeaderContent pageNum={pageNum}></HeaderContent>
