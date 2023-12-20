@@ -17,13 +17,6 @@ export const brothers = [
         company: 'Walmart Connect',
         width: "75%"
     },
-    {
-        img: require('../../../../assets/actives/brothers/Rithu_Eswaramoorthy.jpg'),
-        name: "Rithu Eswaramoorthy",
-        logo: require('../../../../assets/companyLogos/MongoDB.png'),
-        company: 'MongoDB',
-        width: "75%"
-    },
     
 
     // Rho Class
@@ -137,6 +130,108 @@ export const brothers = [
         name: "Zoe Lui",
         width: "75%"
     },
+
+    // Chi Class
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Aidan Jayakumar",
+        logo: require('../../../../assets/companyLogos/carlson__jayakumar_logo.png'),
+        company: 'Carlson & Jayakumar LLP',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Annie Sreshthabutra",
+        logo: require('../../../../assets/companyLogos/copperwired.png'),
+        company: 'Copperwired',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Catherine Tran",
+        logo: require('../../../../assets/companyLogos/gold_coast_transit_logo-removebg-preview.png'),
+        company: 'Gold Coast Transit District',
+        width: "100%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Elise Naddell",
+        logo: require('../../../../assets/companyLogos/rocsglobal_logo.png'),
+        company: 'ROCS Global, Inc',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Ethan Tung",
+        logo: require('../../../../assets/companyLogos/computing_reapplied_logo-removebg-preview.png'),
+        company: 'Computing ReApplied',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Gabriel Villamariona",
+        logo: require('../../../../assets/companyLogos/c9.png'),
+        company: 'Cloud 9',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Jessica Nguyen",
+        logo: require('../../../../assets/companyLogos/ae.png'),
+        company: 'American Eagle Outfitters, Inc.',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Kate Arnold",
+        logo: require('../../../../assets/companyLogos/starbucks-logo-png-transparent.png'),
+        company: 'Starbucks',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Lana Locquiao Noguera",
+        logo: require('../../../../assets/companyLogos/r&btea.png'),
+        company: 'R&B Tea USA',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Mason Chen",
+        logo: require('../../../../assets/companyLogos/city_of_emeryville_logo.png'),
+        company: 'City of Emeryville',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Skyler Chang",
+        logo: require('../../../../assets/companyLogos/Seol_Grille-removebg-preview.png'),
+        company: 'Seol Grille',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Thomas Lin",
+        logo: require('../../../../assets/companyLogos/lifetime-removebg-preview.png'),
+        company: 'Lifetime Activities',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Tiffany Chien",
+        logo: require('../../../../assets/companyLogos/building_u_logo-removebg-preview.png'),
+        company: 'building-U',
+        width: "75%"
+    },
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Timothy Sih",
+        logo: require('../../../../assets/companyLogos/chen_and_fan_accountancy_corporation_logo-removebg-preview.png'),
+        company: 'Chen & Fan Accountancy Corp.',
+        width: "100%"
+    },
+
+
 ];
 
 export default { brothers };

@@ -11,6 +11,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import useWindowDimensions from '../../utils/WindowListener';
 import { orgsLogos } from './OrgsLogos'
+import { involvements2023 } from './Involvements2023';
 import { involvements2022 } from './Involvements2022';
 import { involvements2021 } from './Involvements2021';
 import { involvements2020 } from './Involvements2020';
@@ -168,39 +169,46 @@ export default function CampusInvolvement({ setPage }) {
             <Tabs value={value} onChange={handleChange} aria-label="simple tabs example"
                 TabIndicatorProps={{ className: classes.tabs }} className={isMobile ? classes.content : {}}>
                 <Tab label={
-                    <Typography variant="h6">2022</Typography>
+                    <Typography variant="h6">2023</Typography>
                 } {...a11yProps(0)} />
                 <Tab label={
-                    <Typography variant="h6">2021</Typography>
+                    <Typography variant="h6">2022</Typography>
                 } {...a11yProps(1)} />
                 <Tab label={
-                    <Typography variant="h6">2020</Typography>
+                    <Typography variant="h6">2021</Typography>
                 } {...a11yProps(2)} />
                 <Tab label={
-                    <Typography variant="h6">2019</Typography>
+                    <Typography variant="h6">2020</Typography>
                 } {...a11yProps(3)} />
                 <Tab label={
-                    <Typography variant="h6">2018</Typography>
+                    <Typography variant="h6">2019</Typography>
                 } {...a11yProps(4)} />
+                <Tab label={
+                    <Typography variant="h6">2018</Typography>
+                } {...a11yProps(5)} />
             </Tabs>
 
             <TabPanel value={value} index={0} className={tabPanelClass}>
+                <Chart title="2023 Campus Involvement" positions={involvements2023} isMobile={isMobile}></Chart>
+            </TabPanel>
+            
+            <TabPanel value={value} index={1} className={tabPanelClass}>
                 <Chart title="2022 Campus Involvement" positions={involvements2022} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={1} className={tabPanelClass}>
+            <TabPanel value={value} index={2} className={tabPanelClass}>
                 <Chart title="2021 Campus Involvement" positions={involvements2021} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={2} className={tabPanelClass}>
+            <TabPanel value={value} index={3} className={tabPanelClass}>
                 <Chart title="2020 Campus Involvement" positions={involvements2020} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={3} className={tabPanelClass}>
+            <TabPanel value={value} index={4} className={tabPanelClass}>
                 <Chart title="2019 Campus Involvement" positions={involvements2019} isMobile={isMobile}></Chart>
             </TabPanel>
 
-            <TabPanel value={value} index={4} className={tabPanelClass}>
+            <TabPanel value={value} index={5} className={tabPanelClass}>
                 <Chart title="2018 Campus Involvement" positions={involvements2018} isMobile={isMobile}></Chart>
             </TabPanel>
 
