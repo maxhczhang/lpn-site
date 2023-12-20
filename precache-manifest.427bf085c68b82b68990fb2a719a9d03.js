@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd476cc084cf20985f869764307e46c6",
+    "revision": "2f366a5d66d5c2d8edc9519086c180c4",
     "url": "/index.html"
   },
   {
-    "revision": "bbfda539f8600888dd2c",
+    "revision": "d1a5fcc48c80bc615729",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "0aa3986ec6553064c946",
+    "revision": "153cbdaa28b1e3b79003",
     "url": "/static/css/main.ac935714.chunk.css"
   },
   {
-    "revision": "bbfda539f8600888dd2c",
-    "url": "/static/js/2.21b5374b.chunk.js"
+    "revision": "d1a5fcc48c80bc615729",
+    "url": "/static/js/2.0a887c1e.chunk.js"
   },
   {
     "revision": "6472a7d1d95598048b2f7b02095da167",
-    "url": "/static/js/2.21b5374b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0a887c1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0aa3986ec6553064c946",
-    "url": "/static/js/main.68cdfcd4.chunk.js"
+    "revision": "153cbdaa28b1e3b79003",
+    "url": "/static/js/main.2b1fd96a.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -308,10 +308,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Microsoft.f6a3a5a5.png"
   },
   {
-    "revision": "4e5d8565c5804e31f5b8e939906c0c1e",
-    "url": "/static/media/MongoDB.4e5d8565.png"
-  },
-  {
     "revision": "ff78994dad04848b993ba7c4e6ceff1d",
     "url": "/static/media/Mr_Ceo.ff78994d.jpg"
   },
@@ -376,10 +372,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Riteline-removebg-preview.2bebcfee.png"
   },
   {
-    "revision": "17e2183377fe43492093a29bc612032e",
-    "url": "/static/media/Rithu_Eswaramoorthy.17e21833.jpg"
-  },
-  {
     "revision": "3a79d1a0747a5d30e029680927f83815",
     "url": "/static/media/Rubies_Seniors.3a79d1a0.jpg"
   },
@@ -410,6 +402,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35bfda57d8438d1e1a2943d9499082cc",
     "url": "/static/media/ScaleAgent_White.35bfda57.png"
+  },
+  {
+    "revision": "8d4a5a8410172e9a963b54cf7bd7fcfc",
+    "url": "/static/media/Seol_Grille-removebg-preview.8d4a5a84.png"
   },
   {
     "revision": "e47b063dc1437cd1eb56854bed56f969",
@@ -508,8 +504,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Zoe_Lui.6bb7ff5e.jpg"
   },
   {
+    "revision": "488bb5c5d3dd8ce343cfa690d864cddd",
+    "url": "/static/media/ae.488bb5c5.png"
+  },
+  {
+    "revision": "c127c178abde5b4c8b9d63c6a7669c79",
+    "url": "/static/media/building_u_logo-removebg-preview.c127c178.png"
+  },
+  {
+    "revision": "c50bb9a6d6ae87821a4377d8ff2831ce",
+    "url": "/static/media/c9.c50bb9a6.png"
+  },
+  {
+    "revision": "9df6db6f6e8250156321fe024eba5bf6",
+    "url": "/static/media/chen_and_fan_accountancy_corporation_logo-removebg-preview.9df6db6f.png"
+  },
+  {
+    "revision": "7c970f03f8c79f0c891e39e736c6294e",
+    "url": "/static/media/city_of_emeryville_logo.7c970f03.png"
+  },
+  {
+    "revision": "2ba312828c1ce3615045617a4c677030",
+    "url": "/static/media/computing_reapplied_logo-removebg-preview.2ba31282.png"
+  },
+  {
+    "revision": "09a80e4647176d24dfec7b153f82f65e",
+    "url": "/static/media/copperwired.09a80e46.png"
+  },
+  {
     "revision": "27664597c43e23778c400be4b4302923",
     "url": "/static/media/fall_2023.27664597.png"
+  },
+  {
+    "revision": "9c99bba3022df612f6972e15589448b8",
+    "url": "/static/media/gold_coast_transit_logo-removebg-preview.9c99bba3.png"
+  },
+  {
+    "revision": "6bce33bf4624a112691442f540980705",
+    "url": "/static/media/lifetime-removebg-preview.6bce33bf.png"
   },
   {
     "revision": "f68038e36a790eac4d9dc325b089325e",
@@ -518,5 +550,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "391d31fd0b9d1a2c61f7049fbd60b0ab",
     "url": "/static/media/logo_white.391d31fd.png"
+  },
+  {
+    "revision": "0899dbfb88ce956802184573aafbf175",
+    "url": "/static/media/pfp_temp.0899dbfb.png"
+  },
+  {
+    "revision": "f7bd5ccf4949e740d6f7fa4c88f3fd6a",
+    "url": "/static/media/starbucks-logo-png-transparent.f7bd5ccf.png"
   }
 ]);
