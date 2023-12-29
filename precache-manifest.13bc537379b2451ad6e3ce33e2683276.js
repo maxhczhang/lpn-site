@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f366a5d66d5c2d8edc9519086c180c4",
+    "revision": "3f4fc34fe17cc293d63410b345b954ff",
     "url": "/index.html"
   },
   {
-    "revision": "d1a5fcc48c80bc615729",
+    "revision": "a631b0509abe3519aebc",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "153cbdaa28b1e3b79003",
+    "revision": "fa152b6f13f1bc2cd48f",
     "url": "/static/css/main.ac935714.chunk.css"
   },
   {
-    "revision": "d1a5fcc48c80bc615729",
-    "url": "/static/js/2.0a887c1e.chunk.js"
+    "revision": "a631b0509abe3519aebc",
+    "url": "/static/js/2.260e38b9.chunk.js"
   },
   {
     "revision": "6472a7d1d95598048b2f7b02095da167",
-    "url": "/static/js/2.0a887c1e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.260e38b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "153cbdaa28b1e3b79003",
-    "url": "/static/js/main.2b1fd96a.chunk.js"
+    "revision": "fa152b6f13f1bc2cd48f",
+    "url": "/static/js/main.8773fec0.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Accenture.c457ca34.png"
   },
   {
+    "revision": "ffc0b00e29ca1d9242be08ec629f57f1",
+    "url": "/static/media/Aidan_Jayakumar.ffc0b00e.jpg"
+  },
+  {
     "revision": "09f02a2d50818bbfd7d8a1d6934323bb",
     "url": "/static/media/Alex_Zhou.09f02a2d.jpg"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e5f8f9301b74c9c81993387bf51ee851",
     "url": "/static/media/Amazon_White.e5f8f930.png"
+  },
+  {
+    "revision": "9e1e5a8cb92774306ddd0aebbe7c084c",
+    "url": "/static/media/Annie_S.9e1e5a8c.jpg"
   },
   {
     "revision": "843457b74fd186838dd7c5e93a862d86",
@@ -82,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f935d80969b4290eba4b44933dff1e54",
     "url": "/static/media/Careers.f935d809.jpeg"
+  },
+  {
+    "revision": "eaa46efa5286fb48a88331f1dcd6946f",
+    "url": "/static/media/Catherine_Tran.eaa46efa.jpg"
   },
   {
     "revision": "b7d04518b468754d68a25102a7f28e94",
@@ -136,8 +148,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Eddie_Rios.76242ec6.jpg"
   },
   {
+    "revision": "97ae147bf244967d7fa5689867ed11c0",
+    "url": "/static/media/Elise_Nadell.97ae147b.jpg"
+  },
+  {
     "revision": "6e9657b471ab96d793d316098ced0fd2",
     "url": "/static/media/Etas_Seniors.6e9657b4.jpg"
+  },
+  {
+    "revision": "be3b255890ea9fe566207f655862e058",
+    "url": "/static/media/Ethan_Tung.be3b2558.jpg"
   },
   {
     "revision": "59e6a697435696de4a8959a4f0daa949",
@@ -158,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f0460a31b5730867533ec2a47dee8f5",
     "url": "/static/media/Founders.2f0460a3.png"
+  },
+  {
+    "revision": "de93656310a5fb3ce948914eadc24990",
+    "url": "/static/media/Gabriel_V.de936563.jpg"
   },
   {
     "revision": "171d7e343d686a05eb3327ff75faf00e",
@@ -248,6 +272,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Jenny_Jeffrey.d4d49057.jpg"
   },
   {
+    "revision": "fed69690ff1a7b4e15ce00ec40542490",
+    "url": "/static/media/Jessica_Nguyen.fed69690.jpg"
+  },
+  {
     "revision": "33fe93e136c634d998e8e380401abdff",
     "url": "/static/media/Joseph_Tom.33fe93e1.jpg"
   },
@@ -268,6 +296,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Kappas_Skates.b09e1b2c.jpg"
   },
   {
+    "revision": "bb4ba2ef2a688dc15ef2bf6c6e2bc3a8",
+    "url": "/static/media/Kate_Arnold.bb4ba2ef.jpg"
+  },
+  {
     "revision": "d62c92eae7788cf2aab5266279d101a8",
     "url": "/static/media/Kayla_Wong.d62c92ea.jpg"
   },
@@ -282,6 +314,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "596266275813db17e6bf1304223328c2",
     "url": "/static/media/LPN_Letters_small.59626627.jpg"
+  },
+  {
+    "revision": "724622fe273a0c84b9e5ee07815e1f38",
+    "url": "/static/media/Lana_Noguera.724622fe.jpg"
   },
   {
     "revision": "6176ba900da0051e5a2ed134c0a12fd0",
@@ -302,6 +338,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "123366a1e99f30261d7d8407b9ad4193",
     "url": "/static/media/Madhu_Sharma.123366a1.jpg"
+  },
+  {
+    "revision": "495f6141ed6345be7c58b64579bf7502",
+    "url": "/static/media/Mason_Chen.495f6141.jpg"
   },
   {
     "revision": "f6a3a5a52901eff9fe2f523a8f5bed20",
@@ -404,16 +444,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ScaleAgent_White.35bfda57.png"
   },
   {
-    "revision": "8d4a5a8410172e9a963b54cf7bd7fcfc",
-    "url": "/static/media/Seol_Grille-removebg-preview.8d4a5a84.png"
-  },
-  {
     "revision": "e47b063dc1437cd1eb56854bed56f969",
     "url": "/static/media/ServiceNow.e47b063d.png"
   },
   {
     "revision": "c4cc1acb762d8cd4828f29d951194ba0",
     "url": "/static/media/Sigma_Formal.c4cc1acb.jpg"
+  },
+  {
+    "revision": "f24136000218eae91f60a909b4077333",
+    "url": "/static/media/Skyler_Chang.f2413600.jpg"
   },
   {
     "revision": "da0fecaa162343fa6bcb7c929e97c770",
@@ -452,8 +492,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Teresa_Chu.c23bac5c.jpg"
   },
   {
+    "revision": "ed9c70e6c7ca360211f28fec1a9a4e49",
+    "url": "/static/media/Thomas_Lin.ed9c70e6.jpg"
+  },
+  {
+    "revision": "f23e4f7a1872815fd67c92039cc61e3f",
+    "url": "/static/media/Tiffany_Chien.f23e4f7a.jpg"
+  },
+  {
     "revision": "79fe9007a3108f4fc0730b1bf9841d2d",
     "url": "/static/media/TikTok.79fe9007.png"
+  },
+  {
+    "revision": "f03c7b66d52c13a14a0d3db028780c29",
+    "url": "/static/media/Timothy_Sih.f03c7b66.jpg"
   },
   {
     "revision": "aaa820930e7639054a979682d897c85d",
@@ -558,5 +610,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7bd5ccf4949e740d6f7fa4c88f3fd6a",
     "url": "/static/media/starbucks-logo-png-transparent.f7bd5ccf.png"
+  },
+  {
+    "revision": "c226909e0741fcf799ed32fa60d1d7f0",
+    "url": "/static/media/warner-logo-white.c226909e.png"
   }
 ]);
