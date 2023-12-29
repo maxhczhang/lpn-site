@@ -808,8 +808,9 @@ export const profiles = {
         practice: "Human Resources",
         pronouns: "He/him",
         experience: {
+            "Set & Project Manager": "Warner Records",
             "Manager Host": "Seol Grille",
-            "Private Coach": "Soccer/Tennis"
+            "Private Coach": "Soccer/Tennis",
         },
         campusInvolvements: {
             "Management Information Student Society": "Intern",
@@ -841,7 +842,7 @@ export const profiles = {
             "Merage Undergraduate Student Association": "Mentor"
         },
         interests: ["Basketball", "Videogames", "Music", "Cooking", "Baking", "Hanging out with friends", "Working out", "Watching movies", "Eating food", "Sleeping", "Annoying my P-Bros", "Going to the beach", "Watching the sunset"],
-        whyLPN: "As a 3rd year transfer, I did not know anybody coming into UC Irvine. Additionally, I was unclear about my career path. One of my main goals coming in was to build my network and develop myself professionally. I did some research while attending events for Merage Undergraduate Student Association, Management Information Student Society, UFA, and other organizations and I discovered business fraternities. After discovering the different business fraternities, I rushed for Delta Sigma Pi and Lambda Phi Nu. I found that Delta Sigma Pi wasn't the right fit for me, but that I belonged in Lambda Phi Nu. Everyone was extremely welcoming, and genuine when I talked to them during rush and it made me feel included. Additionally, during the Week 0 social in Aldrich Park when I first met some of the Actives, they invited us to an after social which made me feel like I was already apart of the brotherhood. Aside from that, during the Business Fraternity Panel held by Merage Undergraduate Student Association I had learned about the different professional benefits that Lambda Phi Nu could offer, and that enticed me to join. Overall, Lambda Phi Nu embodies the epitome of tight bonds and professionalism.",
+        whyLPN: "As a 3rd year transfer, I did not know anybody coming into UC Irvine. Additionally, I was unclear about my career path. One of my main goals coming in was to build my network and develop myself professionally. I did some research while attending events for Merage Undergraduate Student Association, Management Information Student Society, UFA, and other organizations and I discovered business fraternities. After discovering the different business fraternities, I rushed for Delta Sigma Pi and Lambda Phi Nu. I found that Lambda Phi Nu was the right fit for me. Everyone was extremely welcoming, and genuine when I talked to them during rush and it made me feel included. Additionally, during the Week 0 social in Aldrich Park when I first met some of the Actives, they invited us to an after social which made me feel like I was already apart of the brotherhood. Aside from that, during the Business Fraternity Panel held by Merage Undergraduate Student Association I had learned about the different professional benefits that Lambda Phi Nu could offer, and that enticed me to join. Overall, Lambda Phi Nu embodies the epitome of tight bonds and professionalism.",
         img: require('../../../../assets/lpn_assets/pfp_temp.png')
     },
     

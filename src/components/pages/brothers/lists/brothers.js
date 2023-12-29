@@ -133,98 +133,98 @@ export const brothers = [
 
     // Chi Class
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Aidan_Jayakumar.jpg'),
         name: "Aidan Jayakumar",
         logo: require('../../../../assets/companyLogos/carlson__jayakumar_logo.png'),
         company: 'Carlson & Jayakumar LLP',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Annie_S.jpg'),
         name: "Annie Sreshthabutra",
         logo: require('../../../../assets/companyLogos/copperwired.png'),
         company: 'Copperwired',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Catherine_Tran.jpg'),
         name: "Catherine Tran",
         logo: require('../../../../assets/companyLogos/gold_coast_transit_logo-removebg-preview.png'),
         company: 'Gold Coast Transit District',
         width: "100%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Elise_Nadell.jpg'),
         name: "Elise Naddell",
         logo: require('../../../../assets/companyLogos/rocsglobal_logo.png'),
         company: 'ROCS Global, Inc',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Ethan_Tung.jpg'),
         name: "Ethan Tung",
         logo: require('../../../../assets/companyLogos/computing_reapplied_logo-removebg-preview.png'),
         company: 'Computing ReApplied',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Gabriel_V.jpg'),
         name: "Gabriel Villamariona",
         logo: require('../../../../assets/companyLogos/c9.png'),
         company: 'Cloud 9',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Jessica_Nguyen.jpg'),
         name: "Jessica Nguyen",
         logo: require('../../../../assets/companyLogos/ae.png'),
         company: 'American Eagle Outfitters, Inc.',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Kate_Arnold.jpg'),
         name: "Kate Arnold",
         logo: require('../../../../assets/companyLogos/starbucks-logo-png-transparent.png'),
         company: 'Starbucks',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Lana_Noguera.jpg'),
         name: "Lana Locquiao Noguera",
         logo: require('../../../../assets/companyLogos/r&btea.png'),
         company: 'R&B Tea USA',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Mason_Chen.jpg'),
         name: "Mason Chen",
         logo: require('../../../../assets/companyLogos/city_of_emeryville_logo.png'),
         company: 'City of Emeryville',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Skyler_Chang.jpg'),
         name: "Skyler Chang",
-        logo: require('../../../../assets/companyLogos/Seol_Grille-removebg-preview.png'),
-        company: 'Seol Grille',
+        logo: require('../../../../assets/companyLogos/warner-logo-white.png'),
+        company: 'Warner Records',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Thomas_Lin.jpg'),
         name: "Thomas Lin",
         logo: require('../../../../assets/companyLogos/lifetime-removebg-preview.png'),
         company: 'Lifetime Activities',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Tiffany_Chien.jpg'),
         name: "Tiffany Chien",
         logo: require('../../../../assets/companyLogos/building_u_logo-removebg-preview.png'),
         company: 'building-U',
         width: "75%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Timothy_Sih.jpg'),
         name: "Timothy Sih",
         logo: require('../../../../assets/companyLogos/chen_and_fan_accountancy_corporation_logo-removebg-preview.png'),
         company: 'Chen & Fan Accountancy Corp.',
