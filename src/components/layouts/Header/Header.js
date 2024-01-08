@@ -129,7 +129,7 @@ export default function Header({ pageNum }) {
 
                   <Button size="large" className={classes.button} component={Link} to="/faqs">FAQ</Button>
                  
-                  {/* <a href="http://www.tinyurl.com/LPNWinterrush2023" style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer"> 
+                  {/* <a href="http://tinyurl.com/lpn-winter2024-coffeechats" style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer"> 
                     <Button style={{ textDecoration:'none' }} size="large" className={classes.button}>Apply</Button>
                   </a> */}
                 </Box>

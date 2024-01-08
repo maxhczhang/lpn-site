@@ -171,7 +171,7 @@ export default function Winter2023({ setPage }) {
 
                 <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
-                        <a href="http://tinyurl.com/lpnwinterrush2024" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                        <a href="http://tinyurl.com/lpn-winter2024-coffeechats" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
                             <Button size="large" variant="contained" className={classes.button}>
                                 Apply
                             </Button>

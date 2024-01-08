@@ -27,7 +27,7 @@ export const events = [
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Casual",
         ics: "",
-        checkinLink: "http://www.tinyurl.com/LPNCoffeechats",
+        checkinLink: "http://tinyurl.com/lpn-winter2024-coffeechats",
         time: "By Appointment",
         location: "Sign Up Here",
         eventIcon: "schedule",
