@@ -83,7 +83,7 @@ export const directors = [
         title: "Webmaster",
         logo: require('../../../../assets/companyLogos/Amazon_White.png'),
         company: 'Amazon',
-        width: "50%"
+        width: "55%"
     },
    
     // {

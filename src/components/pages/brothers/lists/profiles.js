@@ -384,7 +384,7 @@ export const profiles = {
         major: "Computer Science",
         minor: "",
         emphasis: "",
-        practice: "Software Engineering, Quantitative Development",
+        practice: "Software Engineering",
         pronouns: "He/Him/His",
         experience: {"Co-Founder":"Bonsai","Software Development Engineer Intern":"Amazon","Software Developer":"Delta System & Software, Inc.", "Instructor":"iCode"},
         campusInvolvements: {"Webmaster": "Lambda Phi Nu", "Technical Lead":"Commit the Change","Information Associate":"Lambda Phi Nu"},
