@@ -1,22 +1,22 @@
 export const brothers = [
 
     // Omicron Class
-    {
-        img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
-        name: "Vivian Tran",
-        logo: require('../../../../assets/companyLogos/ServiceNow.png'),
-        company: 'ServiceNow',
-        width: "85%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Vivian_Tran.jpg'),
+    //     name: "Vivian Tran",
+    //     logo: require('../../../../assets/companyLogos/ServiceNow.png'),
+    //     company: 'ServiceNow',
+    //     width: "85%"
+    // },
 
     // Pi Class
-    {
-        img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
-        name: "Jamie Zhao",
-        logo: require('../../../../assets/companyLogos/Walmart_Connect.png'),
-        company: 'Walmart Connect',
-        width: "75%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Jamie_Zhao.jpg'),
+    //     name: "Jamie Zhao",
+    //     logo: require('../../../../assets/companyLogos/Walmart_Connect.png'),
+    //     company: 'Walmart Connect',
+    //     width: "75%"
+    // },
     
 
     // Rho Class
@@ -34,21 +34,21 @@ export const brothers = [
         company: 'Ingram Micro',
         width: "90%"
     },
-    {
-        img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
-        name: "Nicole Nguyen",
-        logo: require('../../../../assets/companyLogos/ServiceNow.png'),
-        company: 'ServiceNow',
-        width: "85%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Nicole_Nguyen.jpg'),
+    //     name: "Nicole Nguyen",
+    //     logo: require('../../../../assets/companyLogos/ServiceNow.png'),
+    //     company: 'ServiceNow',
+    //     width: "85%"
+    // },
     // Sigma Class
-    {
-        img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
-        name: "Jaejin Kim",
-        logo: require('../../../../assets/companyLogos/Profound2.png'),
-        company: 'Profound',
-        width: "90%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Jaejin_Kim.jpg'),
+    //     name: "Jaejin Kim",
+    //     logo: require('../../../../assets/companyLogos/Profound2.png'),
+    //     company: 'Profound',
+    //     width: "90%"
+    // },
     {
         img: require('../../../../assets/actives/brothers/Julie_Hsieh.jpg'),
         name: "Julie Hsieh",
@@ -104,13 +104,13 @@ export const brothers = [
         width: "75%"
     },
 
-    {
-        img: require('../../../../assets/actives/brothers/Dustin_Wong.jpg'),
-        logo: require('../../../../assets/companyLogos/Sparrow-removebg-preview.png'),
-        company: 'Sparrow',
-        name: "Dustin Wong",
-        width: "75%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Dustin_Wong.jpg'),
+    //     logo: require('../../../../assets/companyLogos/Sparrow-removebg-preview.png'),
+    //     company: 'Sparrow',
+    //     name: "Dustin Wong",
+    //     width: "75%"
+    // },
     {
         img: require('../../../../assets/actives/brothers/Puneet_Singh.jpg'),
         name: "Puneet Singh",
@@ -118,13 +118,13 @@ export const brothers = [
         company: '1st Century Bank',
         width: "75%"
     },
-    {
-        img: require('../../../../assets/actives/brothers/Sophia_Tran.jpg'),
-        name: "Sophia Tran",
-        logo: require('../../../../assets/companyLogos/Dassault_Systemes.png'),
-        company: 'Dassault Systemes',
-        width: "75%"
-    },
+    // {
+    //     img: require('../../../../assets/actives/brothers/Sophia_Tran.jpg'),
+    //     name: "Sophia Tran",
+    //     logo: require('../../../../assets/companyLogos/Dassault_Systemes.png'),
+    //     company: 'Dassault Systemes',
+    //     width: "75%"
+    // },
     {
         img: require('../../../../assets/actives/brothers/Zoe_Lui.jpg'),
         name: "Zoe Lui",
@@ -229,6 +229,16 @@ export const brothers = [
         logo: require('../../../../assets/companyLogos/chen_and_fan_accountancy_corporation_logo-removebg-preview.png'),
         company: 'Chen & Fan Accountancy Corp.',
         width: "100%"
+    },
+
+    // Psi Class
+
+    {
+        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        name: "Tristan Dizon",
+        logo: require('../../../../assets/companyLogos/EY.png'),
+        company: 'EY',
+        width: "55%"
     },
 
 

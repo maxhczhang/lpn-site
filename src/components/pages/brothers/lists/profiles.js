@@ -183,22 +183,22 @@ export const profiles = {
     },
 
     // Sigma
-    Hans_Chang: {
-        linkedIn: "https://www.linkedin.com/in/hans-chang/",
-        homeTown: "Taipei, Taiwan",
-        year: "3rd",
-        class: "Sigma",
-        major: "Business Economics",
-        minor: "Information and Computer Sciences",
-        emphasis: "",
-        practice: "Fintech, Marketing Analytics ",
-        pronouns: "He/Him/His",
-        experience: {"Risk Advisory Intern":"Deloitte","E-commerce Marketing Analysis Intern":"BenQ Corporation", "Accounting Assistant":"MediaTek Inc."},
-        campusInvolvements: {"Senior Advisor": "Taiwanese National Organization", "Strategy Director":"Lambda Phi Nu","Chief Finance Officer":"Taiwanese National Organization", "Media Team (Department of Marketing)":"Taiwanese National Organization", "Mentee":"Undergraduate Business Association",},
-        interests: ["Basketball", "Music", "Travel", "Cooking", "Skiing", "Formula 1", "Thrifting"],
-        whyLPN: "After having freshman year entirely online, I realized I didn't have much time left. I was not only trying to push myself out of my comfort zone but also looking for a community that could help me develop both personally and professionally. I am thankful for what LPN has taught me and shaped me into the person I am today.",
-        img: require('../../../../assets/actives/brothers/Hans_Chang.jpg'),
-    },
+    // Hans_Chang: {
+        // linkedIn: "https://www.linkedin.com/in/hans-chang/",
+        // homeTown: "Taipei, Taiwan",
+        // year: "3rd",
+        // class: "Sigma",
+        // major: "Business Economics",
+        // minor: "Information and Computer Sciences",
+        // emphasis: "",
+        // practice: "Fintech, Marketing Analytics ",
+        // pronouns: "He/Him/His",
+        // experience: {"Risk Advisory Intern":"Deloitte","E-commerce Marketing Analysis Intern":"BenQ Corporation", "Accounting Assistant":"MediaTek Inc."},
+        // campusInvolvements: {"Senior Advisor": "Taiwanese National Organization", "Strategy Director":"Lambda Phi Nu","Chief Finance Officer":"Taiwanese National Organization", "Media Team (Department of Marketing)":"Taiwanese National Organization", "Mentee":"Undergraduate Business Association",},
+        // interests: ["Basketball", "Music", "Travel", "Cooking", "Skiing", "Formula 1", "Thrifting"],
+        // whyLPN: "After having freshman year entirely online, I realized I didn't have much time left. I was not only trying to push myself out of my comfort zone but also looking for a community that could help me develop both personally and professionally. I am thankful for what LPN has taught me and shaped me into the person I am today.",
+        // img: require('../../../../assets/actives/brothers/Hans_Chang.jpg'),
+    // },
     Jaejin_Kim: {
         linkedIn: "https://https://www.linkedin.com/in/jaejink/",
         homeTown: "Busan, South Korea",
@@ -889,7 +889,168 @@ export const profiles = {
         interests: ["Baseball", "Grubbing", "Video Games", "Watching Sports", "Traveling", "Hiking"],
         whyLPN: "Coming to UCI as an international student, joining LPN has allowed me to find a second family. Joining LPN has helped me grow more than any other time in my life, and inspires me to be better every single day. I'm thankful that I have a community that has my back and I'm glad I can call these people my brothers for the rest of my life.",
         img: require('../../../../assets/lpn_assets/pfp_temp.png')
-    },      
+    },
+    
+    // Psi
+
+    Ben_Nguyen: {
+        linkedIn: "https://www.linkedin.com/in/ben-nguyenn/",
+        homeTown: "Anaheim, CA",
+        year: "2nd",
+        class: "Psi",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "",
+        practice: "Accounting",
+        pronouns: "He/Him",
+        experience: {
+        },
+        campusInvolvements: {
+        },
+        interests: ["Golf", "Video Games", "Gym"],
+        whyLPN: "LPN has gifted me a community of life-long brotherhood.",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+    },
+
+    Cinta_Adhiningrat: {
+        linkedIn: "https://www.linkedin.com/in/cintaadhi/",
+        homeTown: "Irvine, CA",
+        year: "3rd",
+        class: "Psi",
+        major: "Informatics",
+        minor: "Film and Media",
+        emphasis: "Human-Computer Interaction",
+        practice: "Product",
+        pronouns: "She/They",
+        experience: {
+            "Marketing Operations Intern": "SentinelOne",
+            "Market Research Extern": "National Research Group",
+            "Sophomore Summit Participant": "Abercrombie and Fitch",
+            "Elevate to Innovate Extern": "Accenture",
+        },
+        campusInvolvements: {
+            "FITS at UCI": "Vice President",
+            "The Women's Network at UCI": "VP of Diversity, Equity, and Inclusion",
+            "Design at UCI": "Design-a-thon Director",
+        },
+        interests: ["Thrifting", "Cafe Hopping", "Videography", "Collecting Vinyls and Blind Boxes", "Reposting TikToks"],
+        whyLPN: "LPN broke me out of a stubborn mindset that I knew myself best. LPN will teach you more about yourself professionally and personally, especially in aspects that you may have never realized. Being a part of LPN has given me so much drive to continue improving myself in all parts of my life.",
+        img: require('../../../../assets/actives/brothers/Cinta_A.jpg')
+    },
+
+    Christopher_Li: {
+        linkedIn: "https://www.linkedin.com/in/chrisli191/",
+        homeTown: "Irvine, CA",
+        year: "2nd",
+        class: "Psi",
+        major: "Informatics",
+        minor: "Management",
+        emphasis: "Human-Computer Interaction",
+        practice: "UI/UX Design, Product Management",
+        pronouns: "He/Him",
+        experience: {},
+        campusInvolvements: {
+            "Design at UCI": "Project Teams Lead",
+            "Marketing Association": "Member Relations Director",
+            "Chinese Association": "Member",
+        },
+        interests: ["Snowboarding", "Music Festivals", "Kpop", "EDM", "Grubbing", "Tennis"],
+        whyLPN: "As someone who was unfamiliar with the business field as a whole coming into UCI as an informatics major, LPN has given me the chance to develop immensely in my professional aspect and pushed me to opportunities that I would not have done solely by myself. LPN also has such a loving community, something I had been searching for through my time at UCI as a first-year, and I value these group of people as my second family. In my short time here, I have already made so many memories I will cherish forever with people I care very deeply about!",
+        img: require('../../../../assets/actives/brothers/Chris_Li.jpg')
+    },
+
+    Emily_Chen: {
+        linkedIn: "https://www.linkedin.com/in/emilychen04/",
+        homeTown: "San Leandro, CA",
+        year: "2nd",
+        class: "Psi",
+        major: "Business Administration",
+        minor: "Digital Information Systems",
+        emphasis: "",
+        practice: "Digital Marketing",
+        pronouns: "She/Her",
+        experience: {
+            "Accenture": "Business Analyst Intern",
+            "Revent Solutions": "Content Marketing Intern",
+            "Stop AAPI Hate": "Intern",
+        },
+        campusInvolvements: {
+            "Undergraduate Business Association": "VP of Administration",
+            "Merage Undergraduate Student Association": "Freshman Representative",
+            "Marketing Association": "Member Relations Director",
+        },
+        interests: ["Gym", "Going to the Beach", "Gel-X Nails", "Taking Pictures", "Driving"],
+        whyLPN: "LPN has provided me with a supportive environment where I can be my best self professionally and personally. It has allowed me to be around people that share very similar interests and aspirations.",
+        img: require('../../../../assets/actives/brothers/Emily_Chen.jpg')
+    },
+
+    Kyle_Shih: {
+        linkedIn: "https://www.linkedin.com/in/kyleshih/",
+        homeTown: "Huntington Beach, CA",
+        year: "2nd",
+        class: "Psi",
+        major: "Anthropology",
+        minor: "Sociology",
+        emphasis: "",
+        practice: "Project & Product Management",
+        pronouns: "He/Him",
+        experience: {
+            "Gudetama Cafe": "Social Media Marketer",
+            "UCI Ethics Center": "Academic Research Intern",
+        },
+        campusInvolvements: {
+            "Undergraduate Business Association": "VP of Marketing",
+            "ASUCI": "Mental Health Creative Visioning Intern",
+            "Manifest at UCI": "UI/UX Designer",
+        },
+        interests: ["Swimming", "Going to Cafes", "Thrifting", "Paddle Boarding"],
+        whyLPN: "I joined LPN because I really wanted to find a community of people that I could confide in, but also be surrounded by those that will push me outside of my comfort zone. Through LPN, I have some of my closest friends that have helped me develop personally and professionally!",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+    },
+
+    Nathan_Hou: {
+        linkedIn: "https://www.linkedin.com/in/nathanjhou/",
+        homeTown: "Diamond Bar, CA",
+        year: "4th",
+        class: "Psi",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "Finance",
+        practice: "Asset Management",
+        pronouns: "He/Him",
+        experience: {
+            "SMBC": "Summer Analyst",
+            "Inline GP": "Logistics Analyst",
+            "VocoPro Electronics": "Business Analyst Intern",
+        },
+        campusInvolvements: {
+        },
+        interests: ["Volleyball", "Karting", "F1"],
+        whyLPN: "I discovered the satisfaction of a rich and meaningful existence through the endless meals, late-night study sessions, and genuine support I receive from LPN.",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+    },
+
+    Tristan_Dizon: {
+        linkedIn: "https://www.linkedin.com/in/tristan-dizon/",
+        homeTown: "Saratoga, CA",
+        year: "4th",
+        class: "Psi",
+        major: "Economics",
+        minor: "",
+        emphasis: "",
+        practice: "Accounting",
+        pronouns: "He/Him",
+        experience: {
+            "EY": "Audit and Assurance Intern",
+        },
+        campusInvolvements: {
+            "Beta Alpha Psi": "Secretary",
+        },
+        interests: ["Guitar", "Video Games", "Working Out", "Watching Movies"],
+        whyLPN: "LPN had some of the most welcoming people I have met at UCI. While it is business-oriented, that is just one of the many perks of LPN. I have found such a supportive community, and joining is one of the best decisions I have made personally and professionally. ",
+        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+    },
+
 };
 
 export default { profiles };
