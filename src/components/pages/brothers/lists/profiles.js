@@ -597,7 +597,7 @@ export const profiles = {
         campusInvolvements: {},
         interests: ["Soccer", "Football", "Golf", "Skiing", "Late night drives", "Eating new foods", "Traveling"],
         whyLPN: "As a first year student, I felt lost before I joined LPN. Being a member of LPN has not only provided me with the professional resources and development I was looking for but also a community of driven individuals that I get to have fun with. I couldn't imagine what my college experience would entail without joining LPN.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Aidan_Jayakumar.jpg')
     },
 
     Annie_Sreshthabutra: {
@@ -619,7 +619,7 @@ export const profiles = {
         },
         interests: ["Reading", "Taking Pictures", "Making Art", "Journaling", "Trying New Food Spots", "Listening to Music"],
         whyLPN: "Joining LPN has helped me find a home away from home. In just a few months, I have made countless memories with some of the best people I have ever met and grown so much more than I ever thought I could. In LPN, I have found a group of individuals who inspire me to be the best version of myself everyday, and I am so grateful for this community.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Annie_S.jpg')
     },
     
     Catherine_Tran: {
@@ -639,7 +639,7 @@ export const profiles = {
         campusInvolvements: {},
         interests: ["Reading", "Watching movies and TV shows", "Thrifting", "Going out with friends", "Exploring new food spots"],
         whyLPN: "As a third-year transfer, I wanted to become more involved and find a community of people I could grow with. Within a short period of time, I have become extremely close with everyone in LPN and have grown both professionally and personally. LPN has provided me with some of my greatest friends and mentors. After joining LPN, I have found the community and people who will forever influence my life and always be my greatest support system.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Catherine_Tran.jpg')
     },
 
     Elise_Naddell: {
@@ -662,7 +662,7 @@ export const profiles = {
         },
         interests: ["Paddling", "Weight Lifting", "Tennis", "Drawing", "Movies", "Trying New Things", "Outdoor Activities", "Fashion"],
         whyLPN: "I wanted to join a community that would involve me in the business world. When I went to various Rush events, I enjoyed meeting all of the new people and learning about different career aspirations. I learned that LPN is full of ambitious individuals who all work to thrive together. I am grateful to be a part of a community where everyone is so supportive and where we all constantly work to better ourselves. Becoming a part of LPN has exposed me to so many unique experiences and organizations that I would not have been exposed to, especially as a non-business major.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Elise_Nadell.jpg')
     },
 
     Ethan_Tung: {
@@ -686,7 +686,7 @@ export const profiles = {
         },
         interests: ["Paddleboarding", "Fashion", "Driving", "Basketball", "Volleyball", "Cooking", "Sanrio", "Studio Ghibli", "Guitar"],
         whyLPN: "LPN reminds me every day how family can also refer to people who are not related by blood to me.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Ethan_Tung.jpg')
     },
 
     Gabriel_Villamariona: {
@@ -708,7 +708,7 @@ export const profiles = {
         },
         interests: ["Esports", "Video Games", "Skiing", "Jet-Skiing", "Amusement Parks", "Tech"],
         whyLPN: "As a third-year transfer student, finding a community of driven individuals was a priority. With Lambda Phi Nu, I could push myself and grow more in seven weeks than I thought possible.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Gabriel_V.jpg')
     },
 
     Jessica_Nguyen: {
@@ -820,7 +820,7 @@ export const profiles = {
         },
         interests: ["Tennis", "Soccer", "Drawing", "Reading", "Guitar", "Ukulele", "Sleeping", "Working Out", "Photography", "Boxing", "Eating"],
         whyLPN: "LPN is a great community with driven individuals who uplift and empower one another. Personally I enjoy being a part of this community, and value the relationships I have made. LPN is a place that embody many virtues I resonate with, and that is something I highly value.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Skyler_Chang.jpg')
     },
     
     Thomas_Lin: {
@@ -843,7 +843,7 @@ export const profiles = {
         },
         interests: ["Basketball", "Videogames", "Music", "Cooking", "Baking", "Hanging out with friends", "Working out", "Watching movies", "Eating food", "Sleeping", "Annoying my P-Bros", "Going to the beach", "Watching the sunset"],
         whyLPN: "As a 3rd year transfer, I did not know anybody coming into UC Irvine. Additionally, I was unclear about my career path. One of my main goals coming in was to build my network and develop myself professionally. I did some research while attending events for Merage Undergraduate Student Association, Management Information Student Society, UFA, and other organizations and I discovered business fraternities. After discovering the different business fraternities, I rushed for Delta Sigma Pi and Lambda Phi Nu. I found that Lambda Phi Nu was the right fit for me. Everyone was extremely welcoming, and genuine when I talked to them during rush and it made me feel included. Additionally, during the Week 0 social in Aldrich Park when I first met some of the Actives, they invited us to an after social which made me feel like I was already apart of the brotherhood. Aside from that, during the Business Fraternity Panel held by Merage Undergraduate Student Association I had learned about the different professional benefits that Lambda Phi Nu could offer, and that enticed me to join. Overall, Lambda Phi Nu embodies the epitome of tight bonds and professionalism.",
-        img: require('../../../../assets/lpn_assets/pfp_temp.png')
+        img: require('../../../../assets/actives/brothers/Thomas_Lin.jpg')
     },
     
     Tiffany_Chien: {
