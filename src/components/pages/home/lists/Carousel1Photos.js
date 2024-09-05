@@ -1,5 +1,5 @@
 import Sigma from '../../../../assets/home/carousel1/Sigma_Formal.jpg'
-import Upsilon from '../../../../assets/home/carousel1/Upsilon_Retreat.jpg'
+import Upsilon from '../../../../assets/home/carousel1/Upsilon_2023.jpg'
 import Tau from '../../../../assets/home/carousel1/Tau_formal.jpg'
 
 export const carousel1photos = [

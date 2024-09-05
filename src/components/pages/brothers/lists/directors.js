@@ -1,133 +1,107 @@
 export const directors = [
-    // {
-    //     img: require('../../../../assets/actives/brothers/Evan_Choe.jpg'),
-    //     name: "Evan Choe",
-    //     title: "Alumni Relations Director | Recruiter",
-    //     // logo: require('../../../../assets/companyLogos/WesternDigital.webp'),
-    //     // company: 'Western Digital',
-    //     width: "50%"
-    // },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Ben_Nguyen.jpg'),
         name: "Ben Nguyen",
         title: "Alumni Relations Director",
     },
     {
-        img: require('../../../../assets/actives/brothers/Chris_Li.jpg'),
-        name: "Christopher Li",
-        title: "Culture & Relationships Director",
+        img: require('../../../../assets/actives/brothers/Elise_Nadell.jpg'),
+        name: "Elise Naddell",
+        title: "Career Catalyst Director",
+        company: "Project Destined",
+        logo: require('../../../../assets/companyLogos/Project_Destined.png'),
+        width: "100%"
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Justin_Chao.jpg'),
-    //     name: "Justin Chao",
-    //     title: "Career Catalyst Director",
-    //     logo: require('../../../../assets/companyLogos/West_Monroe.png'),
-    //     company: 'West Monroe',
-    //     width: "40%"
-    // },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Alie_Li.jpg'),
-    //     name: "Alie Li",
-    //     title: 'Culture & Relationships Director',
-    //     logo: require('../../../../assets/companyLogos/Integral.png'),
-    //     company: 'Integral Consulting',
-    //     width: "70%"
-    // },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Raj_Singh.jpg'),
-    //     name: "Raj Singh",
-    //     title: 'Culture & Relationships Director',
-    //     logo: require('../../../../assets/companyLogos/Hajoca_Transparent.png'),
-    //     company: 'Hajoca',
-    //     width: "70%"
-    // },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Denise_Wei.jpg'),
-    //     name: "Denise Wei",
-    //     title: "Finance Director",
-    //     logo: require('../../../../assets/companyLogos/Pwc_White.png'),
-    //     company: 'PwC',
-    //     width: "50%"
-    // },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
-        name: "Kyle Shih",
-        title: "Social Impact Director",
-        logo: require('../../../../assets/companyLogos/Gudetama.png'),
-        company: 'Gudetama Cafe',
-        width: "70%"
+        img: require('../../../../assets/actives/brothers/Aidan_Jayakumar.jpg'),
+        name: "Aidan Jayakumar",
+        title: "Strategy Director",
+        company: "Capstone Partners",
+        logo: require('../../../../assets/companyLogos/Capstone_Icon.jpeg'),
+        width: "45%"
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Grace_Xu.jpg'),
-    //     name: "Grace Xu",
-    //     title: "Marketing Director",
-    //     logo: require('../../../../assets/companyLogos/ScaleAgent_White.png'),
-    //     company: 'ScaleAgent',
-    //     width: "70%"
-    // },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Joseph_Tom.jpg'),
-    //     logo: require('../../../../assets/companyLogos/FormFactor-removebg-preview.png'),
-    //     company: 'FormFactor',
-    //     name: "Joseph Tom",
-    //     title: "Marketing Director",
-    //     width: "70%"
-    // },
+    {
+        img: require('../../../../assets/actives/brothers/Gabriel_V.jpg'),
+        name: "Gabriel Villamariona",
+        title: "Finance Director",
+        company: "Advanced Sterilization Products",
+        logo: require('../../../../assets/companyLogos/ASP.jpeg'),
+        width: "45%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Annie_S.jpg'),
+        name: "Annie Sreshthabutra",
+        title: "Marketing Director",
+        company: "Copperwired",
+        logo: require('../../../../assets/companyLogos/copperwired.png'),
+        width: "50%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Tiffany_Chien.jpg'),
+        name: "Tiffany Chien",
+        title: "Marketing Director",
+        company: "Niagara Bottling",
+        logo: require('../../../../assets/companyLogos/Niagara.png'),
+        width: "75%"
+    },
     {
         img: require('../../../../assets/actives/brothers/Cinta_A.jpg'),
         name: "Cinta Adhiningrat",
         title: "Webmaster",
         logo: require('../../../../assets/companyLogos/SentinelOne.png'),
         company: 'SentinelOne',
-        width: "55%"
+        width: "45%"
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Rayyaan_Majid.jpg'),
-    //     name: "Rayyaan Majid",
-    //     title: "Recruiter",
-    //     width: "55%"
-    // },
+    {
+        img: require('../../../../assets/actives/brothers/Chris_Li.jpg'),
+        name: "Christopher Li",
+        title: "Culture & Relationships Director",
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Mason_Chen.jpg'),
+        name: "Mason Chen",
+        title: "Culture & Relationships Director",
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Kyle_Shih.jpg'),
+        name: "Kyle Shih",
+        title: "Social Impact Director",
+        logo: require('../../../../assets/companyLogos/Gudetama.png'),
+        company: 'Gudetama Cafe',
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Skyler_Chang.jpg'),
+        name: "Skyler Chang",
+        title: "Recruiter",
+        company: "First American",
+        logo: require('../../../../assets/companyLogos/First_American.png'),
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Timothy_Sih.jpg'),
+        name: "Timothy Sih",
+        title: "Recruiter",
+        logo: require('../../../../assets/companyLogos/Pwc_White.png'),
+        company: 'PwC',
+        width: "50%"
+    },
     {
         img: require('../../../../assets/actives/brothers/Emily_Chen.jpg'),
         name: "Emily Chen",
         title: "Recruiter",
         logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
         company: 'Accenture',
-        width: "40%"
+        width: "35%"
     },
     {
-        img: require('../../../../assets/lpn_assets/pfp_temp.png'),
+        img: require('../../../../assets/actives/brothers/Nathan_Hou.jpg'),
         name: "Nathan Hou",
         title: "Recruiter",
         logo: require('../../../../assets/companyLogos/SMBC.png'),
         company: 'SMBC',
         width: "75%"
     },
-    // {
-    //     img: require('../../../../assets/actives/brothers/Brandyn_Huynh.jpg'),
-    //     name: "Brandyn Huynh",
-    //     title: 'Social Impact Director',
-    //     logo: require('../../../../assets/companyLogos/Amazon_White.png'),
-    //     company: 'Amazon',
-    //     width: "50%"
-    // },    
-    // {
-    //     img: require('../../../../assets/actives/brothers/Hans_Chang.jpg'),
-    //     name: "Hans Chang",
-    //     title: 'Strategy Director',
-    //     logo: require('../../../../assets/companyLogos/Deloitte_White.png'),
-    //     company: 'Deloitte',
-    //     width: "60%"
-    // },    
-    // {
-    //     img: require('../../../../assets/actives/brothers/Madhu_Sharma.jpg'),
-    //     name: "Madhu Sharma",
-    //     title: "Webmaster",
-    //     logo: require('../../../../assets/companyLogos/Amazon_White.png'),
-    //     company: 'Amazon',
-    //     width: "55%"
-    // },
-   
 ];
 
 export default { directors };
