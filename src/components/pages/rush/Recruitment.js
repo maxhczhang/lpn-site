@@ -115,10 +115,10 @@ export default function Winter2023({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/events/1116329235984973" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2024</a>
+                        <a href="https://www.facebook.com/lpnuci" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2024</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Psi Class Recruitment
+                        Alpha Beta Class Recruitment
                     </Box>
                 </Typography>
             </Box>
@@ -134,7 +134,7 @@ export default function Winter2023({ setPage }) {
                     Thank you to everyone who participated in our Winter 2023 Rush cycle! Our next Recruitment will take place during Fall 2023; check back here for more details.
                 </Box> */}
                 <Box mt={10} fontSize="h6.fontSize"> 
-                Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 240 Active and Alumni brothers, we are now actively recruiting for our Psi class!
+                Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for students seeking to develop their leadership potential and to foster their professional and personal growth. With over 250 Active and Alumni brothers, we are now actively recruiting for our Alpha Beta class!
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
                 Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
@@ -171,7 +171,7 @@ export default function Winter2023({ setPage }) {
 
                 <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
-                        <a href="http://tinyurl.com/lpn-winter2024-coffeechats" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                        <a href="http://tinyurl.com/lpnfallrush2024" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
                             <Button size="large" variant="contained" className={classes.button}>
                                 Apply
                             </Button>
