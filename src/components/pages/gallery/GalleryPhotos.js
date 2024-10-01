@@ -1,7 +1,40 @@
 export const GalleryPhotos = [
 
-
-    
+    {
+        img: require('../../../assets/gallery/Winter2024_Retreat.jpg'),
+        cols: 3,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Chi_Girls.jpeg'),
+        cols: 1,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Upsilon_Winter.jpeg'),
+        cols: 2,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Chis_Home.jpeg'),
+        cols: 2,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Pi_Apt.jpg'),
+        cols: 1,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/Psis_D4D.jpg'),
+        cols: 1,
+        rows: 1,
+    },
+    {
+        img: require('../../../assets/gallery/2024_Full.jpeg'),
+        cols: 2,
+        rows: 1,
+    },
     {
         img: require('../../../assets/gallery/Pumpkin_Patch.jpeg'),
         cols: 2,

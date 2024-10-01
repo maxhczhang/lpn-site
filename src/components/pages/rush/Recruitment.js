@@ -139,6 +139,13 @@ export default function Winter2023({ setPage }) {
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
                 Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
                 </Box>
+                <Box mt={6} mb={6} fontSize="h6.fontSize">
+                Fall 2024 applications are due{" "}
+                <a href="https://tinyurl.com/lpnfallrush2024" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', color : 'black' }}>
+                    October 9th, 2024
+                </a>{" "}
+                by 6:30 PM (PST).
+                </Box>
             </Typography>
 
             <Divider className={classes.divider}></Divider>

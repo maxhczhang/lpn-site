@@ -12,7 +12,7 @@ export const events = [
     },  
     {
         title: "Info Night",
-        date: "10/02, 10/06",
+        date: "10/03",
         description: "Learn about our fraternity's history, involvements, and culture.",
         dressCode: "Business Casual",
         ics: "",
@@ -23,15 +23,15 @@ export const events = [
     },
     {
         title: "Coffee Chats",
-        date: "10/03",
+        date: "10/02, 10/06",
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Virtual",
         ics: "",
-        // checkinLink: "http://tinyurl.com/lpn-winter2024-coffeechats",
+        checkinLink: "https://calendly.com/ucilpn/lpn-coffee-chat",
         time: "By Appointment",
-        // location: "Sign Up Here!",
-        // eventIcon: "schedule",
-        // eventTooltip: "Sign up for a time slot"
+        location: "Sign Up Here!",
+        eventIcon: "schedule",
+        eventTooltip: "Sign up for a time slot"
     },  
     {
         title: "Professional Night",

@@ -1,11 +1,11 @@
 export const faqsList = [
     {
         question: "When can I join?",
-        answer: "We are holding Winter 2024 recruitment starting on January 8th. Head to our Recruitment page to learn more!",
+        answer: "We hold recruitment every Fall and Winter quarter of each academic year. Head to our Recruitment page to learn more!",
     },
     {
         question: "Why Lambda Phi Nu?",
-        answer: "We’re a close-knit fraternity with 12 years of history at UCI. When you join us, all our Active Brothers and Alumni become part of your family! You’ll make memories, lead campus organizations, and work at Fortune 500 companies. Our C-suite and Directors also have the unique opportunity to exert full control over the direction of our fraternity. This allows us to start new initiatives, transform our brand the way we want to, and shape our future ourselves. Head to our About page for more details!",
+        answer: "We’re a close-knit fraternity with 14 years of history at UCI. When you join us, all our Active Brothers and Alumni become part of your family! You’ll make memories, lead campus organizations, and work at Fortune 500 companies. Our C-suite and Directors also have the unique opportunity to exert full control over the direction of our fraternity. This allows us to start new initiatives, transform our brand the way we want to, and shape our future ourselves. Head to our About page for more details!",
     },
     {
         question: "What differentiates us from other business fraternities?",
