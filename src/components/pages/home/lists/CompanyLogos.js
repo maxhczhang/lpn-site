@@ -63,6 +63,22 @@ export const companyLogos = [
         img: require('../../../../assets/companyLogos/WellsFargo.png'),
         title: 'Wells Fargo'
     },
+    {
+        img: require('../../../../assets/companyLogos/NBC.png'),
+        title: 'NBC'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Mastercard.png'),
+        title: 'Mastercard'
+    },
+    {
+        img: require('../../../../assets/companyLogos/CapitalOne.png'),
+        title: 'Capital One'
+    },
+    {
+        img: require('../../../../assets/companyLogos/Citi.png'),
+        title: 'Citi'
+    },
 ];
 
 export default { companyLogos };

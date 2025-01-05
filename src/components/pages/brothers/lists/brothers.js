@@ -1,14 +1,6 @@
 export const brothers = [
 
     // Rho Class
-
-    {
-        img: require('../../../../assets/actives/brothers/Aaron_Lee.jpg'),
-        name: "Aaron Lee",
-        logo: require('../../../../assets/companyLogos/Oppti.png'),
-        company: 'Oppti',
-        width: "60%"
-    },
     {
         img: require('../../../../assets/actives/brothers/Eddie_Rios.jpg'),
         name: "Eddie Rios",
@@ -52,13 +44,6 @@ export const brothers = [
         width: "100%"
     },
 
-    {
-        img: require('../../../../assets/actives/brothers/Rainer_Setiawan.jpg'),
-        logo: require('../../../../assets/companyLogos/Profound2.png'),
-        company: 'Profound',
-        name: "Rainer Setiawan",
-        width: "90%"
-    },
     {
         img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg'),
         name: "Tannvi Banerjee",
@@ -148,6 +133,64 @@ export const brothers = [
         name: "Tristan Dizon",
         logo: require('../../../../assets/companyLogos/EY.png'),
         company: 'EY',
+        width: "55%"
+    },
+
+    // Alpha Beta Class
+
+    {
+        img: require('../../../../assets/actives/brothers/Keili_Ishiara.jpg'),
+        name: "Keili Ishiara",
+        logo: require('../../../../assets/companyLogos/Bank_Of_Hawaii.png'),
+        company: 'Bank of Hawaii',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Lauren_Wong.jpg'),
+        name: "Lauren Wong",
+        logo: require('../../../../assets/companyLogos/Allergan_Aesthetics.png'),
+        company: 'Allergan Aesthetics',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Madeleine_Chen.jpg'),
+        name: "Madeleine Chen",
+        logo: require('../../../../assets/companyLogos/Allergan_Aesthetics.png'),
+        company: 'Allergan Aesthetics',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Mahad_Afridi.jpg'),
+        name: "Mahad Afridi",
+        logo: require('../../../../assets/companyLogos/Swimlane.png'),
+        company: 'Swimlane',
+        width: "85%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Max_Zhang.jpg'),
+        name: "Max Zhang",
+        logo: require('../../../../assets/companyLogos/Silvercorp_Metals.png'),
+        company: 'Silvercorps Metals Inc',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Neha_Y.jpg'),
+        name: "Neha Yelgireddy",
+        logo: require('../../../../assets/companyLogos/Penumbra.png'),
+        company: 'Penumbra Inc',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Nicole_Yap.jpg'),
+        name: "Nicole Anne Yap",
+        logo: require('../../../../assets/companyLogos/Underworld.png'),
+        company: 'Underworld Productions',
         width: "55%"
     },
 

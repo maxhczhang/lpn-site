@@ -1196,6 +1196,160 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Tristan_Dizon.jpg')
     },
 
+    // Alpha Beta
+
+    Keili_Ishiara: {
+        linkedIn: "https://www.linkedin.com/in/keiliish/",
+        homeTown: "Kane'ohe, HI",
+        year: "2nd",
+        class: "Alpha Beta",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "Marketing",
+        practice: "Marketing",
+        pronouns: "She/Her",
+        experience: {
+            "Bank of Hawaii": "Marketing Intern",
+        },
+        campusInvolvements: {
+        },
+        interests: ["Scrapbooking", "Traveling", "Collecting Blind Boxes", "Cafe Hopping"],
+        whyLPN: "LPN has brought me countless opportunities, both professionally and personally. The community and work ethic of everyone in LPN continues to motivate and inspire me.",
+        img: require('../../../../assets/actives/brothers/Keili_Ishiara.jpg')
+    },
+
+    Lauren_Wong: {
+        linkedIn: "https://www.linkedin.com/in/laurenchauwong/",
+        homeTown: "Irvine, CA",
+        year: "1st",
+        class: "Alpha Beta",
+        major: "Psychology",
+        minor: "",
+        emphasis: "",
+        practice: "UI/UX Design",
+        pronouns: "She/Her",
+        experience: {
+            "Allergan Aesthetics": "Operations Intern",
+            "Asian American Senior Citizens Service Center": "Graphic Design Intern",
+        },
+        campusInvolvements: {
+        },
+        interests: ["Guitar", "Singing", "Eating", "Cafe Hopping"],
+        whyLPN: "LPN has and continues to push me to grow and step out of my comfort zone. I've gained more confidence about what path I want to pursue and found a second family in LPN.",
+        img: require('../../../../assets/actives/brothers/Lauren_Wong.jpg')
+    },
+
+    Madeleine_Chen: {
+        linkedIn: "https://www.linkedin.com/in/madeleinejchen/",
+        homeTown: "Irvine, CA",
+        year: "1st",
+        class: "Alpha Beta",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "",
+        practice: "Project Management and Marketing",
+        pronouns: "She/Her",
+        experience: {
+            "Allergan Aesthetics": "Data Analytics Intern",
+        },
+        campusInvolvements: {
+            "Merage Undergraduate Student Association": "Freshman Representative",
+        },
+        interests: ["Crocheting", "Swimming", "Concerts", "Traveling"],
+        whyLPN: "LPN has and continues to push me to grow and step out of my comfort zone. I've gained more confidence about what path I want to pursue and found a second family in LPN.",
+        img: require('../../../../assets/actives/brothers/Madeleine_Chen.jpg')
+    },
+
+    Mahad_Afridi: {
+        linkedIn: "https://www.linkedin.com/in/mahad-akbar-afridi/",
+        homeTown: "Lakewood, CA",
+        year: "2nd",
+        class: "Alpha Beta",
+        major: "Computer Science",
+        minor: "Statistics",
+        emphasis: "Intelligent Systems",
+        practice: "Software Engineering",
+        pronouns: "He/Him",
+        experience: {
+            "Swimlane": "Software Engineer Intern",
+        },
+        campusInvolvements: {
+            "Whiteson Lab": "Research Assistant",
+        },
+        interests: ["Soccer", "Baseball", "Lifting", "Watches"],
+        whyLPN: "LPN has been a key motivator for me, especially as someone who commutes and often feels disconnected from campus. Joining the fraternity gave me a sense of belonging and encouraged me to take on more, both professionally and personally.",
+        img: require('../../../../assets/actives/brothers/Mahad_Afridi.jpg')
+    },
+
+    Max_Zhang: {
+        linkedIn: "https://www.linkedin.com/in/maxhczhang/",
+        homeTown: "Vancouver, BC",
+        year: "1st",
+        class: "Alpha Beta",
+        major: "Computer Science",
+        minor: "",
+        emphasis: "Intelligent Systems",
+        practice: "Software Engineering",
+        pronouns: "He/Him",
+        experience: {
+            "Silvercorp Metals Inc": "Information Technology Intern",
+        },
+        campusInvolvements: {
+        },
+        interests: ["Driving", "Traveling", "Weightlifting", "Geography"],
+        whyLPN: "LPN has been an opportunity for me to not only develop professionally but also personally. From going about how to approach my career aspirations to making lasting bonds, I cherish every moment of my time with the people that have taught me these lessons.",
+        img: require('../../../../assets/actives/brothers/Max_Zhang.jpg')
+    },
+
+    Neha_Yelgireddy: {
+        linkedIn: "https://www.linkedin.com/in/neha-yelgireddy/",
+        homeTown: "San Ramon, CA",
+        year: "3rd",
+        class: "Alpha Beta",
+        major: "Software Engineering",
+        minor: "",
+        emphasis: "",
+        practice: "Software Engineering",
+        pronouns: "She/Her",
+        experience: {
+            "Penumbra Inc.": "Software Engineer Intern",
+            "Aspiring Scholars Directed Research Program": "Machine Learning Researcher",
+        },
+        campusInvolvements: {
+            "MAISS": "Mentee",
+        },
+        interests: ["Trying New Foods", "Going on Drives", "Tennis", "Hiking"],
+        whyLPN: "As a transfer student, I was nervous about finding a community where I would fit in and feel supported. LPN has become like a second family, where I’ve had the chance to grow, learn from others, and form meaningful relationships with people who genuinely care.",
+        img: require('../../../../assets/actives/brothers/Neha_Y.jpg')
+    },
+
+    Nicole_Anne_Yap: {
+        linkedIn: "https://www.linkedin.com/in/nicoleanneyap/",
+        homeTown: "Elk Grove, CA",
+        year: "3rd",
+        class: "Alpha Beta",
+        major: "Informatics",
+        minor: "Management",
+        emphasis: "Human-Computer Interaction",
+        practice: "Product Marketing & Leadership",
+        pronouns: "She/Her",
+        experience: {
+            "Arena OC/Underworld Productions": "Software Engineer Intern",
+            "Beats By Dre": "Consumer Insights & Market Intelligence Extern",
+            "UC Irvine Athletics": "Digital Marketing & Creative Services Intern",
+        },
+        campusInvolvements: {
+            "Product Association": "Product Marketing Manager & PMM Lead",
+            "Manifest": "Marketing Internal Team Member",
+            "Marketing Association": "Alumni Relations Director",
+            "Kababayan": "2nd Tier & General Member",
+            "Design at UCI": "Project Teams Participant",
+        },
+        interests: ["DJing", "Music Production", "Dance", "Videography & Photography"],
+        whyLPN: "I chose LPN because of its dedication to professionalism and brotherhood. LPN not only gave me a better understanding of my career path, but it also gave me the community I have been looking for since the beginning of college.",
+        img: require('../../../../assets/actives/brothers/Nicole_Yap.jpg')
+    },
+
 };
 
 export default { profiles };
