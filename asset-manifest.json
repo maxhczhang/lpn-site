@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.97268bb8.chunk.css",
-    "main.js": "/static/js/main.d4770fb4.chunk.js",
-    "main.js.map": "/static/js/main.d4770fb4.chunk.js.map",
+    "main.js": "/static/js/main.c98a6c85.chunk.js",
+    "main.js.map": "/static/js/main.c98a6c85.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b86ae5a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b86ae5a1.js.map",
     "static/css/2.9905d55a.chunk.css": "/static/css/2.9905d55a.chunk.css",
-    "static/js/2.edee1a65.chunk.js": "/static/js/2.edee1a65.chunk.js",
-    "static/js/2.edee1a65.chunk.js.map": "/static/js/2.edee1a65.chunk.js.map",
+    "static/js/2.a2812366.chunk.js": "/static/js/2.a2812366.chunk.js",
+    "static/js/2.a2812366.chunk.js.map": "/static/js/2.a2812366.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e5dfb5ef95c4e4443d71c9ed87484200.js": "/precache-manifest.e5dfb5ef95c4e4443d71c9ed87484200.js",
+    "precache-manifest.47e09bc2a1ee1a360dbe41b8161298be.js": "/precache-manifest.47e09bc2a1ee1a360dbe41b8161298be.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.97268bb8.chunk.css.map": "/static/css/main.97268bb8.chunk.css.map",
-    "static/js/2.edee1a65.chunk.js.LICENSE.txt": "/static/js/2.edee1a65.chunk.js.LICENSE.txt",
+    "static/js/2.a2812366.chunk.js.LICENSE.txt": "/static/js/2.a2812366.chunk.js.LICENSE.txt",
     "static/media/2022-2023_Csuite.JPG": "/static/media/2022-2023_Csuite.151d7161.JPG",
     "static/media/2024_Full.jpeg": "/static/media/2024_Full.4d94fe3a.jpeg",
     "static/media/AA.png": "/static/media/AA.8339328f.png",
@@ -67,10 +67,10 @@
     "static/media/Grace_Xu.jpg": "/static/media/Grace_Xu.d57a156d.jpg",
     "static/media/Graduating_Seniors.jpg": "/static/media/Graduating_Seniors.35445ffb.jpg",
     "static/media/Group_Seniors.jpg": "/static/media/Group_Seniors.5954ec30.jpg",
-    "static/media/Gudetama.png": "/static/media/Gudetama.ed3ecff7.png",
     "static/media/HRMA.png": "/static/media/HRMA.1a622e17.png",
     "static/media/Hajoca_Transparent.png": "/static/media/Hajoca_Transparent.c61bc806.png",
-    "static/media/Home.jpg": "/static/media/Home.e69bee69.jpg",
+    "static/media/Hamee.png": "/static/media/Hamee.737c06c2.png",
+    "static/media/Home.jpg": "/static/media/Home.eb704e06.jpg",
     "static/media/ISBA.png": "/static/media/ISBA.d3bb9cd9.png",
     "static/media/Ingram_Micro_Transparent.png": "/static/media/Ingram_Micro_Transparent.73c325f8.png",
     "static/media/Iolites_small.jpg": "/static/media/Iolites_small.e944bc7d.jpg",
@@ -130,7 +130,6 @@
     "static/media/Raj_Singh.jpg": "/static/media/Raj_Singh.5e5e6a04.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.7e337ae2.jpg",
     "static/media/Retreat_Hike.JPG": "/static/media/Retreat_Hike.30dc1328.JPG",
-    "static/media/Riteline-removebg-preview.png": "/static/media/Riteline-removebg-preview.2bebcfee.png",
     "static/media/Rubies_Seniors.jpg": "/static/media/Rubies_Seniors.3a79d1a0.jpg",
     "static/media/Ruby_Ko.jpg": "/static/media/Ruby_Ko.8b352b0a.jpg",
     "static/media/RyanChen_Circle.jpg": "/static/media/RyanChen_Circle.6abb22cd.jpg",
@@ -174,7 +173,6 @@
     "static/media/Zoe_Lui.jpg": "/static/media/Zoe_Lui.3fe7c64e.jpg",
     "static/media/copperwired.png": "/static/media/copperwired.09a80e46.png",
     "static/media/fall_2023.png": "/static/media/fall_2023.27664597.png",
-    "static/media/lifetime-removebg-preview.png": "/static/media/lifetime-removebg-preview.6bce33bf.png",
     "static/media/logo.png": "/static/media/logo.f68038e3.png",
     "static/media/logo_white.png": "/static/media/logo_white.391d31fd.png",
     "static/media/starbucks-logo-png-transparent.png": "/static/media/starbucks-logo-png-transparent.f7bd5ccf.png"
@@ -182,8 +180,8 @@
   "entrypoints": [
     "static/js/runtime-main.b86ae5a1.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.edee1a65.chunk.js",
+    "static/js/2.a2812366.chunk.js",
     "static/css/main.97268bb8.chunk.css",
-    "static/js/main.d4770fb4.chunk.js"
+    "static/js/main.c98a6c85.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e6e3f1d0256def796bbd4076c778c45",
+    "revision": "36c22e385c1e2a5dbe0a005136456767",
     "url": "/index.html"
   },
   {
-    "revision": "1a6ea1863f6580c21123",
+    "revision": "6845da6f8a66954ed5ad",
     "url": "/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "47d12627b41f7d70c039",
+    "revision": "8d37af7730097a730218",
     "url": "/static/css/main.97268bb8.chunk.css"
   },
   {
-    "revision": "1a6ea1863f6580c21123",
-    "url": "/static/js/2.edee1a65.chunk.js"
+    "revision": "6845da6f8a66954ed5ad",
+    "url": "/static/js/2.a2812366.chunk.js"
   },
   {
     "revision": "6472a7d1d95598048b2f7b02095da167",
-    "url": "/static/js/2.edee1a65.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a2812366.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47d12627b41f7d70c039",
-    "url": "/static/js/main.d4770fb4.chunk.js"
+    "revision": "8d37af7730097a730218",
+    "url": "/static/js/main.c98a6c85.chunk.js"
   },
   {
     "revision": "9e76e5b190c1ab701af5",
@@ -240,10 +240,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Group_Seniors.5954ec30.jpg"
   },
   {
-    "revision": "ed3ecff758f01e90452c1100850a6a35",
-    "url": "/static/media/Gudetama.ed3ecff7.png"
-  },
-  {
     "revision": "1a622e1747413d703add31b33298bee5",
     "url": "/static/media/HRMA.1a622e17.png"
   },
@@ -252,8 +248,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Hajoca_Transparent.c61bc806.png"
   },
   {
-    "revision": "e69bee69b0b98a45ab03b068c9233d18",
-    "url": "/static/media/Home.e69bee69.jpg"
+    "revision": "737c06c25ecc957eb2d785bd3acd8271",
+    "url": "/static/media/Hamee.737c06c2.png"
+  },
+  {
+    "revision": "eb704e06c05c8c067fd584b297269a8a",
+    "url": "/static/media/Home.eb704e06.jpg"
   },
   {
     "revision": "d3bb9cd9093a035b86f7fb9f8d32cdf1",
@@ -492,10 +492,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Retreat_Hike.30dc1328.JPG"
   },
   {
-    "revision": "2bebcfeefebed46890227789f9040d43",
-    "url": "/static/media/Riteline-removebg-preview.2bebcfee.png"
-  },
-  {
     "revision": "3a79d1a0747a5d30e029680927f83815",
     "url": "/static/media/Rubies_Seniors.3a79d1a0.jpg"
   },
@@ -666,10 +662,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27664597c43e23778c400be4b4302923",
     "url": "/static/media/fall_2023.27664597.png"
-  },
-  {
-    "revision": "6bce33bf4624a112691442f540980705",
-    "url": "/static/media/lifetime-removebg-preview.6bce33bf.png"
   },
   {
     "revision": "f68038e36a790eac4d9dc325b089325e",
