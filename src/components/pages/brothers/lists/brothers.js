@@ -30,8 +30,8 @@ export const brothers = [
 
     {
         img: require('../../../../assets/actives/brothers/Alex_Zhou.jpg'),
-        logo: require('../../../../assets/companyLogos/Riteline-removebg-preview.png'),
-        company: 'Riteline USA',
+        logo: require('../../../../assets/companyLogos/Meta.png'),
+        company: 'Meta',
         name: "Alex Zhou",
         width: "65%"
     },
@@ -47,8 +47,8 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Tannvi_Banerjee.jpg'),
         name: "Tannvi Banerjee",
-        logo: require('../../../../assets/companyLogos/Apsy_Transparent.png'),
-        company: 'Apsy',
+        logo: require('../../../../assets/companyLogos/Meta.png'),
+        company: 'Meta',
         width: "65%"
     },
     {
@@ -121,8 +121,8 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Thomas_Lin.jpg'),
         name: "Thomas Lin",
-        logo: require('../../../../assets/companyLogos/lifetime-removebg-preview.png'),
-        company: 'Lifetime Activities',
+        logo: require('../../../../assets/companyLogos/EY.png'),
+        company: 'EY',
         width: "65%"
     },
 

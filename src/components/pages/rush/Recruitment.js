@@ -101,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function Winter2023({ setPage }) {
+export default function Winter2025({ setPage }) { // Winter2023
     useEffect(() => {
         setPage("Recruitment")
     });
@@ -115,10 +115,10 @@ export default function Winter2023({ setPage }) {
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/lpnuci" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2024</a>
+                        <a href="https://www.facebook.com/lpnuci" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2025</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Alpha Beta Class Recruitment
+                        Alpha Gamma Class Recruitment
                     </Box>
                 </Typography>
             </Box>
@@ -140,9 +140,9 @@ export default function Winter2023({ setPage }) {
                 Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                Fall 2024 applications are due{" "}
-                <a href="https://tinyurl.com/lpnfallrush2024" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', color : 'black' }}>
-                    October 9th, 2024
+                Winter 2025 applications are due{" "}
+                <a href="https://tinyurl.com/lpnwinterrush2025" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', color : 'black' }}>
+                    January 16th, 2025
                 </a>{" "}
                 by 6:30 PM (PST).
                 </Box>

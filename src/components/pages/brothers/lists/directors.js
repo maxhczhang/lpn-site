@@ -66,8 +66,8 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Kyle_Shih.jpg'),
         name: "Kyle Shih",
         title: "Social Impact Director",
-        logo: require('../../../../assets/companyLogos/Gudetama.png'),
-        company: 'Gudetama Cafe',
+        logo: require('../../../../assets/companyLogos/Hamee.png'),
+        company: 'Hamee',
         width: "70%"
     },
     {

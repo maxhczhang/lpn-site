@@ -478,7 +478,8 @@ export const profiles = {
         practice: "Software Engineering",
         pronouns: "She/Her/Hers",
         experience: {
-            "Software Engineer Intern":"Apsy",
+            "Incoming Software Engineer Intern": "Meta",
+            "Software Engineer Intern": "Apsy",
             "Software Engineer Intern": "Profound",
             "Computational Economics Researcher":"New York University",
             "Data Science Intern":"Stanford Daily",
@@ -701,7 +702,7 @@ export const profiles = {
 
     Aidan_Jayakumar: {
         linkedIn: "https://www.linkedin.com/in/aidan-jayakumar/",
-        homeTown: "",
+        homeTown: "Irvine, CA",
         year: "2nd",
         class: "Chi",
         major: "Business Administration",
@@ -714,6 +715,7 @@ export const profiles = {
             "Law Clerk":"Carlson & Jayakumar LLP",
         },
         campusInvolvements: {
+            "180 Degrees": "Associate Consultant",
             "Management Information Student Society": "VP of Finance",
             "Undergraduate Business Association": "Intern"
         },
@@ -724,7 +726,7 @@ export const profiles = {
 
     Annie_Sreshthabutra: {
         linkedIn: "https://www.linkedin.com/in/anniesresh/",
-        homeTown: "",
+        homeTown: "Bangkok, Thailand",
         year: "2nd",
         class: "Chi",
         major: "Business Administration",
@@ -733,6 +735,7 @@ export const profiles = {
         practice: "Marketing",
         pronouns: "She/Her/Hers",
         experience: {
+            "Strategic Planning Intern": "Hakuhodo International",
             "Content Creator Intern": "Copperwired Public Co., Ltd",
             "Digital Marketing Intern": "One Publique"
         },
@@ -747,7 +750,7 @@ export const profiles = {
     
     Catherine_Tran: {
         linkedIn: "https://www.linkedin.com/in/catherinetran683/",
-        homeTown: "",
+        homeTown: "Oxnard, CA",
         year: "4th",
         class: "Chi",
         major: "Business Economics",
@@ -760,6 +763,7 @@ export const profiles = {
             "Finance and Accounting Intern": "Gold Coast Transit District"
         },
         campusInvolvements: {
+            "MAISS": "Mentor",
             "Finance Literacy Association": "Director of Finance & Internal"
         },
         interests: ["Reading", "Watching movies and TV shows", "Thrifting", "Going out with friends", "Exploring new food spots"],
@@ -769,7 +773,7 @@ export const profiles = {
 
     Elise_Naddell: {
         linkedIn: "https://www.linkedin.com/in/elise-naddell/",
-        homeTown: "",
+        homeTown: "Palo Alto, CA",
         year: "3rd",
         class: "Chi",
         major: "Environmental Science and Policy",
@@ -778,6 +782,7 @@ export const profiles = {
         practice: "Consulting, Marketing, Business Development",
         pronouns: "She/Her",
         experience: {
+            "Marketing Intern": "BYD",
             "Commercial Real Estate Intern": "Project Destined",
             "Recruiter, Sourcing Intern": "ROCS Global Inc.",
             "Teacher Assistant": "GSEP Program",
@@ -793,13 +798,13 @@ export const profiles = {
 
     Ethan_Tung: {
         linkedIn: "https://www.linkedin.com/in/ethantung",
-        homeTown: "",
+        homeTown: "Kaohsiung, Taiwan",
         year: "2nd",
         class: "Chi",
         major: "Business Administration & Informatics",
         minor: "",
-        emphasis: "Finance and Data Analytics",
-        practice: "Investment Research and Financial Technology",
+        emphasis: "Finance, Healthcare",
+        practice: "Financial Technology, Risk Management",
         pronouns: "He/Him",
         experience: {
             "Incoming Summer Analyst (Global Investment Research Division)": "Goldman Sachs",
@@ -821,7 +826,7 @@ export const profiles = {
 
     Gabriel_Villamariona: {
         linkedIn: "https://www.linkedin.com/in/gabrielvillamariona/",
-        homeTown: "",
+        homeTown: "San Ramon, CA",
         year: "4th",
         class: "Chi",
         major: "Business Administration",
@@ -843,7 +848,7 @@ export const profiles = {
 
     Jessica_Nguyen: {
         linkedIn: "https://www.linkedin.com/in/jesstnguyen03/",
-        homeTown: "",
+        homeTown: "Santa Clara, CA",
         year: "4th",
         class: "Chi",
         major: "Economics",
@@ -857,6 +862,7 @@ export const profiles = {
             "Student Teaching Assistant": "Kumon Learning Center"
         },
         campusInvolvements: {
+            "MAISS": "Mentor",
             "Accounting Association": "Committee Board Officer, Mentee",
             "Vietnamese Student Association": "Member"
         },
@@ -887,10 +893,10 @@ export const profiles = {
 
     Lana_Locquiao_Noguera: {
         linkedIn: "https://www.linkedin.com/in/lanalocquiaonoguera/",
-        homeTown: "",
+        homeTown: "San Diego, CA",
         year: "3rd",
         class: "Chi",
-        major: "Economics",
+        major: "Business Economics",
         minor: "International Studies",
         emphasis: "",
         practice: ["Commercial Real Estate", "Project Management", "Real Estate"],
@@ -898,10 +904,12 @@ export const profiles = {
         experience: {
             "Commercial Real Estate Intern": "Project Destined",
             "Investment Brokerage Intern": "Marcus & Millichap",
+            "Capital Markets Intern": "JLL",
         },
         campusInvolvements: {
             "Undergraduate Business Association": "VP of Company Relations",
-            "Kababayan": "Business & Marketing Officer"
+            "Kababayan": "Business & Marketing Officer",
+            "Real Estate Association": "External Affairs Intern"
         },
         interests: ["Basketball", "Thrifting", "Singing", "Asian Dramas", "Reading"],
         whyLPN: "I chose Lambda Phi Nu because not only did it provide me with extremely insightful guidance within the professional world, but it also provided me with a second family and a second home. To me, Lambda Phi Nu means embodying who you are and having the ability to accomplish anything you put your mind to. It also means that whatever obstacles you face, you are not alone and are surrounded by driven individuals who will support you along the way. I have grown exponentially with Lambda Phi Nu, and I am so grateful for the wonderful and enlightening experiences that this fraternity has given me. Lambda Phi Nu has also helped me create long-lasting relationships and deep connections that I will forever cherish. Lambda Phi Nu opened so many doors to new opportunities and I am confident in having a successful and happy future because of Lambda Phi Nu.",
@@ -910,13 +918,13 @@ export const profiles = {
 
     Mason_Chen: {
         linkedIn: "https://www.linkedin.com/in/mason-ray-chen/",
-        homeTown: "",
+        homeTown: "Oakland, CA",
         year: "2nd",
         class: "Chi",
         major: "Business Administration",
         minor: "",
-        emphasis: "",
-        practice: "Finance",
+        emphasis: "Finance",
+        practice: "Financial Advising",
         pronouns: "He/Him",
         experience: {
             "Recreational Leader": "City of Emeryville"
@@ -932,7 +940,7 @@ export const profiles = {
 
     Skyler_Chang: {
         linkedIn: "https://www.linkedin.com/in/skylerjchang/",
-        homeTown: "",
+        homeTown: "Raleigh, NC",
         year: "3rd",
         class: "Chi",
         major: "Psychological Science",
@@ -961,17 +969,18 @@ export const profiles = {
     
     Thomas_Lin: {
         linkedIn: "https://www.linkedin.com/in/thomas-lin21/",
-        homeTown: "",
+        homeTown: "Pleasanton, CA",
         year: "4th",
         class: "Chi",
         major: "Business Administration",
         minor: "",
         emphasis: "Finance",
-        practice: "Finance",
+        practice: "Accounting",
         pronouns: "He/Him",
         experience: {
-            "Customer Service Representative": "Lifetime Activities",
-            "Assistant Manager": "Lifetime Activities"
+            "Ernst & Young": "Incoming Audit and Assurance Associate",
+            "Cactus & Pearl": "Finance & Accounting Intern",
+            "Lifetime Activities": "Assistant Manager, Assistant Tennis Coach, Customer Service Representative",
         },
         campusInvolvements: {
             "Finance Literacy Association":"Executive Vice President",
@@ -985,7 +994,7 @@ export const profiles = {
     
     Tiffany_Chien: {
         linkedIn: "https://www.linkedin.com/in/chient3/",
-        homeTown: "",
+        homeTown: "Irvine, CA",
         year: "2nd",
         class: "Chi",
         major: "Business Administration",
@@ -994,8 +1003,9 @@ export const profiles = {
         practice: "Product Management",
         pronouns: "she/her",
         experience: {
+            "Engagement Marketing Intern": "Siemens",
             "Marketing & Sales Intern": "Niagara Bottling",
-            "Accelerate Marketing & Communications Program Participant": "IBM",
+            "Accelerate Marketing & Communications Fellow": "IBM",
             "Consulting Mentorship Program Participant": "Deloitte",
             "Business Development Intern": "Colere Brands",
             "Social Media & Marketing Intern": "Building-U",
@@ -1011,7 +1021,7 @@ export const profiles = {
     
     Timothy_Sih: {
         linkedIn: "https://www.linkedin.com/in/timothysih",
-        homeTown: "",
+        homeTown: "Taipei, Taiwan",
         year: "2nd",
         class: "Chi",
         major: "Business Administration",
@@ -1020,7 +1030,7 @@ export const profiles = {
         practice: "Audit",
         pronouns: "He/Him/His",
         experience: {
-            "Financial Team Assistant": "UCI Physical Sciences",
+            "Financial Services Assistant": "UCI Physical Sciences",
             "Incoming Audit Intern": "PwC",
             "Accounting Intern": "Chen & Fan Accountancy Corp.",
             "Intern": "Special Olympics East Asia"
@@ -1334,7 +1344,7 @@ export const profiles = {
         practice: "Product Marketing & Leadership",
         pronouns: "She/Her",
         experience: {
-            "Arena OC/Underworld Productions": "Software Engineer Intern",
+            "Arena OC/Underworld Productions": "Social Media Marketer & Promoter",
             "Beats By Dre": "Consumer Insights & Market Intelligence Extern",
             "UC Irvine Athletics": "Digital Marketing & Creative Services Intern",
         },
