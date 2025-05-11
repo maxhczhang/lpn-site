@@ -174,7 +174,7 @@ export const brothers = [
         img: require('../../../../assets/actives/brothers/Max_Zhang.jpg'),
         name: "Max Zhang",
         logo: require('../../../../assets/companyLogos/Silvercorp_Metals.png'),
-        company: 'Silvercorps Metals Inc',
+        company: 'Silvercorp Metals Inc',
         width: "55%"
     },
 
