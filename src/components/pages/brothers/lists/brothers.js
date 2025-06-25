@@ -29,7 +29,8 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Zoe_Lui.jpg'),
         name: "Zoe Lui",
-        company: "JT Aesthetics & Co",
+        logo: require('../../../../assets/companyLogos/TikTok.jpeg'),
+        company: "TikTok",
         width: "75%"
     },
 
