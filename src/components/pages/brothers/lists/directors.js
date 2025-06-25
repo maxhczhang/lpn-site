@@ -1,105 +1,109 @@
 export const directors = [
     {
-        img: require('../../../../assets/actives/brothers/Ben_Nguyen.jpg'),
-        name: "Ben Nguyen",
+        img: require('../../../../assets/actives/brothers/Jordan_Moreno.jpg'),
+        name: "Jordan Moreno",
         title: "Alumni Relations Director",
     },
     {
-        img: require('../../../../assets/actives/brothers/Elise_Nadell.jpg'),
-        name: "Elise Naddell",
+        img: require('../../../../assets/actives/brothers/Mahad_Afridi.jpg'),
+        name: "Mahad Afridi",
         title: "Career Catalyst Director",
-        company: "Project Destined",
-        logo: require('../../../../assets/companyLogos/Project_Destined.png'),
-        width: "100%"
+        company: "Recorded_Future",
+        logo: require('../../../../assets/companyLogos/Recorded_Future.png'),
+        width: "45%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Aidan_Jayakumar.jpg'),
-        name: "Aidan Jayakumar",
+        img: require('../../../../assets/actives/brothers/Neha_Y.jpg'),
+        name: "Neha Yelgireddy",
         title: "Strategy Director",
-        company: "Capstone Partners",
-        logo: require('../../../../assets/companyLogos/Capstone_Icon.jpeg'),
+        company: "Penumbra Inc",
+        logo: require('../../../../assets/companyLogos/Penumbra.png'),
         width: "45%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Gabriel_V.jpg'),
-        name: "Gabriel Villamariona",
+        img: require('../../../../assets/actives/brothers/Lindzy_So.jpg'),
+        name: "Lindzy So",
         title: "Finance Director",
-        company: "Advanced Sterilization Products",
-        logo: require('../../../../assets/companyLogos/ASP.jpeg'),
+        //company: "Advanced Sterilization Products",
+        //logo: require('../../../../assets/companyLogos/ASP.jpeg'),
         width: "45%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Annie_S.jpg'),
-        name: "Annie Sreshthabutra",
-        title: "Marketing Director",
-        company: "Copperwired",
-        logo: require('../../../../assets/companyLogos/copperwired.png'),
-        width: "50%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Tiffany_Chien.jpg'),
-        name: "Tiffany Chien",
-        title: "Marketing Director",
-        company: "Niagara Bottling",
-        logo: require('../../../../assets/companyLogos/Niagara.png'),
-        width: "75%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Cinta_A.jpg'),
-        name: "Cinta Adhiningrat",
-        title: "Webmaster",
-        logo: require('../../../../assets/companyLogos/SentinelOne.png'),
-        company: 'SentinelOne',
-        width: "45%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Chris_Li.jpg'),
-        name: "Christopher Li",
-        title: "Culture & Relationships Director",
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Mason_Chen.jpg'),
-        name: "Mason Chen",
-        title: "Culture & Relationships Director",
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Kyle_Shih.jpg'),
-        name: "Kyle Shih",
-        title: "Social Impact Director",
-        logo: require('../../../../assets/companyLogos/Hamee.png'),
-        company: 'Hamee',
-        width: "70%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Skyler_Chang.jpg'),
-        name: "Skyler Chang",
-        title: "Recruiter",
-        company: "First American",
-        logo: require('../../../../assets/companyLogos/First_American.png'),
-        width: "70%"
-    },
-    {
-        img: require('../../../../assets/actives/brothers/Timothy_Sih.jpg'),
-        name: "Timothy Sih",
-        title: "Recruiter",
-        logo: require('../../../../assets/companyLogos/Pwc_White.png'),
-        company: 'PwC',
-        width: "50%"
     },
     {
         img: require('../../../../assets/actives/brothers/Emily_Chen.jpg'),
         name: "Emily Chen",
+        title: "Marketing Director",
+        company: "Precisely",
+        logo: require('../../../../assets/companyLogos/Precisely.jpeg'),
+        width: "50%"
+    },
+    // Kurtis no headshot yet
+    // {
+    //     img: require('../../../../assets/actives/brothers/Tiffany_Chien.jpg'),
+    //     name: "Tiffany Chien",
+    //     title: "Marketing Director",
+    //     company: "Niagara Bottling",
+    //     logo: require('../../../../assets/companyLogos/Niagara.png'),
+    //     width: "75%"
+    // },
+    {
+        img: require('../../../../assets/actives/brothers/Max_Zhang.jpg'),
+        name: "Max Zhang",
+        title: "Webmaster",
+        logo: require('../../../../assets/companyLogos/Silvercorp_Metals.png'),
+        company: 'Silvercorp Metals Inc',
+        width: "45%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Marcus_Cao.jpg'),
+        name: "Marcus Cao",
+        title: "Culture & Relationships Director",
+        logo: require('../../../../assets/companyLogos/CredibleCRE.jpeg'),
+        company: 'Credible CRE',
+        width: "45%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Zachary_Bui.jpg'),
+        name: "Zachary Bui",
+        title: "Culture & Relationships Director",
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Keira_Wong.jpg'),
+        name: "Keira Wong",
+        title: "Social Impact Director",
+        logo: require('../../../../assets/companyLogos/Trigger7.jpeg'),
+        company: 'Trigger 7',
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Lauren_Wong.jpg'),
+        name: "Lauren Wong",
         title: "Recruiter",
-        logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
-        company: 'Accenture',
+        company: "Allergan Aesthetics",
+        logo: require('../../../../assets/companyLogos/Allergan_Aesthetics.png'),
+        width: "70%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Madeleine_Chen.jpg'),
+        name: "Madeleine Chen",
+        title: "Recruiter",
+        logo: require('../../../../assets/companyLogos/UCICleanEnergy.jpeg'),
+        company: 'UCI Clean Energy Institute',
+        width: "50%"
+    },
+    {
+        img: require('../../../../assets/actives/brothers/Caroline_Nguyen.jpg'),
+        name: "Caroline Nguyen",
+        title: "Recruiter",
+        // logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
+        // company: 'Accenture',
         width: "35%"
     },
     {
-        img: require('../../../../assets/actives/brothers/Nathan_Hou.jpg'),
-        name: "Nathan Hou",
+        img: require('../../../../assets/actives/brothers/Katelyn_Fu.jpg'),
+        name: "Katelyn Fu",
         title: "Recruiter",
-        logo: require('../../../../assets/companyLogos/SMBC.png'),
-        company: 'SMBC',
+        logo: require('../../../../assets/companyLogos/BranchOut.jpeg'),
+        company: 'Branch Out',
         width: "75%"
     },
 ];
