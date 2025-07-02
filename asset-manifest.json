@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.60ec68ae.js",
+    "main.js": "/static/js/main.ad9772f3.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
     "static/media/Tannvi_Banerjee.jpg": "/static/media/Tannvi_Banerjee.ab35edf7375d303c041f.jpg",
@@ -129,6 +129,7 @@
     "static/media/Kevins_Bday_2020.JPG": "/static/media/Kevins_Bday_2020.a6bfd333fbdcb4b2fae8.JPG",
     "static/media/Xi_Frat_Social.JPG": "/static/media/Xi_Frat_Social.a32936d3c8be1ea3f9ac.JPG",
     "static/media/BAP.png": "/static/media/BAP.c745eb26d545a1cb636e.png",
+    "static/media/SentinelOne.png": "/static/media/SentinelOne.8c9f1dc5c6ee474ab7e9.png",
     "static/media/Mastercard.png": "/static/media/Mastercard.a1c6e906822b53187347.png",
     "static/media/AA.png": "/static/media/AA.19d8d24c25ea9ab6eea5.png",
     "static/media/LPN_Letters.jpg": "/static/media/LPN_Letters.e8ed83f9219f6b625e46.jpg",
@@ -168,10 +169,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.60ec68ae.js.map": "/static/js/main.60ec68ae.js.map"
+    "main.ad9772f3.js.map": "/static/js/main.ad9772f3.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.60ec68ae.js"
+    "static/js/main.ad9772f3.js"
   ]
 }
