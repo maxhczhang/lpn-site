@@ -1487,25 +1487,25 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Katelyn_Fu.jpg')
     },
     
-    // Kurtis_Lin: {
-    //     linkedIn: "https://www.linkedin.com/in/kurtis-lin/",
-    //     homeTown: "Cupertino, CA",
-    //     year: "2nd",
-    //     class: "Alpha Gamma",
-    //     major: "Undeclared",
-    //     minor: "",
-    //     emphasis: "",
-    //     practice: "Marketing, Product Design",
-    //     pronouns: "He/Him",
-    //     experience: {
-    //         "Content Marketing Intern":"Mind Pump Media",
-    //     },
-    //     campusInvolvements: {
-    //     },
-    //     interests: ["Exercising", "Recreational + Action + Water Sports", "Spending Time in Nature", "Driving", "Arts & Crafts"],
-    //     whyLPN: "I joined LPN in search of the cliché “community of like-minded, driven individuals.” But after crossing, I realized I had found so much more. I found a group of people genuinely committed to helping one another grow into individuals built to thrive both personally and professionally. More than that, I found people I genuinely love and connect with—people who make LPN feel like a second family.",
-    //     img: require('../../../../assets/actives/brothers/Kurtis_Lin.jpg')
-    // },
+    Kurtis_Lin: {
+        linkedIn: "https://www.linkedin.com/in/kurtis-lin/",
+        homeTown: "Cupertino, CA",
+        year: "2nd",
+        class: "Alpha Gamma",
+        major: "Undeclared",
+        minor: "",
+        emphasis: "",
+        practice: "Marketing, Product Design",
+        pronouns: "He/Him",
+        experience: {
+            "Content Marketing Intern":"Mind Pump Media",
+        },
+        campusInvolvements: {
+        },
+        interests: ["Exercising", "Recreational + Action + Water Sports", "Spending Time in Nature", "Driving", "Arts & Crafts"],
+        whyLPN: "I joined LPN in search of the cliché “community of like-minded, driven individuals.” But after crossing, I realized I had found so much more. I found a group of people genuinely committed to helping one another grow into individuals built to thrive both personally and professionally. More than that, I found people I genuinely love and connect with—people who make LPN feel like a second family.",
+        img: require('../../../../assets/actives/brothers/Kurtis_Lin.jpg')
+    },
 
     Marcus_Cao: {
         linkedIn: "https://www.linkedin.com/in/marcus-cao/",

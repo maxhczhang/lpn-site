@@ -36,15 +36,16 @@ export const directors = [
         logo: require('../../../../assets/companyLogos/Precisely.jpeg'),
         width: "50%"
     },
-    // Kurtis no headshot yet
-    // {
-    //     img: require('../../../../assets/actives/brothers/Tiffany_Chien.jpg'),
-    //     name: "Tiffany Chien",
-    //     title: "Marketing Director",
-    //     company: "Niagara Bottling",
-    //     logo: require('../../../../assets/companyLogos/Niagara.png'),
-    //     width: "75%"
-    // },
+
+    {
+        img: require('../../../../assets/actives/brothers/Kurtis_Lin.jpg'),
+        name: "Kurtis Lin",
+        title: "Marketing Director",
+        company: "Mind Pump Media",
+        logo: require('../../../../assets/companyLogos/MindPumpMedia.jpeg'),
+        width: "50%"
+    },
+
     {
         img: require('../../../../assets/actives/brothers/Max_Zhang.jpg'),
         name: "Max Zhang",

@@ -51,6 +51,14 @@ export const brothers = [
     },
 
     {
+        img: require('../../../../assets/actives/brothers/Elise_Naddell.jpg'),
+        name: "Elise Naddell",
+        logo: require('../../../../assets/companyLogos/BYD.jpeg'),
+        company: 'BYD',
+        width: "75%"
+    },
+
+    {
         img: require('../../../../assets/actives/brothers/Ethan_Tung.jpg'),
         name: "Ethan Tung",
         logo: require('../../../../assets/companyLogos/Goldman_Sachs.png'),
