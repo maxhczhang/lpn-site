@@ -1333,7 +1333,7 @@ export const profiles = {
         practice: "Software Engineering",
         pronouns: "He/Him",
         experience: {
-            "Silvercorp Metals Inc": "Information Technology Intern",
+            "Information Technology Intern":"Silvercorp Metals Inc",
         },
         campusInvolvements: {
             "Learning Assistant":"Donald Bren School of ICS"
