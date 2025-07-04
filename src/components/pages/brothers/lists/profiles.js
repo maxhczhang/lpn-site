@@ -967,12 +967,12 @@ export const profiles = {
             "Tennis and Soccer Private Coach": "Self Employed",
         },
         campusInvolvements: {
+            "VP of Internal Affairs":"Management Information Student Society",
             "Intern":"Management Information Student Society",
-            "Mentor":"Undergraduate/Undeclared Mentorship Program",
-            "Officer":"Tennis Club",
-            "Intern":"Human Resources Management Association"
+            "VP of External Relations":"Human Resources Management Association",
+            "Mentor":"Human Resources Management Association",
         },
-        interests: ["Tennis", "Soccer", "Drawing", "Reading", "Guitar", "Ukulele", "Sleeping", "Working Out", "Photography", "Boxing", "Eating"],
+        interests: ["Soccer", "Tennis", "MMA", "Guitar", "Drawing", "Sleeping"],
         whyLPN: "Everyone in LPN is unique and diverse in their own ways. Finding a community that is so driven and ambitious to be better than they were yesterday motivates me to pursue my goals and passions with confidence.",
         img: require('../../../../assets/actives/brothers/Skyler_Chang.jpg')
     },
