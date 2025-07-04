@@ -906,12 +906,12 @@ export const profiles = {
         major: "Business Economics",
         minor: "International Studies",
         emphasis: "",
-        practice: ["Commercial Real Estate", "Project Management", "Real Estate"],
+        practice: "Commercial Real Estate, Project Management, Real Estate",
         pronouns: "She/Her/Hers",
         experience: {
+            "Capital Markets Intern": "JLL",
             "Commercial Real Estate Intern": "Project Destined",
             "Investment Brokerage Intern": "Marcus & Millichap",
-            "Capital Markets Intern": "JLL",
         },
         campusInvolvements: {
             "Undergraduate Business Association": "VP of Company Relations",

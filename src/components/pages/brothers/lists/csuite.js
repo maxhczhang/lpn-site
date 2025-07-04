@@ -42,8 +42,8 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers/Lana_Noguera.jpg'),
         name: "Lana Locquiao Noguera",
         title: 'Winter Chief Talent Officer',
-        logo: require('../../../../assets/companyLogos/Project_Destined.png'),
-        company: 'Project Destined',
+        logo: require('../../../../assets/companyLogos/JLL.jpeg'),
+        company: 'JLL',
         width: "70%",
     },
 ];
