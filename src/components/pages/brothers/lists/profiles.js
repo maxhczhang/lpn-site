@@ -971,6 +971,7 @@ export const profiles = {
             "Intern":"Management Information Student Society",
             "VP of External Relations":"Human Resources Management Association",
             "Mentor":"Human Resources Management Association",
+            "Practice Director":"Tennis Club"
         },
         interests: ["Soccer", "Tennis", "MMA", "Guitar", "Drawing", "Sleeping"],
         whyLPN: "Everyone in LPN is unique and diverse in their own ways. Finding a community that is so driven and ambitious to be better than they were yesterday motivates me to pursue my goals and passions with confidence.",
