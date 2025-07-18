@@ -1573,7 +1573,7 @@ export const profiles = {
             "VP of Finance":"Undergraduate Finance Association",
         },
         interests: ["Cooking", "Baking", "MBTI", "League of Legends", "Sleeping", "Watching YouTube Video Essays", "Cars"],
-        whyLPN: "As a commuter, I've realized how important it is to find a community that feels like home. LPN is the perfect place to meet a bunch of cool, supportive, and driven people who cna help me throughout college and beyond.",
+        whyLPN: "As a commuter, I've realized how important it is to find a community that feels like home. LPN is the perfect place to meet a bunch of cool, supportive, and driven people who can help me throughout college and beyond.",
         img: require('../../../../assets/actives/brothers/Viggo_Nguyen.jpg')
     },
 
