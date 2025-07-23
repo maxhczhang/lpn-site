@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.df525417.js",
+    "main.js": "/static/js/main.5ce28905.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
-    "static/media/Tannvi_Banerjee.jpg": "/static/media/Tannvi_Banerjee.ab35edf7375d303c041f.jpg",
     "static/media/Mahad_Afridi.jpg": "/static/media/Mahad_Afridi.091e49b3fe0f040e7081.jpg",
     "static/media/Justin_Chao.jpg": "/static/media/Justin_Chao.fb9c971b522135605c49.jpg",
     "static/media/Kyle_Shih.jpg": "/static/media/Kyle_Shih.7a51f413271fca3c711f.jpg",
@@ -39,7 +38,6 @@
     "static/media/Zachary_Bui.jpg": "/static/media/Zachary_Bui.8963fc86b449b5931ad9.jpg",
     "static/media/Ruby_Ko.jpg": "/static/media/Ruby_Ko.84c9ca20fd1c6eb3f49d.jpg",
     "static/media/Elise_Naddell.jpg": "/static/media/Elise_Naddell.3fcd3d4eae5b4821e1bc.jpg",
-    "static/media/Chris_Li.jpg": "/static/media/Chris_Li.8d673c26e73413614318.jpg",
     "static/media/Upsilon_Winter.jpeg": "/static/media/Upsilon_Winter.8899e51e343214fd13ba.jpeg",
     "static/media/Mason_Chen.jpg": "/static/media/Mason_Chen.9527d029d57307d867fe.jpg",
     "static/media/Thomas_Lin.jpg": "/static/media/Thomas_Lin.f9f82ea45f0d49ff7a40.jpg",
@@ -59,8 +57,8 @@
     "static/media/Kate_Arnold.jpg": "/static/media/Kate_Arnold.103dbfb99632d90323e0.jpg",
     "static/media/Nathan_Hou.jpg": "/static/media/Nathan_Hou.6bd74fa91f8845a4d6b1.jpg",
     "static/media/fall_2023.png": "/static/media/fall_2023.3ee6901af65a4c8131ea.png",
+    "static/media/Tannvi_Banerjee.jpg": "/static/media/Tannvi_Banerjee.d73cf94a392bdc997ff5.jpg",
     "static/media/Mr_Ceo.jpg": "/static/media/Mr_Ceo.e2c65dc34c5262d46fa2.jpg",
-    "static/media/Winter2024_Retreat.jpg": "/static/media/Winter2024_Retreat.13d41f27b319c6fd71b4.jpg",
     "static/media/Sydney_Yu.jpg": "/static/media/Sydney_Yu.4c0140e2a9f88ebf7006.jpg",
     "static/media/Rainer_Setiawan.jpg": "/static/media/Rainer_Setiawan.038eb0e5485fabeb07c7.jpg",
     "static/media/Max_Zhang.jpg": "/static/media/Max_Zhang.cf39225161064ebb1507.jpg",
@@ -69,6 +67,7 @@
     "static/media/Kurtis_Lin.jpg": "/static/media/Kurtis_Lin.28d6cd72b812c87ad518.jpg",
     "static/media/Home.jpg": "/static/media/Home.dd7e6a5ca8f390297e2c.jpg",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.3639f18ff6c7c16a18b7.JPG",
+    "static/media/Chris_Li.jpg": "/static/media/Chris_Li.69ec8b4d0a2eec3f97bd.jpg",
     "static/media/Gallery.jpg": "/static/media/Gallery.249d435fc59b70a7d87f.jpg",
     "static/media/About.jpg": "/static/media/About.6376294d58ced0ad4278.jpg",
     "static/media/Values_Separator.jpg": "/static/media/Values_Separator.7620d8bec6dad576059c.jpg",
@@ -170,10 +169,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.df525417.js.map": "/static/js/main.df525417.js.map"
+    "main.5ce28905.js.map": "/static/js/main.5ce28905.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.df525417.js"
+    "static/js/main.5ce28905.js"
   ]
 }
