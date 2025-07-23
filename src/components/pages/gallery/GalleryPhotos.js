@@ -1,10 +1,6 @@
 export const GalleryPhotos = [
 
-    {
-        img: require('../../../assets/gallery/Winter2024_Retreat.jpg'),
-        cols: 3,
-        rows: 1,
-    },
+
     {
         img: require('../../../assets/gallery/Chi_Girls.jpeg'),
         cols: 1,
