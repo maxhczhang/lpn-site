@@ -67,6 +67,82 @@ export const companyLogos = [
         title: 'PwC',
         // link: 'https://www.lpnuci.com/#/active-brothers/talia-yip',
     },
+    {
+        img: require('../../../assets/companyLogos/Google.png'),
+        title: 'Google',
+    },
+    {
+        img: require('../../../assets/companyLogos/Apple.png'),
+        title: 'Apple',
+    },
+    {
+        img: require('../../../assets/companyLogos/Adobe.png'),
+        title: 'Adobe',
+    },
+    {
+        img: require('../../../assets/companyLogos/Intel.png'),
+        title: 'Intel',
+    },
+    {
+        img: require('../../../assets/companyLogos/IBM.jpeg'),
+        title: 'IBM',
+    },
+    {
+        img: require('../../../assets/companyLogos/HP.png'),
+        title: 'HP',
+    },
+    {
+        img: require('../../../assets/companyLogos/Goldman_Sachs.png'),
+        title: 'Goldman Sachs',
+    },
+    {
+        img: require('../../../assets/companyLogos/JPMorgan.png'),
+        title: 'JPMorgan Chase',
+    },
+    {
+        img: require('../../../assets/companyLogos/Citi.png'),
+        title: 'Citi',
+    },
+    {
+        img: require('../../../assets/companyLogos/WellsFargo.png'),
+        title: 'Wells Fargo',
+    },
+    {
+        img: require('../../../assets/companyLogos/CapitalOne.png'),
+        title: 'Capital One',
+    },
+    {
+        img: require('../../../assets/companyLogos/Disney.png'),
+        title: 'Disney',
+    },
+    {
+        img: require('../../../assets/companyLogos/NBC.png'),
+        title: 'NBCUniversal',
+    },
+    {
+        img: require('../../../assets/companyLogos/eBay.png'),
+        title: 'eBay',
+    },
+    {
+        img: require('../../../assets/companyLogos/Mastercard.png'),
+        title: 'Mastercard',
+    },
+    {
+        img: require('../../../assets/companyLogos/Western_Digital.png'),
+        title: 'Western Digital',
+    },
+    {
+        img: require('../../../assets/companyLogos/MongoDB.png'),
+        title: 'MongoDB',
+    },
+    {
+        img: require('../../../assets/companyLogos/Blizzard.png'),
+        title: 'Blizzard Entertainment',
+    },
+    {
+        img: require('../../../assets/companyLogos/Stripe.png'),
+        title: 'Stripe',
+    },
    
 ];
 

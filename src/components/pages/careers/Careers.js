@@ -11,6 +11,7 @@ import Tab from '@material-ui/core/Tab';
 
 import useWindowDimensions from '../../utils/WindowListener';
 import { companyLogos } from './CompanyLogos'
+import { roles2023 } from './Roles2023'
 import { roles2022 } from './Roles2022'
 import { roles2021 } from './Roles2021'
 import { roles2020 } from './Roles2020'
@@ -101,36 +102,11 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const FT_SHEET_RANGE = "2023 Full Times!A2:D";
-const INTERN_SHEET_RANGE = "2023 Internships!A2:D"
-const CAREERS_SHEET_ID = "1sVdF-tigs9apHHrjGmtARlX6gRPlZlP72qboEE77gz4";
-
-
 export default function Careers({ setPage }) {
-
-    async function getCareers(_sheetRange, callback) {
-        const requestOptions = {
-            method: 'GET',
-            headers: { 'Content-Type': 'application/json' },
-        };
-
-        const baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4000/' : 'https://modern-yeti-376205.uw.r.appspot.com/';
-
-        const url = baseURL + 'positions?' + new URLSearchParams({
-            sheetRange: _sheetRange,
-            sheetId: CAREERS_SHEET_ID 
-        });
-
-        fetch(url, requestOptions)
-            .then(response => response.json())
-            .then(data => callback(data));
-    }
 
     // Note the empty array as the 2nd parameter, we only want useEffect to execute once
     useEffect(() => {
         setPage("Careers")
-        getCareers(INTERN_SHEET_RANGE, setCurrentInternships);
-        getCareers(FT_SHEET_RANGE, setCurrentFullTimes);
     }, []);
 
     const classes = useStyles();
@@ -139,9 +115,6 @@ export default function Careers({ setPage }) {
     const isMobile = width < 700;
 
     const [tabValue, setTabValue] = React.useState(0);
-    // const [currentCareers, setCurrentCareers] = React.useState({ [START_INTERNSHIPS]: {}, [START_FULLTIMES]: {}});
-    const [currentInternships, setCurrentInternships] = React.useState({ "Loading...": [] });
-    const [currentFullTimes, setCurrentFullTimes] = React.useState({ "Loading...": [] });
     const handleChange = (event, newTabValue) => {
         console.log(newTabValue);
         setTabValue(newTabValue);
@@ -197,9 +170,9 @@ export default function Careers({ setPage }) {
             
 
             <TabPanel value={tabValue} index={0} className={tabPanelClass}>
-                <Chart title="2023 Internships" positions={currentInternships} isMobile={isMobile}></Chart>
+                <Chart title="2023 Internships" positions={roles2023["Internships"]} isMobile={isMobile}></Chart>
                 <Box mb={8}></Box>
-                <Chart title="2023 Full Times" positions={currentFullTimes} isMobile={isMobile}></Chart>
+                <Chart title="2023 Full Times" positions={roles2023["Full Times"]} isMobile={isMobile}></Chart>
             </TabPanel>
 
             <TabPanel value={tabValue} index={1} className={tabPanelClass}>
