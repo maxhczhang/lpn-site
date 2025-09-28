@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.5ce28905.js",
+    "main.js": "/static/js/main.8322d621.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
     "static/media/Mahad_Afridi.jpg": "/static/media/Mahad_Afridi.091e49b3fe0f040e7081.jpg",
@@ -115,6 +115,7 @@
     "static/media/Kappas_Skates.jpg": "/static/media/Kappas_Skates.a2e78121a8d02d88f14a.jpg",
     "static/media/Psis_D4D.jpg": "/static/media/Psis_D4D.ab3da14b4cb6a2349d06.jpg",
     "static/media/2024_Full.jpeg": "/static/media/2024_Full.6b669af3dc6a8c62de0e.jpeg",
+    "static/media/Western_Digital.png": "/static/media/Western_Digital.fe237d745a2c17ee0317.png",
     "static/media/logo_white.png": "/static/media/logo_white.bd9adee48feda6727867.png",
     "static/media/Penumbra.png": "/static/media/Penumbra.f1cf983c4c83d6c072e5.png",
     "static/media/TikTok.png": "/static/media/TikTok.51fdd0c8624d6ad803c2.png",
@@ -138,7 +139,9 @@
     "static/media/Iota_Friends_Giving.jpg": "/static/media/Iota_Friends_Giving.7641293df8d01ec269c3.jpg",
     "static/media/logo.png": "/static/media/logo.6d3411e91b2522d1e7b9.png",
     "static/media/Twitter.png": "/static/media/Twitter.b6f8ce7b3c09c9f674a4.png",
+    "static/media/Intel.png": "/static/media/Intel.d8d597fba49fcbd1e93c.png",
     "static/media/Taiwan_2.jpg": "/static/media/Taiwan_2.c86c847cad165737f2ad.jpg",
+    "static/media/MongoDB.png": "/static/media/MongoDB.3b17b58b41f2dd1325f9.png",
     "static/media/Excellence.jpg": "/static/media/Excellence.67fa8563049c58059cf2.jpg",
     "static/media/MAISS.png": "/static/media/MAISS.4d4d32f935e24fdfe117.png",
     "static/media/Ingram_Micro_Transparent.png": "/static/media/Ingram_Micro_Transparent.bd3d6b5dab69095c960b.png",
@@ -146,10 +149,14 @@
     "static/media/Comcast_Black.png": "/static/media/Comcast_Black.c88dbb343b583191733b.png",
     "static/media/MUSA.jpeg": "/static/media/MUSA.331de529a1e12b45301f.jpeg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.288ecfc6f4735f075000.png",
+    "static/media/eBay.png": "/static/media/eBay.8f78ead2bc2e7fbac2ac.png",
     "static/media/CapitalOne.png": "/static/media/CapitalOne.0c4fba29023f08350f53.png",
     "static/media/Hajoca_Transparent.png": "/static/media/Hajoca_Transparent.cffdd3106b5405806f1f.png",
+    "static/media/Stripe.png": "/static/media/Stripe.f988c726ea9b2a943354.png",
+    "static/media/HP.png": "/static/media/HP.bf8a128cf52da6ed520f.png",
     "static/media/Salesforce.png": "/static/media/Salesforce.edf5ca09adef0014b422.png",
     "static/media/SMIF.png": "/static/media/SMIF.8d1ce636062a2487524d.png",
+    "static/media/Adobe.png": "/static/media/Adobe.d592f15240f55632eb3d.png",
     "static/media/NBC.png": "/static/media/NBC.25f1098a299a77978356.png",
     "static/media/Bank_Of_Hawaii.png": "/static/media/Bank_Of_Hawaii.70c321ab235bf4a0f611.png",
     "static/media/ISBA.png": "/static/media/ISBA.46b54d9d5001769b8776.png",
@@ -160,6 +167,7 @@
     "static/media/Deloitte.png": "/static/media/Deloitte.62998ec5a117c99da97d.png",
     "static/media/Microsoft.png": "/static/media/Microsoft.42a7b69d2a7746ce6a1d.png",
     "static/media/CapitalOne_White.png": "/static/media/CapitalOne_White.8aaa9ec6b5f07031517e.png",
+    "static/media/JPMorgan.png": "/static/media/JPMorgan.dfd09b9199c001b7092b.png",
     "static/media/Walmart.png": "/static/media/Walmart.052ed25d5be7175fe719.png",
     "static/media/OUAF.jpg": "/static/media/OUAF.7eceac3408621c2acd6d.jpg",
     "static/media/Google.png": "/static/media/Google.74b3664a895b134370e9.png",
@@ -169,10 +177,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.5ce28905.js.map": "/static/js/main.5ce28905.js.map"
+    "main.8322d621.js.map": "/static/js/main.8322d621.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.5ce28905.js"
+    "static/js/main.8322d621.js"
   ]
 }
