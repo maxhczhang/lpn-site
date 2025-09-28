@@ -19,8 +19,8 @@ export const csuite = [
         img: require('../../../../assets/actives/brothers/Annie_S.jpg'),
         name: "Annie Sreshthabutra",
         title: 'Chief Information Officer',
-        logo: require('../../../../assets/companyLogos/OUAF.jpg'),
-        company: 'Once Upon a Farm',
+        logo: require('../../../../assets/companyLogos/Wasserman.jpeg'),
+        company: 'Wasserman Group',
         width: "75%",
     },
     {

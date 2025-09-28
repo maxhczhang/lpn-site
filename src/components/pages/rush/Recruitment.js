@@ -115,10 +115,10 @@ export default function Winter2025({ setPage }) { // Winter2023
             <Box mb={2}>
                 <Typography component="div" className={classes.root}>
                     <Box fontWeight="fontWeightBold" fontSize="h2.fontSize" className={isMobile ? classes.content : ""}>
-                        <a href="https://www.facebook.com/lpnuci" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Winter Rush 2025</a>
+                        <a href="https://www.facebook.com/lpnuci" target="_blank" rel="noopener noreferrer" className={classes.highlightLink}>Fall Rush 2025</a>
                     </Box>
                     <Box fontWeight="fontWeighMedium" fontSize="h4.fontSize" mt={1} className={classes.content}>
-                        Alpha Gamma Class Recruitment
+                        Alpha Delta Class Recruitment
                     </Box>
                 </Typography>
             </Box>
@@ -140,9 +140,9 @@ export default function Winter2025({ setPage }) { // Winter2023
                 Many of our brothers began their college experiences feeling unsure of their potential. Through our development curriculum and lifelong support, they went on to become leaders in campus organizations and excel in internships and full-time roles at companies like Microsoft, Goldman Sachs, Deloitte, and more! If you're looking to grow professionally, be apart of a lifelong community, and leave your legacy on the UCI community, join us this winter and experience what you could accomplish with Lambda Phi Nu.
                 </Box>
                 <Box mt={6} mb={6} fontSize="h6.fontSize">
-                Winter 2025 applications are due{" "}
-                <a href="https://tinyurl.com/lpnwinterrush2025" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', color : 'black' }}>
-                    January 16th, 2025
+                Fall 2025 applications are due{" "}
+                <a href="http://tinyurl.com/lpnfallrush2025" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', color : 'black' }}>
+                    October 9th, 2025
                 </a>{" "}
                 by 6:30 PM (PST).
                 </Box>
@@ -178,7 +178,7 @@ export default function Winter2025({ setPage }) { // Winter2023
 
                 <Grid container direction="row" justifyContent="center" alignItems="center" spacing={6}>
                     <Grid item>
-                        <a href="http://tinyurl.com/lpnfallrush2024" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                        <a href="http://tinyurl.com/lpnfallrush2025" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
                             <Button size="large" variant="contained" className={classes.button}>
                                 Apply
                             </Button>

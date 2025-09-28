@@ -1,7 +1,7 @@
 export const events = [
     {
         title: "Meet the Bros",
-        date: "01/07",
+        date: "09/29",
         description: "Come meet our brothers through a night of fun games and chats!",
         dressCode: "Casual Attire",
         ics: "",
@@ -12,18 +12,18 @@ export const events = [
     },  
     {
         title: "Info Night",
-        date: "01/09",
+        date: "10/01",
         description: "Learn about our fraternity's history, involvements, and culture.",
         dressCode: "Business Casual",
         ics: "",
         // checkinLink: 'https://tinyurl.com/lpnmeetthebros',
         time: "7:00PM - 9:30PM",
-        location: "Paul Merage School of Business",
+        location: "SB1 1200",
         // eventTooltip: "Zoom Check In"
     },
     {
         title: "Coffee Chats",
-        date: "01/08, 01/13",
+        date: "10/02, 10/04",
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Virtual",
         ics: "",
@@ -35,7 +35,7 @@ export const events = [
     },  
     {
         title: "Professional Night",
-        date: "01/14",
+        date: "10/06",
         description: "Network with our distinguished alumni in different fields of business and engage in resume and LinkedIn profile reviews.",
         dressCode: "Business Professional",
         ics: "",
@@ -46,7 +46,7 @@ export const events = [
     },
     {
         title: "Invite-Only Social",
-        date: "01/16",
+        date: "10/09",
         description: "Receive an invitation to a light dinner and fireside chat with all of our Active Brothers.",
         dressCode: "Dressy Casual",
         ics: "",

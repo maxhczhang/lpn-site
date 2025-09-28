@@ -740,6 +740,7 @@ export const profiles = {
         practice: "Marketing",
         pronouns: "She/Her/Hers",
         experience: {
+            "Brands & Properties Intern":"Wasserman",
             "Brand Marketing Intern":"Once Upon a Farm",
             "Strategic Planning Intern": "Hakuhodo International",
             "Content Creator Intern": "Copperwired Public Co., Ltd",
