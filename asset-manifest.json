@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.426133d6.js",
+    "main.js": "/static/js/main.b9fa3d7a.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
     "static/media/Mahad_Afridi.jpg": "/static/media/Mahad_Afridi.091e49b3fe0f040e7081.jpg",
@@ -118,6 +118,7 @@
     "static/media/Western_Digital.png": "/static/media/Western_Digital.fe237d745a2c17ee0317.png",
     "static/media/logo_white.png": "/static/media/logo_white.bd9adee48feda6727867.png",
     "static/media/Penumbra.png": "/static/media/Penumbra.f1cf983c4c83d6c072e5.png",
+    "static/media/Red_Bull.png": "/static/media/Red_Bull.c96c1b7a55493774a94a.png",
     "static/media/TikTok.png": "/static/media/TikTok.51fdd0c8624d6ad803c2.png",
     "static/media/HRMA.png": "/static/media/HRMA.353d9b96f70a63a4a5d0.png",
     "static/media/Taiwan_1.jpg": "/static/media/Taiwan_1.905d40e5c8d8cea1c744.jpg",
@@ -149,6 +150,7 @@
     "static/media/Comcast_Black.png": "/static/media/Comcast_Black.c88dbb343b583191733b.png",
     "static/media/MUSA.jpeg": "/static/media/MUSA.331de529a1e12b45301f.jpeg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.288ecfc6f4735f075000.png",
+    "static/media/SAP.png": "/static/media/SAP.c23dfc287ea87d4dae62.png",
     "static/media/eBay.png": "/static/media/eBay.8f78ead2bc2e7fbac2ac.png",
     "static/media/CapitalOne.png": "/static/media/CapitalOne.0c4fba29023f08350f53.png",
     "static/media/Hajoca_Transparent.png": "/static/media/Hajoca_Transparent.cffdd3106b5405806f1f.png",
@@ -176,10 +178,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.426133d6.js.map": "/static/js/main.426133d6.js.map"
+    "main.b9fa3d7a.js.map": "/static/js/main.b9fa3d7a.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.426133d6.js"
+    "static/js/main.b9fa3d7a.js"
   ]
 }
