@@ -1221,7 +1221,6 @@ export const profiles = {
         practice: "Accounting",
         pronouns: "He/Him",
         experience: {
-            "Sales and Use Tax - Notice Reviewer": "EY",
             "Audit and Assurance Intern": "EY",
         },
         campusInvolvements: {
@@ -1623,6 +1622,74 @@ export const profiles = {
         interests: ["Dance", "Cafe Hopping", "Beach", "Reading", "Hiking", "Shopping"],
         whyLPN: "As a transfer student, I wanted to become involved on campus. LPN stood out amongst all the campus organizations as I saw how genuine everyone is and how tightly knit they are. I am glad to say that LPN is family, and I cannot wait to make more memories!.",
         img: require('../../../../assets/actives/brothers/Lindzy_So.jpg')
+    },
+
+    Zachary_Bui: {
+        linkedIn: "https://www.linkedin.com/in/zachary-bui/",
+        homeTown: "Arcadia, CA",
+        year: "2nd",
+        class: "Alpha Gamma",
+        major: "Business Economics",
+        minor: "",
+        emphasis: "Finance",
+        practice: "Finance and Accounting",
+        pronouns: "He/Him",
+        experience: {
+            "Sales & Use Tax - Notice Reviewer":"EY",
+            "Campaign Finance Intern":"Alliance for American Leadership",
+            "Growth Engineer Intern":"Series"
+        },
+        campusInvolvements: {
+            "Staff Member":"Vietnamese Student Association",
+            "Intern":"Undergraduate Business Association",
+        },
+        interests: ["Pondering", "Swimming", "Hiking", "Pickleball", "Bowling"],
+        whyLPN: "LPN gave me everything I was looking for; a community where I can be my best in, personally and professionally. Lambda Lambda.",
+        img: require('../../../../assets/actives/brothers/Zachary_Bui.jpg')
+    },
+    
+    Jordan_Moreno: {
+        linkedIn: "https://www.linkedin.com/in/jordan-moreno-/",
+        homeTown: "Riverside, CA",
+        year: "4th",
+        class: "Alpha Gamma",
+        major: "Physics",
+        minor: "",
+        emphasis: "",
+        practice: "Software Engineering, Entrepreneurship",
+        pronouns: "He/Him",
+        experience: {
+            "Software Engineer":"3motion Labs",
+            "CS and Math Tutor":"Riverside City College",
+            "Undergraduate Researcher":"UC Riversides"
+        },
+        campusInvolvements: {
+        },
+        interests: ["Basketball", "Music Production", "Travel", "Snorkeling"],
+        whyLPN: "As a transfer student, I wanted to find a community of kind, driven, and intelligent people at UCI and that's exactly what LPN is. LPN is a place to grow both professionally and as a person, and I'm glad I found it!",
+        img: require('../../../../assets/actives/brothers/Jordan_Moreno.jpg')
+    },
+
+    Caroline_Nguyen: {
+        linkedIn: "https://www.linkedin.com/in/carolinenguyenn/",
+        homeTown: "Hanoi, Vietnam",
+        year: "2nd",
+        class: "Alpha Gamma",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "Operations & Decision Technology",
+        practice: "Supply Chain Management & Operations",
+        pronouns: "She/Her",
+        experience: {
+            "Customs Documentation Intern":"DPExpress",
+            "Online Sales Intern":"AT Asia Co., Ltd.",
+        },
+        campusInvolvements: {
+            "LEADS Program Cohort":"UCI Paul Merage School of Business",
+        },
+        interests: ["Badminton", "Taking Pictures", "Fashion", "Developing Films", "Traveling"],
+        whyLPN: "Being a part of LPN has brought a new chapter to my studying abroad experience. I've found a sense of community and belonging that I never expected. It's comforting to know that even far from home, I've found a place where I feel welcomed, understood, and valued.",
+        img: require('../../../../assets/actives/brothers/Caroline_Nguyen.jpg')
     },
 
 };

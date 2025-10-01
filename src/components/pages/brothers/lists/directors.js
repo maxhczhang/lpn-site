@@ -3,6 +3,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Jordan_Moreno.jpg'),
         name: "Jordan Moreno",
         title: "Alumni Relations Director",
+        company: "3motion Labs",
+        logo: require('../../../../assets/companyLogos/3motion_Labs.png'),
+        width: "45%"
     },
     {
         img: require('../../../../assets/actives/brothers/Mahad_Afridi.jpg'),
@@ -98,9 +101,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Caroline_Nguyen.jpg'),
         name: "Caroline Nguyen",
         title: "Recruiter",
-        // logo: require('../../../../assets/companyLogos/Accenture_Small.png'),
-        // company: 'Accenture',
-        width: "35%"
+        logo: require('../../../../assets/companyLogos/DPExpress.png'),
+        company: 'DPExpress',
+        width: "65%"
     },
     {
         img: require('../../../../assets/actives/brothers/Katelyn_Fu.jpg'),
