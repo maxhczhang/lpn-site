@@ -8,7 +8,7 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Mahad_Afridi.jpg'),
         name: "Mahad Afridi",
         title: "Career Catalyst Director",
-        company: "Recorded_Future",
+        company: "Recorded Future",
         logo: require('../../../../assets/companyLogos/Recorded_Future.png'),
         width: "45%"
     },
@@ -32,7 +32,7 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Emily_Chen.jpg'),
         name: "Emily Chen",
         title: "Marketing Director",
-        company: "Precisely",
+        company: "SAP",
         logo: require('../../../../assets/companyLogos/Precisely.jpeg'),
         width: "50%"
     },
@@ -66,6 +66,9 @@ export const directors = [
         img: require('../../../../assets/actives/brothers/Zachary_Bui.jpg'),
         name: "Zachary Bui",
         title: "Culture & Relationships Director",
+        logo: require('../../../../assets/companyLogos/EY.png'),
+        company: 'Ernst & Young',
+        width: "70%"
     },
     {
         img: require('../../../../assets/actives/brothers/Keira_Wong.jpg'),

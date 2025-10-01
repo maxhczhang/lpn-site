@@ -27,7 +27,7 @@ export const events = [
         description: "Get to know our brothers through a 1 on 1 casual coffee chat!",
         dressCode: "Virtual",
         ics: "",
-        checkinLink: "https://calendly.com/ucilpn/lpn-winter-2025-coffee-chat",
+        checkinLink: "https://calendly.com/ucilpn/lpn-15-minute-coffee-chat-clone-1",
         time: "By Appointment",
         location: "Sign Up Here!",
         eventIcon: "schedule",

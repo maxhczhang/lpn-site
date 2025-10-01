@@ -143,6 +143,14 @@ export const companyLogos = [
         img: require('../../../assets/companyLogos/Stripe.png'),
         title: 'Stripe',
     },
+    {
+        img: require('../../../assets/companyLogos/Red_Bull.png'),
+        title: 'Red Bull',
+    },
+    {
+        img: require('../../../assets/companyLogos/SAP.png'),
+        title: 'SAP',
+    },
    
 ];
 

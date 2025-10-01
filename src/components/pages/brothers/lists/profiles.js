@@ -1145,6 +1145,7 @@ export const profiles = {
         practice: "Digital Marketing",
         pronouns: "She/Her",
         experience: {
+            "iXP Intern":"SAP",
             "Product Marketing Intern":"Precisely",
             "Business Analyst Intern":"Accenture",
             "Content Marketing Intern":"Revent Solutions",
@@ -1220,7 +1221,8 @@ export const profiles = {
         practice: "Accounting",
         pronouns: "He/Him",
         experience: {
-            "EY": "Audit and Assurance Intern",
+            "Sales and Use Tax - Notice Reviewer": "EY",
+            "Audit and Assurance Intern": "EY",
         },
         campusInvolvements: {
             "Beta Alpha Psi": "Secretary",
@@ -1409,6 +1411,7 @@ export const profiles = {
         practice: "Marketing, Human Resources ",
         pronouns: "She/Her",
         experience: {
+            "Field Student Marketeer":"Red Bull",
             "Digital Marketing Intern":"Food Innovations",
             "Marketing Intern":"GemEx Inc.",
             "Marketing Intern ":"HomeCare"
