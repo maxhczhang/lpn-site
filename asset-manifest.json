@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.b9fa3d7a.js",
+    "main.js": "/static/js/main.26171ad7.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
     "static/media/Mahad_Afridi.jpg": "/static/media/Mahad_Afridi.091e49b3fe0f040e7081.jpg",
@@ -164,12 +164,14 @@
     "static/media/ISBA.png": "/static/media/ISBA.46b54d9d5001769b8776.png",
     "static/media/ServiceNow.png": "/static/media/ServiceNow.16ad9ffec09b28b3d097.png",
     "static/media/Citi.png": "/static/media/Citi.b380dede8c641fe84f2f.png",
+    "static/media/DPExpress.png": "/static/media/DPExpress.3eb2837fe7a814c70d7e.png",
     "static/media/Apsy_Transparent.png": "/static/media/Apsy_Transparent.c5ddb75c5ad51aa052b6.png",
     "static/media/PwC.png": "/static/media/PwC.27030b8b52cbb698d57b.png",
     "static/media/Deloitte.png": "/static/media/Deloitte.62998ec5a117c99da97d.png",
     "static/media/Microsoft.png": "/static/media/Microsoft.42a7b69d2a7746ce6a1d.png",
     "static/media/CapitalOne_White.png": "/static/media/CapitalOne_White.8aaa9ec6b5f07031517e.png",
     "static/media/JPMorgan.png": "/static/media/JPMorgan.dfd09b9199c001b7092b.png",
+    "static/media/3motion_Labs.png": "/static/media/3motion_Labs.891b30b453a9c6974d4d.png",
     "static/media/Walmart.png": "/static/media/Walmart.052ed25d5be7175fe719.png",
     "static/media/Google.png": "/static/media/Google.74b3664a895b134370e9.png",
     "static/media/Accenture.png": "/static/media/Accenture.18a048c93ca2edd7da4e.png",
@@ -178,10 +180,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.b9fa3d7a.js.map": "/static/js/main.b9fa3d7a.js.map"
+    "main.26171ad7.js.map": "/static/js/main.26171ad7.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.b9fa3d7a.js"
+    "static/js/main.26171ad7.js"
   ]
 }
