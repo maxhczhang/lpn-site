@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9cb8e3b.css",
-    "main.js": "/static/js/main.26171ad7.js",
+    "main.js": "/static/js/main.dbe21c8f.js",
     "static/media/Caroline_Nguyen.jpg": "/static/media/Caroline_Nguyen.4719af3d4516250b175d.jpg",
     "static/media/Rayyaan_Majid.jpg": "/static/media/Rayyaan_Majid.a30c0b3f6008fd3553ab.jpg",
     "static/media/Mahad_Afridi.jpg": "/static/media/Mahad_Afridi.091e49b3fe0f040e7081.jpg",
@@ -64,10 +64,22 @@
     "static/media/Max_Zhang.jpg": "/static/media/Max_Zhang.cf39225161064ebb1507.jpg",
     "static/media/Upsilon_2023.jpg": "/static/media/Upsilon_2023.cba26b526cf66587251f.jpg",
     "static/media/Founders.png": "/static/media/Founders.a4ebb3b5f7ec1ff35216.png",
+    "static/media/Joshua_Ji.jpg": "/static/media/Joshua_Ji.6d88c77250505fda4919.jpg",
     "static/media/Kurtis_Lin.jpg": "/static/media/Kurtis_Lin.28d6cd72b812c87ad518.jpg",
+    "static/media/Sergio_Alcazar.jpg": "/static/media/Sergio_Alcazar.d7c2c9a6cef5f9bd5cfa.jpg",
+    "static/media/Ian_Shone.jpg": "/static/media/Ian_Shone.39540fb624eafae34f75.jpg",
+    "static/media/Shen_You.jpg": "/static/media/Shen_You.c4708aa3e2733a4965fb.jpg",
+    "static/media/Ryan_Nguyen.jpg": "/static/media/Ryan_Nguyen.8344e1c185faecc3f038.jpg",
+    "static/media/Anuvaa_Joshi.jpg": "/static/media/Anuvaa_Joshi.98c0b6a08298f98016e2.jpg",
+    "static/media/Xander_Myong.jpg": "/static/media/Xander_Myong.503c7b26d5d0ec03acd5.jpg",
     "static/media/Home.jpg": "/static/media/Home.dd7e6a5ca8f390297e2c.jpg",
+    "static/media/Allison_Lee.jpg": "/static/media/Allison_Lee.df523751c569e08eaf92.jpg",
     "static/media/Fall_Talent_2020.JPG": "/static/media/Fall_Talent_2020.3639f18ff6c7c16a18b7.JPG",
     "static/media/Chris_Li.jpg": "/static/media/Chris_Li.69ec8b4d0a2eec3f97bd.jpg",
+    "static/media/Joel_Leong.jpg": "/static/media/Joel_Leong.6b265fb5b62c00706244.jpg",
+    "static/media/Emily_Tom.jpg": "/static/media/Emily_Tom.e3a39596c26f1c47a7e8.jpg",
+    "static/media/Ujin_M.jpg": "/static/media/Ujin_M.f3b85f0313f29d401a4c.jpg",
+    "static/media/Chetana_Jorapur.jpg": "/static/media/Chetana_Jorapur.00d0207832e68440eb9a.jpg",
     "static/media/Gallery.jpg": "/static/media/Gallery.249d435fc59b70a7d87f.jpg",
     "static/media/About.jpg": "/static/media/About.6376294d58ced0ad4278.jpg",
     "static/media/Values_Separator.jpg": "/static/media/Values_Separator.7620d8bec6dad576059c.jpg",
@@ -110,6 +122,7 @@
     "static/media/Rubies_Seniors.jpg": "/static/media/Rubies_Seniors.bc6b0160c540daaeed4d.jpg",
     "static/media/Retreat_Hike.JPG": "/static/media/Retreat_Hike.c258c7cafb372dff6391.JPG",
     "static/media/Jenny_Jeffrey.jpg": "/static/media/Jenny_Jeffrey.79b6250c1d8adc48aaa1.jpg",
+    "static/media/Bonnie_Tran.jpg": "/static/media/Bonnie_Tran.70fca1a37d01f544747b.jpg",
     "static/media/Iolites_small.jpg": "/static/media/Iolites_small.7de62174740d8c77fd57.jpg",
     "static/media/Chis_Home.jpeg": "/static/media/Chis_Home.1b0f7398784d16b0558a.jpeg",
     "static/media/Kappas_Skates.jpg": "/static/media/Kappas_Skates.a2e78121a8d02d88f14a.jpg",
@@ -118,7 +131,7 @@
     "static/media/Western_Digital.png": "/static/media/Western_Digital.fe237d745a2c17ee0317.png",
     "static/media/logo_white.png": "/static/media/logo_white.bd9adee48feda6727867.png",
     "static/media/Penumbra.png": "/static/media/Penumbra.f1cf983c4c83d6c072e5.png",
-    "static/media/Red_Bull.png": "/static/media/Red_Bull.c96c1b7a55493774a94a.png",
+    "static/media/Red_Bull.jpeg": "/static/media/Red_Bull.c96c1b7a55493774a94a.jpeg",
     "static/media/TikTok.png": "/static/media/TikTok.51fdd0c8624d6ad803c2.png",
     "static/media/HRMA.png": "/static/media/HRMA.353d9b96f70a63a4a5d0.png",
     "static/media/Taiwan_1.jpg": "/static/media/Taiwan_1.905d40e5c8d8cea1c744.jpg",
@@ -148,6 +161,7 @@
     "static/media/Ingram_Micro_Transparent.png": "/static/media/Ingram_Micro_Transparent.bd3d6b5dab69095c960b.png",
     "static/media/WellsFargo.png": "/static/media/WellsFargo.0ae61e2cdc1c808cfea7.png",
     "static/media/Comcast_Black.png": "/static/media/Comcast_Black.c88dbb343b583191733b.png",
+    "static/media/Alameda.png": "/static/media/Alameda.c62c8d16eba85a622391.png",
     "static/media/MUSA.jpeg": "/static/media/MUSA.331de529a1e12b45301f.jpeg",
     "static/media/Goldman_Sachs.png": "/static/media/Goldman_Sachs.288ecfc6f4735f075000.png",
     "static/media/SAP.png": "/static/media/SAP.c23dfc287ea87d4dae62.png",
@@ -164,6 +178,7 @@
     "static/media/ISBA.png": "/static/media/ISBA.46b54d9d5001769b8776.png",
     "static/media/ServiceNow.png": "/static/media/ServiceNow.16ad9ffec09b28b3d097.png",
     "static/media/Citi.png": "/static/media/Citi.b380dede8c641fe84f2f.png",
+    "static/media/Kasso_Law_Firm.png": "/static/media/Kasso_Law_Firm.fc8640e1de7be103aa3b.png",
     "static/media/DPExpress.png": "/static/media/DPExpress.3eb2837fe7a814c70d7e.png",
     "static/media/Apsy_Transparent.png": "/static/media/Apsy_Transparent.c5ddb75c5ad51aa052b6.png",
     "static/media/PwC.png": "/static/media/PwC.27030b8b52cbb698d57b.png",
@@ -180,10 +195,10 @@
     "static/media/Amazon.png": "/static/media/Amazon.34f8aa0b8b3a8495af5d.png",
     "index.html": "/index.html",
     "main.a9cb8e3b.css.map": "/static/css/main.a9cb8e3b.css.map",
-    "main.26171ad7.js.map": "/static/js/main.26171ad7.js.map"
+    "main.dbe21c8f.js.map": "/static/js/main.dbe21c8f.js.map"
   },
   "entrypoints": [
     "static/css/main.a9cb8e3b.css",
-    "static/js/main.26171ad7.js"
+    "static/js/main.dbe21c8f.js"
   ]
 }
