@@ -144,7 +144,7 @@ export const companyLogos = [
         title: 'Stripe',
     },
     {
-        img: require('../../../assets/companyLogos/Red_Bull.png'),
+        img: require('../../../assets/companyLogos/Red_Bull.jpeg'),
         title: 'Red Bull',
     },
     {

@@ -131,8 +131,8 @@ export const brothers = [
     {
         img: require('../../../../assets/actives/brothers/Asia_Chan.jpg'),
         name: "Asia Chan",
-        logo: require('../../../../assets/companyLogos/FoodInnovations.jpeg'),
-        company: 'Food Innovations',
+        logo: require('../../../../assets/companyLogos/Red_Bull.jpeg'),
+        company: 'Red Bull',
         width: "55%"
     },
 
@@ -165,6 +165,112 @@ export const brothers = [
         name: "Viggo Nguyen",
         logo: require('../../../../assets/companyLogos/NWMutual.jpeg'),
         company: 'Northwestern Mutual',
+        width: "55%"
+    },
+
+    // Alpha Delta Class
+
+    {
+        img: require('../../../../assets/actives/brothers/Xander_Myong.jpg'),
+        name: "Alexander Myong",
+        logo: require('../../../../assets/companyLogos/SparkLabs.jpeg'),
+        company: 'SparkLabs',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Allison_Lee.jpg'),
+        name: "Allison Lee",
+        logo: require('../../../../assets/companyLogos/UCI2.png'),
+        company: 'Bren Events Center',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Anuvaa_Joshi.jpg'),
+        name: "Anuvaa Joshi",
+        logo: require('../../../../assets/companyLogos/Rad_Law_Group.jpeg'),
+        company: 'Rad Law Group',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Bonnie_Tran.jpg'),
+        name: "Bonnie Tran",
+        logo: require('../../../../assets/companyLogos/narb.jpeg'),
+        company: 'narb',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Chetana_Jorapur.jpg'),
+        name: "Chetana Jorapur",
+        logo: require('../../../../assets/companyLogos/Kasso_Law_Firm.png'),
+        company: 'Kasso Law Firm',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Emily_Tom.jpg'),
+        name: "Emily Tom",
+        logo: require('../../../../assets/companyLogos/Glintlock.jpeg'),
+        company: 'Glintlock',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Ujin_M.jpg'),
+        name: "Enkh-Ujin Munkhbaatar",
+        // logo: require('../../../../assets/companyLogos/Red_Bull.jpeg'),
+        // company: 'Urban Jewelery',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Shen_You.jpg'),
+        name: "Hsuan-You Shen",
+        logo: require('../../../../assets/companyLogos/MajorHoops.jpeg'),
+        company: 'MajorHoops Basketball',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Ian_Shone.jpg'),
+        name: "Ian Shone",
+        logo: require('../../../../assets/companyLogos/Alameda.png'),
+        company: 'Alameda County Government',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Joel_Leong.jpg'),
+        name: "Joel Leong",
+        logo: require('../../../../assets/companyLogos/Singapore_Police_Force.jpeg'),
+        company: 'Singapore Police Force',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Joshua_Ji.jpg'),
+        name: "Joshua Ji",
+        logo: require('../../../../assets/companyLogos/Meta.png'),
+        company: 'Meta',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Ryan_Nguyen.jpg'),
+        name: "Ryan Nguyen",
+        logo: require('../../../../assets/companyLogos/EY.png'),
+        company: 'Ernst & Young',
+        width: "55%"
+    },
+
+    {
+        img: require('../../../../assets/actives/brothers/Sergio_Alcazar.jpg'),
+        name: "Sergio Alcazar",
+        // logo: require('../../../../assets/companyLogos/Red_Bull.jpeg'),
+        // company: 'JSA Properties',
         width: "55%"
     },
 ];

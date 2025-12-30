@@ -1692,6 +1692,297 @@ export const profiles = {
         img: require('../../../../assets/actives/brothers/Caroline_Nguyen.jpg')
     },
 
+    // Alpha Delta
+    Alexander_Myong: {
+        linkedIn: "https://www.linkedin.com/in/alexander-myong/",
+        homeTown: "Singapore",
+        year: "2nd",
+        class: "Alpha Delta",
+        major: "Business Economics",
+        minor: "",
+        emphasis: "",
+        practice: "Finance",
+        pronouns: "He/Him",
+        experience: {
+            "Venture Capital Intern":"SparkLabs",
+            "Sales and Marketing Intern":"Starbeam",
+            "Social Media and Marketing Intern":"Crave Global Inc.",
+        },
+        campusInvolvements: {
+            "Director of Member Relations":"Financial Literacy Association",
+        },
+        interests: ["Basketball", "Lifting", "Gaming"],
+        whyLPN: "I chose LPN because of the people. The place is not what defines the environment, but the people do. Everyone is kind and caring, yet driven to succeed and improve themselves. LPN not only means expertise in your field, but also the community that comes with it. LPN hopes for the success of each Active member and builds a community to uplift every member.",
+        img: require('../../../../assets/actives/brothers/Xander_Myong.jpg')
+    },
+
+    Allison_Lee: {
+        linkedIn: "https://www.linkedin.com/in/alliison-lee/",
+        homeTown: "San Francisco, CA",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "Accounting",
+        practice: "Accounting",
+        pronouns: "She/Her",
+        experience: {
+            "Usher":"UC Irvine Bren Events Center",
+            "Event Concessions Intern":"Novastar Basketball",
+            "Social Media and Marketing Intern":"Crave Global Inc.",
+        },
+        campusInvolvements: {
+            "":"",
+        },
+        interests: ["Eating", "Quality Time", "Trying New Restaurants", "Shopping", "Tanning"],
+        whyLPN: "LPN means being surrounded by people who truly want to see you grow. Coming into college, I hoped to find a community that balanced professionalism with genuine connection, and LPN was the first place where I felt that immediately. Everyone I met was encouraging, open, and willing to support others without competition or gatekeeping. To me, LPN represents a family of driven individuals who push each other to improve while still valuing authenticity, kindness, and real relationships. I joined because I wanted to be part of a community where I could learn, develop, and one day support others the same way current members support me.",
+        img: require('../../../../assets/actives/brothers/Allison_Lee.jpg')
+    },
+
+    Anuvaa_Joshi: {
+        linkedIn: "https://www.linkedin.com/in/anuvaajoshi/",
+        homeTown: "Cupertino, CA",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Undeclared",
+        minor: "",
+        emphasis: "",
+        practice: "Marketing",
+        pronouns: "She/Her",
+        experience: {
+            "Billing Assistant":"Rad Law Group",
+        },
+        campusInvolvements: {
+            "Mentee":"Management Information Student Society",
+        },
+        interests: ["Bharatanatyam (Indian classical dance)", "Badminton", "Pickleball", "Trying new food spots", "Cafe hopping", "Shopping", "Doomscrolling", "Going on walks", "Doing my hair", "Beach"],
+        whyLPN: "I have found such a great community in LPN, people I can genuinely connect with and see myself spending the next four years with. I can’t wait to make more memories!",
+        img: require('../../../../assets/actives/brothers/Anuvaa_Joshi.jpg')
+    },
+
+    Bonnie_Tran: {
+        linkedIn: "https://www.linkedin.com/in/bonnie-tran-278979334/",
+        homeTown: "Ho Chi Minh, Vietnam",
+        year: "2nd",
+        class: "Alpha Delta",
+        major: "Business Administration",
+        minor: "Digital Information Systems",
+        emphasis: "Marketing, Information Systems",
+        practice: "Product Marketing, Marketing",
+        pronouns: "She/Her",
+        experience: {
+            "Social Media Marketing Intern":"narb",
+            "Digital Product AI Strategy Extern":"NewsCorp",
+            "Campus Leader":"Notion",
+        },
+        campusInvolvements: {
+            "Vice President of Marketing":"Management Information Student Society",
+            "Associate":"Merage Undergraduate Student Association",
+        },
+        interests: ["Cafe hopping", "Sleeping", "Swimming", "Guitar", "Scrolling Pinterest", "Travelling", "Watching movies"],
+        whyLPN: "To me, LPN is a community where everyone feels driven, authentic and down-to-earth. I’ve been looking for a place to grow both professionally and personally, and from the moment I met the LPN brothers, I immediately felt a sense of welcome. As an international student, finding that kind of family away from home truly means a lot. LPN isn’t just about friendship for me, but it’s also a space where I can find mentorship and actually grow everyday into the person I want to become.",
+        img: require('../../../../assets/actives/brothers/Bonnie_Tran.jpg')
+    },
+
+    Chetana_Jorapur: {
+        linkedIn: "https://www.linkedin.com/in/chetana-j/",
+        homeTown: "Mountain House, CA",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Information Management",
+        minor: "",
+        emphasis: "",
+        practice: "Corporate Law",
+        pronouns: "She/Her",
+        experience: {
+            "Legal Intern and Marketing Manager":"Kasso Law Firm",
+            "Intern":"High Court of India",
+            "Founder and SAT Tutor":"TopScore Training",
+        },
+        campusInvolvements: {
+            "":"",
+        },
+        interests: ["Dancing", "Singing", "Reading", "Traveling", "Badminton", "Hanging out with my friends"],
+        whyLPN: "LPN has helped me find a community I never thought I'd find so early on in college. I've made so many close friends who have been there for me no matter what, and I truly feel like I can be myself around them. LPN has also taught me so much in terms of professional development, making me more confident and knowledgeable about my career path. Overall, it has truly prepared me well for the professional world and given me a great community.",
+        img: require('../../../../assets/actives/brothers/Chetana_Jorapur.jpg')
+    },
+
+    Emily_Tom: {
+        linkedIn: "https://www.linkedin.com/in/emily-ktom/",
+        homeTown: "Kahului, HI",
+        year: "3rd",
+        class: "Alpha Delta",
+        major: "Computer Science",
+        minor: "",
+        emphasis: "Algorithms",
+        practice: "Software Engineering",
+        pronouns: "She/Her",
+        experience: {
+            "Software Engineer Intern":"Glintlock",
+            "Information Security Intern":"Bank of Hawaii",
+        },
+        campusInvolvements: {
+            "External Affairs Committee Member":"Women in Computer Science",
+        },
+        interests: ["Crocheting", "Baking", "Running", "Doomscrolling LinkedIn"],
+        whyLPN: "LPN has given me a close community of friends who have helped me to learn and grow in so many ways.",
+        img: require('../../../../assets/actives/brothers/Emily_Tom.jpg')
+    },
+
+    Enkh_Ujin_Munkhbaatar: {
+        linkedIn: "https://www.linkedin.com/in/enkh-ujin/",
+        homeTown: "Ulaanbaatar, Mongolia",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Economics",
+        minor: "",
+        emphasis: "",
+        practice: "Management Consulting",
+        pronouns: "She/Her",
+        experience: {
+            "Founder":"Urban Jewelry",
+        },
+        campusInvolvements: {
+            "":"",
+        },
+        interests: ["Dancing", "DT", "Fashion", "COFFEE", "Camping", "Working out", "Creating Pinterest board", "Journaling"],
+        whyLPN: "As a freshman in my first quarter at UC Irvine, LPN has already become my first and biggest family. From the moment I talked to the actives during rush, I knew this was a community I wanted to be part of. Since then, I’ve made close friends who have been there for me through both my lowest and highest moments. I’m truly grateful to be surrounded by like-minded peers I can rely on, laugh with, and look up to.",
+        img: require('../../../../assets/actives/brothers/Ujin_M.jpg')
+    },
+
+    Hsuan_You_Shen: {
+        linkedIn: "https://www.linkedin.com/in/hsuan-youshen/",
+        homeTown: "Arcadia, CA",
+        year: "2nd",
+        class: "Alpha Delta",
+        major: "Business Economics",
+        minor: "",
+        emphasis: "",
+        practice: "Sales, Accounting",
+        pronouns: "He/Him",
+        experience: {
+            "Social Media Marketing Intern":"MajorHoops Basketball",
+            "Sales Associate":"Anteater Recreation Center",
+        },
+        campusInvolvements: {
+            "Member":"Irvine Trading Group",
+        },
+        interests: ["Basketball", "Food runs", "Car drives", "Hanging with friends"],
+        whyLPN: "I chose LPN because it gives me a community where people genuinely care for each other and provide support both professionally and personally. It means a lot to me, and I'm very grateful for all the experiences, memories, and people who I have met through LPN.",
+        img: require('../../../../assets/actives/brothers/Shen_You.jpg')
+    },
+
+    Ian_Shone: {
+        linkedIn: "https://www.linkedin.com/in/ianjshone/",
+        homeTown: "Austin, TX",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Administration",
+        minor: "Chinese, Statistics",
+        emphasis: "",
+        practice: "Finance",
+        pronouns: "He/Him",
+        experience: {
+            "Policy Research Intern":"Alameda County Government",
+        },
+        campusInvolvements: {
+            "Member":"Chinese Association",
+        },
+        interests: ["Rock climbing", "Cooking", "Working out", "Photography", "Traveling", "Fashion", "Thrifting", "Video editing", "Shopping", "Eating"],
+        whyLPN: "Lambda Phi Nu is a community of people that pushes me to constantly be better both personally and professionally. I chose Lambda Phi Nu to find a community of people that I could develop real relationships with that I could call brothers for life.",
+        img: require('../../../../assets/actives/brothers/Ian_Shone.jpg')
+    },
+
+    Joel_Leong: {
+        linkedIn: "https://www.linkedin.com/in/joelleong-/",
+        homeTown: "Pleasonton, CA",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "Accounting, Finance",
+        practice: "Consulting",
+        pronouns: "He/Him",
+        experience: {
+            "Ground Response Force Officer":"Singapore Police Force",
+            "Campus Ambassador":"Riot Games",
+        },
+        campusInvolvements: {
+            "Junior Associate":"Irvine Consulting Group",
+        },
+        interests: ["Guitar", "Soccer", "Restaurant/Cafe hopping", "Eating", "Lifting", "Playing sports", "Watching sitcoms"],
+        whyLPN: "LPN is a business leadership fraternity committed to igniting leaders, and it has helped me develop so much professionally by immersing me in a community full of driven individuals, offering experiences through a curriculum which emulates the professional world, and providing mentorship which allows me to craft my own development roadmap. I was also able to find a group of people that care deeply about one another, and I always look forward to being with them!",
+        img: require('../../../../assets/actives/brothers/Joel_Leong.jpg')
+    },
+
+    Joshua_Ji: {
+        linkedIn: "https://www.linkedin.com/in/jijoshua/",
+        homeTown: "Plano, TX",
+        year: "3rd",
+        class: "Alpha Delta",
+        major: "Computer Science",
+        minor: "",
+        emphasis: "",
+        practice: "Software Engineering",
+        pronouns: "He/Him",
+        experience: {
+            "Software Engineering Intern":"Meta",
+        },
+        campusInvolvements: {
+            "Dance Member":"MCIA",
+            "Corporate Outreach":"ICSSC",
+            "Dance Member ":"INSA"
+        },
+        interests: ["Dancing", "Watching and playing any types of sports", "Trying new things", "Traveling"],
+        whyLPN: "I wanted to find more communities within UCI, and I believe LPN is the perfect one. It combines both professionalism and family into one community. Even though I haven't know these people for too long, LPN already feels like family and my pbros are always people I can count on. I always enjoy the random hangouts and events that I always come across with LPN.",
+        img: require('../../../../assets/actives/brothers/Joshua_Ji.jpg')
+    },
+
+    Ryan_Nguyen: {
+        linkedIn: "https://www.linkedin.com/in/ryan40123/",
+        homeTown: "Red Bluff, CA",
+        year: "3rd",
+        class: "Alpha Delta",
+        major: "Business Economics",
+        minor: "Accounting",
+        emphasis: "",
+        practice: "Accounting, Consulting",
+        pronouns: "He/Him",
+        experience: {
+            "Incoming Audit Intern":"Ernst & Young",
+            "Audit Intern":"RSM",
+            "Campus Ambassador":"Hot Pockets",
+        },
+        campusInvolvements: {
+            "Treasurer":"Lambda Theta Delta",
+        },
+        interests: ["Basketball", "Lifting", "Gaming"],
+        whyLPN: "After I got my Internship offers my second year, I lost my spark to keep growing professionally. I grew complacent and I realized half way through I didn't want to spend my next two years not growing/developing. I joined LPN to reignite that spark and it definitely worked. To me LPN is all about meeting people who genuinely care about the success and well being of those around them.",
+        img: require('../../../../assets/actives/brothers/Ryan_Nguyen.jpg')
+    },
+
+    Sergio_Alcazar: {
+        linkedIn: "https://www.linkedin.com/in/sergioalcazar-/",
+        homeTown: "Arcadia, CA",
+        year: "1st",
+        class: "Alpha Delta",
+        major: "Business Administration",
+        minor: "",
+        emphasis: "",
+        practice: "Banking",
+        pronouns: "He/Him",
+        experience: {
+            "Property & Finance Intern":"JSA Properties",
+        },
+        campusInvolvements: {
+            "":"",
+        },
+        interests: ["Gym", "Track and field", "Martial arts", "Eating", "Shopping"],
+        whyLPN: "LPN has rocketed me into a version of myself I could never have achieved this quickly on my own. LPN is a community that uplifts me in every way and a family that supports me every single day.",
+        img: require('../../../../assets/actives/brothers/Sergio_Alcazar.jpg')
+    },
+
+
 };
 
 export default { profiles };
