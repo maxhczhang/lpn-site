@@ -5,7 +5,7 @@ import { useInView } from "framer-motion";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const stats = [
-  { value: 12, suffix: "+", label: "Years at UCI" },
+  { value: 16, suffix: "+", label: "Years at UCI" },
   { value: 300, suffix: "+", label: "Active & Alumni Brothers" },
   { value: 100, suffix: "%", label: "Internship Placement Rate" },
   { value: 9, suffix: "", label: "Business Orgs Founded" },
