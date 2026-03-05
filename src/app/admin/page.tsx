@@ -1,12 +1,70 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { profiles } from "@/lib/data/profiles";
+import { csuite } from "@/lib/data/csuite";
+import { directors } from "@/lib/data/directors";
+import { brothers } from "@/lib/data/brothers";
 import type { Profile } from "@/lib/data/types";
 
 type View = "login" | "register" | "edit";
 
-const profileKeys = Object.keys(profiles).sort();
+function nameToKey(name: string) {
+  return name.replace(/[\s-]+/g, "_");
+}
+
+const activeBrotherKeys = [
+  ...csuite.map((b) => nameToKey(b.name)),
+  ...directors.map((b) => nameToKey(b.name)),
+  ...brothers.map((b) => nameToKey(b.name)),
+].filter((k) => k in profiles);
+
+const profileKeys = Array.from(new Set(activeBrotherKeys)).sort();
+
+function ProfileDropdown({ value, onChange }: { value: string; onChange: (key: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        className="w-full px-4 py-2.5 rounded-lg bg-background border border-border text-sm text-left flex items-center justify-between transition-colors focus:outline-none focus:border-white/20"
+        style={{ color: value ? "hsl(var(--foreground))" : "hsl(var(--muted-foreground))" }}
+      >
+        <span>{value ? value.replace(/_/g, " ") : "Select your name"}</span>
+        <svg className={`w-4 h-4 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute z-50 mt-1 w-full rounded-lg border border-border bg-[hsl(var(--surface))] shadow-xl overflow-hidden">
+          <div className="max-h-60 overflow-y-auto">
+            {profileKeys.map((k) => (
+              <button
+                key={k}
+                type="button"
+                onClick={() => { onChange(k); setOpen(false); }}
+                className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-white/5 ${value === k ? "text-foreground bg-white/5" : "text-muted-foreground"}`}
+              >
+                {k.replace(/_/g, " ")}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function AdminPage() {
   const [view, setView] = useState<View>("login");
@@ -148,17 +206,7 @@ export default function AdminPage() {
           <form onSubmit={handleLogin} className="space-y-5">
             <div>
               <label className={labelClass}>Your Name</label>
-              <select
-                value={profileKey}
-                onChange={(e) => setProfileKey(e.target.value)}
-                required
-                className={inputClass}
-              >
-                <option value="">Select your name</option>
-                {profileKeys.map((k) => (
-                  <option key={k} value={k}>{displayName(k)}</option>
-                ))}
-              </select>
+              <ProfileDropdown value={profileKey} onChange={setProfileKey} />
             </div>
             <div>
               <label className={labelClass}>Password</label>
@@ -193,17 +241,7 @@ export default function AdminPage() {
           <form onSubmit={handleRegister} className="space-y-5">
             <div>
               <label className={labelClass}>Your Name</label>
-              <select
-                value={profileKey}
-                onChange={(e) => setProfileKey(e.target.value)}
-                required
-                className={inputClass}
-              >
-                <option value="">Select your name</option>
-                {profileKeys.map((k) => (
-                  <option key={k} value={k}>{displayName(k)}</option>
-                ))}
-              </select>
+              <ProfileDropdown value={profileKey} onChange={setProfileKey} />
             </div>
             <div>
               <label className={labelClass}>Invite Code</label>
