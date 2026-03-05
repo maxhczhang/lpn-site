@@ -1,0 +1,106 @@
+@import url("https://api.fontshare.com/v2/css?f[]=amulya@700,500&f[]=synonym@400,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 96%;
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 210 40% 96%;
+    --primary-foreground: 222 47% 5%;
+    --secondary: 222 30% 13%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 222 30% 13%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 222 30% 13%;
+    --accent-foreground: 210 40% 96%;
+    --destructive: 350 65% 35%;
+    --destructive-foreground: 210 40% 96%;
+    --border: 222 30% 16%;
+    --input: 222 30% 16%;
+    --ring: 215 20% 55%;
+    --radius: 0.75rem;
+
+    /* LPN Brand */
+    --navy: 224 100% 16%;
+    --burgundy: 350 65% 30%;
+    --burgundy-hover: 350 55% 40%;
+    --surface: 222 47% 8%;
+    --surface-raised: 222 40% 11%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    background: rgba(13, 21, 37, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .glass-light {
+    background: rgba(13, 21, 37, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #F1F5F9 0%, #94A3B8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .lpn-gradient {
+    background: linear-gradient(135deg, hsl(var(--navy)) 0%, #0d1525 100%);
+  }
+
+  .section-padding {
+    @apply px-6 md:px-10 lg:px-16;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,20 +1,23 @@
 # Website for Lambda Phi Nu
 Lambda Phi Nu is a business leadership fraternity at the University of California, Irvine. Our website is hosted at [lpnuci.com](https://www.lpnuci.com).
 
-This repo consists of a React.js application that contains all the UI components for site. It also makes HTTP requests to our web server in three of those components.
+This repo consists of a Next.js application that contains all the UI components for the site. It also makes HTTP requests to our web server in the Contact component.
 
-## Getting started
+## Getting Started
 1. Clone the repo
-2. Install [Node.js](https://nodejs.org/en) if it isn't installed already. Run `node --version `in a terminal window (either in VSCode's terminal or the Mac terminal app) to ensure it got installed properly.
-2. Run `npm install` in the root of the repo.
-3. Remember to always run `git pull` before starting a new feature. I would recommend using the [feature-branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), but this may not be necessary since you will be the only one approving Pull Requests.
+2. Install [Node.js](https://nodejs.org/en) if it isn't installed already. Run `node --version` in a terminal window to ensure it got installed properly.
+3. Run `npm install` in the root of the repo.
+4. Remember to always run `git pull` before starting a new feature.
 
-## Running Locally:
-1. Run `npm start` from the root to run the frontend locally. The frontend will spin up at at [localhost:3000](http://localhost:3000).
-2. Once you've verified your changes are working locally and are ready to deploy, run `npm run deploy` to deploy the changes to GitHub Pages. 
-3. On GitHub.com, navigate to the repo and go to Settings >> Pages and add in our custom domain: "www.lpnuci.com".
-4. Wait for the GitHub Pages deployment to complete. You can monitor its status on GitHub.com by going to the Actions tab in the repo.
-3. Once changes on the live site are verified, push changes to GitHub via `git push`.
+## Running Locally
+1. Run `npm run dev` from the root to run the site locally. It will spin up at [localhost:3000](http://localhost:3000).
+2. Once you've verified your changes are working locally and are ready to deploy, push to GitHub and deploy via Vercel.
+
+## Deploying
+This site is deployed on [Vercel](https://vercel.com). Connect the repo to a Vercel project and it will automatically deploy on every push to `master`. Set the custom domain to `www.lpnuci.com` in the Vercel project settings.
 
 ## Testing the Live Server
-If you want to test the server hosted on Google Cloud App Engine by sending HTTP requests to it, you will need to manually change the `baseURL`s that HTTP requests are sent to in `CampusInvolvement.js`, `Careers.js`, and `Contact.js.`
+The Contact page sends form submissions to a backend hosted on Google Cloud App Engine. To test against it locally, the backend URL is already set in `src/app/contact/page.tsx`. To point to a local backend instead, change the `BACKEND_URL` constant in that file.
+
+## Legacy Code
+The original React/CRA site is preserved in the `archived/` folder for reference.
