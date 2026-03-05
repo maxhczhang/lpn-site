@@ -1582,16 +1582,17 @@
     "practice": "UI/UX Design, Product Management",
     "pronouns": "He/Him",
     "experience": {
+      "Incoming UI/UX Design Intern": "IBM",
       "UI/UX Design Intern": "Masimo",
       "Lead UI/UX Designer": "Endgame",
       "Project Coordinator Intern": "L. Norwood & Associates",
+      "UCI Campus Ambassador": "Knowt",
       "UCI Campus Lead": "Liner"
     },
     "campusInvolvements": {
       "VP of Marketing and Design": "Product Association",
       "Project Teams Lead": "Design at UCI",
-      "Member Relations Director": "Marketing Association",
-      "Member": "Chinese Association"
+      "Member Relations Director": "Marketing Association"
     },
     "interests": [
       "Snowboarding",
@@ -1601,10 +1602,10 @@
       "Grubbing",
       "Tennis"
     ],
-    "whyLPN": "As someone who was unfamiliar with the business field as a whole coming into UCI as an informatics major, LPN has given me the chance to develop immensely in my professional aspect and pushed me to opportunities that I would not have done solely by myself. LPN also has such a loving community, something I had been searching for through my time at UCI as a first-year, and I value these group of people as my second family. In my short time here, I have already made so many memories I will cherish forever with people I care very deeply about!",
+    "whyLPN": "As someone who was unfamiliar with the business field as a whole coming into UCI as an informatics major, LPN has given me the chance to develop immensely in my professional aspect and pushed me to opportunities that I would not have done solely by myself. LPN also has such a loving community, something I had been searching for through my time at UCI and I value this group of people as my second family. In my short time here, I have already made so many memories I will cherish forever with people I care very deeply about!",
     "img": "/assets/actives/brothers/Chris_Li.jpg",
-    "company": "Masimo",
-    "logo": "/assets/companyLogos/Masimo.jpeg"
+    "company": "IBM",
+    "logo": "/assets/companyLogos/IBM.jpeg"
   },
   "Emily_Chen": {
     "linkedIn": "https://www.linkedin.com/in/emilychen04/",
