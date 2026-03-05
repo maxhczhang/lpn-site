@@ -82,8 +82,8 @@ export default function ActiveBrothersPage() {
                     img={director.img}
                     name={director.name}
                     title={director.title}
-                    logo={profile?.logo || director.logo}
-                    company={profile?.company || director.company}
+                    logo={profile?.logo}
+                    company={profile?.company}
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />
                 </AnimatedSection>
@@ -110,8 +110,8 @@ export default function ActiveBrothersPage() {
                   <BrotherCard
                     img={brother.img}
                     name={brother.name}
-                    logo={profile?.logo || brother.logo}
-                    company={profile?.company || brother.company}
+                    logo={profile?.logo}
+                    company={profile?.company}
                     size="sm"
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />

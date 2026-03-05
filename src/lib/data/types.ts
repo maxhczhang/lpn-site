@@ -1,17 +1,12 @@
 export interface Brother {
   img: string;
   name: string;
-  logo?: string;
-  company?: string;
-  width?: string;
 }
 
 export interface CSuiteMember {
   img: string;
   name: string;
   title: string;
-  logo?: string;
-  company?: string;
   width?: string;
 }
 
@@ -19,8 +14,6 @@ export interface Director {
   img: string;
   name: string;
   title: string;
-  logo?: string;
-  company?: string;
   width?: string;
 }
 
