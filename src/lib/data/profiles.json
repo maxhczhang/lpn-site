@@ -1797,13 +1797,14 @@
     "practice": "Project Management and Marketing",
     "pronouns": "She/Her",
     "experience": {
+      "Consumer Insights Intern": "FOX Entertainment",
       "Service Student Assistant": "Paul Merage School of Business",
       "Business Operations Student Assistant": "UCI Clean Energy Institute",
       "Data Analytics Intern": "Allergan Aesthetics"
     },
     "campusInvolvements": {
       "VP of Internal Relations": "Undergraduate Business Association",
-      "Freshman Representative": "Merage Undergraduate Student Association"
+      "Associate": "Merage Undergraduate Student Association"
     },
     "interests": [
       "Crocheting",
@@ -1813,8 +1814,8 @@
     ],
     "whyLPN": "LPN has and continues to push me to grow and step out of my comfort zone. I've gained more confidence about what path I want to pursue and found a second family in LPN.",
     "img": "/assets/actives/brothers/Madeleine_Chen.jpg",
-    "company": "UCI Clean Energy Institute",
-    "logo": "/assets/companyLogos/UCICleanEnergy.jpeg"
+    "company": "",
+    "logo": ""
   },
   "Mahad_Afridi": {
     "linkedIn": "https://www.linkedin.com/in/mahad-akbar-afridi/",
