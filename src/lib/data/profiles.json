@@ -1548,13 +1548,16 @@
     "practice": "Product",
     "pronouns": "She/They",
     "experience": {
+      "Emerging Leaders for College Students Program Member": "Microsoft",
+      "Marketing Specialist": "UCI Office of Information Technology",
       "Marketing Operations Intern": "SentinelOne",
       "Market Research Extern": "National Research Group",
       "Sophomore Summit Participant": "Abercrombie and Fitch",
       "Elevate to Innovate Extern": "Accenture"
     },
     "campusInvolvements": {
-      "FITS at UCI": "Vice President",
+      "FITS at UCI": "Executive Director",
+      "MAISS": "Mentor",
       "REACH at UCI": "VP of Outreach",
       "The Women's Network at UCI": "VP of Diversity, Equity, and Inclusion",
       "Design at UCI": "Design-a-thon Director"
@@ -1568,8 +1571,8 @@
     ],
     "whyLPN": "LPN broke me out of a stubborn mindset that I knew myself best. LPN will teach you more about yourself professionally and personally, especially in aspects that you may have never realized. Being a part of LPN has given me so much drive to continue improving myself in all parts of my life.",
     "img": "/assets/actives/brothers/Cinta_A.jpg",
-    "company": "SentinelOne",
-    "logo": "/assets/companyLogos/SentinelOne.png"
+    "company": "Microsoft",
+    "logo": "/assets/companyLogos/Microsoft.png"
   },
   "Christopher_Li": {
     "linkedIn": "https://www.linkedin.com/in/chrisli191/",
