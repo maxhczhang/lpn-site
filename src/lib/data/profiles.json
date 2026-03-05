@@ -1804,7 +1804,8 @@
     "practice": "Software Engineering",
     "pronouns": "He/Him",
     "experience": {
-      "Information Technology Intern": "Silvercorp Metals Inc"
+      "Information Technology Intern": "Silvercorp Metals Inc",
+      "test": "test"
     },
     "campusInvolvements": {
       "Software Engineer": "Product Association",
