@@ -189,6 +189,14 @@ export default function AdminPage() {
     setForm({ ...form, [field]: current });
   }
 
+  function moveKVRow(field: "experience" | "campusInvolvements", index: number, direction: "up" | "down") {
+    const entries = Object.entries((form[field] ?? {}) as Record<string, string>);
+    const target = direction === "up" ? index - 1 : index + 1;
+    if (target < 0 || target >= entries.length) return;
+    [entries[index], entries[target]] = [entries[target], entries[index]];
+    setForm({ ...form, [field]: Object.fromEntries(entries) });
+  }
+
   function updateInterest(index: number, value: string) {
     const updated = [...(form.interests ?? [])];
     updated[index] = value;
@@ -384,7 +392,7 @@ export default function AdminPage() {
                 <h2 className="text-xs uppercase tracking-widest text-muted-foreground">Experience</h2>
                 <button type="button" onClick={() => addKVRow("experience")} className="text-xs text-burgundy hover:text-foreground transition-colors">+ Add row</button>
               </div>
-              {Object.entries((form.experience ?? {}) as Record<string, string>).map(([role, company], i) => (
+              {Object.entries((form.experience ?? {}) as Record<string, string>).map(([role, company], i, arr) => (
                 <div key={i} className="grid grid-cols-[1fr_1fr_auto] gap-2 items-center">
                   <input
                     placeholder="Job title / role"
@@ -398,7 +406,15 @@ export default function AdminPage() {
                     onChange={(e) => updateKVField("experience", role, role, e.target.value)}
                     className={inputClass}
                   />
-                  <button type="button" onClick={() => removeKVRow("experience", role)} className="text-muted-foreground hover:text-red-400 transition-colors text-lg leading-none">×</button>
+                  <div className="flex flex-col items-center gap-0.5">
+                    <button type="button" onClick={() => moveKVRow("experience", i, "up")} disabled={i === 0} className="text-muted-foreground hover:text-foreground disabled:opacity-20 transition-colors p-0.5">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+                    </button>
+                    <button type="button" onClick={() => moveKVRow("experience", i, "down")} disabled={i === arr.length - 1} className="text-muted-foreground hover:text-foreground disabled:opacity-20 transition-colors p-0.5">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <button type="button" onClick={() => removeKVRow("experience", role)} className="text-muted-foreground hover:text-red-400 transition-colors text-base leading-none mt-0.5">×</button>
+                  </div>
                 </div>
               ))}
             </div>
@@ -409,7 +425,7 @@ export default function AdminPage() {
                 <h2 className="text-xs uppercase tracking-widest text-muted-foreground">Campus Involvement</h2>
                 <button type="button" onClick={() => addKVRow("campusInvolvements")} className="text-xs text-burgundy hover:text-foreground transition-colors">+ Add row</button>
               </div>
-              {Object.entries((form.campusInvolvements ?? {}) as Record<string, string>).map(([role, org], i) => (
+              {Object.entries((form.campusInvolvements ?? {}) as Record<string, string>).map(([role, org], i, arr) => (
                 <div key={i} className="grid grid-cols-[1fr_1fr_auto] gap-2 items-center">
                   <input
                     placeholder="Role / position"
@@ -423,7 +439,15 @@ export default function AdminPage() {
                     onChange={(e) => updateKVField("campusInvolvements", role, role, e.target.value)}
                     className={inputClass}
                   />
-                  <button type="button" onClick={() => removeKVRow("campusInvolvements", role)} className="text-muted-foreground hover:text-red-400 transition-colors text-lg leading-none">×</button>
+                  <div className="flex flex-col items-center gap-0.5">
+                    <button type="button" onClick={() => moveKVRow("campusInvolvements", i, "up")} disabled={i === 0} className="text-muted-foreground hover:text-foreground disabled:opacity-20 transition-colors p-0.5">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+                    </button>
+                    <button type="button" onClick={() => moveKVRow("campusInvolvements", i, "down")} disabled={i === arr.length - 1} className="text-muted-foreground hover:text-foreground disabled:opacity-20 transition-colors p-0.5">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <button type="button" onClick={() => removeKVRow("campusInvolvements", role)} className="text-muted-foreground hover:text-red-400 transition-colors text-base leading-none mt-0.5">×</button>
+                  </div>
                 </div>
               ))}
             </div>
