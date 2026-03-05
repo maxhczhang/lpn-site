@@ -1848,11 +1848,11 @@
     "practice": "Software Engineering",
     "pronouns": "He/Him",
     "experience": {
-      "Information Technology Intern": "Silvercorp Metals Inc"
+      "Software Engineer Intern": "Silvercorp Metals Inc"
     },
     "campusInvolvements": {
-      "Software Engineer": "Product Association",
-      "Learning Assistant": "Donald Bren School of ICS"
+      "Learning Assistant": "Donald Bren School of ICS",
+      "Software Engineer": "Product Association"
     },
     "interests": [
       "Driving",
