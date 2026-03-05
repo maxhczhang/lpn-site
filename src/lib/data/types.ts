@@ -39,6 +39,8 @@ export interface Profile {
   interests: string[];
   whyLPN: string;
   img: string;
+  company?: string;
+  logo?: string;
 }
 
 export interface RushEvent {

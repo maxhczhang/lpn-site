@@ -5,6 +5,7 @@ import { profiles } from "@/lib/data/profiles";
 import { csuite } from "@/lib/data/csuite";
 import { directors } from "@/lib/data/directors";
 import { brothers } from "@/lib/data/brothers";
+import { companyList } from "@/lib/data/companyList";
 import type { Profile } from "@/lib/data/types";
 
 type View = "login" | "register" | "edit";
@@ -75,15 +76,28 @@ export default function AdminPage() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
   const [form, setForm] = useState<Partial<Profile>>({});
+  const [companySearch, setCompanySearch] = useState("");
+  const companyDropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (companyDropdownRef.current && !companyDropdownRef.current.contains(e.target as Node)) setCompanySearch("");
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
 
   const displayName = (key: string) => key.replace(/_/g, " ");
 
   function loadProfileIntoForm(key: string) {
     const p = profiles[key];
+    setCompanySearch("");
     setForm({
       linkedIn: p.linkedIn,
       homeTown: p.homeTown,
       year: p.year,
+      company: p.company ?? "",
+      logo: p.logo ?? "",
       experience: { ...p.experience },
       campusInvolvements: { ...p.campusInvolvements },
       interests: [...(p.interests ?? [])],
@@ -314,6 +328,54 @@ export default function AdminPage() {
                   ))}
                 </select>
               </div>
+            </div>
+
+            {/* Company */}
+            <div ref={companyDropdownRef} className="relative">
+              <div className="glass rounded-2xl p-6 space-y-5">
+                <h2 className="text-xs uppercase tracking-widest text-muted-foreground">Company</h2>
+                {form.company && form.logo ? (
+                  <div className="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-background border border-border">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={form.logo} alt={form.company} className="h-5 w-10 object-contain" />
+                    <span className="text-sm text-foreground flex-1">{form.company}</span>
+                    <button type="button" onClick={() => { setForm({ ...form, company: "", logo: "" }); setCompanySearch(""); }} className="text-muted-foreground hover:text-red-400 transition-colors text-lg leading-none">×</button>
+                  </div>
+                ) : (
+                  <div>
+                    <input
+                      type="text"
+                      value={companySearch}
+                      onChange={(e) => setCompanySearch(e.target.value)}
+                      placeholder="Search company..."
+                      className={inputClass}
+                    />
+                  </div>
+                )}
+              </div>
+              {companySearch && (
+                <div className="absolute left-0 right-0 mt-1 z-50 rounded-lg border border-border bg-[hsl(var(--surface))] shadow-xl overflow-hidden">
+                  <div className="max-h-48 overflow-y-auto">
+                    {companyList
+                      .filter((c) => c.name.toLowerCase().includes(companySearch.toLowerCase()))
+                      .map((c) => (
+                        <button
+                          key={c.name}
+                          type="button"
+                          onClick={() => { setForm({ ...form, company: c.name, logo: c.logo }); setCompanySearch(""); }}
+                          className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-muted-foreground hover:bg-white/5 hover:text-foreground transition-colors"
+                        >
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={c.logo} alt={c.name} className="h-4 w-8 object-contain" />
+                          {c.name}
+                        </button>
+                      ))}
+                    {companyList.filter((c) => c.name.toLowerCase().includes(companySearch.toLowerCase())).length === 0 && (
+                      <p className="px-4 py-3 text-sm text-muted-foreground">No match — reach out to the webmaster to add it.</p>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Experience */}

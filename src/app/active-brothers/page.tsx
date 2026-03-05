@@ -44,6 +44,7 @@ export default function ActiveBrothersPage() {
           <div className="flex flex-wrap justify-center gap-4">
           {csuite.map((member, i) => {
             const profileKey = getProfileKey(member.name);
+            const profile = profileKey ? profiles[profileKey] : undefined;
             return (
               <div key={member.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)]">
                 <AnimatedSection delay={i * 0.06}>
@@ -51,8 +52,8 @@ export default function ActiveBrothersPage() {
                     img={member.img}
                     name={member.name}
                     title={member.title}
-                    logo={member.logo}
-                    company={member.company}
+                    logo={profile?.logo}
+                    company={profile?.company}
                     size="md"
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />
@@ -73,6 +74,7 @@ export default function ActiveBrothersPage() {
           <div className="flex flex-wrap justify-center gap-4">
           {directors.map((director, i) => {
             const profileKey = getProfileKey(director.name);
+            const profile = profileKey ? profiles[profileKey] : undefined;
             return (
               <div key={director.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
                 <AnimatedSection delay={(i % 5) * 0.06}>
@@ -80,8 +82,8 @@ export default function ActiveBrothersPage() {
                     img={director.img}
                     name={director.name}
                     title={director.title}
-                    logo={director.logo}
-                    company={director.company}
+                    logo={profile?.logo || director.logo}
+                    company={profile?.company || director.company}
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />
                 </AnimatedSection>
@@ -101,14 +103,15 @@ export default function ActiveBrothersPage() {
           <div className="flex flex-wrap justify-center gap-4">
           {brothers.map((brother, i) => {
             const profileKey = getProfileKey(brother.name);
+            const profile = profileKey ? profiles[profileKey] : undefined;
             return (
               <div key={brother.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
                 <AnimatedSection delay={(i % 5) * 0.04}>
                   <BrotherCard
                     img={brother.img}
                     name={brother.name}
-                    logo={brother.logo}
-                    company={brother.company}
+                    logo={profile?.logo || brother.logo}
+                    company={profile?.company || brother.company}
                     size="sm"
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />

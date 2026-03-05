@@ -6,7 +6,7 @@ const PASSWORDS_PATH = "src/lib/data/passwords.json";
 const PROFILES_PATH = "src/lib/data/profiles.json";
 
 // Fields brothers are allowed to edit
-const EDITABLE_FIELDS = ["linkedIn", "homeTown", "year", "experience", "campusInvolvements", "interests", "whyLPN"];
+const EDITABLE_FIELDS = ["linkedIn", "homeTown", "year", "experience", "campusInvolvements", "interests", "whyLPN", "company", "logo"];
 
 export async function POST(req: NextRequest) {
   try {

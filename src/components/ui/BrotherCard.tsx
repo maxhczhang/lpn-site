@@ -68,7 +68,7 @@ export default function BrotherCard({
       <div className="p-4 text-center">
         <p className="font-semibold text-foreground text-sm leading-tight">{name}</p>
         <p className="text-xs text-muted-foreground mt-0.5 min-h-[1.25rem]">
-          {title || company || "\u00A0"}
+          {title || "\u00A0"}
         </p>
       </div>
     </motion.div>
