@@ -45,7 +45,7 @@ export default function ActiveBrothersPage() {
           {csuite.map((member, i) => {
             const profileKey = getProfileKey(member.name);
             return (
-              <div key={member.name} className="w-[calc(50%-8px)] md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)]">
+              <div key={member.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)]">
                 <AnimatedSection delay={i * 0.06}>
                   <BrotherCard
                     img={member.img}
@@ -74,7 +74,7 @@ export default function ActiveBrothersPage() {
           {directors.map((director, i) => {
             const profileKey = getProfileKey(director.name);
             return (
-              <div key={director.name} className="w-[calc(50%-8px)] md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
+              <div key={director.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
                 <AnimatedSection delay={(i % 5) * 0.06}>
                   <BrotherCard
                     img={director.img}
@@ -102,7 +102,7 @@ export default function ActiveBrothersPage() {
           {brothers.map((brother, i) => {
             const profileKey = getProfileKey(brother.name);
             return (
-              <div key={brother.name} className="w-[calc(50%-8px)] md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
+              <div key={brother.name} className="w-full md:w-[calc(33.33%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]">
                 <AnimatedSection delay={(i % 5) * 0.04}>
                   <BrotherCard
                     img={brother.img}
