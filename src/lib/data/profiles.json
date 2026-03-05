@@ -2659,11 +2659,11 @@
     "experience": {
       "Incoming Audit Intern": "Ernst & Young",
       "Audit Intern": "RSM",
-      "Campus Ambassador": "Hot Pockets",
       "Consulting Extern": "PwC"
     },
     "campusInvolvements": {
-      "Treasurer": "Lambda Theta Delta"
+      "Treasurer": "Lambda Theta Delta",
+      "Campus Ambassador": "Hot Pockets"
     },
     "interests": [
       "Cooking",
