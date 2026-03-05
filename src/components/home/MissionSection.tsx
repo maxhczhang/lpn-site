@@ -8,7 +8,7 @@ import { carouselPhotos1 } from "@/lib/data/companyLogos";
 const pillars = [
   {
     title: "Professionalism",
-    body: "With 12 years of history at UCI, we have an expansive network of alumni in different industries and companies. Our Active and Alumni brothers help guide and support you to succeed in the professional world.",
+    body: "With 16+ years of history at UCI, we have an expansive network of alumni in different industries and companies. Our Active and Alumni brothers help guide and support you to succeed in the professional world.",
     link: "/careers",
     linkLabel: "View Careers",
   },
