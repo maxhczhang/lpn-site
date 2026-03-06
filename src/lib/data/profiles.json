@@ -1624,14 +1624,12 @@
     "practice": "Digital Marketing",
     "pronouns": "She/Her",
     "experience": {
-      "iXP Intern": "SAP",
+      "Marketing Intern": "SAP",
       "Product Marketing Intern": "Precisely",
-      "Business Analyst Intern": "Accenture",
-      "Content Marketing Intern": "Revent Solutions",
-      "Intern": "Stop AAPI Hate"
+      "Business Analyst Intern": "Accenture"
     },
     "campusInvolvements": {
-      "VP of Administration": "Undergraduate Business Association",
+      "Executive Vice President": "Undergraduate Business Association",
       "Freshman Representative": "Merage Undergraduate Student Association",
       "Member Relations Director": "Marketing Association"
     },
@@ -1645,7 +1643,7 @@
     "whyLPN": "LPN has provided me with a supportive environment where I can be my best self professionally and personally. It has allowed me to be around people that share very similar interests and aspirations.",
     "img": "/assets/actives/brothers/Emily_Chen.jpg",
     "company": "SAP",
-    "logo": "/assets/companyLogos/Precisely.jpeg"
+    "logo": "/assets/companyLogos/SAP.png"
   },
   "Kyle_Shih": {
     "linkedIn": "https://www.linkedin.com/in/kyleshih/",
