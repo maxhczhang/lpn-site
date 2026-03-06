@@ -123,6 +123,7 @@ export const companyList: CompanyEntry[] = [
   { name: "UCI Merage School", logo: "/assets/companyLogos/UCI_Merage.png" },
   { name: "Underworld Productions", logo: "/assets/companyLogos/Underworld.png" },
   { name: "Walmart Connect", logo: "/assets/companyLogos/Walmart_Connect.png" },
+  { name: "Walker & Dunlop", logo: "/assets/companyLogos/WalkerDunlop.png" },
   { name: "Warner Bros.", logo: "/assets/companyLogos/warner-logo-white.png" },
   { name: "Wasserman Group", logo: "/assets/companyLogos/Wasserman.jpeg" },
   { name: "Wells Fargo", logo: "/assets/companyLogos/WellsFargo.png" },
