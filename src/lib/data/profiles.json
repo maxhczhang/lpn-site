@@ -2013,19 +2013,25 @@
     "emphasis": "",
     "practice": "Software Engineering",
     "pronouns": "He/Him",
-    "experience": {},
+    "experience": {
+      "Software Developer": "UVSA",
+      "Software Engineer Intern": ""
+    },
     "campusInvolvements": {
       "UI/UX Designer": "Design at UCI",
-      "Spring Analyst": "Venture Capital Society",
-      "Co-VP of Technology": "Venture Capital Society"
+      "Co-VP of Technology": "Venture Capital Society",
+      "Software Developer": "ICSSC",
+      "AI@UCI": "Webmaster",
+      "FUSION": "Lead Software Developer"
     },
     "interests": [
       "Basketball",
-      "Weightlifting",
-      "Beaches"
+      "Weightlifting"
     ],
     "whyLPN": "I wanted to join LPN to surround myself with a community that forces you to become the best. LPN means to me a group of hardworking individuals with a brother-like bond.",
-    "img": "/assets/actives/brothers/Jason_Nguyen.jpg"
+    "img": "/assets/actives/brothers/Jason_Nguyen.jpg",
+    "company": "",
+    "logo": ""
   },
   "Katelyn_Fu": {
     "linkedIn": "https://www.linkedin.com/in/katelyn-fu/",
