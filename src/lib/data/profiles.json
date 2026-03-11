@@ -1454,16 +1454,18 @@
     "practice": "Product Management",
     "pronouns": "she/her",
     "experience": {
+      "Associate Product Marketing Manager ": "Google",
+      "Product Marketing Intern": "IBM",
       "Engagement Marketing Intern": "Siemens",
-      "Marketing & Sales Intern": "Niagara Bottling",
-      "Accelerate Marketing & Communications Fellow": "IBM",
       "Consulting Mentorship Program Participant": "Deloitte",
-      "Business Development Intern": "Colere Brands",
-      "Social Media & Marketing Intern": "Building-U"
+      "Marketing & Sales Intern": "Niagara Bottling"
     },
     "campusInvolvements": {
       "ASUCI - Internal Vice President Office": "Outreach Intern",
-      "Merage Undergraduate Student Association": "VP of Technology, Freshman Representative"
+      "Freshman Representative ": "Merage Undergraduate Student Association",
+      "VP of Technology ": "Merage Undergraduate Student Association",
+      "VP of Grad & Alumni Relations": "Merage Undergraduate Student Association",
+      "Mentor": "MAISS"
     },
     "interests": [
       "Cafe Hopping",
@@ -1473,10 +1475,10 @@
       "Reading",
       "Stargazing"
     ],
-    "whyLPN": "I joined LPN because every person was so friendly and welcoming. LPN's warm, close-knit, and driven community resonated with what I wanted out of my college experience. I felt like I could achieve my goals within the business world and also make friends and have fun along the way in LPN. Professionally, LPN has been a catalyst of change for me. From developing and pushing me beyond my personal and professional comfort zone, LPN has given me experiences my high school self could not even imagine.",
+    "whyLPN": "I joined LPN because every person was so friendly and welcoming. LPN's warm, close-knit, and driven community resonated with what I wanted out of my college experience. I felt like I could achieve my goals within the business world and also make friends and have fun along the way!",
     "img": "/assets/actives/brothers/Tiffany_Chien.jpg",
-    "company": "IBM",
-    "logo": "/assets/companyLogos/IBM.jpeg"
+    "company": "Google",
+    "logo": "/assets/companyLogos/Google.png"
   },
   "Timothy_Sih": {
     "linkedIn": "https://www.linkedin.com/in/timothysih",
