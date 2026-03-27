@@ -2704,7 +2704,7 @@
     "logo": "/assets/companyLogos/EY.png"
   },
   "Sergio_Alcazar": {
-    "linkedIn": "https://www.linkedin.com/in/sergioalcazar-/",
+    "linkedIn": "https://www.linkedin.com/in/sergioalcazar-",
     "homeTown": "Arcadia, CA",
     "year": "1st",
     "class": "Alpha Delta",
@@ -2714,10 +2714,12 @@
     "practice": "Banking",
     "pronouns": "He/Him",
     "experience": {
-      "Property & Finance Intern": "JSA Properties"
+      "Market Research Intern": "Axentra OS",
+      "Product Management Extern": "BeReal",
+      "Property Management Intern": "JSA Properties"
     },
     "campusInvolvements": {
-      "": ""
+      "Technology Intern": "Financial Literacy Association"
     },
     "interests": [
       "Gym",
@@ -2727,6 +2729,8 @@
       "Shopping"
     ],
     "whyLPN": "LPN has rocketed me into a version of myself I could never have achieved this quickly on my own. LPN is a community that uplifts me in every way and a family that supports me every single day.",
-    "img": "/assets/actives/brothers/Sergio_Alcazar.jpg"
+    "img": "/assets/actives/brothers/Sergio_Alcazar.jpg",
+    "company": "",
+    "logo": ""
   }
 }
