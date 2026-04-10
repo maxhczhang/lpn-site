@@ -12,6 +12,147 @@ export interface YearData {
 }
 
 export const careersData: Record<string, YearData> = {
+  "2025": {
+    internships: {
+      "Accounting": [
+        { name: "Timothy Sih", company: "PwC", position: "Audit Intern" },
+      ],
+      "Consulting": [
+        { name: "Aidan Jayakumar", company: "EY", position: "Process & Controls Consulting Intern" },
+      ],
+      "Finance": [
+        { name: "Alexander Myong", company: "SparkLabs", position: "Venture Capital Intern" },
+        { name: "Ethan Tung", company: "Wells Fargo", position: "Data Analyst Intern" },
+        { name: "Lana Noguera", company: "JLL", position: "Capital Markets Intern" },
+        { name: "Marcus Cao", company: "Credible CRE", position: "Capital Markets Intern" },
+        { name: "Puneet Singh", company: "PwC", position: "Financial Due Diligence Intern" },
+        { name: "Zachary Bui", company: "Alliance for American Leadership", position: "Campaign Finance Intern" },
+      ],
+      "Human Resources": [
+        { name: "Skyler Chang", company: "S&P Global", position: "HRBP Intern" },
+      ],
+      "Marketing": [
+        { name: "Alexander Myong", company: "Starbeam", position: "Sales and Marketing Intern" },
+        { name: "Annie Sreshthabutra", company: "Wasserman", position: "Brands & Properties Intern" },
+        { name: "Asia Chan", company: "Siemens Digital Industries Software", position: "Field Marketing Intern" },
+        { name: "Asia Chan", company: "Cambro Manufacturing", position: "Marketing Intern" },
+        { name: "Asia Chan", company: "Food Innovations", position: "Digital Marketing Intern" },
+        { name: "Bonnie Tran", company: "narb", position: "Social Media Marketing Intern" },
+        { name: "Emily Chen", company: "SAP", position: "IXP Marketing Intern" },
+        { name: "Emily Chen", company: "Precisely", position: "Product Marketing Intern" },
+        { name: "Keili Ishiara", company: "Bank of Hawaii", position: "Marketing Analytics Intern" },
+        { name: "Kurtis Lin", company: "Mind Pump Media", position: "Content Marketing Intern" },
+        { name: "Tiffany Chien", company: "IBM", position: "Product Marketing Intern" },
+        { name: "Tiffany Chien", company: "Siemens Digital Industries Software", position: "Marketing Intern" },
+      ],
+      "Operations": [
+        { name: "Caroline Nguyen", company: "DPExpress", position: "Customs Documentation Intern" },
+        { name: "Kyle Shih", company: "Penske Motor Group", position: "Longo Toyota & Lexus Intern" },
+        { name: "Zoe Lui", company: "TikTok", position: "Category Manager Intern" },
+      ],
+      "Product": [
+        { name: "Bonnie Tran", company: "NewsCorp", position: "Digital Product AI Strategy Extern" },
+        { name: "Christopher Li", company: "Masimo", position: "UI/UX Design Intern" },
+      ],
+      "Real Estate": [
+        { name: "Sergio Alcazar", company: "JSA Properties", position: "Property & Finance Intern" },
+      ],
+      "Sales": [
+        { name: "Ben Nguyen", company: "PepsiCo", position: "Sales Intern" },
+      ],
+      "Strategy": [
+        { name: "Skyler Chang", company: "Medical AI", position: "FDA Insurance & US Insurance Strategy Intern" },
+      ],
+      "Technology": [
+        { name: "Alex Zhou", company: "Meta", position: "Software Engineer Intern" },
+        { name: "Christopher Yeh", company: "Capital One", position: "Software Engineer Intern" },
+        { name: "Emily Tom", company: "Glintlock", position: "Software Engineer Intern" },
+        { name: "Jason Nguyen", company: "CacheAI", position: "Software Engineer Intern" },
+        { name: "Joshua Ji", company: "Meta", position: "Software Engineer Intern" },
+        { name: "Mahad Afridi", company: "Recorded Future", position: "Data Science Intern" },
+        { name: "Zachary Bui", company: "Series", position: "Growth Engineer Intern" },
+      ],
+      "Legal": [
+        { name: "Lauren Wong", company: "Chang LLP", position: "Legal Intern" },
+      ],
+    },
+    fullTimes: {
+      "Accounting": [
+        { name: "Zachary Bui", company: "EY", position: "Sales & Use Tax Notice Reviewer" },
+      ],
+    },
+  },
+
+  "2024": {
+    internships: {
+      "Accounting": [
+        { name: "Jessica Nguyen", company: "EY", position: "Audit & Assurance Intern" },
+        { name: "Tristan Dizon", company: "EY", position: "Audit & Assurance Intern" },
+      ],
+      "Consulting": [
+        { name: "Emily Chen", company: "Accenture", position: "Business Analyst Intern" },
+        { name: "Justin Chao", company: "Capital One", position: "Business Analyst Intern" },
+      ],
+      "Finance": [
+        { name: "Aidan Jayakumar", company: "Capstone Partners", position: "Financial Advisory Intern" },
+        { name: "Catherine Tran", company: "TruStage", position: "Finance & Accounting Intern" },
+        { name: "Ethan Tung", company: "Goldman Sachs", position: "Research Analyst Intern" },
+        { name: "Ethan Tung", company: "J.P. Morgan", position: "Corporate & Investment Banking Apprentice" },
+        { name: "Gabriel Villamariona", company: "Advanced Sterilization Products", position: "Financial Planning & Analysis Intern" },
+        { name: "Lana Noguera", company: "Marcus & Millichap", position: "Investment Brokerage Intern" },
+        { name: "Nathan Hou", company: "SMBC", position: "Leasing and Finance Summer Analyst" },
+        { name: "Puneet Singh", company: "Nordstrom", position: "Corporate Finance Intern" },
+        { name: "Teresa Chu", company: "Citi", position: "Corporate Banking Summer Analyst" },
+        { name: "Thomas Lin", company: "Cactus & Pearl", position: "Finance & Accounting Intern" },
+        { name: "Viggo Nguyen", company: "Northwestern Mutual", position: "Financial Planning Intern" },
+      ],
+      "Human Resources": [
+        { name: "Skyler Chang", company: "First American Financial Corporation", position: "HR Intern" },
+      ],
+      "Marketing": [
+        { name: "Alie Li", company: "Amazon", position: "Partner Marketing Intern" },
+        { name: "Annie Sreshthabutra", company: "Hakuhodo International", position: "Strategic Planning Intern" },
+        { name: "Cinta Adhiningrat", company: "SentinelOne", position: "Marketing Operations Intern" },
+        { name: "Elise Naddell", company: "BYD", position: "Marketing Intern" },
+        { name: "Kayla Wong", company: "Kendo Brands", position: "Fenty Hair Global Brand Marketing Intern" },
+        { name: "Keili Ishiara", company: "Bank of Hawaii", position: "Community Engagement Marketing Intern" },
+        { name: "Kyle Shih", company: "Hamee US Corp.", position: "Product Marketing Intern" },
+        { name: "Nicole Anne Yap", company: "Beats By Dre", position: "Consumer Insights & Market Intelligence Extern" },
+        { name: "Ruby Ko", company: "Okta", position: "Product Marketing Manager Intern" },
+        { name: "Ruby Ko", company: "Simplify", position: "Product Marketing Intern" },
+        { name: "Tiffany Chien", company: "IBM", position: "Accelerate Marketing & Communications Fellow" },
+      ],
+      "Operations": [
+        { name: "Christopher Li", company: "L. Norwood & Associates", position: "Project Coordinator Intern" },
+        { name: "Ian Shone", company: "Alameda County Government", position: "Policy Research Intern" },
+        { name: "Marcus Cao", company: "Dainamic Builders", position: "Project Management Intern" },
+      ],
+      "Product": [
+        { name: "Joseph Tom", company: "Capital One", position: "Product Management Intern" },
+        { name: "Justin Chao", company: "Acxiom", position: "Product Management Intern" },
+      ],
+      "Real Estate": [
+        { name: "Elise Naddell", company: "Project Destined", position: "Commercial Real Estate Intern" },
+      ],
+      "Technology": [
+        { name: "Christopher Yeh", company: "Tatari", position: "Software Engineer Intern" },
+        { name: "Emily Tom", company: "Bank of Hawaii", position: "Information Security Intern" },
+        { name: "Mahad Afridi", company: "Swimlane", position: "Software Engineer Intern" },
+        { name: "Tannvi Banerjee", company: "Apsy", position: "Software Engineer Intern" },
+      ],
+      "Legal": [
+        { name: "Rayyaan Majid", company: "Monterrey Law Firm", position: "Law Clerk" },
+      ],
+    },
+    fullTimes: {
+      "Operations": [
+        { name: "Anuvaa Joshi", company: "Rad Law Group", position: "Billing Assistant" },
+        { name: "Eddie Rios", company: "Ingram Micro", position: "Project Manager" },
+        { name: "Julie Hsieh", company: "Dataocean AI", position: "Project Manager Assistant" },
+      ],
+    },
+  },
+
   "2023": {
     internships: {
       "Accounting": [

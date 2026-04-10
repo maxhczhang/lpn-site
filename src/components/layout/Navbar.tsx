@@ -12,6 +12,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Brothers", href: "/active-brothers" },
   { label: "Careers", href: "/careers" },
+  { label: "Involvements", href: "/campus-involvements" },
   { label: "Gallery", href: "/gallery" },
   { label: "Recruitment", href: "/recruitment" },
   { label: "FAQs", href: "/faqs" },
