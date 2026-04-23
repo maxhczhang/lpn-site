@@ -2139,7 +2139,10 @@
     "emphasis": "",
     "practice": "Water",
     "pronouns": "He/Him",
-    "experience": {},
+    "experience": {
+      "Cashier": "Foodmaxx",
+      "Tennis Coach": "South Bay Area Pickleball & Tennis"
+    },
     "campusInvolvements": {
       "Secretary": "ASCE",
       "Director of Professional Development": "Financial Literacy Association"
