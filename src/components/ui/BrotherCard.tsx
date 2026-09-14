@@ -10,6 +10,7 @@ interface BrotherCardProps {
   name: string;
   title?: string;
   logo?: string;
+  logoSize?: number;
   company?: string;
   href?: string;
   size?: "sm" | "md" | "lg";
@@ -21,6 +22,7 @@ export default function BrotherCard({
   name,
   title,
   logo,
+  logoSize = 96,
   company,
   href,
   size = "md",
@@ -56,8 +58,8 @@ export default function BrotherCard({
             <Image
               src={logo}
               alt={company ?? "company"}
-              width={96}
-              height={96}
+              width={logoSize}
+              height={logoSize}
               className="object-contain drop-shadow-2xl"
             />
           </div>

@@ -69,6 +69,47 @@ export const involvements2023: Record<string, Involvement[]> = {
   ],
 };
 
+export const involvements2026: Record<string, Involvement[]> = {
+  "Financial Literacy Association": [
+    { name: "Alexander Myong", position: "President" },
+    { name: "Chloe Chun", position: "Director of Member Relations" },
+    { name: "Enkh-Ujin Munkhbaatar", position: "Director of External Affairs" },
+    { name: "Sergio Alcazar", position: "Director of Technology" },
+    { name: "Ronak Saraiya", position: "Director of Professional Development" },
+  ],
+  "Management Information Student Society": [
+    { name: "Bonnie Tran", position: "President" },
+    { name: "Marcus Cao", position: "Vice President of Finance" },
+    { name: "Kurtis Lin", position: "Vice President of Finance" },
+    { name: "Kristy Slu", position: "Vice President of Community Development" },
+  ],
+  "Marketing Association": [
+    { name: "Annie Sreshthabutra", position: "President" },
+    { name: "Keili Ishiara", position: "Marketing Director" },
+  ],
+  "Merage Undergraduate Student Association": [
+    { name: "Madeleine Chen", position: "Mentor" },
+  ],
+  "Undergraduate Business Association": [
+    { name: "Madeleine Chen", position: "Executive Vice President" },
+    { name: "Enkh-Ujin Munkhbaatar", position: "Vice President of Company Relations" },
+    { name: "Asia Chan", position: "Vice President of Company Relations" },
+  ],
+  "Product Association": [
+    { name: "Kurtis Lin", position: "Vice President of Fellowship" },
+    { name: "Keili Ishiara", position: "Vice President of Marketing and Design" },
+    { name: "Asia Chan", position: "Product Marketing Lead" },
+  ],
+  "Real Estate Association": [
+    { name: "Marcus Cao", position: "President" },
+    { name: "Caroline Nguyen", position: "Vice President of Internal Affairs" },
+    { name: "Kristy Slu", position: "Vice President of External Affairs" },
+  ],
+  "American Society of Civil Engineers": [
+    { name: "Ronak Saraiya", position: "Secretary" },
+  ],
+};
+
 export const involvements2025: Record<string, Involvement[]> = {
   "Financial Literacy Association": [
     { name: "Mason Chen", position: "President" },

@@ -12,6 +12,90 @@ export interface YearData {
 }
 
 export const careersData: Record<string, YearData> = {
+  "2026": {
+    internships: {
+      "Accounting": [
+        { name: "Lindzy So", company: "Ingram Micro", position: "Internal Audit Intern" },
+        { name: "Ryan Nguyen", company: "Ernst & Young", position: "Audit Intern" },
+      ],
+      "Consulting": [
+        { name: "Allison Lee", company: "PwC", position: "AI-Powered Nonprofit Consulting Extern" },
+        { name: "Mason Chen", company: "Ernst & Young", position: "Financial Services Risk Consulting Intern" },
+        { name: "Aidan Jayakumar", company: "Capital One", position: "Business Analyst Intern" },
+      ],
+      "Engineering": [
+        { name: "Ronak Saraiya", company: "Kimley-Horn", position: "Civil Engineering Intern" },
+      ],
+      "Finance": [
+        { name: "Alexander Myong", company: "Sells Advisory", position: "M&A Market Analyst" },
+        { name: "Ben Nguyen", company: "JLL", position: "Finance Intern" },
+        { name: "Zachary Bui", company: "Skechers", position: "FP&A Intern" },
+      ],
+      "Human Resources": [
+        { name: "Joyce Lui", company: "Amazon", position: "Sourcing Recruiter Intern" },
+      ],
+      "Marketing": [
+        { name: "Annie Sreshthabutra", company: "ServiceNow", position: "Marketing Associate" },
+        { name: "Asia Chan", company: "ServiceNow", position: "Marketing Associate Intern" },
+        { name: "Bonnie Tran", company: "Ingram Micro", position: "Global Marketing Intern" },
+        { name: "Jami Lim", company: "Red Bull", position: "Student Marketeer" },
+        { name: "Joel Leong", company: "Siemens", position: "Field Marketing Intern" },
+        { name: "Keili Ishiara", company: "ServiceNow", position: "Marketing Associate Intern" },
+        { name: "Keili Ishiara", company: "Celsius", position: "Student Marketing Ambassador" },
+        { name: "Kyle Shih", company: "adidas", position: "Culture Marketing Intern" },
+        { name: "Madeleine Chen", company: "Paramount", position: "Consumer Insights Intern" },
+        { name: "Emily Chen", company: "Adobe", position: "Global Integrated Campaign Marketing Intern" },
+        { name: "Keira Wong", company: "Everpure", position: "Field Marketing" },
+      ],
+      "Operations": [
+        { name: "Caroline Nguyen", company: "Henry Schein", position: "Supply Chain Analyst Intern" },
+        { name: "Elise Naddell", company: "TikTok", position: "Procurement Specialist" },
+      ],
+      "Product": [
+        { name: "Chloe Chun", company: "Yellow Brick Consulting", position: "Project Management Intern" },
+        { name: "Ishaan Srivastav", company: "Axentra OS", position: "Product Management Intern" },
+        { name: "Kash Prabhu", company: "Origence", position: "Product Training Intern" },
+        { name: "Kurtis Lin", company: "Ingram Micro", position: "Product Management Intern" },
+        { name: "Christopher Li", company: "IBM", position: "Designer Intern" },
+      ],
+      "Real Estate": [
+        { name: "Anuvaa Joshi", company: "Compass", position: "Sales Intern" },
+        { name: "Marcus Cao", company: "Walker & Dunlop", position: "Affordable Housing Development Intern" },
+      ],
+      "Technology": [
+        { name: "Emily Tom", company: "Pinterest", position: "Software Engineering Intern" },
+        { name: "Ethan Tung", company: "SAP", position: "Product Engineering & DevEx Intern" },
+        { name: "Joshua Ji", company: "Meta", position: "Software Engineer Intern" },
+        { name: "Krishiv Manyam", company: "Amperesand", position: "Software Test Engineering Intern" },
+        { name: "Sergio Alcazar", company: "SEO", position: "Web Development Intern" },
+        { name: "Neha Yelgireddy", company: "Palo Alto Networks", position: "Software Engineering Intern" },
+        { name: "Cinta Adhiningrat", company: "Universal Music Group", position: "Tech Enablement Intern" },
+      ],
+    },
+    fullTimes: {
+      "Accounting": [
+        { name: "Viggo Nguyen", company: "Deloitte", position: "Audit & Assurance Associate" },
+        { name: "Timothy Sih", company: "PwC", position: "Audit Associate" },
+      ],
+      "Finance": [
+        { name: "Puneet Singh", company: "PwC", position: "Financial Due Diligence Associate" },
+      ],
+      "Marketing": [
+        { name: "Tiffany Chien", company: "Google", position: "Associate Product Marketing Manager" },
+      ],
+      "Real Estate": [
+        { name: "Lana Locquiao Noguera", company: "JLL", position: "Real Estate Coordinator" },
+      ],
+      "Technology": [
+        { name: "Alex Zhou", company: "Meta", position: "Software Engineer" },
+        { name: "Tannvi Banerjee", company: "Mercor", position: "Software Engineer" },
+        { name: "Skyler Chang", company: "Capital One", position: "Tech Risk Management" },
+        { name: "Chris Yeh", company: "SpaceX", position: "Software Engineer" },
+        { name: "Mahad Afridi", company: "Esri", position: "Software Development Engineer" },
+      ],
+    },
+  },
+
   "2025": {
     internships: {
       "Accounting": [
