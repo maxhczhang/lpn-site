@@ -59,14 +59,14 @@ export default function MissionSection() {
 
         {/* Right: photo grid */}
         <AnimatedSection direction="right" delay={0.2}>
-          <div className="grid grid-cols-2 gap-3 h-[520px]">
-            <div className="relative rounded-xl overflow-hidden row-span-2">
+          <div className="grid grid-cols-2 grid-rows-2 gap-3 h-[520px]">
+            <div className="relative rounded-xl overflow-hidden">
               <Image
                 src={carouselPhotos1[0]}
                 alt="LPN Brotherhood"
                 fill
                 className="object-cover object-top"
-                sizes="33vw"
+                sizes="20vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
             </div>
@@ -84,6 +84,16 @@ export default function MissionSection() {
               <Image
                 src={carouselPhotos1[2]}
                 alt="LPN Events"
+                fill
+                className="object-cover object-top"
+                sizes="20vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
+            </div>
+            <div className="relative rounded-xl overflow-hidden">
+              <Image
+                src={carouselPhotos1[3]}
+                alt="LPN Friends"
                 fill
                 className="object-cover object-top"
                 sizes="20vw"

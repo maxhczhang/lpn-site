@@ -5,6 +5,7 @@ import Image from "next/image";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionHeader from "@/components/ui/SectionHeader";
 import {
+  involvements2026,
   involvements2025,
   involvements2024,
   involvements2023,
@@ -30,6 +31,7 @@ const orgsLogos = [
 ];
 
 const yearTabs = [
+  { label: "2026", data: involvements2026 },
   { label: "2025", data: involvements2025 },
   { label: "2024", data: involvements2024 },
   { label: "2023", data: involvements2023 },

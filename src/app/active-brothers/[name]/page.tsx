@@ -46,7 +46,7 @@ export default function ProfilePage({ params }: Props) {
         {/* Profile header */}
         <div className="grid md:grid-cols-[320px_1fr] gap-10 mb-12">
           <AnimatedSection direction="left">
-            <div className="relative h-96 rounded-2xl overflow-hidden border border-border">
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-border">
               <Image
                 src={profile.img}
                 alt={displayName}

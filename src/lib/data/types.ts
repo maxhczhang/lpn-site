@@ -34,6 +34,7 @@ export interface Profile {
   img: string;
   company?: string;
   logo?: string;
+  logoSize?: number;
 }
 
 export interface RushEvent {

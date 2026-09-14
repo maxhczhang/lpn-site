@@ -53,6 +53,7 @@ export default function ActiveBrothersPage() {
                     name={member.name}
                     title={member.title}
                     logo={profile?.logo}
+                    logoSize={profile?.logoSize}
                     company={profile?.company}
                     size="md"
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
@@ -83,6 +84,7 @@ export default function ActiveBrothersPage() {
                     name={director.name}
                     title={director.title}
                     logo={profile?.logo}
+                    logoSize={profile?.logoSize}
                     company={profile?.company}
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}
                   />
@@ -111,6 +113,7 @@ export default function ActiveBrothersPage() {
                     img={brother.img}
                     name={brother.name}
                     logo={profile?.logo}
+                    logoSize={profile?.logoSize}
                     company={profile?.company}
                     size="sm"
                     href={profileKey ? `/active-brothers/${profileKey}` : undefined}

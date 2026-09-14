@@ -23,6 +23,7 @@ export const carouselPhotos1: string[] = [
   '/assets/home/carousel1/Sigma_Formal.jpg',
   '/assets/home/carousel1/Tau_formal.jpg',
   '/assets/home/carousel1/Upsilon_2023.jpg',
+  '/assets/home/carousel1/Carousel_Duo.jpg',
 ];
 
 export const carouselPhotos2: string[] = [

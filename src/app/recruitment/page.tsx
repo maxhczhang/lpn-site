@@ -16,8 +16,8 @@ export default function RecruitmentPage() {
       <section className="section-padding max-w-7xl mx-auto py-20 text-center">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="Alpha Delta Class Recruitment"
-            title="Fall Rush 2025"
+            eyebrow="Alpha Zeta Class Recruitment"
+            title="Fall Rush 2026"
             centered
             gradient
           />
@@ -27,7 +27,7 @@ export default function RecruitmentPage() {
             Lambda Phi Nu is a co-ed Business Leadership Fraternity founded at UC Irvine in 2010 for
             students seeking to develop their leadership potential and to foster their professional
             and personal growth. With over 300 Active and Alumni brothers, we are now actively
-            recruiting for our Alpha Delta class!
+            recruiting for our Alpha Zeta class!
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
             Many of our brothers began their college experiences feeling unsure of their potential.
@@ -44,14 +44,14 @@ export default function RecruitmentPage() {
               Application Deadline
             </p>
             <p className="font-serif text-2xl font-bold text-foreground">
-              October 9th, 2025 · 6:30 PM PST
+              October 6th, 2026 · 6:30 PM PST
             </p>
           </div>
         </AnimatedSection>
 
         <AnimatedSection delay={0.35} className="mt-8">
           <a
-            href="http://tinyurl.com/lpnfallrush2025"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfGt5sE5HLSvd4UnAjVyEb8VhOGPkq2yPXy3XHRHIfG7QtsMA/closedform"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-burgundy hover:bg-[hsl(var(--burgundy-hover))] text-white font-medium transition-all duration-200 hover:-translate-y-0.5"
@@ -136,7 +136,7 @@ export default function RecruitmentPage() {
                 FAQs
               </Link>
               <a
-                href="http://tinyurl.com/lpnfallrush2025"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfGt5sE5HLSvd4UnAjVyEb8VhOGPkq2yPXy3XHRHIfG7QtsMA/closedform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-burgundy hover:bg-[hsl(var(--burgundy-hover))] text-white font-medium transition-all duration-200"
