@@ -44,7 +44,7 @@ export default function RecruitmentPage() {
               Application Deadline
             </p>
             <p className="font-serif text-2xl font-bold text-foreground">
-              October 6th, 2026 · 6:30 PM PST
+              October 7th, 2026 · 6:30 PM PST
             </p>
           </div>
         </AnimatedSection>
