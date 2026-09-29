@@ -1,0 +1,87 @@
+name: Greg (AI PR Review)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  greg-review:
+    name: Greg reviews this PR
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Claude PR review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          allowed_tools: "Bash,Read,Grep,Glob,mcp__playwright__*"
+          prompt: |
+            Your name is Greg. You are reviewing this pull request before it
+            merges to `master`. Sign your summary comment as Greg.
+            Follow this process, don't skip steps:
+
+            1. Read the diff for this PR (`git diff origin/${{ github.event.pull_request.base.ref }}...HEAD`).
+               Review it for correctness bugs, logic errors, and obvious
+               simplification/reuse opportunities. Do not nitpick style that
+               a linter would already catch.
+
+            2. Build the app: `npm run build`. If it fails, that is an
+               automatic blocking finding — report the build error and stop
+               the runtime checks below.
+
+            3. Start the app (`npm run dev` or `npm run start` after build,
+               backgrounded) and confirm it's actually up before checking
+               anything (poll `curl localhost:3000` until it responds).
+
+            4. Identify which routes/pages the diff plausibly touches
+               (matching changed files under `src/app`, `src/components`,
+               `public/`, or data files like `profiles.json` /
+               `brothers.ts` against the pages that render them). Visit
+               each with the Playwright MCP tools, take a screenshot, and
+               check the browser console for errors. If the diff doesn't
+               map to any visible page, say so explicitly instead of
+               guessing.
+
+            5. Post your findings as a PR review:
+               - Inline comments on specific lines for concrete code
+                 issues (use the GitHub review API via `gh pr review` or
+                 equivalent, not just a single dump comment).
+               - One summary comment covering: build result, which pages
+                 you ran and screenshotted, any console errors, and a
+                 clear verdict (approve / request changes) with reasoning.
+               - If you could not verify something (e.g. a page requires
+                 auth or external data you don't have), say that
+                 explicitly rather than silently skipping it.
+
+            Do not approve a PR whose build fails or whose changed pages
+            throw console errors when visited. Be concrete — cite file
+            and line, and describe exactly what you saw when you ran the
+            app, not just what the diff implies.
